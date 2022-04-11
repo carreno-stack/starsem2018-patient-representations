@@ -5,13 +5,16 @@ sys.dont_write_bytecode = True
 import xml.etree.ElementTree as et
 import os.path, glob
 
+# borrowing label2int from dataset.py to turn labels into integers
+LABEL2INT = {'Y': 0, 'N': 1, 'Q': 2, 'U': 3}
+
 def parse_standoff(pattern, disease, task):
   """Make patient to class mappings for multiple files"""
 
   doc2label = {} # key: doc id, value: label
 
   for xml_file in sorted(glob.glob(pattern)):
-    print 'loading annotations from', xml_file
+    print ('loading annotations from', xml_file)
     d2l = parse_standoff_file(xml_file, disease, task)
     doc2label.update(d2l)
 
@@ -40,7 +43,7 @@ def parse_standoff_vectorized(xml, task, exclude=set()):
   # map diseases to integers
   diseases = get_disease_names(xml, exclude)
   dis2int = dict([[d, i] for i, d in enumerate(diseases)])
-
+ 
   doc2labels = {} # key: doc id, value: vector of labels
   tree = et.parse(xml)
 
@@ -59,7 +62,8 @@ def parse_standoff_vectorized(xml, task, exclude=set()):
             doc2labels[id] = [0] * len(dis2int)
 
           disease_label = doc_elem.attrib['judgment']
-          doc2labels[id][disease_index] = to_int[disease_label]
+          # Updating because previous line used to_int which is not defined
+          doc2labels[id][disease_index] = LABEL2INT[disease_label]
 
   return doc2labels
 
@@ -91,7 +95,8 @@ def write_notes_to_files(notes_xml, output_dir):
 
 if __name__ == "__main__":
 
-  base = '/Users/Dima/Loyola/Data/'
+  #Updating to my own local directory
+  base = '/Users/main/Documents/DL4HC/Final project/starsem2018-patient-representations'
   notes = 'Comorbidity/Xml/obesity_patient_records_test.xml'
   xml = 'Comorbidity/Xml/obesity_standoff_annotations_test.xml'
   outdir = 'Comorbidity/Text/Test/'
@@ -99,4 +104,4 @@ if __name__ == "__main__":
   annot_xml = os.path.join(base, xml)
 
   doc2labels = parse_standoff_vectorized(annot_xml, 'intuitive')
-  print doc2labels
+  print(doc2labels)
