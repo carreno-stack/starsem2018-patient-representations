@@ -13,7 +13,7 @@ import glob, string, collections, operator
 # can be used to turn this into a binary task
 LABEL2INT = {'Y':0, 'N':1, 'Q':2, 'U':3}
 # file to log alphabet entries for debugging
-ALPHABET_FILE = 'Model/alphabet.txt'
+ALPHABET_FILE = os.path.dirname(sys.path[0])+"/Comorbidity/Model/alphabet.txt"
 
 class DatasetProvider:
   """Comorboditiy data loader"""
@@ -70,6 +70,7 @@ class DatasetProvider:
         index = index + 1
 
     # pickle alphabet
+    print("Alphabet pickle: " + self.alphabet_pickle)
     pickle_file = open(self.alphabet_pickle, 'wb')
     pickle.dump(self.token2int, pickle_file)
 
@@ -130,28 +131,26 @@ class DatasetProvider:
       self.annot_xml,
       self.judgement,
       exclude)
-    print("doc2labels: "+ str(doc2labels))
+    
     # load examples and labels
     for f in os.listdir(self.corpus_path):
       doc_id = f.split('.')[0]
       file_path = os.path.join(self.corpus_path, f)
       file_feat_list = utils.read_cuis(file_path)
-      #print(doc_id)
-      #print(file_path)
-      #print(file_feat_list)
+
 
       example = []
       # TODO: use unique tokens or not?
       for token in set(file_feat_list):
-        #print("self.token2int: "+str(self.token2int['oov_word']))
+
         if token in self.token2int:
           example.append(self.token2int[token])
         else:
           example.append(self.token2int['oov_word'])
-
+      
       if len(example) > maxlen:
         example = example[0:maxlen]
-
+      
       # no labels for some documents for some reason
       if doc_id in doc2labels:
         label_vector = doc2labels[doc_id]
@@ -200,17 +199,23 @@ class DatasetProvider:
 if __name__ == "__main__":
 
   cfg = configparser.ConfigParser()
-  
-  #cfg.read(sys.argv[1])
-  test_cfg = os.path.dirname(sys.path[0]) + '/Comorbidity/sparse.cfg'
-  cfg.read_file(open(test_cfg))
+  #test_cfg = os.path.dirname(sys.path[0]) + '/Comorbidity/sparse.cfg'
+  #cfg.read_file(open(test_cfg))
   
   #base = os.environ['DATA_ROOT']
   base = os.path.dirname(sys.path[0])
+  base_conf = sys.path[0]
+
+  #If no config file passed, use sparce.cfg by default
+  if len(sys.argv)>1:
+    cfg_file = str(os.path.join(base_conf, sys.argv[1]))
+  else:
+    cfg_file = os.path.dirname(sys.path[0]) + '/Comorbidity/sparse.cfg'
+  cfg.read(cfg_file)
     
   data_dir = os.path.join(base, cfg.get('data', 'train_data'))
   annot_xml = os.path.join(base, cfg.get('data', 'train_annot'))
-  judgement = os.path.join(base, cfg.get('data', 'judgement'))
+  judgement = cfg.get('data', 'judgement')
   test_annot = os.path.join(base, cfg.get('data', 'test_annot'))
   alphabet_pickle = os.path.join(base, cfg.get('data', 'alphabet_pickle'))
   exclude = set(['GERD', 'Venous Insufficiency', 'CHF'])
@@ -222,3 +227,4 @@ if __name__ == "__main__":
     x, y = dataset.load_vectorized(exclude)
     print (x)
     print (y)
+  print(cfg_file)
