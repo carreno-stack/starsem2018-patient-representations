@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 
-import sys
+import sys, os
 sys.dont_write_bytecode = True
-sys.path.append('../Lib/')
+#Replacing sys.path.append('../Lib/')
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]), 'Lib'))
+
 import utils, i2b2
 import numpy, pickle
-import ConfigParser, os, nltk, pandas
+import configparser, os, nltk, pandas
 import glob, string, collections, operator
 
 # can be used to turn this into a binary task
@@ -38,7 +40,7 @@ class DatasetProvider:
     # when training, make alphabet and pickle it
     # when testing, load it from pickle
     if use_pickled_alphabet:
-      print 'reading alphabet from', alphabet_pickle
+      print ('reading alphabet from', alphabet_pickle)
       pkl = open(alphabet_pickle, 'rb')
       self.token2int = pickle.load(pkl)
     else:
@@ -54,6 +56,8 @@ class DatasetProvider:
       file_path = os.path.join(self.corpus_path, f)
       file_feat_list = utils.read_cuis(file_path)
       token_counts.update(file_feat_list)
+      
+    #print("token counts: "+ str(token_counts))
 
     # now make alphabet (high freq tokens first)
     index = 1
@@ -91,6 +95,7 @@ class DatasetProvider:
       example = []
       # TODO: use unique tokens or not?
       for token in set(file_feat_list):
+        #print(self.token2int)
         if token in self.token2int:
           example.append(self.token2int[token])
         else:
@@ -108,9 +113,9 @@ class DatasetProvider:
       else:
         no_labels.append(doc_id)
 
-    print '%d documents with no labels for %s/%s in %s' \
+    print ('%d documents with no labels for %s/%s in %s' \
       % (len(no_labels), self.disease,
-         self.judgement, self.annot_xml.split('/')[-1])
+         self.judgement, self.annot_xml.split('/')[-1]))
     return examples, labels
 
   def load_vectorized(self, exclude, maxlen=float('inf')):
@@ -125,16 +130,20 @@ class DatasetProvider:
       self.annot_xml,
       self.judgement,
       exclude)
-
+    print("doc2labels: "+ str(doc2labels))
     # load examples and labels
     for f in os.listdir(self.corpus_path):
       doc_id = f.split('.')[0]
       file_path = os.path.join(self.corpus_path, f)
       file_feat_list = utils.read_cuis(file_path)
+      #print(doc_id)
+      #print(file_path)
+      #print(file_feat_list)
 
       example = []
       # TODO: use unique tokens or not?
       for token in set(file_feat_list):
+        #print("self.token2int: "+str(self.token2int['oov_word']))
         if token in self.token2int:
           example.append(self.token2int[token])
         else:
@@ -151,9 +160,9 @@ class DatasetProvider:
       else:
         no_labels.append(doc_id)
 
-    print '%d documents with no labels for %s/%s in %s' \
+    print ('%d documents with no labels for %s/%s in %s' \
       % (len(no_labels), self.disease,
-         self.judgement, self.annot_xml.split('/')[-1])
+         self.judgement, self.annot_xml.split('/')[-1]))
     return examples, labels
 
   def load_raw(self):
@@ -183,21 +192,33 @@ class DatasetProvider:
       else:
         no_labels.append(doc_id)
 
-    print '%d documents with no labels for %s/%s in %s' \
+    print ('%d documents with no labels for %s/%s in %s' \
       % (len(no_labels), self.disease,
-         self.judgement, self.annot_xml.split('/')[-1])
+         self.judgement, self.annot_xml.split('/')[-1]))
     return examples, labels
 
 if __name__ == "__main__":
 
-  cfg = ConfigParser.ConfigParser()
-  cfg.read(sys.argv[1])
-  base = os.environ['DATA_ROOT']
+  cfg = configparser.ConfigParser()
+  
+  #cfg.read(sys.argv[1])
+  test_cfg = os.path.dirname(sys.path[0]) + '/Comorbidity/sparse.cfg'
+  cfg.read_file(open(test_cfg))
+  
+  #base = os.environ['DATA_ROOT']
+  base = os.path.dirname(sys.path[0])
+    
   data_dir = os.path.join(base, cfg.get('data', 'train_data'))
   annot_xml = os.path.join(base, cfg.get('data', 'train_annot'))
-
-  dataset = DatasetProvider(data_dir, annot_xml)
+  judgement = os.path.join(base, cfg.get('data', 'judgement'))
+  test_annot = os.path.join(base, cfg.get('data', 'test_annot'))
+  alphabet_pickle = os.path.join(base, cfg.get('data', 'alphabet_pickle'))
   exclude = set(['GERD', 'Venous Insufficiency', 'CHF'])
-  x, y = dataset.load_vectorized(exclude)
-  print x
-  print y
+  
+  for disease in i2b2.get_disease_names(test_annot, exclude):
+    print("Disease: " + str(disease))
+    dataset = DatasetProvider(
+        data_dir, annot_xml, disease, judgement, alphabet_pickle=alphabet_pickle)
+    x, y = dataset.load_vectorized(exclude)
+    print (x)
+    print (y)
