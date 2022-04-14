@@ -1,0 +1,950 @@
+SENTENCE:  803046683 |   CMC    | 27118929 | | 5916114 | 2/28/2005 12:00:00 AM | hyperglycemia , urinary tract infection | |   DIS    | Admission Date:
+                          NN                                                NN        NN           JJ     NN      NN            NN         NN      NN  
+                       |======|                                                  |===========|   |===========| |=======|     |======|                  
+                       Disorder                                                    Disorder         Anatomy    Disorder      Finding                   
+                       C0340803                                                    C0020456        C1508753    C0009450      C1444662                  
+                                                                                                 |=====================|     |======|                  
+                                                                                                        Disorder             Disorder                  
+                                                                                                        C0042029             C0012634                  
+                                                                                                                             C1970187                  
+
+SENTENCE:  3/21/2005 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  4/23/2005
+                    
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  KROPFELDER , ART 282-65-79-3
+               NN       NN             
+
+SENTENCE:  Ge Topemodeport Room:
+           NN      NN       NN  
+
+SENTENCE:     Ver   
+              RB    
+           |=======|
+           Procedure
+           C0546834 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  6/5/05 AT 04:00 PM
+                  IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  ROBIDEAU ,  ROBIN   QUINCY ,  M . D .
+              NN         NN      NN     NNP NNP 
+                      |======|                  
+                        Drug                    
+                      C0304016                  
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  LISINOPRIL 5 MG PO QD
+               NN       NN FW FW
+           |========|           
+              Drug              
+            C0065374            
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 10/30/05 by
+              JJ     VBN  IN          . 
+
+SENTENCE:  PAGLIO , NOAH A.  ,  M . D .
+             NN     NNP  NNP   NNP NNP 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL Reason for override:
+               NN       NN   IN     NN    
+           |========|                     
+              Drug                        
+            C0065374                      
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  METFORMIN 1 , 000 MG PO BID
+              NN             NN NN RB 
+           |=======|                  
+             Drug                     
+           C0025598                   
+
+SENTENCE:  LEVOFLOXACIN 250 MG PO QD  X  1 doses
+                NN          NN FW FW SYM    NNS 
+           |==========|                         
+               Drug                             
+             C0282386                           
+
+SENTENCE:  Starting  Today   ( 1/19 ) Food/  Drug   Interaction Instruction
+              NN       NN             NNP    NNP        NN          NN     
+                    |======|               |======| |=========|            
+                      Drug                   Drug     Finding              
+                    C0310367               C0013227  C0687133              
+
+SENTENCE:  Administer   iron   products a  minimum of 2 hours before or
+               VB        NN      NNS    DT   NN    IN    NNS    IN   CC
+                      |======|                                         
+                        Drug                                           
+                      C0302583                                         
+
+SENTENCE:  after a  levofloxacin or ciprofloxacin dose dose
+            IN   DT      NN      CC      NN        NN   NN 
+                    |==========|    |===========|          
+                        Drug            Drug               
+                      C0282386        C0008809             
+
+SENTENCE:  If on tube feeds , please cycle ( hold 1 hr before to 2 hr 
+           IN IN  NN   NNS      NN    NN      NN    NN   IN   IN   NNS
+
+SENTENCE:  after ) Take 2 hours before or 2 hours after dairy products.
+            NN      VB     NNS    IN   CC    NNS   IN    JJ     NNS    
+
+SENTENCE:   LANTUS  ( INSULIN  GLARGINE ) 20 UNITS SC QD
+              NN         NN       NN          NNS  NN FW
+           |======|   |======| |======|                 
+             Drug       Drug     Drug                   
+           C0876064   C0021641 C0907402                 
+
+SENTENCE:  Starting  Today   ( 1/19 )
+              NN       NN            
+                    |======|         
+                      Drug           
+                    C0310367         
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House /   ADA    1800 cals/dy
+            NN        NN         NNS  NN
+                   |======|             
+                     Drug               
+                   C0001457             
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Resume regular exercise
+             VB     JJ       NN   
+                          |======|
+                          Finding 
+                          C0015259
+                  |==============|
+                      Finding     
+                      C0582191    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr.   Hal    Marlett , Tarise Hospital Endocrine and Diabetes Clinic , Notland Ave. ,   Dar    , Iowa 74499 2/13/05 , 1:00 PM scheduled ,
+           NNP   NNP      NNP       NN      JJ       NN     CC     NN      NN       NN    NNP      NNP      NNP                       NN    VBN     
+               |======|                           |=======|     |======|                         |======|                                           
+                 Drug                              Anatomy      Disorder                         Disorder                                           
+               C1327841                           C0014136      C0011849                         C0022595                                           
+
+SENTENCE:  Please call Kidane at CDGH Physician Referral for a   primary  care physician , 6- 878-464-9125 ,
+             UH    VB   NNP   IN NNP     NN        NN    IN  DT    JJ      NN     NN               CD       
+                                                                |=======|                                   
+                                                                Procedure                                   
+                                                                C0439631                                    
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  NKA
+           NN 
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  hyperglycemia
+                NN      
+           |===========|
+             Disorder   
+             C0020456   
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  hyperglycemia , urinary tract infection
+                NN           JJ     NN      NN    
+           |===========|   |===========| |=======|
+             Disorder         Anatomy    Disorder 
+             C0020456        C1508753    C0009450 
+                           |=====================|
+                                  Disorder        
+                                  C0042029        
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  urinary tract infection obesity  ( obesity  ) type 2 DM ( diabetes mellitus )
+             JJ     NN      NN        NN         NN       NN    NN      NN       NN     
+           |===========| |=======| |======|   |======|               |======|           
+              Anatomy    Disorder  Disorder   Disorder               Disorder           
+             C1508753    C0009450  C0028754   C0028754               C0011849           
+           |=====================|                                                      
+                  Disorder                                                              
+                  C0042029                                                              
+
+SENTENCE:  ?  OSA    ( ?  sleep    apnea   )
+               NN           NN       NN     
+            |======|     |======| |======|  
+            Disorder     Finding  Finding   
+            C0520679     C0037313 C0003578  
+                         |===============|  
+                             Disorder       
+                             C0037315       
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  CC:
+           NN 
+
+SENTENCE:  Hyperglycemia ( 400s ) , not in   DKA   
+                NN         NNS      RB  IN    NN   
+           |===========|                   |======|
+             Disorder                      Disorder
+             C0020456                      C0011880
+
+SENTENCE:    HPI   : 31 F  with a  h /o  Type 2 DM ( diagnosed 6 years ago ) , morbid
+              NN        NN  IN  DT NN IN  NN    NN      VBN       NNS  RB        NN  
+           |======|                                                                  
+           Disorder                                                                  
+           C0268529                                                                  
+
+SENTENCE:  obesity  , and borderline   HTN    who was referred to CH ED after being
+              NN      CC      JJ        NN    WP  VBD   VBN    IN NN NN  IN    VBG 
+           |======|                  |======|                                      
+           Disorder                  Disorder                                      
+           C0028754                  C0020538                                      
+
+SENTENCE:  found to be hyperglylcemic ( 440 mg /dl ) at Nishing O  Chela Center And She has not checked her   blood    sugar   or taken any medications
+            VBN  TO VB       JJ             NNS NN   IN   NN    NN  NN     NN   CC  PRP VBZ RB    VBN   PRP$    NN       NN    CC  VBN  DT      NNS    
+                                                                                                             |======| |======|              |=========|
+                                                                                                             Anatomy    Drug                   Drug    
+                                                                                                             C0005767 C0242209               C0013227  
+                                                                                                             |===============|                         
+                                                                                                                 Procedure                             
+                                                                                                                 C0392201                              
+
+SENTENCE:  for diabetes for an entire year , secondary to being very involved
+           IN     NN    IN  DT   JJ    NN       JJ     IN  VBG   RB     JJ   
+               |======|                                                      
+               Disorder                                                      
+               C0011849                                                      
+
+SENTENCE:  with the care of her  handicapped mother ( who passed away
+            IN  DT   NN  IN PRP$     VBN       NN     WP   VBN    RB 
+
+SENTENCE:  this year at 50 years old of complications from diabetes ).
+            DT   NN  IN     NNS  JJ  IN      NNS       IN     NN      
+                                        |===========|      |======|   
+                                           Finding         Disorder   
+                                          C0009566         C0011849   
+
+SENTENCE:  She has
+           PRP VBZ
+
+SENTENCE:  had symptoms of polydipsia and polyuria , tingling in her  fingers  and
+           VBD   NNS    IN     NN     CC     NN         NN    IN PRP$   NNS     . 
+                           |========|     |======|   |======|         |======|    
+                            Finding       Finding    Finding          Anatomy     
+                            C0085602      C0032617   C2242996         C0016129    
+
+SENTENCE:    toes   , and worsening  vision .
+             NNS      CC     NN        NN    
+           |======|                 |======| 
+           Anatomy                  Finding  
+           C0040357                 C0042789 
+
+SENTENCE:  Also has had several days of   UTI   
+            RB  VBZ VBN   JJ    NNS  IN    NN   
+                        |==========|    |======|
+                          Finding       Disorder
+                          C3845714      C0042029
+
+SENTENCE:  symptoms.
+             NNS    
+
+SENTENCE:  In MTCH ED , her   blood    sugar   remained in the 400s despite
+           IN NNP  NN   PRP$    NN       NN      VBD    IN DT  NNS     .   
+                             |======| |======|                             
+                             Anatomy    Drug                               
+                             C0005767 C0242209                             
+                             |===============|                             
+                                 Procedure                                 
+                                 C0392201                                  
+
+SENTENCE:  Regular insulin  18 units ,  Lantus  20 units , and Novolog  6 units.
+             JJ       NN        NNS       NN        NNS    CC    NNP       NNS  
+                   |======|            |======|                |======|         
+                     Drug                Drug                    Drug           
+                   C0021641            C0876064                C0939412         
+
+SENTENCE:  Admitted for treatment of hyperglycemia and optimizing her 
+              JJ    IN     NN     IN      NN       CC     VBG     PRP$
+                        |=======|    |===========|                    
+                        Procedure      Disorder                       
+                        C0087111       C0020456                       
+
+SENTENCE:  diabetes medication regimen.
+              NN        NN       NN    
+           |======| |========|         
+           Disorder    Drug            
+           C0011849  C0013227          
+
+SENTENCE:  --
+             
+
+SENTENCE:    PMH   :
+              NN    
+           |======| 
+           Finding  
+           C0262926 
+
+SENTENCE:  Type 2 DM - diagnosed 6 years ago.
+            NN    NN      VBN       NNS  RB  
+
+SENTENCE:  Was previously
+           VBD     RB    
+
+SENTENCE:  on insulin  and checking  sugars  TID.
+           IN    NN    CC    VBG      NNS    NN  
+              |======|              |======|     
+                Drug                  Drug       
+              C0021641              C0242209     
+
+SENTENCE:  No self-FSBG checks or diabetes
+           DT  NN   NN   NNS   CC    NN   
+                                  |======|
+                                  Disorder
+                                  C0011849
+
+SENTENCE:  medications for 1 year.
+               NNS     IN     NN  
+           |=========|            
+              Drug                
+            C0013227              
+
+SENTENCE:  Morbid obesity 
+             JJ      NN   
+                  |======|
+                  Disorder
+                  C0028754
+           |=============|
+              Disorder    
+              C0028756    
+
+SENTENCE:  Borderline   HTN   
+               JJ        NN   
+                      |======|
+                      Disorder
+                      C0020538
+
+SENTENCE:  HOME MEDS:
+            NN  NNS  
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  ALL:
+           NN  
+
+SENTENCE:  None --
+            NN    
+
+SENTENCE:  EXAM:
+            NN  
+
+SENTENCE:  T98.1 P84 BP130/57 R18 O2sat96%RA General:
+           NN    NN   CD      NN    NN    NN   NN    
+
+SENTENCE:  Pleasant , morbidly
+              JJ         RB   
+
+SENTENCE:   obese   woman in   NAD    HEENT:
+              JJ     NN   IN    NN     NN   
+           |======|          |======|       
+           Disorder            Drug         
+           C0028754          C0027270       
+
+SENTENCE:  EOMI ,  PERRL  .
+            NN       NN    
+                  |======| 
+                  Finding  
+                  C1642390 
+
+SENTENCE:   Fundus  exam limited.
+              JJ     NN    VBN   
+           |======|              
+           Anatomy               
+           C0740422              
+
+SENTENCE:  Dry
+           JJ 
+
+SENTENCE:  O /P .
+           NN NN 
+
+SENTENCE:    Neck  :
+              NN    
+           |======| 
+           Anatomy  
+           C0027530 
+
+SENTENCE:  Acanthosis nigricans , no LAN
+               NN        NNS      DT NN 
+           |========|                   
+            Finding                     
+            C0221270                    
+           |==================|         
+                 Disorder               
+                 C0000889               
+
+SENTENCE:  CV:
+           NN 
+
+SENTENCE:  RRR , II/VI HSM @ LLSB.
+           NN    CD NN NN     NN  
+
+SENTENCE:  No  m /r / g .
+           DT NNS VB NNS 
+
+SENTENCE:  Apical auscultation limited by
+             JJ        NN        VBN   IN
+                  |==========|           
+                   Procedure             
+                    C0004339             
+
+SENTENCE:  intervening  tissue .
+               VBG        NN    
+                       |======| 
+                       Anatomy  
+                       C0040300 
+
+SENTENCE:   Lungs  :
+             NNS    
+           |======| 
+           Anatomy  
+           C0024109 
+
+SENTENCE:    CTAB  
+              NN   
+           |======|
+             Drug  
+           C0951233
+
+SENTENCE:  Abdomen :
+              NN    
+           |======| 
+           Anatomy  
+           C0000726 
+
+SENTENCE:  S  ,  obese   , NT , ND , NABS
+           NN      JJ      NN   NN    NN 
+                |======|                 
+                Disorder                 
+                C0028754                 
+
+SENTENCE:  Extremities:
+               NNS     
+           |=========| 
+             Anatomy   
+            C0015385   
+
+SENTENCE:  No C /C /E .
+           DT NN NN NN 
+
+SENTENCE:  No  wounds  on
+           DT   NNS    . 
+              |======|   
+              Disorder   
+              C0043250   
+
+SENTENCE:    feet  .
+             NNS    
+           |======| 
+           Anatomy  
+           C0016504 
+
+SENTENCE:  Neuro:
+            NN   
+
+SENTENCE:  Decreased pinprick medial   feet   b /l  and
+              VBN       JJ      JJ      NN    NN JJ CC 
+                                     |======|          
+                                     Anatomy           
+                                     C0016504          
+
+SENTENCE:   hands   (   esp     ulnar   distribution ). --
+             NNS         NN       NN         NN           
+           |======|   |======| |======|                   
+           Anatomy    Finding  Anatomy                    
+           C0018563   C0015373 C0442044                   
+
+SENTENCE:  CHEM:
+            NN  
+
+SENTENCE:  138 / 4.0 / 104 / 29 / 14 / 0.9 < 331  Anion   gap 5 , pH
+                                                    NN    NN      NN
+                                                 |======|           
+                                                   Drug             
+                                                 C0003075           
+                                                 |==========|       
+                                                  Procedure         
+                                                   C0201889         
+
+SENTENCE:  7.41  Blood   glucose :
+                   NN       NN    
+                |======| |======| 
+                Anatomy    Drug   
+                C0005767 C0017725 
+                |===============| 
+                    Procedure     
+                    C0392201      
+
+SENTENCE:  473 , 427 , 331 ,
+                            
+
+SENTENCE:  421    CBC   :
+                  NN     
+               |=======| 
+               Procedure 
+               C0009555  
+
+SENTENCE:  12.2 > 38.8 < 428
+                            
+
+SENTENCE:     EKG   :
+              NN     
+           |=======| 
+           Procedure 
+           C1623258  
+
+SENTENCE:  NSR @96.
+           NN      
+
+SENTENCE:   Normal  intervals ,   axis  .
+              JJ       NNS         NN    
+           |======|             |======| 
+           Finding              Anatomy  
+           C0231683             C0004457 
+           C0558145                      
+
+SENTENCE:  Deep pathologic Q  waves in
+            JJ      JJ     NN  NNS  . 
+
+SENTENCE:  III , aVF that are present in    EKG    from 2000.
+           CD    NNP WDT  VBP   JJ    IN    NN      IN       
+                                         |=======|           
+                                         Procedure           
+                                         C1623258            
+
+SENTENCE:  No ST/T  waves changes
+           DT NN NN  NNS    NNS  
+                 |======|        
+                 Finding         
+                 C0429103        
+
+SENTENCE:  suggestive of ischemia
+               JJ     IN    NN   
+                         |======|
+                         Finding 
+                         C0022116
+
+SENTENCE:  ************HOSPITAL COURSE*************
+                          NN      NN               
+
+SENTENCE:  31 F  with a  h /o  Type 2 DM ( diagnosed 6 years ago ) , morbid obesity  , and
+              NN  IN  DT NN IN  NN    NN      VBN       NNS  RB        NN      NN      CC 
+                                                                            |======|      
+                                                                            Disorder      
+                                                                            C0028754      
+                                                                     |=============|      
+                                                                        Disorder          
+                                                                        C0028756          
+
+SENTENCE:  borderline   HTN    who presents with hyperglycemia in 400s with
+               JJ        NN    WP    VBZ     IN       NN       IN NNS   IN 
+                      |======|                   |===========|             
+                      Disorder                     Disorder                
+                      C0020538                     C0020456                
+
+SENTENCE:  hyperglycemia , ~1 year of poor diabetes management , symptoms of
+                NN             NN  IN  JJ     NN        NN         NNS    IN
+           |===========|                   |======| |========|              
+             Disorder                      Disorder  Finding                
+             C0020456                      C0011849  C1273870               
+
+SENTENCE:  microvascular  damage  , and    EKG    suggestive of old inferior MI , not in   DKA   .
+                JJ          NN      CC     NN         JJ     IN JJ     JJ    NN   RB  IN    NN    
+                         |======|       |=======|                                        |======| 
+                         Disorder       Procedure                                        Disorder 
+                         C0010957       C1623258                                         C0011880 
+
+SENTENCE:  Also has had several days of   UTI    symptoms.
+            RB  VBZ VBN   JJ    NNS  IN    NN      NNS    
+                        |==========|    |======|          
+                          Finding       Disorder          
+                          C3845714      C0042029          
+
+SENTENCE:    ENDO  :
+              NN    
+           |======| 
+           Disorder 
+           C0014175 
+
+SENTENCE:   Primary  goals of admission are  blood   glucose  <200 mg /dl , diabetes
+              JJ      NNS  IN    NN     VBP    NN       NN         NNS NN      NN   
+           |=======|                        |======| |======|               |======|
+           Procedure                        Anatomy    Drug                 Disorder
+           C0439631                         C0005767 C0017725               C0011849
+                                            |===============|                       
+                                                Procedure                           
+                                                C0392201                            
+
+SENTENCE:  education , diabetes home medication regimen / glucometer /   test    strips ,
+              NN          NN     NN      NN       NN          NN          NN      NNS    
+           |=======|   |======|      |========|                        |=======|         
+            Finding    Disorder         Drug                           Procedure         
+           C0424927    C0011849       C0013227                         C0022885          
+                                                                       |=======|         
+                                                                        Finding          
+                                                                       C0456984          
+
+SENTENCE:  and setting the patient up with a    PCP   .
+           CC    VBG   DT    NN    NN  IN  DT    NN    
+                                              |======| 
+                                                Drug   
+                                              C0031381 
+
+SENTENCE:  Check HgA1c.
+            VB    NN   
+
+SENTENCE:  Check FSBG QAC.
+            VB    NN  NN  
+
+SENTENCE:   Blood    sugar   was 308 at 6 pm last night , 340 at 7 am this morning.
+              NN       NN    VBD     IN   NN  JJ   NN         IN   NN  DT    NN    
+           |======| |======|                                                       
+           Anatomy    Drug                                                         
+           C0005767 C0242209                                                       
+           |===============|                                                       
+               Procedure                                                           
+               C0392201                                                            
+
+SENTENCE:  Increase  Lantus  to 25 mg  SC QD.
+              VB       NN    IN    NNS FW FW 
+                    |======|                 
+                      Drug                   
+                    C0876064                 
+
+SENTENCE:  Increase Metformin to 1000 mg  PO BID .
+              VB       NNP    IN      NNS FW FW   
+                    |=======|                     
+                      Drug                        
+                    C0025598                      
+
+SENTENCE:  Consult Diabetes teaching program  in AM.
+             NN       NN       NN       NN    IN NN 
+                   |======|          |======|       
+                   Disorder            Drug         
+                   C0011849          C2728259       
+
+SENTENCE:  Set up follow-up with   PCP    , +/-
+           VB  IN   NN   NN  IN     NN         
+                  |=======|      |======|      
+                   Finding         Drug        
+                  C0589120       C0031381      
+
+SENTENCE:  ophthalmology.
+                NN       
+
+SENTENCE:  ISCHEMIA:
+              NN    
+           |======| 
+           Finding  
+           C0022116 
+
+SENTENCE:  Admission    EKG    and    EKG    in 2000 with  Q -waves in III ,  F  suggesting
+              NN        NN     CC     NN     IN       IN  NNP  NNS  IN NNP   NNP    VBG    
+                     |=======|     |=======|                                               
+                     Procedure     Procedure                                               
+                     C1623258      C1623258                                                
+
+SENTENCE:  old inferior infarct .
+           JJ     JJ       NN    
+                        |======| 
+                        Finding  
+                        C0021308 
+
+SENTENCE:  No CP/  SOB   .
+           DT NN    NN    
+                 |======| 
+                 Finding  
+                 C0013404 
+
+SENTENCE:   Lipid   profile: Chol 160 , Tri 187 ,   HDL   
+             NNP      NN      NN        NNP          NN   
+           |======|                               |======|
+             Drug                                   Drug  
+           C0023779                               C0023821
+
+SENTENCE:  38 ,   LDL    94
+                   NN      
+                |======|   
+                  Drug     
+                C0023823   
+
+SENTENCE:    HTN   :
+              NN    
+           |======| 
+           Disorder 
+           C0020538 
+
+SENTENCE:  Lisinopril 5 mg  PO QD
+              NNP       NNS FW FW
+           |========|            
+              Drug               
+            C0065374             
+
+SENTENCE:  ID:
+           NN 
+
+SENTENCE:    UTI   .
+              NN    
+           |======| 
+           Disorder 
+           C0042029 
+
+SENTENCE:  Levofloxacin 250 mg  PO QD  x  2 doses ( already treated for 2
+               NNP          NNS FW FW SYM    NNS      RB      VBN   IN   
+           |==========|                                                  
+               Drug                                                      
+             C0282386                                                    
+
+SENTENCE:  days ). F /u  Urine cultureHEME:
+           NNS     VB RP  NN       NN      
+
+SENTENCE:  Microcytic  anemia  ,  likely    iron  
+               JJ        NN         JJ       NN   
+                      |======|   |======| |======|
+                      Disorder   Finding    Drug  
+                      C0002871   C0332148 C0302583
+           |=================|                    
+                Disorder                          
+                C0085576                          
+
+SENTENCE:  deficiency.
+               NN     
+
+SENTENCE:  Fe  43 , TIBC 300 , Ferr pending.
+           NNP       NN        NNP    JJ    
+
+SENTENCE:  F /E /N :
+           LS NN NN 
+
+SENTENCE:    KCl    PO replacement scale.
+              NN    NN     NN       NN   
+           |======|    |=========|       
+             Drug       Procedure        
+           C0032825     C0035139         
+
+SENTENCE:  MgSulfate sliding scale.GI:
+              NN       VBG    NN   NN 
+
+SENTENCE:   Colace 
+             NNP   
+           |======|
+             Drug  
+           C0282139
+
+SENTENCE:  prn , MOM prnDISPO:
+           FW    NN     NN    
+
+SENTENCE:  Goal  blood   glucose  is  <200 mg /dl.
+            NN     NN       NN    VBZ      NNS NN 
+                |======| |======|                 
+                Anatomy    Drug                   
+                C0005767 C0017725                 
+                |===============|                 
+                    Procedure                     
+                    C0392201                      
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  Follow up with Endocrinologist/Diabetes doctor at Thomin Emptroit General Hospital
+             VB   RP  IN        NN           NN      NN   IN  NNP     NNP      JJ       NN   
+                                          |======|                                           
+                                          Disorder                                           
+                                          C0011849                                           
+
+SENTENCE:    Test    fingerstick  blood   glucose  3 times daily ( including in the morning
+              NN         JJ         NN       NN       NNS   RB        VBG    IN DT    NN   
+           |=======|             |======| |======|                                         
+           Procedure             Anatomy    Drug                                           
+           C0022885              C0005767 C0017725                                         
+           |=======|             |===============|                                         
+            Finding                  Procedure                                             
+           C0456984                  C0392201                                              
+
+SENTENCE:  before  eating  ) , and keep a    log   /record of the values.
+             IN      NN        CC   VB  DT    NN      NN   IN DT   NNS   
+                  |======|                 |======|                      
+                  Finding                  Anatomy                       
+                  C0013470                 C0228228                      
+
+SENTENCE:  Take your insulin  and metformin as prescribed.
+            VB  PRP$    NN    CC     NN     IN    VBN     
+                     |======|     |=======|               
+                       Drug         Drug                  
+                     C0021641     C0025598                
+
+SENTENCE:  Decrease your intake of food with high saturated   fat    and cholesterol.
+              VB    PRP$   NN   IN  NN   IN   JJ     JJ        NN    CC      NN      
+                                                            |======|     |=========| 
+                                                              Drug          Drug     
+                                                            C0015677      C0008377   
+                                                  |================|                 
+                                                         Drug                        
+                                                       C0597423                      
+
+SENTENCE:  Take a  30-45 min walk at least 5 times per week.
+            VB  DT       NNS  VB  RB  RBS     NNS  IN   NN  
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  CHARLEBOIS , DWIGHT L. , M.D. ( RE23 ) 6/5/05 @ 02
+               NN         JJ   JJ   NNP     CD               
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

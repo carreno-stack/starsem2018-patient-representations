@@ -1,0 +1,355 @@
+SENTENCE:  355698797 | MMH | 46629679 | | 235207 | 1/6/1998 12:00:00 AM | MORBID OBESITY  ,  SLEEP    APNEA   , DIABETES | Signed |   DIS    | Admission Date:
+                       NN                                            NN     JJ      NN         NN       NN        NNS       VBN        NN         NN      NN  
+                                                                                 |======|   |======| |======|   |======|            |======|                  
+                                                                                 Disorder   Finding  Finding    Disorder            Finding                   
+                                                                                 C0028754   C0037313 C0003578   C0011849            C1444662                  
+                                                                          |=============|   |===============|                       |======|                  
+                                                                             Disorder           Disorder                            Disorder                  
+                                                                             C0028756           C0037315                            C0012634                  
+                                                                                                                                    C1970187                  
+
+SENTENCE:  4/17/1998 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  6/1/1998
+                   
+
+SENTENCE:  CHIEF COMPLAINT:
+            JJ      NN     
+                 |=======| 
+                  Finding  
+                 C0277786  
+
+SENTENCE:  Morbid obesity .
+             JJ      NN    
+                  |======| 
+                  Disorder 
+                  C0028754 
+           |=============| 
+              Disorder     
+              C0028756     
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  This is  a  37-year-old woman with  a  
+            DT  VBZ DT     NN  JJ   NN    IN  PRP$
+
+SENTENCE:  past medical history  of depression ,
+            JJ    JJ       NN    IN     NN      
+                        |======|    |========|  
+                        Finding      Disorder   
+                        C0262926     C0011581   
+           |===================|                
+                  Finding                       
+                 C0455458                       
+                        |====================|  
+                               Finding          
+                               C0455503         
+
+SENTENCE:  who is  morbidly  obese   with a  height of 5'3 and  weight   of 533 lb .
+           WP  VBZ    RB       JJ     IN  DT   NN   IN     CC     NN     IN     NNS 
+                            |======|                           |=======|            
+                            Disorder                           Procedure            
+                            C0028754                           C1305866             
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Non-insulin dependent diabetes mellitus ,
+               JJ         JJ        NN       NN     
+                                 |======|           
+                                 Disorder           
+                                 C0011849           
+           |============================|           
+                      Disorder                      
+                      C0011860                      
+
+SENTENCE:  depression ,  sleep    apnea   using C -   PAP    ,
+               NN          NN       NN     VBG  NN    NN      
+           |========|   |======| |======|          |=======|  
+            Disorder    Finding  Finding             Drug     
+            C0011581    C0037313 C0003578          C0030350   
+                        |===============|          |=======|  
+                            Disorder               Procedure  
+                            C0037315               C0523444   
+
+SENTENCE:  arthritis bilaterally , status post appendectomy , status post
+              NN         RB          NN    IN       NN          NN    IN 
+           |=======|                           |==========|              
+           Disorder                             Procedure                
+           C0003864                              C0003611                
+
+SENTENCE:  cholecystectomy.
+                 NN        
+           |=============| 
+              Procedure    
+              C0008320     
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  Lisinopril;
+              NNP     
+           |========| 
+              Drug    
+            C0065374  
+
+SENTENCE:   Ativan ;
+             NNP    
+           |======| 
+             Drug   
+           C0699194 
+
+SENTENCE:  Provera ;
+             NNP    
+           |======| 
+             Drug   
+           C0699702 
+
+SENTENCE:  cisapride;
+              NN     
+           |=======| 
+             Drug    
+           C0072916  
+
+SENTENCE:   Elavil ;
+             NNP    
+           |======| 
+             Drug   
+           C0087119 
+
+SENTENCE:   Prozac ;
+             NNP    
+           |======| 
+             Drug   
+           C0162373 
+
+SENTENCE:  trazodone;
+              NN     
+           |=======| 
+             Drug    
+           C0040805  
+
+SENTENCE:  quinine ;
+              NN    
+           |======| 
+             Drug   
+           C0034417 
+
+SENTENCE:  Percocet;
+             NNP    
+           |======| 
+             Drug   
+           C0086787 
+
+SENTENCE:  Prevacid;
+             NNP    
+           |======| 
+             Drug   
+           C0286036 
+
+SENTENCE:  Beconase AQ.
+             NNP    NN 
+           |======|    
+             Drug      
+           C0591154    
+           |=========| 
+              Drug     
+            C0718847   
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was taken to the Operating Room on
+           DT    NN    VBD  VBN  IN DT     NN      NN  . 
+
+SENTENCE:  9/27/98 and underwent an uncomplicated vertical
+                   CC     VBD    DT      JJ          JJ   
+
+SENTENCE:   banding  gastroplasty.
+              NN          NN      
+           |=======| |==========| 
+           Procedure  Procedure   
+           C0185014    C0017193   
+
+SENTENCE:  The patient tolerated the procedure well and
+           DT    NN       VBD    DT     NN      RB   . 
+                                     |=======|         
+                                     Procedure         
+                                     C0184661          
+
+SENTENCE:  because of her  large habitus and possible respiratory compromise
+             IN    IN PRP$  JJ     NN    CC     JJ        JJ          NN    
+
+SENTENCE:  from her  history  of  sleep    apnea   , she was taken to the ICU.
+            IN  PRP$    NN    IN    NN       NN      PRP VBD  VBN  IN DT  NN  
+                     |======|    |======| |======|                            
+                     Finding     Finding  Finding                             
+                     C0262926    C0037313 C0003578                            
+                                 |===============|                            
+                                     Disorder                                 
+                                     C0037315                                 
+
+SENTENCE:  She was
+           PRP VBD
+
+SENTENCE:  extubated readily and remained on her  C -   PAP      face   mask.
+              JJ       RB    CC    VBN    IN PRP$ NN    NN        NN     NN  
+                                                     |=======| |======|      
+                                                       Drug    Anatomy       
+                                                     C0030350  C0015450      
+                                                     |=======|               
+                                                     Procedure               
+                                                     C0523444                
+
+SENTENCE:  Over the next several days , the patient tolerated her  increasing
+            IN  DT   JJ    JJ    NNS    DT    NN       VBD    PRP$     NN    
+                         |==========|                                        
+                           Finding                                           
+                           C3845714                                          
+
+SENTENCE:  diet quite well without bloating ,  nausea  or vomiting.
+            NN   RB    RB    IN       NN         NN    CC    NN    
+                                   |======|   |======|    |======| 
+                                   Finding    Finding     Finding  
+                                   C1291077   C0027497    C0042963 
+
+SENTENCE:  She did
+           PRP VBD
+
+SENTENCE:  actually ambulate with assistance and was cleared by PT to go.
+              RB      VBP     IN      NN     CC  VBD   VBN   IN NN IN NN 
+
+SENTENCE:  Her 
+           PRP$
+
+SENTENCE:  incision  was clean , dry , and intact by the time of discharge.
+              NN     VBD  JJ     JJ    CC    JJ   IN DT   NN  IN    NN     
+           |=======|                                                       
+           Procedure                                                       
+           C0184898                                                        
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:   Colace   elixir  100 mg  p.o. b.i.d.;
+             NNP       NN        NNS  FW   FW    
+           |======| |======|                     
+             Drug     Drug                       
+           C0282139 C0678430                     
+
+SENTENCE:  MVI 5 ml 
+           NN    NNS
+
+SENTENCE:  p.o. q.d.;
+            FW  FW   
+
+SENTENCE:  Roxicet   elixir  10 ml  p .o .
+             NNP       NN       NNS RB NN 
+           |======| |======|              
+             Drug     Drug                
+           C0723148 C0678430              
+
+SENTENCE:  q .3-4h . p.r.n.   pain  .
+           FW   NNS    FW      NN    
+                            |======| 
+                            Finding  
+                            C0030193 
+
+SENTENCE:  Other preop medications should be resumed as
+            JJ    JJ       NNS       MD   VB   VBN   RB
+                       |=========|                     
+                          Drug                         
+                        C0013227                       
+
+SENTENCE:  she begins to take  solid   foods.
+           PRP  VBZ   TO  VB     JJ     NNS  
+                              |======|       
+                                Drug         
+                              C1378566       
+
+SENTENCE:  DISCHARGE FOLLOW-UP:
+              NNP      NN   NN 
+                     |=======| 
+                      Finding  
+                     C0589120  
+
+SENTENCE:  The patient will follow-up with Dr. Yaftali .
+           DT    NN     MD    VB   RP  IN  NNP   NNP    
+
+SENTENCE:  DISCHARGE DISPOSITION:
+              NNP        NN      
+
+SENTENCE:  The patient was discharged to home with
+           DT    NN    VBD    VBN     IN  NN   IN 
+
+SENTENCE:  services.
+             NNS    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CONDITION ON DISCHARGE:
+              NN     IN    NNP    
+           |=======|              
+           Disorder               
+           C0012634               
+
+SENTENCE:  Stable condition.
+             JJ      NN     
+                  |=======| 
+                  Disorder  
+                  C0012634  
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  TITUS A.  RABECK ,  M . D .
+            NN   NNP  NNP     NNP NNP 
+
+SENTENCE:  MP25
+            NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  CECIL GROVER ,  M . D .
+            NN     JJ     NNP NNP 
+
+SENTENCE:  NS30  ZI775/8860
+            DT    CD       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  99998 Index No. CUGFW78TGR D : 10/20/98
+                  NNP  NN      NN     NN          
+
+SENTENCE:  T : 2/13/98
+           NN         
+

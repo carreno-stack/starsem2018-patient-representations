@@ -1,0 +1,1649 @@
+SENTENCE:  262062667 | CBMC | 85642623 | | 163808 | 11/23/2000 12:00:00 AM | ABDOMINAL   PAIN   | Signed |   DIS    | Admission Date:
+                        NN                                              NN      JJ        NN       VBN        NN         NN      NN  
+                                                                             |=======| |======|            |======|                  
+                                                                              Anatomy  Finding             Finding                   
+                                                                             C0000726  C0030193            C1444662                  
+                                                                             |================|            |======|                  
+                                                                                  Finding                  Disorder                  
+                                                                                  C0000737                 C0012634                  
+                                                                                                           C1970187                  
+
+SENTENCE:  8/6/2000 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  6/9/2000
+                   
+
+SENTENCE:  SERVICE :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  Coll Lum All
+            JJ  NN  RB 
+
+SENTENCE:  PRINCIPAL DIAGNOSIS:
+              JJ        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  Pyelonephritis.
+                 NN       
+           |============| 
+              Disorder    
+              C0034186    
+
+SENTENCE:  SECONDARY DIAGNOSES:
+              JJ        NNS    
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  Urinary tract infection.
+             JJ     NN      NN     
+           |===========| |=======| 
+              Anatomy    Disorder  
+             C1508753    C0009450  
+           |=====================| 
+                  Disorder         
+                  C0042029         
+
+SENTENCE:  Bilateral adnexal
+              JJ       JJ   
+
+SENTENCE:  masses.
+            NNS   
+
+SENTENCE:  Diabetes mellitus.
+              NN       NN    
+           |======|          
+           Disorder          
+           C0011849          
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  Cristopher Ottilige is  a  53 year old woman
+               JJ        NN    VBZ DT     NN  JJ   NN  
+
+SENTENCE:  with a  history  of diabetes mellitus
+            IN  DT    NN    IN    NN       NN   
+                   |======|    |======|         
+                   Finding     Disorder         
+                   C0262926    C0011849         
+                   |===========================|
+                              Finding           
+                             C0455488           
+
+SENTENCE:  who presents with abdominal   pain   and  fevers  over two weeks
+           WP    VBZ     IN     JJ        NN    CC    NNS     IN  CD   NNS 
+                             |=======| |======|     |======|               
+                              Anatomy  Finding      Finding                
+                             C0000726  C0030193     C0015967               
+                             |================|                            
+                                  Finding                                  
+                                  C0000737                                 
+
+SENTENCE:  duration.
+              NN    
+           |======| 
+             Drug   
+           C2926735 
+
+SENTENCE:  Two weeks prior to admission , the patient had headaches ,
+           CD   NNS   JJ   IN    NN       DT    NN    VBD    NNS     
+                                                          |=======|  
+                                                           Finding   
+                                                          C0018681   
+
+SENTENCE:   nausea  , vomiting , presyncope , anorexia with   mild   periumbilical
+              NN         NN          NN          NN     IN     JJ         JJ      
+           |======|   |======|   |========|   |======|      |======|              
+           Finding    Finding     Finding     Disorder      Finding               
+           C0027497   C0042963    C0700200    C0003123      C1513302              
+
+SENTENCE:    pain  .
+              NN    
+           |======| 
+           Finding  
+           C0030193 
+
+SENTENCE:  She also had  fevers  to 101 degrees F.  with associated  chills 
+           PRP  RB  VBD   NNS    IN       NNS   NNP  IN      JJ       NNS   
+                        |======|                                    |======|
+                        Finding                                     Finding 
+                        C0015967                                    C0085593
+
+SENTENCE:  and diaphoresis.
+           CC      NN      
+               |=========| 
+                 Finding   
+                C0700590   
+
+SENTENCE:  The patient presented to her   primary  care
+           DT    NN       VBD    IN PRP$    JJ      NN 
+                                         |=======|     
+                                         Procedure     
+                                         C0439631      
+
+SENTENCE:  physician three days before admission and was found to have
+              NN      CD   NNS    IN      NN     CC  VBD  VBN  IN  NN 
+
+SENTENCE:  elevated  liver   function   tests   with   AST    of 39 ,   ALT    of 108.
+              JJ       NN       NN       NNS     IN     NN    IN         NN    IN     
+                    |======|          |=======|      |======|         |======|        
+                    Anatomy           Procedure        Drug             Drug          
+                    C0023884          C0022885       C0004002         C0001899        
+                    |===============|                                                 
+                         Finding                                                      
+                        C0232741                                                      
+                    |=========================|                                       
+                             Procedure                                                
+                             C0023901                                                 
+           |========================|                                                 
+                    Finding                                                           
+                    C0232743                                                          
+
+SENTENCE:  At that
+           IN WDT 
+
+SENTENCE:  time , the patient was presumed to have a  viral syndrome.
+            NN    DT    NN    VBD   VBN    TO  VB  DT  JJ      NN    
+                                                            |======| 
+                                                            Disorder 
+                                                            C0039082 
+                                                      |============| 
+                                                         Disorder    
+                                                         C0042740    
+
+SENTENCE:  Two days
+           CD  NNS 
+
+SENTENCE:  prior to admission , the patient developed worsening abdominal   pain  .
+            JJ   IN    NN       DT    NN       VBD       VBG       JJ        NN    
+                                                                |=======| |======| 
+                                                                 Anatomy  Finding  
+                                                                C0000726  C0030193 
+                                                                |================| 
+                                                                     Finding       
+                                                                     C0000737      
+
+SENTENCE:  The   pain   was described as  sharp   , constant in character with
+           DT     NN    VBD    VBN    IN    JJ         JJ    IN    NN      .  
+               |======|                  |======|                             
+               Finding                   Finding                              
+               C0030193                  C1444775                             
+
+SENTENCE:  radiation to the back.
+              NN     IN DT   NN  
+           |=======|             
+           Procedure             
+           C1522449              
+
+SENTENCE:  The   pain   was more intense in the right
+           DT     NN    VBD RBR    JJ    IN DT   JJ  
+               |======|                              
+               Finding                               
+               C0030193                              
+
+SENTENCE:  lower quadrant.
+            JJ      NN    
+
+SENTENCE:  The   pain   was also noted to be in the lower  flanks 
+           DT     NN    VBD  RB   VBN  TO VB IN DT   JJ     NNS   
+               |======|                                   |======|
+               Finding                                    Anatomy 
+               C0030193                                   C0230171
+
+SENTENCE:  and the costovertebral angle area.
+           CC  DT        JJ        JJ    NN  
+
+SENTENCE:  The patient has noted no change
+           DT    NN    VBZ  VBN  DT   NN  
+                                 |=======|
+                                  Finding 
+                                 C0442739 
+
+SENTENCE:  in her  usual  bowel   habits of one stool per week.
+           IN PRP$  JJ      NN     NNS   IN CD   NN   IN   NN  
+                         |======|                              
+                         Anatomy                               
+                         C0021853                              
+                         |=============|                       
+                             Finding                           
+                            C0011135                           
+
+SENTENCE:  She has had no
+           PRP VBZ VBN UH
+
+SENTENCE:  diarrhea , constipation ,  melena  , or hematochezia.
+              NN           NN           NN      CC      NN      
+           |======|   |==========|   |======|      |==========| 
+           Finding      Finding      Finding         Finding    
+           C0011991     C0009806     C0025222        C0018932   
+
+SENTENCE:  She has had no
+           PRP VBZ VBN UH
+
+SENTENCE:  hematemesis.
+               NN      
+           |=========| 
+             Finding   
+            C0018926   
+
+SENTENCE:  She denies any urinary symptoms but only has
+           PRP  VBZ   DT    JJ      NNS    CC   RB  VBZ
+                          |==============|             
+                              Finding                  
+                              C0426359                 
+
+SENTENCE:  nocturia.
+              NN    
+           |======| 
+           Disorder 
+           C0028734 
+
+SENTENCE:  Of note , the patient had menopause approximately eight
+           IN  NN    DT    NN    VBD    NN          RB        CD  
+                                     |=======|                    
+                                      Finding                     
+                                     C0567312                     
+
+SENTENCE:  years ago , but in each of the last three months she has noticed
+            NNS  RB    CC  IN  DT  IN DT   JJ   CD    NNS   PRP VBZ   VBN  
+
+SENTENCE:  monthly vaginal  bleeding which she believes are a  resumption of
+             JJ       JJ       NN     WDT  PRP   VBZ    IN  DT     NN     IN
+                   |======| |======|                                        
+                   Anatomy  Finding                                         
+                   C0042232 C0019080                                        
+                   |===============|                                        
+                       Disorder                                             
+                       C2979982                                             
+
+SENTENCE:  menstrual cycles.
+              JJ      NNS   
+           |=======|        
+            Finding         
+           C0025344         
+           |==============| 
+               Finding      
+               C0025329     
+
+SENTENCE:  The last episode was about one month ago.
+           DT   JJ    NN    VBD  IN   CD   NN   RB  
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient also has a  history  of nephrolithiasis but feels that this
+             NN     RB  VBZ DT    NN    IN       NN        CC   VBZ   IN  PRP$
+                               |======|    |=============|                    
+                               Finding        Disorder                        
+                               C0262926       C0022650                        
+                               |=========================|                    
+                                         Finding                              
+                                        C1998388                              
+
+SENTENCE:  current   pain   is  different from the one she has had in the past.
+             JJ       NN    VBZ    JJ      IN  DT  CD  PRP VBZ VBN IN DT   NN  
+                   |======|                                                    
+                   Finding                                                     
+                   C0030193                                                    
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Significant for hypertension , diabetes
+               JJ      IN       NN           NN   
+                           |==========|   |======|
+                             Disorder     Disorder
+                             C0020538     C0011849
+
+SENTENCE:  mellitus diagnosed two years ago , obesity  ,
+              NN       VBN    CD   NNS  RB       NN     
+                                              |======|  
+                                              Disorder  
+                                              C0028754  
+
+SENTENCE:  obstructive  sleep    apnea   , nephrolithiasis , osteoarthritis , glaucoma.
+               JJ         NN       NN            NN                NN            NN    
+                       |======| |======|   |=============|   |============|   |======| 
+                       Finding  Finding       Disorder          Disorder      Disorder 
+                       C0037313 C0003578      C0022650          C0029408      C0017601 
+                       |===============|                                               
+                           Disorder                                                    
+                           C0037315                                                    
+           |===========================|                                               
+                     Disorder                                                          
+                     C0520679                                                          
+
+SENTENCE:  PAST SURGICAL HISTORY :
+            JJ     JJ       NN    
+                         |======| 
+                         Finding  
+                         C0262926 
+
+SENTENCE:  Notable for cesarean section 20 years ago
+             JJ    IN     JJ      NN        NNS  RB 
+                       |==============|             
+                          Procedure                 
+                           C0007876                 
+
+SENTENCE:  that was complicated by pulmonary embolism.
+           WDT  VBD     VBN     IN    JJ        NN    
+                                   |=======| |======| 
+                                    Anatomy  Finding  
+                                   C0024109  C0013922 
+                                   |================| 
+                                        Disorder      
+                                        C0034065      
+
+SENTENCE:  MEDICATIONS ON ADMISSION: 1.  Lasix   60 mg  q  day.
+               NNS     IN    NN           NNP       NNS FW NN  
+           |=========|                  |======|               
+              Drug                        Drug                 
+            C0013227                    C0699992               
+
+SENTENCE:  2. Glyburide 5 mg 
+                 NNP      NNS
+              |=======|      
+                Drug         
+              C0017628       
+
+SENTENCE:  q  day.
+           FW NN  
+
+SENTENCE:  3. Labetalol 200 mg  b . i . d .
+                 NNP        NNS NN NNS VBN 
+              |=======|                    
+                Drug                       
+              C0022860                     
+
+SENTENCE:  4. Timoptic , Xylatan  drops   for glaucoma.
+                NNP        NNP     NNS    IN     NN    
+              |======|           |======|     |======| 
+                Drug               Drug       Disorder 
+              C0040235           C0991568     C0017601 
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  Lidocaine leads to   rash  .
+              NNP     VBZ  IN    NN    
+           |=======|          |======| 
+             Drug             Finding  
+           C0023660           C0015230 
+
+SENTENCE:  Lisinopril leads to  cough  .
+              NNP      VBZ  IN    NN    
+           |========|          |======| 
+              Drug             Finding  
+            C0065374           C0010200 
+
+SENTENCE:  Diltiazem leads to  edema  .
+              NNP     VBZ  IN    NN    
+           |=======|          |======| 
+             Drug             Finding  
+           C0012373           C0013604 
+
+SENTENCE:  Nifedipine leads to  edema  .
+              NNP      VBZ  IN    NN    
+           |========|          |======| 
+              Drug             Finding  
+            C0028066           C0013604 
+
+SENTENCE:  Intravenous contrast leads to  hives  .
+               JJ         NN     VBZ  IN   NNS    
+                       |======|          |======| 
+                         Drug            Disorder 
+                       C0009924          C0042109 
+
+SENTENCE:  FAMILY HISTORY :
+             NN      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0241889     
+
+SENTENCE:  Significant for cardiovascular disease .
+               JJ      IN        JJ          NN    
+                           |============| |======| 
+                              Anatomy     Disorder 
+                              C0007226    C0012634 
+                           |=====================| 
+                                  Disorder         
+                                  C0007222         
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  The patient is  married  and has two children.
+           DT    NN    VBZ    JJ    CC  VBZ CD    NNS    
+                           |======|                      
+                           Finding                       
+                           C0555047                      
+
+SENTENCE:  She
+           PRP
+
+SENTENCE:  denies any use of alcohol  or tobacco .
+            VBZ   DT  NN  IN    NN    CC    NN    
+                             |======|    |======| 
+                               Drug        Drug   
+                             C0001962    C0040329 
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  Temperature 102 ,  heart   rate 90 , respiratory
+               NN               NN     NN           JJ     
+                             |======|                      
+                             Anatomy                       
+                             C0018787                      
+
+SENTENCE:  rate 34 ,  blood   pressure 143/48.
+            NN          NN       NN           
+                     |======| |======|        
+                     Anatomy  Finding         
+                     C0005767 C0460139        
+                     |===============|        
+                          Finding             
+                         C0005823             
+
+SENTENCE:   Oxygen 
+              NN   
+           |======|
+             Drug  
+           C0030054
+
+SENTENCE:  saturation 91% on 2 liters  nasal   cannula.
+               NN         IN    NNS      JJ      NN    
+                                      |======|         
+                                      Anatomy          
+                                      C0028429         
+
+SENTENCE:  HEENT:
+            NN   
+
+SENTENCE:   Pupils  equal ,
+             NNS     JJ    
+           |======|        
+           Anatomy         
+           C0034121        
+           |============|  
+              Finding      
+              C0578617     
+
+SENTENCE:  round , reactive to light and accommodation.
+            NN        JJ    IN  JJ   CC       NN       
+
+SENTENCE:  Extraocular muscles 
+               JJ        NNS   
+                       |======|
+                       Anatomy 
+                       C0026845
+           |==================|
+                 Anatomy       
+                 C0028863      
+
+SENTENCE:  intact.
+             JJ   
+
+SENTENCE:  Anicteric sclerae.
+              JJ       NNS   
+           |=======|         
+            Finding          
+           C0205180          
+
+SENTENCE:  Oropharynx clear.
+               NN      JJ   
+           |========|       
+            Anatomy         
+            C0521367        
+
+SENTENCE:  No jugular  venous 
+           DT   JJ       JJ   
+                      |======|
+                      Anatomy 
+                      C0042449
+
+SENTENCE:  distension.
+               NN     
+           |========| 
+            Finding   
+            C0012359  
+
+SENTENCE:   CHEST  :
+              NN    
+           |======| 
+           Anatomy  
+           C0817096 
+
+SENTENCE:  Clear to auscultation bilaterally.
+            JJ   IN      NN          RB      
+                    |==========|             
+                     Procedure               
+                      C0004339               
+
+SENTENCE:   HEART  :
+              NN    
+           |======| 
+           Anatomy  
+           C0018787 
+
+SENTENCE:  Regular rate and rhythm.
+             JJ     NN  CC    NN   
+
+SENTENCE:   Normal  S1 , S2 , no murmurs .
+              JJ    NN   NN   DT   NNS    
+           |======|              |======| 
+           Finding               Finding  
+           C0231683              C0018808 
+           C0558145                       
+
+SENTENCE:  ABDOMEN :
+              NN    
+           |======| 
+           Anatomy  
+           C0000726 
+
+SENTENCE:   Obese   and fairly firm.
+              JJ    CC    RB    JJ  
+           |======|                 
+           Disorder                 
+           C0028754                 
+
+SENTENCE:  Diffusely tender to palpation.
+              RB       JJ   IN    NN     
+                               |=======| 
+                               Procedure 
+                               C0030247  
+
+SENTENCE:  Increased
+              VBN   
+
+SENTENCE:  right lower quadrant   pain  .
+            JJ    JJ      NN       NN    
+                                |======| 
+                                Finding  
+                                C0030193 
+           |===========================| 
+                      Finding            
+                     C0694551            
+
+SENTENCE:  Rebound tenderness and   mild   guarding.
+             NN        NN     CC     JJ       NN    
+                   |========|     |======| |======| 
+                    Finding       Finding  Finding  
+                    C0234233      C1513302 C0427198 
+           |================|                       
+                Finding                             
+                C0234246                            
+
+SENTENCE:   Bowel   sounds are present but decreased.
+              NN     NNS   VBP   JJ    CC     JJ     
+           |======|                                  
+           Anatomy                                   
+           C0021853                                  
+           |=============|                           
+               Finding                               
+              C0232693                               
+
+SENTENCE:  BACK:
+            NN  
+
+SENTENCE:  No costovertebral
+           DT       JJ      
+
+SENTENCE:  angle tenderness.
+            JJ       NN     
+                 |========| 
+                  Finding   
+                  C0234233  
+
+SENTENCE:   CERVIX :
+              NN    
+           |======| 
+           Anatomy  
+           C0007874 
+
+SENTENCE:  Cervical motion tenderness is  present.
+              JJ      NN       NN     VBZ   JJ    
+           |======|        |========|             
+           Anatomy          Finding               
+           C0027530         C0234233              
+
+SENTENCE:  NEUROLOGIC:
+               NN     
+
+SENTENCE:  The patient is   alert   and oriented x3.
+           DT    NN    VBZ    JJ    CC     JJ    NN 
+                           |======|     |======|    
+                           Finding      Finding     
+                           C0239110     C1961028    
+
+SENTENCE:  LABORATORY:
+               NN     
+           |========| 
+           Procedure  
+            C0022885  
+
+SENTENCE:  Chemistries revealed  sodium  132 , potassium 4.2 ,
+               NNS       VBD       NN             NN          
+                                |======|       |=======|      
+                                  Drug           Drug         
+                                C0037473       C0032821       
+
+SENTENCE:  chloride 94 ,   CO2    32 ,    BUN    13 , creatinine 1. Glucose 
+              NN            NN            NN              NN           NN   
+           |======|      |======|      |=======|      |========|    |======|
+             Drug          Drug          Drug            Drug         Drug  
+           C0596019      C0007012      C0600137        C0010294     C0017725
+                                       |=======|                            
+                                       Procedure                            
+                                       C0005845                             
+
+SENTENCE:  315 , calcium  9.9.
+                    NN        
+                 |======|     
+                   Drug       
+                 C0006675     
+
+SENTENCE:   Liver   function   tests   showed   ALT    58 ,   AST    23 , ALK
+              NN       NN       NNS     VBD     NNP            NN         NN 
+           |======|          |=======|        |======|      |======|         
+           Anatomy           Procedure          Drug          Drug           
+           C0023884          C0022885         C0001899      C0004002         
+           |===============|                                                 
+                Finding                                                      
+               C0232741                                                      
+           |=========================|                                       
+                    Procedure                                                
+                    C0023901                                                 
+
+SENTENCE:  127 , total bilirubin 1.2 , albumin  4.6 , globulin 3.1 , amylase  28 ,
+                  JJ      NN              NN             NN             NN        
+                       |=======|       |======|       |======|       |======|     
+                         Drug            Drug           Drug           Drug       
+                       C0005437        C0001924       C0017649       C0002712     
+
+SENTENCE:   lipase  145 , total protein  7.7.
+              NN           JJ      NN        
+           |======|             |======|     
+             Drug                 Drug       
+           C0023764             C0033684     
+
+SENTENCE:  The complete  blood     cell   count
+           DT     JJ       NN       NN     NN  
+                        |======| |======|      
+                        Anatomy  Anatomy       
+                        C0005767 C0007634      
+                        |===============|      
+                             Anatomy           
+                            C0005773           
+                                 |============|
+                                   Procedure   
+                                    C0007584   
+                        |=====================|
+                               Procedure       
+                               C0005771        
+
+SENTENCE:  revealed a  white  blood     cell   count of 23.91 , hemoglobin 14.1 ,
+             VBD    DT  JJ      NN       NN     NN   IN             NN           
+                             |======| |======|                  |========|       
+                             Anatomy  Anatomy                      Drug          
+                             C0005767 C0007634                   C0019046        
+                             |===============|                                   
+                                  Anatomy                                        
+                                 C0005773                                        
+                                      |============|                             
+                                        Procedure                                
+                                         C0007584                                
+                             |=====================|                             
+                                    Procedure                                    
+                                    C0005771                                     
+                       |=====================|                                   
+                               Anatomy                                           
+                              C0023516                                           
+                       |===========================|                             
+                                 Procedure                                       
+                                 C0023508                                        
+
+SENTENCE:  hematocrit 41.8 , platelets 520.
+               NN               NNS        
+           |========|        |=======|     
+           Procedure          Anatomy      
+            C0018935         C0005821      
+
+SENTENCE:  The differential showed 77  polys   ,
+           DT       JJ       VBD        NNS     
+                                      |======|  
+                                      Anatomy   
+                                      C0027950  
+
+SENTENCE:  7 bands , 6 lymphocytes , and 6 monocytes.
+              NNS          NNS       CC       NNS    
+                       |=========|         |=======| 
+                         Anatomy            Anatomy  
+                        C0024264           C0026473  
+
+SENTENCE:  The urinalysis was
+           DT      NN     VBD
+               |========|    
+               Procedure     
+                C0042014     
+
+SENTENCE:  notable for pH 5.5 , protein  1+ , glucose  1+ , leukocytes 1+ ,  nitrite 
+             JJ    IN  NN          NN            NN             NN             NN    
+                                |======|      |======|      |========|      |=======|
+                                  Drug          Drug         Anatomy        Procedure
+                                C0033684      C0017725       C0023516       C0523792 
+                                                                            |=======|
+                                                                              Drug   
+                                                                            C3848529 
+
+SENTENCE:  positive , trace ketones  , and no  blood  .
+              JJ       NN     NNS      CC  DT    NN    
+                            |======|          |======| 
+                              Drug            Anatomy  
+                            C0022634          C0005767 
+
+SENTENCE:  Sediments showed white
+              NNS     VBD    JJ  
+
+SENTENCE:   blood    cells   45 - 50 , 4+ bacteria  , 1+ squamous epithelial  cells   , 1 -
+              NN      NNS                    NN             JJ        JJ       NNS         
+           |======| |======|              |=======|                          |======|      
+           Anatomy  Anatomy               Procedure                          Anatomy       
+           C0005767 C0007634              C0004618                           C0007634      
+           |===============|                                      |=================|      
+                Anatomy                                                 Anatomy            
+               C0005773                                                C0014597            
+                                                         |==========================|      
+                                                                   Anatomy                 
+                                                                   C0221910                
+
+SENTENCE:  2 casts.
+              NNS  
+
+SENTENCE:  Abdominal CT was notable for a  7  x  8 cm  low density fluid
+              JJ     NN VBD   JJ    IN  DT   SYM   NNS JJ    NN     NN  
+           |=======|                                                    
+            Anatomy                                                     
+           C0000726                                                     
+
+SENTENCE:  collection in the region of the right  adnexa  and a  4  x  8 cm  low
+               NN     IN DT    NN   IN DT   JJ      NN    CC  DT   SYM   NNS JJ 
+                                                 |======|                       
+                                                 Anatomy                        
+                                                 C0001575                       
+
+SENTENCE:  density fluid collection in the left  adnexa .
+             NN     NN       NN     IN DT   JJ     NN    
+                                                |======| 
+                                                Anatomy  
+                                                C0001575 
+
+SENTENCE:  A  UCG was negative.
+           DT NN  VBD    JJ    
+
+SENTENCE:  PROCEDURES:
+              NNS     
+           |========| 
+           Procedure  
+            C0184661  
+
+SENTENCE:  September , 2000 , endometrial  biopsy  .
+              NNP                 JJ         NN     
+                                          |=======| 
+                                          Procedure 
+                                          C0005558  
+                              |===================| 
+                                    Procedure       
+                                    C1510477        
+
+SENTENCE:  The procedure
+           DT     NN    
+               |=======|
+               Procedure
+               C0184661 
+
+SENTENCE:  was limited due to the patient's body habitus.
+           VBD   VBN   IN  IN DT    NN       NN    NN    
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:   biopsy   revealed no evidence of malignancy.
+              NN       VBD    DT    NN    IN     NN     
+           |=======|                         |========| 
+           Procedure                          Disorder  
+           C0005558                           C0006826  
+                              |=======================| 
+                                       Finding          
+                                      C0391857          
+
+SENTENCE:  Complications none.
+                NNS       NN  
+           |===========|      
+              Finding         
+             C0009566         
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  By systems:
+           IN   NNS   
+
+SENTENCE:  1. GENITOURINARY.
+                   NN       
+              |===========| 
+                 Anatomy    
+                C0042066    
+
+SENTENCE:  The patient's presenting
+           DT    NN          NN    
+
+SENTENCE:  symptoms and abdominal CT findings of bilateral adnexal masses were
+             NNS    CC     JJ     NN   NNS    IN    JJ       JJ     NNS   VBD 
+                        |=======|                                             
+                         Anatomy                                              
+                        C0000726                                              
+
+SENTENCE:  suspicious for a  tubo-ovarian abscess .
+               JJ     IN  DT  NN    JJ       NN    
+                                          |======| 
+                                          Disorder 
+                                          C0000833 
+                                  |==============| 
+                                      Disorder     
+                                      C0269035     
+                             |===================| 
+                                   Disorder        
+                                   C0041343        
+
+SENTENCE:  However , the patient did
+             RB      DT    NN    VBD
+
+SENTENCE:  not have any of the associated risk factors , given that the patient
+           RB   VB  DT  IN DT      JJ      NN    NNS      VBN   IN  DT    NN   
+
+SENTENCE:  is  not sexually active and denied introducing any foreign objects
+           VBZ RB     RB      JJ   CC   VBN       VBG     DT    JJ      NNS  
+                   |=============|                            |=============|
+                       Finding                                   Disorder    
+                      C0241028                                   C0016542    
+
+SENTENCE:  into the  vagina .
+            IN  DT     NN    
+                    |======| 
+                    Anatomy  
+                    C0042232 
+
+SENTENCE:  The patient was initially managed on triple
+           DT    NN    VBD    RB       VBN   IN   JJ  
+
+SENTENCE:  antibiotics , ampicillin , gentamicin , and Clindamycin.
+               NNS           NN           JJ       CC      NNP     
+           |=========|   |========|   |========|       |=========| 
+              Drug          Drug         Drug             Drug     
+            C0003232      C0002680     C0546866         C0008947   
+
+SENTENCE:  Since a  CT
+            IN   DT NN
+
+SENTENCE:    scan    is  not the optimal   test    to evaluate the  adnexa  , a  transvaginal
+              NN     VBZ RB  DT    JJ       NN     TO    VB    DT    NNS      DT      JJ     
+           |=======|                     |=======|                 |======|                  
+           Procedure                     Procedure                 Anatomy                   
+           C0034606                      C0022885                  C0001575                  
+                                         |=======|                                           
+                                          Finding                                            
+                                         C0456984                                            
+
+SENTENCE:  ultrasound was ordered which revealed endometrial thickness of 3.6
+               NN     VBD   VBN    WDT    VBD        JJ         NN     IN    
+           |========|                                                        
+           Procedure                                                         
+            C0041618                                                         
+
+SENTENCE:  mm and bilateral cystic masses.
+           NN CC     JJ       JJ    NNS   
+
+SENTENCE:  The patient's right upper quadrant
+           DT    NN       JJ    JJ      NN   
+
+SENTENCE:    pain   and tenderness persisted for several days during the admission
+              NN    CC      NN        VBD    IN    JJ    NNS    IN   DT     NN    
+           |======|     |========|               |==========|                     
+           Finding       Finding                   Finding                        
+           C0030193      C0234233                  C3845714                       
+           |=====================|                                                
+                   Finding                                                        
+                  C0234242                                                        
+
+SENTENCE:  with periodic exacerbations and was increasingly suspicious for
+            IN     JJ         NNS      CC  VBD      RB          JJ     IN 
+
+SENTENCE:  cholelithiasis or pancreatitis.
+                 NN       CC      NN      
+           |============|    |==========| 
+              Disorder         Disorder   
+              C0008350         C0030305   
+
+SENTENCE:  The patient then had an abdominal
+           DT    NN     RB  VBD DT    JJ    
+                                   |=======|
+                                    Anatomy 
+                                   C0000726 
+
+SENTENCE:  ultrasound which was essentially was within  normal  limits and
+               NN      WDT  VBD     RB      VBD   IN      JJ     NNS    . 
+           |========|                                  |======|           
+           Procedure                                   Finding            
+            C0041618                                   C0231683           
+                                                       C0558145           
+                                                |====================|    
+                                                       Finding            
+                                                       C1265570           
+
+SENTENCE:  showed no abnormal viscera .
+            VBD   DT    JJ       NN    
+                              |======| 
+                              Anatomy  
+                              C1305912 
+
+SENTENCE:  The bilateral adnexal masses continued
+           DT     JJ       JJ     NNS      VBN   
+
+SENTENCE:  to be of major concern , and interventional radiology was consulted
+           IN NN IN  JJ     NN      CC        JJ          NN     VBD    VBN   
+                                                       |=======|              
+                                                       Procedure              
+                                                       C1962945               
+                                        |======================|              
+                                               Procedure                      
+                                                C0344093                      
+
+SENTENCE:  for possible aspiration.
+           IN     JJ        NN     
+                        |========| 
+                        Procedure  
+                         C0349707  
+
+SENTENCE:  Given that the etiology of the masses was
+            VBN   IN  DT     NN    IN DT   NNS   VBD
+
+SENTENCE:  unclear and the risk of malignancy in a  post menopausal woman , it 
+             JJ    CC  DT   NN  IN     NN     IN DT  IN      JJ      NN     PRP
+                                   |========|                                  
+                                    Disorder                                   
+                                    C0006826                                   
+
+SENTENCE:  was decided that the best approach would be open  tissue  sampling .
+           VBD   VBN    IN  DT  JJS     NN     MD   VB  JJ     NN       NN     
+                                                            |======| |=======| 
+                                                            Anatomy  Procedure 
+                                                            C0040300 C0441621  
+
+SENTENCE:  It  was then decided to postpone this procedure pending further
+           PRP VBD  RB    VBN   TO    VB     DT     NN       JJ      JJ   
+                                                 |=======|                
+                                                 Procedure                
+                                                 C0184661                 
+
+SENTENCE:  evaluation of the patient.
+               NN     IN DT    NN    
+
+SENTENCE:  Of note , the patient had a  CA- 125  drawn
+           IN  NN    DT    NN    VBD DT NN        VBN 
+                                        |======|      
+                                          Drug        
+                                        C0006610      
+
+SENTENCE:  which 77. Serum   HCG    was negative.
+            WDT       NN      NN    VBD    JJ    
+                           |======|              
+                             Drug                
+                           C1141639              
+
+SENTENCE:  The patient's report of new
+           DT    NN        NN   IN JJ 
+
+SENTENCE:  onset of post menopausal bleeding was concerning.
+            NN   IN  JJ      JJ        NN    VBD     JJ     
+                                    |======|                
+                                    Finding                 
+                                    C0019080                
+
+SENTENCE:  Considering the
+               NN       : 
+
+SENTENCE:  high likelihood of malignancy , the patient was being followed by
+            JJ      NN     IN     NN       DT    NN    VBD  VBG    VBN    IN
+                              |========|                                    
+                               Disorder                                     
+                               C0006826                                     
+
+SENTENCE:  the gynecology oncology service  and underwent endometrial  biopsy  
+           DT      NN        NN       NN    CC     VBD        JJ         NN    
+                          |======| |======|                           |=======|
+                          Disorder Finding                            Procedure
+                          C0027651 C0557854                           C0005558 
+                                                          |===================|
+                                                                Procedure      
+                                                                C1510477       
+
+SENTENCE:  for  tissue  sampling .
+           IN     NN       NN     
+               |======| |=======| 
+               Anatomy  Procedure 
+               C0040300 C0441621  
+
+SENTENCE:  The  biopsy   revealed no evidence of
+           DT     NN       VBD    DT    NN    IN
+               |=======|                        
+               Procedure                        
+               C0005558                         
+
+SENTENCE:  malignancy.
+               NN     
+           |========| 
+            Disorder  
+            C0006826  
+
+SENTENCE:  The patient had a  repeat CT   scan    on hospital day
+           DT    NN    VBD DT   NN   NN    NN     IN    NN    NN 
+                                        |=======|                
+                                        Procedure                
+                                        C0034606                 
+
+SENTENCE:  number seven which was essentially unchanged from admission showing
+             NN    CD    WDT  VBD     RB         JJ      IN     NN       NN   
+                                              |=======|                       
+                                               Finding                        
+                                              C0442739                        
+
+SENTENCE:  persistent bilateral adnexal masses and no free fluid.
+               JJ        JJ       JJ     NNS   CC  DT  JJ   NN   
+           |========|                                 |========| 
+            Disorder                                   Finding   
+            C0332996                                   C0013687  
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient's symptoms of right lower quadrant   pain   persisted but
+             NN        NNS    IN  JJ    JJ      NN       NN       VBN     . 
+                                                      |======|              
+                                                      Finding               
+                                                      C0030193              
+                                 |===========================|              
+                                            Finding                         
+                                           C0694551                         
+
+SENTENCE:  became more responsive to treatment toward the   end    of the
+            VBN   JJR      JJ     IN    NN       IN   DT     NN    IN CD 
+                                     |=======|            |======|       
+                                     Procedure              Drug         
+                                     C0087111             C0082420       
+
+SENTENCE:  admission.
+              NN     
+
+SENTENCE:  Throughout the admission the actual etiology of the
+               IN     DT     NN     DT    JJ      NN    IN CD 
+
+SENTENCE:  bilateral adnexal masses was never discerned.
+              JJ       JJ     NNS   VBD  RB      VBN    
+
+SENTENCE:  As a  result , the
+           IN DT   NN     CD 
+
+SENTENCE:  patient was referred to the gynecology oncology service  for
+             NN    VBD   VBN    IN DT      NN        NN       NN     . 
+                                                  |======| |======|    
+                                                  Disorder Finding     
+                                                  C0027651 C0557854    
+
+SENTENCE:  continued follow up as an outpatient.
+              VBN      VB   RP IN DT     NN     
+
+SENTENCE:  2. INFECTIOUS DISEASE .
+                  JJ        NN    
+              |========| |======| 
+               Disorder  Disorder 
+               C0009450  C0012634 
+
+SENTENCE:  The patient's presentation of  fevers  ,
+           DT    NN           NN      IN   NNS     
+                                         |======|  
+                                         Finding   
+                                         C0015967  
+
+SENTENCE:   chills  , and diaphoresis was certainly suspicious for infectious
+             NNS      CC      NN      VBD    RB         JJ     IN      JJ    
+           |======|       |=========|                              |========|
+           Finding          Finding                                 Disorder 
+           C0085593        C0700590                                 C0009450 
+
+SENTENCE:  process.
+             NN    
+
+SENTENCE:  Initially the patient was covered with ampicillin ,
+              RB     DT    NN    VBD   VBN    IN      NN      
+                                                  |========|  
+                                                     Drug     
+                                                   C0002680   
+
+SENTENCE:  gentamicin , and Clindamycin for empiric antimicrobial coverage.
+               JJ       CC      NNP     IN    JJ         JJ          NN    
+           |========|       |=========|             |===========|          
+              Drug             Drug                     Drug               
+            C0546866         C0008947                 C1136254             
+
+SENTENCE:  The urine  culture  was notable for greater than 100 , 000 Escherichia
+           DT   NN      NN     VBD   JJ    IN    JJR    IN                NNP    
+                     |=======|                                                   
+                     Procedure                                                   
+                     C2242979                                                    
+               |=============|                                                   
+                  Procedure                                                      
+                  C0430404                                                       
+
+SENTENCE:  coli which was   pan    sensitive.
+            NN   WDT  VBD   AFX       JJ     
+                          |======| |=======| 
+                          Disorder  Finding  
+                          C0031036 C0020517  
+
+SENTENCE:  All  blood   cultures at initial
+           DT     NN      NNS    IN   JJ   
+               |======|                    
+               Anatomy                     
+               C0005767                    
+               |===============|           
+                   Procedure               
+                   C0200949                
+
+SENTENCE:  presentation had been negative.
+                NN      VBD VBN     JJ    
+
+SENTENCE:  On October , the creatinine
+           IN   NNP     DT      NN    
+                            |========|
+                               Drug   
+                             C0010294 
+
+SENTENCE:  level increased to 1.8.
+            NN      VBN    IN     
+
+SENTENCE:  As a  result , gentamicin was then switched
+           IN DT   NN         NN     VBD  RB    VBN   
+                          |========|                  
+                             Drug                     
+                           C0546866                   
+
+SENTENCE:  to Levofloxacin.
+           IN     NNP      
+              |==========| 
+                  Drug     
+                C0282386   
+
+SENTENCE:  The patient's  fever   initially defervesced from
+           DT    NN         NN       RB         VBN      IN 
+                         |======|                           
+                         Finding                            
+                         C0015967                           
+
+SENTENCE:  102.2 to 99.3 , but spiked to 100.1 after six days of antibiotics.
+                 IN        CC    JJ   IN        IN   CD  NNS  IN     NNS     
+                                                                 |=========| 
+                                                                    Drug     
+                                                                  C0003232   
+
+SENTENCE:  Her  white  blood     cell   count remained elevated and ranged from 24 to
+           PRP$  JJ      NN       NN     NN     VBD       JJ    CC   VBD    IN     IN
+                      |======| |======|                                              
+                      Anatomy  Anatomy                                               
+                      C0005767 C0007634                                              
+                      |===============|                                              
+                           Anatomy                                                   
+                          C0005773                                                   
+                               |============|                                        
+                                 Procedure                                           
+                                  C0007584                                           
+                      |=====================|                                        
+                             Procedure                                               
+                             C0005771                                                
+                |=====================|                                              
+                        Anatomy                                                      
+                       C0023516                                                      
+                |===========================|                                        
+                          Procedure                                                  
+                          C0023508                                                   
+
+SENTENCE:  32.
+              
+
+SENTENCE:  However , by discharge the white  blood     cell   count was 10.
+             RB      IN    NN     DT   JJ      NN       NN     NN   VBD    
+                                            |======| |======|              
+                                            Anatomy  Anatomy               
+                                            C0005767 C0007634              
+                                            |===============|              
+                                                 Anatomy                   
+                                                C0005773                   
+                                                     |============|        
+                                                       Procedure           
+                                                        C0007584           
+                                            |=====================|        
+                                                   Procedure               
+                                                   C0005771                
+                                      |=====================|              
+                                              Anatomy                      
+                                             C0023516                      
+                                      |===========================|        
+                                                Procedure                  
+                                                C0023508                   
+
+SENTENCE:  Because of the patient's initial minimal response to antibiotics ,
+             IN    IN DT    NN        JJ      JJ       NN    IN     NNS      
+                                                                |=========|  
+                                                                   Drug      
+                                                                 C0003232    
+
+SENTENCE:  repeat  blood   cultures and urine cultures were sent which were
+             NN      NN      NNS    CC   NN     NNS    VBD  VBN   WDT  VBD 
+                  |======|                                                 
+                  Anatomy                                                  
+                  C0005767                                                 
+                  |===============|                                        
+                      Procedure                                            
+                      C0200949                                             
+
+SENTENCE:  negative.
+              JJ    
+
+SENTENCE:  In addition , ID was consulted to provide further
+           IN    NN      NN VBD    VBN    TO   VB      JJ   
+
+SENTENCE:  guidance regarding antimicrobial management.
+              NN       VBG         JJ           NN     
+                              |===========| |========| 
+                                  Drug       Finding   
+                                C1136254     C1273870  
+
+SENTENCE:  They recommended to
+           PRP      VBD     TO
+
+SENTENCE:  continue ampicillin and Levofloxacin.
+              VB        NN     CC      NNP      
+                    |========|     |==========| 
+                       Drug            Drug     
+                     C0002680        C0282386   
+
+SENTENCE:  Clindamycin was changed to
+               NNP     VBD   VBN   TO
+           |=========|               
+              Drug                   
+            C0008947                 
+
+SENTENCE:   Flagyl .
+             NNP    
+           |======| 
+             Drug   
+           C0699678 
+
+SENTENCE:  By discharge , the patient was afebrile.
+           IN    NN       DT    NN    VBD    JJ    
+                                          |======| 
+                                          Finding  
+                                          C0277797 
+
+SENTENCE:  3. CARDIOVASCULAR.
+                    NN       
+              |============| 
+                 Anatomy     
+                 C0007226    
+
+SENTENCE:  By hospital day number two , the patient was
+           IN    NN    NN    NN   CD    DT    NN    VBD
+
+SENTENCE:  noted to have increased lower extremity swelling and new bibasilar
+            VBN  TO  VB     VBN     JJR     NN        NN    CC  JJ     JJ    
+                                         |=======| |======|                  
+                                          Anatomy  Finding                   
+                                         C0015385  C0038999                  
+                                         |================|                  
+                                              Finding                        
+                                              C0158369                       
+                                   |=============|                           
+                                       Anatomy                               
+                                      C0023216                               
+                                   |======================|                  
+                                           Finding                           
+                                           C0581394                          
+
+SENTENCE:  crackles.
+             NNS    
+           |======| 
+           Finding  
+           C0034642 
+
+SENTENCE:  The symptoms were suggestive of volume overload and 
+           DT    NNS    VBD      JJ     IN   NN      NN    HYPH
+                                           |=============|     
+                                              Disorder         
+                                              C0546817         
+
+SENTENCE:  possibly congestive  heart   failure.
+              RB        JJ        NN      NN    
+                               |======|         
+                               Anatomy          
+                               C0018787         
+                               |==============| 
+                                   Disorder     
+                                   C0018801     
+
+SENTENCE:  A   chest     x-ray   was notable for
+           DT    NN       NN     VBD   JJ    IN 
+              |======| |=======|                
+              Anatomy  Procedure                
+              C0817096 C1306645                 
+                       C1962945                 
+              |================|                
+                  Procedure                     
+                   C0039985                     
+
+SENTENCE:  bilateral atelectasis in the lower lobes but no pulmonary  edema   or
+              JJ         NN      IN DT   JJ    NNS  CC  DT    JJ        NN    CC
+                     |=========|                           |=======| |======|   
+                       Finding                              Anatomy  Finding    
+                      C0004144                             C0024109  C0013604   
+                                                           |================|   
+                                                                Disorder        
+                                                                C0034063        
+
+SENTENCE:  pleural  effusions.
+              JJ       NNS    
+           |======| |=======| 
+           Disorder  Finding  
+           C0032226 C0013687  
+           |================| 
+                Disorder      
+                C0032227      
+
+SENTENCE:  A  cardiac  echocardiogram revealed  normal 
+           DT    JJ          NN         VBD       JJ   
+              |======| |============|          |======|
+              Anatomy    Procedure             Finding 
+              C0018787    C0013516             C0231683
+                                               C0558145
+
+SENTENCE:  systolic function with ejection fraction of approximately 60% and
+              JJ       NN     IN     NN       NN    IN      RB            . 
+                                  |======|                                  
+                                  Finding                                   
+                                  C0336969                                  
+
+SENTENCE:    mild   left ventricular hypertrophy.
+              JJ     JJ      JJ          NN      
+           |======|      |=========| |=========| 
+           Finding         Anatomy     Finding   
+           C1513302       C0018827    C0020564   
+                         |=====================| 
+                                Disorder         
+                                C0340279         
+                    |==========================| 
+                              Disorder           
+                              C0149721           
+
+SENTENCE:  The patient was treated with
+           DT    NN    VBD   VBN    IN 
+
+SENTENCE:   Lasix   and was aggressively diuresed.
+             NNP    CC  VBD      RB        VBN    
+           |======|                               
+             Drug                                 
+           C0699992                               
+
+SENTENCE:  She responded well to
+           PRP    VBD     RB  TO
+
+SENTENCE:  treatment.
+              NN     
+           |=======| 
+           Procedure 
+           C0087111  
+
+SENTENCE:  4. NEUROLOGIC.
+                  NN     
+
+SENTENCE:  The patient presented with abdominal   pain   and was
+           DT    NN       VBD     IN     JJ        NN    CC  VBD
+                                      |=======| |======|        
+                                       Anatomy  Finding         
+                                      C0000726  C0030193        
+                                      |================|        
+                                           Finding              
+                                           C0000737             
+
+SENTENCE:  initially with Demerol  and Vistaril.
+              RB      IN    NNP    CC    NNP    
+                          |======|     |======| 
+                            Drug         Drug   
+                          C0935966     C0936278 
+
+SENTENCE:  Initially the patient was
+              RB     DT    NN    VBD
+
+SENTENCE:  only minimally responsive to treatment , but over time she became
+            RB     RB         JJ     IN    NN       CC   IN   NN  PRP  VBD  
+                                        |=======|                           
+                                        Procedure                           
+                                        C0087111                            
+
+SENTENCE:  more responsive.
+           RBR      JJ     
+
+SENTENCE:  By discharge , the patient was without   pain  .
+           IN    NN       DT    NN    VBD   IN       NN    
+                                                  |======| 
+                                                  Finding  
+                                                  C0030193 
+
+SENTENCE:  MEDICATIONS ON DISCHARGE:
+               NNS     IN    NNP    
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:   Lasix   60 mg  p.o. q . i . d .
+             NNP       NNS  FW  FW NNS VBN 
+           |======|                        
+             Drug                          
+           C0699992                        
+
+SENTENCE:  Glyburide 5 mg 
+              NNP      NNS
+           |=======|      
+             Drug         
+           C0017628       
+
+SENTENCE:  p .o .
+           RB NN 
+
+SENTENCE:  q  day.
+           FW NN  
+
+SENTENCE:  Labetalol 200 mg  p .o .
+              NNP        NNS RB NN 
+           |=======|               
+             Drug                  
+           C0022860                
+
+SENTENCE:  b . i . d .
+           LS NNS VBN 
+
+SENTENCE:   Flagyl  500 mg  p .o .
+             NNP        NNS RB NN 
+           |======|               
+             Drug                 
+           C0699678               
+
+SENTENCE:  q  8 hours.
+           FW    NNS  
+
+SENTENCE:  Levofloxacin 500 mg  p .o .
+               NNP          NNS RB NN 
+           |==========|               
+               Drug                   
+             C0282386                 
+
+SENTENCE:  q 
+           FW
+
+SENTENCE:  24 hours.
+               NNS  
+
+SENTENCE:  Xalatan  1   drop   OU  q  p.m. Timoptic 0.5% 1   drop   OS q  day.
+             NNP         NN    NNS FW  RB    NNP              NN    NN FW NN  
+           |======|   |======|             |======|        |======|           
+             Drug       Drug                 Drug            Drug             
+           C0593887   C0991568             C0040235        C0991568           
+
+SENTENCE:  CONDITION ON DISCHARGE:
+              NN     IN    NNP    
+           |=======|              
+           Disorder               
+           C0012634               
+
+SENTENCE:  Stable.
+             JJ   
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  The patient was discharged to home and required no
+           DT    NN    VBD    VBN     IN  NN  CC     JJ    UH
+
+SENTENCE:  services.
+             NNS    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  DISCHARGE INSTRUCTIONS:
+              NNP        NNS      
+
+SENTENCE:  The patient was advised to call her 
+           DT    NN    VBD   VBN   TO  VB  PRP$
+
+SENTENCE:   primary  care physician for  fevers  greater
+              JJ      NN     NN     IN    NNS      JJR  
+           |=======|                    |======|        
+           Procedure                    Finding         
+           C0439631                     C0015967        
+
+SENTENCE:  than 100.5 ,  chills  ,  nausea  , vomiting , abdominal   pain  .
+            IN            NNS         NN         NN         JJ        NN    
+                        |======|   |======|   |======|   |=======| |======| 
+                        Finding    Finding    Finding     Anatomy  Finding  
+                        C0085593   C0027497   C0042963   C0000726  C0030193 
+                                                         |================| 
+                                                              Finding       
+                                                              C0000737      
+
+SENTENCE:  The patient
+           DT    NN   
+
+SENTENCE:  was also advised to take her  temperature every day.
+           VBD  RB    VBN   TO  VB  PRP$     NN       DT   NN  
+
+SENTENCE:  The patient
+           DT    NN   
+
+SENTENCE:  was scheduled to follow up with her   primary  care physician in one
+           VBD    VBN    TO   VB   RP  IN  PRP$    JJ      NN     NN     IN CD 
+                                                |=======|                      
+                                                Procedure                      
+                                                C0439631                       
+
+SENTENCE:  week.
+            NN  
+
+SENTENCE:  She will also follow up with the gynecology oncology service 
+           PRP  MD   RB    VB   RP  IN  DT      NN        NN       NN   
+                                                       |======| |======|
+                                                       Disorder Finding 
+                                                       C0027651 C0557854
+
+SENTENCE:  for further evaluation of bilateral adnexal masses and post
+           IN    JJ        NN     IN    JJ       JJ     NNS   CC  AFX 
+
+SENTENCE:  menopausal bleeding.
+               JJ        NN    
+                      |======| 
+                      Finding  
+                      C0019080 
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  PACO , KEVIN RENALDO DEANDRE
+            NN     NN     NN      NN   
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  ARLIE S.  PAGANI ,  M . D .
+            NNP  NNP  NNP     NNP NNP 
+
+SENTENCE:  GI4
+           NN 
+
+SENTENCE:  TT378/8050
+            NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  12878 Index No. HGTDDI2QM2 D : 5/11
+                  NNP  NN      NN     NN      
+
+SENTENCE:  T : 5/11
+           NN      
+

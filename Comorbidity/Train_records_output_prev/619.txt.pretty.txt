@@ -1,0 +1,795 @@
+SENTENCE:  354140336 | JVHAMC | 98555723 | | 614619 | 6/7/1991 12:00:00 AM | Discharge Summary | Signed |   DIS    | Admission Date:
+                         NN                                             NN      NN       NN       VBN        NN         NN      NN  
+                                                                                                          |======|                  
+                                                                                                          Finding                   
+                                                                                                          C1444662                  
+                                                                                                          |======|                  
+                                                                                                          Disorder                  
+                                                                                                          C0012634                  
+                                                                                                          C1970187                  
+
+SENTENCE:  6/7/1991 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  8/25/1991
+                    
+
+SENTENCE:  DISCHARGE DIAGNOSIS:
+              NNP       NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  ANEURYSM  REPAIR  .
+              NN       NN     
+           |======| |=======| 
+           Disorder Procedure 
+           C0002940 C0374711  
+           |================| 
+               Procedure      
+                C0189661      
+
+SENTENCE:  AUTOMATIC IMPLANTABLE CARDIOVERTER
+              JJ         NN           NN     
+
+SENTENCE:  DEFIBRILLATOR  PATCH   PLACEMENT.
+                JJ          NN       NN     
+                         |======|           
+                           Drug             
+                         C0445403           
+                         C1707974           
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient is  a  60 year old white
+           DT    NN    VBZ DT     NN  JJ   JJ  
+
+SENTENCE:  female , status post large anterior
+             NN       NN    IN   JJ      JJ   
+                                      |======|
+                                      Disorder
+                                      C0751437
+
+SENTENCE:  myocardial infarction complicated by ventricular tachycardia ,
+               JJ         NN         VBN     IN     JJ          NN       
+                      |========|                |=========| |=========|  
+                       Finding                    Anatomy     Finding    
+                       C0021308                  C0018827    C0039231    
+           |===================|                |=====================|  
+                 Disorder                              Disorder          
+                 C0027051                              C0042514          
+
+SENTENCE:  ventricular fibrillation  arrest  and aneurysm , admitted for surgical
+               JJ           NN         NN    CC     NN        VBN    IN     JJ   
+           |=========| |==========| |======|     |======|                        
+             Anatomy     Disorder   Disorder     Disorder                        
+            C0018827     C0232197   C0018790     C0002940                        
+           |======================|                                              
+                   Disorder                                                      
+                   C0042510                                                      
+
+SENTENCE:   repair   and AICD ( automatic implantable cardioverter defibrillator )
+              NN     CC   NN       JJ         JJ           NN           NN        
+           |=======|                                                              
+           Procedure                                                              
+           C0374711                                                               
+
+SENTENCE:  placement.
+              NN     
+
+SENTENCE:  The patient's cardiac  risk factors included
+           DT    NN         JJ     NN    NNS     VBN   
+                         |======|                      
+                         Anatomy                       
+                         C0018787                      
+
+SENTENCE:  hypertension , increased cholesterol , adult-onset diabetes mellitus ,
+                NN           VBN        NN         NN    NN      NN       NN     
+           |==========|             |=========|               |======|           
+             Disorder                  Drug                   Disorder           
+             C0020538                C0008377                 C0011849           
+                                                  |==================|           
+                                                        Disorder                 
+                                                        C0011860                 
+
+SENTENCE:  positive family history  , positive previous myocardial infarction.
+              JJ      NN      NN         JJ       JJ        JJ         NN     
+                           |======|                                |========| 
+                           Finding                                  Finding   
+                           C0262926                                 C0021308  
+                    |=============|                     |===================| 
+                        Finding                               Disorder        
+                       C0241889                               C0027051        
+
+SENTENCE:  Her  cardiac  course was notable for a  large anterior myocardial
+           PRP$    JJ      NN   VBD   JJ    IN  DT  JJ      JJ        JJ    
+                |======|                                 |======|           
+                Anatomy                                  Disorder           
+                C0018787                                 C0751437           
+
+SENTENCE:  infarction on 2 of November .  The patient received recombinant  tissue 
+               NN     IN   IN   NNP       DT    NN      VBD        JJ         NN   
+           |========|                                                      |======|
+            Finding                                                        Anatomy 
+            C0021308                                                       C0040300
+
+SENTENCE:  plasminogen activator and underwent emergent percutaneous
+               NN         NN     CC     VBD       NN         JJ     
+           |=========|                                              
+              Drug                                                  
+            C0032140                                                
+           |===================|                                    
+                   Drug                                             
+                 C0032144                                           
+
+SENTENCE:  transluminal coronary angioplasty.
+                JJ         JJ        NN      
+                        |======| |=========| 
+                        Anatomy   Procedure  
+                        C0018787  C0162577   
+                        |==================| 
+                             Procedure       
+                              C0190211       
+
+SENTENCE:  A  left ventriculogram showed
+           DT  JJ        NN        VBD  
+                   |============|       
+                     Procedure          
+                      C0007800          
+              |=================|       
+                   Procedure            
+                   C0412219             
+
+SENTENCE:  anterior septal dyskinesis and ejection fraction was approximately
+              JJ      JJ       NN     CC     NN       NN    VBD      RB      
+           |======|        |========|     |======|                           
+           Disorder         Disorder      Finding                            
+           C0751437         C0013384      C0336969                           
+
+SENTENCE:  20%.
+               
+
+SENTENCE:  The patient had postoperative tamponade requiring
+           DT    NN    VBD      JJ          NN        NN    
+                                         |=======|          
+                                         Procedure          
+                                         C0579016           
+
+SENTENCE:  pericardiocentesis.
+                   NN         
+           |================| 
+               Procedure      
+                C0191234      
+
+SENTENCE:  On 2 of November , the patient suffered worsening
+           IN   IN   NNP      DT    NN      VBD       NN    
+
+SENTENCE:  congestive  heart   failure , tachyarrhythmia and required emergent
+               JJ        NN      NN            NN        CC    VBN       NN   
+                      |======|           |=============|                      
+                      Anatomy                Finding                          
+                      C0018787              C0080203                          
+                      |==============|                                        
+                          Disorder                                            
+                          C0018801                                            
+
+SENTENCE:  cardioversion and subsequent medical  therapy .
+                NN       CC      JJ       JJ       NN     
+           |===========|                        |=======| 
+             Procedure                          Procedure 
+             C0013778                           C0087111  
+                                        |===============| 
+                                            Procedure     
+                                            C0418981      
+
+SENTENCE:  She had recurrent
+           PRP VBD    JJ    
+
+SENTENCE:  ventricular tachycardia treated with Lidocaine.
+               JJ          NN        VBN    IN     NNP    
+           |=========| |=========|              |=======| 
+             Anatomy     Finding                  Drug    
+            C0018827    C0039231                C0023660  
+           |=====================|                        
+                  Disorder                                
+                  C0042514                                
+
+SENTENCE:  In 17 of March ,
+           IN    IN  NNP   
+
+SENTENCE:  electrophysiologic studies were performed and the patient was
+                   JJ           NNS   VBD     VBN    CC  DT    NN    VBD
+           |========================|                                   
+                   Procedure                                            
+                    C0199551                                            
+
+SENTENCE:  started on Amiodarone.
+             VBN   IN    NNP     
+                      |========| 
+                         Drug    
+                       C0002598  
+
+SENTENCE:  The patient also underwent transplant
+           DT    NN     RB     VBD        NN    
+                                      |========|
+                                       Anatomy  
+                                       C0332835 
+
+SENTENCE:  evaluation with cardiac  catheterization showing occluded left
+               NN      IN     JJ          NN          VBG      JJ     NN 
+                           |======| |=============|         |======|     
+                           Anatomy     Procedure            Finding      
+                           C0018787    C0007430             C0028778     
+
+SENTENCE:  anterior descending coronary  artery  at S1 , right dominant system ,
+              JJ        JJ        JJ       NN    IN NN    JJ      JJ      NN    
+           |======|            |======| |======|                                
+           Disorder            Anatomy  Anatomy                                 
+           C0751437            C0018787 C0003842                                
+                               |===============|                                
+                                    Anatomy                                     
+                                   C0205042                                     
+           |===================================|                                
+                          Anatomy                                               
+                         C0226032                                               
+
+SENTENCE:  marked left ventricular dilatation with anterior septal dilatation
+             JJ    JJ      JJ          NN      IN     JJ      JJ       NN    
+                       |=========| |========|      |======|        |========|
+                         Anatomy    Finding        Disorder         Finding  
+                        C0018827    C0700124       C0751437         C0700124 
+                                   |========|                      |========|
+                                   Procedure                       Procedure 
+                                    C1322279                        C1322279 
+                       |====================|                                
+                              Disorder                                       
+                              C0264733                                       
+                  |=========================|                                
+                           Disorder                                          
+                           C0344911                                          
+
+SENTENCE:  and ejection fraction 18%.
+           CC     NN       NN        
+               |======|              
+               Finding               
+               C0336969              
+
+SENTENCE:  Right  atrial  pressures were 60/12/11 ,
+            JJ      JJ       NNS    VBD            
+                 |======| |=======|                
+                 Anatomy   Finding                 
+                 C0018792 C0460139                 
+                 |================|                
+                      Finding                      
+                      C0428877                     
+
+SENTENCE:  right ventricular pressures 56/14 , pulmonary capillary wedge
+            JJ       JJ         NNS               JJ        NN      NN  
+                 |=========| |=======|         |=======| |=======|      
+                   Anatomy    Finding           Anatomy   Anatomy       
+                  C0018827   C0460139          C0024109  C0006901       
+                 |===================|                                  
+                        Finding                                         
+                       C0206177                                         
+
+SENTENCE:  pressure 34 , cardiac  index 31.
+              NN            JJ     NN      
+           |======|      |======|          
+           Finding       Anatomy           
+           C0460139      C0018787          
+                         |============|    
+                            Finding        
+                            C0428776       
+
+SENTENCE:  An echocardiogram showed left
+           DT       NN        VBD    JJ 
+              |============|            
+                Procedure               
+                 C0013516               
+
+SENTENCE:   atrium  4.9 centimeters , left ventricle with  normal  wall thickness ,
+              NN            NNS        JJ     NN      IN     JJ     NN     NN      
+           |======|                        |=======|      |======|                 
+           Anatomy                          Anatomy       Finding                  
+           C0018792                        C0018827       C0231683                 
+                                                          C0558145                 
+                                      |============|                               
+                                         Anatomy                                   
+                                         C0225897                                  
+
+SENTENCE:  plus thrombus and   mild   pericardial effusion , anterior septal
+            JJ     NN    CC     JJ        JJ         NN         JJ      JJ  
+                |======|     |======| |=========| |======|   |======|       
+                Finding      Finding    Anatomy   Finding    Disorder       
+                C0087086     C1513302  C0442031   C0013687   C0751437       
+                                      |==================|                  
+                                            Disorder                        
+                                            C0031039                        
+
+SENTENCE:  akinesis , hypokinetic left ventricle , 1+ tricuspid regurgitation ,
+              NN          JJ       JJ     NN             NN          NN        
+                      |=========|      |=======|                |===========|  
+                        Finding         Anatomy                    Finding     
+                       C0086439        C0018827                   C2004489     
+                                  |============|      |=====================|  
+                                     Anatomy                 Disorder          
+                                     C0225897                C0040961          
+
+SENTENCE:  2+ mitral regurgitation.
+                JJ        NN       
+                     |===========| 
+                        Finding    
+                       C2004489    
+              |==================| 
+                    Finding        
+                    C0026266       
+
+SENTENCE:  The patient was admitted at this time for
+           DT    NN    VBD   VBN    IN  DT   NN  IN 
+
+SENTENCE:  aneurysm  repair  .
+              NN       NN     
+           |======| |=======| 
+           Disorder Procedure 
+           C0002940 C0374711  
+           |================| 
+               Procedure      
+                C0189661      
+
+SENTENCE:  PAST MEDICAL HISTORY  revealed coronary  artery 
+            JJ    JJ       NN      VBD       JJ       NN   
+                        |======|          |======| |======|
+                        Finding           Anatomy  Anatomy 
+                        C0262926          C0018787 C0003842
+           |===================|          |===============|
+                  Finding                      Anatomy     
+                 C0455458                     C0205042     
+
+SENTENCE:  disease  as above , hiatal  hernia  , adult-onset diabetes mellitus ,
+              NN    IN  RB       JJ      NN       NN    NN      NN       NN     
+           |======|                   |======|               |======|           
+           Disorder                   Disorder               Disorder           
+           C0012634                   C0019270               C0011849           
+                               |=============|   |==================|           
+                                  Disorder             Disorder                 
+                                  C3489393             C0011860                 
+
+SENTENCE:  hypertension , status post total abdominal hysterectomy and
+                NN          NN    IN   JJ      JJ          NN      CC 
+           |==========|                     |=======| |==========|    
+             Disorder                        Anatomy   Procedure      
+             C0020538                       C0000726    C0020699      
+                                            |====================|    
+                                                  Procedure           
+                                                   C0404077           
+                                      |==========================|    
+                                               Procedure              
+                                                C0404079              
+
+SENTENCE:  bilateral salpingo-oophorectomy , status post appendectomy , status
+              JJ        NN         NN          NN    IN       NN          NN  
+                              |==========|               |==========|         
+                               Procedure                  Procedure           
+                                C0029936                   C0003611           
+                     |===================|                                    
+                           Procedure                                          
+                           C0036132                                           
+           |=============================|                                    
+                      Procedure                                               
+                      C0195495                                                
+
+SENTENCE:  post cholecystectomy.
+            IN        NN        
+                |=============| 
+                   Procedure    
+                   C0008320     
+
+SENTENCE:  MEDICATIONS ON ADMISSION included Micronase
+               NNS     IN    NN       VBD       NNP   
+           |=========|                       |=======|
+              Drug                             Drug   
+            C0013227                         C0700712 
+
+SENTENCE:  5 milligrams by  mouth   each day , Amiodarone 200 milligrams by  mouth  
+                NNS     IN    NN     DT  NN       NNP            NNS     IN    NN   
+                           |======|            |========|                   |======|
+                           Anatomy                Drug                      Anatomy 
+                           C0226896             C0002598                    C0226896
+
+SENTENCE:  each day , captopril 37.5 milligrams by  mouth   3 times a  day ,
+            DT  NN       NNP            NNS     IN    NN       NNS  DT NN   
+                      |=======|                    |======|                 
+                        Drug                       Anatomy                  
+                      C0006938                     C0226896                 
+
+SENTENCE:  Coumadin 2 milligrams by  mouth   each day.
+             NNP         NNS     IN    NN     DT  NN  
+           |======|                 |======|          
+             Drug                   Anatomy           
+           C0699129                 C0226896          
+
+SENTENCE:  ALLERGIES were to
+              NNS    VBD  TO
+           |=======|        
+            Finding         
+           C0020517         
+
+SENTENCE:  Halcion  , which causes hallucinations.
+              NN       WDT   VBZ        NNS       
+           |======|                |============| 
+             Drug                     Disorder    
+           C0733624                   C0018524    
+
+SENTENCE:  SOCIAL HISTORY  revealed the 
+             JJ      NN      VBD    HYPH
+                  |======|              
+                  Finding               
+                  C0262926              
+           |=============|              
+               Finding                  
+              C0424945                  
+
+SENTENCE:  patient is  married  with 5 children , 7 grandchildren.
+             NN    VBZ    JJ     IN      NNS             NNS      
+                       |======|                                   
+                       Finding                                    
+                       C0555047                                   
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  On admission , the patient was a  pleasant ,
+           IN    NN       DT    NN    VBD DT    JJ     
+
+SENTENCE:  middle-aged , white female in no acute
+             JJ   VBN     JJ     NN   IN DT  JJ  
+
+SENTENCE:  distress.
+              NN    
+           |======| 
+           Finding  
+           C0231303 
+
+SENTENCE:  The patient was afebrile ,  blood   pressure 98/60 ,
+           DT    NN    VBD    JJ         NN       NN           
+                           |======|   |======| |======|        
+                           Finding    Anatomy  Finding         
+                           C0277797   C0005767 C0460139        
+                                      |===============|        
+                                           Finding             
+                                          C0005823             
+
+SENTENCE:  temperature 98 , respiratory rate 24 ,  oxygen  saturation on room   air   
+               NN               JJ       NN          NN        NN     IN  NN     NN   
+                                                  |======|                    |======|
+                                                    Drug                        Drug  
+                                                  C0030054                    C3536832
+                                                  |=================|                 
+                                                       Procedure                      
+                                                       C0523807                       
+
+SENTENCE:  was 92%.
+           VBD     
+
+SENTENCE:    Skin   was without lesions .
+              NN    VBD   IN      NNS    
+           |======|             |======| 
+           Anatomy              Finding  
+           C1123023             C0221198 
+
+SENTENCE:    Head   ,   eyes   ,   ears   ,   nose   and
+              NN        NNS        NNS         NN    CC 
+           |======|   |======|   |======|   |======|    
+           Anatomy    Anatomy    Anatomy    Anatomy     
+           C0018670   C0015392   C0013443   C0028429    
+
+SENTENCE:   throat  examination was within  normal  limits.   Neck   was supple
+              NN        NN      VBD   IN      JJ      NN       NN    VBD   JJ  
+           |======|                        |======|         |======|           
+           Anatomy                         Finding          Anatomy            
+           C0031354                        C0231683         C0027530           
+                                           C0558145                            
+
+SENTENCE:  without lymphadenopathy , carotids 2+ without  bruits  , no jugular
+             IN          NN             JJ         IN      NNS      DT   JJ   
+                   |=============|                       |======|             
+                       Finding                           Finding              
+                      C0497156                           C0006318             
+
+SENTENCE:   venous  distention.
+              JJ        NN     
+           |======| |========| 
+           Anatomy   Finding   
+           C0042449  C0012359  
+
+SENTENCE:   Chest   examination was significant for  rales  
+              NN        NN      VBD     JJ      IN    NNS   
+           |======|                                 |======|
+           Anatomy                                  Finding 
+           C0817096                                 C0034642
+
+SENTENCE:  about 1/3 of the way up from the bases.
+            IN       IN DT  NN  NN  IN  DT   NNS  
+
+SENTENCE:  Cardiac  examination
+              JJ        NN     
+           |======|            
+           Anatomy             
+           C0018787            
+
+SENTENCE:  revealed S1 and S2 , positive S3 , II/VI systolic  murmur  was heard at
+             VBD    NN CC  NN      JJ    NN   CD NN    JJ       NN    VBD  VBN  IN
+                                                             |======|             
+                                                             Finding              
+                                                             C0018808             
+                                                    |===============|             
+                                                         Finding                  
+                                                        C0232257                  
+
+SENTENCE:  the left upper sternal border radiating to the apex.
+           DT   JJ   JJ     JJ      NN      VBG    IN DT   NN  
+
+SENTENCE:  Abdomen  was
+              NN     : 
+           |======|    
+           Anatomy     
+           C0000726    
+
+SENTENCE:  soft , nontender , nondistended , no organomegaly.
+            JJ       JJ            JJ        DT      NN      
+
+SENTENCE:  Extremities
+               NNS    
+           |=========|
+             Anatomy  
+            C0015385  
+
+SENTENCE:  revealed 2+ pitting  edema  .
+             VBD         NN       NN    
+                               |======| 
+                               Finding  
+                               C0013604 
+                       |==============| 
+                           Finding      
+                           C0333243     
+                    |=================| 
+                          Finding       
+                         C1720371       
+
+SENTENCE:  Neurologic examination was nonfocal.
+               JJ         NN      VBD    JJ    
+           |====================|              
+                 Procedure                     
+                  C0027853                     
+
+SENTENCE:   Rectal  examination revealed  normal  tone ,  guaiac  negative stool.
+              JJ        NN        VBD       JJ     NN       NN       JJ     NN   
+           |======|                      |======|        |======|                
+             Drug                        Finding           Drug                  
+           C1272938                      C0231683        C0018302                
+                                         C0558145                                
+           |==================|                                                  
+                Procedure                                                        
+                 C0199900                                                        
+
+SENTENCE:  LABORATORY EXAMINATION:
+               NN         NN      
+           |========|             
+           Procedure              
+            C0022885              
+
+SENTENCE:   Chest     x-ray   on admission revealed
+              NN       NN     IN    NN       VBD   
+           |======| |=======|                      
+           Anatomy  Procedure                      
+           C0817096 C1306645                       
+                    C1962945                       
+           |================|                      
+               Procedure                           
+                C0039985                           
+
+SENTENCE:  cardiomegaly , left pleural  effusion versus
+                NN         JJ     JJ       NN      JJ  
+           |==========|        |======| |======|       
+             Finding           Disorder Finding        
+             C0018800          C0032226 C0013687       
+                               |===============|       
+                                   Disorder            
+                                   C0032227            
+
+SENTENCE:  scarring ,   mild   pulmonary vascular redistribution.
+              NN         JJ       JJ        JJ          NN       
+           |======|   |======| |=======| |======|                
+           Finding    Finding   Anatomy  Anatomy                 
+           C0008767   C1513302 C0024109  C0005847                
+           C2004491                                              
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  electrocardiogram showed  normal   sinus   rhythm at 85 , left  atrial 
+                  NN          VBD      JJ       NN      NN   IN       JJ     JJ   
+           |===============|        |======| |======|                     |======|
+               Procedure            Finding  Anatomy                      Anatomy 
+               C1623258             C0231683 C0030471                     C0018792
+                                    C0558145                                      
+                                             |=============|                      
+                                                 Finding                          
+                                                C0232201                          
+                                    |======================|                      
+                                            Finding                               
+                                            C0232202                              
+
+SENTENCE:  enlargement , low voltages , no change compared to old study of
+               NN        JJ    NNS      DT   NN     VBN    IN JJ   NN   . 
+           |=========|                  |=======|                         
+            Procedure                    Finding                          
+            C1293134                    C0442739                          
+
+SENTENCE:  previous admission.
+              JJ       NN     
+
+SENTENCE:  Other laboratory data on admission was
+            JJ       NN     NNS  IN    NN     VBD
+                 |========|                      
+                 Procedure                       
+                  C0022885                       
+
+SENTENCE:  unremarkable.
+                JJ      
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was admitted on 10 of March , to the
+           DT    NN    VBD   VBN    IN    IN  NNP    IN CD 
+
+SENTENCE:  Surgery Service  and the procedure was performed
+             NN       NN    CC  DT     NN     VBD    VBN   
+                   |======|         |=======|              
+                   Finding          Procedure              
+                   C0557854         C0184661               
+
+SENTENCE:  on 29 of January .  Please see the operation note for description of the
+           IN    IN   NNP        UH   VB  DT     NN      NN  IN      NN      IN CD 
+
+SENTENCE:  aneurysmectomy and AICD  patch   placement.
+                 NN       CC   NN     NN       NN     
+           |============|          |======|           
+             Procedure               Drug             
+              C0189598             C0445403           
+                                   C1707974           
+
+SENTENCE:  The patient was managed
+           DT    NN    VBD   VBN  
+
+SENTENCE:  postoperatively on the Surgical Service  without complications , and
+                 RB        IN DT     JJ       NN      IN         NNS        CC 
+                                           |======|         |===========|      
+                                           Finding             Finding         
+                                           C0557854           C0009566         
+
+SENTENCE:  transferred to the Medical Service  2 days prior to discharge.
+               VBN     IN DT    JJ       NN      NNS   JJ   IN    NN     
+                                      |======|                           
+                                      Finding                            
+                                      C0557854                           
+
+SENTENCE:  On
+           IN
+
+SENTENCE:  the Medical Service  , treatment included  removal  of the patient's
+           DT    JJ       NN         NN       VBD       NN     IN DT    NN     
+                       |======|   |=======|          |=======|                 
+                       Finding    Procedure          Procedure                 
+                       C0557854   C0087111           C0015252                  
+
+SENTENCE:   chest   tube ,  removal  of her  pacing wires , and captopril was
+              NN     NN       NN     IN PRP$   NN    NNS    CC     NN     VBD
+           |======|        |=======|                            |=======|    
+           Anatomy         Procedure                              Drug       
+           C0817096        C0015252                             C0006938     
+
+SENTENCE:  increased to a  final dose of 37.5 milligrams.
+              VBN    IN DT  JJ    NN  IN         NNS     
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  The patient was discharged to home.
+           DT    NN    VBD    VBN     IN  NN  
+
+SENTENCE:  MEDICATIONS ON 
+               NNS     NNP
+           |=========|    
+              Drug        
+            C0013227      
+
+SENTENCE:  DISCHARGE included Coumadin 2 milligrams by  mouth  
+              NNP      VBD      NNP         NNS     IN    NN   
+                              |======|                 |======|
+                                Drug                   Anatomy 
+                              C0699129                 C0226896
+
+SENTENCE:  each day , Bactrim -Double-Strength 1 by  mouth   twice a  day times 6
+            DT  NN      NNP     NNP     NNP      IN    NN     RB   DT NN   IN    
+                      |======|                      |======|                     
+                        Drug                        Anatomy                      
+                      C0591139                      C0226896                     
+
+SENTENCE:  days , Amiodarone 200 milligrams by  mouth   each day , Micronase 5
+           NNS       NNP            NNS     IN    NN     DT  NN       NNP     
+                  |========|                   |======|            |=======|  
+                     Drug                      Anatomy               Drug     
+                   C0002598                    C0226896            C0700712   
+
+SENTENCE:  milligrams by  mouth   each day , captopril 37.5 milligrams by  mouth   3
+              NNS     IN    NN     DT  NN       NNP            NNS     IN    NN     
+                         |======|            |=======|                    |======|  
+                         Anatomy               Drug                       Anatomy   
+                         C0226896            C0006938                     C0226896  
+
+SENTENCE:  times a  day.
+            NNS  DT NN  
+
+SENTENCE:  CONDITION ON DISCHARGE was stable.
+              NN     IN    NNP    VBD   JJ   
+           |=======|                         
+           Disorder                          
+           C0012634                          
+
+SENTENCE:  The patient was
+           DT    NN    VBD
+
+SENTENCE:  to FOLLOW-UP with Dr. Shad Bozard in 4 weeks , and with Dr. Royce M.   J  Stockham . The patient was to have her  prothrombin time and partial
+           IN   NN   NN  IN  NNP NNP   NNP   IN    NNS    CC   IN  NNP  NNP  NNP NNP   NNP      DT    NN    VBD TO  VB  PRP$     NN       NN  CC    JJ   
+              |=======|                                                                                                      |=========|                 
+               Finding                                                                                                          Drug                     
+              C0589120                                                                                                        C0033706                   
+                                                                                                                             |==============|            
+                                                                                                                                Procedure                
+                                                                                                                                 C0033707                
+
+SENTENCE:  thromboplastin time checked at her  local Coumadin Clinic.
+                 NN        NN    VBN   IN PRP$  JJ     NNP     NNP   
+           |============|                            |======|        
+                Drug                                   Drug          
+              C0040048                               C0699129        
+
+SENTENCE:  WZ573/6471
+            NN       
+
+SENTENCE:  KELLY M.  TURBEVILLE ,  M . D .
+            RB   NNP    NNP       NNP NNP 
+
+SENTENCE:  JZ2 D : 5/26/92
+           NN  NN         
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  5128 Report:
+                  NN   
+
+SENTENCE:  P6220V77 T : 9/13/92
+              NN    NN         
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  JEFF E.  HEIM ,  M . D .
+           NNP  NNP NNP    NNP NNP 
+

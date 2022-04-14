@@ -1,0 +1,1270 @@
+SENTENCE:  832582497 | TH | 85492893 | | 9321886 | 4/29/2006 12:00:00 AM | lower extremity  ulcer   , cellulitis , bradycardia | |   DIS    | Admission Date:
+                       NN                                             NN    JJ      NN        NN          NN           NN             NN         NN      NN  
+                                                                                 |=======| |======|   |========|   |=========|     |======|                  
+                                                                                  Anatomy  Disorder    Finding       Finding       Finding                   
+                                                                                 C0015385  C0041582    C0007642     C0428977       C1444662                  
+                                                                           |=============|                                         |======|                  
+                                                                               Anatomy                                             Disorder                  
+                                                                              C0023216                                             C0012634                  
+                                                                                                                                   C1970187                  
+                                                                           |======================|                                                          
+                                                                                   Disorder                                                                  
+                                                                                   C0023223                                                                  
+
+SENTENCE:  3/12/2006 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  5/25/2006
+                    
+
+SENTENCE:  ****** FINAL DISCHARGE ORDERS ******
+                   JJ      NN      NNS         
+
+SENTENCE:  BANDEL , CRISTOBAL MAYNARD 775-92-05-9
+             NN        JJ       NN               
+
+SENTENCE:  Wioakst.
+             NNP   
+
+SENTENCE:  stock Pa
+            NN   NN
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  5/18/06 AT 12:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  GETTYS , PALMER NEIL , M.D. ,  M . P . H .
+            NNS       NN    NN    NNP    NNP NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ACETYLSALICYLIC ACID 325 MG PO DAILY
+                 NN         NN      NN JJ  NN  
+           |==================|                
+                   Drug                        
+                 C0004057                      
+
+SENTENCE:  ASCORBIC ACID 500 MG PO BID
+              NN     NN      NN JJ NN 
+           |===========|              
+               Drug                   
+             C0003968                 
+
+SENTENCE:  BACITRACIN TOPICAL  TP BID
+               NN        JJ    NN FW 
+           |========| |======|       
+              Drug      Drug         
+            C0004599  C1710439       
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  apply to ulceration on   toes  .
+            VB   IN     NN     IN   NNS    
+                    |========|    |======| 
+                     Finding      Anatomy  
+                     C3887532     C0040357 
+
+SENTENCE:  CALTRATE 600 + D  ( CALCIUM  CARBONATE 1 , 500 MG ( ... )
+              NN          NN      NN       NN             NN        
+           |======|            |======| |=======|                   
+             Drug                Drug     Drug                      
+           C0719118            C0006675 C0007026                    
+                               |================|                   
+                                      Drug                          
+                                    C0006681                        
+
+SENTENCE:  1   TAB    PO DAILY
+                NN    NN  RB  
+             |======|         
+               Drug           
+             C0039225         
+
+SENTENCE:  CIPROFLOXACIN 250 MG PO Q12H
+                NN           NN JJ  NN 
+           |===========|               
+               Drug                    
+             C0008809                  
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Administer   iron   products a  minimum of 2 hours before or
+               VB        NN      NNS    DT   NN    IN    NNS    IN   CC
+                      |======|                                         
+                        Drug                                           
+                      C0302583                                         
+
+SENTENCE:  after a  levofloxacin or ciprofloxacin dose dose
+            IN   DT      NN      CC      NN        NN   NN 
+                    |==========|    |===========|          
+                        Drug            Drug               
+                      C0282386        C0008809             
+
+SENTENCE:  If on tube feeds , please cycle ( hold 1 hr before to 2 hr 
+           IN IN  NN   NNS      NN    NN      NN    NN   IN   IN   NNS
+
+SENTENCE:  after ) Take 2 hours before or 2 hours after dairy products.
+            NN      VB     NNS    IN   CC    NNS   IN    JJ     NNS    
+
+SENTENCE:   COLACE  ( DOCUSATE  SODIUM  ) 100 MG PO BID
+              NN         NN       NN          NN JJ NN 
+           |======|   |======| |======|                
+             Drug       Drug     Drug                  
+           C0282139   C1692318 C0037473                
+                      |===============|                
+                            Drug                       
+                          C0243237                     
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 40 MG PO BID HOLD IF:
+             NNP          NN          NN NN FW   NN  IN 
+           |======|   |========|                        
+             Drug        Drug                           
+           C0699992    C0016860                         
+
+SENTENCE:  SBP<100
+           NN     
+
+SENTENCE:  ULTRAVATE 0.05% ( HALOBETASOL PROPIONATE 0.05% )
+              NN                 NN          NN            
+           |=======|         |=========| |========|        
+             Drug               Drug        Drug           
+           C0147791           C0082787    C0392214         
+                             |====================|        
+                                      Drug                 
+                                    C0098735               
+
+SENTENCE:  OINTMENT TP DAILY
+              NN    NN  RB  
+           |======|         
+             Drug           
+           C0028912         
+
+SENTENCE:  VICODIN  ( HYDROCODONE 5 MG +   APAP   500MG ) 1   TAB    PO Q8H
+              NN          NN        NN      NN     CD          NN    JJ NN 
+           |======|   |=========|        |======|           |======|       
+             Drug        Drug              Drug               Drug         
+           C0483514    C0020264          C0000970           C0039225       
+
+SENTENCE:  Starting  Today   ( 7/28 ) PRN   Pain  
+              NN       NN             FW     NN   
+                    |======|              |======|
+                      Drug                Finding 
+                    C0310367              C0030193
+
+SENTENCE:  LISINOPRIL 40 MG PO DAILY HOLD IF:
+               NN        NN NN  RB    JJ  IN 
+           |========|                        
+              Drug                           
+            C0065374                         
+
+SENTENCE:  SBP<100
+           NN     
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 3/19/06 by
+              JJ     VBN  IN         . 
+
+SENTENCE:  PITTSLEY , WESLEY A.  ,  M . D .
+              NN        RB   NNP   NNP NNP 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL
+               NN    
+           |========|
+              Drug   
+            C0065374 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL Reason for override:
+               NN       NN   IN     NN    
+           |========|                     
+              Drug                        
+            C0065374                      
+
+SENTENCE:    MDA   
+              NN   
+           |======|
+             Drug  
+           C0000379
+
+SENTENCE:  Previous  Alert   overridden
+              JJ       JJ        JJ    
+                    |======|           
+                    Finding            
+                    C0239110           
+
+SENTENCE:  Override added on 2/21/06 by SARNOWSKI , KEN H.  ,  M . D .
+              JJ     VBN  IN         IN    NN       NNP NNP   NNP NNP 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL
+               NN    
+           |========|
+              Drug   
+            C0065374 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL Reason for override:
+               NN       NN   IN     NN    
+           |========|                     
+              Drug                        
+            C0065374                      
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  Previous Override Notice
+              JJ       NN      NN  
+
+SENTENCE:  Override added on 8/18/06 by OBRION , JULIAN E.  ,  M . D .
+              JJ     VBN  IN         IN   NN       NN   NNP   NNP NNP 
+
+SENTENCE:  on order for POTASSIUM CHLORIDE IMMED.
+           IN  NN   IN     NN        NN     NN   
+                        |=======| |======|       
+                          Drug      Drug         
+                        C0032821  C0596019       
+                        |================|       
+                               Drug              
+                             C0032825            
+
+SENTENCE:  REL.
+           NN  
+
+SENTENCE:  PO ( ref #
+           NN   NN   
+
+SENTENCE:  210821160 )
+                      
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE
+              NN   
+           |======|
+             Drug  
+           C0596019
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  for hypokalemia
+           IN      NN     
+               |=========|
+                 Finding  
+                C0020621  
+
+SENTENCE:  LOSARTAN 100 MG PO DAILY
+             NNP        NN JJ  NN  
+           |======|                
+             Drug                  
+           C0126174                
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 5/18/06 by :
+              JJ     VBN  IN         IN  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LOSARTAN POTASSIUM Reason for override:
+             NNP       NN       NN   IN     NN    
+           |======| |=======|                     
+             Drug     Drug                        
+           C0126174 C0032821                      
+           |================|                     
+                  Drug                            
+                C0700492                          
+
+SENTENCE:    MDA   
+              NN   
+           |======|
+             Drug  
+           C0000379
+
+SENTENCE:  NEPHRO-VIT RX 1   TAB    PO DAILY
+             NN   NN  NN      NN    NN  RB  
+                           |======|         
+                             Drug           
+                           C0039225         
+
+SENTENCE:  MULTIVITAMIN THERAPEUTIC ( THERAPEUTIC MULTIVI... )
+                NN          JJ            JJ        NN        
+           |==========| |=========|   |=========|             
+               Drug      Procedure     Procedure              
+             C0301532    C0087111      C0087111               
+
+SENTENCE:  1   TAB    PO DAILY
+                NN    NN  RB  
+             |======|         
+               Drug           
+             C0039225         
+
+SENTENCE:  TRAZODONE 50 MG PO BEDTIME PRN Insomnia
+              NN        NN JJ   NN    FW     NN   
+           |=======|                      |======|
+             Drug                         Finding 
+           C0040805                       C0917801
+
+SENTENCE:  URSODIOL 300 MG PO TID
+             NNP        NN JJ NN 
+           |======|              
+             Drug                
+           C0042105              
+
+SENTENCE:    ZINC    SULFATE  220 MG PO DAILY
+              NN       NN         NN JJ  NN  
+           |======| |=======|                
+             Drug     Drug                   
+           C0043481 C0038720                 
+                    C3536965                 
+                    |=======|                
+                    Procedure                
+                    C0474702                 
+           |================|                
+                  Drug                       
+                C0078794                     
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Take 1 hour before or 2 hours after meals.
+            VB     NN    IN   CC    NNS   IN    NNS  
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET: 2 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr  Estrada   pcp    5/14 @ 8:15 scheduled ,
+           NNP   NNP      NN                   VBN     
+                       |======|                        
+                         Drug                          
+                       C0031381                        
+
+SENTENCE:  Dr  Castelo ( vascular surgery ) 10/24/06 scheduled ,
+           NNP   NNP        JJ      NN                  VBN     
+                         |======|                               
+                         Anatomy                                
+                         C0005847                               
+                         |==============|                       
+                            Procedure                           
+                             C0042381                           
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  NKA
+           NN 
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  lower   ext     ulcer  
+            JJ      NN       NN   
+                 |======| |======|
+                 Disorder Disorder
+                 C0015306 C0041582
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  lower extremity  ulcer   , cellulitis , bradycardia
+            JJ      NN        NN          NN           NN     
+                 |=======| |======|   |========|   |=========|
+                  Anatomy  Disorder    Finding       Finding  
+                 C0015385  C0041582    C0007642     C0428977  
+           |=============|                                    
+               Anatomy                                        
+              C0023216                                        
+           |======================|                           
+                   Disorder                                   
+                   C0023223                                   
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  R  LE  ulcer   due to chronic  venous   stasis  , bradycardia
+           JJ NN    NN    IN  IN   JJ       JJ       NN          NN     
+                 |======|                |======| |======|   |=========|
+                 Disorder                Anatomy  Finding      Finding  
+                 C0041582                C0042449 C0333138    C0428977  
+                                         |===============|              
+                                              Finding                   
+                                             C0277919                   
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  CC: lower   ext     ulcer  
+           NN   JJ      NN       NN   
+                     |======| |======|
+                     Disorder Disorder
+                     C0015306 C0041582
+
+SENTENCE:    HPI   :
+              NN    
+           |======| 
+           Disorder 
+           C0268529 
+
+SENTENCE:  68y/o   obese   F  w /   HTN    ,   PBC    , CRI p /w  2 months of painful  R 
+           VB  RP    JJ    NN IN     NN         NN      NN  IN IN    NNS   IN    JJ    JJ
+                  |======|        |======|   |======|                         |======|   
+                  Disorder        Disorder   Disorder                         Finding    
+                  C0028754        C0020538   C0008312                         C0030193   
+
+SENTENCE:  anterior   shin    ulcer   and swollen  R    calf  .
+              JJ       NN       NN    CC     JJ    JJ    NN    
+           |======| |======| |======|     |======|    |======| 
+           Disorder Anatomy  Disorder     Finding     Anatomy  
+           C0751437 C0230444 C0041582     C0038999    C0230445 
+                    |===============|                          
+                        Disorder                               
+                        C0586391                               
+
+SENTENCE:  Both the ulceration and
+            CC  DT      NN     CC 
+                    |========|    
+                     Finding      
+                     C3887532     
+
+SENTENCE:  swelling got progressively  worse   over the past 2 months.
+              NN    VBD      RB         JJR     IN  DT   JJ     NNS   
+           |======|                   |======|                        
+           Finding                    Finding                         
+           C0038999                   C1457868                        
+
+SENTENCE:  The pt
+           DT  NN
+
+SENTENCE:  has limited mobility due to b /l    knee      pain   which is  chronic.
+           VBZ   JJ       NN    IN  IN NN JJ    NN        NN     WDT  VBZ   JJ    
+                       |======|              |=======| |======|                   
+                       Finding                Anatomy  Finding                    
+                       C0425245              C0022742  C0030193                   
+               |==============|              |=======|                            
+                   Finding                   Procedure                            
+                   C0700572                  C0562271                             
+                                             |================|                   
+                                                  Finding                         
+                                                  C0231749                        
+                                          |==========|                            
+                                            Anatomy                               
+                                            C0230432                              
+
+SENTENCE:  Denies
+            VBZ  
+
+SENTENCE:  F /C /CP/  SOB   .
+           VB NN NN    NN    
+                    |======| 
+                    Finding  
+                    C0013404 
+
+SENTENCE:  No  trauma  to the area.
+           DT    NN    IN DT   NN  
+              |======|             
+              Disorder             
+              C3714660             
+
+SENTENCE:  No insect  bites  .
+           DT   NN     NNS    
+                     |======| 
+                     Disorder 
+                     C0005658 
+              |=============| 
+                 Disorder     
+                 C0021564     
+
+SENTENCE:  She has no pets .
+           PRP VBZ DT  NNS  
+                   |======| 
+                   Finding  
+                   C0557148 
+
+SENTENCE:  No recent  travel .
+           DT   JJ      NN    
+                     |======| 
+                     Finding  
+                     C0040802 
+
+SENTENCE:  ED VS:97 50 130/77 98% RA , received  ancef   in ED
+           NN NN                  NN     VBN       NN    IN NN
+                                                |======|      
+                                                  Drug        
+                                                C0700926      
+
+SENTENCE:  ***
+              
+
+SENTENCE:    PMH   :
+              NN    
+           |======| 
+           Finding  
+           C0262926 
+
+SENTENCE:    HTN    ,  primary  biliary cirrhosis , obesity  , psoriasis ,
+              NN         JJ       NN       NN          NN         NN      
+           |======|   |=======|         |=======|   |======|   |=======|  
+           Disorder   Procedure         Disorder    Disorder   Disorder   
+           C0020538   C0439631          C0023890    C0028754   C0033860   
+                                |===============|                         
+                                    Disorder                              
+                                    C0023892                              
+                      |=========================|                         
+                               Disorder                                   
+                               C0008312                                   
+
+SENTENCE:  osteoarthritis , hyperparathyridism 2/2 CRI , colovesicular fistula 
+                 NN                 NN             NN         JJ          NN   
+           |============|                                              |======|
+              Disorder                                                 Disorder
+              C0029408                                                 C0016169
+
+SENTENCE:   repair   1/22
+              NN         
+           |=======|     
+           Procedure     
+           C0374711      
+
+SENTENCE:  ***
+              
+
+SENTENCE:  Meds on admit:
+           NNS  IN  NN   
+
+SENTENCE:    ASA    , trazodone , atenolol , ursodiol , losartan ,
+              NN         NN          NN        NNP         NN     
+           |======|   |=======|   |======|   |======|   |======|  
+             Drug       Drug        Drug       Drug       Drug    
+           C0004057   C0040805    C0004147   C0042105   C0126174  
+
+SENTENCE:  lisinopril , caltrate +D  , vicodin 
+               NN          NN     NN      NN   
+           |========|   |======|       |======|
+              Drug        Drug           Drug  
+            C0065374    C0719118       C0483514
+
+SENTENCE:  ***
+              
+
+SENTENCE:  NKDA
+            NN 
+
+SENTENCE:  ***
+              
+
+SENTENCE:  Exam:
+            NN  
+
+SENTENCE:  T = 97 HR=34-51 NSR BP=138/71 R  16 98%RA  Obese   ,
+           NN     NN       NN  NN        NN       NN    JJ     
+                                                     |======|  
+                                                     Disorder  
+                                                     C0028754  
+
+SENTENCE:    NAD    Distant  heart   sounds.
+              NN      JJ       NN     NNS   
+           |======|         |======|        
+             Drug           Anatomy         
+           C0027270         C0018787        
+                            |=============| 
+                                Finding     
+                               C0018820     
+
+SENTENCE:  RRR.
+           NN  
+
+SENTENCE:  Nl  s1 and S2.
+           NNP NN CC  NN 
+
+SENTENCE:  No
+           UH
+
+SENTENCE:   m /r / g .
+           NNS VB NNS 
+
+SENTENCE:    CTAB  .
+              NN    
+           |======| 
+             Drug   
+           C0951233 
+
+SENTENCE:    Abd     obese   , NT/ND.
+              NN       JJ      NN NN 
+           |======| |======|         
+           Anatomy  Disorder         
+           C0000726 C0028754         
+
+SENTENCE:  Extremities w / chronic
+               NNS     IN    JJ   
+           |=========|            
+             Anatomy              
+            C0015385              
+
+SENTENCE:  brwany  venous   stasis  changes bilaterally. 2 by 2 cm  stage 3 ulder on
+             JJ      JJ       NN      NNS        IN        IN   NNS  NN      NN   IN
+                  |======| |======|                                                 
+                  Anatomy  Finding                                                  
+                  C0042449 C0333138                                                 
+                  |===============|                                                 
+                       Finding                                                      
+                      C0277919                                                      
+
+SENTENCE:  R  shin. bilaterll hammer   toe    at second   toe   .
+           JJ  NN      JJ       NN      NN    IN   NN      NN    
+                                     |======|           |======| 
+                                     Anatomy            Anatomy  
+                                     C0040357           C0040357 
+                              |=============|    |=============| 
+                                 Disorder            Anatomy     
+                                 C1136179           C1261100     
+
+SENTENCE:  RLE>LLE.
+           NN  NN  
+
+SENTENCE:  Area surrounding
+            NN      NN     
+
+SENTENCE:   ulcer   of warmth/tenderness.
+              NN    IN   NN       NN     
+           |======|           |========| 
+           Disorder            Finding   
+           C0041582            C0234233  
+
+SENTENCE:  R    foot   films - no osteo LENIS - no
+           JJ    NN     NNS    DT  JJ    NN     JJ
+              |======|                            
+              Anatomy                             
+              C0016504                            
+
+SENTENCE:    DVT      Labs  :
+              NN      NNS    
+           |======| |======| 
+           Disorder Finding  
+           C0149871 C0587081 
+
+SENTENCE:  Cr  1.8 ( BL 1.4 to 1.7 )
+           NNP       NN     IN      
+
+SENTENCE:     HCT    37.5 ( 35-37 )    plt    253 ,   WBC   
+              NN                       JJ              NN   
+           |=======|                |=======|       |======|
+           Procedure                Procedure       Anatomy 
+           C0018935                 C0201617        C0023516
+
+SENTENCE:  6.05
+               
+
+SENTENCE:  ***
+              
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  68F w / a  hx of   HTN    , CRI , obesity  , psoriasis presenting
+           NN  IN  DT NN IN    NN      NN       NN         NN         NN    
+                            |======|         |======|   |=======|           
+                            Disorder         Disorder   Disorder            
+                            C0020538         C0028754   C0033860            
+
+SENTENCE:  w / RLE  ulcer   and cellulitis.
+           RB  JJ     NN    CC      NN     
+                   |======|     |========| 
+                   Disorder      Finding   
+                   C0041582      C0007642  
+
+SENTENCE:  Hospital course complicated by episodes of
+              NN      NN       VBN     IN   NNS    IN
+
+SENTENCE:   sinus   brady to 30's w / 4-6   sec    pauses , asx , evaluated by EP , no need for
+              NN     NN   IN NNS  IN         NN     NNS     NN       VBN    IN NN   DT  NN  NN 
+           |======|                       |======|                                             
+           Anatomy                          Drug                                               
+           C0030471                       C0074289                                             
+
+SENTENCE:  PPM at present.
+           NN  IN   JJ    
+
+SENTENCE:  **
+             
+
+SENTENCE:  1 ) R  lower   ext     Ulcer   and cellulitis - cellulitis initially treated with
+               JJ  JJ      NN       NN    CC      NN           NN        RB       VBN    IN 
+                        |======| |======|     |========|   |========|                       
+                        Disorder Disorder      Finding      Finding                         
+                        C0015306 C0041582      C0007642     C0007642                        
+
+SENTENCE:  nafcillin IV for 5 days with improvement in both swelling , erythema , and
+              NN     NN IN    NNS   IN      NN      IN  DT     NN         NN      CC 
+           |=======|                                        |======|   |======|      
+             Drug                                           Finding    Disorder      
+           C0027324                                         C0038999   C0041834      
+
+SENTENCE:    pain  .
+              NN    
+           |======| 
+           Finding  
+           C0030193 
+
+SENTENCE:  Discharge from the  wound   was cultured and grew out Ecoli and
+              NN      IN  DT     NN    VBD   VBN    CC  VBD  RP   NNP   . 
+                              |======|                                    
+                              Disorder                                    
+                              C0043250                                    
+
+SENTENCE:  Enterobacter , sensitive to  cipro  .
+               NNP           JJ     IN    NN    
+                          |=======|    |======| 
+                           Finding       Drug   
+                          C0020517     C0701042 
+
+SENTENCE:  Abx were switched to  cipro   which would
+           NNS VBD    VBN    IN    NN     WDT   MD  
+                                |======|            
+                                  Drug              
+                                C0701042            
+
+SENTENCE:  provide coverage for the gram negatives growing from her   wound   and also
+             VB       NN    IN  DT   NN     VBZ      VBG    IN  PRP$    NN    CC   RB 
+                                                                     |======|         
+                                                                     Disorder         
+                                                                     C0043250         
+
+SENTENCE:  cover her  cellulitis.
+            VB   PRP$     NN     
+                      |========| 
+                       Finding   
+                       C0007642  
+
+SENTENCE:  She will complete a  total abx course of 12 days
+           PRP  MD     VB    DT  JJ   NN    NN   IN    NNS 
+
+SENTENCE:  ( additional 5 days of  cipro   ).
+                 JJ       NNS  IN    NN      
+                                  |======|   
+                                    Drug     
+                                  C0701042   
+
+SENTENCE:  There was an initial concern for   DVT    but
+            EX   VBD DT   JJ      NN    IN     NN     . 
+                                            |======|    
+                                            Disorder    
+                                            C0149871    
+
+SENTENCE:  LENIS were negative.
+            NN   VBD     JJ    
+
+SENTENCE:    Zinc   and Vit  C   were added to her  regimen.
+              NN    CC  NN   NN  VBD   VBN  IN PRP$   NN    
+           |======|     |======|                            
+             Drug         Drug                              
+           C0043481     C0003968                            
+
+SENTENCE:  She will
+           PRP  MD 
+
+SENTENCE:  also need  Wound   changes with NS  wet to dry BID.
+            RB  VBP     NN      NNS    IN  NNS JJ  IN JJ  NN  
+                     |======|                                 
+                     Disorder                                 
+                     C0043250                                 
+
+SENTENCE:  The  ulcer   is  most  likely 
+           DT     NN    VBZ RBS     RB   
+               |======|          |======|
+               Disorder          Finding 
+               C0041582          C0332148
+
+SENTENCE:  due to poor  wound   healing in the setting of chronic  venous   stasis .
+           IN  IN  JJ     NN      VBG   IN DT    NN    IN   JJ       JJ       NN    
+                       |======|                                   |======| |======| 
+                       Disorder                                   Anatomy  Finding  
+                       C0043250                                   C0042449 C0333138 
+                                                                  |===============| 
+                                                                       Finding      
+                                                                      C0277919      
+
+SENTENCE:  It  was
+           PRP VBD
+
+SENTENCE:  also noted that she had very   weak   LE pulse so vascualar surgery was
+            RB   VBN   IN  PRP VBD  RB     JJ    NN  NN   IN    JJ       NN    VBD
+                                        |======|                                  
+                                        Finding                                   
+                                        C3714552                                  
+
+SENTENCE:  consulted.
+              VBN    
+
+SENTENCE:  She was found to have + peripheral pulses by  doppler  , and
+           PRP VBD  VBN  TO  VB        JJ      NNS   IN    NN       CC 
+                                   |===============|    |=======|      
+                                        Finding         Procedure      
+                                       C0232139         C0554756       
+
+SENTENCE:  follow up with vascular surgery was set up for her.
+             VB   RP  IN     JJ      NN    VBD VBN RP IN  PRP 
+                          |======|                            
+                          Anatomy                             
+                          C0005847                            
+                          |==============|                    
+                             Procedure                        
+                              C0042381                        
+
+SENTENCE:  She will also get
+           PRP  MD   RB  VB 
+
+SENTENCE:  umaboots and ABI at her  followup.
+             NNS    CC  NN  IN PRP$    NN    
+
+SENTENCE:  ***
+              
+
+SENTENCE:  2 ) bradycardia:
+                   NN      
+               |=========| 
+                 Finding   
+                C0428977   
+
+SENTENCE:  to 30's during  sleep  .
+           IN NNS    IN      NN    
+                          |======| 
+                          Finding  
+                          C0037313 
+
+SENTENCE:  Pt came in on atenolol which we 
+           NN VBD  IN IN    NN      ,   PRP
+                         |======|          
+                           Drug            
+                         C0004147          
+
+SENTENCE:  discontinued , esecially in the setting of CRI.
+               VBN           RB     IN DT    NN    IN NN  
+
+SENTENCE:  No tachyarrythmia on Tele.
+           DT       NN       IN  NN  
+
+SENTENCE:  Good HR response w / actviity up to 70s.
+            JJ  NN    NN    IN     NN    IN IN NNS 
+
+SENTENCE:  Evaluated by EP and felt that
+              VBN    IN NN CC  VBD   TO 
+
+SENTENCE:  she was not a  candidate for a  PPM at this point , especially since her 
+           PRP VBD RB  DT    NN     IN  DT NN  IN  DT   NN         RB      IN   PRP$
+
+SENTENCE:  bradycardia is  assymptomatic.
+               NN      VBZ      JJ       
+           |=========|                   
+             Finding                     
+            C0428977                     
+
+SENTENCE:  It  was felt that her  bradycardia is  most
+           PRP VBD VBN   IN  PRP$     NN      VBZ RBS 
+                                  |=========|         
+                                    Finding           
+                                   C0428977           
+
+SENTENCE:   likely  due to her    OSA    , and that she would benefit from a   sleep   study.
+              RB    IN  IN PRP$    NN      CC   IN  PRP  MD     VB     IN  DT    NN     NN   
+           |======|             |======|                                      |======|       
+           Finding              Disorder                                      Finding        
+           C0332148             C0520679                                      C0037313       
+                                                                              |============| 
+                                                                                Procedure    
+                                                                                 C0162701    
+
+SENTENCE:  If
+           NN
+
+SENTENCE:  her  bradycardia does not improve after treatment of her    OSA    , then she
+           PRP$     NN      VBZ  RB    VB     IN      NN     IN PRP$    NN       RB  PRP
+                |=========|                        |=======|         |======|           
+                  Finding                          Procedure         Disorder           
+                 C0428977                          C0087111          C0520679           
+
+SENTENCE:  will need to follow up with EP for further evaluation.
+            MD   VB  TO   VB   RP  IN  NN IN    JJ        NN     
+
+SENTENCE:  ***
+              
+
+SENTENCE:  3 )   ENdo   - fasting glucose   normal  , HGA1C -5.4.
+                  NN        VBG      NN       JJ       NN        
+               |======|           |======| |======|              
+               Disorder             Drug   Finding               
+               C0014175           C0017725 C0231683              
+                                           C0558145              
+
+SENTENCE:  ***
+              
+
+SENTENCE:  4 )  Renal   - CRI at baseline.
+                  JJ      NN  IN    NN    
+               |======|                   
+               Anatomy                    
+               C0022646                   
+
+SENTENCE:  No issues during hospitalization
+           DT  NNS     IN         NN       
+
+SENTENCE:  ADDITIONAL COMMENTS: 1. take antibiotics for full course , if  ulcer   or cellulitis worsens  or
+               JJ       NNS         VB      NNS     IN   JJ    NN     IN    NN    CC     NN       NNS    CC
+                                        |=========|                      |======|    |========| |======|   
+                                           Drug                          Disorder     Finding   Finding    
+                                         C0003232                        C0041582     C0007642  C1457868   
+
+SENTENCE:  does not improve after antibiotics please call your doctor
+           VBZ  RB    VB     IN       NNS       UH    VB  PRP$   NN  
+                                  |=========|                        
+                                     Drug                            
+                                   C0003232                          
+
+SENTENCE:  2. stop taking atenolol
+               VB   VBG      NN   
+                          |======|
+                            Drug  
+                          C0004147
+
+SENTENCE:  3. New medications:
+              JJ      NNS     
+                  |=========| 
+                     Drug     
+                   C0013227   
+
+SENTENCE:   cipro   , ascorbic acid ( vit  C   ) ,   zinc  
+              NN         JJ     NN    NN   NN         NN   
+           |======|   |===========|   |======|     |======|
+             Drug         Drug          Drug         Drug  
+           C0701042     C0003968      C0003968     C0043481
+
+SENTENCE:  4. Follow up with   PCP   
+                NN   RP  IN     NN   
+              |=======|      |======|
+               Finding         Drug  
+              C0589120       C0031381
+
+SENTENCE:  5. Appt for  sleep   study (  sleep   clinic will call with your scheduled
+               NN  IN     NN     NN        NN      NN    MD   VB   IN  PRP$    VBN   
+                       |======|         |======|                                     
+                       Finding          Finding                                      
+                       C0037313         C0037313                                     
+                       |============|                                                
+                         Procedure                                                   
+                          C0162701                                                   
+
+SENTENCE:  appt. )
+            NN    
+
+SENTENCE:  6.  Wound   care:
+                 NN     NN  
+              |======|      
+              Disorder      
+              C0043250      
+              |===========| 
+                Procedure   
+                C0886052    
+                C1272654    
+
+SENTENCE:  BID wet to dry dressing  changes with NS 
+           RB  JJ  IN JJ     NN       NNS    IN  NNS
+                          |=======|                 
+                          Procedure                 
+                          C0278286                  
+                          |=======|                 
+                           Finding                  
+                          C1305428                  
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  1. d /c  atenolol , avouid nodal blocking agents
+              NN NN    NN        NN    JJ      NN     NNS  
+                    |======|                |======|       
+                      Drug                  Disorder       
+                    C0004147                C0233660       
+
+SENTENCE:  2.  sleep   study - clinic will call patient with appt date
+                 NN     NN       NN    MD   VB    NN     IN   NN   NN 
+              |======|                                                
+              Finding                                                 
+              C0037313                                                
+              |============|                                          
+                Procedure                                             
+                 C0162701                                             
+
+SENTENCE:  3. if there is  no improvement of bradycardia after tx for   OSA    , follow up
+              IN  EX   VBZ DT     NN      IN     NN       IN   NN IN     NN        VB   NN
+                                             |=========|              |======|            
+                                               Finding                Disorder            
+                                              C0428977                C0520679            
+
+SENTENCE:  with EP.
+            IN  NN 
+
+SENTENCE:  4. Complete abx course ( 5 more days of  cipro   )
+                 JJ    NN    NN       RBR  NNS  IN    NN     
+                                                   |======|  
+                                                     Drug    
+                                                   C0701042  
+
+SENTENCE:  5. vascular surgery appt with Dr. Gleeson
+                 JJ      NN     NN   IN  NNP   NNP  
+              |======|                              
+              Anatomy                               
+              C0005847                              
+              |==============|                      
+                 Procedure                          
+                  C0042381                          
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  MANGRICH , VALENTINE K.  , M.D. ( HN46 ) 5/18/06 @ 05
+              NN         NNP    NNP   NNP    NNP                
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

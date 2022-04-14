@@ -1,0 +1,421 @@
+SENTENCE:  886445546 | LMC | 72712624 | | 191709 | 10/10/2000 12:00:00 AM | non cardiac   chest     pain   | |   DIS    | Admission Date:
+                       NN                                              NN   AFX    JJ       NN       NN           NN         NN      NN  
+                                                                                |======| |======| |======|     |======|                  
+                                                                                Anatomy  Anatomy  Finding      Finding                   
+                                                                                C0018787 C0817096 C0030193     C1444662                  
+                                                                                         |===============|     |======|                  
+                                                                                              Finding          Disorder                  
+                                                                                             C0008031          C0012634                  
+                                                                                                               C1970187                  
+                                                                                |========================|                               
+                                                                                         Finding                                         
+                                                                                         C0423636                                        
+
+SENTENCE:  10/10/2000 Report Status:
+                        NN     NN   
+                      |===========| 
+                         Finding    
+                        C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  8/14/2000
+                    
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  LINNEAR , JASPER 024-62-57-0
+             JJ       NNP              
+
+SENTENCE:  Charl Ton-
+            NN   NN  
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CAR
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  2/3 AT 02:00 PM
+               IN       NN
+
+SENTENCE:  CONTINGENT UPON HO evaluation
+               NN      IN  NN     NN    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  ZOMORA , DOUG DANTE ,  M . D .
+            NNP     NNP   NNP    NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:    ASA    ( ACETYLSALICYLIC ACID ) 325 MG PO QD
+              NN            NN         NN        NN FW FW
+           |======|   |==================|               
+             Drug             Drug                       
+           C0004057         C0004057                     
+
+SENTENCE:  ATENOLOL 25 MG PO QD Starting  Today   ( 9/1 )
+             NNP       NN FW FW    NN       NN           
+           |======|                      |======|        
+             Drug                          Drug          
+           C0004147                      C0310367        
+
+SENTENCE:  PREMARIN ( CONJUGATED ESTROGENS ) 0.625 MG PO QD
+              NN          JJ        NNP            NN FW FW
+           |======|   |========| |=======|                 
+             Drug        Drug      Drug                    
+           C0699710    C0301869  C0014939                  
+                      |==================|                 
+                              Drug                         
+                            C0014938                       
+
+SENTENCE:    NPH    HUMULIN  INSULIN  ( INSULIN    NPH    HUMAN ) 50 U  SC BID
+              NN       NN       NN         NN       NN     NN        NN NN RB 
+           |======| |======| |======|   |======| |======|                     
+           Disorder   Drug     Drug       Drug   Disorder                     
+           C0020258 C3538423 C0021641   C0021641 C0020258                     
+                                        |===============|                     
+                                              Drug                            
+                                            C0021658                          
+                                        |=====================|               
+                                                 Drug                         
+                                               C0795633                       
+
+SENTENCE:  HOLD IF: if BG <100
+            NN  IN  IN NN     
+
+SENTENCE:  PRINIVIL ( LISINOPRIL ) 40 MG PO QD HOLD IF:
+              NN          NN          NN FW FW  NN  IN 
+           |======|   |========|                       
+             Drug        Drug                          
+           C0701176    C0065374                        
+
+SENTENCE:  SBP<90
+           NN    
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 10/30 by RATAJ , DUSTIN V.  ,  M . D .
+              JJ     VBN  IN       IN  NN      NNP   NNP   NNP NNP 
+
+SENTENCE:  on order for   KCL    IMMEDIATE REL.
+           IN  NN   IN    NNP       NN     NN  
+                        |======|               
+                          Drug                 
+                        C0032825               
+
+SENTENCE:  PO ( ref # 62562432 )
+           NN   NN              
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  monitored
+              VBN   
+
+SENTENCE:  NAPROSYN ( NAPROXEN ) 375 MG PO BID PRN   pain  
+              NN        NNP          NN JJ FW  FW     NN   
+           |======|   |======|                     |======|
+             Drug       Drug                       Finding 
+           C0700017   C0027396                     C0030193
+
+SENTENCE:  Food/  Drug   Interaction Instruction Take with food
+           NNP    NNP        NN          NN       VB   IN   NN 
+                |======| |=========|                           
+                  Drug     Finding                             
+                C0013227  C0687133                             
+
+SENTENCE:  DITROPAN ( OXYBUTYNIN CHLORIDE ) 5 MG PO BID
+              NN          NN        NN        NN NN RB 
+           |======|   |========| |======|              
+             Drug        Drug      Drug                
+           C0591395    C0069805  C0596019              
+                      |=================|              
+                             Drug                      
+                           C0134394                    
+
+SENTENCE:  SIMETHICONE 80 MG PO QID
+               NN         NN JJ NN 
+           |=========|             
+              Drug                 
+            C0037138               
+
+SENTENCE:   ZOCOR   ( SIMVASTATIN ) 40 MG PO QHS
+             NNP          NNP          NN JJ NN 
+           |======|   |=========|               
+             Drug        Drug                   
+           C0678181    C0074554                 
+
+SENTENCE:  CARDURA  ( DOXAZOSIN ) 1 MG PO QHS
+              NN         NNP        NN JJ NN 
+           |======|   |=======|              
+             Drug       Drug                 
+           C0678136   C0114873               
+
+SENTENCE:   ADALAT  CC ( NIFEDIPINE ( EXTENDED  RELEASE  ) ) 30 MG PO QD
+              NN    NN       NN         VBN       NN            NN FW FW
+           |======|      |========|            |=======|                
+             Drug           Drug               Procedure                
+           C0590658       C0028066             C1963578                 
+           |=========|                                                  
+              Drug                                                      
+            C0718257                                                    
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  No Restrictions
+           DT     NNS     
+
+SENTENCE:  RETURN TO   WORK  :
+             NN   IN    NN    
+                     |======| 
+                     Finding  
+                     C0043227 
+           |================| 
+                Finding       
+                C0425105      
+
+SENTENCE:  IN 2 DAYS
+           IN   NNS 
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Fjeseth 1 week ,
+           NNP   NNP      NN   
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Lovastatin ,   Hctz   ( hydrochlorothiazide )
+              NNP         NNP              NN           
+           |========|   |======|   |=================|  
+              Drug        Drug            Drug          
+            C0024027    C0020261        C0020261        
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  unstable  angina  ,   chf   
+              JJ       NN         NN   
+           |======| |======|   |======|
+           Finding  Finding    Disorder
+           C0443343 C0002962   C0018802
+           |===============|           
+               Disorder                
+               C0002965                
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  non cardiac   chest     pain  
+           AFX    JJ       NN       NN   
+               |======| |======| |======|
+               Anatomy  Anatomy  Finding 
+               C0018787 C0817096 C0030193
+                        |===============|
+                             Finding     
+                            C0008031     
+               |========================|
+                        Finding          
+                        C0423636         
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  GI distress , non cardiac   stress    pain  .
+           NN    NN      AFX    JJ       NN       NN    
+              |======|       |======| |======| |======| 
+              Finding        Anatomy  Finding  Finding  
+              C0231303       C0018787 C0038435 C0030193 
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  53 yo female with DM ,   HTN    , s /p  MI 1980 , presenting with crescendo  angina 
+              JJ   NN    IN  NN      NN      NN IN NN            NN      IN     NN        NN   
+                                  |======|                                             |======|
+                                  Disorder                                             Finding 
+                                  C0020538                                             C0002962
+                                                                             |================|
+                                                                                  Disorder     
+                                                                                  C0002965     
+
+SENTENCE:  and hypertension.
+           CC       NN      
+               |==========| 
+                 Disorder   
+                 C0020538   
+
+SENTENCE:  Patient's  blood   pressure was controlled with
+             NN         NN       NN    VBD    VBN      IN 
+                     |======| |======|                    
+                     Anatomy  Finding                     
+                     C0005767 C0460139                    
+                     |===============|                    
+                          Finding                         
+                         C0005823                         
+
+SENTENCE:  Atenolol 25mg qd , prinivil 40 qd , and  adalat  CC 30 qd.
+             NNP    NNS  FW      NN       FW   CC     NN    NN    FW 
+           |======|           |======|             |======|          
+             Drug               Drug                 Drug            
+           C0004147           C0701176             C0590658          
+                                                   |=========|       
+                                                      Drug           
+                                                    C0718257         
+
+SENTENCE:  Overnight the
+              IN      : 
+
+SENTENCE:  patient was noted to be hypertensive with a  pulse in the 45's.
+             NN    VBD  VBN  TO VB      JJ       IN  DT  NN   IN DT   LS  
+
+SENTENCE:  Cardura 
+             NNP   
+           |======|
+             Drug  
+           C0678136
+
+SENTENCE:  1mg qhs was added for additional control.
+           NN  FW  VBD  VBN  IN      JJ       NN    
+
+SENTENCE:  Patient was taken to   cath   
+             NN    VBD  VBN  IN    NN    
+                                |=======|
+                                Procedure
+                                C0007430 
+
+SENTENCE:  which revealed clean coronary arteries and   LVH    with EF 68%.
+            WDT    VBD     JJ      JJ      NNS    CC     NN     IN  NN     
+                                |======| |======|     |======|             
+                                Anatomy  Anatomy      Disorder             
+                                C0018787 C0003842     C0149721             
+                                |===============|                          
+                                     Anatomy                               
+                                    C0205042                               
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  call Dr. Darell Amoako you experience further  chest     pain  .
+            NN  NNP  NNP    NNP   PRP     VB       JJ       NN       NN    
+                                                         |======| |======| 
+                                                         Anatomy  Finding  
+                                                         C0817096 C0030193 
+                                                         |===============| 
+                                                              Finding      
+                                                             C0008031      
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  follow up with Dr. Quashie regarding further management of BP.
+             VB   RP  IN  NNP   NNP      VBG      JJ        NN     IN NN 
+                                                        |========|       
+                                                         Finding         
+                                                         C1273870        
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  BROWEN , RODRIGO C.  , M.D. ( XP607 ) 2/3 @ 09
+             NN       NN    NNP   NNP     NNP            
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

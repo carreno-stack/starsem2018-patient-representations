@@ -1,0 +1,493 @@
+SENTENCE:  589051210 | CM  | 19459871 | | 503660 | 11/4/1994 12:00:00 AM | Discharge Summary | Unsigned |   DIS    | Admission Date:
+                       NNS                                            NN      NN       NN         JJ         NN         NN      NN  
+                                                                                                          |======|                  
+                                                                                                          Finding                   
+                                                                                                          C1444662                  
+                                                                                                          |======|                  
+                                                                                                          Disorder                  
+                                                                                                          C0012634                  
+                                                                                                          C1970187                  
+
+SENTENCE:  10/20/1994 Report Status:
+                        NN     NN   
+                      |===========| 
+                         Finding    
+                        C0586177    
+
+SENTENCE:  Unsigned
+              JJ   
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  11/18/1994
+                     
+
+SENTENCE:  ADMITTING DIAGNOSIS:
+              JJ        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+           |=================| 
+                 Finding       
+                C0332133       
+
+SENTENCE:  UNSTABLE  ANGINA 
+              JJ       NN   
+           |======| |======|
+           Finding  Finding 
+           C0443343 C0002962
+           |===============|
+               Disorder     
+               C0002965     
+
+SENTENCE:  DISCHARGE DIAGNOSIS:
+              NNP       NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  UNSTABLE  ANGINA 
+              JJ       NN   
+           |======| |======|
+           Finding  Finding 
+           C0443343 C0002962
+           |===============|
+               Disorder     
+               C0002965     
+
+SENTENCE:  OPERATIONS/PROCEDURES: CORONARY  ARTERY   BYPASS   GRAFTING  , FOUR
+              NNS        NNS         NN       NN       NN        NN        CD 
+                      |========|  |======| |======| |=======| |=======|       
+                      Procedure   Anatomy  Anatomy  Procedure Procedure       
+                       C0184661   C0018787 C0003842 C0741847  C1961139        
+                                  |===============| |=================|       
+                                       Anatomy           Procedure            
+                                      C0205042           C0185098             
+                                  |=========================|                 
+                                           Procedure                          
+                                           C0010055                           
+
+SENTENCE:   VESSEL  , BY DR .
+              NN      IN NNP 
+           |======|          
+           Anatomy           
+           C0005847          
+
+SENTENCE:  HERNANDAZ , , 7/18/94
+              NN                
+
+SENTENCE:  STERNAL REWIRING , BY DR .
+             JJ       NN      IN NNP 
+
+SENTENCE:  TAUAREZ , , 11/8/94
+             NN               
+
+SENTENCE:  BRIEF HISTORY  OF PRESENT ILLNESS :
+            NN      NN    IN   JJ       NN    
+                 |======|            |======| 
+                 Finding             Finding  
+                 C0262926            C0221423 
+
+SENTENCE:  Mr. Nodd is  a  56 year old
+           NNP NNP  VBZ DT     NN  JJ 
+
+SENTENCE:  gentleman , with a  history  of
+              NN        IN  DT    NN    IN
+                               |======|   
+                               Finding    
+                               C0262926   
+
+SENTENCE:  myocardial infarction , who presents with unstable  angina .
+               JJ         NN       WP    VBZ     IN     JJ       NN    
+                      |========|                     |======| |======| 
+                       Finding                       Finding  Finding  
+                       C0021308                      C0443343 C0002962 
+           |===================|                     |===============| 
+                 Disorder                                Disorder      
+                 C0027051                                C0002965      
+
+SENTENCE:  Cardiac 
+              JJ   
+           |======|
+           Anatomy 
+           C0018787
+
+SENTENCE:  history  is  significant for echocardiogram , which revealed inferior
+              NN    VBZ     JJ      IN        NN          WDT    VBD       JJ   
+           |======|                     |============|                          
+           Finding                        Procedure                             
+           C0262926                        C0013516                             
+
+SENTENCE:  myocardial infarction , three  vessel  disease  , unstable  angina  ,   mild  
+               JJ         NN        CD      NN       NN         JJ       NN         JJ   
+                      |========|         |======| |======|   |======| |======|   |======|
+                       Finding           Anatomy  Disorder   Finding  Finding    Finding 
+                       C0021308          C0005847 C0012634   C0443343 C0002962   C1513302
+           |===================|                             |===============|           
+                 Disorder                                        Disorder                
+                 C0027051                                        C0002965                
+
+SENTENCE:  LV  dysfunction , and an ejection fraction of 40%.
+           NNP     NN        CC  DT    NN       NN    IN     
+               |=========|          |======|                 
+                 Finding            Finding                  
+                C0277785            C0336969                 
+
+SENTENCE:  Cardiac 
+              JJ   
+           |======|
+           Anatomy 
+           C0018787
+
+SENTENCE:  catheterization reveals preliminary ejection fraction of 35% , 70%
+                 NN          VBZ       JJ         NN       NN    IN          
+           |=============|                     |======|                      
+              Procedure                        Finding                       
+              C0007430                         C0336969                      
+
+SENTENCE:  RCA , 70%   PDA    , 70%   LAD    , 70% D -2 , and mid left circumflex.
+           NN           NN             NN          NN     CC  JJ   JJ      NN     
+                     |======|       |======|                                      
+                     Anatomy        Anatomy                                       
+                     C0226047       C0226032                                      
+                     |======|       |======|                                      
+                     Disorder       Disorder                                      
+                     C0013274       C0398738                                      
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Significant for hypercholesterolemia ,
+               JJ      IN           NN           
+                           |==================|  
+                                 Disorder        
+                                 C0020443        
+
+SENTENCE:  pulmonary embolism in 1987 ,
+              JJ        NN    IN       
+           |=======| |======|          
+            Anatomy  Finding           
+           C0024109  C0013922          
+           |================|          
+                Disorder               
+                C0034065               
+
+SENTENCE:  peripherovascular disease  in the 70's , non-insulin dependent
+                  JJ            NN    IN DT  NNS        NN         JJ    
+                             |======|                                    
+                             Disorder                                    
+                             C0012634                                    
+
+SENTENCE:  diabetes , history  of hepatitis B  , and left shoulder fracture.
+              NN         NN    IN    NN     NN   CC   JJ     NN       NN    
+           |======|   |======|    |=======|               |======| |======| 
+           Disorder   Finding     Disorder                Anatomy  Disorder 
+           C0011849   C0262926    C0019158                C0037004 C0016658 
+                                  |==========|       |===========|          
+                                    Disorder            Anatomy             
+                                    C0019163           C0524469             
+                      |======================|            |===============| 
+                              Finding                         Disorder      
+                              C1997078                        C0037006      
+
+SENTENCE:  PAST SURGICAL HISTORY :
+            JJ     JJ       NN    
+                         |======| 
+                         Finding  
+                         C0262926 
+
+SENTENCE:    PTCA    of the   LAD    and left circumflex in
+              NN     IN DT     NN    CC   JJ      NN     NN
+           |=======|        |======|                       
+           Procedure        Anatomy                        
+           C2936173         C0226032                       
+                            |======|                       
+                            Disorder                       
+                            C0398738                       
+
+SENTENCE:  1986.
+                
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  Isordil  , which causes  nausea .
+             NNP       WDT   VBZ      NN    
+           |======|                |======| 
+             Drug                  Finding  
+           C0590720                C0027497 
+
+SENTENCE:  MEDICATIONS ON ADMISSION:
+               NNS     IN    NN     
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  Lopressor 100 mg .
+              NNP        NNS 
+           |=======|         
+             Drug            
+           C0700776          
+
+SENTENCE:  p.o. q. d. ,
+            FW  FW FW  
+
+SENTENCE:  nitroglycerin sublingual , glyburide
+                NN           RB          NN    
+           |===========| |========|   |=======|
+               Drug       Anatomy       Drug   
+             C0017887     C0558302    C0017628 
+
+SENTENCE:  2.5 mg .
+               NNS 
+
+SENTENCE:  p.o. q. d. , and Ecotrin  one  tablet  p.o. q. d. ,
+            FW  FW FW   CC    NNP    CD     NN     FW  FW FW  
+                            |======|     |======|             
+                              Drug         Drug               
+                            C0699274     C0039225             
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  Mr. Auzston was admitted to the hospital on the 30 of October , 1994.
+           NNP   NN    VBD   VBN    IN DT     NN    IN DT     IN   NNP          
+
+SENTENCE:  He  was taken to the operating
+           PRP VBD  VBN  IN DT     NN    
+
+SENTENCE:  room on the 28 of April , 1994 , where he  underwent a  four  vessel 
+            NN  IN DT     IN  NNP            WRB  PRP    VBD    DT  CD     NN   
+                                                                        |======|
+                                                                        Anatomy 
+                                                                        C0005847
+
+SENTENCE:  coronary  artery   bypass   grafting .
+              JJ       NN       NN        NN     
+           |======| |======| |=======| |=======| 
+           Anatomy  Anatomy  Procedure Procedure 
+           C0018787 C0003842 C0741847  C1961139  
+           |===============| |=================| 
+                Anatomy           Procedure      
+               C0205042           C0185098       
+           |=========================|           
+                    Procedure                    
+                    C0010055                     
+
+SENTENCE:  The patient tolerated the
+           DT    NN       VBD     . 
+
+SENTENCE:  procedure well.
+              NN      RB  
+           |=======|      
+           Procedure      
+           C0184661       
+
+SENTENCE:  His  postoperative course has been complicated by
+           PRP$      JJ         NN   VBZ VBN      VBN     IN
+
+SENTENCE:  the following:
+           DT     NN     
+
+SENTENCE:  ( 1 ) Unstable sternum  , diagnosed at the bedside.
+                    JJ       NN         VBN    IN DT    NN    
+                 |======| |======|                            
+                 Finding  Anatomy                             
+                 C0443343 C0038293                            
+
+SENTENCE:  The patient was taken back to the operating room on the 6 of September , 1994 , where he  underwent sternal rewiring.
+           DT    NN    VBD  VBN   RB  IN DT     NN      NN  IN DT    IN    NNP              WRB  PRP    VBD      JJ       NN    
+
+SENTENCE:  The patient has
+           DT    NN    VBZ
+
+SENTENCE:  been stable from a  cardiac  standpoint.
+           VBN    JJ    IN  DT    JJ        NN     
+                               |======|            
+                               Anatomy             
+                               C0018787            
+
+SENTENCE:  ( 2 )
+                
+
+SENTENCE:  A  hemorrhoid and  rectal  prolapse was noted when the patient was
+           DT     NN     CC     JJ       NN    VBD  VBN  WRB  DT    NN    VBD
+              |========|     |======| |======|                               
+               Disorder        Drug   Disorder                               
+               C0019112      C1272938 C0033377                               
+                             |===============|                               
+                                 Disorder                                    
+                                 C0034888                                    
+
+SENTENCE:  straining to use the restroom.
+              NN     TO VB  DT     NN    
+
+SENTENCE:  A  General Surgery consult was
+           LS   JJ      NN      NN     . 
+
+SENTENCE:  initiated , with Dr. Yobst He  felt that the patient's condition
+              VBN       IN  NNP  NNP  PRP VBD   IN  DT    NN         NN    
+                                                                  |=======|
+                                                                  Disorder 
+                                                                  C0012634 
+
+SENTENCE:  was stable for discharge  today   , and that he  would be medically
+           VBD   JJ   IN     NN        NN      CC   IN  PRP  MD   VB    RB    
+                                    |======|                                  
+                                      Drug                                    
+                                    C0310367                                  
+
+SENTENCE:  managed with Metamucil ,  Colace  , sitz baths , and  Anusol  HC per
+             VBN    IN     NNP        NNP       NN   NNS    CC     NN    NN IN 
+                        |=======|   |======|                    |======|       
+                          Drug        Drug                        Drug         
+                        C0025559    C0282139                    C0483244       
+                                                                |=========|    
+                                                                   Drug        
+                                                                 C0591101      
+
+SENTENCE:   rectum  twice a  day.
+              NN     RB   DT NN  
+           |======|              
+           Anatomy               
+           C0034896              
+
+SENTENCE:  The patient will followup with Dr. Muskett It
+           DT    NN     MD     VB     IN  NNP   NNP   . 
+
+SENTENCE:  will also be discussed whether patient will benefit from a 
+            MD   RB  VB    VBN      IN      NN     MD    VB     IN  CD
+
+SENTENCE:  colonoscopy to rule out the chance that a   polyp   is  associated with
+               NN      TO  VB  RP  DT    NN    IN  DT    NN    VBZ     JJ      IN 
+           |=========|                                |======|                    
+            Procedure                                 Disorder                    
+            C0009378                                  C0032584                    
+
+SENTENCE:  his   rectal  prolapse.
+           PRP$    JJ       NN    
+                |======| |======| 
+                  Drug   Disorder 
+                C1272938 C0033377 
+                |===============| 
+                    Disorder      
+                    C0034888      
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  The patient is  discharged to home , with his  family ,
+           DT    NN    VBZ    VBN     IN  NN     IN  PRP$   NN    
+
+SENTENCE:  in stable condition.
+           IN   JJ      NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Glyburide 2.5 mg .
+              NNP        NNS 
+           |=======|         
+             Drug            
+           C0017628          
+
+SENTENCE:  p.o. q. d. , Lopressor
+            FW  FW FW      NNP   
+                        |=======|
+                          Drug   
+                        C0700776 
+
+SENTENCE:  25 mg .
+              NNS 
+
+SENTENCE:  p.o. b.i.d. , Ecotrin  325 mg .
+            FW    FW       NNP        NNS 
+                         |======|         
+                           Drug           
+                         C0699274         
+
+SENTENCE:  p .o .
+           RB NN 
+
+SENTENCE:  q. d. ,  Lasix   20 mg .
+           FW JJ     NNP       NNS 
+                   |======|        
+                     Drug          
+                   C0699992        
+
+SENTENCE:  p.o. q. d. ,   KCL    20 mEq.
+            FW  FW FW     NNP       NNS 
+                        |======|        
+                          Drug          
+                        C0032825        
+
+SENTENCE:  p.o. q. d. , Metamucil
+            FW  FW FW      NNP   
+                        |=======|
+                          Drug   
+                        C0025559 
+
+SENTENCE:  two packs p.o. b.i.d. ,  Anusol  HC  one suppository per  rectum  b.i.d. ,
+           CD   NNS   FW    FW       NNP    NNP CD      NN      IN     NN      FW    
+                                   |======|         |=========|     |======|         
+                                     Drug              Drug         Anatomy          
+                                   C0483244          C0038854       C0034896         
+                                   |==========|                                      
+                                       Drug                                          
+                                     C0591101                                        
+
+SENTENCE:  sitz baths b.i.d. , and  Motrin  600 mg .
+            NN   NNS    FW     CC    NNP        NNS 
+                                   |======|         
+                                     Drug           
+                                   C0699203         
+
+SENTENCE:  p.o. q . i . d .
+            FW  FW NNS VBN 
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  DONALD KINTIGH ,  M . D .
+            NNP     NNP     NNP NNP 
+
+SENTENCE:  SO8
+           NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  BRETT J.  PANTALONE ,  M . D .
+            NN   NNP    NNP      NNP NNP 
+
+SENTENCE:  JJ84
+            NN 
+
+SENTENCE:  WD752/1206
+            NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  8369 Index No. LFLH1M4QZT D : 9/21/94
+                 NNP  NN      NN     NN         
+
+SENTENCE:  T : 9/21/94
+           NN         
+

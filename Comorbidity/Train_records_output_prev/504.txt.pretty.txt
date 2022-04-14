@@ -1,0 +1,368 @@
+SENTENCE:  223696268 | IGH | 37001761 | | 763676 | 11/18/1997 12:00:00 AM | ? MYOCARDIAL INFARCTION | Signed |   DIS    | Admission Date:
+                       NN                                              NN         JJ         NN        VBN        NN         NN      NN  
+                                                                                         |========|            |======|                  
+                                                                                          Finding              Finding                   
+                                                                                          C0021308             C1444662                  
+                                                                              |===================|            |======|                  
+                                                                                    Disorder                   Disorder                  
+                                                                                    C0027051                   C0012634                  
+                                                                                                               C1970187                  
+
+SENTENCE:  1/12/1997 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  4/3/1997
+                   
+
+SENTENCE:  DIAGNOSIS:
+              NN     
+           |=======| 
+            Finding  
+           C0011900  
+
+SENTENCE:  RULE OUT MYOCARDIAL INFARCTION.
+            VB  RP      JJ         NN     
+                               |========| 
+                                Finding   
+                                C0021308  
+                    |===================| 
+                          Disorder        
+                          C0027051        
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient is  a  35 year old female
+           DT    NN    VBZ DT     NN  JJ    NN  
+
+SENTENCE:  with hypertension and diabetes.
+            IN       NN      CC     NN    
+                |==========|     |======| 
+                  Disorder       Disorder 
+                  C0020538       C0011849 
+
+SENTENCE:  On
+           IN
+
+SENTENCE:  the day of admission , she became very  upset   with her  daughter and
+           DT  NN  IN    NN       PRP  VBD    RB     JJ     IN  PRP$    NN     . 
+                                                  |======|                       
+                                                  Finding                        
+                                                  C3887804                       
+
+SENTENCE:  then developed  chest   pressure , shortness of breath , left   arm   
+            RB     VBD       NN       NN         NN     IN   NN      JJ     NN   
+                          |======| |======|   |=================|        |======|
+                          Anatomy  Finding          Finding              Anatomy 
+                          C0817096 C0460139        C0013404              C0446516
+                          |===============|                         |===========|
+                               Finding                                 Anatomy   
+                              C0438716                                C0230347   
+
+SENTENCE:  numbness and dizziness.
+              NN    CC     NN     
+           |======|     |=======| 
+           Finding       Finding  
+           C0028643     C0012833  
+
+SENTENCE:  She called the emergency medical
+           PRP  VBD   DT     NN       JJ   
+
+SENTENCE:  technicians , and her  symptoms resolved after 2 sublingual
+               NNS       CC  PRP$   NNS      VBD     IN         JJ    
+                                                            |========|
+                                                             Anatomy  
+                                                             C0558302 
+
+SENTENCE:  nitroglycerin , and she was admitted to the Short Stay Unit.
+                NN         CC  PRP VBD   VBN    IN DT   JJ    NN   NN  
+           |===========|                                               
+               Drug                                                    
+             C0017887                                                  
+
+SENTENCE:  PAST
+            JJ 
+
+SENTENCE:  MEDICAL HISTORY  includes adult-onset diabetes mellitus ,
+             JJ       NN      VBZ     NN    NN      NN       NN     
+                   |======|                      |======|           
+                   Finding                       Disorder           
+                   C0262926                      C0011849           
+                                     |==================|           
+                                           Disorder                 
+                                           C0011860                 
+
+SENTENCE:  hypertension.
+                NN      
+           |==========| 
+             Disorder   
+             C0020538   
+
+SENTENCE:  The patient has no known   drug   ALLERGIES.
+           DT    NN    VBZ DT  JJ      NN       NNS    
+                                    |======| |=======| 
+                                      Drug    Finding  
+                                    C0013227 C0020517  
+                                    |================| 
+                                         Disorder      
+                                         C0013182      
+
+SENTENCE:  MEDICATIONS ON ADMISSION were atenolol , 50 milligrams each day ,
+               NNS     IN    NN     VBD    NNP            NNS      DT  NN   
+           |=========|                   |======|                           
+              Drug                         Drug                             
+            C0013227                     C0004147                           
+
+SENTENCE:  hydrochlorothiazide , 25 milligrams each day , Lisinopril , 10
+                   NN                  NNS      DT  NN       NNP         
+           |=================|                            |========|     
+                  Drug                                       Drug        
+                C0020261                                   C0065374      
+
+SENTENCE:  milligrams each day , metformin , 500 milligrams twice a  day.
+              NNS      DT  NN       NN              NNS      RB   DT NN  
+                                 |=======|                               
+                                   Drug                                  
+                                 C0025598                                
+
+SENTENCE:  SOCIAL
+             JJ  
+
+SENTENCE:  HISTORY  revealed the patient does not smoke nor drink.
+              NN      VBD    DT    NN    VBZ  RB   VB   CC   VB   
+           |======|                                               
+           Finding                                                
+           C0262926                                               
+
+SENTENCE:  FAMILY
+             NN  
+
+SENTENCE:  HISTORY  is  notable for hypertension.
+              NN    VBZ   JJ    IN       NN      
+           |======|                 |==========| 
+           Finding                    Disorder   
+           C0262926                   C0020538   
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  Temperature was 98 , respiratory rate 16 ,
+               NN      VBD          JJ       NN      
+
+SENTENCE:   heart   rate 94 ,  blood   pressure 150/80 ,  oxygen 
+              NN     NN          NN       NN                NN   
+           |======|           |======| |======|          |======|
+           Anatomy            Anatomy  Finding             Drug  
+           C0018787           C0005767 C0460139          C0030054
+                              |===============|                  
+                                   Finding                       
+                                  C0005823                       
+
+SENTENCE:  saturation 94% on room   air   .
+               NN         IN  NN     NN    
+                                  |======| 
+                                    Drug   
+                                  C3536832 
+
+SENTENCE:  She was comfortable.
+           PRP VBD     JJ      
+
+SENTENCE:    Head   ,   eyes   ,
+              NN        NNS     
+           |======|   |======|  
+           Anatomy    Anatomy   
+           C0018670   C0015392  
+
+SENTENCE:    ears   ,   nose   and  throat  examination showed no jugular  venous 
+             NNS         NN    CC     NN        NN       VBD   DT   JJ       JJ   
+           |======|   |======|     |======|                               |======|
+           Anatomy    Anatomy      Anatomy                                Anatomy 
+           C0013443   C0028429     C0031354                               C0042449
+                      |===============================|                           
+                                  Procedure                                       
+                                  C0199424                                        
+
+SENTENCE:  distension.
+               NN     
+           |========| 
+            Finding   
+            C0012359  
+
+SENTENCE:   Lungs   were clear to auscultation.
+             NNS    VBD   JJ   IN      NN      
+           |======|               |==========| 
+           Anatomy                 Procedure   
+           C0024109                 C0004339   
+
+SENTENCE:  Cardiovascular
+                 NN      
+           |============|
+              Anatomy    
+              C0007226   
+
+SENTENCE:  examination showed regular rate and rhythm ,  normal  S1 and S2.
+               NN       VBD     JJ     NN  CC    NN        JJ    NN CC  NN 
+                                                        |======|           
+                                                        Finding            
+                                                        C0231683           
+                                                        C0558145           
+
+SENTENCE:  Abdomen  was benign.
+              NN    VBD   JJ   
+           |======|            
+           Anatomy             
+           C0000726            
+
+SENTENCE:  Extremities had no clubbing , cyanosis nor
+               NNS     VBD DT    NN         NN    JJ 
+           |=========|        |======|   |======|    
+             Anatomy          Finding    Finding     
+            C0015385          C0149651   C0010520    
+
+SENTENCE:   edema  .
+              NN    
+           |======| 
+           Finding  
+           C0013604 
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was admitted to the Short Stay Unit
+           DT    NN    VBD   VBN    IN DT   JJ    NN   NN 
+
+SENTENCE:  to rule out myocardial infarction.
+           TO  VB  RP      JJ         NN     
+                                  |========| 
+                                   Finding   
+                                   C0021308  
+                       |===================| 
+                             Disorder        
+                             C0027051        
+
+SENTENCE:  She had no
+           PRP VBD UH
+
+SENTENCE:  events on the cardiac  monitor and serial   CPK   's were negative.
+            NNS   IN DT     JJ      NN    CC    JJ      NN      VBD     JJ    
+                         |======|                    |======|                 
+                         Anatomy                       Drug                   
+                         C0018787                    C0010287                 
+                         |==============|                                     
+                            Procedure                                         
+                             C0150496                                         
+
+SENTENCE:  On
+           IN
+
+SENTENCE:  hospital day #2 , she underwent an exercise   test    with a  standard
+              NN    NN       PRP    VBD    DT    NN       NN      IN  DT    JJ   
+                                              |======| |=======|                 
+                                              Finding  Procedure                 
+                                              C0015259 C0022885                  
+                                                       |=======|                 
+                                                        Finding                  
+                                                       C0456984                  
+                                              |================|                 
+                                                  Procedure                      
+                                                   C0015260                      
+
+SENTENCE:  Bruce protocol , going 9 minutes with a  maximum  heart   rate of 180 ,
+            NNP     NN       VBG      NNS    IN  DT   JJ       NN     NN  IN      
+           |============|                                   |======|              
+             Procedure                                      Anatomy               
+              C0442713                                      C0018787              
+
+SENTENCE:  maximum  blood   pressure 200/100.
+             JJ       NN       NN            
+                   |======| |======|         
+                   Anatomy  Finding          
+                   C0005767 C0460139         
+                   |===============|         
+                        Finding              
+                       C0005823              
+
+SENTENCE:  She had no symptoms , no
+           PRP VBD DT   NNS      RB
+                   |=========|     
+                     Finding       
+                    C0231221       
+
+SENTENCE:  electrocardiogram changes and no evidence of ischemia.
+                  NN           NNS   CC  DT    NN    IN    NN    
+           |===============|                            |======| 
+               Procedure                                Finding  
+               C1623258                                 C0022116 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  The patient was discharged home.
+           DT    NN    VBD    VBN      NN  
+
+SENTENCE:  MEDICATIONS ON 
+               NNS     NNP
+           |=========|    
+              Drug        
+            C0013227      
+
+SENTENCE:  DISCHARGE are her  usual medications.
+              NN     VBP PRP$  JJ       NNS     
+                                    |=========| 
+                                       Drug     
+                                     C0013227   
+
+SENTENCE:  She is  to
+           PRP VBZ TO
+
+SENTENCE:  FOLLOW-UP in BER HOSPITAL clinic.
+             NN   NN IN NN     NN      NN   
+           |=======|                        
+            Finding                         
+           C0589120                         
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  DAVE A.  LUNNING ,  M . D .
+            JJ  NNP   NNP     NNP NNP 
+
+SENTENCE:  DK71
+            NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  JAYSON J.  BLUMENKRANTZ ,  M . D .
+            NNP   NNP     NNP        NNP NNP 
+
+SENTENCE:  YY89  XV323/8155
+            CD    CD       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  1700 Index No. GAHE1905QD D : 10/26/97
+                 NNP  NN      NN     NN          
+
+SENTENCE:  T : 10/26/97
+           NN          
+
+SENTENCE:  CC: 1. HOYT L.  SYLNEY ,  M . D .
+           NN      NN  NNP   NN     NNP NNP 
+
+SENTENCE:  TB88
+            NN 
+

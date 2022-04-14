@@ -1,0 +1,1155 @@
+SENTENCE:  801184531 | MMH | 70813901 | | 719791 | 11/23/2000 12:00:00 AM | UNSTABLE  ANGINA  | Signed |   DIS    | Admission Date:
+                       NN                                              NN      JJ       NN       VBN        NN         NN      NN  
+                                                                            |======| |======|            |======|                  
+                                                                            Finding  Finding             Finding                   
+                                                                            C0443343 C0002962            C1444662                  
+                                                                            |===============|            |======|                  
+                                                                                Disorder                 Disorder                  
+                                                                                C0002965                 C0012634                  
+                                                                                                         C1970187                  
+
+SENTENCE:  9/23/2000 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  6/3/2000
+                   
+
+SENTENCE:  PRINCIPAL DIAGNOSIS:
+              JJ        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  MYOCARDIAL INFARCTION AND VENTRICULAR
+               JJ         NN     CC      JJ     
+                      |========|     |=========|
+                       Finding         Anatomy  
+                       C0021308       C0018827  
+           |===================|                
+                 Disorder                       
+                 C0027051                       
+
+SENTENCE:  TACHYCARDIA.
+               NNP     
+           |=========| 
+             Finding   
+            C0039231   
+
+SENTENCE:  SECONDARY DIAGNOSIS: 1. CORONARY  ARTERY  DISEASE .
+              JJ        NN            JJ       NN       NN    
+                     |=======|     |======| |======| |======| 
+                      Finding      Anatomy  Anatomy  Disorder 
+                     C0011900      C0018787 C0003842 C0012634 
+                                            |===============| 
+                                                Disorder      
+                                                C0852949      
+                                   |===============|          
+                                        Anatomy               
+                                       C0205042               
+                                   |========================| 
+                                            Disorder          
+                                            C1956346          
+
+SENTENCE:  2. DIABETES MELLITUS.
+                 NN       NN    
+              |======|          
+              Disorder          
+              C0011849          
+
+SENTENCE:  3. HYPERCHOLESTEROLEMIA.
+                       NN          
+              |==================| 
+                    Disorder       
+                    C0020443       
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  Mr. Dersch is  a  75 year old male
+           NNP  NNP   VBZ DT     NN  JJ   NN 
+
+SENTENCE:  with a  history  of myocardial
+            IN  DT    NN    IN     JJ    
+                   |======|              
+                   Finding               
+                   C0262926              
+
+SENTENCE:  infarction x2 , status post   CABG    x3 in 1993 , who was admitted with a 
+               NN     NN     NN    IN     NN     NN IN        WP  VBD   VBN     IN  CD
+           |========|                  |=======|                                      
+            Finding                    Procedure                                      
+            C0021308                   C0010055                                       
+
+SENTENCE:  recent event of stable ventricular tachycardia.
+             JJ    NN   IN   JJ       JJ          NN      
+                                  |=========| |=========| 
+                                    Anatomy     Finding   
+                                   C0018827    C0039231   
+                                  |=====================| 
+                                         Disorder         
+                                         C0042514         
+
+SENTENCE:  The patient's
+           DT    NN     
+
+SENTENCE:  coronary risk factors include age , male gender , positive family
+              JJ     NN    NNS     VBP   NN     JJ    NN        JJ      NN  
+           |======|                                                         
+           Anatomy                                                          
+           C0018787                                                         
+
+SENTENCE:  history  , history  of myocardial infarction , diabetes mellitus , and
+              NN         NN    IN     JJ         NN          NN       NN      CC 
+           |======|   |======|               |========|   |======|               
+           Finding    Finding                 Finding     Disorder               
+           C0262926   C0262926                C0021308    C0011849               
+                                  |===================|                          
+                                        Disorder                                 
+                                        C0027051                                 
+                      |===============================|                          
+                                   Finding                                       
+                                  C1275835                                       
+
+SENTENCE:  hypercholesterolemia.
+                    NN          
+           |==================| 
+                 Disorder       
+                 C0020443       
+
+SENTENCE:  The patient has no history  of hypertension
+           DT    NN    VBZ DT    NN    IN      NN     
+                              |======|    |==========|
+                              Finding       Disorder  
+                              C0262926      C0020538  
+                              |======================|
+                                      Finding         
+                                      C0455527        
+
+SENTENCE:  or tobacco  use.
+           CC    NN    NN  
+              |======|     
+                Drug       
+              C0040329     
+              |==========| 
+                Finding    
+                C3853727   
+
+SENTENCE:  The patient's history  actually began in 1988 when
+           DT    NN         NN       RB     VBD  IN      WRB 
+                         |======|                            
+                         Finding                             
+                         C0262926                            
+
+SENTENCE:  he  had  chest     pain   and ruled in for an anteroseptal myocardial
+           PRP VBD    NN       NN    CC   VBN  IN IN  DT      JJ          JJ    
+                   |======| |======|                                            
+                   Anatomy  Finding                                             
+                   C0817096 C0030193                                            
+                   |===============|                                            
+                        Finding                                                 
+                       C0008031                                                 
+
+SENTENCE:  infarction.
+               NN     
+           |========| 
+            Finding   
+            C0021308  
+
+SENTENCE:  In 9/16 , he  presented to the emergency room with wide
+           IN        PRP    VBD    IN DT     NN      NN   IN   JJ 
+
+SENTENCE:  complex tachycardia requiring electrical cardioversion at the
+             JJ        NN         VBG        JJ          NN       IN CD 
+                   |=========|                      |===========|       
+                     Finding                          Procedure         
+                    C0039231                          C0013778          
+                                         |======================|       
+                                                Procedure               
+                                                 C0542380               
+
+SENTENCE:  Joadi Community Hospital .  During the admission in 1998 , the
+            NNP     NN        NN         IN   DT     NN     IN        CD 
+
+SENTENCE:  patient had a  catheterization which revealed proximal   LAD   
+             NN    VBD DT       NN         WDT    VBD      VBN       NN   
+                          |=============|                         |======|
+                             Procedure                            Disorder
+                             C0007430                             C0398738
+                                                                  |======|
+                                                                  Anatomy 
+                                                                  C0226032
+
+SENTENCE:  occlusion , an occluded proximal descending  artery  off his  right
+              NN       DT    JJ       JJ        JJ        NN    IN  PRP$  JJ  
+           |=======|      |======|                     |======|               
+            Finding       Finding                      Anatomy                
+           C0028778       C0028778                     C0003842               
+
+SENTENCE:  coronary  artery  ,  normal  hemodynamics , anteroseptal hypokinesis ,
+              JJ       NN         JJ        NNS             JJ          NN       
+           |======| |======|   |======|                             |=========|  
+           Anatomy  Anatomy    Finding                                Finding    
+           C0018787 C0003842   C0231683                              C0086439    
+                               C0558145                                          
+           |===============|                                                     
+                Anatomy                                                          
+               C0205042                                                          
+
+SENTENCE:  inferior hypokinesis , apical thrombus , and aneurysm with an EF of
+              JJ        NN          JJ      NN      CC     NN     IN  DT NN IN
+                    |=========|          |======|       |======|              
+                      Finding            Finding        Disorder              
+                     C0086439            C0087086       C0002940              
+
+SENTENCE:  50%.
+               
+
+SENTENCE:  An EP study revealed 27 and 22 beat   runs   of nonsustained
+           DT NN  NN     VBD       CC      VB    NNS    IN      JJ     
+                                               |======|                
+                                               Finding                 
+                                               C0600140                
+
+SENTENCE:  V -tach with left bundle branch  block   inducible after three
+           NN  NN   IN   JJ    NN     NN      NN       JJ      IN    CD  
+                        |================| |======|                      
+                             Anatomy       Finding                       
+                             C0459156      C0028778                      
+                             |====================|                      
+                                    Disorder                             
+                                    C0006384                             
+                        |=========================|                      
+                                 Disorder                                
+                                 C0023211                                
+
+SENTENCE:  ventricular extra stimuli during ventricular  drive   pacing at 400
+               JJ       JJ     NNS     IN       JJ         NN      NN   IN    
+           |=========|                      |=========| |======|              
+             Anatomy                          Anatomy   Finding               
+            C0018827                         C0018827   C0013126              
+
+SENTENCE:  msec.
+           NNS  
+
+SENTENCE:  The ventricular tachycardia was initially suppressed with
+           DT      JJ          NN      VBD    RB        VBN      IN 
+               |=========| |=========|                              
+                 Anatomy     Finding                                
+                C0018827    C0039231                                
+               |=====================|                              
+                      Disorder                                      
+                      C0042514                                      
+
+SENTENCE:  quinidine , but the patient subsequently developed  nausea  and
+              NN       CC  DT    NN         RB         VBD       NN    CC 
+           |=======|                                          |======|    
+             Drug                                             Finding     
+           C0034414                                           C0027497    
+
+SENTENCE:  vomiting , and the quinidine was switched to aconine.
+              NN      CC  DT     NN     VBD   VBN    IN   NN    
+           |======|           |=======|                         
+           Finding              Drug                            
+           C0042963           C0034414                          
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient did well on this regimen until 3/13 , when he  developed
+             NN    VBD  RB  IN  DT    NN     IN          WRB  PRP    VBD   
+
+SENTENCE:  dyspnea  on exertion , no  chest     pain   ,   PND    , and orthopnea.
+              NN    IN    NN      DT    NN       NN         NN      CC     NN     
+           |======|    |======|      |======| |======|   |======|       |=======| 
+           Finding     Finding       Anatomy  Finding    Disorder        Finding  
+           C0013404    C0015264      C0817096 C0030193   C1956415       C0085619  
+           |==================|      |===============|                            
+                 Finding                  Finding                                 
+                 C0231807                C0008031                                 
+
+SENTENCE:  In 1/16 ,
+           IN       
+
+SENTENCE:  the patient had an exercise tolerance   test    , which she failed
+           DT    NN    VBD DT    NN       NN        NN        WDT  PRP  VBD  
+                              |======| |=======| |=======|                   
+                              Finding   Finding   Finding                    
+                              C0015259 C0013220  C0456984                    
+                                       C0020963                              
+                                                 |=======|                   
+                                                 Procedure                   
+                                                 C0022885                    
+                                       |=================|                   
+                                            Procedure                        
+                                            C0201777                         
+                              |==========================|                   
+                                       Procedure                             
+                                        C0015260                             
+
+SENTENCE:  secondary to fatigue .
+              JJ     IN    NN    
+                        |======| 
+                        Finding  
+                        C0015672 
+
+SENTENCE:  During this ETT , his   blood   pressure actually
+             IN    DT  NN    PRP$    NN       NN       RB   
+                                  |======| |======|         
+                                  Anatomy  Finding          
+                                  C0005767 C0460139         
+                                  |===============|         
+                                       Finding              
+                                      C0005823              
+
+SENTENCE:  fell from 125 to 85 systolic and his     EKG    revealed 1 mm ST
+           VBD   IN      IN       JJ    CC  PRP$    NN       VBD      NN NN
+                                                 |=======|                 
+                                                 Procedure                 
+                                                 C1623258                  
+
+SENTENCE:  depression in the   limb   leads.
+               NN     IN DT     NN     VBZ  
+           |========|        |======|       
+            Disorder         Anatomy        
+            C0011581         C0015385       
+
+SENTENCE:  Therefore , on 8/5/93 , he  was
+              RB       IN          PRP VBD
+
+SENTENCE:  admitted to the Eredrens Recraw University Of Medical Center and underwent cardiac 
+             VBN    IN DT    NNS     VBP       NN     IN   JJ     NNP   CC     VBD       JJ   
+                                                                                      |======|
+                                                                                      Anatomy 
+                                                                                      C0018787
+
+SENTENCE:  catheterization , which revealed 100%   LAD    and RCA occlusion , 60%
+                 NN           WDT    VBD            NN    CC  NN     NN          
+           |=============|                       |======|         |=======|      
+              Procedure                          Disorder          Finding       
+              C0007430                           C0398738         C0028778       
+                                                 |======|                        
+                                                 Anatomy                         
+                                                 C0226032                        
+
+SENTENCE:  proximal ramus stenosis , and left ventriculogram revealed anterior
+              JJ     NN      NN      CC   JJ        NN         VBD       JJ   
+                          |======|            |============|          |======|
+                          Finding               Procedure             Disorder
+                          C1261287               C0007800             C0751437
+                                         |=================|                  
+                                              Procedure                       
+                                              C0412219                        
+
+SENTENCE:  hypokinesis , inferior hypokinesis , and apical dyskinesis with an
+               NN           JJ        NN        CC    JJ       NN      IN  NN
+           |=========|            |=========|              |========|        
+             Finding                Finding                 Disorder         
+            C0086439               C0086439                 C0013384         
+
+SENTENCE:  ejection fraction of 48%.
+              NN       NN    IN     
+           |======|                 
+           Finding                  
+           C0336969                 
+
+SENTENCE:  The decision was then made during his 
+           DT     NN    VBD  RB  VBN    IN   PRP$
+
+SENTENCE:  1/16 admission to proceed with surgical revascularization.
+                   NN     IN   NN     IN     JJ           NN         
+                                                   |===============| 
+                                                       Procedure     
+                                                       C0581603      
+
+SENTENCE:  During
+             NN  
+
+SENTENCE:  his  admission , he  underwent a  three  vessel  coronary  artery   bypass  
+           PRP$    NN       PRP    VBD    DT  CD      NN       JJ       NN       NN    
+                                                   |======| |======| |======| |=======|
+                                                   Anatomy  Anatomy  Anatomy  Procedure
+                                                   C0005847 C0018787 C0003842 C0741847 
+                                                            |===============|          
+                                                                 Anatomy               
+                                                                C0205042               
+                                                            |=========================|
+                                                                     Procedure         
+                                                                     C0010055          
+
+SENTENCE:   graft   with LIMA to the   LAD    , saphenous   vein    graft   to the right
+              NN     IN   NN  IN DT     NN         JJ        NN       NN    IN DT   JJ  
+           |======|                  |======|             |======| |======|             
+           Anatomy                   Disorder             Anatomy  Anatomy              
+           C0332835                  C0398738             C0042449 C0332835             
+                                     |======|   |================|                      
+                                     Anatomy         Anatomy                            
+                                     C0226032        C0036186                           
+                                                |=========================|             
+                                                          Anatomy                       
+                                                         C0729538                       
+
+SENTENCE:  coronary  artery  and proximal descending  artery  , with endarterectomy
+              JJ       NN    CC     JJ        JJ        NN       IN        NN      
+           |======| |======|                         |======|        |============|
+           Anatomy  Anatomy                          Anatomy           Procedure   
+           C0018787 C0003842                         C0003842           C0014098   
+           |===============|                                                       
+                Anatomy                                                            
+               C0205042                                                            
+
+SENTENCE:  to the proximal descending  artery .
+           IN DT     JJ        JJ        NN    
+                                      |======| 
+                                      Anatomy  
+                                      C0003842 
+
+SENTENCE:  The patient also underwent an
+           DT    NN     RB     VBD    NN
+
+SENTENCE:  EP study , and it  was found that his  sustained ventricular was no
+           NN  NN     CC  PRP VBD  VBN   IN  PRP$    JJ         JJ      VBD RB
+                                                            |=========|       
+                                                              Anatomy         
+                                                             C0018827         
+
+SENTENCE:  longer inducible either at baseline or during isoproterenol
+            RBR      JJ       CC   IN    NN    CC   IN        NNP     
+                                                         |===========|
+                                                             Drug     
+                                                           C0022245   
+
+SENTENCE:  infusion .
+              NN     
+           |=======| 
+           Procedure 
+           C0574032  
+
+SENTENCE:  Since 1993 , the patient has been doing well up until the
+            IN          DT    NN    VBZ VBN   VBG   RB  IN  IN   CD 
+
+SENTENCE:  day of admission on 3/1 .
+           NN  IN    NN     IN      
+
+SENTENCE:  On the day of admission , the patient developed light-headedness and
+           IN DT  NN  IN    NN       DT    NN       VBD     JJ       NN      . 
+                                                           |==============|    
+                                                               Finding         
+                                                               C0220870        
+
+SENTENCE:  palpitations while using the  toilet  .
+               NNS       IN    VBG  DT     NN     
+           |==========|                 |=======| 
+             Finding                    Procedure 
+             C0030252                   C0184958  
+
+SENTENCE:  The patient denied any  chest  
+           DT    NN     VBD   DT     NN   
+                                  |======|
+                                  Anatomy 
+                                  C0817096
+
+SENTENCE:    pain   , dyspnea  ,  nausea  or vomiting at the time.
+              NN         NN         NN    CC    NN    IN DT   NN  
+           |======|   |======|   |======|    |======|             
+           Finding    Finding    Finding     Finding              
+           C0030193   C0013404   C0027497    C0042963             
+
+SENTENCE:  EMS was notified ,
+           NNS VBD   VBN     
+
+SENTENCE:  and the patient was found to be in V -tach.
+           CC  DT    NN    VBD  VBN  TO VB IN NN  NN  
+
+SENTENCE:  The patient was taken
+           DT    NN    VBD  VBN 
+
+SENTENCE:  to an outside hospital and cardioverted at 100 joules after failing
+           IN DT   JJ       NN    CC       JJ      IN      NNS    IN     NN   
+
+SENTENCE:  attempted pharmacologic conversion with Lidocaine , adenosine , and
+              VBN         JJ           NN      IN     NNP         NN       CC 
+                                                   |=======|   |=======|      
+                                                     Drug        Drug         
+                                                   C0023660    C0001443       
+
+SENTENCE:  amiodarone.
+               NN     
+           |========| 
+              Drug    
+            C0002598  
+
+SENTENCE:  The patient remained in  normal   sinus   rhythm and was
+           DT    NN      VBD    IN    JJ       NN      NN   CC  VBD
+                                   |======| |======|               
+                                   Finding  Anatomy                
+                                   C0231683 C0030471               
+                                   C0558145                        
+                                            |=============|        
+                                                Finding            
+                                               C0232201            
+                                   |======================|        
+                                           Finding                 
+                                           C0232202                
+
+SENTENCE:  transferred to the Villecam Medical Center for further evaluation
+               VBN     IN DT     NN      JJ      NN   IN    JJ        NN    
+
+SENTENCE:  and possible placement of AICD.
+           CC     JJ       NN     IN  NN  
+
+SENTENCE:  On his  admission , the patient was without complaints except for
+           IN PRP$    NN       DT    NN    VBD   IN       NNS       IN   SYM
+                                                       |========|           
+                                                        Finding             
+                                                        C0277786            
+
+SENTENCE:  some   mild   lower abdominal   pain   , which the patient attributed to his 
+            DT     JJ     JJ      JJ        NN       WDT  DT    NN       VBD     IN PRP$
+                |======|       |=======| |======|                                       
+                Finding         Anatomy  Finding                                        
+                C1513302       C0000726  C0030193                                       
+                               |================|                                       
+                                    Finding                                             
+                                    C0000737                                            
+                         |======================|                                       
+                                 Finding                                                
+                                 C0232495                                               
+
+SENTENCE:  known constipation.
+            JJ        NN      
+                 |==========| 
+                   Finding    
+                   C0009806   
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  As above.
+           IN  RB   
+
+SENTENCE:  PAST SURGICAL HISTORY :
+            JJ     JJ       NN    
+                         |======| 
+                         Finding  
+                         C0262926 
+
+SENTENCE:    CABG    in 1993 , details noted above.
+              NN     IN          NNS    VBN   RB   
+           |=======|                               
+           Procedure                               
+           C0010055                                
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  The patient denies use of tobacco  , alcohol  , or
+           DT    NN     VBZ   NN  IN    NN         NN      CC
+                                     |======|   |======|     
+                                       Drug       Drug       
+                                     C0040329   C0001962     
+
+SENTENCE:   drugs  .
+             NNS    
+           |======| 
+             Drug   
+           C0013227 
+
+SENTENCE:  The patient is  currently retired  and
+           DT    NN    VBZ    RB        JJ     . 
+                                     |======|    
+                                     Finding     
+                                     C0035345    
+
+SENTENCE:  living at home with his  wife.
+            VBG   IN  NN   IN  PRP$  NN  
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  Lipitor  40 mg  p.o. q.h.s.; metoprolol 25 mg  p .o .
+             NNP       NNS  FW   FW        NNP        NNS RB NN 
+           |======|                     |========|              
+             Drug                          Drug                 
+           C0593906                      C0025859               
+
+SENTENCE:  b.i.d.;
+            FW    
+
+SENTENCE:  Cytotec  200 mcg p.o. q.i.d.; glipizide 20 mg 
+             NNP        NNS  FW   FW        NN        NNS
+           |======|                      |=======|       
+             Drug                          Drug          
+           C0591321                      C0017642        
+
+SENTENCE:  p.o. b.i.d.;
+            FW   FW    
+
+SENTENCE:  Glucophage 1000 mg  p.o. q .d .
+              NNP          NNS  FW  FW NN 
+           |========|                     
+              Drug                        
+            C0591573                      
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  VITAL  SIGNS  :
+            NN      NN    
+                 |======| 
+                 Finding  
+                 C0311392 
+
+SENTENCE:  Temp 97.5 ,  heart   rate 63 , BP
+            NN            NN     NN       NN
+                       |======|             
+                       Anatomy              
+                       C0018787             
+
+SENTENCE:  140/80 , respiratory rate 16-18 ,  oxygen 
+                        JJ       NN             NN   
+                                             |======|
+                                               Drug  
+                                             C0030054
+
+SENTENCE:  saturation 98% on two liters.
+               NN         IN CD   NNS   
+
+SENTENCE:  GENERAL:
+             NN    
+
+SENTENCE:  This is  a  very pleasant
+            DT  VBZ DT  RB     JJ   
+
+SENTENCE:  male , who is  sitting up in bed in no apparent distress.
+            NN    WP  VBZ   VBG   RP IN NN  IN DT    JJ       NN    
+                                                           |======| 
+                                                           Finding  
+                                                           C0231303 
+
+SENTENCE:   HEART  :
+              NN    
+           |======| 
+           Anatomy  
+           C0018787 
+
+SENTENCE:  Regular rate and rhythm , S1 , S2 were noted , and a  I /VI systolic
+             JJ     NN  CC    NN     NN   NN VBD   VBN    CC  DT CD NN    JJ   
+
+SENTENCE:  ejection  murmur  was noted at the right upper sternal border.
+              NN       NN    VBD  VBN  IN DT   JJ    JJ     JJ      NN   
+           |======| |======|                                             
+           Finding  Finding                                              
+           C0336969 C0018808                                             
+           |===============|                                             
+                Finding                                                  
+               C0277910                                                  
+
+SENTENCE:   LUNGS  :
+             NNS    
+           |======| 
+           Anatomy  
+           C0024109 
+
+SENTENCE:  Clear to auscultation bilaterally with good   air    movement.
+            JJ   IN      NN          RB       IN   JJ     NN       NN    
+                    |==========|                       |======| |======| 
+                     Procedure                           Drug   Finding  
+                      C0004339                         C3536832 C0026649 
+
+SENTENCE:  ABDOMEN :
+              NN    
+           |======| 
+           Anatomy  
+           C0000726 
+
+SENTENCE:  Soft , non-tender , non-distended , positive  bowel   sounds.
+            JJ        JJ            JJ            JJ       NN     NNS   
+                                                        |======|        
+                                                        Anatomy         
+                                                        C0021853        
+                                                        |=============| 
+                                                            Finding     
+                                                           C0232693     
+
+SENTENCE:  EXTREMITIES:
+               NNS     
+           |=========| 
+             Anatomy   
+            C0015385   
+
+SENTENCE:  No clubbing , cyanosis , or  edema   , 2+ pulses noted in
+           DT    NN         NN      CC    NN          NNS    VBN  . 
+              |======|   |======|      |======|                     
+              Finding    Finding       Finding                      
+              C0149651   C0010520      C0013604                     
+
+SENTENCE:  the upper and lower extremities bilaterally.
+           DT   JJ   CC   JJ       NNS         RB      
+                               |=========|             
+                                 Anatomy               
+                                C0015385               
+                         |===============|             
+                              Anatomy                  
+                             C0023216                  
+
+SENTENCE:  NEURO:
+            NN   
+
+SENTENCE:  No focal
+           DT  JJ  
+
+SENTENCE:  deficits.
+             NNS    
+
+SENTENCE:  LABORATORY DATA:
+               NN      NN  
+           |========|      
+           Procedure       
+            C0022885       
+
+SENTENCE:  Glucose  130 , Na 139 ,  K  4.7 , Cl 107 ,  bicarb   26 ,
+              NN          NN       NNP       NN          NN         
+           |======|                                   |=======|     
+             Drug                                     Procedure     
+           C0017725                                   C0202059      
+                                                      |=======|     
+                                                        Drug        
+                                                      C0074722      
+
+SENTENCE:     BUN    15 , creatinine 1.1.
+              NN              NN         
+           |=======|      |========|     
+             Drug            Drug        
+           C0600137        C0010294      
+           |=======|                     
+           Procedure                     
+           C0005845                      
+
+SENTENCE:  CK 364 , with a  MB 
+           NN        IN  DT NNP
+
+SENTENCE:  fraction of 43.9.
+              NN    IN      
+
+SENTENCE:  T.  protein  6.7 , albumin  4.0 , Ca 9.4 ,   mag    1.8.
+           NNP    NN             NN          NN          NN        
+               |======|       |======|                |======|     
+                 Drug           Drug                    Drug       
+               C0033684       C0001924                C0129439     
+
+SENTENCE:  Cholesterol 187 , triglycerides 468 ,   HDL    28 ,   LDL    96.
+               NN                 NNS              NNP            NN       
+           |=========|       |===========|       |======|      |======|    
+              Drug               Drug              Drug          Drug      
+            C0008377           C0041004          C0023821      C0023823    
+
+SENTENCE:    Dig    level 1.1 ,
+             NNP     NN        
+           |======|            
+           Disorder            
+           C1321878            
+
+SENTENCE:  troponin- I  6.95.
+              NN    PRP      
+           |======|          
+             Drug            
+           C0041199          
+           |==========|      
+               Drug          
+             C0077401        
+
+SENTENCE:  White count 10.09 , hemoglobin 13.6 , hematocrit
+            NNP   NN               NN                NN    
+                               |========|        |========|
+                                  Drug           Procedure 
+                                C0019046          C0018935 
+
+SENTENCE:  38.2 , platelets 232.
+                     NNS        
+                  |=======|     
+                   Anatomy      
+                  C0005821      
+
+SENTENCE:  Differential revealed 19.7 lymphocytes , 5.2
+                JJ        VBD             NNS          
+                                      |=========|      
+                                        Anatomy        
+                                       C0024264        
+
+SENTENCE:  monocytes , 74 neutrophils.
+              NNS             NNS     
+           |=======|      |=========| 
+            Anatomy         Anatomy   
+           C0026473        C0027950   
+
+SENTENCE:  PT 11.9 ,    PTT    25.7 ,    INR    1.0.
+           NN           NNP              NN         
+                     |=======|        |=======|     
+                     Procedure        Procedure     
+                     C0030605         C0525032      
+
+SENTENCE:  UA - Color
+           NN    NN  
+
+SENTENCE:  was yellow , specific gravity 1.011 , pH 6.0 , negative for protein  ,
+           VBD   JJ        JJ      NN            NN          JJ    IN     NN     
+                        |==============|                               |======|  
+                           Procedure                                     Drug    
+                            C0201802                                   C0033684  
+
+SENTENCE:  ketones  ,  bilis   ,  blood   , leukocyte esterase , or nitrites , 1+ glucose .
+             NNS         NN         NN         NN        NN      CC   NNS            NN    
+           |======|   |======|   |======|   |=======| |======|                    |======| 
+             Drug     Disorder   Anatomy     Anatomy    Drug                        Drug   
+           C0022634   C0520687   C0005767   C0023516  C0014894                    C0017725 
+                                            |================|                             
+                                                   Drug                                    
+                                                 C0125619                                  
+
+SENTENCE:  Also negative for WBCs ,   RBCs   , bacteria  , casts , squamous
+            RB     JJ    IN  NNS       NN         NN        NNS       JJ   
+                                    |======|   |=======|                   
+                                    Anatomy    Procedure                   
+                                    C0014792   C0004618                    
+
+SENTENCE:  epithelials , and crystals.
+               NNS       CC    NNS    
+                             |======| 
+                               Drug   
+                             C1378554 
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient remained in  normal   sinus   rhythm since
+           DT    NN      VBD    IN    JJ       NN      NN    NN  
+                                   |======| |======|             
+                                   Finding  Anatomy              
+                                   C0231683 C0030471             
+                                   C0558145                      
+                                            |=============|      
+                                                Finding          
+                                               C0232201          
+                                   |======================|      
+                                           Finding               
+                                           C0232202              
+
+SENTENCE:  his  transfer from the outside hospital.
+           PRP$    NN     IN  DT    JJ       NN    
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient had a  catheterization , which revealed notable persistent
+             NN    VBD DT       NN           WDT    VBD      JJ        JJ    
+                          |=============|                          |========|
+                             Procedure                              Disorder 
+                             C0007430                               C0332996 
+
+SENTENCE:  native  vessel  disease  with patent  bypass    graft   x3.
+             JJ      NN       NN     IN    JJ      NN        NN    NN 
+                  |======| |======|             |=======| |======|    
+                  Anatomy  Disorder             Procedure Anatomy     
+                  C0005847 C0012634             C0741847  C0332835    
+                                                |================|    
+                                                    Procedure         
+                                                     C0185098         
+
+SENTENCE:  The patient was
+           DT    NN    VBD
+
+SENTENCE:  started on captopril , which was eventually increased to a  dose of
+             VBN   IN    NNP       WDT  VBD     RB        VBN    IN DT  NN  IN
+                      |=======|                                               
+                        Drug                                                  
+                      C0006938                                                
+
+SENTENCE:  25 mg  t.i.d. , which he  tolerated well.
+              NNS   FW      WDT  PRP    VBD     RB  
+
+SENTENCE:  The patient had an AICD
+           DT    NN    VBD DT  NN 
+
+SENTENCE:  placed by the EP service  with pacer leads confirmed in good
+            VBN   IN DT  NN    NN     IN   NN    VBZ     VBN    IN  JJ 
+                            |======|                                   
+                            Finding                                    
+                            C0557854                                   
+
+SENTENCE:  position.
+              NN    
+
+SENTENCE:  The patient did experience one approximately 10 beat   run   
+           DT    NN    VBD     VB     CD       RB           NN     NN   
+                                                                |======|
+                                                                Finding 
+                                                                C0035953
+                                                                C0600140
+
+SENTENCE:  of V -tach , which did not trigger the AICD to fire.
+           IN NN  NN     WDT  VBD RB    VB    DT  NNP  IN  NN  
+
+SENTENCE:  The patient did
+           DT    NN    VBD
+
+SENTENCE:  experience some   mild   lower abdominal and low back   pain   during his 
+               VB      DT     JJ     JJ      JJ     CC  JJ   NN     NN      IN   PRP$
+                           |======|       |=======|              |======|            
+                           Finding         Anatomy               Finding             
+                           C1513302       C0000726               C0030193            
+                                                            |===========|            
+                                                               Finding               
+                                                              C0004604               
+                                                        |===============|            
+                                                             Finding                 
+                                                            C0024031                 
+
+SENTENCE:  admission , which was relieved with  Ultram  , and on the day of
+              NN        WDT  VBD   VBN     IN    NNP      CC  IN DT  NN  . 
+                                               |======|                    
+                                                 Drug                      
+                                               C0724054                    
+
+SENTENCE:  discharge had resolved.
+              NN     VBD   VBN    
+
+SENTENCE:  The patient had been   able   to take better
+           DT    NN    VBD VBN     JJ    TO  VB   JJR  
+                                |======|               
+                                Finding                
+                                C1299581               
+
+SENTENCE:  p.o. and ambulate.
+            FW  CC     JJ    
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Vitamin  C  500 mg  p.o. b.i.d.;
+              NN    NN     NNS  FW   FW    
+           |======|                        
+             Drug                          
+           C0042890                        
+           |=========|                     
+              Drug                         
+            C0003968                       
+
+SENTENCE:  Ecotrin 
+             NNP   
+           |======|
+             Drug  
+           C0699274
+
+SENTENCE:  325 mg  p.o. q.d.; captopril 25 mg  p .o .
+               NNS  FW  FW       NN        NNS RB NN 
+                              |=======|              
+                                Drug                 
+                              C0006938               
+
+SENTENCE:  t.i.d.;
+            NN    
+
+SENTENCE:  Digoxin  0.25 mg  p.o. q.d.; glipizide 20 mg  p.o. b.i.d.;
+             NNP         NNS  FW  FW       NN        NNS  FW   FW    
+           |======|                     |=======|                    
+             Drug                         Drug                       
+           C0012265                     C0017642                     
+
+SENTENCE:  metoprolol 25 mg  p.o. b.i.d.;
+              NNP        NNS  FW   FW    
+           |========|                    
+              Drug                       
+            C0025859                     
+
+SENTENCE:  Cytotec  200 mcg p.o. q.i.d.;
+             NNP        NNS  FW   FW    
+           |======|                     
+             Drug                       
+           C0591321                     
+
+SENTENCE:  nitroglycerin SL 1/150 1   tab    q .5 minutes x3  p.r.n.  chest     pain  ;
+                NN       NN            NN    FW     NNS   SYM   FW      NN       NN    
+           |===========|            |======|                         |======| |======| 
+               Drug                   Drug                           Anatomy  Finding  
+             C0017887               C0039225                         C0817096 C0030193 
+                                                                     |===============| 
+                                                                          Finding      
+                                                                         C0008031      
+
+SENTENCE:  Vitamin   E  400  U  p.o. q.d.;
+              NN    NNP     NNS  FW  FW   
+           |======|                       
+             Drug                         
+           C0042890                       
+           |==========|                   
+               Drug                       
+             C0042874                     
+
+SENTENCE:   Keflex  250 mg  p.o. q.i.d. x3 days;
+             NNP        NNS  FW    FW   NN NNS  
+           |======|                             
+             Drug                               
+           C0700517                             
+
+SENTENCE:   Ultram  50 mg  p.o. q .6h. p.r.n. back   pain  ;
+             NNP       NNS  FW  FW  FW   FW    NN     NN    
+           |======|                                |======| 
+             Drug                                  Finding  
+           C0724054                                C0030193 
+                                              |===========| 
+                                                 Finding    
+                                                C0004604    
+
+SENTENCE:  Lipitor  40 mg  p .o .
+             NNP       NNS RB NN 
+           |======|              
+             Drug                
+           C0593906              
+
+SENTENCE:  q.h.s.;
+            FW    
+
+SENTENCE:  Glucophage 1000 mg  p.o. q .d .
+              NNP          NNS  FW  FW NN 
+           |========|                     
+              Drug                        
+            C0591573                      
+
+SENTENCE:  DISCHARGE DIET:
+              NNP     NN  
+
+SENTENCE:  Low cholesterol , low saturated   fat   .
+           JJ      NN        JJ     JJ        NN    
+               |=========|                 |======| 
+                  Drug                       Drug   
+                C0008377                   C0015677 
+                                 |================| 
+                                        Drug        
+                                      C0597423      
+
+SENTENCE:  DISCHARGE ACTIVITY:
+              NNP       NN    
+                     |======| 
+                     Finding  
+                     C0026606 
+
+SENTENCE:  As tolerated.
+           IN    VBN    
+
+SENTENCE:  Return to   work   not applicable.
+             VB   IN    NN    RB      JJ     
+                     |======|                
+                     Finding                 
+                     C0043227                
+
+SENTENCE:  DISCHARGE FOLLOW-UP:
+              NNP      NN   NN 
+                     |=======| 
+                      Finding  
+                     C0589120  
+
+SENTENCE:  The patient has a  follow-up appointment
+           DT    NN    VBZ DT   NN   NN     NN     
+                              |=======|            
+                               Finding             
+                              C0589120             
+
+SENTENCE:  scheduled with Dr. Jose Goodstein ,
+              VBN     IN  NNP NNP     NNP     
+
+SENTENCE:  cardiologist at EP Service  , on 7/27 . The patient was also
+                NN      IN NN    NN      IN        DT    NN    VBD  RB 
+                              |======|                                 
+                              Finding                                  
+                              C0557854                                 
+
+SENTENCE:  instructed to make an appointment with his   primary  care physician
+              VBN     TO  VB  DT     NN       IN  PRP$    JJ      NN     NN    
+                                                       |=======|               
+                                                       Procedure               
+                                                       C0439631                
+
+SENTENCE:  within 1-2 weeks.
+             IN        NNS  
+
+SENTENCE:  CONDITION ON DISCHARGE:
+              NN     IN    NNP    
+           |=======|              
+           Disorder               
+           C0012634               
+
+SENTENCE:  Stable condition.
+             JJ      NN     
+                  |=======| 
+                  Disorder  
+                  C0012634  
+
+SENTENCE:  DISCHARGE DISPOSITION:
+              NNP        NN      
+
+SENTENCE:  The patient was discharged to home.
+           DT    NN    VBD    VBN     IN  NN  
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  HASSAN LIBBY ,  M . D .
+             NN    NN     NNP NNP 
+
+SENTENCE:  PA356
+            NN  
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  CHARLES M.  DEVEREAUX ,  M . D .
+             NNS   NNP    NNP      NNP NNP 
+
+SENTENCE:  OV9  KS301/0223
+           NN    NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  15927 Index No. FLHK1Z2HHJ D : 11/15
+                  NNP  NN      NN     NN       
+
+SENTENCE:  T : 11/2
+           NN      
+
+SENTENCE:  CC: 1. TODD V.  OLIVID ,  M . D .
+           NN      NN  NNP  NNP     NNP NNP 
+
+SENTENCE:  JZ2
+           NN 
+

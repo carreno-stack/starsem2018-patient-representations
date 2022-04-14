@@ -1,0 +1,755 @@
+SENTENCE:  695037563 | FMC | 22874446 | | 015598 | 7/9/2000 12:00:00 AM |   leg     edema   ,  anemia  , proteinuria , ? NSAID   gastritis , colonic   polyps  | |   DIS    | Admission Date:
+                       NNP                                           NN      NN       NN         NN          NN            NN       NN          JJ      NNS           NN         NN      NN  
+                                                                          |======| |======|   |======|   |=========|    |======| |=======|   |======| |======|     |======|                  
+                                                                          Anatomy  Finding    Disorder     Finding        Drug   Disorder    Anatomy  Disorder     Disorder                  
+                                                                          C1140621 C0013604   C0002871    C0033687      C0003211 C0017152    C0009368 C0032584     C0012634                  
+                                                                                                                                                                   C1970187                  
+                                                                                                                                             |===============|     |======|                  
+                                                                                                                                                 Disorder          Finding                   
+                                                                                                                                                 C0009376          C1444662                  
+
+SENTENCE:  7/9/2000 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  5/2/2000
+                   
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  PEPPER , REX 724-59-56-9
+             NN     NN             
+
+SENTENCE:  Vivo
+            NN 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  1/25 AT 03:00 PM
+                IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  KIRBO , RIGOBERTO W.  ,  M . D .
+            NN        JJ     NNP   NNP NNP 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  VENTOLIN ( ALBUTEROL INHALER ) 2 PUFF   INH    QID
+             NNP         NN       NN         NN     NN    RB 
+           |======|   |=======|                  |======|    
+             Drug       Drug                       Drug      
+           C0033744   C0001927                   C0022209    
+
+SENTENCE:  PRN wheezing ,   sob   
+           RB     NN         NN   
+               |======|   |======|
+               Finding    Finding 
+               C0043144   C0013404
+
+SENTENCE:   COLACE  ( DOCUSATE  SODIUM  ) 100 MG PO BID
+              NN         NN       NN          NN JJ NN 
+           |======|   |======| |======|                
+             Drug       Drug     Drug                  
+           C0282139   C1692318 C0037473                
+                      |===============|                
+                            Drug                       
+                          C0243237                     
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 100 MG PO BID
+             NNP          NN           NN JJ NN 
+           |======|   |========|                
+             Drug        Drug                   
+           C0699992    C0016860                 
+
+SENTENCE:    NPH    HUMULIN  INSULIN  ( INSULIN    NPH    HUMAN ) 20 U  SC QPM
+              NN       NN       NN         NN       NN     NN        NN NN NN 
+           |======| |======| |======|   |======| |======|                     
+           Disorder   Drug     Drug       Drug   Disorder                     
+           C0020258 C3538423 C0021641   C0021641 C0020258                     
+                                        |===============|                     
+                                              Drug                            
+                                            C0021658                          
+                                        |=====================|               
+                                                 Drug                         
+                                               C0795633                       
+
+SENTENCE:  Starting  Today   ( 7/18 ) HOLD IF: 1 )   NPO    2 ) till scope is  done
+              NN       NN              NN  IN        NN          NN   NN   VBZ VBN 
+                    |======|                      |=======|                        
+                      Drug                        Procedure                        
+                    C0310367                      C0419179                         
+
+SENTENCE:  REGULAR INSULIN  ( HUMAN ) ( INSULIN  REGULAR HUMAN )
+             JJ       NN       NN          NN      JJ     NN    
+                   |======|             |======|                
+                     Drug                 Drug                  
+                   C0021641             C0021641                
+                   |================|                           
+                          Drug                                  
+                        C0795635                                
+
+SENTENCE:  Sliding Scale SC QAC & HS Call HO If BS > 400
+             JJ     NN   NN NN    FW  NN  NN IN NN      
+
+SENTENCE:  For BS < 200 give 0 Units reg SC
+           IN  NN        VB     NNP  NN  NN
+
+SENTENCE:  For BS from 201 to 250 give 4 Units reg SC
+           IN  NN  IN      IN      VB     NNS  JJ  NN
+
+SENTENCE:  For BS from 251 to 300 give 6 Units reg SC
+           IN  NN  IN      IN      VB     NNS  JJ  NN
+
+SENTENCE:  For BS from 301 to 350 give 8 Units reg SC
+           IN  NN  IN      IN      VB     NNS  JJ  NN
+
+SENTENCE:  For BS from 351 to 400 give 10 Units reg SC
+           IN  NN  IN      IN      VB      NNS  JJ  NN
+
+SENTENCE:  ZESTRIL  ( LISINOPRIL ) 40 MG PO QD
+             NNP         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0678140    C0065374               
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 9/8 by GLASSNER , VERNON  D  K.  , M.D. on order for GOLYTELY PO ( ref # 50732217 )
+              JJ     VBN  IN     IN    NN       NNP   NNP NNP   NNP  IN  NN   IN     NN    NN   NN              
+                                                                                  |======|                      
+                                                                                    Drug                        
+                                                                                  C0061795                      
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  noted
+            VBN 
+
+SENTENCE:  Previous override information:
+              JJ       NN        NN      
+
+SENTENCE:  Override added on 11/22 by ALTUM , ISIDRO ALFONSO ,  M . D .
+              JJ     VBN  IN       IN  NN      NNP     NNP     NNP NNP 
+
+SENTENCE:  on order for   KCL    IMMEDIATE REL.
+           IN  NN   IN    NNP       NN     NN  
+                        |======|               
+                          Drug                 
+                        C0032825               
+
+SENTENCE:  PO ( ref # 46782625 )
+           NN   NN              
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  Previous override information:
+              JJ       NN        NN      
+
+SENTENCE:  Override added on 7/06 by WOODYARD , TOD MILFORD ,  M . D .
+              JJ     VBN  IN      IN    NN      NN    NN      NNP NNP 
+
+SENTENCE:  on order for   KCL    IV ( ref # 07258083 )
+           IN  NN   IN    NNP    CD   NN              
+                        |======|                      
+                          Drug                        
+                        C0032825                      
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override: will monitor
+              NN      NN   IN     NN      MD    VB   
+           |======|                                  
+             Drug                                    
+           C0596019                                  
+
+SENTENCE:  Previous override information:
+              JJ       NN        NN      
+
+SENTENCE:  Override added on 7/06 by STAMPS , RICK RANDY ,  M . D .
+              JJ     VBN  IN      IN  NNP     NNP   NNP    NNP NNP 
+
+SENTENCE:  on order for   KCL    IMMEDIATE REL.
+           IN  NN   IN    NNP       NN     NN  
+                        |======|               
+                          Drug                 
+                        C0032825               
+
+SENTENCE:  PO ( ref # 78542757 )
+           NN   NN              
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override: will monitor
+              NN      NN   IN     NN      MD    VB   
+           |======|                                  
+             Drug                                    
+           C0596019                                  
+
+SENTENCE:   REGLAN  ( METOCLOPRAMIDE   HCL    ) 10 MG PO BID
+              NN            NN          NN         NN NN RB 
+           |======|   |============| |======|               
+             Drug          Drug        Drug                 
+           C0034977      C0025853    C0020259               
+                      |=====================|               
+                               Drug                         
+                             C0887128                       
+
+SENTENCE:  Starting  Today   ( 7/18 )
+              NN       NN            
+                    |======|         
+                      Drug           
+                    C0310367         
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  take with  lasix   to increase absorption
+            VB   IN     NN    TO    VB        NN    
+                     |======|                       
+                       Drug                         
+                     C0699992                       
+
+SENTENCE:  PRILOSEC ( OMEPRAZOLE ) 20 MG PO QD
+              NN         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0700777    C0028978               
+
+SENTENCE:  CARDURA  ( DOXAZOSIN ) 4 MG PO BID
+              NN         NNP        NN NN RB 
+           |======|   |=======|              
+             Drug       Drug                 
+           C0678136   C0114873               
+
+SENTENCE:  AVANDIA  ( ROSIGLITAZONE ) 8 MG PO QD
+             NNP           NN           NN FW FW
+           |======|   |===========|             
+             Drug         Drug                  
+           C0875967     C0289313                
+
+SENTENCE:    KCL    SLOW  RELEASE  20 MEQ  X  2 PO QD
+             NNP     JJ     NN        NNS SYM   FW FW
+           |======|      |=======|                   
+             Drug        Procedure                   
+           C0032825      C1963578                    
+
+SENTENCE:  As per MBMC Potassium Chloride Policy:
+           IN IN  NNP     NNP       NN      NN   
+                       |=======| |======|        
+                         Drug      Drug          
+                       C0032821  C0596019        
+                       |================|        
+                              Drug               
+                            C0032825             
+
+SENTENCE:  each 20 mEq dose to be given with 4 oz  of fluid
+            DT     NN   NN  TO VB  VBN   IN    NNS IN  NN  
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 1/25 by :
+              JJ     VBN  IN      IN  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override: will monitor
+              NN      NN   IN     NN      MD    VB   
+           |======|                                  
+             Drug                                    
+           C0596019                                  
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House /   ADA    1800 cals/dy
+            NN        NN         NNS  NN
+                   |======|             
+                     Drug               
+                   C0001457             
+
+SENTENCE:  RETURN TO   WORK  :
+             NN   IN    NN    
+                     |======| 
+                     Finding  
+                     C0043227 
+           |================| 
+                Finding       
+                C0425105      
+
+SENTENCE:  Not Applicable
+           RB      JJ    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Rajewski 3:45pm 6/15 scheduled ,
+           NNP   NNP       NN          VBN     
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Erythromycins , Penicillins , Cortisone acetate 
+                NNS            NNS          NNP       NN   
+           |===========|   |=========|   |=======| |======|
+               Drug           Drug         Drug      Drug  
+             C0014806       C0030842     C0010137  C0000975
+                                         |================|
+                                                Drug       
+                                              C0056391     
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:    leg     edema   ,  anemia  , proteinuria
+              NN       NN         NN          NN     
+           |======| |======|   |======|   |=========|
+           Anatomy  Finding    Disorder     Finding  
+           C1140621 C0013604   C0002871    C0033687  
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:    leg     edema   ,  anemia  , proteinuria , ? NSAID   gastritis , colonic   polyps 
+              NN       NN         NN          NN            NN       NN          JJ      NNS   
+           |======| |======|   |======|   |=========|    |======| |=======|   |======| |======|
+           Anatomy  Finding    Disorder     Finding        Drug   Disorder    Anatomy  Disorder
+           C1140621 C0013604   C0002871    C0033687      C0003211 C0017152    C0009368 C0032584
+                                                                              |===============|
+                                                                                  Disorder     
+                                                                                  C0009376     
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    IDDM     HTN    nephrotic sdm Fe def  anemia    CHF    ( EF 40-45% on
+              NN       NN       JJ     NN  JJ NN     NN       NN      NN        IN
+           |======| |======|                      |======| |======|               
+           Disorder Disorder                      Disorder Disorder               
+           C0011854 C0020538                      C0002871 C0018802               
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  Upper GI :
+            JJ   NN  
+           |=======| 
+           Procedure 
+           C0203057  
+
+SENTENCE:   NSAID   gastritis , hiatal  hernia 
+              NN       NN         JJ      NN   
+           |======| |=======|          |======|
+             Drug   Disorder           Disorder
+           C0003211 C0017152           C0019270
+                                |=============|
+                                   Disorder    
+                                   C3489393    
+
+SENTENCE:  Colonoscopy:
+               NN      
+           |=========| 
+            Procedure  
+            C0009378   
+
+SENTENCE:   Polyps  that appeared benign , no evidence of bleeding
+             NNS     IN    VBD      JJ     DT    NN    IN    NN   
+           |======|                                       |======|
+           Disorder                                       Finding 
+           C0032584                                       C0019080
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:   Blood   transfusions ( three units total )
+              NN        NNS         CD    NNS   JJ    
+           |======| |==========|                      
+           Anatomy   Procedure                        
+           C0005767   C0005841                        
+                      C1879316                        
+
+SENTENCE:  Diuresis with IV  lasix  
+              NN     IN  NN    NN   
+           |======|         |======|
+           Finding            Drug  
+           C0012797         C0699992
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  *** 11/22 ***
+                        
+
+SENTENCE:  60 y .o  woman c  dm ,   htn    , hyperlipidemia , nephrotic syndrome p /w 
+              NN JJ  NN   NN NN      NN            NN            JJ        NN    IN RB
+                                  |======|   |============|             |======|      
+                                  Disorder      Disorder                Disorder      
+                                  C0020538      C0020473                C0039082      
+                                                              |================|      
+                                                                   Disorder           
+                                                                   C0027726           
+
+SENTENCE:  worsening 3+ le  edema   up to  thighs  and lower abdomen .
+              NN        NN    NN    IN IN   NNS    CC   JJ      NN    
+                           |======|       |======|           |======| 
+                           Finding        Anatomy            Anatomy  
+                           C0013604       C0039866           C0000726 
+                                                       |============| 
+                                                          Anatomy     
+                                                          C0230166    
+
+SENTENCE:  No cp ,   sob    ,
+           DT NN      NN     
+                   |======|  
+                   Finding   
+                   C0013404  
+
+SENTENCE:  palpitations , dysuria  , change in urination.
+               NNS           NN        NN   IN    NN     
+           |==========|   |======|             |=======| 
+             Finding      Finding               Finding  
+             C0030252     C0013428             C0042034  
+
+SENTENCE:  Protein  loss in
+              NN     NN  IN
+           |======|        
+             Drug          
+           C0033684        
+
+SENTENCE:  10 of September around 6g/day.
+              IN    NNP      IN   DT NN  
+
+SENTENCE:  Also    Hct    decrease in past
+            RB     JJ        NN    IN  JJ 
+                |=======|                 
+                Procedure                 
+                C0018935                  
+
+SENTENCE:  months ,  guaiac  + stool in ED.
+            NNS        NN       NN   IN NN 
+                    |======|               
+                      Drug                 
+                    C0018302               
+
+SENTENCE:  Admitted for diuresis
+              JJ    IN     NN   
+                        |======|
+                        Finding 
+                        C0012797
+
+SENTENCE:  and possible GI workup.
+           CC     JJ    JJ   NN   
+
+SENTENCE:  ____________________________________________________________
+                                                                       
+
+SENTENCE:  *** 6/10 ***
+                       
+
+SENTENCE:  colonoscopy  today  :
+               NN         NN    
+           |=========| |======| 
+            Procedure    Drug   
+            C0009378   C0310367 
+
+SENTENCE:  mult ( about 10 )  polyps  in  colon   , largest one 1cm ,
+            JJ     IN          NNS    IN    NN        JJS   CD  NN   
+                             |======|    |======|                    
+                             Disorder    Anatomy                     
+                             C0032584    C0009368                    
+
+SENTENCE:  no active bleeding.
+           DT   JJ      NN    
+                     |======| 
+                     Finding  
+                     C0019080 
+
+SENTENCE:  No  polyp   bx taken , given so numerous and Pt
+           DT    NN    NN  VBN     VBN  IN    JJ    CC  NN
+              |======|                                    
+              Disorder                                    
+              C0032584                                    
+
+SENTENCE:  on   ASA    and lovenox .
+           IN    NN    CC     NN    
+              |======|     |======| 
+                Drug         Drug   
+              C0004057     C0728963 
+
+SENTENCE:  Nodular
+             JJ   
+
+SENTENCE:  gastritis w / few erosions , no  ulcers .
+              NN     IN  JJ    NNS      DT   NNS    
+           |=======|         |======|      |======| 
+           Disorder          Disorder      Disorder 
+           C0017152          C0333307      C0041582 
+
+SENTENCE:  Gastric bx pending.
+             JJ    NN   JJ    
+
+SENTENCE:  Pt to get repeat colonoscopy in February w / bx of
+           NN TO VB    NN       NN      IN   NNP    IN  NN IN
+                            |=========|                      
+                             Procedure                       
+                             C0009378                        
+
+SENTENCE:   polyps  , after d /c    asa    ,
+             NNS       IN   NN NN    NN     
+           |======|               |======|  
+           Disorder                 Drug    
+           C0032584               C0004057  
+
+SENTENCE:  lovenox .
+              NN    
+           |======| 
+             Drug   
+           C0728963 
+
+SENTENCE:  Sent home on 100 mg  BID po  Lasix   with 10mg BID po  Reglan  to increase
+           VBN   NN  IN     NNS FW  FW   NNP     IN  NNS  FW  FW   NNP    TO    NN   
+                                       |======|                  |======|            
+                                         Drug                      Drug              
+                                       C0699992                  C0034977            
+
+SENTENCE:  absorption , on   rest   of cardiac  meds ( Zestril  , Cardura  ) , on Avandia  and
+               NN       IN    NN    IN    NN    NNS      NNP        NNP        IN   NNP     . 
+                           |======|    |======|        |======|   |======|        |======|    
+                           Finding     Anatomy           Drug       Drug            Drug      
+                           C0035253    C0018787        C0678140   C0678136        C0875967    
+
+SENTENCE:  Humalin 20 Units.
+             NNP       NNS  
+
+SENTENCE:  Avoid  NSAIDS  and   ASA   .
+            VB     NNS    CC     NN    
+                 |======|     |======| 
+                   Drug         Drug   
+                 C0003211     C0004057 
+
+SENTENCE:    PCP    will adjust diuretic
+              NN     MD    VB      NN   
+           |======|             |======|
+             Drug                 Drug  
+           C0031381             C0012798
+
+SENTENCE:  regimen as pt.
+             NN    IN NN 
+
+SENTENCE:  responds.
+             NNS    
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Please visit Dr. Tischer or come back to AH  if   leg     edema   worsens with
+             UH    VB   NNP   NNP   CC  VB   RB  IN NNP IN    NN       NN      VBZ    IN 
+                                                           |======| |======|             
+                                                           Anatomy  Finding              
+                                                           C1140621 C0013604             
+
+SENTENCE:  diuretic use at home or if notice  blood   in stools.
+              JJ    NN  IN  NN  CC IN   DT      NN    IN  NNS   
+           |======|                          |======|           
+             Drug                            Anatomy            
+           C0012798                          C0005767           
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  Follow up with Dr. Lineberger tomorrow 3:45pm at Lis Rirock Ton Medical Center .
+             VB   RP  IN  NNP    NNP        NN       NN  IN NN    NN   NN    JJ      NN    
+
+SENTENCE:  Follow up with GI at RHO in 2 months for colonic   polyps .
+             VB   RP  IN  NN IN NN  IN    NNS   IN     JJ      NNS    
+                                                    |======| |======| 
+                                                    Anatomy  Disorder 
+                                                    C0009368 C0032584 
+                                                    |===============| 
+                                                        Disorder      
+                                                        C0009376      
+
+SENTENCE:  Avoid  NSAIDs  , Aspirin 
+            VB     NNS        NNP   
+                 |======|   |======|
+                   Drug       Drug  
+                 C0003211   C0004057
+
+SENTENCE:  Follow-up H .pylori study.
+             VB   RP NN  NNP    NN   
+
+SENTENCE:  Adjust diuretic regimen as needed.
+             RB      JJ      NN    IN  VBN   
+                  |======|                   
+                    Drug                     
+                  C0012798                   
+
+SENTENCE:  Pt.  aware   of fluid restriction need
+           NN     JJ    IN  NN       NN       NN 
+               |======|    |===============|     
+               Finding         Procedure         
+               C0004448        C0204700          
+
+SENTENCE:  of about 1.5L /day and   plan  .
+           IN  IN      JJ NN  CC     NN    
+                                  |======| 
+                                  Disorder 
+                                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  HULMES , LEONEL DANNIE , M.D. ( YS58 ) 1/25 @ 02:34 PM
+            NNS       NN    NNP     NNP    NNP                 NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

@@ -1,0 +1,702 @@
+SENTENCE:  878570799 |   MMC    | 87322051 | | 8195519 | 5/9/2003 12:00:00 AM |   CHF    | |   DIS    | Admission Date:
+                          NN                                               NN      NN           NN         NN      NN  
+                       |======|                                                 |======|     |======|                  
+                         Drug                                                   Disorder     Finding                   
+                       C0002475                                                 C0018802     C1444662                  
+                                                                                             |======|                  
+                                                                                             Disorder                  
+                                                                                             C0012634                  
+                                                                                             C1970187                  
+
+SENTENCE:  5/30/2003 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  3/2/2003
+                   
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  MOLITORIS , GERALD A  364-17-17-6
+              NN        NNP   DT            
+
+SENTENCE:  Grand Room:
+            NNP   NN  
+
+SENTENCE:  And
+           NN 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  7/29/03 AT 03:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  FRANZI , KENDALL ,  M . D .
+             NN       NNP     NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:    ASA    ( ACETYLSALICYLIC ACID ) 325 MG PO QD
+              NN            NN         NN        NN FW FW
+           |======|   |==================|               
+             Drug             Drug                       
+           C0004057         C0004057                     
+
+SENTENCE:  ALLOPURINOL 300 MG PO QD
+               NN          NN FW FW
+           |=========|             
+              Drug                 
+            C0002144               
+
+SENTENCE:  LISINOPRIL 20 MG PO BID
+               NN        NN NN RB 
+           |========|             
+              Drug                
+            C0065374              
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 1/5/03 by
+              JJ     VBN  IN        . 
+
+SENTENCE:  PAVAN , BRIAN TERRELL  , M.D. , PH.D .
+            NN      NN      NN       NN    NN NN 
+                         |======|                
+                           Drug                  
+                         C1587944                
+
+SENTENCE:  on order for   KCL    IMMEDIATE  RELEASE  PO ( ref # 24587344 )
+           IN  NN   IN    NNP       NN        NN     NN   NN              
+                        |======|           |=======|                      
+                          Drug             Procedure                      
+                        C0032825           C1963578                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override: will monitor
+              NN      NN   IN     NN      MD    VB   
+           |======|                                  
+             Drug                                    
+           C0596019                                  
+
+SENTENCE:  LEVOFLOXACIN 500 MG PO QD
+                NN          NN FW FW
+           |==========|             
+               Drug                 
+             C0282386               
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Administer   iron   products a  minimum of 2 hours before or
+               VB        NN      NNS    DT   NN    IN    NNS    IN   CC
+                      |======|                                         
+                        Drug                                           
+                      C0302583                                         
+
+SENTENCE:  after a  levofloxacin or ciprofloxacin dose dose
+            IN   DT      NN      CC      NN        NN   NN 
+                    |==========|    |===========|          
+                        Drug            Drug               
+                      C0282386        C0008809             
+
+SENTENCE:  If on tube feeds , please cycle ( hold 1 hr before to 2 hr 
+           IN IN  NN   NNS      NN    NN      NN    NN   IN   IN   NNS
+
+SENTENCE:  after ) Take 2 hours before or 2 hours after dairy products.
+            NN      VB     NNS    IN   CC    NNS   IN    JJ     NNS    
+
+SENTENCE:  MICONAZOLE NITRATE 2%  POWDER  TOPICAL  TP BID
+               NN       NN          NN       JJ    NN FW 
+           |========|            |======| |======|       
+              Drug                 Drug     Drug         
+            C0025942             C0032861 C1710439       
+           |================|                            
+                  Drug                                   
+                C0086620                                 
+
+SENTENCE:   CELEXA  ( CITALOPRAM ) 20 MG PO QD
+              NN         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0719199    C0008845               
+
+SENTENCE:   VIOXX   ( ROFECOXIB ) 25 MG PO QD
+              NN         NN          NN FW FW
+           |======|   |=======|              
+             Drug       Drug                 
+           C0876768   C0762662               
+
+SENTENCE:  Food/  Drug   Interaction Instruction Take with food
+           NNP    NNP        NN          NN       VB   IN   NN 
+                |======| |=========|                           
+                  Drug     Finding                             
+                C0013227  C0687133                             
+
+SENTENCE:  TORSEMIDE 20 MG PO BID
+              NN        NN NN RB 
+           |=======|             
+             Drug                
+           C0076840              
+
+SENTENCE:  TRAZODONE 50 MG PO HS
+              NN        NN FW FW
+           |=======|            
+             Drug               
+           C0040805             
+
+SENTENCE:   ZANTAC  ( RANITIDINE   HCL    ) 150 MG PO BID
+             NNP          NN        NN          NN NN RB 
+           |======|   |========| |======|                
+             Drug        Drug      Drug                  
+           C0592278    C0034665  C0020259                
+                      |=================|                
+                             Drug                        
+                           C0700466                      
+
+SENTENCE:  METROGEL 0.75% ( METRONIDAZOLE ) TOPICAL  TP BID
+              NN                 NN            JJ    NN FW 
+           |======|         |===========|   |======|       
+             Drug               Drug          Drug         
+           C0699681           C0025872      C1710439       
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr  Getting 2-3 weeks ,
+           NNP   VBG        NNS   
+
+SENTENCE:  Dr. Colton Thiem urology 1-2 weeks ,
+           NNP  NNP    NNP    NN         NNS   
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Penicillins
+               NNS    
+           |=========|
+              Drug    
+            C0030842  
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:    CHF   
+              NN   
+           |======|
+           Disorder
+           C0018802
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:    CHF   
+              NN   
+           |======|
+           Disorder
+           C0018802
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  Morbid Obesitiy  atrial  fibrilation (  atrial  fibrillation ) anxiety 
+             JJ      JJ       JJ        NN           JJ         NN           NN   
+                           |======|               |======| |==========|   |======|
+                           Anatomy                Anatomy    Disorder     Disorder
+                           C0018792               C0018792   C0232197     C0003467
+                                                  |===================|           
+                                                        Disorder                  
+                                                        C0004238                  
+
+SENTENCE:  ( anxiety  ) depression ( depression )  sleep    apnea   (  sleep  
+                NN          NN           NN          NN       NN         NN   
+             |======|   |========|   |========|   |======| |======|   |======|
+             Disorder    Disorder     Disorder    Finding  Finding    Finding 
+             C0003467    C0011581     C0011581    C0037313 C0003578   C0037313
+                                                  |===============|           
+                                                      Disorder                
+                                                      C0037315                
+
+SENTENCE:   apnea   )   copd   ( chronic obstructive pulmonary disease  )   chf    ( congestive
+              NN         JJ        JJ        JJ         JJ        NN         NN          JJ    
+           |======|   |======|                       |=======| |======|   |======|             
+           Finding    Disorder                        Anatomy  Disorder   Disorder             
+           C0003578   C0024117                       C0024109  C0012634   C0018802             
+                                                     |================|                        
+                                                          Disorder                             
+                                                          C0024115                             
+                                 |====================================|                        
+                                                Disorder                                       
+                                                C0024117                                       
+
+SENTENCE:   heart   failure )   gout   (   gout   )  anemia  (  anemia  ) osteoarthritis
+              NN      NN         NN         NN         NN         NN            NN      
+           |======|           |======|   |======|   |======|   |======|   |============|
+           Anatomy            Disorder   Disorder   Disorder   Disorder      Disorder   
+           C0018787           C0018099   C0018099   C0002871   C0002871      C0029408   
+           |==============|                                                             
+               Disorder                                                                 
+               C0018801                                                                 
+
+SENTENCE:  ( osteoarthritis ) pancreatitis ( pancreatitis )
+                   NN              NN             NN       
+             |============|   |==========|   |==========|  
+                Disorder        Disorder       Disorder    
+                C0029408        C0030305       C0030305    
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  NONE
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  63 y /o  M  w / morbid obesity  , hx   OSA    ,   CHF    , chronic  venous  statis  ulcer  
+              NN JJ NN IN    NN      NN      NN    NN         NN        JJ       JJ      NN      NN   
+                                  |======|      |======|   |======|           |======|        |======|
+                                  Disorder      Disorder   Disorder           Anatomy         Disorder
+                                  C0028754      C0520679   C0018802           C0042449        C0041582
+                           |=============|                                                            
+                              Disorder                                                                
+                              C0028756                                                                
+
+SENTENCE:  presents w / progressive   SOB    ,   DOE   .
+             VBZ    IN      JJ         NN         NN    
+                                    |======|   |======| 
+                                    Finding    Finding  
+                                    C0013404   C0231807 
+
+SENTENCE:  Pt had been recently  cutting  back
+           NN VBD VBN     RB       JJ      NN 
+                                |=======|     
+                                Procedure     
+                                C0152060      
+
+SENTENCE:  on dose of torsemide since he  had been experiencing episodes of
+           IN  NN  IN    NN      IN   PRP VBD VBN      VBG        NNS    . 
+                      |=======|                                            
+                        Drug                                               
+                      C0076840                                             
+
+SENTENCE:  incontinence.
+                NN      
+           |==========| 
+             Disorder   
+             C0021167   
+
+SENTENCE:  In addition , pt had c /o  3 day hx  fevers / chills  , and
+           IN    NN      NN VBD NN IN   NN  NN   NNS      NNS      CC 
+                                               |======| |======|      
+                                               Finding  Finding       
+                                               C0015967 C0085593      
+
+SENTENCE:   cough   w / sputum production.
+              NN    IN    NN       NN     
+           |======|                       
+           Finding                        
+           C0010200                       
+
+SENTENCE:     CXR    found RLL infiltrate by report (   film  
+              NN      VBD  VBN     NN     IN   NN        NN   
+           |=======|           |========|             |======|
+           Procedure            Finding                 Drug  
+           C0039985             C0332448              C1704608
+
+SENTENCE:  done at   MHS    ) as well as vascular congestion.
+           VBN  IN   NNP      RB  RB  IN    JJ        NN     
+                   |======|              |======| |========| 
+                   Disorder              Anatomy   Finding   
+                   C0024591              C0005847  C0700148  
+
+SENTENCE:  Pt also w /  venous   stasis 
+           NN  RB  IN     JJ       NN   
+                       |======| |======|
+                       Anatomy  Finding 
+                       C0042449 C0333138
+                       |===============|
+                            Finding     
+                           C0277919     
+
+SENTENCE:   ulcer   on  R   tibia   , has been growing in size over past 6 weeks , VNA
+              NN    IN NNP    NN      VBZ VBN    VBG   IN  NN   IN   JJ     NNS    NN 
+           |======|        |======|                                                   
+           Disorder        Anatomy                                                    
+           C0041582        C0040184                                                   
+
+SENTENCE:  doing wet to dry dressings at home.
+            VBG  JJ  IN JJ     NNS    IN  NN  
+
+SENTENCE:  In ED febrile  to 100.3 , exam
+           IN NN    JJ    IN          NN 
+                 |======|                
+                 Finding                 
+                 C0015967                
+
+SENTENCE:  significant for some ronchi at R    base   ,  rales   bialterally at bases ,
+               JJ      IN   DT   NNS   IN JJ    NN        NNS        RB      IN  NNS   
+                                             |======|   |======|                       
+                                             Anatomy    Finding                        
+                                             C0225810   C0034642                       
+                                             |======|                                  
+                                               Drug                                    
+                                             C0002055                                  
+
+SENTENCE:  large ( 10cm ) area of macerated   skin   RLE , dressed.
+            JJ      NN     NN  IN    JJ        NN    NN      VBN   
+                                            |======|               
+                                            Anatomy                
+                                            C1123023               
+                                  |================|               
+                                       Finding                     
+                                       C0558143                    
+
+SENTENCE:  Hospital Course:
+              NN      NN   
+
+SENTENCE:  1. CV- Pt in   CHF    from    CXR    findings , hypoxia  , foley inserted and
+              NN  NN IN    NN     IN     NN       NNS         NN       NN     VBN     . 
+                        |======|      |=======|            |======|                     
+                        Disorder      Procedure            Finding                      
+                        C0018802      C0039985             C0242184                     
+
+SENTENCE:  started on  lasix   60mg IV bid.
+             VBN   IN    NN     NN  NN FW  
+                      |======|             
+                        Drug               
+                      C0699992             
+
+SENTENCE:  The pt had an excellent diuretic
+           DT  NN VBD DT    JJ        NN   
+                                   |======|
+                                     Drug  
+                                   C0012798
+
+SENTENCE:  response to this regimen , diuresing up to 1.5 L  neg per day over the
+              NN    IN  DT    NN         VBG    IN IN     NN JJ  IN  NN   IN  CD 
+
+SENTENCE:  first three days of admission.
+            RB    CD   NNS  IN    NN     
+
+SENTENCE:  Endpoint of diuresis difficult to
+              NN    IN    NN       JJ     TO
+                       |======| |=======|   
+                       Finding   Finding    
+                       C0012797 C1299586    
+
+SENTENCE:  assess , but pt was converted back to po diuretics on 4/18/03.
+             NN     CC  NN VBD    VBN     RB  IN FW    NNS    IN         
+                                                    |=======|            
+                                                      Drug               
+                                                    C0012798             
+
+SENTENCE:  Pt last
+           NN  JJ 
+
+SENTENCE:  had echo over 2 yrs ago , repeated echo showed EF 60-65% w /   mild   MR and
+           VBD  NN   IN    NNS RB       JJ     NN   VBD   NN        IN     JJ    NN  . 
+                                                                        |======|       
+                                                                        Finding        
+                                                                        C1513302       
+
+SENTENCE:  calcified mitral annulus.
+              JJ       JJ     NN    
+                     |============| 
+                        Anatomy     
+                        C0225947    
+                        C1305163    
+
+SENTENCE:  Initial    EKG    thought to be afib probably not
+             JJ       NN       VBD   TO VB VBN     RB    RB 
+                   |=======|                    |======|    
+                   Procedure                    Finding     
+                   C1623258                     C0332148    
+
+SENTENCE:    afib   since it  showed a  regular rhythm , but may be junctional rhythm.
+              NN     IN   PRP  VBD   DT   JJ      NN     CC  MD  VB     JJ       NN   
+           |======|                                                 |===============| 
+           Disorder                                                      Finding      
+           C0004238                                                     C0232208      
+
+SENTENCE:  2. ID- Presumed   RLL    PNA , started on levofloxacin , will repeat    CXR    here
+              NN    VBN       NN    NN      VBN   IN      NN         MD    VB      NN      RB 
+                           |======|                  |==========|               |=======|     
+                           Anatomy                       Drug                   Procedure     
+                           C1261075                    C0282386                 C0039985      
+
+SENTENCE:  since no   film   available for viewing from EH .
+            IN   DT    NN       JJ     IN    NN     IN  NN  
+                    |======|                                
+                      Drug                                  
+                    C1704608                                
+
+SENTENCE:  3.   Skin  / wounds - large  venous   stasis   ulcer   on  R   tibial  region , also pt
+                 NN      NNS      JJ      JJ       NN       NN    IN NNP    JJ      NN      RB  NN
+              |======| |======|        |======| |======| |======|        |======|                 
+              Anatomy  Disorder        Anatomy  Finding  Disorder        Anatomy                  
+              C1123023 C0043250        C0042449 C0333138 C0041582        C0040184                 
+                                                |===============|                                 
+                                                    Disorder                                      
+                                                    C0042344                                      
+                                       |===============|                                          
+                                            Finding                                               
+                                           C0277919                                               
+
+SENTENCE:  has decub   skin   breakdown- consulted   skin   care nurse to recommend
+           VBZ  NN      NN       NN         VBN       NN     NN   NN   TO    VB    
+                     |======| |=======|            |======|                        
+                     Anatomy   Finding             Anatomy                         
+                     C1123023 C0699900             C1123023                        
+                              |=======|            |===========|                   
+                              Disorder               Procedure                     
+                              C1265875               C0150773                      
+                     |================|                                            
+                          Finding                                                  
+                          C0150077                                                 
+                          C4048181                                                 
+                     |================|                                            
+                          Disorder                                                 
+                          C3887524                                                 
+
+SENTENCE:  appropriate  therapy  , nurses will follow   skin   care instructions for
+               JJ         NN        NNS    MD    VB      NN     NN      NNS       . 
+                       |=======|                      |======|                      
+                       Procedure                      Anatomy                       
+                       C0087111                       C1123023                      
+                                                      |===========|                 
+                                                        Procedure                   
+                                                        C0150773                    
+
+SENTENCE:  Ag dressings and duoderm , will continue dressings with VNA assistance
+           NN    NNS    CC    NN       MD     VB       NNS     IN  NN      NN    
+
+SENTENCE:  4. Pulm- pt w /   OSA    ,   CPAP    at night , cont to titrate O2 to SaO2 > 92%
+               NN   NN IN     NN         NNP    IN  NN      NN  IN   NN    NN IN NNP       
+                           |======|   |=======|                                            
+                           Disorder   Procedure                                            
+                           C0520679   C0199451                                             
+
+SENTENCE:  5. GU- Pt had been c /o  significant incontinence over the past 1-2
+              NN  NN VBD VBN  VB RP     JJ           NN       IN  DT   NN     
+                                                |==========|                  
+                                                  Disorder                    
+                                                  C0021167                    
+
+SENTENCE:  weeks and requested to see urology while in house- urology recommended
+            NNS  CC     VBD    TO VB    NN     IN   IN  NN      NN        VBN    
+
+SENTENCE:  keeping foley in until decub  ulcers    heal   and pt can have proper eval as
+             VBG    NN   IN  IN    NN     NNS       JJ    CC  NN MD   VB    NN    NN  IN
+                                        |======| |======|                               
+                                        Disorder Finding                                
+                                        C0041582 C0043240                               
+
+SENTENCE:  outpatient
+               NN    
+
+SENTENCE:  6. Disposition- Pt discharged to home with VNA services for dressing 
+                  NN       NN    VBN     IN  NN   IN  NN    NNS    IN     NN    
+                                                          |======|     |=======|
+                                                          Finding       Finding 
+                                                          C0557854     C1305428 
+                                                                       |=======|
+                                                                       Procedure
+                                                                       C0278286 
+
+SENTENCE:  changes and foley care , PT.
+             NNS   CC   NN    NN    NN 
+
+SENTENCE:  Pt will f /u  w / his   primary  care
+           NN  MD  VB RP IN  PRP$    JJ      NN 
+                                  |=======|     
+                                  Procedure     
+                                  C0439631      
+
+SENTENCE:  physician and and urology as an outpatient
+              NN     CC  CC    NN    IN DT     NN    
+
+SENTENCE:  ADDITIONAL COMMENTS: 1. Please call your  primary  care physician for an appointment within
+               JJ       NNS          UH    VB  PRP$    JJ      NN     NN     IN  DT     NN        IN  
+                                                    |=======|                                         
+                                                    Procedure                                         
+                                                    C0439631                                          
+
+SENTENCE:  the next 2-3 weeks.
+           DT   JJ       NNS  
+
+SENTENCE:  2.
+             
+
+SENTENCE:  You should call Dr. Leonel Campagnone from urology for an appointment ,  the 
+           PRP   MD    VB  NNP  NNP      NNP      IN    NN    IN  DT     NN        -RRB-
+
+SENTENCE:  phone number is  754-548-4082
+            NN     NN   VBZ      CD     
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  1. Pt needs VNA nursing  services for dressing  changes and foley care
+              NN  VBZ  NN     NN      NNS    IN     NN       NNS   CC   NN    NN 
+                           |======| |======|     |=======|                       
+                           Finding  Finding       Finding                        
+                           C0006147 C0557854     C1305428                        
+                                                 |=======|                       
+                                                 Procedure                       
+                                                 C0278286                        
+
+SENTENCE:  2. Pt should have    CXR    followed as outpt , 3cm opacity  noted in   RLL    on
+              NN   MD    VB     NN       VBN    IN  NN     NN     NN     VBN  IN   NNP    . 
+                             |=======|                         |======|          |======|   
+                             Procedure                         Finding           Anatomy    
+                             C0039985                          C0029053          C1261075   
+
+SENTENCE:    film   done 1/4 ( per pt , has  barium  in R    lung   from prior  barium 
+              NN    VBN        IN  NN   VBZ    NN    IN JJ    NN     IN   JJ      NN   
+           |======|                         |======|       |======|            |======|
+             Drug                             Drug         Anatomy               Drug  
+           C1704608                         C0004749       C0024109            C0004749
+
+SENTENCE:  aspiration )
+               NN      
+           |========|  
+           Procedure   
+            C0349707   
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  BLOK , JACKSON HUGO , M.D. ( RD07 ) 7/29/03 @ 12
+            NN      NNP   NNP    NNP     NN                
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

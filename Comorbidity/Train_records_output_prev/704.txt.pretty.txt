@@ -1,0 +1,574 @@
+SENTENCE:  337411981 | VGMUOHC | 65274701 | | 2638499 | 9/19/2005 12:00:00 AM | RULE OUT MYOCARDIAL INFARCTION | Signed |   DIS    | Admission Date:
+                         NN                                                NN    NN  JJ      JJ         NN        VBN        NN         NN      NN  
+                                                                                                    |========|            |======|                  
+                                                                                                     Finding              Finding                   
+                                                                                                     C0021308             C1444662                  
+                                                                                         |===================|            |======|                  
+                                                                                               Disorder                   Disorder                  
+                                                                                               C0027051                   C0012634                  
+                                                                                                                          C1970187                  
+
+SENTENCE:  11/2/2005 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  5/24/2005
+                    
+
+SENTENCE:  ATTENDING:
+              NN     
+
+SENTENCE:  BRAMLETT , BENNETT MD
+              NN        NN    NN
+
+SENTENCE:  CHIEF COMPLAINT:
+            JJ      NN     
+                 |=======| 
+                  Finding  
+                 C0277786  
+
+SENTENCE:  Abdominal   pain  .
+              JJ        NN    
+           |=======| |======| 
+            Anatomy  Finding  
+           C0000726  C0030193 
+           |================| 
+                Finding       
+                C0000737      
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  This is  a  56-year-old female
+            DT  VBZ DT     NN  JJ    NN  
+
+SENTENCE:  transferred from the Internal Medicine Service  for acute
+               VBN      IN  DT     JJ      NNP       NN    IN   JJ  
+                                         |======| |======|          
+                                           Drug   Finding           
+                                         C0013227 C0557854          
+
+SENTENCE:  cholecystitis.
+                NN       
+           |===========| 
+             Disorder    
+             C0008325    
+
+SENTENCE:  The patient presented with abdominal   pain   for
+           DT    NN       VBD     IN     JJ        NN     . 
+                                      |=======| |======|    
+                                       Anatomy  Finding     
+                                      C0000726  C0030193    
+                                      |================|    
+                                           Finding          
+                                           C0000737         
+
+SENTENCE:  five days ,  nausea  , vomiting and shortness of breath.
+            CD  NNS       NN         NN    CC     NN     IN   NN   
+                       |======|   |======|     |=================| 
+                       Finding    Finding            Finding       
+                       C0027497   C0042963          C0013404       
+
+SENTENCE:  The patient
+           DT    NN   
+
+SENTENCE:  was originally admitted to the Internal Medicine Service  where
+           VBD     RB       VBN    IN DT     JJ      NNP       NN     WRB 
+                                                   |======| |======|      
+                                                     Drug   Finding       
+                                                   C0013227 C0557854      
+
+SENTENCE:  she received a  cardiac  rule out.
+           PRP   VBD    DT    JJ     NN  RB  
+                           |======|          
+                           Anatomy           
+                           C0018787          
+
+SENTENCE:  A  CT   scan    was obtained on
+           DT NN    NN     VBD   VBN    IN
+                 |=======|                
+                 Procedure                
+                 C0034606                 
+
+SENTENCE:  11/2/2005 , which showed an inflamed gallbladder , which
+                        WDT   VBD   DT    JJ        NN         WDT 
+                                                |=========|        
+                                                  Anatomy          
+                                                 C0016976          
+                                       |==================|        
+                                             Disorder              
+                                             C0008325              
+
+SENTENCE:  corresponded to patient's ongoing right upper quadrant   pain  .
+               VBN      IN   NN        JJ     JJ    JJ      NN       NN    
+                                                                  |======| 
+                                                                  Finding  
+                                                                  C0030193 
+                                             |===========================| 
+                                                        Finding            
+                                                       C0235299            
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  1. Hypertension.
+                   NN      
+              |==========| 
+                Disorder   
+                C0020538   
+
+SENTENCE:  2. Hypercholesterolemia.
+                       NN          
+              |==================| 
+                    Disorder       
+                    C0020443       
+
+SENTENCE:  3. Diabetes mellitus type 2 ( untreated ).
+                 NN       NN     NN         JJ       
+              |======|                   |=======|   
+              Disorder                    Finding    
+              C0011849                   C0332155    
+              |======================|               
+                      Disorder                       
+                      C0011860                       
+
+SENTENCE:  OUTPATIENT MEDICATIONS:
+               JJ         NNS     
+                      |=========| 
+                         Drug     
+                       C0013227   
+
+SENTENCE:  Atenolol 50 mg  p .o .
+             NNP       NNS RB NN 
+           |======|              
+             Drug                
+           C0004147              
+
+SENTENCE:  daily ,
+            RB    
+
+SENTENCE:  hydrochlorothiazide 25 mg  p .o .
+                   NN             NNS RB NN 
+           |=================|              
+                  Drug                      
+                C0020261                    
+
+SENTENCE:  daily ,  Nexium  40 mg  p.o. daily.
+            RB       NNP       NNS  FW   RB   
+                   |======|                   
+                     Drug                     
+                   C0939400                   
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  No known   drug   allergies.
+           DT  JJ      NN       NNS    
+                    |======| |=======| 
+                      Drug    Finding  
+                    C0013227 C0020517  
+                    |================| 
+                         Disorder      
+                         C0013182      
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  Vitals:
+            NNS   
+
+SENTENCE:  98.4 ,  heart   rate 101 , pulse 82 ,
+                     NN     NN         NN       
+                  |======|                      
+                  Anatomy                       
+                  C0018787                      
+
+SENTENCE:   blood   pressure 92/60 , respirations 20 , 96% on room   air   .
+              NN       NN                NNS               IN  NN     NN    
+           |======| |======|                                       |======| 
+           Anatomy  Finding                                          Drug   
+           C0005767 C0460139                                       C3536832 
+           |===============|                                                
+                Finding                                                     
+               C0005823                                                     
+
+SENTENCE:  Appearance:
+               NN     
+
+SENTENCE:  Comfortable , in no acute distress.
+               JJ        IN DT  JJ      NN    
+                                     |======| 
+                                     Finding  
+                                     C0231303 
+
+SENTENCE:  Cardiovascular:
+                 NN       
+           |============| 
+              Anatomy     
+              C0007226    
+
+SENTENCE:  Regular S1 , S2.
+             JJ    NN   NN 
+
+SENTENCE:  No gallops , rubs or murmurs .
+           DT   NNS     NNS  CC   NNS    
+                                |======| 
+                                Finding  
+                                C0018808 
+
+SENTENCE:  Pulmonary:
+              NN     
+           |=======| 
+            Anatomy  
+           C0024109  
+
+SENTENCE:  Clear
+            JJ  
+
+SENTENCE:  to auscultation bilaterally.
+           IN      NN          RB      
+              |==========|             
+               Procedure               
+                C0004339               
+
+SENTENCE:  No wheezes  or crackles.
+           DT   NNS    CC   NNS    
+              |======|    |======| 
+              Finding     Finding  
+              C0043144    C0034642 
+
+SENTENCE:  Abdomen :
+              NN    
+           |======| 
+           Anatomy  
+           C0000726 
+
+SENTENCE:  Soft , mildly distended , right upper quadrant tenderness with
+            JJ      RB      JJ        JJ    JJ      NN        NN      IN 
+                         |=======|                        |========|     
+                          Finding                          Finding       
+                         C0700124                          C0234233      
+
+SENTENCE:  guarding , positive Murphy's , no rebound , positive  bowel   sounds ,
+              NN         JJ      NN       DT   NN         JJ       NN     NNS    
+           |======|                                             |======|         
+           Finding                                              Anatomy          
+           C0427198                                             C0021853         
+                                                                |=============|  
+                                                                    Finding      
+                                                                   C0232693      
+
+SENTENCE:  no peritoneal  signs  .
+           DT     JJ       NNS    
+              |========| |======| 
+               Anatomy   Finding  
+               C0442034  C0311392 
+
+SENTENCE:  Extremities:
+               NNS     
+           |=========| 
+             Anatomy   
+            C0015385   
+
+SENTENCE:  No clubbing , cyanosis or
+           DT    NN         NN    CC
+              |======|   |======|   
+              Finding    Finding    
+              C0149651   C0010520   
+
+SENTENCE:   edema  .
+              NN    
+           |======| 
+           Finding  
+           C0013604 
+
+SENTENCE:   Rectal :
+              JJ    
+           |======| 
+             Drug   
+           C1272938 
+
+SENTENCE:   Guaiac  negative , no masses.
+              NN       JJ      DT  NNS   
+           |======|                      
+             Drug                        
+           C0018302                      
+
+SENTENCE:   IMAGING :
+              NN     
+           |=======| 
+           Procedure 
+           C0011923  
+           C0079595  
+
+SENTENCE:  CT of the abdomen  , distended gallbladder with
+           NN IN DT     NN         JJ         NN       IN 
+                     |======|   |=======| |=========|     
+                     Anatomy     Finding    Anatomy       
+                     C0000726   C0700124   C0016976       
+
+SENTENCE:  gallbladder wall thickening , pericholecystic fluid , bile   duct  
+               NN       NN      NN             JJ         NN      NN     NN   
+           |=========|      |========|                                |======|
+             Anatomy         Finding                                  Anatomy 
+            C0016976         C0205400                                 C0687028
+                                                                 |===========|
+                                                                    Anatomy   
+                                                                   C0005400   
+
+SENTENCE:  within  normal  limits.
+             IN      JJ     NNS   
+                  |======|        
+                  Finding         
+                  C0231683        
+                  C0558145        
+           |====================| 
+                  Finding         
+                  C1265570        
+
+SENTENCE:  HOSPITAL COURSE BY PROBLEMS:
+              NN      NN   IN   NNS    
+
+SENTENCE:  1. Acute cholecystitis:
+               JJ        NN       
+                    |===========| 
+                      Disorder    
+                      C0008325    
+              |=================| 
+                   Disorder       
+                   C0149520       
+
+SENTENCE:  The patient was taken to the operating
+           DT    NN    VBD  VBN  IN DT     NN    
+
+SENTENCE:  room on 6/9/2005 for open cholecystectomy.
+            NN  IN          IN   JJ        NN        
+                                     |=============| 
+                                        Procedure    
+                                        C0008320     
+
+SENTENCE:  There were no
+            EX   VBD  RB
+
+SENTENCE:  complications and the patient was moved to the general surgical
+                NNS      CC  DT    NN    VBD  VBN  IN DT    JJ       JJ   
+           |===========|                                                  
+              Finding                                                     
+             C0009566                                                     
+
+SENTENCE:  floor and continued to recover without complication.
+            NN   CC     VBN    TO   VB      IN         NN      
+                                                  |==========| 
+                                                    Finding    
+                                                    C0009566   
+
+SENTENCE:  By
+           RB
+
+SENTENCE:  postoperative day #6 , she was tolerating a  regular diet and
+                JJ       NN       PRP VBD    VBG     DT   JJ     NN  CC 
+                                                        |==========|    
+                                                          Finding       
+                                                          C0184625      
+
+SENTENCE:  ambulatory.
+               JJ     
+
+SENTENCE:  However , the patient developed productive  cough   and
+             RB      DT    NN       VBD        JJ        NN     . 
+                                                      |======|    
+                                                      Finding     
+                                                      C0010200    
+                                           |=================|    
+                                                 Finding          
+                                                C0239134          
+
+SENTENCE:  a   chest     x-ray   was obtained , which failed to show any infiltrate
+           DT    NN       NN     VBD   VBN       WDT   VBD   TO  VB  DT      NN    
+              |======| |=======|                                         |========|
+              Anatomy  Procedure                                          Finding  
+              C0817096 C1306645                                           C0332448 
+                       C1962945                                                    
+              |================|                                                   
+                  Procedure                                                        
+                   C0039985                                                        
+
+SENTENCE:  and she remained afebrile throughout her  hospital stay.
+           CC  PRP   VBD       JJ        IN     PRP$    NN     NN  
+                            |======|                               
+                            Finding                                
+                            C0277797                               
+
+SENTENCE:  She was
+           PRP VBD
+
+SENTENCE:  discharged with Robitussin A-C and instruction to call or return
+              VBN      IN     NNP     NNP CC      NN      TO  VB  CC   NN  
+                           |========|                                      
+                              Drug                                         
+                            C0723110                                       
+                           |============|                                  
+                                Drug                                       
+                              C0723125                                     
+
+SENTENCE:  to the hospital if she developed worsening  cough   ,  fever   , vomiting
+           IN DT     NN    IN PRP    VBD       VBG       NN         NN         NN   
+                                                      |======|   |======|   |======|
+                                                      Finding    Finding    Finding 
+                                                      C0010200   C0015967   C0042963
+
+SENTENCE:  or had any other concerns.
+           CC VBN DT   JJ     NNS    
+
+SENTENCE:  In addition , she was instructed to
+           IN    NN      PRP VBD    VBN     TO
+
+SENTENCE:  follow up with Dr. Sagaser for staple  removal  and  wound   check as
+             VB   RP  IN  NNP   NNP   IN    NN      NN     CC     NN     NN   RB
+                                                 |=======|     |======|         
+                                                 Procedure     Disorder         
+                                                 C0015252      C0043250         
+                                          |==============|                      
+                                             Procedure                          
+                                              C0204864                          
+
+SENTENCE:  well as her   primary  care doctor.
+            RB  IN PRP$    JJ      NN    NN   
+                        |=======|             
+                        Procedure             
+                        C0439631              
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Aspirin  81 mg  p .o .
+             NNP       NNS RB NN 
+           |======|              
+             Drug                
+           C0004057              
+
+SENTENCE:  daily , atenolol 50 mg 
+            RB       NNP       NNS
+                   |======|       
+                     Drug         
+                   C0004147       
+
+SENTENCE:  p .o .
+           RB NN 
+
+SENTENCE:  daily , hydrochlorothiazide 25 mg  p .o .
+            RB             NNP            NNS RB NN 
+                   |=================|              
+                          Drug                      
+                        C0020261                    
+
+SENTENCE:  daily , Lipitor  40 mg 
+            RB       NNP       NNS
+                   |======|       
+                     Drug         
+                   C0593906       
+
+SENTENCE:  p.o. daily.
+            FW   RB   
+
+SENTENCE:  DISCHARGE RECOMMENDATIONS AND FOLLOWUP:
+              NN           NNS       CC     NN    
+
+SENTENCE:  1.
+             
+
+SENTENCE:  The patient was instructed to follow up with Dr. Store in
+           DT    NN    VBD    VBN     TO   VB   RP  IN  NNP  NN   . 
+
+SENTENCE:  one week for  wound   check and staple  removal .
+           CD   NN  IN     NN     NN   CC    NN      NN     
+                        |======|                  |=======| 
+                        Disorder                  Procedure 
+                        C0043250                  C0015252  
+                                           |==============| 
+                                              Procedure     
+                                               C0204864     
+
+SENTENCE:  2.
+             
+
+SENTENCE:  The patient was instructed to follow up with her   primary  care
+           DT    NN    VBD    VBN     TO   VB   RP  IN  PRP$    JJ      NN 
+                                                             |=======|     
+                                                             Procedure     
+                                                             C0439631      
+
+SENTENCE:  doctor.
+             NN   
+
+SENTENCE:  An appointment was scheduled for Dr. Dee Vanosdol on
+           DT     NN      VBD    VBN    IN  NNP NNP   NNP    . 
+
+SENTENCE:  10/17/2005 at 11:30  a .m .
+                      IN       SYM NN 
+
+SENTENCE:  The patient was notified that she
+           DT    NN    VBD   VBN     IN  PRP
+
+SENTENCE:   likely  has untreated diabetes and needs to be started on new
+              RB    VBZ    JJ        NN    CC   VBZ  TO VB   VBN   IN JJ 
+           |======|     |=======| |======|                               
+           Finding       Finding  Disorder                               
+           C0332148     C0332155  C0011849                               
+
+SENTENCE:  medications.
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  eScription document:
+               NN        NN    
+
+SENTENCE:  8-9790077 RFFocus
+                       NN   
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  MARCINEK , IRVING
+              NN        NN  
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  BEHL , JORDON
+            NN      NN  
+
+SENTENCE:  Dictation ID 0488320
+              NN     NN        
+
+SENTENCE:  D : 4/4/05
+           NN        
+
+SENTENCE:  T : 4/4/05
+           NN        
+

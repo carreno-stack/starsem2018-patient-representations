@@ -1,0 +1,1310 @@
+SENTENCE:  357831656 | HSUMC | 59535642 | | 8891553 | 2/12/2002 12:00:00 AM | noncardiac  chest     pain   , possible   GERD   | |   DIS    | Admission Date:
+                        NN                                               NN       JJ        NN       NN         JJ       NN           NN         NN      NN  
+                                                                                         |======| |======|            |======|     |======|                  
+                                                                                         Anatomy  Finding             Disorder     Finding                   
+                                                                                         C0817096 C0030193            C0017168     C1444662                  
+                                                                                         |===============|                         |======|                  
+                                                                                              Finding                              Disorder                  
+                                                                                             C0008031                              C0012634                  
+                                                                                                                                   C1970187                  
+                                                                              |==========================|                                                   
+                                                                                        Finding                                                              
+                                                                                        C0476281                                                             
+
+SENTENCE:  1/18/2002 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  10/10/2002
+                     
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  SEACREST , LEON 431-35-84-8
+              NN       NN             
+
+SENTENCE:  Denceker Ville York Eo  Age , Nevada 70245
+              NN     NNP  NNP  NNP NNP    NNP        
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CAR
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  9/19/02 AT 05:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  BRANDAU , HARRIS KELLEY ,  M . D .
+             NN        NN     NN     NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  VENTOLIN ( ALBUTEROL INHALER ) 2 PUFF   INH    QID
+             NNP         NN       NN         NN     NN    RB 
+           |======|   |=======|                  |======|    
+             Drug       Drug                       Drug      
+           C0033744   C0001927                   C0022209    
+
+SENTENCE:  ALLOPURINOL 300 MG PO QD
+               NN          NN FW FW
+           |=========|             
+              Drug                 
+            C0002144               
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 6/1/02 by BERGUM , DAVID ZACHARIAH , M.D. , PH.D .
+              JJ     VBN  IN        IN   NN      NN      NNP      NNP    NN NN 
+
+SENTENCE:  on order for THEOPHYLLINE ( SLOW  RELEASE  ) PO 200 MG TID
+           IN  NN   IN       NN         JJ     NN       FW     NN NN 
+                        |==========|        |=======|                
+                            Drug            Procedure                
+                          C0039771          C1963578                 
+
+SENTENCE:  ( ref # 38319803 )
+             NN              
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ALLOPURINOL & THEOPHYLLINE
+               NN             NN     
+           |=========|   |==========|
+              Drug           Drug    
+            C0002144       C0039771  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous override information:
+              JJ       JJ       JJ        NN      
+           |======|                               
+           Finding                                
+           C0004448                               
+
+SENTENCE:  Override added on 6/1/02 by RUSSAK , SON SAMUEL , M.D. , PH.D .
+              JJ     VBN  IN        IN   NN     NN    NN      NN    NN NN 
+
+SENTENCE:  on order for THEOPHYLLINE ( SLOW  RELEASE  ) PO ( ref #
+           IN  NN   IN       NN         JJ     NN       NN   NN   
+                        |==========|        |=======|             
+                            Drug            Procedure             
+                          C0039771          C1963578              
+
+SENTENCE:  19011645 )
+                     
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ALLOPURINOL & THEOPHYLLINE
+               NN             NN     
+           |=========|   |==========|
+              Drug           Drug    
+            C0002144       C0039771  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  home med
+            NN  JJ 
+
+SENTENCE:  ECASA ( ASPIRIN  ENTERIC COATED ) 325 MG PO QD
+            NN        NN      JJ     VBN         NN FW FW
+                   |======|                              
+                     Drug                                
+                   C0004057                              
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 6/1/02 by RADLINSKI , MAX BRADY , M.D. , PH.D .
+              JJ     VBN  IN        IN    NN       JJ   NN      NN    NN NN 
+
+SENTENCE:  on order for COUMADIN PO 5 MG QHS ( ref # 14945298 )
+           IN  NN   IN    NNP    NN   NN NNP   NN              
+                        |======|                               
+                          Drug                                 
+                        C0699129                               
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ASPIRIN  & WARFARIN
+              NN         NN   
+           |======|   |======|
+             Drug       Drug  
+           C0004057   C0043031
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous override information:
+              JJ       JJ       JJ        NN      
+           |======|                               
+           Finding                                
+           C0004448                               
+
+SENTENCE:  Override added on 6/1/02 by GITTING , PETER MALIK , M.D. , PH.D .
+              JJ     VBN  IN        IN   NN       NN    JJ      NN    NN NN 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & ASPIRIN 
+              NN         NN   
+           |======|   |======|
+             Drug       Drug  
+           C0043031   C0004057
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  CYCLOBENZAPRINE   HCL    10 MG PO TID
+                 NN           NN       NN JJ NN 
+           |=============| |======|             
+                Drug         Drug               
+              C0056732     C0020259             
+           |======================|             
+                     Drug                       
+                   C0125988                     
+
+SENTENCE:  DILTIAZEM SUSTAINED  RELEASE  120 MG PO BID
+              NNP       VBN       NN         NN NN RB 
+           |=======|           |=======|              
+             Drug              Procedure              
+           C0012373            C1963578               
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 6/1/02 by TEO , MILTON SHELTON , M.D. , PH.D .
+              JJ     VBN  IN        IN NN      NN     NN       NN    NN NN 
+
+SENTENCE:  on order for  LASIX   PO 40 MG QD ( ref # 62059406 )
+           IN  NN   IN     NN    NN    NN FW   NN              
+                        |======|                               
+                          Drug                                 
+                        C0699992                               
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  DILTIAZEM   HCL    & FUROSEMIDE
+              NNP       NN          NN    
+           |=======| |======|   |========|
+             Drug      Drug        Drug   
+           C0012373  C0020259    C0016860 
+           |================|             
+                  Drug                    
+                C0700579                  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous override information:
+              JJ       JJ       JJ        NN      
+           |======|                               
+           Finding                                
+           C0004448                               
+
+SENTENCE:  Override added on 6/1/02 by HAUSKINS , PAUL CLINTON , M.D. , PH.D .
+              JJ     VBN  IN        IN   NNS       JJ    NN       NN    NN NN 
+
+SENTENCE:  on order for  LASIX   PO ( ref # 47943900 )
+           IN  NN   IN     NN    NN   NN              
+                        |======|                      
+                          Drug                        
+                        C0699992                      
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  DILTIAZEM   HCL    & FUROSEMIDE
+              NNP       NN          NN    
+           |=======| |======|   |========|
+             Drug      Drug        Drug   
+           C0012373  C0020259    C0016860 
+           |================|             
+                  Drug                    
+                C0700579                  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  Number of Doses Required ( approximate ): 8
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:   FOLATE  ( FOLIC ACID ) 1 MG PO QD
+              JJ       JJ    NN      NN FW FW
+           |======|   |========|             
+             Drug        Drug                
+           C0178638    C0016410              
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 40 MG PO QD
+             NNP          NN          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0699992    C0016860               
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 6/1/02 by FALLEY , LUTHER JACKIE , M.D. , PH.D .
+              JJ     VBN  IN        IN   NN       JJ    NNP     NNP    NN NN 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  DILTIAZEM   HCL    & FUROSEMIDE
+              NNP       NN          NN    
+           |=======| |======|   |========|
+             Drug      Drug        Drug   
+           C0012373  C0020259    C0016860 
+           |================|             
+                  Drug                    
+                C0700579                  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous  Alert   overridden
+              JJ       JJ       JJ        JJ    
+           |======|          |======|           
+           Finding           Finding            
+           C0004448          C0239110           
+
+SENTENCE:  Override added on 6/1/02 by REEGER , ANTONE JOHNATHON , M.D. , PH.D .
+              JJ     VBN  IN        IN   NN      NNP      NNP      NNP    NN NN 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  DILTIAZEM   HCL    & FUROSEMIDE
+              NNP       NN          NN    
+           |=======| |======|   |========|
+             Drug      Drug        Drug   
+           C0012373  C0020259    C0016860 
+           |================|             
+                  Drug                    
+                C0700579                  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  LISINOPRIL 30 MG PO QD Starting  Today   ( 7/8 )
+              NNP        NN FW FW    NN       NN           
+           |========|                      |======|        
+              Drug                           Drug          
+            C0065374                       C0310367        
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 6/1/02 by KLOSKY , ANGELO MATTHEW , M.D. , PH.D .
+              JJ     VBN  IN        IN  NNP      NNP     NNP     NNP    NN NN 
+
+SENTENCE:  on order for   KCL    SLOW  RELEASE  PO ( ref # 00230663 )
+           IN  NN   IN    NNP     JJ     NN     NN   NN              
+                        |======|      |=======|                      
+                          Drug        Procedure                      
+                        C0032825      C1963578                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  NITROGLYCERIN 1/150 ( 0.4 MG  ) 1   TAB    SL  Q5MIN  X  3
+                NN                   NNS        NN    NNP  NNP  NNP  
+           |===========|                     |======|                
+               Drug                            Drug                  
+             C0017887                        C0039225                
+
+SENTENCE:  PRN  chest     pain  
+           RB     NN       NN   
+               |======| |======|
+               Anatomy  Finding 
+               C0817096 C0030193
+               |===============|
+                    Finding     
+                   C0008031     
+
+SENTENCE:  THEOPHYLLINE ( SLOW  RELEASE  ) 200 MG PO TID
+                NN         JJ     NN           NN JJ NN 
+           |==========|        |=======|                
+               Drug            Procedure                
+             C0039771          C1963578                 
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Follow manufacturer's info re: take with food.
+             VB        NN         NN  NN   VB   IN   NN  
+
+SENTENCE:  Give with meals
+            VB   IN   NNS 
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 6/1/02 by HOLLERMAN ,   GALE   ERROL , M.D. , PH.D .
+              JJ     VBN  IN        IN    NN         NNP     NNP    NNP    NN NN 
+                                                   |======|                      
+                                                   Disorder                      
+                                                   C0751161                      
+
+SENTENCE:  on order for COUMADIN PO 5 MG QHS ( ref # 14945298 )
+           IN  NN   IN    NNP    NN   NN NNP   NN              
+                        |======|                               
+                          Drug                                 
+                        C0699129                               
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  THEOPHYLLINE & WARFARIN
+                NN           NN   
+           |==========|   |======|
+               Drug         Drug  
+             C0039771     C0043031
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous override information:
+              JJ       JJ       JJ        NN      
+           |======|                               
+           Finding                                
+           C0004448                               
+
+SENTENCE:  Override added on 6/1/02 by REINTS , GLEN SANDY , M.D. , PH.D .
+              JJ     VBN  IN        IN  NNS     NNP   NNP    NNP    NN NN 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & THEOPHYLLINE
+              NN           NN     
+           |======|   |==========|
+             Drug         Drug    
+           C0043031     C0039771  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ALLOPURINOL & THEOPHYLLINE
+               NN             NN     
+           |=========|   |==========|
+              Drug           Drug    
+            C0002144       C0039771  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous  Alert   overridden
+              JJ       JJ       JJ        JJ    
+           |======|          |======|           
+           Finding           Finding            
+           C0004448          C0239110           
+
+SENTENCE:  Override added on 6/1/02 by HYLES , RANDY ARLIE , M.D. , PH.D .
+              JJ     VBN  IN        IN  NN      NN    NNP    NNP    NN NN 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & THEOPHYLLINE
+              NN           NN     
+           |======|   |==========|
+             Drug         Drug    
+           C0043031     C0039771  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ALLOPURINOL & THEOPHYLLINE
+               NN             NN     
+           |=========|   |==========|
+              Drug           Drug    
+            C0002144       C0039771  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  home med
+            NN  JJ 
+
+SENTENCE:  MVI THERAPEUTIC W /MINERALS ( THERAP VITS/MINERALS )
+           NN      JJ      IN   NNS        NN   NNS    NNS     
+               |=========|    |======|               |======|  
+                Procedure       Drug                   Drug    
+                C0087111      C0026162               C0026162  
+
+SENTENCE:  1   TAB    PO QD
+                NN    FW FW
+             |======|      
+               Drug        
+             C0039225      
+
+SENTENCE:  COUMADIN ( WARFARIN  SODIUM  ) 6.5 MG PO QHS
+             NNP         NN       NN          NN JJ NN 
+           |======|   |======| |======|                
+             Drug       Drug     Drug                  
+           C0699129   C0043031 C0037473                
+                      |===============|                
+                            Drug                       
+                          C0376218                     
+
+SENTENCE:  Starting  Today   ( 7/8 ) Food/  Drug   Interaction Instruction
+              NN       NN             NN     NN        NN          NN     
+                    |======|              |======| |=========|            
+                      Drug                  Drug     Finding              
+                    C0310367              C0013227  C0687133              
+
+SENTENCE:  No high Vitamin -K  containing foods
+           DT  JJ     NN    NN     NN      NNS 
+                   |======|                    
+                     Drug                      
+                   C0042890                    
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 6/1/02 by WINNEGAN , FREDDIE RODGER , M.D. , PH.D .
+              JJ     VBN  IN        IN   NNP        NNP    NNP     NNP    NN NN 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ASPIRIN  & WARFARIN
+              NN         NN   
+           |======|   |======|
+             Drug       Drug  
+           C0004057   C0043031
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  THEOPHYLLINE & WARFARIN
+                NN           NN   
+           |==========|   |======|
+               Drug         Drug  
+             C0039771     C0043031
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous Override Notice
+              JJ       JJ       JJ      NN  
+           |======|                         
+           Finding                          
+           C0004448                         
+
+SENTENCE:  Override added on 6/1/02 by MCCRACKEN , ANGELO CORTEZ , M.D. , PH.D .
+              JJ     VBN  IN        IN    NN         NN     NN      NN    NN NN 
+
+SENTENCE:  on order for THEOPHYLLINE ( SLOW  RELEASE  ) PO 200 MG TID
+           IN  NN   IN       NN         JJ     NN       FW     NN NN 
+                        |==========|        |=======|                
+                            Drug            Procedure                
+                          C0039771          C1963578                 
+
+SENTENCE:  ( ref # 38319803 )
+             NN              
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & THEOPHYLLINE
+              NN           NN     
+           |======|   |==========|
+             Drug         Drug    
+           C0043031     C0039771  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous override information:
+              JJ       JJ       JJ        NN      
+           |======|                               
+           Finding                                
+           C0004448                               
+
+SENTENCE:  Override added on 6/1/02 by WRY , DOUG ABRAM , M.D. , PH.D .
+              JJ     VBN  IN        IN NN    NNP   NNP    NNP    NN NN 
+
+SENTENCE:  on order for ECASA PO ( ref # 21466482 )
+           IN  NN   IN   NN   NN   NN              
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & ASPIRIN 
+              NN         NN   
+           |======|   |======|
+             Drug       Drug  
+           C0043031   C0004057
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware   Previous override information:
+              JJ       JJ       JJ        NN      
+           |======|                               
+           Finding                                
+           C0004448                               
+
+SENTENCE:  Override added on 6/1/02 by WITZKE , EFREN   SID    , M.D. , PH.D .
+              JJ     VBN  IN        IN  NNP      NNP    NNP      NNP    NN NN 
+                                                      |======|                
+                                                      Disorder                
+                                                      C0038644                
+
+SENTENCE:  on order for THEOPHYLLINE ( SLOW  RELEASE  ) PO ( ref #
+           IN  NN   IN       NN         JJ     NN       NN   NN   
+                        |==========|        |=======|             
+                            Drug            Procedure             
+                          C0039771          C1963578              
+
+SENTENCE:  19011645 )
+                     
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & THEOPHYLLINE
+              NN           NN     
+           |======|   |==========|
+             Drug         Drug    
+           C0043031     C0039771  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  home med
+            NN  JJ 
+
+SENTENCE:  SEREVENT ( SALMETEROL ) 2 PUFF   INH    BID
+              NN          NN          NN     NN    RB 
+           |======|   |========|          |======|    
+             Drug        Drug               Drug      
+           C0700491    C0073992           C0022209    
+
+SENTENCE:    KCL    SLOW  RELEASE  20 MEQ  X  1 PO QD
+             NNP     JJ     NN        NNS SYM   FW FW
+           |======|      |=======|                   
+             Drug        Procedure                   
+           C0032825      C1963578                    
+
+SENTENCE:  As per OWH Potassium Chloride Policy:
+           IN IN  NNP    NNP       NN      NN   
+                      |=======| |======|        
+                        Drug      Drug          
+                      C0032821  C0596019        
+                      |================|        
+                             Drug               
+                           C0032825             
+
+SENTENCE:  each 20 mEq dose to be given with 4 oz  of fluid
+            DT     NN   NN  TO VB  VBN   IN    NNS IN  NN  
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 6/1/02 by VALOT , MAURICIO REY , M.D. , PH.D .
+              JJ     VBN  IN        IN  NN        NN    NN     NN    NN NN 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  FLOVENT  ( FLUTICASONE PROPIONATE ) 880 MCG   INH    BID
+              NN          NNP        NNP           NN     NN    RB 
+           |======|   |=========| |========|           |======|    
+             Drug        Drug        Drug                Drug      
+           C0720466    C0082607    C0392214            C0022209    
+                      |====================|                       
+                               Drug                                
+                             C0117996                              
+
+SENTENCE:   NEXIUM  ( ESOMEPRAZOLE ) 20 MG PO QD
+              NN          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0939400     C0937846                
+
+SENTENCE:  RETURN TO   WORK  : Immediately
+             NN   IN    NN         RB     
+                     |======|             
+                     Finding              
+                     C0043227             
+           |================|             
+                Finding                   
+                C0425105                  
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:   Primary  care physician 1-2 weeks ,
+              JJ      NN     NN          NNS   
+           |=======|                           
+           Procedure                           
+           C0439631                            
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Inderal  ( beta-blockers ) , Quintrim
+             NNP       NN    NNS          NNP   
+           |======|   |===========|             
+             Drug         Drug                  
+           C0591636     C0001645                
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  r /o  MI
+           VB RP NN
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  noncardiac  chest     pain   , possible   GERD  
+               JJ        NN       NN         JJ       NN   
+                      |======| |======|            |======|
+                      Anatomy  Finding             Disorder
+                      C0817096 C0030193            C0017168
+                      |===============|                    
+                           Finding                         
+                          C0008031                         
+           |==========================|                    
+                     Finding                               
+                     C0476281                              
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:   ASTHMA    HTN    OSTEONECROSIS   HIPS   W / REPL.
+              NN       NN         NN          NN    IN   NN  
+           |======| |======| |===========| |======|          
+           Disorder Disorder    Finding    Anatomy           
+           C0004096 C0020538   C0029445    C0019552          
+
+SENTENCE:    GOUT   DIVERTICULITIS LEUKOPLAKIA
+              NN          NN           NN     
+           |======| |============| |=========|
+           Disorder    Disorder     Disorder  
+           C0018099    C0012813     C0023531  
+
+SENTENCE:  cardiomyopathy ( ? etiology ) ?  angina    nevi   excised from
+                 NN              NN           NN       NN      VBN    IN 
+           |============|                  |======| |======|             
+              Disorder                     Finding  Disorder             
+              C0878544                     C0002962 C0027960             
+
+SENTENCE:    legs   EF 30-40% h /o    EtOH    abuse   ( H /O  alcohol 
+             NNS    NN        NN IN    NN       NN      NN IN    NN   
+           |======|                 |======| |======|         |======|
+           Anatomy                    Drug   Finding            Drug  
+           C1140621                 C0001962 C0562381         C0001962
+                                             |======|                 
+                                             Disorder                 
+                                             C0013146                 
+                                    |===============|                 
+                                        Disorder                      
+                                        C0085762                      
+
+SENTENCE:   abuse   ) h /o  LV  thrombus on coumadin   AVN    R   elbow   ( avascular necrosis
+              NN      NN IN NNP    NN    IN    NN       NN    JJ    NN         JJ        NN   
+           |======|             |======|    |======| |======|    |======|             |======|
+           Finding              Finding       Drug   Finding     Anatomy              Finding 
+           C0562381             C0087086    C0699129 C3887513    C0013769             C0027540
+           |======|                                           |=========|   |================|
+           Disorder                                             Anatomy          Finding      
+           C0013146                                            C0230353          C3887513     
+
+SENTENCE:  femoral    head   )   PVD    ( peripheral vascular
+              JJ       NN         NN          JJ        JJ   
+           |======| |======|   |======|              |======|
+           Anatomy  Anatomy    Disorder              Anatomy 
+           C0015811 C0018670   C0085096              C0005847
+           |===============|                                 
+                Anatomy                                      
+               C0015813                                      
+
+SENTENCE:  disease  ) h /o  diverticulosis ( H /O  diverticulosis ) h /o  Trigeminy
+              NN      NN IN       NN         NN IN       NN         NN IN    NN    
+           |======|         |============|         |============|         |=======|
+           Disorder            Disorder               Disorder             Finding 
+           C0012634            C1510475               C1510475            C0232119 
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  53M with h /o    CAD    s /p  MI 1995 ,   CMP    EF 30% , h /o  heavy   EtOH   use admitted
+           NNS  IN  NN IN    NN    NN IN NN           NN    NN       NN IN  JJ      NN    NN    VBN   
+                          |======|                 |======|                      |======|             
+                          Disorder                   Drug                          Drug               
+                          C1956346                 C0010729                      C0001962             
+
+SENTENCE:  with 1 week of waxing and waning "crushing  substernal CP" 2/10-8/10
+            IN     NN  IN   NN   CC    NN       NN         JJ     NN           
+                                             |=======|                         
+                                             Procedure                         
+                                             C0185060                          
+
+SENTENCE:  lasting minutes to hours , radiating to back , without associated sx 
+             VBG     NNS   IN  NNS       VBG    IN  NN      IN        JJ     NNS
+
+SENTENCE:  other than some diaphoresis.
+            JJ    IN   DT      NN      
+                           |=========| 
+                             Finding   
+                            C0700590   
+
+SENTENCE:    Pain   is  NOT like previous  angina .
+              NN    VBZ RB   JJ     JJ       NN    
+           |======|                       |======| 
+           Finding                        Finding  
+           C0030193                       C0002962 
+
+SENTENCE:  Not
+           RB 
+
+SENTENCE:  associated with exertion.
+               JJ      IN     NN    
+                           |======| 
+                           Finding  
+                           C0015264 
+
+SENTENCE:    ROS    otherwise negative.
+              NN       RB        JJ    
+           |======|                    
+             Drug                      
+           C0073591                    
+           C0289313                    
+
+SENTENCE:  sleeps on 4 pillows
+            VBZ   IN     NNS  
+
+SENTENCE:  for chronic    hip      pain  ;
+           IN    JJ       NN        NN    
+                       |=======| |======| 
+                       Procedure Finding  
+                       C1292890  C0030193 
+                       |=======|          
+                        Anatomy           
+                       C0019552           
+                       |================| 
+                            Finding       
+                            C0019559      
+
+SENTENCE:  no   PND   /LE  edema  .
+           DT    NN    NN    NN    
+              |======|    |======| 
+              Disorder    Finding  
+              C1956415    C0013604 
+
+SENTENCE:  Admits to drinking 6
+            NNS   IN    NN     
+                     |======|  
+                     Finding   
+                     C0684271  
+
+SENTENCE:  beers/day.
+            NNS  NN  
+
+SENTENCE:    PMH    also   sig    for   COPD  / asthma  , bilateral    hip    replacements , LV
+              NN     RB     JJ    IN     NN       NN         JJ        NN         NNS        NN
+           |======|      |======|     |======| |======|             |=======| |==========|     
+           Finding       Anatomy      Disorder Disorder              Anatomy   Procedure       
+           C0262926      C0262329     C0024117 C0004096             C0019552    C0035139       
+                                                                    |=======|                  
+                                                                    Procedure                  
+                                                                    C1292890                   
+                                                                    |====================|     
+                                                                          Procedure            
+                                                                           C0392806            
+
+SENTENCE:  thrombus on coumadin.
+              NN    IN    NN    
+           |======|    |======| 
+           Finding       Drug   
+           C0087086    C0699129 
+
+SENTENCE:  In ED 88 157/97 97% 2L NC exam   sig    for JVP 5 cm  ,
+           IN NN               NN NN  NN     NN    IN  NN    NNS  
+                                          |======|                
+                                          Anatomy                 
+                                          C0262329                
+
+SENTENCE:  RRR S1/S2 +S4 no murmurs .
+           NN  NN NN  NN DT   NNS    
+                            |======| 
+                            Finding  
+                            C0018808 
+
+SENTENCE:    CTAB  .
+              NN    
+           |======| 
+             Drug   
+           C0951233 
+
+SENTENCE:    Abd     obese   , no HSM.
+              NN       JJ      DT NN  
+           |======| |======|          
+           Anatomy  Disorder          
+           C0000726 C0028754          
+
+SENTENCE:  No LE  edema   , 2+
+           DT NN    NN        
+                 |======|     
+                 Finding      
+                 C0013604     
+
+SENTENCE:  pulses    EKG    NSR 78 bpm   LAD    ?LAFB   labs     sig    for CK  167   TnI    0.05    BNP    21.
+            NNS      NN     NN     NN     NN      NN    NNS       NN    IN  NNP       NNP            NN        
+                  |=======|            |======|       |======| |======|             |======|      |=======|    
+                  Procedure            Disorder       Finding  Anatomy                Drug        Procedure    
+                  C1623258             C0398738       C0587081 C0262329             C0077401      C1095989     
+                                       |======|                                                   |=======|    
+                                       Anatomy                                                      Drug       
+                                       C0226032                                                   C0054015     
+
+SENTENCE:    WBC    5    HCt    43    Plt    88 ( has been low in past ).    INR    1.8.
+             NNP         NN           NN          VBZ VBN  JJ  IN  NN        NNP        
+           |======|   |=======|    |=======|                              |=======|     
+           Anatomy    Procedure    Procedure                              Procedure     
+           C0023516   C0018935     C0201617                               C0525032      
+
+SENTENCE:  ##CV
+             NN
+
+SENTENCE:  - completed r /o  by enzymes /   EKG    x3
+                VBN    VB RP IN   NNS       NN     NN
+                                |======| |=======|   
+                                  Drug   Procedure   
+                                C0014442 C1623258    
+
+SENTENCE:  - cont home meds;
+              NN   NN  NNS  
+
+SENTENCE:  apparently intolerant of beta-blockers in past.
+               RB         NN     IN  NN    NNS    IN  NN  
+                                    |===========|         
+                                        Drug              
+                                      C0001645            
+
+SENTENCE:  BP
+           NN
+
+SENTENCE:  control.
+             NN    
+
+SENTENCE:  No evidence of volume overload by hx or exam.
+           DT    NN    IN   NN      NN    IN NN CC  NN  
+                          |=============|               
+                             Disorder                   
+                             C0546817                   
+
+SENTENCE:  - dobutamine MIBI 4/6 max HR 127 , double product 23K.
+                 NN      NN      NN  NN         JJ     NN    NN  
+             |========|                                          
+                Drug                                             
+              C0012963                                           
+
+SENTENCE:  No  chest     pain  
+           DT    NN       NN   
+              |======| |======|
+              Anatomy  Finding 
+              C0817096 C0030193
+              |===============|
+                   Finding     
+                  C0008031     
+
+SENTENCE:  or    EKG    changes.
+           CC    NN       NNS   
+              |=======|         
+              Procedure         
+              C1623258          
+
+SENTENCE:  Moderately dilated LV  , severely dilated  RV , LVEF 51%.
+               RB       VBN   NNP      RB       JJ    NN    NN      
+                                             |======|               
+                                             Finding                
+                                             C0700124               
+
+SENTENCE:  Fixed  severe  inferobasal defect with moderate inferior wall HK c /w 
+            JJ      JJ        JJ        NN    IN     JJ       JJ     NN  NN NN RB
+                 |======|                                                        
+                 Finding                                                         
+                 C1519275                                                        
+
+SENTENCE:  prior   PDA    infarct .
+            JJ      NN       NN    
+                 |======| |======| 
+                 Disorder Finding  
+                 C0013274 C0021308 
+                 |======|          
+                 Anatomy           
+                 C0226047          
+
+SENTENCE:  No evidence of ischemia.
+           DT    NN    IN    NN    
+                          |======| 
+                          Finding  
+                          C0022116 
+
+SENTENCE:  ##  Heme   - thrombocytopenia but stable on repeat    CBC    , possibly secondary
+                JJ             NN        CC    JJ   IN   NN      NN          RB       JJ    
+             |======|   |==============|                      |=======|                     
+               Drug         Disorder                          Procedure                     
+             C0018966       C0040034                          C0009555                      
+
+SENTENCE:  to alcohol .
+           IN    NN    
+              |======| 
+                Drug   
+              C0001962 
+
+SENTENCE:  Continued coumadin for LV  thrombus
+              VBN       NN    IN  NNP    NN   
+                     |======|         |======|
+                       Drug           Finding 
+                     C0699129         C0087086
+
+SENTENCE:  ##GI
+             NN
+
+SENTENCE:  - antacids ,   PPI   .
+               NNS         NN    
+             |======|   |======| 
+               Drug       Drug   
+             C0003138   C0358591 
+
+SENTENCE:  Patient reports significant  relief  of   GERD   sx  with
+             NN      VBZ       JJ         NN    IN    NN    NNS  .  
+                                       |======|    |======|         
+                                       Finding     Disorder         
+                                       C0564405    C0017168         
+
+SENTENCE:    PPI   .
+              NN    
+           |======| 
+             Drug   
+           C0358591 
+
+SENTENCE:  Will discharge with trial of   PPI   ; possible that  chest     pain   result
+            MD     VB      IN   NN   IN   NNP        JJ     IN     NN       NN      NN  
+                                        |======|                |======| |======|       
+                                          Drug                  Anatomy  Finding        
+                                        C0358591                C0817096 C0030193       
+                                                                |===============|       
+                                                                     Finding            
+                                                                    C0008031            
+
+SENTENCE:  of   GERD  /dyspepsia.
+           IN    NN       NN     
+              |======| |=======| 
+              Disorder  Finding  
+              C0017168 C0013395  
+
+SENTENCE:  ##  EtOH  
+                NN   
+             |======|
+               Drug  
+             C0001962
+
+SENTENCE:  - prophylactic lorazepam given , no evidence of withdrawal during
+                  JJ         NN      VBN    DT    NN    IN     NN       NN  
+             |==========| |=======|                                         
+                 Drug       Drug                                            
+               C0355642   C0024002                                          
+
+SENTENCE:  admission.
+              NN     
+
+SENTENCE:  Pt counseled on   EtOH   abstinence/reduction.
+           NN    VBN    IN    NN        NN        NN     
+                           |======|            |=======| 
+                             Drug              Procedure 
+                           C0001962            C0441610  
+
+SENTENCE:  ##pulm
+              NN 
+
+SENTENCE:  - cont   COPD   meds
+              NN     NN    NNS 
+                  |======|     
+                  Disorder     
+                  C0024117     
+
+SENTENCE:  ADDITIONAL COMMENTS: 1 ) Call your doctor , return to ED or call 911 for crushing   chest     pain  
+               JJ       NNS          VB  PRP$   NN       VB   IN NN CC  NN      IN     NN        NN       NN   
+                                                                                    |=======| |======| |======|
+                                                                                    Procedure Anatomy  Finding 
+                                                                                    C0185060  C0817096 C0030193
+                                                                                              |===============|
+                                                                                                   Finding     
+                                                                                                  C0008031     
+                                                                                    |=========================|
+                                                                                              Finding          
+                                                                                             C0232290          
+
+SENTENCE:  that does not respond to 3 sublingual nitroglycerin tablets  and lasts
+           WDT  VBZ  RB    VB    IN       JJ          NN         NNS    CC   NNS 
+                                      |========| |===========| |======|          
+                                       Anatomy       Drug        Drug            
+                                       C0558302    C0017887    C0039225          
+
+SENTENCE:  more than 20 minutes.
+           JJR   IN       NNS   
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  recheck your coumadin level as instructed
+             VB    PRP$    NN     NN   IN    VBN    
+                        |======|                    
+                          Drug                      
+                        C0699129                    
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  BAELL , KENNITH , M.D. ( XR03 ) 9/19/02 @ 06
+            NN       NNP     NNP     NN                
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

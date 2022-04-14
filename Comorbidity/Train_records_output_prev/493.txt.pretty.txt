@@ -1,0 +1,718 @@
+SENTENCE:  108414953 |   BMC    | 24580834 | | 4494295 | 6/7/2005 12:00:00 AM | OSTEOARTHRITIS RT.
+                          NN                                               NN         NN       NN 
+                       |======|                                                 |============|    
+                         Drug                                                      Disorder       
+                       C0065839                                                    C0029408       
+
+SENTENCE:    KNEE    | Signed |   DIS    | Admission Date:
+              NN        VBN        NN         NN      NN  
+           |=======|            |======|                  
+            Anatomy             Finding                   
+           C0022742             C1444662                  
+           |=======|            |======|                  
+           Procedure            Disorder                  
+           C0562271             C0012634                  
+                                C1970187                  
+
+SENTENCE:  11/19/2005 Report Status:
+                        NN     NN   
+                      |===========| 
+                         Finding    
+                        C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  7/7/2005
+                   
+
+SENTENCE:  ATTENDING:
+              NN     
+
+SENTENCE:  SONNEK , AVERY M . D .
+             NN      NN   NN NNP 
+
+SENTENCE:  PRINCIPAL DIAGNOSIS:
+              JJ        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  Osteoarthritis of the right   knee   .
+                 NN       IN DT   JJ      NN     
+           |============|              |=======| 
+              Disorder                  Anatomy  
+              C0029408                 C0022742  
+                                       |=======| 
+                                       Procedure 
+                                       C0562271  
+                                 |=============| 
+                                     Anatomy     
+                                    C0230431     
+
+SENTENCE:  PRINCIPAL PROCEDURE:
+              JJ        NN     
+                     |=======| 
+                     Procedure 
+                     C0184661  
+
+SENTENCE:  Right total   knee    replacement and left   knee   
+            JJ    JJ      NN         NN      CC   JJ     NN    
+                       |=======| |=========|          |=======|
+                        Anatomy   Procedure           Procedure
+                       C0022742   C0035139            C0562271 
+                       |=======|                      |=======|
+                       Procedure                       Anatomy 
+                       C0562271                       C0022742 
+                       |===================|     |============|
+                             Procedure              Anatomy    
+                             C0086511               C0230432   
+
+SENTENCE:  manipulation.
+                NN      
+           |==========| 
+            Procedure   
+             C0947647   
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  This is  a  49-year-old man with a 
+            DT  VBZ DT     NN  JJ  NN   IN  CD
+
+SENTENCE:  history  of right   knee      pain   status post multiple   knee    surgeries
+              NN    IN  JJ      NN        NN      NN    IN     JJ       NN        NNS   
+           |======|          |=======| |======|                      |=======|          
+           Finding            Anatomy  Finding                        Anatomy           
+           C0262926          C0022742  C0030193                      C0022742           
+                             |=======|                               |=======|          
+                             Procedure                               Procedure          
+                             C0562271                                C0562271           
+                             |================|                      |=================|
+                                  Finding                                 Procedure     
+                                  C0231749                                C0187769      
+                       |=============|                                                  
+                           Anatomy                                                      
+                          C0230431                                                      
+
+SENTENCE:  including left total   knee    replacement in April 2005 secondary to
+              VBG     JJ   JJ      NN         NN      IN  NNP          JJ     TO
+                                |=======| |=========|                           
+                                 Anatomy   Procedure                            
+                                C0022742   C0035139                             
+                                |=======|                                       
+                                Procedure                                       
+                                C0562271                                        
+                                |===================|                           
+                                      Procedure                                 
+                                      C0086511                                  
+
+SENTENCE:  osteoarthritis.
+                 NN       
+           |============| 
+              Disorder    
+              C0029408    
+
+SENTENCE:  He  now presents with both stiffness of his    knee   
+           PRP RB    VBZ     IN   DT     NN     IN PRP$    NN    
+                                      |=======|         |=======|
+                                       Finding           Anatomy 
+                                      C0427008          C0022742 
+                                                        |=======|
+                                                        Procedure
+                                                        C0562271 
+
+SENTENCE:  and also   pain   and osteoarthritis of the right   knee   .
+           CC   RB     NN    CC        NN       IN DT   JJ      NN     
+                    |======|     |============|              |=======| 
+                    Finding         Disorder                 Procedure 
+                    C0030193        C0029408                 C0562271  
+                                                             |=======| 
+                                                              Anatomy  
+                                                             C0022742  
+                                                       |=============| 
+                                                           Anatomy     
+                                                          C0230431     
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Pressure  ulcer   on the left buttock  after
+              NN       NN    IN DT   JJ     NN     NN  
+           |======| |======|             |======|      
+           Finding  Disorder             Anatomy       
+           C0460139 C0041582             C0006497      
+           |===============|                           
+               Disorder                                
+               C0011127                                
+
+SENTENCE:  left total   knee    replacement on 8/21 and obesity .
+            JJ   JJ      NN         NN      IN      CC     NN    
+                      |=======| |=========|             |======| 
+                       Anatomy   Procedure              Disorder 
+                      C0022742   C0035139               C0028754 
+                      |=======|                                  
+                      Procedure                                  
+                      C0562271                                   
+                      |===================|                      
+                            Procedure                            
+                            C0086511                             
+
+SENTENCE:  PAST SURGICAL HISTORY :
+            JJ     JJ       NN    
+                         |======| 
+                         Finding  
+                         C0262926 
+
+SENTENCE:  Left total   knee    replacement on 9/29/05 ,
+            JJ   JJ      NN         NN      IN          
+                      |=======| |=========|             
+                       Anatomy   Procedure              
+                      C0022742   C0035139               
+                      |=======|                         
+                      Procedure                         
+                      C0562271                          
+                      |===================|             
+                            Procedure                   
+                            C0086511                    
+
+SENTENCE:  multiple bilateral   knee    arthroscopies.
+              JJ       JJ        NN          NNS      
+                              |=======| |===========| 
+                               Anatomy    Procedure   
+                              C0022742    C0003904    
+                              |=======|               
+                              Procedure               
+                              C0562271                
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  Oxycodone p .r .n .
+              NN     RB VB RB 
+           |=======|          
+             Drug             
+           C0030049           
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  No known   drug   allergies.
+           DT  JJ      NN       NNS    
+                    |======| |=======| 
+                      Drug    Finding  
+                    C0013227 C0020517  
+                    |================| 
+                         Disorder      
+                         C0013182      
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient underwent a  right total   knee   
+           DT    NN       VBD    DT  JJ    JJ      NN    
+                                                |=======|
+                                                 Anatomy 
+                                                C0022742 
+                                                |=======|
+                                                Procedure
+                                                C0562271 
+
+SENTENCE:  replacement and the left   knee    manipulation on 10/17/05 , and
+               NN      CC  DT   JJ     NN          NN      IN            CC 
+           |=========|              |=======| |==========|                  
+            Procedure                Anatomy   Procedure                    
+            C0035139                C0022742    C0947647                    
+                                    |=======|                               
+                                    Procedure                               
+                                    C0562271                                
+                               |============|                               
+                                  Anatomy                                   
+                                  C0230432                                  
+
+SENTENCE:  tolerated the procedure well.
+              VBD    DT     NN      RB  
+                         |=======|      
+                         Procedure      
+                         C0184661       
+
+SENTENCE:  The patient's   pain   was well
+           DT    NN         NN    VBD  RB 
+                         |======|         
+                         Finding          
+                         C0030193         
+
+SENTENCE:  controlled in the postoperative  period  with a     PCA   .
+              VBN     IN DT       JJ          NN     IN  DT    NN     
+                                           |======|         |=======| 
+                                           Finding            Drug    
+                                           C0025344         C0034330  
+                                                            |=======| 
+                                                            Procedure 
+                                                            C0078944  
+
+SENTENCE:  The patient
+           DT    NN   
+
+SENTENCE:  was placed on Coumadin and began PT with a    CPM   .
+           VBD  VBN   IN   NNP    CC   VBD  NN  IN  DT    NN    
+                         |======|                      |======| 
+                           Drug                          Drug   
+                         C0699129                      C0010583 
+
+SENTENCE:  The patient was
+           DT    NN    VBD
+
+SENTENCE:  made weightbearing as tolerated bilaterally.
+           VBN       NN       IN    VBN        RB      
+
+SENTENCE:  On postoperative
+           IN      JJ      
+
+SENTENCE:  day 1 , the patient's   pain   was well controlled and the patient had
+           NN      DT    NN         NN    VBD  RB     VBN     CC  DT    NN    VBD
+                                 |======|                                        
+                                 Finding                                         
+                                 C0030193                                        
+
+SENTENCE:  a  peripheral  nerve   catheter femoral  site in place as well for
+           DT     JJ        NN       NN       JJ     NN  IN  NN   RB  RB  IN 
+                         |======|          |======|                          
+                         Anatomy           Anatomy                           
+                         C0027740          C0015811                          
+              |=================|                                            
+                    Anatomy                                                  
+                   C0031119                                                  
+
+SENTENCE:    pain   control.
+              NN      NN    
+           |======|         
+           Finding          
+           C0030193         
+           |==============| 
+              Procedure     
+               C1304888     
+
+SENTENCE:  The patient tolerated sitting to the edge of the
+           DT    NN       VBD      VBG   IN DT   NN  IN CD 
+
+SENTENCE:  bed with physical  therapy .
+           NN   IN     JJ       NN     
+                             |=======| 
+                             Procedure 
+                             C0087111  
+                    |================| 
+                        Procedure      
+                         C0949766      
+
+SENTENCE:  The patient was neurovascularly
+           DT    NN    VBD       RB       
+
+SENTENCE:  intact and the dressing  was clean and dry.
+             JJ   CC  DT     NN     VBD  JJ   CC  JJ  
+                          |=======|                   
+                          Procedure                   
+                          C0278286                    
+                          |=======|                   
+                           Finding                    
+                          C1305428                    
+
+SENTENCE:  On postoperative day
+           IN      JJ       NN 
+
+SENTENCE:  2 , the patient's  wound   was clean , dry , and intact.
+               DT    NN         NN    VBD  JJ     JJ    CC    JJ   
+                             |======|                              
+                             Disorder                              
+                             C0043250                              
+
+SENTENCE:  The patient
+           DT    NN   
+
+SENTENCE:  again was seen by physical  therapy  and the patient's femoral 
+            RB   VBD VBN  IN    JJ       NN     CC  DT    NN         JJ   
+                                      |=======|                   |======|
+                                      Procedure                   Anatomy 
+                                      C0087111                    C0015811
+                             |================|                           
+                                 Procedure                                
+                                  C0949766                                
+
+SENTENCE:   nerve   catheter was removed.
+              NN       NN    VBD   VBN   
+           |======|                      
+           Anatomy                       
+           C0027740                      
+
+SENTENCE:  The patient's hematocrit was stable
+           DT    NN          NN     VBD   JJ  
+                         |========|           
+                         Procedure            
+                          C0018935            
+
+SENTENCE:  at 30.2 and    INR    was 1.2.
+           IN      CC     NN     VBD     
+                       |=======|         
+                       Procedure         
+                       C0525032          
+
+SENTENCE:  On postoperative day 3 , the patient
+           IN      JJ       NN      DT    NN   
+
+SENTENCE:  remained afebrile , stable vital  signs  .
+             VBD       JJ        JJ    JJ     NNS    
+                    |======|                |======| 
+                    Finding                 Finding  
+                    C0277797                C0311392 
+
+SENTENCE:  Hemovac continued to have
+             NN       VBN    TO  VB 
+
+SENTENCE:  an elevated output at 175/25 hours , otherwise his  condition
+           DT    JJ      NN   IN         NNS       VB     PRP$    NN    
+                                                               |=======|
+                                                               Disorder 
+                                                               C0012634 
+
+SENTENCE:  remained unchanged.
+             VBD       JJ     
+                    |=======| 
+                     Finding  
+                    C0442739  
+
+SENTENCE:  On postoperative day 4 , the patient's
+           IN      JJ       NN      DT    NN     
+
+SENTENCE:  hemovac was discontinued.
+             NN    VBD     VBN      
+
+SENTENCE:  The patient was tolerating the   CPM    on
+           DT    NN    VBD    VBG     DT     NN    . 
+                                          |======|   
+                                            Drug     
+                                          C0010583   
+
+SENTENCE:  the right 70 degrees and on the left 85 degrees and the patient's
+           DT   JJ        NNS   CC  IN DT   JJ       NNS   CC  DT    NN     
+
+SENTENCE:   wound   remained clean , dry , and intact with no erythema.
+              NN      VBD     JJ     JJ    CC    JJ    IN  DT    NN    
+           |======|                                           |======| 
+           Disorder                                           Disorder 
+           C0043250                                           C0041834 
+
+SENTENCE:  On
+           IN
+
+SENTENCE:  postoperative day 5 , the patient was feeling well and continued
+                JJ       NN      DT    NN    VBD   VBG    JJ  CC     JJ    
+
+SENTENCE:  to have slow progression with physical  therapy .
+           IN  DT   JJ      NN       IN     JJ       NN     
+                        |=========|               |=======| 
+                          Finding                 Procedure 
+                         C0242656                 C0087111  
+                                         |================| 
+                                             Procedure      
+                                              C0949766      
+
+SENTENCE:  On postoperative
+           IN      JJ      
+
+SENTENCE:  day 6 , the patient remained afebrile.
+           NN      DT    NN      VBD       JJ    
+                                        |======| 
+                                        Finding  
+                                        C0277797 
+
+SENTENCE:  Vitals were stable.
+            NNS   VBD    JJ   
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:   wound   was clean , dry , and intact.
+              NN    VBD  JJ     JJ    CC    JJ   
+           |======|                              
+           Disorder                              
+           C0043250                              
+
+SENTENCE:  Hematocrit was stable at 27 ,
+               NN     VBD   JJ   IN     
+           |========|                   
+           Procedure                    
+            C0018935                    
+
+SENTENCE:     INR    1.4.
+              NN         
+           |=======|     
+           Procedure     
+           C0525032      
+
+SENTENCE:  The patient continued to progress with physical  therapy 
+           DT    NN       VBD    TO    VB     IN     JJ       NN    
+                                                           |=======|
+                                                           Procedure
+                                                           C0087111 
+                                                  |================|
+                                                      Procedure     
+                                                       C0949766     
+
+SENTENCE:  and   rehab   screening was initiated. On postoperative day 7 ,
+           CC     NN        NN     VBD    VBN     IN      JJ       NN     
+               |=======| |=======|                                        
+               Procedure Procedure                                        
+               C0034991  C0199230                                         
+
+SENTENCE:  2/6/05 , the patient was discharged to   rehab   facility.
+                    DT    NN    VBD    VBN     IN    NN        NN    
+                                                  |=======|          
+                                                  Procedure          
+                                                  C0034991           
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:   Colace  100 mg  p.o. b.i.d. , multivitamin 1
+             NNP        NNS  FW    FW          NN       
+           |======|                       |==========|  
+             Drug                             Drug      
+           C0282139                         C0301532    
+
+SENTENCE:   tablet  p .o .
+              NN    RB NN 
+           |======|       
+             Drug         
+           C0039225       
+
+SENTENCE:  daily , oxycodone 10 to 15 mg  p.o. q .4h. p.r.n.   pain   ,
+            RB        NNP       IN    NNS  FW  FW  FW   FW      NN     
+                   |=======|                                 |======|  
+                     Drug                                    Finding   
+                   C0030049                                  C0030193  
+
+SENTENCE:  Metamucil one  tablet  p .o .
+              NNP    CD     NN    RB NN 
+           |=======|     |======|       
+             Drug          Drug         
+           C0025559      C0039225       
+
+SENTENCE:  daily p.r.n. constipation , Coumadin 8
+            RB     FW        NN          NNP     
+                        |==========|   |======|  
+                          Finding        Drug    
+                          C0009806     C0699129  
+
+SENTENCE:  mg  p.o.  x  1 , and Xenaderm Topical  b.i.d. to  ulcer  .
+           NNS  FW  SYM     CC     NN       JJ      FW   IN    NN    
+                                |======| |======|           |======| 
+                                  Drug     Drug             Disorder 
+                                C1613485 C1710439           C0041582 
+
+SENTENCE:  CONDITION:
+              NN     
+           |=======| 
+           Disorder  
+           C0012634  
+
+SENTENCE:  Stable.
+             JJ   
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Follow up with Dr. Bennefield at 9/19/05 , where  x-rays  
+             VB   RP  IN  NNP    NNP     IN            VBD     NNS   
+                                                            |=======|
+                                                            Procedure
+                                                            C0043299 
+
+SENTENCE:  will be taken at 1:00 p .m .
+            MD  VB  VBN  IN      NN NN 
+
+SENTENCE:  DISCHARGE INSTRUCTIONS:
+              NNP        NNS      
+
+SENTENCE:  Keep the  wound   clean , dry , and intact.
+            VB  DT     NN     JJ     JJ    CC    JJ   
+                    |======|                          
+                    Disorder                          
+                    C0043250                          
+
+SENTENCE:  If he  were to experience  fevers  ,  wound   drainage  ,  chest     pain   ,
+           IN PRP VBD  TO     VB       NNS         NN       NN          NN       NN     
+                                     |======|   |======| |=======|   |======| |======|  
+                                     Finding    Disorder Procedure   Anatomy  Finding   
+                                     C0015967   C0043250 C0013103    C0817096 C0030193  
+                                                |================|   |===============|  
+                                                     Finding              Finding       
+                                                     C0406834            C0008031       
+
+SENTENCE:  shortness of breath , please call the emergency room.
+              NN     IN   NN       NN    VB  DT     NN      NN  
+           |=================|                                  
+                 Finding                                        
+                C0013404                                        
+
+SENTENCE:  The goal
+           DT   NN 
+
+SENTENCE:     INR    is  1.5-2.5 with Coumadin for 3 weeks , should notify the
+              NN     VBZ          IN    NNP    IN     NNS      MD     VB    . 
+           |=======|                  |======|                                
+           Procedure                    Drug                                  
+           C0525032                   C0699129                                
+
+SENTENCE:  anticoagulation services when the patient is  discharged home.
+                 NN          NNS    WRB  DT    NN    VBZ    VBN      NN  
+                           |======|                                      
+                           Finding                                       
+                           C0557854                                      
+
+SENTENCE:  Anticoagulation number is  915-360-5305.
+                 NN          NN   VBZ      CD      
+
+SENTENCE:  CONDITION AT DISCHARGE:
+              NN     IN    NN     
+           |=======|              
+           Disorder               
+           C0012634               
+
+SENTENCE:  Stable.
+             JJ   
+
+SENTENCE:  The  wound   is  clean , dry , and
+           DT     NN    VBZ  JJ     JJ    CC 
+               |======|                      
+               Disorder                      
+               C0043250                      
+
+SENTENCE:  intact.
+             JJ   
+
+SENTENCE:  The left   knee    range of motion was right 0 to 75 degrees
+           DT   JJ     NN      NN   IN   NN   VBD  JJ     IN      NNS  
+                    |=======| |=============|                          
+                     Anatomy     Procedure                             
+                    C0022742     C0150220                              
+                    |=======|                                          
+                    Procedure                                          
+                    C0562271                                           
+               |============|                                          
+                  Anatomy                                              
+                  C0230432                                             
+                    |=======================|                          
+                             Finding                                   
+                            C0576094                                   
+
+SENTENCE:  and left 0 to 85 degrees in   CPM   .
+           CC   JJ    IN      NNS   IN    NN    
+                                       |======| 
+                                         Drug   
+                                       C0010583 
+
+SENTENCE:  Range of motion on exam , right
+            NN   IN   NN   IN  NN     JJ  
+           |=============|                
+              Procedure                   
+              C0150220                    
+
+SENTENCE:    knee    extension was short of full extension by 40 degrees ,   knee   
+              NN        NN     VBD  JJ   IN  JJ     NN     IN      NNS        NN    
+           |=======|                                                       |=======|
+            Anatomy                                                         Anatomy 
+           C0022742                                                        C0022742 
+           |=======|                                                       |=======|
+           Procedure                                                       Procedure
+           C0562271                                                        C0562271 
+
+SENTENCE:  flexion  was 58 degrees , left   knee    extension was short of
+              NN    VBD      NNS      JJ     NN        NN     VBD  JJ   IN
+           |======|                       |=======|                       
+           Finding                        Procedure                       
+           C0231452                       C0562271                        
+                                          |=======|                       
+                                           Anatomy                        
+                                          C0022742                        
+                                     |============|                       
+                                        Anatomy                           
+                                        C0230432                          
+
+SENTENCE:  extension 30 degrees , and left   knee    flexion  was 74 degrees.
+              NN          NNS     CC   JJ     NN        NN    VBD      NNS   
+                                           |=======| |======|                
+                                            Anatomy  Finding                 
+                                           C0022742  C0231452                
+                                           |=======|                         
+                                           Procedure                         
+                                           C0562271                          
+                                      |============|                         
+                                         Anatomy                             
+                                         C0230432                            
+
+SENTENCE:  It 
+           PRP
+
+SENTENCE:  is  advised that the patient continue using the   CPM    for at least
+           VBZ   VBN    IN  DT    NN       VB     VBG  DT     NN    IN  RB  RBS 
+                                                           |======|             
+                                                             Drug               
+                                                           C0010583             
+
+SENTENCE:  an hour and a  half each day on each  knees  .
+           DT  NN  CC  DT  NN   DT  NN  IN  DT    NNS    
+                                                |======| 
+                                                Anatomy  
+                                                C0022742 
+
+SENTENCE:  eScription document:
+               NN        NN    
+
+SENTENCE:  1-1759324 ISSten   Tel   
+                      NNP      NN   
+                            |======|
+                            Anatomy 
+                            C0039452
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  BRUENDERMAN , BRENDON
+               NN          NN   
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  MCNERTNEY , JOHNSON
+              NN         NN   
+
+SENTENCE:  Dictation ID 9241021
+              NN     NN        
+
+SENTENCE:  D : 2/20/05
+           NN         
+
+SENTENCE:  T : 2/6/05
+           NN        
+

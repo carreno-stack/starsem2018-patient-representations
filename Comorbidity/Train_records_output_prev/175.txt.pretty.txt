@@ -1,0 +1,1005 @@
+SENTENCE:  293423942 | ZH | 49231835 | | 153750 | 11/10/1990 12:00:00 AM | Discharge Summary | Unsigned |   DIS    | Admission Date:
+                       NN                                             NN      NN       NN         JJ         NN         NN      NN  
+                                                                                                          |======|                  
+                                                                                                          Finding                   
+                                                                                                          C1444662                  
+                                                                                                          |======|                  
+                                                                                                          Disorder                  
+                                                                                                          C0012634                  
+                                                                                                          C1970187                  
+
+SENTENCE:  5/24/1990 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Unsigned
+              JJ   
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  10/20/1990
+                     
+
+SENTENCE:  PRINCIPAL PROBLEM :
+              JJ        NN    
+                     |======| 
+                     Finding  
+                     C0033213 
+
+SENTENCE:  CORONARY  ARTERY  DISEASE .
+              JJ       NN       NN    
+           |======| |======| |======| 
+           Anatomy  Anatomy  Disorder 
+           C0018787 C0003842 C0012634 
+                    |===============| 
+                        Disorder      
+                        C0852949      
+           |===============|          
+                Anatomy               
+               C0205042               
+           |========================| 
+                    Disorder          
+                    C1956346          
+
+SENTENCE:  PROBLEM  LIST: 1. CORONARY  ARTERY  DISEASE .
+              NN     NN         NN       NN       NN    
+           |======|          |======| |======| |======| 
+           Finding           Anatomy  Anatomy  Disorder 
+           C0033213          C0018787 C0003842 C0012634 
+                                      |===============| 
+                                          Disorder      
+                                          C0852949      
+                             |===============|          
+                                  Anatomy               
+                                 C0205042               
+                             |========================| 
+                                      Disorder          
+                                      C1956346          
+
+SENTENCE:  2. HYPERTENSION.
+                   NN      
+              |==========| 
+                Disorder   
+                C0020538   
+
+SENTENCE:  3. ARTHRITIS.
+                 NN     
+              |=======| 
+              Disorder  
+              C0003864  
+
+SENTENCE:  CHIEF COMPLAINT:
+            JJ      NN     
+                 |=======| 
+                  Finding  
+                 C0277786  
+
+SENTENCE:  Mr. Sandona is  a  63 year old man with a 
+           NNP   NNP   VBZ DT     NN  JJ  NN   IN  CD
+
+SENTENCE:  history  of progressive  angina  and a  positive
+              NN    IN     JJ         NN    CC  DT    JJ   
+           |======|                |======|                
+           Finding                 Finding                 
+           C0262926                C0002962                
+                       |==================|                
+                             Disorder                      
+                             C1299435                      
+
+SENTENCE:  exercise tolerance   test    here for cardiac  catheterization.
+              NN       NN        NN      RB  IN     JJ          NN        
+           |======| |=======| |=======|          |======| |=============| 
+           Finding   Finding   Finding           Anatomy     Procedure    
+           C0015259 C0013220  C0456984           C0018787    C0007430     
+                    C0020963                                              
+                              |=======|                                   
+                              Procedure                                   
+                              C0022885                                    
+                    |=================|                                   
+                         Procedure                                        
+                         C0201777                                         
+           |==========================|                                   
+                    Procedure                                             
+                     C0015260                                             
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  CARDIAC  RISK FACTORS:
+              JJ     NN    NNS   
+           |======|              
+           Anatomy               
+           C0018787              
+
+SENTENCE:  Hypertension ,
+                NN       
+           |==========|  
+             Disorder    
+             C0020538    
+
+SENTENCE:  positive family history ;
+              JJ      NN      NN    
+                           |======| 
+                           Finding  
+                           C0262926 
+                    |=============| 
+                        Finding     
+                       C0241889     
+
+SENTENCE:  there is  no
+            EX   VBZ UH
+
+SENTENCE:  diabetes.
+              NN    
+           |======| 
+           Disorder 
+           C0011849 
+
+SENTENCE:  There is  a  questionable high cholesterol.
+            EX   VBZ DT      JJ       JJ      NN      
+                                          |=========| 
+                                             Drug     
+                                           C0008377   
+                                     |==============| 
+                                         Disorder     
+                                         C0020443     
+
+SENTENCE:  There is  a 
+            EX   VBZ CD
+
+SENTENCE:  positive tobaco history .
+              JJ      NN      NN    
+                           |======| 
+                           Finding  
+                           C0262926 
+
+SENTENCE:  This 63 year old man has had hypertension
+            DT      NN  JJ  NN  VBZ VBN      NN     
+                                        |==========|
+                                          Disorder  
+                                          C0020538  
+
+SENTENCE:  for two years treated with Tenormin.
+           IN  CD   NNS    VBN    IN    NNP    
+                                      |======| 
+                                        Drug   
+                                      C0592168 
+
+SENTENCE:  Approximately eight months
+                RB        CD    NNS  
+
+SENTENCE:  ago , he  noted the onset of right   arm    pressure on exertion walking 
+           RB    PRP  VBD  DT   NN   IN  JJ      NN       NN    IN    NN       NN   
+                                              |======| |======|    |======| |======|
+                                              Anatomy  Finding     Finding  Finding 
+                                              C0446516 C0460139    C0015264 C0080331
+                                        |============|                              
+                                           Anatomy                                  
+                                           C0230346                                 
+
+SENTENCE:  up five flights of stairs to his  job as a  brick layer , and relieved
+           RP  CD    NNS   IN  NNS   IN PRP$ NN  IN DT  JJ    NN     CC     JJ   
+
+SENTENCE:  by   rest  .
+           IN    NN    
+              |======| 
+              Finding  
+              C0035253 
+
+SENTENCE:  He  had no episodes of   rest   pressure.
+           PRP VBD DT   NNS    IN    NN       NN    
+                                  |======| |======| 
+                                  Finding  Finding  
+                                  C0035253 C0460139 
+
+SENTENCE:  This was associated
+            DT  VBD     JJ    
+
+SENTENCE:  with   neck   tightness and shortness of breath.
+            IN     NN       NN     CC     NN     IN   NN   
+                |======|               |=================| 
+                Anatomy                      Finding       
+                C0027530                    C0013404       
+
+SENTENCE:  There was no  nausea  ,
+            EX   VBD DT    NN     
+                        |======|  
+                        Finding   
+                        C0027497  
+                     |=========|  
+                       Finding    
+                      C0423584    
+
+SENTENCE:  vomiting , or diaphoresis.
+              NN      CC     NN      
+           |======|      |=========| 
+           Finding         Finding   
+           C0042963       C0700590   
+
+SENTENCE:  He  denied paroxysmal nocturnal dyspnea  ,
+           PRP  VBD       JJ        JJ        NN     
+                                           |======|  
+                                           Finding   
+                                           C0013404  
+                                 |================|  
+                                      Finding        
+                                      C0344357       
+                      |===========================|  
+                                Disorder             
+                                C1956415             
+
+SENTENCE:  orthopnea , or  pedal    edema  .
+              NN       CC    JJ       NN    
+           |=======|      |======| |======| 
+            Finding       Anatomy  Finding  
+           C0085619       C0016504 C0013604 
+                          |===============| 
+                               Finding      
+                              C0574002      
+
+SENTENCE:  He  has noted two episodes of discomfort
+           PRP VBZ  VBN  CD    NNS    IN     NN    
+                                         |========|
+                                          Finding  
+                                          C2364135 
+
+SENTENCE:  at night associated with shortness of breath which resolved
+           IN  NN      VBN      IN     NN     IN   NN    WDT    VBD   
+                                    |=================|               
+                                          Finding                     
+                                         C0013404                     
+
+SENTENCE:  spontaneously in five minutes.
+                RB       IN  CD    NNS   
+
+SENTENCE:  On 2/25/90 , he  underwent an
+           IN           PRP    VBD    NN
+
+SENTENCE:  exercise tolerance   test    , and he  went 3 minutes and 34 seconds with
+              NN       NN        NN       CC  PRP VBD      NNS   CC       NNS    IN 
+           |======| |=======| |=======|                                             
+           Finding   Finding   Finding                                              
+           C0015259 C0013220  C0456984                                              
+                    C0020963                                                        
+                              |=======|                                             
+                              Procedure                                             
+                              C0022885                                              
+                    |=================|                                             
+                         Procedure                                                  
+                         C0201777                                                   
+           |==========================|                                             
+                    Procedure                                                       
+                     C0015260                                                       
+
+SENTENCE:  a   heart   rate of 97 ,  blood   pressure 160/80.
+           DT    NN     NN  IN         NN       NN           
+              |======|              |======| |======|        
+              Anatomy               Anatomy  Finding         
+              C0018787              C0005767 C0460139        
+                                    |===============|        
+                                         Finding             
+                                        C0005823             
+
+SENTENCE:  After one minute , he 
+            IN   CD    NN     PRP
+
+SENTENCE:  noted left   arm    tightness and   jaw    pressure , and the    EKG    showed 2 mm
+            VBN   JJ     NN       NN     CC     NN       NN      CC  DT     NN      VBD     NN
+                      |======|               |======| |======|           |=======|            
+                      Anatomy                Anatomy  Finding            Procedure            
+                      C0446516               C0022359 C0460139           C1623258             
+                 |===========|                                                                
+                    Anatomy                                                                   
+                   C0230347                                                                   
+                      |================|                                                      
+                           Finding                                                            
+                           C0563287                                                           
+
+SENTENCE:  of ST  depression in III , III F  , V4-V5 , and after three minutes ,
+           IN NNP     NN     IN CD    CD  NN   NN NN   CC   IN    CD     NNS    
+                  |========|                                                    
+                   Disorder                                                     
+                   C0011581                                                     
+              |============|                                                    
+                 Finding                                                        
+                 C0520887                                                       
+
+SENTENCE:  actually noted  chest   tightness as well.
+              RB     VBN     NN       NN     IN  RB  
+                          |======|                   
+                          Anatomy                    
+                          C0817096                   
+                          |================|         
+                               Finding               
+                               C0232292              
+
+SENTENCE:  He  now presents for
+           PRP RB    VBZ    IN 
+
+SENTENCE:  cardiac  catheterization.
+              JJ          NN        
+           |======| |=============| 
+           Anatomy     Procedure    
+           C0018787    C0007430     
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Is  significant for
+           VBZ     JJ      NN 
+
+SENTENCE:  arthritis.
+              NN     
+           |=======| 
+           Disorder  
+           C0003864  
+
+SENTENCE:  Status post appendectomy.
+             NN    IN       NN      
+                       |==========| 
+                        Procedure   
+                         C0003611   
+
+SENTENCE:  Hypertension and  angina .
+                NN      CC     NN    
+           |==========|     |======| 
+             Disorder       Finding  
+             C0020538       C0002962 
+
+SENTENCE:  MEDICATIONS ON ADMISSION:
+               NNS     IN    NN     
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  Include Tenormin 50 mg  p.o. q -day ,
+             VB      NNP       NNS  FW  FW NN   
+                   |======|                     
+                     Drug                       
+                   C0592168                     
+
+SENTENCE:  Isordil  40 mg  p.o. t.i.d. , however , he  did not take the isordil 
+             NNP       NNS  FW    FW       RB      PRP VBD RB   VB  DT     NN   
+           |======|                                                     |======|
+             Drug                                                         Drug  
+           C0590720                                                     C0590720
+
+SENTENCE:  secondary to the headache , Ecotrin  one p.o. q -day.
+              JJ     IN DT     NN        NNP    CD   FW  FW NN  
+                            |======|   |======|                 
+                            Finding      Drug                   
+                            C0018681   C0699274                 
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  There are no known   drug   allergies.
+            EX   VBP DT  JJ      NN       NNS    
+                              |======| |=======| 
+                                Drug    Finding  
+                              C0013227 C0020517  
+                              |================| 
+                                   Disorder      
+                                   C0013182      
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  He  had a 
+           PRP VBD CD
+
+SENTENCE:  tobacco  history  of one to two packs per day for ten years.
+              NN       NN    IN CD  IN CD   NNS  IN  NN  IN  CD   NNS  
+           |======| |======|                                           
+             Drug   Finding                                            
+           C0040329 C0262926                                           
+
+SENTENCE:  He  quit
+           PRP VBD 
+
+SENTENCE:  five years ago.
+            CD   NNS  RB  
+
+SENTENCE:  There is  no alcohol  use , no intravenous   drug  
+            EX   VBZ DT    NN    NN    DT     JJ         NN   
+                        |======|                      |======|
+                          Drug                          Drug  
+                        C0001962                      C0013227
+
+SENTENCE:   abuse  .
+              NN    
+           |======| 
+           Finding  
+           C0562381 
+           |======| 
+           Disorder 
+           C0013146 
+
+SENTENCE:  He  is  a  retired  brick layer and retired earlier this year.
+           PRP VBZ DT    JJ     JJ    NN   CC    VBD     JJR    DT   NN  
+                      |======|                                           
+                      Finding                                            
+                      C0035345                                           
+
+SENTENCE:  FAMILY HISTORY :
+             NN      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0241889     
+
+SENTENCE:  Is  positive for an uncle who had a  myocardial
+           VBZ    JJ    IN  DT  NN   WP  VBD DT     JJ    
+
+SENTENCE:  infarction , and the father had diabetes.
+               NN       CC  DT    NN   VBD    NN    
+           |========|                      |======| 
+            Finding                        Disorder 
+            C0021308                       C0011849 
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  This is  an  obese   white male in no apparent
+            DT  VBZ DT    JJ     JJ    NN  IN DT    JJ   
+                       |======|                          
+                       Disorder                          
+                       C0028754                          
+
+SENTENCE:  distress.
+              NN    
+           |======| 
+           Finding  
+           C0231303 
+
+SENTENCE:  The pulse is  50 and regular ,
+           DT   NN   VBZ    CC    JJ     
+
+SENTENCE:   blood   pressure 130/80 , respirations 18 , temperature 97.2.
+              NN       NN                 NNS               NN           
+           |======| |======|                                             
+           Anatomy  Finding                                              
+           C0005767 C0460139                                             
+           |===============|                                             
+                Finding                                                  
+               C0005823                                                  
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  HEENT exam was benign.
+            NN    NN  VBD   JJ   
+
+SENTENCE:    Neck  :
+              NN    
+           |======| 
+           Anatomy  
+           C0027530 
+
+SENTENCE:  He  had a  flat JVP.
+           PRP VBD DT  JJ  NN  
+
+SENTENCE:  Carotids were 2+
+             NNS    VBD    
+
+SENTENCE:  bilaterally.
+               RB      
+
+SENTENCE:  The  lungs   were clear to auscultation.
+           DT    NNS    VBD   JJ   IN      NN      
+               |======|               |==========| 
+               Anatomy                 Procedure   
+               C0024109                 C0004339   
+
+SENTENCE:  Cardiovascular
+                 NN      
+           |============|
+              Anatomy    
+              C0007226   
+
+SENTENCE:  exam:
+            NN  
+
+SENTENCE:  He  had a  normally placed PMI , distant  heart   sounds , positive
+           PRP VBD DT    RB     VBN   NN      JJ       NN     NNS        JJ   
+                                                    |======|                  
+                                                    Anatomy                   
+                                                    C0018787                  
+                                                    |=============|           
+                                                        Finding               
+                                                       C0018820               
+
+SENTENCE:  S4 , no murmurs  noted.
+           NN   DT   NNS     VBN  
+                   |======|       
+                   Finding        
+                   C0018808       
+
+SENTENCE:  The abdomen  was  obese   , nontender.
+           DT     NN    VBD    JJ         JJ     
+               |======|     |======|             
+               Anatomy      Disorder             
+               C0000726     C0028754             
+
+SENTENCE:   Rectal 
+              JJ   
+           |======|
+             Drug  
+           C1272938
+
+SENTENCE:  exam:
+            NN  
+
+SENTENCE:   Normal  tone.
+              JJ     NN  
+           |======|      
+           Finding       
+           C0231683      
+           C0558145      
+
+SENTENCE:  The prostate was non-nodular.
+           DT     NN    VBD     JJ      
+               |======|                 
+               Anatomy                  
+               C0033572                 
+
+SENTENCE:  He  had   heme  
+           PRP VBD    NN   
+                   |======|
+                     Drug  
+                   C0018966
+
+SENTENCE:  negative stools.
+              JJ     NNS   
+
+SENTENCE:  Pulses:
+            NNS   
+
+SENTENCE:  The peripheral pulses were intact.
+           DT      JJ      NNS   VBD    JJ   
+               |===============|             
+                    Finding                  
+                   C0232139                  
+
+SENTENCE:  He 
+           PRP
+
+SENTENCE:  had left medial malleolar brawny   skin  .
+           VBD  JJ    JJ      JJ       JJ      NN    
+                                            |======| 
+                                            Anatomy  
+                                            C1123023 
+
+SENTENCE:  LABORATORY EXAMINATION:
+               NN         NN      
+           |========|             
+           Procedure              
+            C0022885              
+
+SENTENCE:  He  had  normal  electrolytes , a  creatinine
+           PRP VBD    JJ        NNS        DT     NN    
+                   |======| |==========|      |========|
+                   Finding      Drug             Drug   
+                   C0231683   C0013832         C0010294 
+                   C0558145                             
+                   |===================|                
+                          Finding                       
+                         C0438240                       
+
+SENTENCE:  of 1.3 ,  normal   liver   function   tests  .
+           IN          JJ       NN       NN       NNS    
+                    |======| |======|          |=======| 
+                    Finding  Anatomy           Procedure 
+                    C0231683 C0023884          C0022885  
+                    C0558145                             
+                    |===============|                    
+                         Finding                         
+                        C0577059                         
+                             |===============|           
+                                  Finding                
+                                 C0232741                
+                             |=========================| 
+                                      Procedure          
+                                      C0023901           
+                    |==================================| 
+                                  Finding                
+                                  C0438235               
+
+SENTENCE:  His 
+           PRP$
+
+SENTENCE:  hematocrit was slighlty low at 38.8 with a  slight high   MCV    of 95.3 ,
+               NN     VBD    JJ    JJ  IN       IN  DT   JJ    JJ     NN    IN       
+           |========|                                              |======|          
+           Procedure                                               Finding           
+            C0018935                                               C0524587          
+
+SENTENCE:  and a  high    MCH    of 32.9.
+           CC  DT  JJ     NN     IN      
+                       |=======|         
+                         Drug            
+                       C0600370          
+                       |=======|         
+                       Procedure         
+                       C0369183          
+
+SENTENCE:  His  cholesterol was 267 , triglycerides
+           PRP$     NN      VBD            NNS     
+                |=========|           |===========|
+                   Drug                   Drug     
+                 C0008377               C0041004   
+
+SENTENCE:  296.
+               
+
+SENTENCE:  The PT was 11.6 , and the    PTT    was 31.4.
+           DT  NN VBD        CC  DT     NNP    VBD      
+                                     |=======|          
+                                     Procedure          
+                                     C0030605           
+
+SENTENCE:  The urinalysis was
+           DT      NN     VBD
+               |========|    
+               Procedure     
+                C0042014     
+
+SENTENCE:  benign.
+             JJ   
+
+SENTENCE:     EKG    showed  normal   sinus   rhythm at a  rate of 43 , and a
+              NN      VBD      JJ       NN      NN   IN DT  NN  IN      CC  .
+           |=======|        |======| |======|                                
+           Procedure        Finding  Anatomy                                 
+           C1623258         C0231683 C0030471                                
+                            C0558145                                         
+                                     |=============|                         
+                                         Finding                             
+                                        C0232201                             
+                            |======================|                         
+                                    Finding                                  
+                                    C0232202                                 
+
+SENTENCE:  negative 30 degree   axis   , intervals .18/.08/.42 , and he  had Q's in
+              JJ         NN      NN         NNS                  CC  PRP VBD NNP IN
+                              |======|                                             
+                              Anatomy                                              
+                              C0004457                                             
+
+SENTENCE:  II , III and  F  , and flat ST  segments.
+           CD   CD  CC  NNP   CC   JJ  NNP   NNS    
+
+SENTENCE:  He  had T -wave inversions in
+           PRP VBD NN  NN     NNS     . 
+                           |========|   
+                            Disorder    
+                            C0021943    
+
+SENTENCE:  III.
+           CD  
+
+SENTENCE:  His   chest     x-ray   showed no acute disease .
+           PRP$    NN       NN      VBD   DT  JJ      NN    
+                |======| |=======|                 |======| 
+                Anatomy  Procedure                 Disorder 
+                C0817096 C1306645                  C0012634 
+                         C1962945                           
+                |================|           |============| 
+                    Procedure                   Disorder    
+                     C0039985                   C0001314    
+
+SENTENCE:  There was no
+            EX   VBD RB
+
+SENTENCE:  cardiomegaly.
+                NN      
+           |==========| 
+             Finding    
+             C0018800   
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was admitted , and he  underwent
+           DT    NN    VBD   VBN      CC  PRP    VBD   
+
+SENTENCE:  cardiac  catheterization on 10/5/90 .  He  was found
+              JJ          NN        IN            PRP VBD  VBN 
+           |======| |=============|                            
+           Anatomy     Procedure                               
+           C0018787    C0007430                                
+
+SENTENCE:  to have  normal  RA pressures but lightly high RV pressure of 38/10 ,
+           TO  VB     JJ    NN    NNS    CC    RB     JJ  NN    NN    IN        
+                   |======|    |=======|                     |======|           
+                   Finding      Finding                      Finding            
+                   C0231683    C0460139                      C0460139           
+                   C0558145                                                     
+
+SENTENCE:  wedge 12 , cardiac  output 9.2 , and a  cardiac  index of 4.3.
+            NN           JJ      NN         CC  DT    JJ     NN   IN     
+                      |======|                     |======|              
+                      Anatomy                      Anatomy               
+                      C0018787                     C0018787              
+                                                   |============|        
+                                                      Finding            
+                                                      C0428776           
+
+SENTENCE:  His  SVR
+           PRP$ NN 
+
+SENTENCE:  was 878 , and the   PVR    was 104.
+           VBD       CC  DT    NNP    VBD     
+                             |======|         
+                             Disorder         
+                             C0242852         
+                             |======|         
+                             Finding          
+                             C0456261         
+
+SENTENCE:  He  had an 80% proximal   LAD     lesion .
+           PRP VBD DT        JJ       NN       NN    
+                                   |======| |======| 
+                                   Disorder Finding  
+                                   C0398738 C0221198 
+                                   |======|          
+                                   Anatomy           
+                                   C0226032          
+
+SENTENCE:  His  other vessels  were good.
+           PRP$  JJ     NNS    VBD   JJ  
+                      |======|           
+                      Anatomy            
+                      C0005847           
+
+SENTENCE:  The next day , on 2/10/90 , he 
+           DT   JJ  NN    IN           PRP
+
+SENTENCE:  underwent laser angioplasty of his    LAD    with good results , however ,
+              VBD     NN       NN      IN PRP$    NN     IN   JJ    NNS       RB     
+                           |=========|         |======|                              
+                            Procedure          Anatomy                               
+                            C0162577           C0226032                              
+                                               |======|                              
+                                               Disorder                              
+                                               C0398738                              
+
+SENTENCE:  while the sheaths were in after the procedure , he  developed left
+            IN   DT    NNS   VBD  IN  IN   DT     NN       PRP    VBD     JJ 
+                                               |=======|                     
+                                               Procedure                     
+                                               C0184661                      
+
+SENTENCE:    arm    tightness.
+              NN       NN     
+           |======|           
+           Anatomy            
+           C0446516           
+           |================| 
+                Finding       
+                C0563287      
+
+SENTENCE:  Re-injection of his  coronaries showed   clot   in the
+                NN      IN PRP$    NNS      VBD      NN    IN CD 
+                                                  |======|       
+                                                    Drug         
+                                                  C0009074       
+
+SENTENCE:    LAD    , and he  underwent balloon angioplasty of the  lesion  with good
+              NN      CC  PRP    VBD      NN        NN      IN DT     NN     IN   JJ 
+           |======|                             |=========|        |======|          
+           Anatomy                               Procedure         Finding           
+           C0226032                              C0162577          C0221198          
+           |======|                                                                  
+           Disorder                                                                  
+           C0398738                                                                  
+
+SENTENCE:  result.
+             NN   
+
+SENTENCE:  The patient experienced no more  chest   and no more   arm   
+           DT    NN        VBD     DT RBR     NN    CC  DT JJR     NN   
+                                           |======|             |======|
+                                           Anatomy              Anatomy 
+                                           C0817096             C0446516
+
+SENTENCE:  discomfort or   jaw    discomfort during this admission.
+               NN     CC    NN        NN       IN    DT     NN     
+           |========|    |======| |========|                       
+            Finding      Anatomy   Finding                         
+            C2364135     C0022359  C2364135                        
+
+SENTENCE:  The only
+           DT   RB 
+
+SENTENCE:  complication of the procedure was a  left  groin   hematoma which was
+                NN      IN DT     NN     VBD DT  JJ     NN       NN     WDT  VBD
+           |==========|        |=======|             |======| |======|          
+             Finding           Procedure             Anatomy  Finding           
+             C0009566          C0184661              C0018246 C0018944          
+                                                     |===============|          
+                                                         Disorder               
+                                                         C0585249               
+
+SENTENCE:  stable , and he  had a  stable hematocrit as well.
+             JJ     CC  PRP VBD DT   JJ       NN     RB  RB  
+                                          |========|         
+                                          Procedure          
+                                           C0018935          
+                                   |===============|         
+                                        Finding              
+                                       C1443990              
+
+SENTENCE:  No  bruits  were
+           DT   NNS     .  
+              |======|     
+              Finding      
+              C0006318     
+
+SENTENCE:  noted over his  femoral  arteries.
+            VBN   IN  PRP$    JJ      NNS    
+                           |======| |======| 
+                           Anatomy  Anatomy  
+                           C0015811 C0003842 
+                           |===============| 
+                                Anatomy      
+                               C0015801      
+
+SENTENCE:  The patient was noted to have an
+           DT    NN    VBD  VBN  TO  VB  NN
+
+SENTENCE:   anemia  , a    mild   macrocytic  anemia  , on admission.
+              NN      DT    JJ        JJ        NN      IN    NN     
+           |======|      |======| |========| |======|                
+           Disorder      Finding   Finding   Disorder                
+           C0002871      C1513302  C0302845  C0002871                
+                                  |=================|                
+                                       Disorder                      
+                                       C0002886                      
+
+SENTENCE:  Workup for this
+             NN   IN  PRP$
+
+SENTENCE:  concluded a   normal  ferritin ,  normal    iron   ,  normal  TIBC , with a 
+              VBD    DT    JJ       NN         JJ       NN         JJ     NN     IN  CD
+                        |======| |======|   |======| |======|   |======|               
+                        Finding    Drug     Finding    Drug     Finding                
+                        C0231683 C0015879   C0231683 C0302583   C0231683               
+                        C0558145            C0558145            C0558145               
+
+SENTENCE:  saturation index of 22%.
+               NN      NN   IN     
+
+SENTENCE:  He  had a   normal  B12 and a   normal   folate .
+           PRP VBD DT    JJ    NN  CC  DT    JJ       NN    
+                      |======|            |======| |======| 
+                      Finding             Finding    Drug   
+                      C0231683            C0231683 C0178638 
+                      C0558145            C0558145          
+
+SENTENCE:  The thyroid  functions were within  normal  limits. His reticulocyte
+           DT     NN       NNS    VBD    IN      JJ      NNS   NN       NN     
+               |======|                       |======|             |==========|
+               Anatomy                        Finding                Anatomy   
+               C0040132                       C0231683               C0035286  
+                                              C0558145                         
+
+SENTENCE:  count was mildly decreased at 0.4.
+            NN   VBD   RB      VBN    IN     
+
+SENTENCE:  COMPLICATIONS:
+                NNS      
+           |===========| 
+              Finding    
+             C0009566    
+
+SENTENCE:  There were no significant complications ono this
+            EX   VBD  DT     JJ           NNS      IN  PRP$
+                                     |===========|         
+                                        Finding            
+                                       C0009566            
+
+SENTENCE:  patient's admission.
+             NN         NN     
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Included Tenormin 50 mg  p .o .
+             VBN      NNP       NNS RB NN 
+                    |======|              
+                      Drug                
+                    C0592168              
+
+SENTENCE:  q -day , Isordil  20 mg  p.o. t.i.d. , Ecotrin  one p .o .
+           FW NN      NNP       NNS  FW    FW       NNP    CD  NN NN 
+                    |======|                      |======|           
+                      Drug                          Drug             
+                    C0590720                      C0699274           
+
+SENTENCE:  q -day.
+           FW NN  
+
+SENTENCE:  The patient was in good condition upon discharge.
+           DT    NN    VBD IN  JJ     NN      IN     NN     
+                                   |=======|                
+                                   Disorder                 
+                                   C0012634                 
+
+SENTENCE:  He  is 
+           PRP VBZ
+
+SENTENCE:  discharged to home.
+              VBN     IN  NN  
+
+SENTENCE:  FOLLOWUP:
+              NN    
+
+SENTENCE:  He  will followup with his  own
+           PRP  MD     VB     IN  PRP$ JJ 
+
+SENTENCE:  cardiologist , Dr. Hollinshed , in one to two weeks.
+                NN        NNP    NNP       IN CD  IN CD   NNS  
+
+SENTENCE:  ________________________________ CO989/7080
+                                             CD       
+
+SENTENCE:  JEREMIAH MANONI ,  M . D .
+             NNP     NNP     NNP NNP 
+
+SENTENCE:  KB45 D : 4/10/90
+            NN  NN         
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  1722 Report:
+                  NN   
+
+SENTENCE:  N9060W4 T : 6/24/90
+             NN    NN         
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  GERARDO BOUTWELL ,  M . D .
+             NN       NN      NNP NNP 
+
+SENTENCE:  cc :
+           NNS 
+
+SENTENCE:  CLEMENT F.  VILLACANA ,  M . D .
+             NN    NNP    NNP      NNP NNP 
+
+SENTENCE:  Ba
+           NN
+

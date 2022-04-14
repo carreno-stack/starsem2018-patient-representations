@@ -1,0 +1,804 @@
+SENTENCE:  605354103 | ASMC | 24129813 | | 9830693 | 5/30/2005 12:00:00 AM | Pericardial effusion | |   DIS    | Admission Date:
+                        NN                                              NN       JJ         NN           NN         NN      NN  
+                                                                             |=========| |======|     |======|                  
+                                                                               Anatomy   Finding      Disorder                  
+                                                                              C0442031   C0013687     C0012634                  
+                                                                                                      C1970187                  
+                                                                             |==================|     |======|                  
+                                                                                   Disorder           Finding                   
+                                                                                   C0031039           C1444662                  
+
+SENTENCE:  10/30/2005 Report Status:
+                        NN     NN   
+                      |===========| 
+                         Finding    
+                        C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  1/21/2005
+                    
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  BOUSSON , MERVIN 135-69-74-2
+             NN        NN              
+
+SENTENCE:  Ho  Ron
+           NNP NNP
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CAR
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  3/25/05 AT 06:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  RABALAIS , ERICH E.  ,  M . D .
+              NN       NN   NNP   NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 20 MG PO QD
+             NNP          NN          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0699992    C0016860               
+
+SENTENCE:  ATENOLOL 50 MG PO QD
+             NNP       NN FW FW
+           |======|            
+             Drug              
+           C0004147            
+
+SENTENCE:  OMEPRAZOLE 40 MG PO QD
+              NNP        NN FW FW
+           |========|            
+              Drug               
+            C0028978             
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET: 2 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Your   PCP    , Dr. Stacey Kumlander within 1-2 weeks from discharge.
+           PRP$    NN      NNP  NNP      NNP      IN        NNS   IN     NN     
+                |======|                                                        
+                  Drug                                                          
+                C0031381                                                        
+
+SENTENCE:    Pls    call to schedule your appointment. ,
+             NNS     NN  TO    VB    PRP$      NN       
+           |======|                                     
+           Disorder                                     
+           C0030360                                     
+
+SENTENCE:  Dr. Kermit Greenhalge , Cardiology.
+           NNP  NNP      NNP           NN     
+
+SENTENCE:  Please call 356-085-9910 to arrange appointment within 1-2 weeks of discharge. ,
+             UH    VB       CD      IN   NN        NN        IN        NNS  IN     NN      
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  NKA
+           NN 
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  Pericardial effusion
+               JJ         NN   
+           |=========| |======|
+             Anatomy   Finding 
+            C0442031   C0013687
+           |==================|
+                 Disorder      
+                 C0031039      
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  Pericardial effusion
+               JJ         NN   
+           |=========| |======|
+             Anatomy   Finding 
+            C0442031   C0013687
+           |==================|
+                 Disorder      
+                 C0031039      
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  pericardial effusion , pleural  effusion , empiric treatment for PE
+               JJ         NN         JJ       NN        JJ       NN     IN  NN
+           |=========| |======|   |======| |======|           |=======|       
+             Anatomy   Finding    Disorder Finding            Procedure       
+            C0442031   C0013687   C0032226 C0013687           C0087111        
+           |==================|   |===============|                           
+                 Disorder             Disorder                                
+                 C0031039             C0032227                                
+                       |=================|                                    
+                            Disorder                                          
+                            C0032227                                          
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  Pericardiocentesis
+                   NN        
+           |================|
+               Procedure     
+                C0191234     
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  ECHO
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  47 yo m  with morbid obesity  admitted for elective 
+              JJ NN  IN    NN      NN      VBN    IN     JJ    
+                                |======|              |=======|
+                                Disorder              Procedure
+                                C0028754              C0206058 
+                         |=============|                       
+                            Disorder                           
+                            C0028756                           
+
+SENTENCE:  pericardiocentesis and R   heart     cath    after dx pericardial effusion
+                   NN         CC  JJ    NN       NN      IN   NN     JJ         NN   
+           |================|        |======| |=======|          |=========| |======|
+               Procedure             Anatomy  Procedure            Anatomy   Finding 
+                C0191234             C0018787 C0007430            C0442031   C0013687
+                                                                 |==================|
+                                                                       Disorder      
+                                                                       C0031039      
+
+SENTENCE:  week   pta   .
+            NN     NN    
+                |======| 
+                  Drug   
+                C0015522 
+
+SENTENCE:    HPI   :
+              NN    
+           |======| 
+           Disorder 
+           C0268529 
+
+SENTENCE:  PT had recent UMC admission for pleural  effusion ( transudative , no ev
+           NN VBD   JJ   NNP    NN     IN     JJ       NN           JJ        DT NN
+                                           |======| |======|                       
+                                           Disorder Finding                        
+                                           C0032226 C0013687                       
+                                           |===============|                       
+                                               Disorder                            
+                                               C0032227                            
+
+SENTENCE:  infx or malig ) , dx with PE and started on Coumadin.
+            NN  CC  JJ       NN  IN  NN CC    VBN   IN   NNP    
+                                                       |======| 
+                                                         Drug   
+                                                       C0699129 
+
+SENTENCE:  Then readmitted last
+            RB     VBN      JJ 
+
+SENTENCE:  week with increasing sx 
+            NN   IN     VBG     NNS
+
+SENTENCE:  exertional dyspnea /lighheadedness.
+               JJ        NN          NN       
+                      |======|                
+                      Finding                 
+                      C0013404                
+           |=================|                
+                 Finding                      
+                C0231807                      
+
+SENTENCE:  Found on echo to have 2-cm 
+            NN   IN  NN  TO  VB    NNS
+
+SENTENCE:  pericardial effusion.
+               JJ         NN    
+           |=========| |======| 
+             Anatomy   Finding  
+            C0442031   C0013687 
+           |==================| 
+                 Disorder       
+                 C0031039       
+
+SENTENCE:  Could not be tapped due to elevated    INR    ( on
+            MD   RB  VB  VBN   IN  IN   VBN       NN       . 
+                                               |=======|     
+                                               Procedure     
+                                               C0525032      
+
+SENTENCE:  coumadin empirically for ? PE as cause of effusion ) , so pt d /c 'd and
+              NN        RB      IN    NN IN  NN   IN    NN        RB NN VB VB    . 
+           |======|                                  |======|                      
+             Drug                                    Finding                       
+           C0699129                                  C0013687                      
+
+SENTENCE:  returns  today   for procedure.
+             VBZ      NN    IN     NN     
+                   |======|     |=======| 
+                     Drug       Procedure 
+                   C0310367     C0184661  
+
+SENTENCE:  R   heart     cath     today   shows equalization
+           JJ    NN       NN        NN     VBZ       NN     
+              |======| |=======| |======|                   
+              Anatomy  Procedure   Drug                     
+              C0018787 C0007430  C0310367                   
+
+SENTENCE:  of pressures-->
+           IN    NNS      
+              |=======|   
+               Finding    
+              C0460139    
+
+SENTENCE:  tamponade physiology.
+              NN         NN     
+           |=======|            
+           Procedure            
+           C0579016             
+
+SENTENCE:  However , subxyphoid
+             RB          NN    
+
+SENTENCE:  pericardiocentesis felt not safe given habitus , CT surgery consulted
+                   NN         VBD  RB   JJ   VBN    NN      NN   NN       VBN   
+           |================|                                                   
+               Procedure                                                        
+                C0191234                                                        
+
+SENTENCE:  re window placement , feel not safe given habitus unless   drain   already
+           IN   NN      NN       VBP  RB   JJ   VBN    NN      IN      NN       RB   
+                                                                    |=======|        
+                                                                    Procedure        
+                                                                    C0013103         
+
+SENTENCE:  in place.
+           IN  NN   
+
+SENTENCE:    PMH   :
+              NN    
+           |======| 
+           Finding  
+           C0262926 
+
+SENTENCE:  Morbid obesity  , recent pleural  effusion thought 
+             JJ      NN        JJ      JJ       NN       NN   
+                  |======|          |======| |======| |======|
+                  Disorder          Disorder Finding  Finding 
+                  C0028754          C0032226 C0013687 C0039869
+           |=============|          |===============|         
+              Disorder                  Disorder              
+              C0028756                  C0032227              
+
+SENTENCE:  possibly secondary to PE , rx with  lasix   and coumadin.
+              RB       JJ     IN NN   NN  IN     NN    CC     NN    
+                                              |======|     |======| 
+                                                Drug         Drug   
+                                              C0699992     C0699129 
+
+SENTENCE:  Gastric  bypass  
+             JJ       NN    
+                   |=======|
+                   Procedure
+                   C0741847 
+           |===============|
+               Procedure    
+               C0017125     
+
+SENTENCE:  sched February Diverticulitis , s /p  sigmoid  colectomy.
+            JJ     NNP          NN         NN IN    JJ       NN     
+                          |============|         |======| |=======| 
+                             Disorder            Anatomy  Procedure 
+                             C0012813            C0227391 C0009274  
+                                                 |================| 
+                                                     Procedure      
+                                                      C0192866      
+
+SENTENCE:  L   tibial  ORIF.
+           JJ    JJ     NN  
+              |======|      
+              Anatomy       
+              C0040184      
+
+SENTENCE:  Former  smoker .
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0337664 
+           |=============| 
+               Finding     
+              C0337671     
+
+SENTENCE:  ON EXAM T  98 , P  86 , BP 102/58 , RR  18 , O2  sat 94% RA.
+           IN  NN  NN      NN      NN          NNP      NNP VBD     NN 
+
+SENTENCE:  Gen morbidly  obese   male.
+           NN     RB       JJ     NN  
+                        |======|      
+                        Disorder      
+                        C0028754      
+
+SENTENCE:  JVP , Kussmaul's difficult to assess.
+           NN      NNP         JJ     TO   VB   
+                            |=======|           
+                             Finding            
+                            C1299586            
+
+SENTENCE:  Diminished breath sounds at bases.
+              VBN       NN    NNS   IN  NNS  
+
+SENTENCE:  Distant HS .
+             JJ    NNP 
+
+SENTENCE:    Abd     obese   , with
+              NN       JJ       IN 
+           |======| |======|       
+           Anatomy  Disorder       
+           C0000726 C0028754       
+
+SENTENCE:   hernia  , no tenderness.
+              NN      DT     NN     
+           |======|      |========| 
+           Disorder       Finding   
+           C0019270       C0234233  
+
+SENTENCE:    Ext    1-2+  edema   , LLE>RLE ( chronic   per   
+              NN            NN      NN  NN      JJ       JJ   
+           |======|      |======|                     |======|
+           Disorder      Finding                      Anatomy 
+           C0015306      C0013604                     C0449201
+
+SENTENCE:  pt ).
+           NN   
+
+SENTENCE:  Hospital
+              NN   
+
+SENTENCE:  Course: 1.
+             NN      
+
+SENTENCE:  CV Ischemia:
+           NN    NN    
+              |======| 
+              Finding  
+              C0022116 
+
+SENTENCE:  no
+           UH
+
+SENTENCE:  issues Pump:
+            NNS    NN  
+
+SENTENCE:  8/15/05 drained 400 cc  bloody fluid by
+                     VBN       NNS   JJ    NN   IN
+
+SENTENCE:  transcutaneuous approach , sent for studies , c /w  hemopericardium
+                 JJ           NN      VBN  IN    NNS     NN IN       NN       
+                                                               |=============|
+                                                                   Finding    
+                                                                  C0019064    
+
+SENTENCE:  and exudative process ,
+           CC     JJ       NN     
+
+SENTENCE:  cytology  is  pending at time of discharge.
+              NN     VBZ   JJ    IN  NN  IN    NN     
+           |=======|                                  
+           Procedure                                  
+           C1305671                                   
+
+SENTENCE:  Pt feeling better.
+           NN   VBG    JJR   
+              |============| 
+                 Finding     
+                 C0424578    
+
+SENTENCE:     ESR    ,    CRP    , RA ,
+              NN          NN       NN  
+           |=======|   |=======|       
+           Procedure     Drug          
+           C0013845    C0006560        
+           C1176468                    
+                       |=======|       
+                       Procedure       
+                       C0201657        
+
+SENTENCE:    PPD    negative
+              NN       JJ   
+           |======|         
+             Drug           
+           C0034131         
+           |===============|
+                Finding     
+               C0429910     
+
+SENTENCE:  last admission.
+            JJ     NN     
+
+SENTENCE:  May have some pericardial irritation from   drain   , rx
+           MD   VB   DT      JJ          NN      IN     NN       NN
+                         |=========|                 |=======|     
+                           Anatomy                   Procedure     
+                          C0442031                   C0013103      
+
+SENTENCE:  with morphine , not  nsaids .
+            IN     NN      RB    NNS    
+                |======|       |======| 
+                  Drug           Drug   
+                C0026549       C0003211 
+
+SENTENCE:  Cards fellow pulled   drain  
+            NNS   VBD    VBN      NN    
+                               |=======|
+                               Procedure
+                               C0013103 
+
+SENTENCE:  in PM 6/16 , repeat ECHO 1/12 showed no accum of fluid ( prelim report
+           IN NN          NN    NN        VBD   DT  NN   IN  NN       NN     NN  
+
+SENTENCE:  says nl EF , with   fat      pad    over anterior R  ventricle ). Restarted
+           VBZ  JJ NN    IN     NN       NN     IN     JJ    JJ    NN           JJ    
+                             |======| |======|      |======|    |=======|             
+                               Drug   Disorder      Disorder     Anatomy              
+                             C0015677 C0332568      C0751437    C0018827              
+                                      C1704436                                        
+                             |===============|                                        
+                                  Anatomy                                             
+                                 C0935625                                             
+
+SENTENCE:   lasix   at home dose 8/9 Atenolol had been held at time of
+              NN    IN  NN   NN        NNP    VBD VBN  VBN  IN  NN  . 
+           |======|                  |======|                         
+             Drug                      Drug                           
+           C0699992                  C0004147                         
+
+SENTENCE:  admission , instructed to restart at time of d /c  home.
+              NN          VBN     TO   VB    IN  NN  IN NN NN  NN  
+
+SENTENCE:  Rhythm:
+             NN   
+
+SENTENCE:  No acute
+           DT  JJ  
+
+SENTENCE:  rhythm issues at this time;
+             NN    NNS   IN  DT   NN  
+
+SENTENCE:  monitored on tele.
+              VBN    IN  NN  
+
+SENTENCE:  2. Pulm:
+               NN  
+
+SENTENCE:  Pt has been diagnosed with PE (   SOB    with positive D  dimer ) and
+           NN VBZ VBN     VBN     IN  NN      NN     IN     JJ    NN  NN      . 
+                                           |======|               |======|      
+                                           Finding                  Drug        
+                                           C0013404               C0060323      
+
+SENTENCE:  started on Coumadin 5/20 , though no V /Q    scan    or CT   scan      able   to
+             VBN   IN   NNP             IN   DT NN NN    NN     CC NN    NN        JJ    TO
+                      |======|                        |=======|       |=======| |======|   
+                        Drug                          Procedure       Procedure Finding    
+                      C0699129                        C0034606        C0034606  C1299581   
+
+SENTENCE:  confirm since he  is  too big to fit in scanner.
+             VB     IN   PRP VBZ RB  JJ  TO VB  IN   NN    
+
+SENTENCE:  Coumadin was held for
+             NNP    VBD VBN  IN 
+           |======|             
+             Drug               
+           C0699129             
+
+SENTENCE:  several days prior to this admission so that pt could undergo
+             JJ    NNS   JJ   IN  DT     NN     IN  IN  NN  MD     VB   
+           |==========|                                                 
+             Finding                                                    
+             C3845714                                                   
+
+SENTENCE:  pericardiocentesis.
+                   NN         
+           |================| 
+               Procedure      
+                C0191234      
+
+SENTENCE:  Attempt made to try to confirm PE on this
+             NN    VBN  TO VB  TO   VB    NN IN PRP$
+
+SENTENCE:  admission.
+              NN     
+
+SENTENCE:  AS mentioned , Pt  unable  to do CT PE (  weight   ) is
+           IN    VBN      NN    JJ    TO VB NN NN      NN       . 
+                             |======|               |=======|     
+                             Finding                Procedure     
+                             C1299582               C1305866      
+
+SENTENCE:  499 pounds ) or VQ    scan   .
+                NNS     CC NNP    NN     
+                               |=======| 
+                               Procedure 
+                               C0034606  
+                           |===========| 
+                             Procedure   
+                             C0560738    
+
+SENTENCE:  Tried to arrange for open    MRI    1/12 to r /o 
+            VBD  TO   VB    IN   JJ     NN          IN VB RP
+                                     |=======|              
+                                     Procedure              
+                                     C0024485               
+
+SENTENCE:  PE and malignancy given pleural  and pericardial effusion.
+           NN CC      NN      VBN     JJ    CC      JJ         NN    
+                  |========|       |======|     |=========| |======| 
+                   Disorder        Disorder       Anatomy   Finding  
+                   C0006826        C0032226      C0442031   C0013687 
+                                                |==================| 
+                                                      Disorder       
+                                                      C0031039       
+
+SENTENCE:  1/12 pt went
+                NN  NN 
+
+SENTENCE:  for open    MRI    at  J - Hospital in Fountlar Pkwy , but pt too big
+           IN   JJ     NN     IN NNP    NNP    IN   NNP    NNP    CC  NN RB  JJ 
+                    |=======|                                                   
+                    Procedure                                                   
+                    C0024485                                                    
+
+SENTENCE:  to   fit    in the scanner , study will need to be deferred to outpt.
+           IN    NN    IN DT    NN       NN    MD   VB  TO VB   VBN    IN  NN   
+              |======|                                                          
+              Finding                                                           
+              C0036572                                                          
+
+SENTENCE:  Since
+            NN  
+
+SENTENCE:  pt's pericardial effusion c /w  hemopericardium , do  not recommend restarting
+           NN       JJ         NN    NN IN       NN          VBP RB     VB         NN    
+                |=========| |======|       |=============|                               
+                  Anatomy   Finding            Finding                                   
+                 C0442031   C0013687          C0019064                                   
+                |==================|                                                     
+                      Disorder                                                           
+                      C0031039                                                           
+
+SENTENCE:  Coumadin at this time given risk of rebleeding and cardiac  tamponade.
+             NNP    IN  DT   NN   VBN   NN  IN    VBG     CC     JJ       NN     
+           |======|                                           |======| |=======| 
+             Drug                                             Anatomy  Procedure 
+           C0699129                                           C0018787 C0579016  
+                                                              |================| 
+                                                                   Disorder      
+                                                                   C0007177      
+
+SENTENCE:  3. FEN:
+              NN  
+
+SENTENCE:  Cardiac  diet 4. CODE:
+              JJ     NN      NN  
+           |======|              
+           Anatomy               
+           C0018787              
+
+SENTENCE:  FULL
+            NN 
+
+SENTENCE:  4. Dispo:
+               VB   
+
+SENTENCE:  D /C 'd home 3/25/05 with VNA services.
+           LS NN    NN           IN  NN    NNS    
+                                         |======| 
+                                         Finding  
+                                         C0557854 
+
+SENTENCE:  PT instructed to make
+           NN    VBN     IN  NN 
+
+SENTENCE:  follow up appointment with   PCP    Dr. Stouder within 1-2 weeks of discharge.
+             VB   RP     NN       IN     NN    NNP   NN      IN        NNS  IN    NN     
+                                      |======|                                           
+                                        Drug                                             
+                                      C0031381                                           
+
+SENTENCE:  Unfortunately , malignancy/PE workup  unable  to be completed due to body
+                RB             NN     NN   NN      JJ    TO VB    VBN    IN  IN  NN 
+                           |========|           |======|                            
+                            Disorder            Finding                             
+                            C0006826            C1299582                            
+
+SENTENCE:  habitus.
+             NN    
+
+SENTENCE:  Pt planning to undergo gastric  bypass   in near future , would
+           NN    NN    TO   VB      JJ       NN     IN  JJ    NN      NN  
+              |======|                    |=======|                       
+              Finding                     Procedure                       
+              C0032074                    C0741847                        
+                                  |===============|                       
+                                      Procedure                           
+                                      C0017125                            
+
+SENTENCE:  recommend reevaluation for malignancy when he  has lost sufficient  weight  .
+              VB          NN      IN      NN     WRB  PRP VBZ VBN      JJ        NN     
+                                      |========|                              |=======| 
+                                       Disorder                               Procedure 
+                                       C0006826                               C1305866  
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Satisfactory
+                JJ     
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  1 ) No new medications have been prescribed.
+               DT JJ      NNS     VBP  VBN     VBN     
+                      |=========|                      
+                         Drug                          
+                       C0013227                        
+
+SENTENCE:  Please continue on all home
+             UH      VB    IN DT   NN 
+
+SENTENCE:  medications , except for Coumadin.
+               NNS         IN   IN    NNP    
+           |=========|              |======| 
+              Drug                    Drug   
+            C0013227                C0699129 
+
+SENTENCE:  2 ) Schedule f /up appointment w / your cardiologist Dr. Castellion and your
+                  NN    VB RP     NN      IN  PRP$      NN      NNP     NN     CC  PRP$
+
+SENTENCE:    PCP    Dr. Steinkellner within 1-2 weeks of
+              NN    NNP     NNP        IN        NNS  IN
+           |======|                                     
+             Drug                                       
+           C0031381                                     
+
+SENTENCE:  discharge home.
+              NN      NN  
+
+SENTENCE:  We  are  unable  to schedule an appointment for you at this
+           PRP VBP    JJ    TO    VB    DT     NN      IN  PRP IN PRP$
+                   |======|                                           
+                   Finding                                            
+                   C1299582                                           
+
+SENTENCE:  time because the offices are closed.
+            NN    IN    DT    NNS   VBP  VBN   
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  BELLOMA , MARK ANDY  E  M.D. ( WS283 ) 3/25/05 @ 05
+             NN      NNP  NNP  NNP NNP     CD                 
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

@@ -1,0 +1,1614 @@
+SENTENCE:  982397252 | RH | 74249195 | | 5433323 | 3/10/2002 12:00:00 AM | Discharge Summary | Signed |   DIS    | Admission Date:
+                       NN                                             NN      NN       NN       VBN        NN         NN      NN  
+                                                                                                        |======|                  
+                                                                                                        Finding                   
+                                                                                                        C1444662                  
+                                                                                                        |======|                  
+                                                                                                        Disorder                  
+                                                                                                        C0012634                  
+                                                                                                        C1970187                  
+
+SENTENCE:  11/13/2002 Report Status:
+                        NN     NN   
+                      |===========| 
+                         Finding    
+                        C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  ADMISSION DIAGNOSIS:
+              NN        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  LEFT FOURTH   TOE    GANGRENE.
+            JJ    NN      NN       NN    
+                       |======| |======| 
+                       Anatomy  Disorder 
+                       C0040357 C0017086 
+                |=============|          
+                    Anatomy              
+                   C1261102              
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient is  a  49-year-old woman
+           DT    NN    VBZ DT     NN  JJ   NN  
+
+SENTENCE:  with diabetes and well known to the
+            IN     NN    CC   RB   VBN  IN CD 
+                |======|                      
+                Disorder                      
+                C0011849                      
+
+SENTENCE:  Vascular Surgery Service  , status post multiple bilateral   toe   
+              JJ      NN       NN        NN    IN     JJ       JJ        NN   
+           |======|         |======|                                  |======|
+           Anatomy          Finding                                   Anatomy 
+           C0005847         C0557854                                  C0040357
+           |==============|                                                   
+              Procedure                                                       
+               C0042381                                                       
+
+SENTENCE:  amputations.
+               NNS     
+           |=========| 
+            Procedure  
+            C0002688   
+
+SENTENCE:  She was last here in April of 2002.
+           PRP VBD  RB   RB  IN  NNP  IN      
+
+SENTENCE:  The patient was
+           DT    NN    VBD
+
+SENTENCE:  admitted on March , 2002 for a  planned left fourth   toe   
+             VBN    IN  NNP         IN  DT   VBN    JJ    JJ      NN   
+                                                               |======|
+                                                               Anatomy 
+                                                               C0040357
+                                                        |=============|
+                                                            Anatomy    
+                                                           C1261102    
+
+SENTENCE:  amputation and VAC  sponge  change by Dr. Ettel
+               NN     CC  NN     NN      NN   IN NNP  NNP 
+           |========|         |======|                    
+           Procedure            Drug                      
+            C0002688          C1705741                    
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  The patient's past medical history  includes
+           DT    NN       JJ    JJ       NN      VBZ   
+                                      |======|         
+                                      Finding          
+                                      C0262926         
+                         |===================|         
+                                Finding                
+                               C0455458                
+
+SENTENCE:  hypertension , coronary  artery  disease  ,
+                NN           JJ       NN       NN     
+           |==========|   |======| |======| |======|  
+             Disorder     Anatomy  Anatomy  Disorder  
+             C0020538     C0018787 C0003842 C0012634  
+                          |===============|           
+                               Anatomy                
+                              C0205042                
+                                   |===============|  
+                                       Disorder       
+                                       C0852949       
+                          |========================|  
+                                   Disorder           
+                                   C1956346           
+
+SENTENCE:  status post myocardial infarction , insulin  dependent diabetes
+             NN    IN      JJ         NN          NN       JJ        NN   
+                                  |========|   |======|           |======|
+                                   Finding       Drug             Disorder
+                                   C0021308    C0021641           C0011849
+                       |===================|   |=========================|
+                             Disorder                   Disorder          
+                             C0027051                   C0011854          
+
+SENTENCE:  mellitus , history  of seizures , status post cerebrovascular
+              NN         NN    IN   NNS        NN    IN        JJ       
+                      |======|    |======|                              
+                      Finding     Finding                               
+                      C0262926    C0036572                              
+
+SENTENCE:  accident , gastroesophageal  reflux  disease  , and  asthma .
+              NN             JJ           NN       NN      CC     NN    
+                                       |======| |======|       |======| 
+                                       Disorder Disorder       Disorder 
+                                       C0017168 C0012634       C0004096 
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  The patient's allergies include penicillin , aspirin  ,
+           DT    NN         NNS      VBP       NN          NN     
+                         |=======|         |========|   |======|  
+                          Finding             Drug        Drug    
+                         C0020517           C0220892    C0004057  
+
+SENTENCE:   NSAIDs  , and pentazocine.
+             NNS      CC      NN      
+           |======|       |=========| 
+             Drug            Drug     
+           C0003211        C0030873   
+
+SENTENCE:  MEDICATIONS ON ADMISSION:
+               NNS     IN    NN     
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  At the time of admission , the patient
+           IN DT   NN  IN    NN       DT    NN   
+
+SENTENCE:  was on Zestril  20 mg  q.d. ,  Plavix  75 mg 
+           VBD IN   NNP       NNS  FW      NNP       NNS
+                  |======|               |======|       
+                    Drug                   Drug         
+                  C0678140               C0633084       
+
+SENTENCE:  q.d. , Peri-Colace 30 mg  b.i.d. , Niferex  150 mg  b.i.d. , Gabitril 12
+            FW        NNP        NNS   FW       NNP        NNS   FW       NNP      
+                  |=========|                 |======|                  |======|   
+                     Drug                       Drug                      Drug     
+                   C0307257                   C0212019                  C0720560   
+                                              |==========|                         
+                                                  Drug                             
+                                                C0212018                           
+
+SENTENCE:  TIT t.i.d. ,  Flagyl  500 t.i.d. ,  Lantus  insulin  80 units q.h.s. ,
+           NN    FW       NNP          FW        NN       NN        NNS    FW    
+                        |======|              |======| |======|                  
+                          Drug                  Drug     Drug                    
+                        C0699678              C0876064 C0021641                  
+
+SENTENCE:  ceftazidime 1 gm q. 8 , vancomycin 1 gm b.i.d. , esomeprazole 20 mg 
+               NN        NN FW        NNP       NN   FW         NNP         NNS
+           |=========|             |========|               |==========|       
+              Drug                    Drug                      Drug           
+            C0007559                C0042313                  C0937846         
+
+SENTENCE:  q.d. ,  Prozac  20 mg  q.d. , folic acid 1 mg q.d. , Humalog  sliding
+            FW      NNP       NNS  FW     JJ    NN    NN  FW      NNP      VBG  
+                  |======|               |========|             |======|        
+                    Drug                    Drug                  Drug          
+                  C0162373                C0016410              C0528249        
+
+SENTENCE:  scale ,  Lasix   100 mg  p.o. b.i.d. , Dilaudid p.r.n. , Dulcolax p.r.n. ,
+            NN       NNP        NNS  FW    FW       NNP      FW       NNP      FW    
+                   |======|                       |======|          |======|         
+                     Drug                           Drug              Drug           
+                   C0699992                       C0728755          C0591416         
+
+SENTENCE:  ofloxacin 0.3% ophthalmologic  drops   one OU  q.i.d. ,  Cosopt  one   drop  
+              NN                JJ         NNS    CD  NNS   FW       NNP    CD     NN   
+           |=======|                     |======|                  |======|     |======|
+             Drug                          Drug                      Drug         Drug  
+           C0028902                      C0991568                  C0719542     C0991568
+
+SENTENCE:  OU  b.i.d. , brimonidine tartrate 0.2% ophthalmologic  drops   one OU 
+           NNS   FW         NN         NN               JJ         NNS    CD  NNS
+                        |=========| |======|                     |======|        
+                           Drug       Drug                         Drug          
+                         C0525227   C0144544                     C0991568        
+                        |==================|                                     
+                                Drug                                             
+                              C0077768                                           
+
+SENTENCE:  q.i.d. ,   Pred   Forte 0.12 b.i.d.  drops   both   eyes  .
+             FW       NNP     NNP         FW     NNS     CC    NNS    
+                    |======|                   |======|      |======| 
+                      Drug                       Drug        Anatomy  
+                    C0032952                   C0991568      C0015392 
+                    C0044955                                          
+                    |============|                      |===========| 
+                         Drug                              Anatomy    
+                       C0699633                           C0229118    
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  Physical examination revealed temperature to
+              JJ        NN        VBD        NN      TO
+
+SENTENCE:  be 98.7 ,  heart   rate 72 , and  blood   pressure
+           VB           NN     NN       CC     NN       NN   
+                     |======|               |======| |======|
+                     Anatomy                Anatomy  Finding 
+                     C0018787               C0005767 C0460139
+                                            |===============|
+                                                 Finding     
+                                                C0005823     
+
+SENTENCE:  154/71.
+                  
+
+SENTENCE:  HEENT was negative.
+            NN   VBD    JJ    
+
+SENTENCE:  The  chest   was clear.
+           DT     NN    VBD  JJ   
+               |======|           
+               Anatomy            
+               C0817096           
+
+SENTENCE:  The abdomen  was
+           DT     NN    VBD
+               |======|    
+               Anatomy     
+               C0000726    
+
+SENTENCE:  protuberant , soft , and non-tender.
+               NN         JJ    CC      JJ     
+
+SENTENCE:  The extremities revealed open
+           DT      NNS       VBD     JJ 
+               |=========|              
+                 Anatomy                
+                C0015385                
+
+SENTENCE:  amputations of the bilateral   feet   with 2+ femoral  pulses and
+               NNS     IN DT     JJ        NN     IN        JJ     NNS    . 
+           |=========|                  |======|         |======|           
+            Procedure                   Anatomy          Anatomy            
+            C0002688                    C0016504         C0015811           
+                                                         |=============|    
+                                                             Finding        
+                                                            C0232148        
+
+SENTENCE:  palpable DP and PT pulses bilaterally with right greater than left.
+              JJ    NN CC  NN  NNS       RB       IN   NN     JJR    IN   NN  
+
+SENTENCE:  There was no evidence of cellulitis with a  necrotic left fourth
+            EX   VBD DT    NN    IN     NN      IN  DT    JJ     JJ    JJ  
+                                    |========|         |======|            
+                                     Finding           Finding             
+                                     C0007642          C0027540            
+
+SENTENCE:    toe   .
+              NN    
+           |======| 
+           Anatomy  
+           C0040357 
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  1. Vascular:
+                 JJ    
+              |======| 
+              Anatomy  
+              C0005847 
+
+SENTENCE:  The patient was admitted for the left fourth   toe   
+           DT    NN    VBD   VBN    IN  DT   JJ    JJ      NN   
+                                                        |======|
+                                                        Anatomy 
+                                                        C0040357
+                                                 |=============|
+                                                     Anatomy    
+                                                    C1261102    
+
+SENTENCE:  amputation , which occurred on April .
+               NN        WDT    VBD    IN  NNP   
+           |========|                            
+           Procedure                             
+            C0002688                             
+
+SENTENCE:  This  wound  
+            DT     NN   
+                |======|
+                Disorder
+                C0043250
+
+SENTENCE:  was left open.
+           VBD  JJ   JJ  
+
+SENTENCE:  She tolerated the procedure well with a  VAC change
+           PRP    VBD    DT     NN      RB   IN  DT NN    NN  
+                             |=======|                        
+                             Procedure                        
+                             C0184661                         
+
+SENTENCE:  occurring on August at the bedside.
+              VBG    IN  NNP   IN DT    NN    
+
+SENTENCE:  At that time , it  was noted
+           IN  DT   NN    PRP VBD  VBN 
+
+SENTENCE:  that , although , there was pink granulation  tissue  , the fifth   toe   
+           WDT       IN       EX   VBD  JJ      NN         NN      DT   JJ      NN   
+                                                        |======|             |======|
+                                                        Anatomy              Anatomy 
+                                                        C0040300             C0040357
+                                            |==================|       |============|
+                                                  Anatomy                 Anatomy    
+                                                  C0018180                C1261103   
+
+SENTENCE:  had become ischemic and nonviable.
+           VBD  VBN      JJ    CC     JJ     
+
+SENTENCE:  Therefore , the patient was
+              RB       DT    NN    VBD
+
+SENTENCE:  taken to the operating room on August for a  left fifth   toe   
+            VBN  IN DT     NN      NN  IN  NNP   IN  DT  JJ   JJ      NN   
+                                                                   |======|
+                                                                   Anatomy 
+                                                                   C0040357
+                                                             |============|
+                                                                Anatomy    
+                                                                C1261103   
+
+SENTENCE:  amputation , which was also left open.
+               NN        WDT  VBD  RB   JJ   JJ  
+           |========|                            
+           Procedure                             
+            C0002688                             
+
+SENTENCE:  That was tolerated well , but
+            DT  VBD    VBN     RB    CC 
+
+SENTENCE:  did not seem to be viable secondary to ischemia and infection.
+           VBD RB   VB  TO VB   JJ      JJ     IN    NN    CC     NN     
+                                                  |======|     |=======| 
+                                                  Finding      Disorder  
+                                                  C0022116     C0009450  
+
+SENTENCE:  Therefore , on March , 2002 , she was taken to the operating room
+              RB       IN  NNP           PRP VBD  VBN  IN DT     NN      NN 
+
+SENTENCE:  for a  left transmetatarsal amputation of the third , fourth and
+           IN  DT  JJ        JJ            NN     IN DT   JJ       JJ   CC 
+                                       |========|                          
+                                       Procedure                           
+                                        C0002688                           
+                       |========================|                          
+                               Procedure                                   
+                                C0812427                                   
+
+SENTENCE:  fifth   toes  .
+            JJ     NNS    
+                 |======| 
+                 Anatomy  
+                 C0040357 
+
+SENTENCE:  Dressing  changes , wet-to-dry , were done.
+              NN       NNS     JJ  IN NN    VBD  VBN  
+           |=======|                                  
+            Finding                                   
+           C1305428                                   
+           |=======|                                  
+           Procedure                                  
+           C0278286                                   
+
+SENTENCE:  During that
+             IN   WDT 
+
+SENTENCE:  time , it  was noted that additional necrotic debris at the lateral
+            NN    PRP VBD  VBN   IN      JJ        JJ      NN   IN DT    JJ   
+                                                |======|                      
+                                                Finding                       
+                                                C0027540                      
+                                                |=============|               
+                                                    Finding                   
+                                                   C0027544                   
+
+SENTENCE:  aspect of the   foot   required more debridement , so she was taken to
+             NN   IN DT     NN      VBN    RBR      NN        RB PRP VBD  VBN  TO
+                         |======|               |=========|                      
+                         Anatomy                 Procedure                       
+                         C0016504                C0011079                        
+
+SENTENCE:  surgery on April for debridement and a  partial resection of
+             NN    IN  NNP  IN      NN      CC  DT   JJ       NN     IN
+                                |=========|                |=======|   
+                                 Procedure                 Procedure   
+                                 C0011079                  C0728940    
+
+SENTENCE:  the left fifth metatarsal.
+           DT   JJ   JJ       NN     
+                          |========| 
+                           Anatomy   
+                           C0025584  
+                    |==============| 
+                        Anatomy      
+                        C0224009     
+                        C0459705     
+
+SENTENCE:  A  VAC was placed and changed on
+           DT NN  VBD  VBN   CC    VBN   RB
+
+SENTENCE:  March at the bedside.
+            NNP  IN DT    NN    
+
+SENTENCE:  On October , 2002 , the  wound   was
+           IN   NNP            DT     NN    VBD
+                                   |======|    
+                                   Disorder    
+                                   C0043250    
+
+SENTENCE:  felt to be clean enough and a  split thickness   skin    graft   was placed
+           VBD  IN VB  JJ     JJ   CC  DT  JJ      NN        NN       NN    VBD  VBN  
+                                                          |======| |======|           
+                                                          Anatomy  Anatomy            
+                                                          C1123023 C0332835           
+                                                          |===============|           
+                                                              Procedure               
+                                                              C0037297                
+                                                |================|                    
+                                                     Finding                          
+                                                     C0423756                         
+                                                          |===============|           
+                                                                Drug                  
+                                                              C0181078                
+                                          |===============================|           
+                                                      Procedure                       
+                                                      C0439061                        
+
+SENTENCE:  on the left   foot   , 75 square cm  , and the donor site was the left
+           IN DT   JJ     NN           JJ   NNS   CC  DT   NN    NN  VBD DT   JJ 
+                       |======|                           |========|             
+                       Anatomy                             Anatomy               
+                       C0016504                            C1444716              
+                  |===========|                                                  
+                     Anatomy                                                     
+                    C0230461                                                     
+
+SENTENCE:   thigh  .
+              NN    
+           |======| 
+           Anatomy  
+           C0039866 
+
+SENTENCE:  This seemed to be taking well.
+            DT   VBD   TO VB  VBG    RB  
+
+SENTENCE:  We  continued with dressing 
+           PRP    VBD     IN     NN    
+                              |=======|
+                              Procedure
+                              C0278286 
+                              |=======|
+                               Finding 
+                              C1305428 
+
+SENTENCE:  changes and a  heat lamp to the donor site , which healed well.
+             NNS   CC  DT  NN   NN  IN DT   NN    NN     WDT   VBN    RB  
+                                           |========|                     
+                                            Anatomy                       
+                                            C1444716                      
+
+SENTENCE:  On
+           IN
+
+SENTENCE:  February , 2002 , we  took her to the operating room again for
+             NNP             PRP VBD  PRP IN DT     NN      NN   RB   IN 
+
+SENTENCE:  debridement of the left   foot  .
+               NN      IN DT   JJ     NN    
+           |=========|             |======| 
+            Procedure              Anatomy  
+            C0011079               C0016504 
+                              |===========| 
+                                 Anatomy    
+                                C0230461    
+
+SENTENCE:  The plantar  aspect of the   skin    graft  
+           DT     NN      NN   IN DT     NN       NN   
+               |======|               |======| |======|
+               Anatomy                Anatomy  Anatomy 
+               C0442036               C1123023 C0332835
+                                      |===============|
+                                            Drug       
+                                          C0181078     
+                                      |===============|
+                                          Procedure    
+                                          C0037297     
+
+SENTENCE:  had become discolored and we  felt the infection required
+           VBD  VBN      VBN     CC  PRP VBD  DT     NN        JJ   
+                                                  |=======|         
+                                                  Disorder          
+                                                  C0009450          
+
+SENTENCE:  debridement.
+               NN      
+           |=========| 
+            Procedure  
+            C0011079   
+
+SENTENCE:  Intraoperatively , the   bone   did not seem to be
+                  RB          DT     NN    VBD RB   VB  TO VB
+                                  |======|                   
+                                  Anatomy                    
+                                  C0262950                   
+
+SENTENCE:  involved and , at this point , we  had been continuing wet-to-dry
+             VBN    CC    IN  DT   NN     PRP VBD VBN     VBG     JJ  IN NN 
+
+SENTENCE:  dressing  changes and , as of January , 2002 , the   plan   was to take
+              NN       NNS   CC    IN IN   NNP            DT     NN    VBD IN  NN 
+           |=======|                                          |======|            
+            Finding                                           Disorder            
+           C1305428                                           C0270724            
+           |=======|                                                              
+           Procedure                                                              
+           C0278286                                                               
+
+SENTENCE:  the patient to the operating room on January , 2002 for another
+           DT    NN    IN DT     NN      NN  IN   NNP          IN   PRP$  
+
+SENTENCE:    skin    graft  .
+              NN       NN    
+           |======| |======| 
+           Anatomy  Anatomy  
+           C1123023 C0332835 
+           |===============| 
+                 Drug        
+               C0181078      
+           |===============| 
+               Procedure     
+               C0037297      
+
+SENTENCE:  Now that the  wound   is  clean , she has completed
+           RB   IN  DT     NN    VBZ  JJ     PRP VBZ    VBN   
+                        |======|                              
+                        Disorder                              
+                        C0043250                              
+
+SENTENCE:  antibiotics.
+               NNS     
+           |=========| 
+              Drug     
+            C0003232   
+
+SENTENCE:  2. Neurological:
+                   JJ      
+
+SENTENCE:  The patient has a  history  of a  seizure  disorder ,
+           DT    NN    VBZ DT    NN    IN DT    NN       NN     
+                              |======|       |======| |======|  
+                              Finding        Finding  Disorder  
+                              C0262926       C0036572 C0012634  
+                                             |===============|  
+                                                 Disorder       
+                                                 C0014544       
+
+SENTENCE:  which has been stable on Gabitril.
+            WDT  VBZ VBN    JJ   IN   NNP    
+                                    |======| 
+                                      Drug   
+                                    C0720560 
+
+SENTENCE:  She is 
+           PRP VBZ
+
+SENTENCE:  status post  stroke  and is  stable.
+             NN    IN     NN    CC  VBZ   JJ   
+                       |======|                
+                       Disorder                
+                       C0038454                
+
+SENTENCE:  For her  depression , she receives
+           IN  PRP$     NN       PRP   VBZ   
+                    |========|               
+                     Disorder                
+                     C0011581                
+
+SENTENCE:   Prozac .
+             NNP    
+           |======| 
+             Drug   
+           C0162373 
+
+SENTENCE:  Her    pain   is  well controlled on a  Fentanyl  patch   with
+           PRP$    NN    VBZ  RB     VBN     IN DT   NNP       NN     IN 
+                |======|                           |======| |======|     
+                Finding                              Drug     Drug       
+                C0030193                           C0015846 C0445403     
+                                                            C1707974     
+
+SENTENCE:  oxycodone for p.r.n.   pain   and Dilaudid for breakthrough   pain  .
+              NN     IN    FW      NN    CC    NNP    IN       NN         NN    
+           |=======|            |======|     |======|                  |======| 
+             Drug               Finding        Drug                    Finding  
+           C0030049             C0030193     C0728755                  C0030193 
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient also has occasional dizziness and this is  treated with
+             NN     RB  VBZ     JJ        NN     CC   DT  VBZ   VBN    IN 
+                                       |=======|                          
+                                        Finding                           
+                                       C0012833                           
+
+SENTENCE:  p.r.n. meclizine.
+             FW      NN     
+                  |=======| 
+                    Drug    
+                  C0025039  
+
+SENTENCE:  3. Cardiovascular:
+                    NN       
+              |============| 
+                 Anatomy     
+                 C0007226    
+
+SENTENCE:  The patient has coronary  artery  disease  and is 
+           DT    NN    VBZ    JJ       NN       NN    CC  VBZ
+                           |======| |======| |======|        
+                           Anatomy  Anatomy  Disorder        
+                           C0018787 C0003842 C0012634        
+                                    |===============|        
+                                        Disorder             
+                                        C0852949             
+                           |===============|                 
+                                Anatomy                      
+                               C0205042                      
+                           |========================|        
+                                    Disorder                 
+                                    C1956346                 
+
+SENTENCE:  status post a  myocardial infarction , and
+             NN    IN  DT     JJ         NN       CC 
+                                     |========|      
+                                      Finding        
+                                      C0021308       
+                          |===================|      
+                                Disorder             
+                                C0027051             
+
+SENTENCE:  hypertension , which is  currently well controlled on Lopressor 50 mg 
+                NN         WDT  VBZ    RB      RB     VBN     IN    NNP       NNS
+           |==========|                                          |=======|       
+             Disorder                                              Drug          
+             C0020538                                            C0700776        
+
+SENTENCE:  t . i . d .
+           NN NNS VBN 
+
+SENTENCE:  4. Respiratory:
+                  NN      
+
+SENTENCE:  The patient has  asthma  that has been stable and
+           DT    NN    VBZ    NN    WDT  VBZ VBN    JJ    . 
+                           |======|                         
+                           Disorder                         
+                           C0004096                         
+
+SENTENCE:  not evidenced in the hospital.
+           RB     VBN    IN DT     NN    
+
+SENTENCE:  5. GI:
+              NN 
+
+SENTENCE:  The patient has a  history  of gastroesophageal  reflux 
+           DT    NN    VBZ DT    NN    IN        JJ           NN   
+                              |======|                     |======|
+                              Finding                      Disorder
+                              C0262926                     C0017168
+
+SENTENCE:  disease  , which is  treated with esomeprazole.
+              NN       WDT  VBZ   VBN    IN       NN      
+           |======|                          |==========| 
+           Disorder                              Drug     
+           C0012634                            C0937846   
+
+SENTENCE:  She is  on a 
+           PRP VBZ IN CD
+
+SENTENCE:  diabetic diet.
+              JJ     NN  
+           |===========| 
+             Procedure   
+             C0011878    
+
+SENTENCE:  She receives  Colace  ,  Senna   , multivitamins , folic
+           PRP   VBZ      NNP        NNP           NNS         JJ  
+                        |======|   |======|   |===========|        
+                          Drug       Drug         Drug             
+                        C0282139   C0074332     C0301532           
+
+SENTENCE:  acid and Niferex .
+            NN  CC    NNP    
+                    |======| 
+                      Drug   
+                    C0212019 
+
+SENTENCE:  6. GU:
+              NN 
+
+SENTENCE:  The patient is  receiving  Lasix   100 mg  b.i.d. at this
+           DT    NN    VBZ    VBG      NNP        NNS   FW   IN PRP$
+                                     |======|                       
+                                       Drug                         
+                                     C0699992                       
+
+SENTENCE:  moment.
+             NN   
+
+SENTENCE:  Her  admission creatinine was 0.7 , peaked at 2.0
+           PRP$    NN         NN     VBD         JJ   IN    
+                          |========|                        
+                             Drug                           
+                           C0010294                         
+
+SENTENCE:  on February , at which time we  called a   renal   consultation , who
+           IN   NNP      IN  WDT   NN  PRP  VBD   DT    JJ         NN        WP 
+                                                     |======|                   
+                                                     Anatomy                    
+                                                     C0022646                   
+
+SENTENCE:  said she was probably pre-renal acute  renal   failure secondary to
+           VBD  PRP VBD    RB       JJ      JJ      JJ      NN       JJ     TO
+                        |======|                 |======|                     
+                        Finding                  Anatomy                      
+                        C0332148                 C0022646                     
+                                                 |==============|             
+                                                     Disorder                 
+                                                     C0035078                 
+                                           |====================|             
+                                                  Disorder                    
+                                                  C0022660                    
+
+SENTENCE:     ace    inhibitor ,  Lasix   and a  new bunch of antibiotics.
+              NN        NN         NNP    CC  DT JJ   NN   IN     NNS     
+           |=======|             |======|                     |=========| 
+           Procedure               Drug                          Drug     
+           C0201888              C0699992                      C0003232   
+           |=================|                                            
+                  Drug                                                    
+                C0003015                                                  
+
+SENTENCE:  At that time
+           IN  DT   NN 
+
+SENTENCE:  we  held the    ace    inhibitor , held the  Lasix   , and renally dosed the
+           PRP VBN  DT     NN        NN       VBN  DT    NNP      CC    RB     VBN   . 
+                        |=======|                      |======|                        
+                        Procedure                        Drug                          
+                        C0201888                       C0699992                        
+                        |=================|                                            
+                               Drug                                                    
+                             C0003015                                                  
+
+SENTENCE:  antibiotics , at which time her creatinine came down to 1.1 , which
+               NNS       IN  WDT   NN  PRP     NN     VBD   RB  IN        WDT 
+           |=========|                     |========|                         
+              Drug                            Drug                            
+            C0003232                        C0010294                          
+
+SENTENCE:  is  closer to her  baseline.
+           VBZ   JJ   IN PRP$    NN    
+
+SENTENCE:  We  have slowly restarted  Lasix   and she
+           PRP VBP    RB      VBN      NNP    CC  PRP
+                                     |======|        
+                                       Drug          
+                                     C0699992        
+
+SENTENCE:  has tolerated that.
+           VBZ    VBN     DT  
+
+SENTENCE:  We  have since discontinued her  antibiotics.
+           PRP VBP   IN       VBN      PRP$     NNS     
+                                            |=========| 
+                                               Drug     
+                                             C0003232   
+
+SENTENCE:  7.   Heme  :
+                 NN    
+              |======| 
+                Drug   
+              C0018966 
+
+SENTENCE:  The patient's admission hematocrit was 25.7 , for which
+           DT    NN         NN         NN     VBD        IN   WDT 
+                                   |========|                     
+                                   Procedure                      
+                                    C0018935                      
+
+SENTENCE:  she received 1 unit of  packed     red     blood    cells   on
+           PRP   VBD       NN  IN    JJ        JJ       NN      NNS    . 
+                                  |=======| |======| |======| |======|   
+                                  Procedure Finding  Anatomy  Anatomy    
+                                  C0184967  C0332575 C0005767 C0007634   
+                                                     |===============|   
+                                                          Anatomy        
+                                                         C0005773        
+                                            |========================|   
+                                                     Anatomy             
+                                                     C0014792            
+                                            |========================|   
+                                                       Drug              
+                                                     C1277078            
+                                  |==================================|   
+                                                  Drug                   
+                                                C2316467                 
+
+SENTENCE:  April . She received another unit of  packed     red     blood    cells   on
+            NNP    PRP   VBD      DT     NN  IN    JJ        JJ       NN      NNS    . 
+                                                |=======| |======| |======| |======|   
+                                                Procedure Finding  Anatomy  Anatomy    
+                                                C0184967  C0332575 C0005767 C0007634   
+                                                                   |===============|   
+                                                                        Anatomy        
+                                                                       C0005773        
+                                                          |========================|   
+                                                                   Anatomy             
+                                                                   C0014792            
+                                                          |========================|   
+                                                                     Drug              
+                                                                   C1277078            
+                                                |==================================|   
+                                                                Drug                   
+                                                              C2316467                 
+
+SENTENCE:  November and her  most recent hematocrit , on January , was 26.8.
+             NNP    CC  PRP$ RBS    JJ       NN       IN   NNP     VBD      
+                                         |========|                         
+                                         Procedure                          
+                                          C0018935                          
+
+SENTENCE:  Therefore , she is  baseline anemic.
+              RB       PRP VBZ    NN      JJ   
+
+SENTENCE:  8. Infectious Disease :
+                  JJ        NN    
+              |========| |======| 
+               Disorder  Disorder 
+               C0009450  C0012634 
+
+SENTENCE:  This has been another major  issue   for this
+            DT  VBZ VBN    DT     JJ      NN    IN  PRP$
+                                       |======|         
+                                       Finding          
+                                       C0033213         
+
+SENTENCE:  patient.
+             NN    
+
+SENTENCE:  Starting from the beginning , on
+              NN     IN  DT     NN       RB
+
+SENTENCE:  October , the patient had a  urinary tract infection with mixed
+             NNP     DT    NN    VBD DT   JJ     NN      NN      IN   JJ  
+                                        |===========| |=======|           
+                                           Anatomy    Disorder            
+                                          C1508753    C0009450            
+                                        |=====================|           
+                                               Disorder                   
+                                               C0042029                   
+
+SENTENCE:  flora , for which she was treated with a  five day course of Diflucan
+            NN     IN   WDT  PRP VBD   VBN    IN  DT  CD  NN    NN   IN   NNP   
+                                                                        |======|
+                                                                          Drug  
+                                                                        C0699601
+
+SENTENCE:  for Candida.
+           IN    NNP   
+
+SENTENCE:  On April , a   wound    culture  of the left   foot  
+           IN  NNP    DT    NN       NN     IN DT   JJ     NN   
+                         |======| |=======|             |======|
+                         Disorder Procedure             Anatomy 
+                         C0043250 C2242979              C0016504
+                                                   |===========|
+                                                      Anatomy   
+                                                     C0230461   
+
+SENTENCE:  showed Pseudomonas , which was resistant to multiple  drugs   ,
+            VBD       NN         WDT  VBD    JJ     IN    JJ      NNS     
+                                                                |======|  
+                                                                  Drug    
+                                                                C0013227  
+
+SENTENCE:  multidrug resistant E.  coli , and methicillin resistant
+              NN        JJ     NNP NNP    CC      NN         JJ    
+                                              |=========|          
+                                                 Drug              
+                                               C0025643            
+
+SENTENCE:  Staphylococcus aureus , as well as multidrug resistant Klebsiella.
+                NNP        NNP     RB  RB  IN    NN        JJ        NNP     
+
+SENTENCE:  On February , when we  went to the operating room for further
+           IN   NNP      WRB  PRP VBD  IN DT     NN      NN  IN    JJ   
+
+SENTENCE:  debridement of the left   foot   , we  obtained deep cultures from the
+               NN      IN DT   JJ     NN      PRP   VBD     JJ    NNS     IN  CD 
+           |=========|             |======|                                      
+            Procedure              Anatomy                                       
+            C0011079               C0016504                                      
+                              |===========|                                      
+                                 Anatomy                                         
+                                C0230461                                         
+
+SENTENCE:  operating room and found Pseudomonas diphtheroid and Klebsiella ,
+              VBG     NN  CC   VBD      NN          NN      CC     NNP      
+
+SENTENCE:  which were sensitive to vancomycin and cefotaxime.
+            WDT  VBD     JJ     IN     NN     CC      NN     
+                      |=======|    |========|     |========| 
+                       Finding        Drug           Drug    
+                      C0020517      C0042313       C0007554  
+
+SENTENCE:  Infectious
+               JJ    
+           |========|
+            Disorder 
+            C0009450 
+
+SENTENCE:  Disease  had consulted on our  patient and recommended vancomycin ,
+              NN    VBD    VBN    IN PRP$   NN    CC      VBN         NN      
+           |======|                                               |========|  
+           Disorder                                                  Drug     
+           C0012634                                                C0042313   
+
+SENTENCE:  cefepime and  Flagyl  and a  two week course of these antibiotics for
+              NN    CC    NNP    CC  DT CD   NN    NN   IN  DT       NNS      . 
+           |======|     |======|                                 |=========|    
+             Drug         Drug                                      Drug        
+           C0055003     C0699678                                  C0003232      
+
+SENTENCE:  a  soft  tissue  infection.
+           DT  JJ     NN       NN     
+                   |======| |=======| 
+                   Anatomy  Disorder  
+                   C0040300 C0009450  
+              |===========|           
+                 Anatomy              
+                C0225317              
+              |=====================| 
+                     Disorder         
+                     C0149778         
+
+SENTENCE:  It  did not appear in the operating room
+           PRP VBD RB    VB   IN DT     NN      NN 
+
+SENTENCE:  again that the   bone   was involved in the infection.
+            RB    IN  DT     NN    VBD   VBN    IN DT     NN     
+                          |======|                     |=======| 
+                          Anatomy                      Disorder  
+                          C0262950                     C0009450  
+
+SENTENCE:  An    MRI    on
+           DT    NN     IN
+              |=======|   
+              Procedure   
+              C0024485    
+
+SENTENCE:  August , however , showed soft  tissue  swelling in the  sinus  
+            NNP       RB       VBD    JJ     NN       NN    IN DT     NN   
+                                          |======| |======|        |======|
+                                          Anatomy  Finding         Anatomy 
+                                          C0040300 C0038999        C0030471
+                                     |===========|                         
+                                        Anatomy                            
+                                       C0225317                            
+                                     |====================|                
+                                            Disorder                       
+                                            C0037580                       
+
+SENTENCE:  tract that was suspicious for osteomyelitis of the fifth
+            NN   WDT  VBD     JJ     IN       NN       IN DT   JJ  
+                                         |===========|             
+                                           Disorder                
+                                           C0029443                
+
+SENTENCE:  metatarsal , but , in consultation with Infectious Disease  , Vascular
+               NN       CC    IN      NN       IN      JJ        NN         JJ   
+           |========|                              |========| |======|   |======|
+            Anatomy                                 Disorder  Disorder   Anatomy 
+            C0025584                                C0009450  C0012634   C0005847
+                                                              |=================|
+                                                                   Disorder      
+                                                                   C0042373      
+
+SENTENCE:  Surgery , her  operative findings , and clinical picture , we  decided
+             NN      PRP$    JJ       NNS      CC     JJ      NN      PRP   VBD  
+
+SENTENCE:  it  looked more like a  soft  tissue  infection and treated her  for two
+           PRP  VBD   RBR   IN  DT  JJ     NN       NN     CC    VBN   PRP$ IN  CD 
+                                        |======| |=======|                         
+                                        Anatomy  Disorder                          
+                                        C0040300 C0009450                          
+                                   |===========|                                   
+                                      Anatomy                                      
+                                     C0225317                                      
+                                   |=====================|                         
+                                          Disorder                                 
+                                          C0149778                                 
+
+SENTENCE:  weeks with antibiotics.
+            NNS   IN      NNS     
+                      |=========| 
+                         Drug     
+                       C0003232   
+
+SENTENCE:  9. Endocrine:
+                 NN     
+              |=======| 
+               Anatomy  
+              C0014136  
+
+SENTENCE:  The patient has diabetes mellitus and her   blood  
+           DT    NN    VBZ    NN       NN    CC  PRP$    NN   
+                           |======|                   |======|
+                           Disorder                   Anatomy 
+                           C0011849                   C0005767
+
+SENTENCE:   sugar   control has been an  issue   throughout her 
+              NN      NN    VBZ VBN  DT    NN        IN     PRP$
+           |======|                     |======|                
+             Drug                       Finding                 
+           C0242209                     C0033213                
+
+SENTENCE:  hospital stay , slowly titrating up to her  current  Lantus  dose of
+              NN     NN      RB      VBG    RP IN PRP$   JJ      NNP     NN  IN
+                                                               |======|        
+                                                                 Drug          
+                                                               C0876064        
+
+SENTENCE:  150 units subq q .h .s .
+                NNS   RB  FW NN NN 
+
+SENTENCE:  She seems to be doing well with that.
+           PRP  VBZ  TO VB  VBG   RB   IN   DT  
+
+SENTENCE:  10. Ophthalmology:
+                    NN       
+
+SENTENCE:  The patient is  status post bilateral cataract
+           DT    NN    VBZ   NN    IN     JJ        NN   
+                                                 |======|
+                                                 Disorder
+                                                 C0086543
+
+SENTENCE:  surgery and attempted filter for glaucoma in
+             NN    CC     VBD      NN   IN     NN    NN
+                                            |======|   
+                                            Disorder   
+                                            C0017601   
+
+SENTENCE:  the right   eye    and high pressure with   pain   , and proliferative
+           DT   JJ      NN    CC   JJ     NN     IN     NN      CC       JJ      
+                     |======|          |======|      |======|       |===========|
+                     Anatomy           Finding       Finding           Finding   
+                     C0015392          C0460139      C0030193         C0334094   
+               |============|                                                    
+                  Anatomy                                                        
+                  C0229089                                                       
+
+SENTENCE:  retinopathy with bilateral traction  detachment.
+               NN       IN     JJ        NN         NN     
+           |=========|                |=======|            
+            Disorder                  Procedure            
+            C0035309                  C0040597             
+
+SENTENCE:  She was taking the
+           PRP VBD  VBG    . 
+
+SENTENCE:  following medications:
+              JJ         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:    Pred   Forte ,  Cosopt  , ofloxacin , and Alphagan
+              JJ     JJ        NN         NN       CC     NN   
+           |======|         |======|   |=======|       |======|
+             Drug             Drug       Drug            Drug  
+           C0032952         C0719542   C0028902        C0594452
+           C0044955                                            
+           |============|                                      
+                Drug                                           
+              C0699633                                         
+
+SENTENCE:  for her    eyes  .
+           IN  PRP$   NNS    
+                    |======| 
+                    Anatomy  
+                    C0015392 
+
+SENTENCE:  On August , she had an Ophthalmology appointment
+           IN  NNP     PRP VBD DT      NN           NN     
+
+SENTENCE:  for floaters and that diagnosis was proliferative diabetic
+           IN    NNS    CC   DT     NN     VBD      JJ          JJ   
+               |======|          |=======|     |===========|         
+               Finding            Finding         Finding            
+               C0016242          C0011900        C0334094            
+
+SENTENCE:  retinopathy , status post   pan    retinal  phototherapy with vitreous
+               NN          NN    IN     NN       NN         NN       IN     JJ   
+           |=========|               |======| |======| |==========|              
+            Disorder                 Disorder   Drug    Procedure                
+            C0035309                 C0031036 C0035331   C0031765                
+
+SENTENCE:  hemorrhage.
+               NN     
+           |========| 
+            Finding   
+            C0019080  
+
+SENTENCE:  On October , she had an appointment with Dr. Saulsbury at
+           IN   NNP     PRP VBD DT     NN       IN  NNP    NNP    RB
+
+SENTENCE:  277-598-1768 , who recommended to add timolol  to her    eye     drops   , and
+                CD        WP      VBD     TO VB    NNP    IN PRP$    NN      NNS      CC 
+                                                 |======|         |======| |======|      
+                                                   Drug           Anatomy    Drug        
+                                                 C0040233         C0015392 C0991568      
+                                                                  |===============|      
+                                                                        Drug             
+                                                                      C0015399           
+
+SENTENCE:  will be following up with her.
+            MD  VB    VBG    RP  IN  PRP 
+
+SENTENCE:  11.
+              
+
+SENTENCE:   Dental :
+              NN    
+           |======| 
+             Drug   
+           C1272923 
+
+SENTENCE:  The patient had an appointment on July , where
+           DT    NN    VBD DT     NN      IN NNP     WRB 
+
+SENTENCE:  they recommended a    root    canal   of #18 and #19 for
+           PRP      VBD     DT    NN       NN    IN     CC      NN 
+                               |======| |======|                   
+                               Anatomy  Anatomy                    
+                               C0040452 C0086881                   
+
+SENTENCE:   caries .
+             NNS    
+           |======| 
+           Disorder 
+           C0011334 
+
+SENTENCE:  This   root    canal   was done on January . The number of the
+            DT     NN       NN    VBD VBN  IN   NNP     DT    NN   IN CD 
+                |======| |======|                                        
+                Anatomy  Anatomy                                         
+                C0040452 C0086881                                        
+
+SENTENCE:  clinic is  210-793-1150.
+             NN   VBZ      CD      
+
+SENTENCE:  12.   Skin  :
+                  NN    
+               |======| 
+               Anatomy  
+               C1123023 
+
+SENTENCE:  The patient received Lotrimin , miconazole and  wound  
+           DT    NN      VBD      NNP          NN     CC     NN   
+                                |======|   |========|     |======|
+                                  Drug        Drug        Disorder
+                                C0699670    C0025942      C0043250
+
+SENTENCE:  care to her  right   foot   with Regranex.
+            NN  IN PRP$  JJ      NN     IN    NNP    
+                              |======|      |======| 
+                              Anatomy         Drug   
+                              C0016504      C0723005 
+                        |============|               
+                           Anatomy                   
+                           C0230460                  
+
+SENTENCE:  The left   foot   is
+           DT   JJ     NN    . 
+                    |======|   
+                    Anatomy    
+                    C0016504   
+               |===========|   
+                  Anatomy      
+                 C0230461      
+
+SENTENCE:  receiving wet-to-dries q .d .
+              VBG    JJ  IN  NNS  FW NN 
+
+SENTENCE:  13. Tubes , lines and drains:
+                NNS     NNS  CC   NNS   
+
+SENTENCE:  The patient had a  right PICC line
+           DT    NN    VBD DT  JJ    NN   NN 
+
+SENTENCE:  placed on October , 2002.
+            VBN   IN   NNP          
+
+SENTENCE:  DISCHARGE INSTRUCTIONS:
+              NNP        NNS      
+
+SENTENCE:  Neurological:
+                JJ      
+
+SENTENCE:  Continue.
+              VB    
+
+SENTENCE:  Cardiac :
+              NN    
+           |======| 
+           Anatomy  
+           C0018787 
+
+SENTENCE:  Continue.
+              VB    
+
+SENTENCE:  Respiratory:
+               NN      
+
+SENTENCE:  Continue.
+              VB    
+
+SENTENCE:  GI:
+           NN 
+
+SENTENCE:  Continue.
+              VB    
+
+SENTENCE:  GU:
+           NN 
+
+SENTENCE:  Continue with monitoring of creatinine.
+              VB     IN      NN     IN     NN     
+                                       |========| 
+                                          Drug    
+                                        C0010294  
+
+SENTENCE:    Heme  :
+              NN    
+           |======| 
+             Drug   
+           C0018966 
+
+SENTENCE:  Continue with monitoring of hospital course.
+              VB     IN      NN     IN    NN      NN   
+
+SENTENCE:  Infectious Disease :
+               JJ        NN    
+           |========| |======| 
+            Disorder  Disorder 
+            C0009450  C0012634 
+
+SENTENCE:  No antibiotics needed , but follow left  wound  
+           DT     NNS      VBN     CC    VB    JJ     NN   
+              |=========|                          |======|
+                 Drug                              Disorder
+               C0003232                            C0043250
+
+SENTENCE:  closely and she is  positive for methicillin
+             RB    CC  PRP VBZ    JJ    IN      NN     
+                                            |=========|
+                                               Drug    
+                                             C0025643  
+
+SENTENCE:  resistant Staphylococcus aureus , so she will need to be in
+              JJ          NNP        NNP     RB PRP  MD   VB  TO VB IN
+
+SENTENCE:  isolation.
+              NN     
+           |=======| 
+           Procedure 
+           C0204727  
+
+SENTENCE:  Endocrine:
+              NN     
+           |=======| 
+            Anatomy  
+           C0014136  
+
+SENTENCE:   Blood    sugar   control.
+              NN       NN      NN    
+           |======| |======|         
+           Anatomy    Drug           
+           C0005767 C0242209         
+           |===============|         
+               Procedure             
+               C0392201              
+
+SENTENCE:  Ophthalmology:
+                NN       
+
+SENTENCE:  She need follow-up with her  ophthalmologist about
+           PRP VBP    VB   RP  IN  PRP$       NN         RB  
+
+SENTENCE:  her  retinopathy , bilateral detachment and glaucoma.
+           PRP$     NN           JJ         NN     CC     NN    
+                |=========|                            |======| 
+                 Disorder                              Disorder 
+                 C0035309                              C0017601 
+
+SENTENCE:   Dental :
+              NN    
+           |======| 
+             Drug   
+           C1272923 
+
+SENTENCE:  She had a    root    canal   done and will need follow-up.
+           PRP VBD DT    NN       NN    VBN  CC   MD   VB    VB   RP 
+                      |======| |======|                              
+                      Anatomy  Anatomy                               
+                      C0040452 C0086881                              
+
+SENTENCE:  Vascular:
+              JJ    
+           |======| 
+           Anatomy  
+           C0005847 
+
+SENTENCE:  Will need to follow her  bilateral extremity examination
+            MD   VB  TO   VB   PRP$    JJ        NN         NN     
+                                              |=======|            
+                                               Anatomy             
+                                              C0015385             
+
+SENTENCE:  and the   skin    graft   to her  left   foot   to ensure proper
+           CC  DT     NN       NN    IN PRP$  JJ     NN    TO   VB     JJ  
+                   |======| |======|              |======|                 
+                   Anatomy  Anatomy               Anatomy                  
+                   C1123023 C0332835              C0016504                 
+                   |===============|         |===========|                 
+                         Drug                   Anatomy                    
+                       C0181078                C0230461                    
+                   |===============|                                       
+                       Procedure                                           
+                       C0037297                                            
+
+SENTENCE:  healing .
+              NN    
+           |======| 
+           Finding  
+           C0043240 
+
+SENTENCE:  As well , she will be needing rehabilitation secondary to
+           RB  RB    PRP  MD  VB   VBG         NN          JJ     TO
+                                         |============|             
+                                           Procedure                
+                                            C0034991                
+
+SENTENCE:  weakness and decreased mobility after these amputations.
+              NN    CC     VBN       NN     IN    DT       NNS     
+           |======|               |======|             |=========| 
+           Finding                Finding               Procedure  
+           C3714552               C0425245              C0002688   
+                        |================|                         
+                             Finding                               
+                             C0700572                              
+
+SENTENCE:  She is 
+           PRP VBZ
+
+SENTENCE:    heel    weight   bearing on the left ,  weight   bearing as tolerated on the
+              NN       NN       NN    IN DT   JJ       NN       NN    IN    VBN    IN CD 
+           |======| |=======|                       |=======|                            
+           Anatomy  Procedure                       Procedure                            
+           C0018870 C1305866                        C1305866                             
+                    |===============|               |===============|                    
+                         Finding                         Finding                         
+                        C0085086                        C0085086                         
+
+SENTENCE:  right.
+            JJ   
+
+SENTENCE:  Goals will be to have bed mobility , transfers , daily
+            NNS   MD  VB TO  VB  NN     NN         NNS       RB  
+                                     |======|                    
+                                     Finding                     
+                                     C0425245                    
+
+SENTENCE:   therapy  with exercise , and the goal will be to ambulate 25   feet  
+              NN      IN     NN      CC  DT   NN   MD  VB IN    JJ         NNS   
+           |=======|      |======|                                       |======|
+           Procedure      Finding                                        Anatomy 
+           C0087111       C0015259                                       C0016504
+
+SENTENCE:  with the least restrictive device.
+            IN  DT   NN       JJ        NN   
+
+SENTENCE:  MEDICATIONS ON DISCHARGE:
+               NNS     IN    NNP    
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  At the time of discharge , the patient
+           IN DT   NN  IN    NN       DT    NN   
+
+SENTENCE:  was actively on , as of January ,
+           VBD    RB    RB   IN IN   NNP    
+
+SENTENCE:  Lotrimin topical  b.i.d. ,  Colace  100 mg  b.i.d. , Fentanyl 150 mcg
+             NNP       JJ      FW       NNP        NNS   FW       NNP        NNS
+           |======| |======|          |======|                  |======|        
+             Drug     Drug              Drug                      Drug          
+           C0699670 C1710439          C0282139                  C0015846        
+
+SENTENCE:  q. 72 hours ,  Prozac  20 mg  q.d. , folic acid 1 mg p.o. q.d. ,  Lasix  
+           FW     NNS      NNP       NNS  FW     JJ    NN    NN  FW   FW      NNP   
+                         |======|               |========|                  |======|
+                           Drug                    Drug                       Drug  
+                         C0162373                C0016410                   C0699992
+
+SENTENCE:  100 mg  p.o. b.i.d. , heparin  5000 units subq b.i.d. , insulin  sliding
+               NNS  FW    FW        NN          NNS   JJ    FW        NN      NN   
+                                 |======|                          |======|        
+                                   Drug                              Drug          
+                                 C0019134                          C0021641        
+
+SENTENCE:  scale , Lopressor 50 mg  t.i.d. , Niferex  150 mg  p.o. b.i.d. ,
+            NN        NNP       NNS   FW       NNP        NNS  FW    FW    
+                   |=======|                 |======|                      
+                     Drug                      Drug                        
+                   C0700776                  C0212019                      
+                                             |==========|                  
+                                                 Drug                      
+                                               C0212018                    
+
+SENTENCE:    Pred   Forte one   drop   OU q.i.d. ,  Senna   two tablets  p.o. q.h.s. ,
+             NNP     NNP  CD     NN    JJ   FW       NNP    CD    NNS     FW    FW    
+           |======|           |======|             |======|     |======|              
+             Drug               Drug                 Drug         Drug                
+           C0032952           C0991568             C0074332     C0039225              
+           C0044955                                                                   
+           |============|                                                             
+                Drug                                                                  
+              C0699633                                                                
+
+SENTENCE:  Gabitril 12 mg  p.o. b.i.d. , miconazole  powder  to  groin   b.i.d. ,
+             NNP       NNS  FW    FW         NN        NN    IN    NN      FW    
+           |======|                      |========| |======|    |======|         
+             Drug                           Drug      Drug      Anatomy          
+           C0720560                       C0025942  C0032861    C0018246         
+
+SENTENCE:  Regranex topical  b.i.d. to right   foot   and cover with loose sterile 
+             NNP       JJ      FW   IN  JJ      NN    CC   NN    IN   JJ      JJ   
+           |======| |======|                 |======|                      |======|
+             Drug     Drug                   Anatomy                       Finding 
+           C0723005 C1710439                 C0016504                      C0021359
+                                       |============|                              
+                                          Anatomy                                  
+                                          C0230460                                 
+
+SENTENCE:  dressing  ,  Plavix  75 mg  p.o. q.d. ,  Cosopt  one   drop   OU  b.i.d. ,
+              NN         NNP       NNS  FW   FW       NN    CD     NN    NNS   FW    
+           |=======|   |======|                    |======|     |======|             
+            Finding      Drug                        Drug         Drug               
+           C1305428    C0633084                    C0719542     C0991568             
+           |=======|                                                                 
+           Procedure                                                                 
+           C0278286                                                                  
+
+SENTENCE:  ofloxacin 0.3% ophthalmologic solution one   drop   OU q.i.d. ,
+              NN                JJ          NN    CD     NN    JJ   FW    
+           |=======|                     |======|     |======|            
+             Drug                          Drug         Drug              
+           C0028902                      C1382100     C0991568            
+
+SENTENCE:  esomeprazole 20 p.o. q.d. ,  Lantus  150 units subq q.h.s. , and
+                NN          FW   FW      NNP         NNS   JJ    FW     CC 
+           |==========|                |======|                            
+               Drug                      Drug                              
+             C0937846                  C0876064                            
+
+SENTENCE:  Alphagan one drop OU  q . i .d .
+             NNP    CD   VB  NNS FW NNS NN 
+           |======|                        
+             Drug                          
+           C0594452                        
+
+SENTENCE:  She is  currently using one  touch   ultra
+           PRP VBZ    RB      VBG  CD     NN     NN  
+                                       |======|      
+                                       Finding       
+                                       C0702221      
+                                   |==========|      
+                                       Drug          
+                                     C1703482        
+
+SENTENCE:  glucose  pen  stick   for  blood    sugar   draws.
+              NN    JJ     NN    IN     NN       NN     VBZ  
+           |======|     |======|     |======| |======|       
+             Drug         Drug       Anatomy    Drug         
+           C0017725     C1706582     C0005767 C0242209       
+                                     |===============|       
+                                         Procedure           
+                                         C0392201            
+
+SENTENCE:  She gets Tylenol  p.r.n. ,
+           PRP VBZ    NNP      FW    
+                    |======|         
+                      Drug           
+                    C0699142         
+
+SENTENCE:  Natural Tears p.r.n. , Dilaudid p.r.n. for   pain   , Milk of Magnesia
+             NNP    NNS    FW       NNP      FW   IN     NN      NNP  IN   NNP   
+                                  |======|            |======|           |======|
+                                    Drug              Finding              Drug  
+                                  C0728755            C0030193           C0024477
+                                                                 |==============|
+                                                                       Drug      
+                                                                     C0591789    
+
+SENTENCE:  p.r.n. , meclizine p.r.n. , and oxycodone p .r .n .
+             FW        NN       FW     CC     NN     RB JJ RB 
+                    |=======|              |=======|          
+                      Drug                   Drug             
+                    C0025039               C0030049           
+
+SENTENCE:  FOLLOW-UP:
+             NN   NN 
+           |=======| 
+            Finding  
+           C0589120  
+
+SENTENCE:  The patient was instructed to follow-up with Dr. Tata
+           DT    NN    VBD    VBN     TO   VB   RP  IN  NNP NNP 
+
+SENTENCE:  in two weeks from the date of discharge.
+           IN CD   NNS   IN  DT   NN  IN    NN     
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  JUDSON JACQUIER ,  M . D .
+            NNP     NNP      NNP NNP 
+
+SENTENCE:  BR069
+            NN  
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  DAMON JANAK ,  M . D .
+            NNP   NNP    NNP NNP 
+
+SENTENCE:  EA32
+            NN 
+
+SENTENCE:  AJ254/041664
+            NN         
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  94589 Index No. TFYQ307K43 D : 7/23/02
+                  NNP  NN      CD     NN         
+
+SENTENCE:  T : 7/23/02
+           NN         
+

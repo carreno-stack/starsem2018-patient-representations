@@ -1,0 +1,808 @@
+SENTENCE:  184742191 | FH | 11101800 | | 428914 | 7/2/1993 12:00:00 AM | Discharge Summary | Unsigned |   DIS    | Admission Date:
+                       NN                                           NN      NN       NN         JJ         NN         NN      NN  
+                                                                                                        |======|                  
+                                                                                                        Finding                   
+                                                                                                        C1444662                  
+                                                                                                        |======|                  
+                                                                                                        Disorder                  
+                                                                                                        C0012634                  
+                                                                                                        C1970187                  
+
+SENTENCE:  7/2/1993 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Unsigned
+              JJ   
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  2/15/1993
+                    
+
+SENTENCE:  DISCHARGE DIAGNOSES:
+              NNP       NNS    
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  RECURRENT ENDOCARDITIS AND   END   -STAGE CARDIAC 
+              JJ          NN      CC     NN     NN      NN   
+                     |==========|     |======|       |======|
+                       Disorder         Drug         Anatomy 
+                       C0014118       C0082420       C0018787
+
+SENTENCE:  VALVULAR DISEASE .
+              JJ       NN    
+                    |======| 
+                    Disorder 
+                    C0012634 
+
+SENTENCE:  PROCEDURES PERFORMED:
+              NNS        VBN    
+           |========|           
+           Procedure            
+            C0184661            
+
+SENTENCE:  Mitral valve replacement on 2 of November and
+             JJ    NN       NN      IN   IN   NNP     . 
+           |==========| |=========|                     
+             Anatomy     Procedure                      
+             C0026264    C0035139                       
+           |======================|                     
+                  Procedure                             
+                   C0026268                             
+
+SENTENCE:  cardiac  transplantation on 18 of September .
+              JJ          NN        IN    IN    NNP     
+           |======| |=============|                     
+           Anatomy     Procedure                        
+           C0018787    C0040732                         
+           |======================|                     
+                  Procedure                             
+                   C0018823                             
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The history  of present illness  is  that
+           DT     NN    IN   JJ       NN    VBZ  RB 
+               |======|            |======|         
+               Finding             Finding          
+               C0262926            C0221423         
+
+SENTENCE:  of a  55-year-old female with a  history 
+           IN DT     NN  JJ    NN    IN  DT    NN   
+                                            |======|
+                                            Finding 
+                                            C0262926
+
+SENTENCE:  of rheumatic  heart   disease  and endocarditis , who presented to the
+           IN    JJ        NN       NN    CC       NN        WP     VBD    IN CD 
+                        |======| |======|     |==========|                       
+                        Anatomy  Disorder       Disorder                         
+                        C0018787 C0012634       C0014118                         
+                        |===============|                                        
+                            Disorder                                             
+                            C0018799                                             
+              |=========================|                                        
+                       Disorder                                                  
+                       C0035439                                                  
+
+SENTENCE:  Side Lygreen Medical Center on 3 of August to the Cardiology Service  with progressive
+            NN    NN      JJ      NN   IN   IN  NNP   IN DT      NN        NN     IN      JJ     
+                                                                        |======|                 
+                                                                        Finding                  
+                                                                        C0557854                 
+
+SENTENCE:   weight   gain , lower extremity  edema   and shortness of breath.
+              NN      NN     JJ      NN        NN    CC     NN     IN   NN   
+           |=======|              |=======| |======|     |=================| 
+           Procedure               Anatomy  Finding            Finding       
+           C1305866               C0015385  C0013604          C0013404       
+           |============|   |=============|                                  
+              Finding           Anatomy                                      
+              C0043094         C0023216                                      
+                                  |================|                         
+                                       Finding                               
+                                       C0085649                              
+                            |======================|                         
+                                    Finding                                  
+                                    C0239340                                 
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient had a  history  of rheumatic  fever   as a  child , and she
+             NN    VBD DT    NN    IN    JJ        NN    IN DT  NN     CC  PRP
+                          |======|              |======|                      
+                          Finding               Finding                       
+                          C0262926              C0015967                      
+                                      |================|                      
+                                           Disorder                           
+                                           C0035436                           
+                          |============================|                      
+                                     Finding                                  
+                                     C0455526                                 
+
+SENTENCE:  presented in 1985 with mitral and  aortic  valvular endocarditis
+              VBD    IN       IN    JJ   CC     JJ       JJ         NN     
+                                             |======|          |==========|
+                                             Anatomy             Disorder  
+                                             C0003483            C0014118  
+                                                      |===================|
+                                                            Disorder       
+                                                            C0264865       
+
+SENTENCE:  following a    root    canal  .
+              VBG    DT    NN       NN    
+                        |======| |======| 
+                        Anatomy  Anatomy  
+                        C0040452 C0086881 
+
+SENTENCE:  She subsequently underwent  aortic  and
+           PRP      RB         VBD       JJ     . 
+                                      |======|    
+                                      Anatomy     
+                                      C0003483    
+
+SENTENCE:  mitral valve replacement secondary to her   aortic  and mitral
+             JJ    NN       NN         JJ     IN PRP$    JJ    CC    JJ  
+           |==========| |=========|                   |======|           
+             Anatomy     Procedure                    Anatomy            
+             C0026264    C0035139                     C0003483           
+           |======================|                                      
+                  Procedure                                              
+                   C0026268                                              
+
+SENTENCE:  insufficiency.
+                NN       
+
+SENTENCE:  Her  perioperative course was complicated by a   brain  
+           PRP$      JJ         NN   VBD     VBN     IN DT    NN   
+                                                           |======|
+                                                           Anatomy 
+                                                           C0006104
+
+SENTENCE:  abscess  which was without neurologic residual deficit.
+              NN     WDT  VBD   IN        JJ        JJ      NN    
+           |======|                                               
+           Disorder                                               
+           C0000833                                               
+
+SENTENCE:  In 1989 the
+           IN       . 
+
+SENTENCE:  patient again presented with recurrent endocarditis and underwent a 
+             NN     RB      VBN     IN     JJ          NN      CC     VBD    CD
+                                                  |==========|                 
+                                                    Disorder                   
+                                                    C0014118                   
+
+SENTENCE:  repeat mitral valve and  aortic  valve replacement.
+             NN     JJ    NN   CC     JJ     NN       NN      
+                  |==========|     |======|       |=========| 
+                    Anatomy        Anatomy         Procedure  
+                    C0026264       C0003483        C0035139   
+                                   |============|             
+                                      Anatomy                 
+                                      C0003501                
+                                   |========================| 
+                                           Procedure          
+                                            C0003506          
+
+SENTENCE:  For the past year
+           IN  DT   JJ   NN 
+
+SENTENCE:  prior to presentation , she has had increasing symptoms of right
+            JJ   IN      NN        PRP VBZ VBN    VBG       NNS    IN  JJ  
+
+SENTENCE:   heart   failure including lower extremity  edema   and ascites  which did
+              NN      NN       VBG     JJ      NN        NN    CC    NNS     WDT  VBD
+           |======|                         |=======| |======|     |======|          
+           Anatomy                           Anatomy  Finding      Finding           
+           C0018787                         C0015385  C0013604     C0003962          
+           |==============|                 |================|                       
+               Disorder                          Finding                             
+               C0018801                          C0085649                            
+                                      |=============|                                
+                                          Anatomy                                    
+                                         C0023216                                    
+                                      |======================|                       
+                                              Finding                                
+                                              C0239340                               
+
+SENTENCE:  not improve with medical treatment.
+           RB    VB     IN    JJ       NN     
+                                    |=======| 
+                                    Procedure 
+                                    C0087111  
+
+SENTENCE:  She has also presented with
+           PRP VBZ  RB     VBN     IN 
+
+SENTENCE:  complaints of shortness of breath.
+              NNS     IN    NN     IN   NN   
+           |========|    |=================| 
+            Finding            Finding       
+            C0277786          C0013404       
+
+SENTENCE:  In February of 1993 she underwent
+           IN   NNP    IN      PRP    VBD   
+
+SENTENCE:  a  transesophageal echo which revealed a  perivalvular leak for which
+           DT       JJ         NN   WDT    VBD    DT      JJ       NN  IN   WDT 
+
+SENTENCE:  she underwent her  third mitral valve replacement.
+           PRP    VBD    PRP$  JJ     JJ    NN       NN      
+                                    |==========| |=========| 
+                                      Anatomy     Procedure  
+                                      C0026264    C0035139   
+                                    |======================| 
+                                           Procedure         
+                                            C0026268         
+
+SENTENCE:  Tricuspid
+              NN    
+
+SENTENCE:  annuloplasty was performed at that time.
+                NN      VBD    VBN    IN  DT   NN  
+           |==========|                            
+            Procedure                              
+             C0190165                              
+
+SENTENCE:  The patient has never
+           DT    NN    VBZ  RB  
+
+SENTENCE:  significantly improved past her  most recent surgery and her  most
+                RB          JJ     IN  PRP$ RBS    JJ     NN    CC  PRP$ RBS 
+
+SENTENCE:  recent transesophageal echo performed in Ta  Ca Elponcevo three
+             JJ         JJ         NN     VBN    IN NNP NN    NN      CD  
+
+SENTENCE:  weeks prior to presentation demonstrated again a  perivalvular
+            NNS   JJ   IN      NN          VBD       RB   DT      JJ     
+
+SENTENCE:  mitral leak.
+             JJ    NN  
+
+SENTENCE:  The patient has had a  significant lower extremity
+           DT    NN    VBZ VBN DT     JJ       JJ      NN    
+                                                    |=======|
+                                                     Anatomy 
+                                                    C0015385 
+                                              |=============|
+                                                  Anatomy    
+                                                 C0023216    
+
+SENTENCE:   edema   with a   weight   gain of 30 pounds since her  discharge one month
+              NN     IN  DT    NN      NN  IN     NNS    IN   PRP$    NN     CD   NN  
+           |======|         |=======|                                                 
+           Finding          Procedure                                                 
+           C0013604         C1305866                                                  
+                            |============|                                            
+                               Finding                                                
+                               C0043094                                               
+
+SENTENCE:  ago.
+           RB  
+
+SENTENCE:  She has no shortness of breath at   rest   but does have
+           PRP VBZ DT    NN     IN   NN   IN    NN    CC  VBZ   VB 
+                      |=================|    |======|              
+                            Finding          Finding               
+                           C0013404          C0035253              
+
+SENTENCE:  significant dyspnea  on exertion with minimal  effort .
+               JJ         NN    IN    NN     IN    JJ       NN    
+                       |======|    |======|              |======| 
+                       Finding     Finding               Finding  
+                       C0013404    C0015264              C0015264 
+                       |==================|                       
+                             Finding                              
+                             C0231807                             
+
+SENTENCE:  She denies
+           PRP  VBZ  
+
+SENTENCE:   fever   or  chills .
+              NN    CC   NNS    
+           |======|    |======| 
+           Finding     Finding  
+           C0015967    C0085593 
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Past medical history  is  as stated above.
+            JJ    JJ       NN    VBZ IN  VBN    RB   
+                        |======|                     
+                        Finding                      
+                        C0262926                     
+           |===================|                     
+                  Finding                            
+                 C0455458                            
+
+SENTENCE:  She
+           PRP
+
+SENTENCE:  also has some chronic  renal   insufficiency
+            RB  VBZ  DT    JJ       JJ         NN      
+                                 |======|              
+                                 Anatomy               
+                                 C0022646              
+                                 |====================|
+                                        Disorder       
+                                        C1565489       
+                         |============================|
+                                    Disorder           
+                                    C0403447           
+
+SENTENCE:  with baseline    BUN    and creatinine of 40 and 2.0.
+            IN     NN       NN     CC      NN     IN    CC      
+                         |=======|     |========|               
+                         Procedure        Drug                  
+                         C0005845       C0010294                
+                         |=======|                              
+                           Drug                                 
+                         C0600137                               
+
+SENTENCE:  She is  status post
+           PRP VBZ   NN    RB 
+
+SENTENCE:  cholecystectomy in 1990.
+                 NN        IN      
+           |=============|         
+              Procedure            
+              C0008320             
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  Her  medications on presentation to the   Paa      Talc   Rton Health were
+           PRP$     NNS     IN      NN      IN DT    NNP      NNP    NNP   NNP   VBD 
+                |=========|                        |======| |======|                 
+                   Drug                            Disorder   Drug                   
+                 C0013227                          C0267964 C0039267                 
+
+SENTENCE:   Lasix   100 mg  b.i.d. , Digoxin  0.25 mg  every other day ,
+             NNP        NNS   FW       NNP         NNS  DT    JJ   NN   
+           |======|                  |======|                           
+             Drug                      Drug                             
+           C0699992                  C0012265                           
+
+SENTENCE:  Coumadin 5 mg  alternating with 2.5 mg  every day , and Captopril 12.5
+             NNP      NNS     VBG      IN      NNS  DT   NN    CC     NNP        
+           |======|                                                |=======|     
+             Drug                                                    Drug        
+           C0699129                                                C0006938      
+
+SENTENCE:  mg  three times a  day.
+           NNS  CD    NNS  DT NN  
+
+SENTENCE:  She is  allergic to penicillin and codeine .
+           PRP VBZ    JJ    IN     NN     CC     NN    
+                               |========|     |======| 
+                                  Drug          Drug   
+                                C0220892      C0009214 
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  Her  admission physical exam was notable for
+           PRP$    NN        JJ     NN  VBD   JJ    IN 
+
+SENTENCE:  a   tired   appearing female with a  cardiac  exam
+           DT    JJ       VBG      NN    IN  DT    JJ     NN 
+              |======|                          |======|     
+              Finding                           Anatomy      
+              C0557875                          C0018787     
+
+SENTENCE:  notable for mechanical valvular  heart   sounds and 4+ pitting lower
+             JJ    IN      JJ        JJ       NN     NNS   CC       NN     JJ  
+                                           |======|                            
+                                           Anatomy                             
+                                           C0018787                            
+                                           |=============|                     
+                                               Finding                         
+                                              C0018820                         
+
+SENTENCE:  extremity  edema  .
+              NN        NN    
+           |=======| |======| 
+            Anatomy  Finding  
+           C0015385  C0013604 
+           |================| 
+                Finding       
+                C0085649      
+
+SENTENCE:  LABORATORY DATA:
+               NN      NN  
+           |========|      
+           Procedure       
+            C0022885       
+
+SENTENCE:  Her  admission    BUN    and creatinine were 61 and 1.9.
+           PRP$    NN        NN     CC      NN     VBD     CC      
+                          |=======|     |========|                 
+                          Procedure        Drug                    
+                          C0005845       C0010294                  
+                          |=======|                                
+                            Drug                                   
+                          C0600137                                 
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  She was admitted to the Cardiology Service  and
+           PRP VBD   VBN    IN DT      NN        NN     . 
+                                              |======|    
+                                              Finding     
+                                              C0557854    
+
+SENTENCE:  was evaluated by the Cardiac  Surgical Service  , and
+           VBD    VBN    IN DT     JJ       JJ       NN      CC 
+                                |======|          |======|      
+                                Anatomy           Finding       
+                                C0018787          C0557854      
+
+SENTENCE:  it  was felt that mitral valve  repair   and/or replacement would be
+           PRP VBD VBN   IN    JJ    NN      NN     CC  CC     NN       MD   VB
+                             |==========| |=======|        |=========|         
+                               Anatomy    Procedure         Procedure          
+                               C0026264   C0374711          C0035139           
+                             |====================|                            
+                                   Procedure                                   
+                                    C0396849                                   
+
+SENTENCE:  beneficial to the patient.
+               JJ     IN DT    NN    
+
+SENTENCE:  She , therefore , underwent mitral valve
+           PRP      RB          VBD      JJ    NN  
+                                       |==========|
+                                         Anatomy   
+                                         C0026264  
+
+SENTENCE:   repair   on 2 of November but was without significant symptoms for her 
+              NN     IN   IN   NNP    CC  VBD   IN        JJ        NNS    IN  PRP$
+           |=======|                                                               
+           Procedure                                                               
+           C0374711                                                                
+
+SENTENCE:  right  heart   failure , and was placed on the cardiac  transplant list.
+            JJ      NN      NN      CC  VBD  VBN   IN DT     JJ        NN      NN  
+                 |======|                                 |======| |========|      
+                 Anatomy                                  Anatomy   Anatomy        
+                 C0018787                                 C0018787  C0332835       
+                 |==============|                         |=================|      
+                     Disorder                                  Procedure           
+                     C0018801                                  C0018823            
+           |============|                                                          
+              Anatomy                                                              
+              C0225808                                                             
+           |====================|                                                  
+                  Disorder                                                         
+                  C0235527                                                         
+
+SENTENCE:  She underwent successful cardiac  transplantation on 18 of September .  Since
+           PRP    VBD        JJ        JJ          NN        IN    IN    NNP        NN  
+                                    |======| |=============|                            
+                                    Anatomy     Procedure                               
+                                    C0018787    C0040732                                
+                                    |======================|                            
+                                           Procedure                                    
+                                            C0018823                                    
+
+SENTENCE:  that time , her  main issues have centered over management of her 
+            DT   NN    PRP$  JJ   NNS   VBP    VBN     IN      NN     IN PRP$
+                                                           |========|        
+                                                            Finding          
+                                                            C1273870         
+
+SENTENCE:  residual ascites  with diuresis of her  third spaced volume.
+              JJ      NNS     IN     NN    IN PRP$  JJ     JJ     NN   
+                    |======|      |======|                             
+                    Finding       Finding                              
+                    C0003962      C0012797                             
+
+SENTENCE:  Additionally she had had some   nose    bleeds  preoperatively which were
+                RB      PRP VBD VBN  DT     NN      NNS          RB        WDT  VBD 
+                                         |======| |======|                          
+                                         Anatomy  Finding                           
+                                         C0028429 C0019080                          
+                                         |===============|                          
+                                              Finding                               
+                                             C0014591                               
+
+SENTENCE:  felt to be related to  nasal    polyps  for which she was seen by the
+           VBD  TO VB   VBN   IN    JJ      NNS    IN   WDT  PRP VBD VBN  IN CD 
+                                 |======| |======|                              
+                                 Anatomy  Disorder                              
+                                 C0028429 C0032584                              
+                                 |===============|                              
+                                     Disorder                                   
+                                     C0027430                                   
+
+SENTENCE:    ENT    Service .
+              NN       NN    
+           |======| |======| 
+           Anatomy  Finding  
+           C0150934 C0557854 
+
+SENTENCE:  She underwent routine post transplant biopsies  and
+           PRP    VBD      JJ     IN      NN        NNS     . 
+                                      |========| |=======|    
+                                       Anatomy   Procedure    
+                                       C0332835  C0005558     
+
+SENTENCE:  echocardiograms , all of which showed adequate acceptance of organs
+                 NNS         DT  IN  WDT   VBD      JJ        NN     IN  NNS  
+           |=============|                                                    
+              Procedure                                                       
+              C0013516                                                        
+
+SENTENCE:  and good LV  function.
+           CC   JJ  NNP    NN    
+
+SENTENCE:  She continued to do quite well with the
+           PRP    VBD    TO VB  RB    RB   IN  CD 
+
+SENTENCE:  exception of some dysphagia early in her  postoperative course which
+              NN     IN  DT     NN      RB   IN PRP$      JJ         NN    WDT 
+                             |=======|                                         
+                             Disorder                                          
+                             C0011168                                          
+
+SENTENCE:  was found to be possibly secondary to some esophageal ulcerations ,
+           VBD  VBN  TO VB    RB       JJ     IN  DT      JJ         NNS      
+                                                      |========| |=========|  
+                                                       Disorder   Disorder    
+                                                       C0014852   C0041582    
+                                                      |====================|  
+                                                             Disorder         
+                                                             C0151970         
+
+SENTENCE:  but these have subsequently resolved and she is  tolerating a
+           CC   DT   VBP       RB        VBN    CC  PRP VBZ    VBG     .
+
+SENTENCE:  regular diet.
+             JJ     NN  
+           |==========| 
+             Finding    
+             C0184625   
+
+SENTENCE:  She was noted two days prior to transfer to the
+           PRP VBD  VBN  CD  NNS   JJ   IN    NN    IN CD 
+
+SENTENCE:  Norri Verlan Medical Center to have some diffuse   mild  
+            NNP   NNP     NNP    NNP   TO  VB   DT    JJ       JJ   
+                                                            |======|
+                                                            Finding 
+                                                            C1513302
+
+SENTENCE:  abdominal   pain   , and KUB and upright revealed large amounts of
+              JJ        NN      CC  NN  CC    JJ      VBD     JJ     NNS   IN
+           |=======| |======|                                                
+            Anatomy  Finding                                                 
+           C0000726  C0030193                                                
+           |================|                                                
+                Finding                                                      
+                C0000737                                                     
+
+SENTENCE:  stool , and she felt great  relief  from soap suds  enemas  .
+            NN     CC  PRP VBD   JJ      NN     IN   NN   JJ     NNS    
+                                      |======|                |=======| 
+                                      Finding                 Procedure 
+                                      C0564405                C0014268  
+
+SENTENCE:  She has
+           PRP VBZ
+
+SENTENCE:  been stable on her  medications with adequate cyclosporine levels.
+           VBN    JJ   IN PRP$     NNS      IN     JJ         NN       NNS   
+                               |=========|               |==========|        
+                                  Drug                       Drug            
+                                C0013227                   C0010592          
+
+SENTENCE:   Imuran  was recently held secondary to neutropenia.
+             NNP    VBD    RB    VBN     JJ     IN     NN      
+           |======|                                |=========| 
+             Drug                                   Disorder   
+           C0699279                                 C0027947   
+                                                   |=========| 
+                                                     Finding   
+                                                    C0853697   
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  The patient was transferred to the Holls Health on approximately the third
+           DT    NN    VBD     VBN     IN DT   NNP   NNP   IN      RB       DT   JJ  
+
+SENTENCE:  postoperative week from her  cardiac  transplant.
+                JJ        NN   IN  PRP$    JJ        NN     
+                                        |======| |========| 
+                                        Anatomy   Anatomy   
+                                        C0018787  C0332835  
+                                        |=================| 
+                                             Procedure      
+                                             C0018823       
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Her  discharge medications include Mylicon  80
+           PRP$    NN         NNS       VBP     NNP      
+                          |=========|         |======|   
+                             Drug               Drug     
+                           C0013227           C0721886   
+
+SENTENCE:  mg  p.o. t.i.d. , Trental  400 mg  p.o. t.i.d. ,
+           NNS  FW    FW       NNP        NNS  FW    FW    
+                             |======|                      
+                               Drug                        
+                             C0699487                      
+
+SENTENCE:  Nystatin  cream   topically once per day , Mycostatin  powder  topically
+             NNP       NN       RB      RB  IN  NN       NNP        NN       RB    
+           |======| |======|                          |========| |======|          
+             Drug     Drug                               Drug      Drug            
+           C0028741 C1378128                           C0699477  C0032861          
+
+SENTENCE:  once per day , terbutaline 5 mg  p.o. b.i.d. , Nystatin swish and 
+            RB  IN  NN        NN        NNS  FW    FW       NNP     VB   HYPH
+                          |=========|                     |======|           
+                             Drug                           Drug             
+                           C0039542                       C0028741           
+
+SENTENCE:  swallow 10 cc  p.o. t.i.d. , magnesium  oxide   280 mg  p.o. b.i.d. ,
+             NN       NNS  FW    FW        NN        NN        NNS  FW    FW    
+                                        |=======| |======|                      
+                                          Drug      Drug                        
+                                        C0024467  C0030015                      
+                                        |================|                      
+                                               Drug                             
+                                             C0024477                           
+
+SENTENCE:  human regular insulin  4 units subcu q  a.m. and before dinner and
+            JJ     JJ       NN       NNS   NN   FW  NN  CC    IN     NN    . 
+                         |======|                                            
+                           Drug                                              
+                         C0021641                                            
+           |====================|                                            
+                    Drug                                                     
+                  C0795635                                                   
+
+SENTENCE:    NPH    insulin  28 units subcu q  a.m. , omeprazole 20 mg  p .o .
+              NN       NN        NNS   NN   FW  NN        NN        NNS RB NN 
+           |======| |======|                          |========|              
+           Disorder   Drug                               Drug                 
+           C0020258 C0021641                           C0028978               
+           |===============|                                                  
+                 Drug                                                         
+               C0021658                                                       
+
+SENTENCE:  q  a.m. ,
+           FW  NN   
+
+SENTENCE:  cyclosporine 150 mg  p.o. b.i.d. plus levels checked daily ,
+                NN          NNS  FW    FW    CC   NNS     VBN    RB    
+           |==========|                                                
+               Drug                                                    
+             C0010592                                                  
+
+SENTENCE:  potassium 40 mEq q  a.m. , prednisone 27.5 mg  p .o .
+              NN        NNS FW  NN        NN          NNS RB NN 
+           |=======|                  |========|                
+             Drug                        Drug                   
+           C0032821                    C0032952                 
+           |==========|                                         
+               Drug                                             
+             C0303276                                           
+
+SENTENCE:  q  a.m. ,  Lasix   40
+           FW  NN      NNP      
+                     |======|   
+                       Drug     
+                     C0699992   
+
+SENTENCE:  mg  p .o .
+           NNS RB NN 
+
+SENTENCE:  q  a.m. , Percocet as needed for   pain   and  Serax   10 mg  as
+           FW  NN      NNP    IN  VBN   IN     NN    CC     NN       NNS RB
+                     |======|               |======|     |======|          
+                       Drug                 Finding        Drug            
+                     C0086787               C0030193     C0702214          
+
+SENTENCE:  needed at night for  sleep  .
+            VBN   IN  NN   IN     NN    
+                               |======| 
+                               Finding  
+                               C0037313 
+
+SENTENCE:  FOLLOW UP:
+             NN   NN 
+           |=======| 
+            Finding  
+           C0589120  
+
+SENTENCE:  She will follow up with the Cardiac  Transplantation
+           PRP  MD    VB   RP  IN  DT     JJ          NN       
+                                       |======| |=============|
+                                       Anatomy     Procedure   
+                                       C0018787    C0040732    
+                                       |======================|
+                                              Procedure        
+                                               C0018823        
+
+SENTENCE:  Service .
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  She is  referred to Rush-coo Chry's Calctist Medical Center for physical  therapy  rehabilitation as well as medications
+           PRP VBZ   VBN    IN  VB  VB  NNP       NN      JJ      NN   IN     JJ       NN           NN       RB  RB  IN     NNS    
+                                                                                    |=======| |============|            |=========|
+                                                                                    Procedure   Procedure                  Drug    
+                                                                                    C0087111     C0034991                C0013227  
+                                                                           |================|                                      
+                                                                               Procedure                                           
+                                                                                C0949766                                           
+
+SENTENCE:  management and assistance.
+               NN     CC      NN     
+           |========|                
+            Finding                  
+            C1273870                 
+
+SENTENCE:  She is  discharged to  U  Hospital on 8 of April .
+           PRP VBZ    VBN     IN NNP    NN    IN   IN  NNP   
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  WERNER YOON ,  M . D .
+            NNP   NNP    NNP NNP 
+
+SENTENCE:  MY51
+            NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  ISMAEL L.  PRUIETT ,  M . D .
+            NNP   NNP   NNP     NNP NNP 
+
+SENTENCE:  HL16  QX021/0186
+            NN    NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  365 Index No. Q3PJBU7JEZ D : 5/12/93
+                NNP  NN      NN     NN         
+
+SENTENCE:  T : 5/12/93
+           NN         
+

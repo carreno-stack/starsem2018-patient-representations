@@ -1,0 +1,746 @@
+SENTENCE:  628477951 |   GSH    | 30737210 | | 5147835 | 3/3/2004 12:00:00 AM |   HOCM   ,   CHF    exacerbation | |   DIS    | Admission Date:
+                          NN                                               NN      NN         NN         NN             NN         NN      NN  
+                       |======|                                                 |======|   |======|                  |======|                  
+                         Drug                                                   Disorder   Disorder                  Finding                   
+                       C0017817                                                 C0007194   C0018802                  C1444662                  
+                                                                                                                     |======|                  
+                                                                                                                     Disorder                  
+                                                                                                                     C0012634                  
+                                                                                                                     C1970187                  
+
+SENTENCE:  3/3/2004 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  2/3/2004
+                   
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  BERCEGEAY , FRANK 057-99-62-7
+              NN        NN              
+
+SENTENCE:  Do  Wi Saint , Texas 10240
+           VBP IN  NN      NNP       
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CAR
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  4/13/04 AT 04:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  BARER , ISIDRO ,  M . D .
+            NN      NNP     NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  VERAPAMIL SUSTAINED RELEAS 240 MG PO QD
+              NNP       VBN      NN       NN FW FW
+           |=======|                              
+             Drug                                 
+           C0042523                               
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:  K - DUR  (   KCL    SLOW  RELEASE  ) 20 MEQ PO QD
+           NN  NN       NNP     JJ     NN          NN  FW FW
+           |======|   |======|      |=======|               
+             Drug       Drug        Procedure               
+           C0306511   C0032825      C1963578                
+
+SENTENCE:  As per LGH Potassium Chloride Policy:
+           IN IN  NN     NN        NN      NN   
+                      |=======| |======|        
+                        Drug      Drug          
+                      C0032821  C0596019        
+                      |================|        
+                             Drug               
+                           C0032825             
+
+SENTENCE:  each 20 mEq dose to be given with 4 oz  of fluid
+            DT     NN   NN  TO VB  VBN   IN    NNS IN  NN  
+
+SENTENCE:  METFORMIN 500 MG PO BID
+              NNP        NN JJ NN 
+           |=======|              
+             Drug                 
+           C0025598               
+
+SENTENCE:   ZYRTEC  ( CETIRIZINE ) 10 MG PO QD
+              NN         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0162723    C0055147               
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:  Number of Doses Required ( approximate ): 4
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:  SINGULAIR ( MONTELUKAST ) 10 MG PO QD
+              JJ           NN           NN FW FW
+           |=======|   |=========|              
+             Drug         Drug                  
+           C0595724     C0298130                
+
+SENTENCE:  VENLAFAXINE EXTENDED  RELEASE  37.5 MG PO QD
+               NNP       VBN       NN          NN FW FW
+           |=========|          |=======|              
+              Drug              Procedure              
+            C0078569            C1963578               
+
+SENTENCE:  Number of Doses Required ( approximate ): 3
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:   ADVAIR  DISKUS 250/50 ( FLUTICASONE PROPIONATE/... )
+             NNP      NN                NN          NN          
+           |======|                 |=========| |========|      
+             Drug                      Drug        Drug         
+           C0965130                  C0082607    C0392214       
+           |=============|          |====================|      
+                Drug                         Drug               
+              C0939246                     C0117996             
+           |====================|                               
+                    Drug                                        
+                  C1967979                                      
+
+SENTENCE:  1 PUFF   INH    BID
+              NN     NN    RB 
+                  |======|    
+                    Drug      
+                  C0022209    
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 20 MG PO QD
+             NNP          NN          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0699992    C0016860               
+
+SENTENCE:  VENTOLIN ( ALBUTEROL INHALER ) 2 PUFF   INH    QID
+             NNP         NN       NN         NN     NN    RB 
+           |======|   |=======|                  |======|    
+             Drug       Drug                       Drug      
+           C0033744   C0001927                   C0022209    
+
+SENTENCE:  LIPITOR  ( ATORVASTATIN ) 80 MG PO QD Instructions:
+              NN          NNP           NN JJ JJ     NNS      
+           |======|   |==========|                            
+             Drug         Drug                                
+           C0593906     C0286651                              
+
+SENTENCE:  10mg qd
+           NNS  FW
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House /   ADA    1800 cals/dy
+            NN        NN         NNS  NN
+                   |======|             
+                     Drug               
+                   C0001457             
+
+SENTENCE:  DIET: 2 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  RETURN TO   WORK  : Immediately
+             NN   IN    NN         RB     
+                     |======|             
+                     Finding              
+                     C0043227             
+           |================|             
+                Finding                   
+                C0425105                  
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Elbert Mantel 1-2 weeks ,
+           NNP  NNP     NN        NNS   
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  broccoli , Aspirin 
+             NNS        NNP   
+           |======|   |======|
+             Drug       Drug  
+           C1095887   C0004057
+           C2740603           
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  shortness of breath
+              NN     IN   NN  
+           |=================|
+                 Finding      
+                C0013404      
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:    HOCM   ,   CHF    exacerbation
+              NN         NN         NN     
+           |======|   |======|             
+           Disorder   Disorder             
+           C0007194   C0018802             
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    HOCM   ,   mild    asthma  ,   CHF    , type II DM , morbid obesity 
+              NN         JJ       NN         NN       NN  CD NN     NN      NN   
+           |======|   |======| |======|   |======|                       |======|
+           Disorder   Finding  Disorder   Disorder                       Disorder
+           C0007194   C1513302 C0004096   C0018802                       C0028754
+                      |===============|                           |=============|
+                           Finding                                   Disorder    
+                          C0581124                                   C0028756    
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  52F with   HOCM   , peak gradient 125 mmHg on TTE in 6/29 ,   CHF    ,   HTN    ,
+           NN   IN     NN       NN     NN        NNS  IN NN  IN           NN         NN     
+                    |======|                                           |======|   |======|  
+                    Disorder                                           Disorder   Disorder  
+                    C0007194                                           C0018802   C0020538  
+
+SENTENCE:  morbid obesity  , hypercholesterolemia , new type II DM , recently
+             NN      NN               NN            JJ   NN  CD NN      RB   
+                  |======|   |==================|                            
+                  Disorder         Disorder                                  
+                  C0028754         C0020443                                  
+           |=============|                                                   
+              Disorder                                                       
+              C0028756                                                       
+
+SENTENCE:  started on furosemide for volume overload with subsequent 30-lb + wt
+             VBN   IN     NN     IN    NN      NN     IN      JJ        NNS  NN
+                      |========|     |=============|                           
+                         Drug           Disorder                               
+                       C0016860         C0546817                               
+
+SENTENCE:  loss , admitted with increasing shortness of breath , orthopnea ,   DOE    ,
+            NN      VBN     IN     VBG        NN     IN   NN        NN          NN     
+                                           |=================|   |=======|   |======|  
+                                                 Finding          Finding    Finding   
+                                                C0013404         C0085619    C0231807  
+
+SENTENCE:  5-lb  wt gain   x  2 days.
+             NNS NN  NN   SYM   NNS  
+                 |======|            
+                 Finding             
+                 C0043094            
+
+SENTENCE:  6 wks prior to admission , significant wt gain 
+             NNS  JJ   IN    NN           JJ      NN  NN  
+                                                  |======|
+                                                  Finding 
+                                                  C0043094
+
+SENTENCE:  noted , and dyazide  changed to furosemide , with subsequent 30-lb  wt
+            VBN    CC     NN      VBN   IN     NN        IN      JJ        NNS NN
+                       |======|            |========|                            
+                         Drug                 Drug                               
+                       C0058829             C0016860                             
+
+SENTENCE:  loss since April .  Over last 2 days has felt increasing   SOB    ,
+            NN   IN    NNP      IN   JJ    NNS  VBZ VBN     VBG        NN     
+                                                                    |======|  
+                                                                    Finding   
+                                                                    C0013404  
+
+SENTENCE:  orthopnea , and 5-lb  wt gain  from 307->311.
+              NN       CC    NNS NN  NN    IN           
+           |=======|             |======|               
+            Finding              Finding                
+           C0085619              C0043094               
+
+SENTENCE:  Also wheezing ,
+            RB     NN     
+                |======|  
+                Finding   
+                C0043144  
+
+SENTENCE:  non-productive  cough   , post-nasal drip;
+                 JJ          NN          JJ      NN  
+                          |======|   |=============| 
+                          Finding        Finding     
+                          C0010200      C0032781     
+           |=====================|                   
+                   Finding                           
+                  C0850149                           
+
+SENTENCE:  no  fevers / chills .
+           DT   NNS      NNS    
+              |======| |======| 
+              Finding  Finding  
+              C0015967 C0085593 
+
+SENTENCE:  Of note ,  has 
+           IN  NN    -RRB-
+
+SENTENCE:  increased fluid intake by 10 glasses of  water   per day.
+              VBN     NN     NN   IN      NNS   IN    NN    IN  NN  
+           |====================|                  |======|         
+                  Finding                            Drug           
+                  C0426596                         C0043047         
+
+SENTENCE:  No near-syncope 
+           DT  JJ     NN   
+                   |======|
+                   Finding 
+                   C0039070
+
+SENTENCE:  since 2002 , no  chest   pressure/  pain   , rare palpitations.
+            IN          DT    NN       NN       NN       JJ      NNS      
+                           |======| |======| |======|        |==========| 
+                           Anatomy  Finding  Finding           Finding    
+                           C0817096 C0460139 C0030193          C0030252   
+                           |===============|                              
+                                Finding                                   
+                               C0438716                                   
+
+SENTENCE:  Other   PMH   :
+            JJ      NN    
+                 |======| 
+                 Finding  
+                 C0262926 
+
+SENTENCE:  depression , R  TKR. Exam:
+               NN       JJ  NN   NN  
+           |========|                
+            Disorder                 
+            C0011581                 
+
+SENTENCE:  98.6 148/73 79 25 93% RA.
+                                 NN 
+
+SENTENCE:  Comfortable , full
+               JJ         JJ 
+
+SENTENCE:  sentences.
+              NNS    
+
+SENTENCE:  JVP diff to assess;
+           NN   JJ  IN   NN   
+
+SENTENCE:   chest   clear;
+              NN     JJ   
+           |======|       
+           Anatomy        
+           C0817096       
+           |============| 
+              Finding     
+              C0578395    
+
+SENTENCE:  II/VI sys M  LSB increased
+           CD NN NNS NN NN     VBN   
+
+SENTENCE:  w /valsalva , decreased with   leg    raise.
+           IN    NN         JJ      IN     NN     NN   
+                                        |======|       
+                                        Anatomy        
+                                        C1140621       
+
+SENTENCE:   Obese     abd    , 1+LE  edema  .
+              JJ       NN        NN    NN    
+           |======| |======|        |======| 
+           Disorder Anatomy         Finding  
+           C0028754 C0000726        C0013604 
+
+SENTENCE:     CXR      mod   
+              NN        RB   
+           |=======| |======|
+           Procedure Disorder
+           C0039985  C0011860
+
+SENTENCE:  cardiomegaly , no  edema  .
+                NN        DT    NN    
+           |==========|      |======| 
+             Finding         Finding  
+             C0018800        C0013604 
+
+SENTENCE:     EKG   :
+              NN     
+           |=======| 
+           Procedure 
+           C1623258  
+
+SENTENCE:  NSR@76 , unchanged TWF/I  V5 -V6 .
+             NN        JJ     NN  CD NNP NNP 
+                    |=======|                
+                     Finding                 
+                    C0442739                 
+
+SENTENCE:  *****Assessment and Hospital Course*****
+                    NN     CC     NN      NN       
+
+SENTENCE:  52 yo woman with increasing shortness of breath ,  weight   gain in setting
+              JJ  NN    IN     VBG        NN     IN   NN        NN      NN  IN   NN   
+                                       |=================|   |=======|                
+                                             Finding         Procedure                
+                                            C0013404         C1305866                 
+                                                             |============|           
+                                                                Finding               
+                                                                C0043094              
+
+SENTENCE:  of increasing fluid intake:
+           IN    VBG      NN     NN   
+
+SENTENCE:  **CV:
+             NN 
+
+SENTENCE:  Pump:
+            NN  
+
+SENTENCE:  volume overload secondary to   CHF    , excessive fluid intake
+             NN      NN       JJ     IN    NN         JJ      NN     NN  
+           |=============|              |======|                         
+              Disorder                  Disorder                         
+              C0546817                  C0018802                         
+
+SENTENCE:   likely  secondary to new onset DM.
+              RB       JJ     IN JJ   NN   NN 
+           |======|                           
+           Finding                            
+           C0332148                           
+
+SENTENCE:  Diuresed with 20mg lasix IV in ED ,
+             VBN     IN  NNS   CD   NN IN NN  
+
+SENTENCE:  40mg IV  lasix   on floor , with resolution of orthopnea and   DOE   .
+           NNS  NN    NN    IN  NN      IN      NN     IN    NN     CC     NN    
+                   |======|                               |=======|     |======| 
+                     Drug                                  Finding      Finding  
+                   C0699992                               C0085619      C0231807 
+
+SENTENCE:  Maintained on verapamil for ventricular relaxation.
+               JJ     IN    NN     IN      JJ          NN     
+                         |=======|     |=========|            
+                           Drug          Anatomy              
+                         C0042523       C0018827              
+
+SENTENCE:  Will see Dr .
+            MD  VB  NNP 
+
+SENTENCE:  Rullan as outpatient for potential ablation  of   HOCM  .
+             NN   IN     NN     IN     JJ        NN     IN    NN    
+                                              |=======|    |======| 
+                                              Procedure    Disorder 
+                                              C0547070     C0007194 
+
+SENTENCE:  Seen by Dr .
+           VBN  IN NNP 
+
+SENTENCE:  Efren Stachnik  genetic  counselor to discuss genotyping of   HOCM   , for
+            NNP    NNP       JJ        NN     TO   VB        NN     IN    NN      NN 
+                          |=======|                      |========|    |======|      
+                          Procedure                      Procedure     Disorder      
+                          C0017296                        C1285573     C0007194      
+
+SENTENCE:  herself and her  children.
+             PRP   CC  PRP$   NNS    
+
+SENTENCE:  -Isch:
+             NN  
+
+SENTENCE:  low suspicion , ruled out by enzymes .
+           JJ     NN        VBN  RP  IN   NNS    
+               |=======|                |======| 
+                Finding                   Drug   
+               C0242114                 C0014442 
+
+SENTENCE:  Continued verapamil for
+              VBN       NN     IN 
+                     |=======|    
+                       Drug       
+                     C0042523     
+
+SENTENCE:    HTN   .
+              NN    
+           |======| 
+           Disorder 
+           C0020538 
+
+SENTENCE:  -Pump:
+             NN  
+
+SENTENCE:  no issues--in NSR during entire hospitalization.
+           DT  NNS    IN NN    IN     JJ         NN        
+
+SENTENCE:  **Pulm:
+              NN  
+
+SENTENCE:  PFTs notable for restrictive pattern--  TLC    56% ,   FVC    59% , FEV1
+           NNS    JJ    IN      JJ        NN        NN             NN           NN 
+                                                 |======|       |======|           
+                                                 Finding        Finding            
+                                                 C0040509       C3714541           
+
+SENTENCE:  57% , FEV1/  FVC    100% , DLCO corrected 66%.
+                  NN     NN            NN     VBN        
+                      |======|                           
+                      Finding                            
+                      C3714541                           
+
+SENTENCE:  ?May benefit from outpatient
+            MD    VB     IN      NN    
+
+SENTENCE:  referral for  sleep   study for   OSA   /  OHS   .
+              NN    IN     NN     NN   IN     NN       NN    
+                        |======|           |======| |======| 
+                        Finding            Disorder Disorder 
+                        C0037313           C0520679 C0268353 
+                        |============|                       
+                          Procedure                          
+                           C0162701                          
+
+SENTENCE:  Continued outpatient regimen of
+              VBN        NN       NN    . 
+
+SENTENCE:  singulair ,  zyrtec  , atrovent , albuterol ,  advair .
+              NN          NN         NN         NN          NN    
+           |=======|   |======|   |======|   |=======|   |======| 
+             Drug        Drug       Drug       Drug        Drug   
+           C0595724    C0162723   C0591130   C0001927    C0965130 
+
+SENTENCE:  ** Endocrine:
+                 NN     
+              |=======| 
+               Anatomy  
+              C0014136  
+
+SENTENCE:  new type II DM , with significant polydipsia  likely 
+           JJ   NN  CD NN    IN      JJ          NN        RB   
+                                             |========| |======|
+                                              Finding   Finding 
+                                              C0085602  C0332148
+
+SENTENCE:  contributing to volume overload.
+               VBG      IN   NN      NN    
+                           |=============| 
+                              Disorder     
+                              C0546817     
+
+SENTENCE:  Increased metformin to 500mg bid.
+              VBN       NN     IN  NNS  FW  
+                     |=======|              
+                       Drug                 
+                     C0025598               
+
+SENTENCE:  ** FEN:
+              NN  
+
+SENTENCE:  discussed outpatient  weight   loss program  for morbid obesity 
+              VBN        NN        NN      NN     NN    IN    NN      NN   
+                                |=======|      |======|            |======|
+                                Procedure        Drug              Disorder
+                                C1305866       C2728259            C0028754
+                                |============|              |=============|
+                                   Finding                     Disorder    
+                                   C1262477                    C0028756    
+
+SENTENCE:  with Dr. Garst attempt to arrange after discharge.
+            IN  NNP  NNP    NN    TO   VB     IN      NN     
+
+SENTENCE:  ** Psych:
+               NN   
+
+SENTENCE:  cont venlafaxine for depression
+            NN      NN      IN      NN    
+                |=========|     |========|
+                   Drug          Disorder 
+                 C0078569        C0011581 
+
+SENTENCE:  ** PPX:
+              NN  
+
+SENTENCE:  lovenox  ,  nexium 
+              NN         NN   
+           |======|   |======|
+             Drug       Drug  
+           C0728963   C0939400
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Please call Dr. Weiner for a  follow-up appointment in 1-2 weeks.
+             UH    VB  NNP  NNP   IN  DT   NN   NN     NN      IN      NNS  
+                                         |=======|                          
+                                          Finding                           
+                                         C0589120                           
+
+SENTENCE:  Please call Dr. Shelton Winesett office at 404-812-5799 ( Baese ) to
+             UH    VB  NNP   NNP     NNP      NN   IN      CD         JJ     TO
+
+SENTENCE:  set up an appointment for possible ablation  of your cardiomyopathy.
+           NN  IN DT     NN      IN     JJ       NN     IN PRP$       NN       
+                                              |=======|         |============| 
+                                              Procedure            Disorder    
+                                              C0547070             C0878544    
+
+SENTENCE:  Dr .
+           NNP 
+
+SENTENCE:  Adalberto Czaplinski number is  ( 419 ) 832-1474 , if you would like to  speak  
+              NNP       NNP       NN   VBZ            CD      IN PRP  MD    VB  TO    NN   
+                                                                                   |======|
+                                                                                   Finding 
+                                                                                   C0234856
+
+SENTENCE:  further about genotyping your cardiomyopathy , and obtaining  genetic 
+             JJ     IN      VBG     PRP$       NN         CC     VBG       JJ    
+                                         |============|                 |=======|
+                                            Disorder                    Procedure
+                                            C0878544                    C0017296 
+
+SENTENCE:    tests   on your children.
+              NNS    IN PRP$   NNS    
+           |=======|                  
+           Procedure                  
+           C0022885                   
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  HAMMERSTONE , NORMAND , M.D. ( CA94 ) 4/13/04 @ 03:34 PM
+               NN          JJ       NN     NN                    NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

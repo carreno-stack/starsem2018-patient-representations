@@ -1,0 +1,657 @@
+SENTENCE:  263297206 |   HSH    | 79536937 | | 2815888 | 10/7/2006 12:00:00 AM | s /p  panniculectomy | |   DIS    | Admission Date:
+                          NN                                                NN   NN IN       NN              NN         NN      NN  
+                       |======|                                                        |============|     |======|                  
+                       Disorder                                                          Procedure        Finding                   
+                       C1865974                                                           C2713286        C1444662                  
+                                                                                                          |======|                  
+                                                                                                          Disorder                  
+                                                                                                          C0012634                  
+                                                                                                          C1970187                  
+
+SENTENCE:  8/30/2006 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  9/28/2006
+                    
+
+SENTENCE:  ****** FINAL DISCHARGE ORDERS ******
+                   JJ      NN      NNS         
+
+SENTENCE:  VANDERLOO , BROOKS 283-69-22-5
+              NN         NN              
+
+SENTENCE:  Aro Ryen Wotarg St .
+           NNP NNP   NNP   NNP 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  PLA
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  5/26/06 AT 12:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON SNF/  rehab  
+               NN      IN  NN     NN    
+                               |=======|
+                               Procedure
+                               C0034991 
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  JAKIELA , JEFFERSON LLOYD ,  M . D .
+             NN         NNP     NNP    NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Rehabilitation
+                 NN      
+           |============|
+             Procedure   
+              C0034991   
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  TYLENOL  ( ACETAMINOPHEN ) 1 , 000 MG PO Q6H
+             NNP           NNP                NN JJ NN 
+           |======|   |===========|                    
+             Drug         Drug                         
+           C0699142     C0000970                       
+
+SENTENCE:   KEFLEX  ( CEPHALEXIN ) 500 MG PO QID
+             NNP         NNP           NN JJ NN 
+           |======|   |========|                
+             Drug        Drug                   
+           C0700517    C0007716                 
+
+SENTENCE:   COLACE  ( DOCUSATE  SODIUM  ) 100 MG PO BID
+              NN         NN       NN          NN JJ NN 
+           |======|   |======| |======|                
+             Drug       Drug     Drug                  
+           C0282139   C1692318 C0037473                
+                      |===============|                
+                            Drug                       
+                          C0243237                     
+
+SENTENCE:   PEPCID  ( FAMOTIDINE ) 20 MG PO BID
+              NN          NN          NN NN RB 
+           |======|   |========|               
+             Drug        Drug                  
+           C0678119    C0015620                
+
+SENTENCE:  DILAUDID ( HYDROMORPHONE   HCL    ) 2-4 MG PO Q4H PRN   Pain  
+              NN           NN          NN          NN JJ NN  FW     NN   
+           |======|   |===========| |======|                     |======|
+             Drug         Drug        Drug                       Finding 
+           C0728755     C0012306    C0020259                     C0030193
+                      |====================|                             
+                               Drug                                      
+                             C0700533                                    
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 2/8/06 by
+              JJ     VBN  IN        . 
+
+SENTENCE:  SHOGREN , DON ,  M . D .
+             NN      VB    NNP NNP 
+
+SENTENCE:  on order for DILAUDID PO ( ref # 046916901 )
+           IN  NN   IN     NN    NN   NN               
+                        |======|                       
+                          Drug                         
+                        C0728755                       
+
+SENTENCE:  Pt. has a  PROBABLE allergy  to Morphine;
+           NN  VBZ DT    JJ       NN    IN    NN    
+                      |======| |======|    |======| 
+                      Finding  Finding       Drug   
+                      C0332148 C0020517    C0026549 
+
+SENTENCE:  reaction is  GI
+              NN    VBZ JJ
+
+SENTENCE:  Intolerance.
+               NN      
+           |=========| 
+             Finding   
+            C0231199   
+
+SENTENCE:  Reason for override: will watch
+             NN   IN     NN      MD   VB  
+
+SENTENCE:  INSULIN  REGULAR HUMAN
+              NN      JJ     NN  
+           |======|              
+             Drug                
+           C0021641              
+
+SENTENCE:  Sliding Scale ( subcutaneously ) SC Q4H Low Scale
+             JJ     NN           RB         NN NN  JJ   NN  
+
+SENTENCE:  Call HO if BS less than 60
+            NN  NN IN NN JJR   IN    
+
+SENTENCE:  If BS is  less than 125 , then DO  NOT Administer
+           IN NN VBZ JJR   IN         RB  NNP RB     NNP    
+
+SENTENCE:  supplemental ( sliding scale ) insulin 
+                JJ          VBG    NN        NN   
+                                          |======|
+                                            Drug  
+                                          C0021641
+
+SENTENCE:  If BS is  125-150 , then give 0 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  151-200 , then give 1 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  201-250 , then give 2 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  251-300 , then give 3 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  301-350 , then give 4 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  351-400 , then give 5 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  Call HO if BS is  greater than 350
+            NN  NN IN NN VBZ   JJR    IN     
+
+SENTENCE:  Please give at the same time and in addition to standing
+             UH    VB  IN DT   JJ   NN  CC  IN    NN    IN    NN   
+
+SENTENCE:  mealtime insulin 
+              NN       NN   
+                    |======|
+                      Drug  
+                    C0021641
+
+SENTENCE:  LEVOTHYROXINE  SODIUM  75 MCG PO DAILY
+                NN          NN       NN  NN  RB  
+           |===========| |======|                
+               Drug        Drug                  
+             C0040165    C0037473                
+           |====================|                
+                    Drug                         
+                  C0079691                       
+
+SENTENCE:   MAALOX -TABLETS  QUICK DISSOLVE/CHEWABLE 1-2   TAB    PO Q6H
+              NN      NNS     NN      VB       NN           NN    JJ NN 
+           |======| |======|                             |======|       
+             Drug     Drug                                 Drug         
+           C0065461 C0039225                             C0039225       
+
+SENTENCE:  PRN  Upset   Stomach 
+           RB     NN       NN   
+               |======| |======|
+               Finding  Disorder
+               C3887804 C0038354
+                        |======|
+                        Anatomy 
+                        C1278920
+                        C3714551
+               |===============|
+                    Finding     
+                   C0235309     
+
+SENTENCE:  MILK OF MAGNESIA ( MAGNESIUM HYDROXIDE )
+            NN  IN    NN         NN        NN      
+                   |======|   |=======| |=======|  
+                     Drug       Drug      Drug     
+                   C0024477   C0024467  C0220853   
+           |==============|   |=================|  
+                 Drug                Drug          
+               C0591789            C0024476        
+
+SENTENCE:  30 MILLILITERS PO DAILY PRN Constipation
+                  NNS     FW  RB   RB       NN     
+                                       |==========|
+                                         Finding   
+                                         C0009806  
+
+SENTENCE:  METOCLOPRAMIDE   HCL    10 MG  IV Q8H PRN  Nausea 
+                NNP          NN       NNS CD NN  FW     NN   
+           |============| |======|                   |======|
+                Drug        Drug                     Finding 
+              C0025853    C0020259                   C0027497
+           |=====================|                           
+                    Drug                                     
+                  C0887128                                   
+
+SENTENCE:  QUINAPRIL 20 MG PO DAILY
+              NN        NN JJ  NN  
+           |=======|               
+             Drug                  
+           C0072857                
+
+SENTENCE:  Number of Doses Required ( approximate ): 5
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:  SIMETHICONE 40 MG PO QID PRN  Upset   Stomach  , Other:
+               NN         NN JJ NN  FW     NN       NN       JJ   
+           |=========|                  |======| |======|         
+              Drug                      Finding  Anatomy          
+            C0037138                    C3887804 C1278920         
+                                                 C3714551         
+                                                 |======|         
+                                                 Disorder         
+                                                 C0038354         
+                                        |===============|         
+                                             Finding              
+                                            C0235309              
+
+SENTENCE:    gas   
+              NN   
+           |======|
+             Drug  
+           C1704673
+
+SENTENCE:  STYKER   PAIN   PUMP ( BUPIVACAINE 0.5% )
+             NN      NN     NN        NNP           
+                  |======|        |=========|       
+                  Finding            Drug           
+                  C0030193         C0006400         
+
+SENTENCE:  400 MILLILITERS IV Q24H Instructions:
+                   NNS     NN  JJ      NNS      
+
+SENTENCE:  Rate = 4ml/hr
+            NN    CD  NN
+
+SENTENCE:  Bolus dose = 4ml Lockout interval = 60 minutes
+            NN    NN    CD    NN       NN           NNS  
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  No Restrictions
+           DT     NNS     
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  Lift restrictions:
+            NN      NNS      
+
+SENTENCE:  Do  not lift greater then 10 pounds
+           VBP RB   VB    JJR    RB      NNS  
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Donovan Dike 222-876-0589 5-7 days ,
+           NNP   NNP   NNP       CD          NNS   
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Morphine
+              NN   
+           |======|
+             Drug  
+           C0026549
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  abdominal laxity
+              JJ       NN  
+           |=======|       
+            Anatomy        
+           C0000726        
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  s /p  panniculectomy
+           NN IN       NN      
+                 |============|
+                   Procedure   
+                    C2713286   
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  2/8/06 EADE , CONNIE EUGENE ,  M . D .
+                   NN     NNP    NNP     NNP NNP 
+
+SENTENCE:  PANNICULECTOMY
+                 NN      
+           |============|
+             Procedure   
+              C2713286   
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:    Drain   care - monitor/record   drain   output , when less than 30 cc  in 24
+              NN      NN      NN      NN      NN       RB     WRB  JJR   IN     NNS IN   
+           |=======|                       |=======|                                     
+           Procedure                       Procedure                                     
+           C0013103                        C0013103                                      
+
+SENTENCE:  hours pt may call for appointment for  removal .
+            NNS  NN MD   VB  IN      NN      IN     NN     
+                                                 |=======| 
+                                                 Procedure 
+                                                 C0015252  
+
+SENTENCE:  Change   drain   sponges
+             NN      NN       NNS  
+                  |=======|        
+                  Procedure        
+                  C0013103         
+
+SENTENCE:  daily.
+            RB   
+
+SENTENCE:   Strip   drains twice daily.
+              NN     VBZ    RB    RB   
+           |======|                    
+             Drug                      
+           C3241918                    
+
+SENTENCE:   Wound   check QD - DSD to incision  if spotting.
+              NN     NN   FW   NN  IN    NN     IN    NN    
+           |======|                   |=======|    |======| 
+           Disorder                   Procedure    Finding  
+           C0043250                   C0184898     C0025874 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  56 y.o. morbidly  obese   female with abdominal   skin   laxity 2/2 massive
+               NN     RB       JJ      NN    IN     JJ        NN      NN         JJ   
+                            |======|             |=======| |======|                   
+                            Disorder              Anatomy  Anatomy                    
+                            C0028754             C0000726  C1123023                   
+                                                           |=============|            
+                                                              Disorder                
+                                                              C0010495                
+                                                 |================|                   
+                                                      Anatomy                         
+                                                      C0222166                        
+
+SENTENCE:   weight   loss after gastric  bypass   , admitted to plastics on 6/10/05 for
+              NN      NN   IN     JJ       NN         VBN    IN   NNS    IN          . 
+           |=======|                    |=======|                                      
+           Procedure                    Procedure                                      
+           C1305866                     C0741847                                       
+           |============|       |===============|                                      
+              Finding               Procedure                                          
+              C1262477              C0017125                                           
+
+SENTENCE:  panniculectomy.
+                 NN       
+           |============| 
+             Procedure    
+              C2713286    
+
+SENTENCE:  pt tolerated all procedures without difficulty. post-op
+           NN    VBD    DT     NNS       IN        JJ        JJ   
+                            |========|                            
+                            Procedure                             
+                             C0184661                             
+
+SENTENCE:   period  has been uneventful.
+              NN    VBZ VBN      JJ     
+           |======|                     
+           Finding                      
+           C0025344                     
+
+SENTENCE:  at discharge pt is  afebrile with stable
+           IN    NN     NN VBZ    JJ     IN    JJ  
+                               |======|            
+                               Finding             
+                               C0277797            
+
+SENTENCE:  vitals , taking po's/voiding  q  shift. has ambulated independently but
+            NNS      VBG   FW      NN    FW   NN   VBZ    JJ          RB        . 
+                                |======|                                          
+                                Finding                                           
+                                C0042034                                          
+
+SENTENCE:  with some difficulty given body habitus.
+            IN   DT      NN      VBN   NN    NN    
+                     |========|                    
+                      Finding                      
+                      C1299586                     
+
+SENTENCE:    pain   generally
+              NN       RB    
+           |======|          
+           Finding           
+           C0030193          
+
+SENTENCE:  has been well managed.
+           VBZ VBN   RB    VBN   
+
+SENTENCE:  Incisions are clean , dry and intact.
+              NNS    VBP  JJ     JJ  CC    JJ   
+           |=======|                            
+           Procedure                            
+           C0184898                             
+
+SENTENCE:  Jp 's with
+           NNP    IN 
+
+SENTENCE:  moderate serosanguinous output remain in place.
+              JJ          JJ         NN     NN   IN  NN   
+
+SENTENCE:  Pt is  discharged to   rehab  
+           NN VBZ    VBN     IN    NN    
+                                |=======|
+                                Procedure
+                                C0034991 
+
+SENTENCE:  in stable condition . instructions given.
+           IN   JJ      NN           NNS       VBN  
+                     |=======|                      
+                     Disorder                       
+                     C0012634                       
+
+SENTENCE:  Services arranged
+             NNS      VBN   
+           |======|         
+           Finding          
+           C0557854         
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  Continue your antibiotics as long as you have   drain  /s  in place.
+              VB    PRP$     NNS     IN  JJ  IN PRP VBP     NN     NN IN  NN   
+                         |=========|                     |=======|             
+                            Drug                         Procedure             
+                          C0003232                       C0013103              
+
+SENTENCE:    Drain   care - monitor/record   drain   output , when less than 30 cc  in 24
+              NN      NN      NN      NN      NN       RB     WRB  JJR   IN     NNS IN   
+           |=======|                       |=======|                                     
+           Procedure                       Procedure                                     
+           C0013103                        C0013103                                      
+
+SENTENCE:  hours , call for appointment for  removal .
+            NNS     NN  IN      NN      IN     NN     
+                                            |=======| 
+                                            Procedure 
+                                            C0015252  
+
+SENTENCE:  Change   drain   sponges daily.
+             NN      NN       RB     RB   
+                  |=======|               
+                  Procedure               
+                  C0013103                
+
+SENTENCE:   Strip   drains twice daily.
+              NN     VBZ    RB    RB   
+           |======|                    
+             Drug                      
+           C3241918                    
+
+SENTENCE:  Activity -  sponge  baths only while drains are in place.
+              NN         NN     NNS   RB   IN    NNS   VBP IN  NN   
+           |======|   |======|                                      
+           Finding      Drug                                        
+           C0026606   C1705741                                      
+
+SENTENCE:  Walking  as
+             NNP    RB
+           |======|   
+           Finding    
+           C0080331   
+
+SENTENCE:  tolerated.
+              VBN    
+
+SENTENCE:  No lifting more than 10 pounds.
+           DT   NN    JJR   IN      NNS   
+
+SENTENCE:  No jogging  , swimming , or
+           DT    NN         NN      CC
+              |======|   |======|     
+              Finding    Finding      
+              C0022400   C0039003     
+
+SENTENCE:  aerobics   x  4-6 weeks.
+              NNS    SYM      NNS  
+           |=======|               
+           Procedure               
+           C0001701                
+
+SENTENCE:  Monitor/return for  signs   of infection which may
+             VB      VB   IN    NNS    IN    NN      WDT  MD 
+                              |======|    |=======|          
+                              Finding     Disorder           
+                              C0311392    C0009450           
+
+SENTENCE:  include:
+             VB    
+
+SENTENCE:  increased   pain   , swelling , redness  ,  fever   , drainage  , problems
+              VBN       NN         NN         NN         NN         NN         NNS   
+                     |======|   |======|   |======|   |======|   |=======|           
+                     Finding    Finding    Finding    Finding    Procedure           
+                     C0030193   C0038999   C0332575   C0015967   C0013103            
+
+SENTENCE:  with incisions , or other concerns.
+            IN     NNS      CC  JJ     NNS    
+                |=======|                     
+                Procedure                     
+                C0184898                      
+
+SENTENCE:  If you have any questions , please
+           IN PRP VBP  DT     NNS        UH  
+
+SENTENCE:  call Dr. Nicky Yamauchi 222-876-0589 or Benny Demicco NP at 358 034-2852
+            NN  NNP  NNP    NNP         CD      CC  JJ     NN    NN IN        CD   
+
+SENTENCE:  pager 32083 or pager 15075.
+            NN         CC  NN         
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  BORKOSKI , ALVIN B.  , N.P. ( ) 5/26/06 @ 11:28 AM
+              NN       NN   NNP   NNP                      NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

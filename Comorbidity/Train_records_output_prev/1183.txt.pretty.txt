@@ -1,0 +1,581 @@
+SENTENCE:  979516073 | USH | 29022629 | | 8901417 | 1/1/2004 12:00:00 AM | congestive  heart   failure | |   DIS    | Admission Date:
+                       NN                                             NN       JJ        NN      NN           NN         NN      NN  
+                                                                                      |======|             |======|                  
+                                                                                      Anatomy              Finding                   
+                                                                                      C0018787             C1444662                  
+                                                                                      |==============|     |======|                  
+                                                                                          Disorder         Disorder                  
+                                                                                          C0018801         C0012634                  
+                                                                                                           C1970187                  
+
+SENTENCE:  1/1/2004 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  3/1/2004
+                   
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  ABBAY , JOHN 317-25-96-9
+            NN      NN             
+
+SENTENCE:  Fordla
+             NN  
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  5/14/04 AT 03:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  LACK , LUIGI O.  ,  M . D .
+           NNP     NNP  NNP   NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ACETYLSALICYLIC ACID 81 MG PO QD
+                 NN         NN     NN FW FW
+           |==================|            
+                   Drug                    
+                 C0004057                  
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 40 MG PO QD
+             NNP          NN          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0699992    C0016860               
+
+SENTENCE:  LABETALOL   HCL    500 MG  PO BID
+              NN        NN        NNS FW FW 
+           |=======| |======|               
+             Drug      Drug                 
+           C0022860  C0020259               
+           |================|               
+                  Drug                      
+                C0699440                    
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 5/28/04 by
+              JJ     VBN  IN         . 
+
+SENTENCE:  GUPTON , AUGUSTINE H.  , M.D..PH.D .
+             NN        NNP    NNP   NN   NN NN 
+
+SENTENCE:  on order for VERAPAMIL SUSTAINED RELEAS PO ( ref #
+           IN  NN   IN     NNP       VBN      NN   NN   NN   
+                        |=======|                            
+                          Drug                               
+                        C0042523                             
+
+SENTENCE:  89463407 )
+                     
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LABETALOL   HCL    & VERAPAMIL
+              NN        NN         NNP   
+           |=======| |======|   |=======|
+             Drug      Drug       Drug   
+           C0022860  C0020259   C0042523 
+           |================|            
+                  Drug                   
+                C0699440                 
+
+SENTENCE:    HCL    , SUSTAINED-REL Reason for override:
+              NN         JJ     NN    NN   IN     NN    
+           |======|                                     
+             Drug                                       
+           C0020259                                     
+
+SENTENCE:  patient takes at home
+             NN     VBZ  IN  NN 
+
+SENTENCE:  VERAPAMIL SUSTAINED RELEAS 180 MG PO QD
+              NNP       VBN      NN       NN FW FW
+           |=======|                              
+             Drug                                 
+           C0042523                               
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 5/28/04 by
+              JJ     VBN  IN         . 
+
+SENTENCE:  ARTHUR , MALIK A.  , M.D..PH.D .
+             NN      NNP  NNP   NN   NN NN 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LABETALOL   HCL    & VERAPAMIL
+              NN        NN         NNP   
+           |=======| |======|   |=======|
+             Drug      Drug       Drug   
+           C0022860  C0020259   C0042523 
+           |================|            
+                  Drug                   
+                C0699440                 
+
+SENTENCE:    HCL    , SUSTAINED-REL Reason for override:
+              NN         JJ     NN    NN   IN     NN    
+           |======|                                     
+             Drug                                       
+           C0020259                                     
+
+SENTENCE:  patient takes at home
+             NN     VBZ  IN  NN 
+
+SENTENCE:   HYZAAR  ( 25 MG/100 MG ) ( HYDROCHLORTHIAZIDE 25M... )
+             NNP         NN     NN             NN         NN      
+           |======|                                               
+             Drug                                                 
+           C0721010                                               
+
+SENTENCE:  1   TAB    PO QD
+                NN    FW FW
+             |======|      
+               Drug        
+             C0039225      
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / 2 gm  Na /   ADA    2000 cals/day / Low saturated   fat   
+            NN       NNS NN      NN         NNS  NN    JJ     JJ        NN   
+                              |======|                               |======|
+                                Drug                                   Drug  
+                              C0001457                               C0015677
+                                                           |================|
+                                                                  Drug       
+                                                                C0597423     
+
+SENTENCE:  low cholesterol (I )
+           JJ      NN       CD 
+               |=========|     
+                  Drug         
+                C0008377       
+
+SENTENCE:  (FDI)
+            NNP 
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Resume regular exercise
+             VB     JJ       NN   
+                          |======|
+                          Finding 
+                          C0015259
+                  |==============|
+                      Finding     
+                      C0582191    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Jinright - keep appointment as previously scheduled ,
+           NNP    NN       NN      NN      IN     RB        VBN     
+
+SENTENCE:  Dr. Gobbo as scheduled ,
+           NNP  NNP  IN    VBN     
+
+SENTENCE:  DR .
+           NNP 
+
+SENTENCE:  Sadee , contact for an appointment in the next month ,
+            NNP      NN    IN  DT     NN      IN DT   JJ   NN    
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  "BROMURA"
+              NN    
+
+SENTENCE:  ,    ACE    Inhibitor
+                NNP       NNP   
+             |=======|          
+             Procedure          
+             C0201888           
+             |=================|
+                    Drug        
+                  C0003015      
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  congestive  heart   failure
+               JJ        NN      NN   
+                      |======|        
+                      Anatomy         
+                      C0018787        
+                      |==============|
+                          Disorder    
+                          C0018801    
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  congestive  heart   failure
+               JJ        NN      NN   
+                      |======|        
+                      Anatomy         
+                      C0018787        
+                      |==============|
+                          Disorder    
+                          C0018801    
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  mitral regurg   HTN    Type II  heart    block     mild   diabetes s /p  pacer   DDD   
+             JJ     NN      NN     NN  CD    NN       NN       JJ       NN    NN IN  NN     NNP   
+                         |======|         |======| |======| |======| |======|             |======|
+                         Disorder         Anatomy  Finding  Finding  Disorder               Drug  
+                         C0020538         C0018787 C0028778 C1513302 C0011849             C0011037
+                                                                                          C0026256
+                                          |===============|                                       
+                                              Disorder                                            
+                                              C0018794                                            
+
+SENTENCE:  1997   CHF   
+                   NN   
+                |======|
+                Disorder
+                C0018802
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  75F w  iCMP( EF:30-30% 11/1 ) ,   HTN    , diet-controlled DM ( HgbA1c:
+           NN  IN  NN   NN                    NN       NN     VBN     NN     NN   
+                                           |======|                               
+                                           Disorder                               
+                                           C0020538                               
+
+SENTENCE:  5.7 ) , s /p 
+                   NN RB
+
+SENTENCE:  PM , MR , subclavian thrombus p /w    SOB   ;
+           NN   NN       JJ        NN    IN IN    NN    
+                                |======|       |======| 
+                                Finding        Finding  
+                                C0087086       C0013404 
+
+SENTENCE:  admitted with   CHF    flare.
+             VBN     IN     NN     NN   
+                         |======|       
+                         Disorder       
+                         C0018802       
+
+SENTENCE:  Multiple
+              JJ   
+
+SENTENCE:  admits for   CHF    in past;
+            VBZ   IN     NN    IN  NN  
+                      |======|         
+                      Disorder         
+                      C0018802         
+
+SENTENCE:  most recently 4/25 felt to be 2/2 med
+           RBS     RB         VBN  TO VB     JJ 
+
+SENTENCE:  non-compl & dietary indiscretion.
+              JJ         JJ         NN      
+                       |==================| 
+                             Finding        
+                             C1321006       
+
+SENTENCE:  Presented with  chest     pain   ( left sided
+              VBN     IN     NN       NN       JJ   JJ  
+                          |======| |======|             
+                          Anatomy  Finding              
+                          C0817096 C0030193             
+                          |===============|             
+                               Finding                  
+                              C0008031                  
+
+SENTENCE:  squeezing ) and   DOE   .
+              NN       CC     NN    
+                           |======| 
+                           Finding  
+                           C0231807 
+
+SENTENCE:  In the ED , 163/90 P :70.
+           IN DT  NN          NN    
+
+SENTENCE:  Given 1 SLTNG for BP.
+            VBN     NN   IN  NN 
+
+SENTENCE:  Admit   labs   notable for    BNP   :
+            VB     NNS      JJ    IN     NN     
+                 |======|             |=======| 
+                 Finding                Drug    
+                 C0587081             C0054015  
+                                      |=======| 
+                                      Procedure 
+                                      C1095989  
+
+SENTENCE:  1493 ( 1800 last   CHF    admit ).
+                        JJ     NN     NN     
+                            |======|         
+                            Disorder         
+                            C0018802         
+
+SENTENCE:  To have
+           IN PRP$
+
+SENTENCE:  biventricular PPM placed by Dr. Carlton Alphin
+                JJ       NN   VBN   IN NNP   NNP    NNP  
+
+SENTENCE:  1. CV-- Ishcemia:
+              NN      NN    
+
+SENTENCE:  cont home medications of   asa    labetalol , verapamil.
+            NN   NN      NNS     IN    NN       NN          NN     
+                     |=========|    |======| |=======|   |=======| 
+                        Drug          Drug     Drug        Drug    
+                      C0013227      C0004057 C0022860    C0042523  
+
+SENTENCE:  The patient had negative cardiac  enzymes  , no hx of CP  and previous
+           DT    NN    VBD    JJ       JJ      NNS      DT NN IN NNP CC     JJ   
+                                    |======| |======|                            
+                                    Anatomy    Drug                              
+                                    C0018787 C0014442                            
+                                    |===============|                            
+                                          Drug                                   
+                                        C0443763                                 
+
+SENTENCE:  non-obstructive   CAD    Pump:
+                 JJ           NN     NN  
+                           |======|      
+                           Disorder      
+                           C1956346      
+
+SENTENCE:  The patient diuresed about 4 literes total
+           DT    NN      VBD     IN       NNS    JJ  
+
+SENTENCE:  for the duration of her  admission ,  weight   dropped from 67kg
+           IN  DT     NN    IN PRP$    NN          NN       VBD    IN   NN 
+                   |======|                     |=======|                  
+                     Drug                       Procedure                  
+                   C2926735                     C1305866                   
+
+SENTENCE:  to 63kg w / diuresis.
+           IN  NN  IN     NN    
+                       |======| 
+                       Finding  
+                       C0012797 
+
+SENTENCE:  Cont  hyzaar .
+            NN     NN    
+                |======| 
+                  Drug   
+                C0721010 
+
+SENTENCE:  ( continuing home meds since not in
+                VBG      NN  NNS   IN   RB  RB
+
+SENTENCE:  decompensated failure ).
+                JJ         NN      
+
+SENTENCE:  For better fluid control the patient was
+           IN   JJR    NN     NN    DT    NN    VBD
+
+SENTENCE:  discharged on lasix 40mg QD and her  labetalol was increased to
+              VBN     IN  CD   NNS  FW CC  PRP$    NN     VBD    VBN    TO
+                                                |=======|                 
+                                                  Drug                    
+                                                C0022860                  
+
+SENTENCE:  500mg bid for better BP control.
+            NNS  FW  IN   JJR   NN   NN    
+
+SENTENCE:  Rhythm:
+             NN   
+
+SENTENCE:  AVpacer to be replaced to
+             NN    TO VB   VBN    TO
+
+SENTENCE:  biventricular by Dr. dibiase ( at later time ); the patient will follow up
+                SYM      IN NNP   NN      IN  JJ    NN     DT    NN     MD    VB   RP
+
+SENTENCE:  with cardiology , her    PCP    , and Dr. Moudy
+            IN      NN       PRP$    NN      CC  NNP  NN  
+                                  |======|                
+                                    Drug                  
+                                  C0031381                
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  necessicita pesarse todos los dias.
+               DT        JJ     NNS  JJ  NNS  
+
+SENTENCE:  Si su peso aumenta   mas    de  dos
+           JJ NN  IN    NN      NNS    VBP NNS
+                              |======|        
+                              Disorder        
+                              C0242292        
+                              C1096155        
+
+SENTENCE:  libras , llame su doctor.
+            NNS      NN   NN   NN   
+
+SENTENCE:  No beba   mas    de 2 litros en  el   dia   .
+           DT  NN    NNS    NN    NNS   VBN NN    NN    
+                   |======|                    |======| 
+                   Disorder                    Disorder 
+                   C0242292                    C0457179 
+                   C1096155                             
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  WILLAIMS , PERCY ALONSO , M.D. ( RD07 ) 5/14/04 @ 03
+             NNS       NN     NN      NN     NN                
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

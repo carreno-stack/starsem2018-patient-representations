@@ -1,0 +1,952 @@
+SENTENCE:  741470520 | CEMC | 79581961 | | 4559083 | 10/21/2005 12:00:00 AM |   CHF    exacerbation ,   UTI    | |   DIS    | Admission Date:
+                        NN                                               NN      NN         NN           NN           NN         NN      NN  
+                                                                              |======|                |======|     |======|                  
+                                                                              Disorder                Disorder     Finding                   
+                                                                              C0018802                C0042029     C1444662                  
+                                                                                                                   |======|                  
+                                                                                                                   Disorder                  
+                                                                                                                   C0012634                  
+                                                                                                                   C1970187                  
+
+SENTENCE:  5/19/2005 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  11/1/2005
+                    
+
+SENTENCE:  ****** FINAL DISCHARGE ORDERS ******
+                   JJ      NN      NNS         
+
+SENTENCE:  TEWA , GERMAN  M  032-37-31-5
+            NN     NNP   NNP            
+
+SENTENCE:  NE Profortment O  Lona Fay
+           NN     NN      NN  NN  NN 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CAR
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  2/24/05 AT 06:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  POSER ,  ROBIN   ,  M . D .
+            JJ        NN      NNP NNP 
+                   |======|           
+                     Drug             
+                   C0304016           
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ALLOPURINOL 100 MG PO BID
+               NN          NN JJ NN 
+           |=========|              
+              Drug                  
+            C0002144                
+
+SENTENCE:  FERROUS  SULFATE  325 MG PO QD
+             JJ       NN         NN FW FW
+                   |=======|             
+                   Procedure             
+                   C0474702              
+                   |=======|             
+                     Drug                
+                   C0038720              
+                   C3536965              
+           |===============|             
+                 Drug                    
+               C0060282                  
+
+SENTENCE:  Food/  Drug   Interaction Instruction Avoid milk and antacid 
+           NNP    NNP        NNP         NN       VB    NN  CC     NN   
+                |======| |=========|                            |======|
+                  Drug     Finding                                Drug  
+                C0013227  C0687133                              C0003138
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 60 MG PO BID Starting  Today   ( 5/20 )
+             NNP          NN          NN NN FW     NN       NN            
+           |======|   |========|                         |======|         
+             Drug        Drug                              Drug           
+           C0699992    C0016860                          C0310367         
+
+SENTENCE:  HYDRALAZINE   HCL    10 MG PO TID HOLD IF:
+               NNP        NN       NN JJ NN   NN  IN 
+           |=========| |======|                      
+              Drug       Drug                        
+            C0020223   C0020259                      
+           |==================|                      
+                   Drug                              
+                 C0282198                            
+
+SENTENCE:  SBP below 90
+           NN   IN     
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  ISORDIL  ( ISOSORBIDE DINITRATE ) 20 MG PO TID
+             NNP         NNP        NN          NN JJ NN 
+           |======|   |========|                         
+             Drug        Drug                            
+           C0590720    C0022251                          
+                      |==================|               
+                              Drug                       
+                            C0022252                     
+
+SENTENCE:  HOLD IF:
+            NN  IN 
+
+SENTENCE:  SBP below 90
+           NN   IN     
+
+SENTENCE:  LISINOPRIL 20 MG PO QD HOLD IF:
+               NN        NN FW FW  NN  IN 
+           |========|                     
+              Drug                        
+            C0065374                      
+
+SENTENCE:  SBP below 90
+           NN   IN     
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 6/4/05 by WROBLESKI , JULIO B.  , M.D. ,  M . S . C .
+              JJ     VBN  IN        IN    NN        NN   NNP   NNP    NNP NNP NNP 
+
+SENTENCE:  on order for   KCL    IMMEDIATE  RELEASE  PO ( ref # 82593066 )
+           IN  NN   IN    NNP       NN        NN     NN   NN              
+                        |======|           |=======|                      
+                          Drug             Procedure                      
+                        C0032825           C1963578                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  noted
+            VBN 
+
+SENTENCE:  Previous override information:
+              JJ       NN        NN      
+
+SENTENCE:  Override added on 6/4/05 by ALTONEN , EDUARDO C.  , M.D. ,  M . S . C .
+              JJ     VBN  IN        IN   NN        NN    NNP   NNP    NNP NNP NNP 
+
+SENTENCE:  on order for   KCL    IMMEDIATE  RELEASE  PO ( ref # 85655479 )
+           IN  NN   IN    NNP       NN        NN     NN   NN              
+                        |======|           |=======|                      
+                          Drug             Procedure                      
+                        C0032825           C1963578                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  noted
+            VBN 
+
+SENTENCE:  Previous override information:
+              JJ       NN        NN      
+
+SENTENCE:  Override added on 10/14/05 by BAGWELL , TYSON H.  , M.D. ,  M . S .C .
+              JJ     VBN  IN          IN   NN       NN   NNP   NNP    NNP NNP LS 
+
+SENTENCE:  on order for   KCL    IMMEDIATE  RELEASE  PO ( ref # 74048774 )
+           IN  NN   IN    NNP       NN        NN     NN   NN              
+                        |======|           |=======|                      
+                          Drug             Procedure                      
+                        C0032825           C1963578                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  noted
+            VBN 
+
+SENTENCE:  Previous override information:
+              JJ       NN        NN      
+
+SENTENCE:  Override added on 10/14/05 by BIALEK , CYRUS O.  , M.D. ,  M . S .C .
+              JJ     VBN  IN          IN   NN      NNP  NNP   NNP    NNP NNP LS 
+
+SENTENCE:  on order for   KCL    IMMEDIATE  RELEASE  PO ( ref # 63542743 )
+           IN  NN   IN    NNP       NN        NN     NN   NN              
+                        |======|           |=======|                      
+                          Drug             Procedure                      
+                        C0032825           C1963578                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  noted
+            VBN 
+
+SENTENCE:  Previous override information:
+              JJ       NN        NN      
+
+SENTENCE:  Override added on 10/14/05 by HERT , LEIGH E.  , M.D. ,  M . S . C .
+              JJ     VBN  IN          IN  NN     JJ   NNP   NNP    NNP NNP NNP 
+
+SENTENCE:  on order for   KCL    IV ( ref # 02818265 )
+           IN  NN   IN    NNP    CD   NN              
+                        |======|                      
+                          Drug                        
+                        C0032825                      
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  noted
+            VBN 
+
+SENTENCE:  LIPITOR  ( ATORVASTATIN ) 10 MG PO QD
+              NN          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0593906     C0286651                
+
+SENTENCE:  PROTONIX ( PANTOPRAZOLE ) 40 MG PO QD
+             NNP          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0876139     C0081876                
+
+SENTENCE:   TOPROL  XL  ( METOPROLOL SUCCINATE EXTENDED  RELEASE  )
+              NN    NNP      NNP        NN       VBN       NN      
+           |======|       |========| |=======|          |=======|  
+             Drug            Drug      Drug             Procedure  
+           C2723006        C0025859  C0220918           C1963578   
+           |==========|   |==================|                     
+               Drug               Drug                             
+             C0723783           C0724633                           
+
+SENTENCE:  75 MG PO QD Food/  Drug   Interaction Instruction
+              NN FW FW NNP    NNP        NN          NN     
+                            |======| |=========|            
+                              Drug     Finding              
+                            C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  LEVAQUIN ( LEVOFLOXACIN ) 250 MG PO QD
+              NN          NNP            NN FW FW
+           |======|   |==========|               
+             Drug         Drug                   
+           C0721336     C0282386                 
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Administer   iron   products a  minimum of 2 hours before or
+               VB        NN      NNS    DT   NN    IN    NNS    IN   CC
+                      |======|                                         
+                        Drug                                           
+                      C0302583                                         
+
+SENTENCE:  after a  levofloxacin or ciprofloxacin dose dose
+            IN   DT      NN      CC      NN        NN   NN 
+                    |==========|    |===========|          
+                        Drug            Drug               
+                      C0282386        C0008809             
+
+SENTENCE:  If on tube feeds , please cycle ( hold 1 hr before to 2 hr 
+           IN IN  NN   NNS      NN    NN      NN    NN   IN   IN   NNS
+
+SENTENCE:  after ) Take 2 hours before or 2 hours after dairy products.
+            NN      VB     NNS    IN   CC    NNS   IN    JJ     NNS    
+
+SENTENCE:  ACETYLSALICYLIC ACID 325 MG PO QD
+                 NN         NN      NN FW FW
+           |==================|             
+                   Drug                     
+                 C0004057                   
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  Patient should measure  weight   daily
+             NN      MD     VB       NN      RB  
+                                  |=======|      
+                                  Procedure      
+                                  C1305866       
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  Fluid restriction:
+            NN       NN      
+           |===============| 
+               Procedure     
+               C0204700      
+
+SENTENCE:  2 liters
+              NNS  
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET: 2 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Resume regular exercise
+             VB     JJ       NN   
+                          |======|
+                          Finding 
+                          C0015259
+                  |==============|
+                      Finding     
+                      C0582191    
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Haworth ( in for Dr. Soulek ) , 979-172-1132 9/11/05 , 11:30a scheduled ,
+           NNP   NNP     IN IN  NNP  NNP            CD                   CD     VBN     
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Penicillins
+               NNS    
+           |=========|
+              Drug    
+            C0030842  
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:    CHF    exacerbation
+              NN         NN     
+           |======|             
+           Disorder             
+           C0018802             
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:    CHF    exacerbation ,   UTI   
+              NN         NN           NN   
+           |======|                |======|
+           Disorder                Disorder
+           C0018802                C0042029
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    HTN    , obesity  ,  anemia  , OA ,   gout   ,   GERD   , CRI ,   CAD    , hyperlipidemia
+              NN         NN         NN      NN      NN         NN      NN       NN            NN      
+           |======|   |======|   |======|        |======|   |======|         |======|   |============|
+           Disorder   Disorder   Disorder        Disorder   Disorder         Disorder      Disorder   
+           C0020538   C0028754   C0002871        C0018099   C0017168         C1956346      C0020473   
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  Cardiac  catheterization , 5/25/05 ;
+              JJ          NN                   
+           |======| |=============|            
+           Anatomy     Procedure               
+           C0018787    C0007430                
+
+SENTENCE:  Echocardiogram , 5/25/05
+                 NN                
+           |============|          
+             Procedure             
+              C0013516             
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  CC:
+           NN 
+
+SENTENCE:  Dyspnea 
+              NN   
+           |======|
+           Finding 
+           C0013404
+
+SENTENCE:    HPI   : 74 yo AAF h /o  NYHF III   CHF    ( EF 45% ) ,   PHT    ,   HTN   -  CMP    , p /w  worsening
+              NN        JJ NN  NN IN  NN  CD     NN      NN            NN         NN       NN      RB IN    NN    
+           |======|                           |======|              |======|   |======| |======|                  
+           Disorder                           Disorder              Disorder   Disorder   Drug                    
+           C0268529                           C0018802              C3203102   C0020538 C0010729                  
+
+SENTENCE:  fatigue  ,   DOE    and orthopnea over 3-4  w .
+              NN         NN    CC     NN      IN      NNS 
+           |======|   |======|     |=======|              
+           Finding    Finding       Finding               
+           C0015672   C0231807     C0085619               
+
+SENTENCE:  Pt presented to clinic on day
+           NN    VBD    IN   NN   IN NN 
+
+SENTENCE:  of admit and was admitted for acute decompensation.
+           IN  NN   CC  VBD   VBN    IN   JJ         NN       
+                                               |============| 
+                                                  Finding     
+                                                  C0231187    
+
+SENTENCE:  Pt
+           NN
+
+SENTENCE:  claims compliance to diet but there is  some question from the ED of
+            VBP       NN     IN  NN  CC   EX   VBZ  DT     NN     IN  DT  NN . 
+
+SENTENCE:  dietary indiscretion.
+             JJ         NN      
+           |==================| 
+                 Finding        
+                 C1321006       
+
+SENTENCE:  In addition , pt reports not being   able   to get
+           IN    NN      NN   VBZ   RB   VBG     JJ    TO VB 
+                                              |======|       
+                                              Finding        
+                                              C1299581       
+
+SENTENCE:  dose of procrit   x  3 mo  , due to inconvenience in aquiring
+            NN  IN    NN    SYM   NNS   IN  IN      NN       IN    NN   
+                   |======|                                             
+                     Drug                                               
+                   C0733467                                             
+
+SENTENCE:  it .
+           PRP 
+
+SENTENCE:  Pt does not require home O2.
+           NN VBZ  RB    VB     NN  NN 
+
+SENTENCE:  Denies CP ,   SOB    at   rest   ,   PND    ,
+            VBZ   NN      NN    IN    NN         NN     
+                       |======|    |======|   |======|  
+                       Finding     Finding    Disorder  
+                       C0013404    C0035253   C1956415  
+
+SENTENCE:  palpitations , or dizziness.
+               NNS        CC    NN     
+           |==========|      |=======| 
+             Finding          Finding  
+             C0030252        C0012833  
+
+SENTENCE:  No  cough   ,  fever   , or   sick  
+           DT    NN         NN      CC    JJ   
+              |======|   |======|      |======|
+              Finding    Finding       Finding 
+              C0010200   C0015967      C0221423
+           |=========|                         
+             Finding                           
+            C0425502                           
+
+SENTENCE:  contacts.
+             NNS    
+
+SENTENCE:  Echo 5/30 nl septal chamber size , mildly enlarged 
+           NNP       JJ   JJ     NN     NN      RB      JJ    
+                                                     |=======|
+                                                     Procedure
+                                                     C1293134 
+
+SENTENCE:  aL  atrium  ,   mild     LVH    , 1+ MR ,   mod    TR.
+           JJ    NN         JJ       NN         NN      RB    NN 
+              |======|   |======| |======|           |======|    
+              Anatomy    Finding  Disorder           Disorder    
+              C0018792   C1513302 C0149721           C0011860    
+
+SENTENCE:  PE on admit:
+           NN IN  NN   
+
+SENTENCE:  VS 98.9 96 136/88
+           NN               
+
+SENTENCE:  100% RA.   NECK  :
+                NN     NN    
+                    |======| 
+                    Anatomy  
+                    C0027530 
+
+SENTENCE:  JVP to   jaw    angle w / pulsatile v  wave.
+           NN  IN    NN     NN   IN     NN     NN  NN  
+                  |======|                             
+                  Anatomy                              
+                  C0022359                             
+
+SENTENCE:  No  bruits .
+           DT   NNS    
+              |======| 
+              Finding  
+              C0006318 
+
+SENTENCE:  CV:
+           NN 
+
+SENTENCE:  RRR , +s3 , ? systolic  murmur  at LSB , increased but non displaced pmi.
+           NN     NN        JJ       NN    IN NN       VBN    CC  AFX    VBN    NN  
+                                  |======|                                          
+                                  Finding                                           
+                                  C0018808                                          
+                         |===============|                                          
+                              Finding                                               
+                             C0232257                                               
+
+SENTENCE:   LUNGS  :
+             NNS    
+           |======| 
+           Anatomy  
+           C0024109 
+
+SENTENCE:  Crackles to 2/3 of   lung   B.    EXT   :
+             NNS    IN     IN    NN    NNP    NN    
+           |======|           |======|     |======| 
+           Finding            Anatomy      Disorder 
+           C0034642           C0024109     C0015306 
+
+SENTENCE:  Warm , 2+ DP pulse B.  1+
+            JJ       NN  NN   NNP   
+
+SENTENCE:  pitting  edema   2/3 to B 
+             NN       NN        IN NN
+                   |======|          
+                   Finding           
+                   C0013604          
+           |==============|          
+               Finding               
+               C0333243              
+
+SENTENCE:   knees  .
+             NNS    
+           |======| 
+           Anatomy  
+           C0022742 
+
+SENTENCE:    Labs   on admit:
+             NNS    IN  NN   
+           |======|          
+           Finding           
+           C0587081          
+
+SENTENCE:  Cr 2 , Trop 0.24 , CK 27 , MB  0.6.
+           NN      NN         NN      NNP     
+
+SENTENCE:     CXR   : increased  heart   border , B  effusion.
+              NN         VBN       NN      NN     NN    NN    
+           |=======|            |======|             |======| 
+           Procedure            Anatomy              Finding  
+           C0039985             C0018787             C0013687 
+                                |=============|               
+                                    Anatomy                   
+                                   C0457109                   
+
+SENTENCE:     BNP    2329.
+              NN          
+           |=======|      
+             Drug         
+           C0054015       
+           |=======|      
+           Procedure      
+           C1095989       
+
+SENTENCE:  UA 6-10   wbc    , 2+
+           NN        NNS        
+                   |======|     
+                   Anatomy      
+                   C0023516     
+
+SENTENCE:    bact   .
+              NN     
+           |=======| 
+           Procedure 
+           C0004618  
+
+SENTENCE:     EKG    no changes , baseline diffuse flattened
+              NN     DT   NNS        NN      JJ       JJ    
+           |=======|                                        
+           Procedure                                        
+           C1623258                                         
+
+SENTENCE:  TW .
+           NNP 
+
+SENTENCE:  **************HOSPITAL COURSE*********************
+                            NN      NN                       
+
+SENTENCE:  CV: ( P  ) NYHA III   CHF    ( EF 45% ) in acute decompensation.
+           NN    NN    NN  CD     NN      NN       IN  JJ         NN       
+                               |======|                     |============| 
+                               Disorder                        Finding     
+                               C0018802                        C0231187    
+
+SENTENCE:  Strict  I &Os  ,
+             NN   PRP NNP  
+
+SENTENCE:  fluid restriction.
+            NN       NN      
+           |===============| 
+               Procedure     
+               C0204700      
+
+SENTENCE:  Diurese  aggressively w /  lasix   100 bid , replete
+              JJ         RB      IN     NN        FW      NN   
+           |======|                  |======|                  
+             Drug                      Drug                    
+           C0719972                  C0699992                  
+
+SENTENCE:  lytes , keeping in mind CRI.
+            NNS      VBG   IN  NN  NN  
+
+SENTENCE:  Cont BB  , ACEI. Added hydralazine/isordil 
+            NN  NNP    NNP   NNP      NN         NN   
+                                  |=========| |======|
+                                     Drug       Drug  
+                                   C0020223   C0590720
+
+SENTENCE:  on HD3.
+           IN NN  
+
+SENTENCE:  Repeat Echo on HD3 showed decreased EF 30-35%.
+             NN   NNP  IN NNP  VBD      VBN    NN        
+
+SENTENCE:  ( I  )   CAD    , hyperlipidemia:
+             CD      NN            NN       
+                  |======|   |============| 
+                  Disorder      Disorder    
+                  C1956346      C0020473    
+
+SENTENCE:  BB  , ACEI ,  statin  ,   ASA   .
+           NNP   NNP       NN         NN    
+                        |======|   |======| 
+                          Drug       Drug   
+                        C0360714   C0004057 
+
+SENTENCE:   Lipids  nl.
+             NNS    JJ 
+           |======|    
+             Drug      
+           C0023779    
+
+SENTENCE:  Suspected
+              JJ    
+
+SENTENCE:  ischemic etiology to worsening   CHF    , given decreased EF on echo.
+              JJ       NN    IN    NN        NN       VBN     VBN    NN IN  NN  
+                                          |======|                              
+                                          Disorder                              
+                                          C0018802                              
+
+SENTENCE:  Did   cath   
+           VBD    NN    
+               |=======|
+               Procedure
+               C0007430 
+
+SENTENCE:  on Na  Worth   Salt   however w /o  lesions  ( although confirming   PHT    ).
+           IN NNP  NNP    NNP      RB    IN IN   NNS         IN       VBG        JJ      
+                        |======|               |======|                       |======|   
+                          Drug                 Finding                        Disorder   
+                        C0037494               C0221198                       C3203102   
+
+SENTENCE:  ( R  ) No issues.
+             JJ   DT  NNS   
+
+SENTENCE:   RENAL  :
+             NNS    
+           |======| 
+           Anatomy  
+           C0022646 
+
+SENTENCE:  CRI w /  anemia .
+           NN  IN     NN    
+                   |======| 
+                   Disorder 
+                   C0002871 
+
+SENTENCE:  Given mucomyst post   cath   .
+            VBN     NN     IN     NN     
+                 |======|      |=======| 
+                   Drug        Procedure 
+                 C0699252      C0007430  
+
+SENTENCE:    HEME  :
+              NN    
+           |======| 
+             Drug   
+           C0018966 
+
+SENTENCE:   Anemia  - Given aranesp  , FeSO4.
+              NN       VBN     NN       NNP  
+           |======|         |======|         
+           Disorder           Drug           
+           C0002871         C1134440         
+
+SENTENCE:    HTN   :
+              NN    
+           |======| 
+           Disorder 
+           C0020538 
+
+SENTENCE:  BB  , ACEI.
+           NNP   NNP  
+
+SENTENCE:  ID:
+           NN 
+
+SENTENCE:    UTI    ,  E  coli in Ucx , sensitivities pending.
+              NN      NNP NNP  IN NNP        NNS        JJ    
+           |======|                     |===========|         
+           Disorder                        Finding            
+           C0042029                       C0427965            
+
+SENTENCE:  Empirically tx w /  Keflex  , changed empirically on HD4 to levo.
+               RB      NN IN    NNP        VBN       RB      IN NN  IN  NN  
+                              |======|                                      
+                                Drug                                        
+                              C0700517                                      
+
+SENTENCE:    ENDO  :
+              NN    
+           |======| 
+           Disorder 
+           C0014175 
+
+SENTENCE:  R /o 'd Hyperthyroidism w / nl   TSH   .
+           VB RP         NN        IN  JJ    NN    
+                   |=============|        |======| 
+                      Disorder              Drug   
+                      C0020550            C0040160 
+
+SENTENCE:  RHEUM:
+            NN   
+
+SENTENCE:    Gout   - allopurinol.
+              NN          NN      
+           |======|   |=========| 
+           Disorder      Drug     
+           C0018099    C0002144   
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Satisfactory
+                JJ     
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  LOUKS , CLAYTON T.  C.  ( BT78 ) 2/24/05 @ 05
+            JJ       NN    NNP NNP   NNP                
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

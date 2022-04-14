@@ -1,0 +1,697 @@
+SENTENCE:  499940726 | ARH | 59759666 | | 764430 | 5/2/2000 12:00:00 AM | RT.
+                       NN                                            NN   NN 
+
+SENTENCE:    KNEE    CHONDRAL  INJURY  , MEDIAL FEMORAL  CONDYLE  , PATELLOFEMORAL MALTRACKING | Signed |   DIS    | Admission Date:
+              NN        JJ      NNS        JJ      JJ       NN            JJ           NN         VBN        NN         NN      NN  
+           |=======|          |======|          |======| |======|   |========================|            |======|                  
+            Anatomy           Disorder          Anatomy  Anatomy             Disorder                     Finding                   
+           C0022742           C3263723          C0015811 C0524414            C0409327                     C1444662                  
+           |=======|                            |===============|                                         |======|                  
+           Procedure                                 Anatomy                                              Disorder                  
+           C0562271                                 C0582800                                              C0012634                  
+                                                                                                          C1970187                  
+                                         |======================|                                                                   
+                                                 Anatomy                                                                            
+                                                 C0448196                                                                           
+
+SENTENCE:  5/2/2000 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  1/30/2000
+                    
+
+SENTENCE:  PRINCIPAL DIAGNOSIS:
+              JJ        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  RIGHT   KNEE    CHONDRAL DEFECT.
+            JJ      NN        JJ      NN   
+                 |=======| |=============| 
+                 Procedure    Disorder     
+                 C0562271     C0410334     
+                 |=======|                 
+                  Anatomy                  
+                 C0022742                  
+           |=============|                 
+               Anatomy                     
+              C0230431                     
+
+SENTENCE:  ASSOCIATED DIAGNOSES: 1. PATELLOFEMORAL MALTRACKING.
+               JJ        NNS              JJ           NN      
+                      |=======|     |========================| 
+                       Finding               Disorder          
+                      C0011900               C0409327          
+
+SENTENCE:  2. CHRONIC  RENAL   INSUFFICIENCY.
+                JJ       JJ         NN       
+                      |======|               
+                      Anatomy                
+                      C0022646               
+                      |====================| 
+                             Disorder        
+                             C1565489        
+              |============================| 
+                         Disorder            
+                         C0403447            
+
+SENTENCE:  3. ACUTE ON CHRONIC  RENAL   INSUFFICIENCY.
+               NN   IN   JJ       JJ         NN       
+                               |======|               
+                               Anatomy                
+                               C0022646               
+                               |====================| 
+                                      Disorder        
+                                      C1565489        
+                       |============================| 
+                                  Disorder            
+                                  C0403447            
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  Mr. Wolcott is  a  42-year-old
+           NNP   NNP   VBZ DT     NN  JJ 
+
+SENTENCE:  gentleman who underwent multiple
+              NN     WP     VBD       JJ   
+
+SENTENCE:  procedures on his  right   knee    , who presents for right   knee   
+              NNS     IN PRP$  JJ      NN       WP    VBZ    IN   JJ      NN    
+           |========|               |=======|                          |=======|
+           Procedure                 Anatomy                           Procedure
+            C0184661                C0022742                           C0562271 
+                                    |=======|                          |=======|
+                                    Procedure                           Anatomy 
+                                    C0562271                           C0022742 
+                              |=============|                    |=============|
+                                  Anatomy                            Anatomy    
+                                 C0230431                           C0230431    
+
+SENTENCE:  autologous chondrocyte implantation for a  right   knee    medial femoral 
+               JJ         NN           NN      IN  DT  JJ      NN       JJ      JJ   
+                      |=========| |==========|              |=======|        |======|
+                        Anatomy    Procedure                 Anatomy         Anatomy 
+                       C0225369     C0021107                C0022742         C0015811
+           |=================================|              |=======|                
+                        Procedure                           Procedure                
+                        C1446230                            C0562271                 
+                                                      |=============|                
+                                                          Anatomy                    
+                                                         C0230431                    
+
+SENTENCE:  condyle  defect.
+              NN      NN   
+           |======|        
+           Anatomy         
+           C0524414        
+
+SENTENCE:  He  also presents for an anteromedialization of the
+           PRP  RB    VBZ    IN  DT         NN          IN CD 
+
+SENTENCE:   tibial  tubercle for patellofemoral maltracking.
+              JJ       NN    IN        JJ           NN      
+           |======|              |========================| 
+           Anatomy                        Disorder          
+           C0040184                       C0409327          
+           |===============|                                
+                Anatomy                                     
+               C0448216                                     
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  His  past medical history  is  notable for
+           PRP$  JJ    JJ       NN    VBZ   JJ    IN 
+                             |======|                
+                             Finding                 
+                             C0262926                
+                |===================|                
+                       Finding                       
+                      C0455458                       
+
+SENTENCE:  glomerulonephritis with chronic  renal  
+                   NN          IN    JJ       JJ   
+           |================|              |======|
+                Disorder                   Anatomy 
+                C0017658                   C0022646
+
+SENTENCE:  insufficiency , for  renal   induced hypertension , for insomnia , for
+                NN         IN     JJ      VBN        NN        IN     NN      IN 
+                               |======|         |==========|       |======|      
+                               Anatomy            Disorder         Finding       
+                               C0022646           C0020538         C0917801      
+
+SENTENCE:   asthma  , and for gastroesophageal  reflux  disease .
+              NN      CC  IN         JJ           NN       NN    
+           |======|                            |======| |======| 
+           Disorder                            Disorder Disorder 
+           C0004096                            C0017168 C0012634 
+
+SENTENCE:  PAST SURGICAL HISTORY :
+            JJ     JJ       NN    
+                         |======| 
+                         Finding  
+                         C0262926 
+
+SENTENCE:  His  past surgical history  is  notable for
+           PRP$  JJ     JJ       NN    VBZ   JJ    IN 
+                              |======|                
+                              Finding                 
+                              C0262926                
+
+SENTENCE:  gastric  bypass   surgery , as well as  a  
+             JJ       NN       NN      RB  RB  IN PRP$
+                   |=======|                          
+                   Procedure                          
+                   C0741847                           
+           |===============|                          
+               Procedure                              
+               C0017125                               
+
+SENTENCE:  perianal abscess  that was treated with IV antibiotics , left   knee   
+              JJ       NN    WDT  VBD   VBN    IN  NN     NNS        JJ     NN    
+           |======| |======|                          |=========|        |=======|
+           Anatomy  Disorder                             Drug            Procedure
+           C0442158 C0000833                           C0003232          C0562271 
+           |===============|                                             |=======|
+               Disorder                                                   Anatomy 
+               C0031019                                                  C0022742 
+                                                                    |============|
+                                                                       Anatomy    
+                                                                       C0230432   
+
+SENTENCE:  autologous chondrocyte implantation in August of 1999 , and right
+               JJ         NN           NN      IN  NNP   IN        CC   JJ  
+                      |=========| |==========|                              
+                        Anatomy    Procedure                                
+                       C0225369     C0021107                                
+           |=================================|                              
+                        Procedure                                           
+                        C1446230                                            
+
+SENTENCE:    knee    osteochondral mosaic plasty in the past in August of 1998.
+              NN          JJ         JJ     NN   IN DT   NN  IN  NNP   IN      
+           |=======| |===========|                                             
+            Anatomy    Disorder                                                
+           C0022742    C0476169                                                
+           |=======|                                                           
+           Procedure                                                           
+           C0562271                                                            
+
+SENTENCE:  MEDICATION ALLERGIES:
+               NN        NNS    
+           |========| |=======| 
+              Drug     Finding  
+            C0013227  C0020517  
+
+SENTENCE:  None.
+            NN  
+
+SENTENCE:  ADMISSION MEDICATIONS INCLUDE:
+              NN         NNS       VBP   
+                     |=========|         
+                        Drug             
+                      C0013227           
+
+SENTENCE:  Atenolol 100 mg  q.a.m. , verapamil
+             NNP        NNS   FW        NN    
+           |======|                  |=======|
+             Drug                      Drug   
+           C0004147                  C0042523 
+
+SENTENCE:  180 mg  q.d. , Zaroxolyn 5 mg  q.a.m. ,
+               NNS  FW       NNP      NNS   FW    
+                          |=======|               
+                            Drug                  
+                          C0701383                
+
+SENTENCE:  doxepin  150 mg  q.h.s. ,  Valium  10 mg  b.i.d. , Percocet , Oxycontin 20
+              NN        NNS   FW       NNP       NNS   FW       NNP         NNP      
+           |======|                  |======|                 |======|   |=======|   
+             Drug                      Drug                     Drug       Drug      
+           C0013085                  C0699187                 C0086787   C0722364    
+
+SENTENCE:  mg  b.i.d. , and  Lasix   2.5 mg  q .d .
+           NNS   FW     CC    NNP        NNS FW NN 
+                            |======|               
+                              Drug                 
+                            C0699992               
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  He  lives with his  family , he  is  engaged and works
+           PRP  VBZ   IN  PRP$   NN     PRP VBZ   VBN   CC   VBZ 
+
+SENTENCE:  for the Wood  I  Ee
+           IN  DT   NN  PRP RB
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  Exam of his  right   knee    shows that his 
+            NN  IN PRP$  JJ      NN      VBZ   IN  PRP$
+                              |=======|                
+                               Anatomy                 
+                              C0022742                 
+                              |=======|                
+                              Procedure                
+                              C0562271                 
+                        |=============|                
+                            Anatomy                    
+                           C0230431                    
+
+SENTENCE:  incisions are well-healed.
+              NNS    VBP  RB   VBN   
+           |=======|                 
+           Procedure                 
+           C0184898                  
+
+SENTENCE:  There is  a    mild  
+            EX   VBZ DT    JJ   
+                        |======|
+                        Finding 
+                        C1513302
+
+SENTENCE:  effusion.
+              NN    
+           |======| 
+           Finding  
+           C0013687 
+
+SENTENCE:  Neurologic exam was intact.
+               JJ      NN  VBD   JJ   
+
+SENTENCE:  He  had tenderness over the
+           PRP VBD     NN      IN  CD 
+                   |========|         
+                    Finding           
+                    C0234233          
+
+SENTENCE:  medial femoral  condyle .
+             JJ      JJ       NN    
+                  |======| |======| 
+                  Anatomy  Anatomy  
+                  C0015811 C0524414 
+                  |===============| 
+                       Anatomy      
+                      C0582800      
+           |======================| 
+                   Anatomy          
+                   C0448196         
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was admitted on 3/5 For
+           DT    NN    VBD   VBN    IN     NN 
+
+SENTENCE:  details of the procedure he  underwent , please see
+             NNS   IN DT     NN     PRP    VBD        UH   VB 
+                          |=======|                           
+                          Procedure                           
+                          C0184661                            
+
+SENTENCE:  the operative note.
+           DT     JJ      NN  
+
+SENTENCE:  In brief , a  chondral defect of his  right   knee   
+           IN  JJ     DT    JJ      NN   IN PRP$  JJ      NN    
+                         |=============|               |=======|
+                            Disorder                    Anatomy 
+                            C0410334                   C0022742 
+                                                       |=======|
+                                                       Procedure
+                                                       C0562271 
+                                                 |=============|
+                                                     Anatomy    
+                                                    C0230431    
+
+SENTENCE:  and patellofemoral maltracking were noted.
+           CC        JJ           NN      VBD   VBN  
+               |========================|            
+                        Disorder                     
+                        C0409327                     
+
+SENTENCE:  He  then subsequently
+           PRP  RB       RB     
+
+SENTENCE:  underwent a  decompression of his  patellofemoral  joint   via a  4%
+              VBD    DT      NN       IN PRP$       JJ          NN    IN  DT   
+                        |===========|                        |======|          
+                          Procedure                          Anatomy           
+                          C1829459                           C0022417          
+                                              |=====================|          
+                                                      Anatomy                  
+                                                     C0447801                  
+
+SENTENCE:  Fulkerson procedure.
+              NNP       NN     
+                     |=======| 
+                     Procedure 
+                     C0184661  
+
+SENTENCE:  He  also underwent autologous chondrocyte
+           PRP  RB     VBD        JJ         NN     
+                                         |=========|
+                                           Anatomy  
+                                          C0225369  
+
+SENTENCE:  implantation to his  right   knee    medial femoral  condyle  defects.
+                NN      IN PRP$  JJ      NN       JJ      JJ       NN      NNS   
+           |==========|               |=======|        |======| |======|         
+            Procedure                  Anatomy         Anatomy  Anatomy          
+             C0021107                 C0022742         C0015811 C0524414         
+                                      |=======|        |===============|         
+                                      Procedure             Anatomy              
+                                      C0562271             C0582800              
+                                |=============| |======================|         
+                                    Anatomy             Anatomy                  
+                                   C0230431             C0448196                 
+
+SENTENCE:  He 
+           PRP
+
+SENTENCE:  tolerated this procedure well.
+              VBD     DT     NN      RB  
+                          |=======|      
+                          Procedure      
+                          C0184661       
+
+SENTENCE:  Postoperatively his  neurovascular
+                 RB        PRP$      JJ      
+
+SENTENCE:  status of his    limb   remained intact.
+             NN   IN PRP$    NN      VBD      JJ   
+                          |======|                 
+                          Anatomy                  
+                          C0015385                 
+
+SENTENCE:  A    drain   was left in place , and
+           DT    NN     VBD  JJ  IN  NN     CC 
+              |=======|                        
+              Procedure                        
+              C0013103                         
+
+SENTENCE:  care was taken to evaluate for compartment syndrome.
+            NN  VBD  VBN  TO    VB    IN      NN         NN    
+                                                      |======| 
+                                                      Disorder 
+                                                      C0039082 
+                                          |==================| 
+                                                Disorder       
+                                                C0009492       
+
+SENTENCE:  No
+           UH
+
+SENTENCE:  compartment syndrome did develop.
+               NN         NN    VBD   VB    
+                       |======|             
+                       Disorder             
+                       C0039082             
+           |==================|             
+                 Disorder                   
+                 C0009492                   
+
+SENTENCE:  He  did receive Coumadin
+           PRP VBD   VB      NNP   
+                           |======|
+                             Drug  
+                           C0699129
+
+SENTENCE:  anticoagulation for   DVT    prophylaxis.
+                 NN        IN     NN        NN      
+                               |======| |=========| 
+                               Disorder  Procedure  
+                               C0149871  C0199176   
+
+SENTENCE:  He  received perioperative
+           PRP   VBD         JJ      
+
+SENTENCE:  antibiotics.
+               NNS     
+           |=========| 
+              Drug     
+            C0003232   
+
+SENTENCE:  It  was noted that the lateral   skin     flap   over his 
+           PRP VBD  VBN   IN  DT    JJ       NN       NN     IN  PRP$
+                                          |======| |======|          
+                                          Anatomy  Anatomy           
+                                          C1123023 C0038925          
+                                          |===============|          
+                                               Anatomy               
+                                              C1562051               
+
+SENTENCE:  anterior   knee     wound   was erythematous and he  was restarted on  Keflex 
+              JJ       NN        NN    VBD      JJ      CC  PRP VBD    VBN    IN   NNP   
+           |======| |=======| |======|                                           |======|
+           Disorder  Anatomy  Disorder                                             Drug  
+           C0751437 C0022742  C0043250                                           C0700517
+                    |=======|                                                            
+                    Procedure                                                            
+                    C0562271                                                             
+
+SENTENCE:  after his  IV antibiotics were discontinued.
+            IN   PRP$ NN     NNS     VBD      VBN      
+                         |=========|                   
+                            Drug                       
+                          C0003232                     
+
+SENTENCE:  His  postoperative
+           PRP$      JJ      
+
+SENTENCE:  course was notable for a  worsening and acute onset of  renal   failure
+             NN   VBD   JJ    IN  DT    NN     CC   JJ    NN   IN    JJ      NN   
+                                                                  |======|        
+                                                                  Anatomy         
+                                                                  C0022646        
+                                                                  |==============|
+                                                                      Disorder    
+                                                                      C0035078    
+
+SENTENCE:  on top of his  chronic  renal   insufficiency.
+           IN NN  IN PRP$   JJ       JJ         NN       
+                                  |======|               
+                                  Anatomy                
+                                  C0022646               
+                                  |====================| 
+                                         Disorder        
+                                         C1565489        
+                          |============================| 
+                                     Disorder            
+                                     C0403447            
+
+SENTENCE:  He  was evaluated very
+           PRP VBD    VBN     RB 
+
+SENTENCE:  closely and followed by the  Renal   Consult Service .
+             RB    CC    VBN    IN DT     JJ      NN       NN    
+                                       |======|         |======| 
+                                       Anatomy          Finding  
+                                       C0022646         C0557854 
+
+SENTENCE:  His  creatinine
+           PRP$     NN    
+                |========|
+                   Drug   
+                 C0010294 
+
+SENTENCE:  did   rise   from a  baseline of around 4 up to 6.7.
+           VBD    NN     IN  DT    NN    IN   NN     RP IN     
+               |======|                                        
+                 Drug                                          
+               C0246719                                        
+
+SENTENCE:  At the time of
+           IN DT   NN  . 
+
+SENTENCE:  discharge , his  creatinine had begun to fall and his   renal   status
+              NN       PRP$     NN     VBD  VBN  TO  VB  CC  PRP$    JJ      NN  
+                            |========|                            |======|       
+                               Drug                               Anatomy        
+                             C0010294                             C0022646       
+
+SENTENCE:  had stabilized.
+           VBD    VBN     
+
+SENTENCE:  He  was seen by Physical  Therapy  , and he  was placed in a  continuous
+           PRP VBD VBN  IN    JJ       NN       CC  PRP VBD  VBN   IN DT     JJ    
+                                    |=======|                                      
+                                    Procedure                                      
+                                    C0087111                                       
+                           |================|                                      
+                               Procedure                                           
+                                C0949766                                           
+
+SENTENCE:  passive motion machine to maintain   knee    motion.
+             JJ      NN     NN    IN    JJ       NN       NN   
+           |============|                     |=======|        
+              Finding                          Anatomy         
+              C0079991                        C0022742         
+                                              |=======|        
+                                              Procedure        
+                                              C0562271         
+
+SENTENCE:  He  was ambulated
+           PRP VBD    JJ    
+
+SENTENCE:   touch   down weightbearing on his  right   leg   .
+              NN     IN       NN       IN PRP$  JJ      NN    
+           |======|                                  |======| 
+           Finding                                   Anatomy  
+           C0702221                                  C1140621 
+                                               |============| 
+                                                  Anatomy     
+                                                  C0230442    
+
+SENTENCE:  He  was to undergo no
+           PRP VBD TO   VB    UH
+
+SENTENCE:  active extension of his  right   knee   .
+             JJ      NN     IN PRP$  JJ      NN     
+                                          |=======| 
+                                          Procedure 
+                                          C0562271  
+                                          |=======| 
+                                           Anatomy  
+                                          C0022742  
+                                    |=============| 
+                                        Anatomy     
+                                       C0230431     
+
+SENTENCE:  He  was ready for discharge on
+           PRP VBD  JJ   IN     NN     . 
+                   |=================|   
+                         Finding         
+                        C2314972         
+
+SENTENCE:  10/28/01.
+                    
+
+SENTENCE:  Discharge condition stable.
+              JJ        NN       JJ   
+                     |=======|        
+                     Disorder         
+                     C0012634         
+
+SENTENCE:  DISCHARGE INSTRUCTIONS:
+              NNP        NNS      
+
+SENTENCE:  1. Follow-up with Dr. Kurtis Capes
+                NN   NN  IN  NNP  NNP    NNP 
+              |=======|                      
+               Finding                       
+              C0589120                       
+
+SENTENCE:  2. Coumadin anticoagulation for   DVT    prophylaxis for an    INR    goal of
+                NNP          NN        IN     NN        NN      IN  DT    NN      NN  IN
+              |======|                     |======| |=========|        |=======|        
+                Drug                       Disorder  Procedure         Procedure        
+              C0699129                     C0149871  C0199176          C0525032         
+
+SENTENCE:  1.5 to 2.0.
+               IN     
+
+SENTENCE:  3.
+             
+
+SENTENCE:  A  course of p.o.  Keflex .
+           DT   NN   IN  FW    NNP    
+                             |======| 
+                               Drug   
+                             C0700517 
+
+SENTENCE:  4. Home   CPM   .
+               NN     NN    
+                   |======| 
+                     Drug   
+                   C0010583 
+
+SENTENCE:  5.  Touch   down weightbearing with crutches for his  right   leg   .
+                 NN     IN       NN        IN    NNS    IN  PRP$  JJ      NN    
+              |======|                                                 |======| 
+              Finding                                                  Anatomy  
+              C0702221                                                 C1140621 
+                                                                 |============| 
+                                                                    Anatomy     
+                                                                    C0230442    
+
+SENTENCE:  6. Active assisted range of motion and flexion  of his    knee    , no
+                JJ      JJ     NN   IN   NN   CC     NN    IN PRP$    NN       JJ
+                              |=============|     |======|         |=======|     
+                                 Procedure        Finding          Procedure     
+                                 C0150220         C0231452         C0562271      
+                                                                   |=======|     
+                                                                    Anatomy      
+                                                                   C0022742      
+
+SENTENCE:  active extension.
+             JJ      NN     
+
+SENTENCE:  7. Follow-up with his   primary  nephrologist regarding his   renal  
+                NN   NN  IN  PRP$    JJ          NN         VBG    PRP$    JJ   
+              |=======|           |=======|                             |======|
+               Finding            Procedure                             Anatomy 
+              C0589120            C0439631                              C0022646
+
+SENTENCE:  insufficiency.
+                NN       
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  TUAN TREESE ,  M . D .
+            NN    NN     NNP NNP 
+
+SENTENCE:  TS47
+            NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  CRUZ ROHLING ,  M . D .
+           NNP    NN      NNP NNP 
+
+SENTENCE:  DN43
+            NN 
+
+SENTENCE:  UE214/494158
+            NN         
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  25178 Index No. M7DGLE3L89 D : 10/19/01
+                  NNP  NN      CD     NN          
+
+SENTENCE:  T : 10/19/01
+           NN          
+

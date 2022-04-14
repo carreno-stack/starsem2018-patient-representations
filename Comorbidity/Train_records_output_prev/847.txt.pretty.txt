@@ -1,0 +1,748 @@
+SENTENCE:  283859600 | GEW | 26715495 | | 0481024 | 11/27/2004 12:00:00 AM | Atypical  Chest     Pain   | |   DIS    | Admission Date:
+                       NN                                               NN      JJ       NN       NN           NN         NN      NN  
+                                                                                      |======| |======|     |======|                  
+                                                                                      Anatomy  Finding      Finding                   
+                                                                                      C0817096 C0030193     C1444662                  
+                                                                                      |===============|     |======|                  
+                                                                                           Finding          Disorder                  
+                                                                                          C0008031          C0012634                  
+                                                                                                            C1970187                  
+                                                                             |========================|                               
+                                                                                      Finding                                         
+                                                                                      C0262384                                        
+
+SENTENCE:  3/22/2004 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  7/18/2004
+                    
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  STACKEN , COLUMBUS 194-68-13-1
+             NN         NN               
+
+SENTENCE:  Chu   Bus    And
+           NNP   NNP    CC 
+               |======|    
+                 Drug      
+               C0006463    
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  7/14/04 AT 05:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON HO evaluation
+               NN      IN  NN     NN    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  BENBERRY , GERALD G.  ,  M . D .
+              NN       NNP   NNP   NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Skilled Nursing  Facility
+             VBN      NN       NN   
+                   |======|         
+                   Finding          
+                   C0006147         
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ECASA ( ASPIRIN  ENTERIC COATED ) 81 MG PO QD
+            NN        NN      JJ     VBN        NN FW FW
+                   |======|                             
+                     Drug                               
+                   C0004057                             
+
+SENTENCE:  Starting  Today   ( 3/3 )
+              NN       NN           
+                    |======|        
+                      Drug          
+                    C0310367        
+
+SENTENCE:   ATIVAN  ( LORAZEPAM ) 0.5 MG PO BID PRN Anxiety 
+              NN         NNP          NN NN FW  FW     NN   
+           |======|   |=======|                     |======|
+             Drug       Drug                        Disorder
+           C0699194   C0024002                      C0003467
+
+SENTENCE:  ZYPREXA  ( OLANZAPINE ) 5 MG PO QHS
+              NN          NN         NN JJ NN 
+           |======|   |========|              
+             Drug        Drug                 
+           C0527258    C0171023               
+
+SENTENCE:  Number of Doses Required ( approximate ): 4
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:  LIPITOR  ( ATORVASTATIN ) 10 MG PO QD
+              NN          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0593906     C0286651                
+
+SENTENCE:  PROTONIX ( PANTOPRAZOLE ) 20 MG PO QD
+             NNP          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0876139     C0081876                
+
+SENTENCE:  LOPRESSOR ( METOPROLOL TARTRATE ) 25 MG PO TID
+              NN          NNP       NNP         NN JJ NN 
+           |=======|   |========| |======|               
+             Drug         Drug      Drug                 
+           C0700776     C0025859  C0144544               
+                       |=================|               
+                              Drug                       
+                            C0700548                     
+
+SENTENCE:  Starting  Today   ( 5/20 ) HOLD IF:
+              NN       NN              NN  IN 
+                    |======|                  
+                      Drug                    
+                    C0310367                  
+
+SENTENCE:  SBP<85 , HR<55
+           NN       NN   
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  May titrate dose to keep pt's HR btw 60-90
+           MD    VB     NN  TO  VB  NN   NN IN       
+
+SENTENCE:  bpm.
+           NN  
+
+SENTENCE:  Eventually , if patient tolerates , may change to
+               RB       IN   NN       VBZ      MD    VB   TO
+
+SENTENCE:  pt's home med of Atenolol 25 mg  qd.
+           NN    NN  VBD IN   NNP       NNS FW 
+                            |======|           
+                              Drug             
+                            C0004147           
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  LEVOFLOXACIN 500 MG PO QD  X  6 Days
+                NN          NN FW FW NNP   NNS 
+           |==========|                        
+               Drug                            
+             C0282386                          
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Administer   iron   products a  minimum of 2 hours before or
+               VB        NN      NNS    DT   NN    IN    NNS    IN   CC
+                      |======|                                         
+                        Drug                                           
+                      C0302583                                         
+
+SENTENCE:  after a  levofloxacin or ciprofloxacin dose dose
+            IN   DT      NN      CC      NN        NN   NN 
+                    |==========|    |===========|          
+                        Drug            Drug               
+                      C0282386        C0008809             
+
+SENTENCE:  If on tube feeds , please cycle ( hold 1 hr before to 2 hr 
+           IN IN  NN   NNS      NN    NN      NN    NN   IN   IN   NNS
+
+SENTENCE:  after ) Take 2 hours before or 2 hours after dairy products.
+            NN      VB     NNS    IN   CC    NNS   IN    JJ     NNS    
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET: 4 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Please follow-up with Dr. Irving Mingo on June , 2004 at 2:30 p.m. ,
+             UH     VB   RP  IN  NNP  NNP    NNP  IN NNP         IN       NN   
+
+SENTENCE:  Dr. Phillip Sirhan , Gastroenterology , 335.575.1509 , on 10/28/04 at 9:15 ,
+           NNP   NNP    NNP           NNP                         IN          IN       
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  NKA
+           NN 
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  Atypical  Chest     Pain  
+              JJ       NN       NN   
+                    |======| |======|
+                    Anatomy  Finding 
+                    C0817096 C0030193
+                    |===============|
+                         Finding     
+                        C0008031     
+           |========================|
+                    Finding          
+                    C0262384         
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  Atypical  Chest     Pain  
+              JJ       NN       NN   
+                    |======| |======|
+                    Anatomy  Finding 
+                    C0817096 C0030193
+                    |===============|
+                         Finding     
+                        C0008031     
+           |========================|
+                    Finding          
+                    C0262384         
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  gastritis ( gastritis ) esophagitis ( esophagitis ) hypertension
+              NN          NN           NN            NN             NN     
+           |=======|   |=======|   |=========|   |=========|   |==========|
+           Disorder    Disorder     Disorder      Disorder       Disorder  
+           C0017152    C0017152     C0014868      C0014868       C0020538  
+
+SENTENCE:  ( hypertension ) hyperlipidemia ( hyperlipidemia ) h /o  colonic  adenoma 
+                  NN              NN               NN         NN IN    JJ       NN   
+             |==========|   |============|   |============|         |======| |======|
+               Disorder        Disorder         Disorder            Anatomy  Disorder
+               C0020538        C0020473         C0020473            C0009368 C0001430
+                                                                    |===============|
+                                                                        Disorder     
+                                                                        C0850572     
+
+SENTENCE:  (  H /O  adenomatous  polyp   ) remote h /o  alcohol  (  H /O  alcohol   abuse   )
+             NNP IN     JJ         NN        JJ   NN IN    NN      NNP IN    NN       NN     
+                                |======|                |======|          |======| |======|  
+                                Disorder                  Drug              Drug   Disorder  
+                                C0032584                C0001962          C0001962 C0013146  
+                    |==================|                                           |======|  
+                          Disorder                                                 Finding   
+                          C0206677                                                 C0562381  
+                                                                          |===============|  
+                                                                              Disorder       
+                                                                              C0085762       
+
+SENTENCE:  depression , h /o  suicide  attempt ( depression )
+               NN       NN IN    NN      NN          NN      
+           |========|         |======|           |========|  
+            Disorder          Finding             Disorder   
+            C0011581          C0038661            C0011581   
+                              |==============|               
+                                  Finding                    
+                                  C0038663                   
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  Adenosine mibi 11/10/04 , no ischemia , no    ECG    changes , small region   mild  
+              NN      NN             DT    NN      DT    NN       NNS      JJ     NN      JJ   
+           |=======|                    |======|      |=======|                        |======|
+             Drug                       Finding       Procedure                        Finding 
+           C0001443                     C0022116      C1623258                         C1513302
+
+SENTENCE:   stress -induced ischemia.
+              NN      VBN      NN    
+           |======|         |======| 
+           Finding          Finding  
+           C0038435         C0022116 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  70 yo F  c  esophagitis ,   HTN    , hyperlipidemia who presented with SSCP
+              JJ NN NN     NN           NN            NN       WP     VBD     IN  NNP 
+                       |=========|   |======|   |============|                        
+                        Disorder     Disorder      Disorder                           
+                        C0014868     C0020538      C0020473                           
+
+SENTENCE:  intermittent over 8 hours.
+                JJ       IN     NNS  
+
+SENTENCE:  Episodes lasted 8-10 minutes.
+             NNS     VBD          NNS   
+
+SENTENCE:  The   pain   was
+           DT     NN    VBD
+               |======|    
+               Finding     
+               C0030193    
+
+SENTENCE:  non-radiating and 3/10.
+                JJ       CC       
+
+SENTENCE:  Associated  nausea  ,   mild   diaphoresis.
+              VBN        NN         JJ        NN      
+                      |======|   |======| |=========| 
+                      Finding    Finding    Finding   
+                      C0027497   C1513302  C0700590   
+
+SENTENCE:  Noted some
+            VBN   :  
+
+SENTENCE:  epigastric   pain   , similar to prior bouts of gastritis.
+               JJ        NN        JJ    IN  JJ    NNS  IN    NN     
+                      |======|                             |=======| 
+                      Finding                              Disorder  
+                      C0030193                             C0017152  
+           |=================|                                       
+                 Finding                                             
+                C0232493                                             
+
+SENTENCE:  Better when
+            NNP   WRB 
+
+SENTENCE:  lying down and with pepto-bismol.
+            VBG   RB  CC   IN   NN     NN   
+                               |==========| 
+                                   Drug     
+                                 C0136074   
+
+SENTENCE:  Pt had similar sx  2 days   PTA    after  a  
+           NN VBD   JJ    NNS   NNS     NN     IN   PRP$
+                                     |======|           
+                                       Drug             
+                                     C0015522           
+
+SENTENCE:  large meal.
+            JJ    NN  
+
+SENTENCE:    ROS    + for night  sweats  but no F /C  or  weight   loss.
+              NN      IN   NN     NNS    CC  DT NN NN CC    NN      NN  
+           |======|             |======|                 |=======|      
+             Drug               Finding                  Procedure      
+           C0073591             C0038990                 C1305866       
+           C0289313                                                     
+                          |============|                 |============| 
+                             Finding                        Finding     
+                             C0028081                       C1262477    
+
+SENTENCE:  At home
+           IN  NN 
+
+SENTENCE:  pt is  on b -blocker ,  statin  ,   ASA   .
+           NN VBZ IN NN   NN         NN         NN    
+                                  |======|   |======| 
+                                    Drug       Drug   
+                                  C0360714   C0004057 
+
+SENTENCE:  Pt had echo in '94 that showed EF 60% ,
+           NN VBD  NN  IN     WDT   VBD   NN      
+
+SENTENCE:    mild     LVH   .
+              JJ       NN    
+           |======| |======| 
+           Finding  Disorder 
+           C1513302 C0149721 
+
+SENTENCE:  VS in ED T99 , CE72 , BP120/p  , o2 97RA.
+           NN IN NN NN     NN     NN   NN   NN  NN  
+
+SENTENCE:  Got   ASA    325 , heparin 
+           NN     NN             NN   
+               |======|       |======|
+                 Drug           Drug  
+               C0004057       C0019134
+
+SENTENCE:    gtt    , MSO4 2mg , NTG 0.4mg  SL .
+              NN       NN  NN    NNP    NNS NNP 
+           |======|                             
+           Disorder                             
+           C1135868                             
+
+SENTENCE:  Pt became   pain  -free 15 min after taking
+           NN  VBD      NN     JJ     NNS  IN    VBG  
+                     |======|                         
+                     Finding                          
+                     C0030193                         
+
+SENTENCE:  NTG.
+           NN  
+
+SENTENCE:  **PE CV RRR s   m /r / g   lungs   clear ,   abd    soft ,   ext    c  trace  pedal  
+             NN NN NN  NN NNS VB NNS   NNS     JJ        NN     JJ       NN    NN  NN      NN   
+                                     |======|         |======|        |======|          |======|
+                                     Anatomy          Anatomy         Disorder          Anatomy 
+                                     C0024109         C0000726        C0015306          C0016504
+
+SENTENCE:   edema  .
+              NN    
+           |======| 
+           Finding  
+           C0013604 
+
+SENTENCE:  neuro:
+            NN   
+
+SENTENCE:  pt  c    mild   confusion , flat  affect .
+           NN VBZ    JJ       NN        JJ     NN    
+                  |======| |=======|        |======| 
+                  Finding  Disorder         Finding  
+                  C1513302 C0009676         C0001721 
+                                       |===========| 
+                                          Finding    
+                                         C0233471    
+
+SENTENCE:  Admit   labs   nL c  K  3.2.
+            VB     NNS    JJ NN NN     
+                 |======|              
+                 Finding               
+                 C0587081              
+
+SENTENCE:  A &B  sets negative ,    EKG     normal  s  ST changes.
+           LS NN  JJ     JJ         NN        JJ    NN NN   NNS   
+                                 |=======| |======|               
+                                 Procedure Finding                
+                                 C1623258  C0231683               
+                                           C0558145               
+                                 |================|               
+                                      Finding                     
+                                      C0522054                    
+
+SENTENCE:  **HOSPITAL COURSE: 1 ) SSCP:
+                NN      NN         NN  
+
+SENTENCE:  Pt went for ETT but was  unable  to complete
+           NN VBD  IN  NN  CC  VBD    JJ    IN    JJ   
+                                   |======|            
+                                   Finding             
+                                   C1299582            
+
+SENTENCE:  2/2 dizziness.
+                  NN     
+               |=======| 
+                Finding  
+               C0012833  
+
+SENTENCE:     EKG    c /w  but not diagnostic of ischemia.
+              NN     NN IN CC  RB      JJ     IN    NN    
+           |=======|               |========|    |======| 
+           Procedure               Procedure     Finding  
+           C1623258                 C0430022     C0022116 
+
+SENTENCE:  Pt found to be
+           NN  VBD  IN NN
+
+SENTENCE:  hypotensive to 100/70 , orthostatic.
+               JJ      IN              JJ      
+
+SENTENCE:  Pt's hx of gastritis and  reflux 
+           NN   NN IN    NN     CC     NN   
+                      |=======|     |======|
+                      Disorder      Disorder
+                      C0017152      C0017168
+
+SENTENCE:  places GI causes high on ddx list , in addition pt had v  low grade  fever  
+            NNS   NN  VBZ    JJ  IN NN   NN    IN    NN    NN VBD JJ JJ   NN      NN   
+                                                                               |======|
+                                                                               Finding 
+                                                                               C0015967
+                                                                     |================|
+                                                                          Finding      
+                                                                          C0239574     
+
+SENTENCE:  on admit ( to 100 ) and c /o    sore    throat .
+           IN  NN     IN       CC  NN IN    JJ       NN    
+                                         |======| |======| 
+                                         Finding  Anatomy  
+                                         C0234233 C0031354 
+                                         |===============| 
+                                              Finding      
+                                             C0242429      
+
+SENTENCE:  Pt had a-mibi 7/20 , overall no
+           NN VBD   NN            JJ    UH
+
+SENTENCE:  nonischemic c  small area  stress -induced ischemic change.
+               JJ      NN  JJ    NN     NN      VBN      JJ      NN   
+                                     |======|                         
+                                     Finding                          
+                                     C0038435                         
+
+SENTENCE:  Over
+            RB 
+
+SENTENCE:  hospital course , pt c  decreased orthostasis but after team d /  ced    b -bl
+              NN      NN     NN NN    VBN        NN      CC   IN    NN  NN    JJ    NN NN
+                                                                           |======|      
+                                                                           Disorder      
+                                                                           C0011989      
+                                                                           |======|      
+                                                                             Drug        
+                                                                           C0007738      
+
+SENTENCE:  ocker on 7/20 pt has had  sinus   tach to 100s c  130-150 on exertion.
+            NN   IN      NN VBZ VBN    NN     NN  IN  NN  NN         IN    NN    
+                                    |======|                            |======| 
+                                    Anatomy                             Finding  
+                                    C0030471                            C0015264 
+                                    |===========|                                
+                                      Disorder                                   
+                                      C0039239                                   
+
+SENTENCE:  Run   SVT    in am 2/30 BP increased to 130s/80s , titrating lopressor to
+           VB     NN    IN NN      NN    VBN    IN  NN  CD       NN        NN     TO
+               |======|                                                 |=======|   
+               Disorder                                                   Drug      
+               C0039240                                                 C0700776    
+
+SENTENCE:  decrease HR.
+              VB    NN 
+
+SENTENCE:  Of note , pt was found to have am cortisol of 9.2 ( at 8:30
+           IN  NN    NN VBD  VBN  TO  VB  NN    NN    IN       IN     
+                                             |======|                 
+                                               Drug                   
+                                             C0020268                 
+
+SENTENCE:  am , checked as part of orthostasis w /u  ) and may need cortictropin   sti   
+           NN     VBN   IN  NN  IN     NN      IN NN   CC  MD   VB       NN         NN   
+                                                                                 |======|
+                                                                                 Disorder
+                                                                                 C0036916
+
+SENTENCE:  m    test    as o /p .
+           NN    NN     IN RP NN 
+              |=======|          
+               Finding           
+              C0456984           
+              |=======|          
+              Procedure          
+              C0022885           
+
+SENTENCE:  2 ) H /O  GASTRITIS AND ESOPHAGITIS:
+               NN IN    NN     CC      NN      
+                     |=======|     |=========| 
+                     Disorder       Disorder   
+                     C0017152       C0014868   
+
+SENTENCE:  continuing on   ppi    , prn  maalox  , has
+              VBG     IN    NN      FW     NN      NNS
+                         |======|       |======|      
+                           Drug           Drug        
+                         C0358591       C0065461      
+
+SENTENCE:  appt c  GI 10/28/04
+            NN  NN NN         
+
+SENTENCE:  3 ) NEURO/PSYCH:
+                NN    NN   
+
+SENTENCE:  Pt c  v. flat  affect  and h /o  depression.
+           NN NN NN  JJ     NN    CC  NN IN     NN     
+                         |======|           |========| 
+                         Finding             Disorder  
+                         C0001721            C0011581  
+                    |===========|                      
+                       Finding                         
+                      C0233471                         
+
+SENTENCE:  Continue
+              NN   
+
+SENTENCE:  Zyprexa  and pr  Ativan .
+             NNP    CC  JJ   NNP    
+           |======|        |======| 
+             Drug            Drug   
+           C0527258        C0699194 
+
+SENTENCE:  4 ) FEN:
+               NN  
+
+SENTENCE:  pt taking po.
+           NN  VBG   FW 
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Please note that we  have intended to make no changes in your home
+             UH    VB   IN  PRP VBP    VBN    TO  VB  DT   NNS   IN PRP$  NN 
+
+SENTENCE:  medications except the following:
+               NNS       IN   DT     NN     
+           |=========|                      
+              Drug                          
+            C0013227                        
+
+SENTENCE:  Take 25 mg  lopressor 3 times daily.
+            VB     NNS    NN        NNS   RB   
+                       |=======|               
+                         Drug                  
+                       C0700776                
+
+SENTENCE:  Take levofloxacin daily for 6 more days.
+            VB       NN       RB   IN    RBR  NNS  
+                |==========|                       
+                    Drug                           
+                  C0282386                         
+
+SENTENCE:  It  is  critical that you
+           PRP VBZ    JJ     IN  PRP
+
+SENTENCE:  continue to be followed by your  primary  physicians , including Dr. Quintin Schecter on June as outlined for further evaluation.
+              VB    TO VB   VBN    IN PRP$    JJ        NNS          VBG    NNP   NNP     NNP    IN NNP  IN   VBN    IN    JJ        NN     
+                                           |=======|                                                                                        
+                                           Procedure                                                                                        
+                                           C0439631                                                                                         
+
+SENTENCE:  Seek
+            NN 
+
+SENTENCE:  medical attention immediately if you develop anything of concern.
+             JJ       NN         RB      IN PRP   VBP      NN    IN   NN    
+                   |=======|                                                
+                    Finding                                                 
+                   C0004268                                                 
+
+SENTENCE:  Drink
+            NNP 
+
+SENTENCE:  plenty of liquids.
+             NN   IN   NNS   
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  MOOREFIELD , RICKY E.  , M.D. ( EH06 ) 6/24/04 @ 01
+               NN        NN   NNP   NNP     NN                
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

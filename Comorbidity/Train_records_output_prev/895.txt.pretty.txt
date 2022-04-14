@@ -1,0 +1,715 @@
+SENTENCE:  153468102 |   HCH    | 97090064 | | 7688557 | 10/13/2003 12:00:00 AM | L    foot     gout   | |   DIS    | Admission Date:
+                          NN                                                 NN   JJ    NN       NN           NN         NN      NN  
+                       |======|                                                      |======| |======|     |======|                  
+                       Disorder                                                      Anatomy  Disorder     Finding                   
+                       C0410529                                                      C0016504 C0018099     C1444662                  
+                                                                                                           |======|                  
+                                                                                                           Disorder                  
+                                                                                                           C0012634                  
+                                                                                                           C1970187                  
+
+SENTENCE:  3/29/2003 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  6/2/2003
+                   
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  TADT , BRUCE F.  221-94-62-8
+            NN     NN   NNP            
+
+SENTENCE:  Er , Vermont 08030
+           NN     NN         
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  9/6/03 AT 02:00 PM
+                  IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  MARRA , VERN J.  ,  M . D .
+            NN      NN  NNP   NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ACETYLSALICYLIC ACID 325 MG PO QD
+                 NN         NN      NN FW FW
+           |==================|             
+                   Drug                     
+                 C0004057                   
+
+SENTENCE:  COLCHICINE 0.6 MG PO BID
+               NN         NN NN RB 
+           |========|              
+              Drug                 
+            C0009262               
+
+SENTENCE:   LOPID   ( GEMFIBROZIL ) 600 MG PO BID
+              NN          NNP           NN NN RB 
+           |======|   |=========|                
+             Drug        Drug                    
+           C0700003    C0017245                  
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 8/19/03 by
+              JJ     VBN  IN         . 
+
+SENTENCE:  CARPENTE , WILLY ZACKARY , M.D. ,  M . S .
+              NN       RB     NNP     NNP    NNP NNP 
+
+SENTENCE:  SERIOUS INTERACTION:
+             JJ        NN      
+                   |=========| 
+                     Finding   
+                    C0687133   
+
+SENTENCE:  SIMVASTATIN & GEMFIBROZIL
+               NN            NN     
+           |=========|   |=========|
+              Drug          Drug    
+            C0074554      C0017245  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  SIMVASTATIN & GEMFIBROZIL
+               NN            NN     
+           |=========|   |=========|
+              Drug          Drug    
+            C0074554      C0017245  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  GLIPIZIDE 10 MG PO BID
+              NN        NN NN RB 
+           |=======|             
+             Drug                
+           C0017642              
+
+SENTENCE:  LISINOPRIL 40 MG PO QD
+               NN        NN FW FW
+           |========|            
+              Drug               
+            C0065374             
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 8/19/03 by
+              JJ     VBN  IN         . 
+
+SENTENCE:  MCGARVEY , OTTO F.  ,  M . D .
+              NN      NNP  NNP   NNP NNP 
+
+SENTENCE:  on order for   KCL    IMMEDIATE  RELEASE  PO ( ref # 98466792 )
+           IN  NN   IN    NNP       NN        NN     NN   NN              
+                        |======|           |=======|                      
+                          Drug             Procedure                      
+                        C0032825           C1963578                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL & POTASSIUM
+               NN          NN    
+           |========|   |=======|
+              Drug        Drug   
+            C0065374    C0032821 
+
+SENTENCE:  CHLORIDE Reason for override:
+              NN      NN   IN     NN    
+           |======|                     
+             Drug                       
+           C0596019                     
+
+SENTENCE:  pt not on potassium-sparing
+           NN RB  IN    NN       NN   
+                     |=======|        
+                       Drug           
+                     C0032821         
+
+SENTENCE:  diuretic
+              NN   
+           |======|
+             Drug  
+           C0012798
+
+SENTENCE:  NADOLOL  40 MG PO Q24H Food/  Drug   Interaction Instruction
+             NNP       NN JJ  NN   NN     NN        NN          NN     
+           |======|                    |======| |=========|            
+             Drug                        Drug     Finding              
+           C0027302                    C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:   ZOCOR   ( SIMVASTATIN ) 20 MG PO QHS
+             NNP          NNP          NN JJ NN 
+           |======|   |=========|               
+             Drug        Drug                   
+           C0678181    C0074554                 
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 8/19/03 by
+              JJ     VBN  IN         . 
+
+SENTENCE:  MCCULLER , BENNIE NOBLE , M.D. ,  M . S .
+              NN       NNP    NNP    NNP    NNP NNP 
+
+SENTENCE:  on order for  LOPID   PO ( ref # 82956430 )
+           IN  NN   IN     NN    NN   NN              
+                        |======|                      
+                          Drug                        
+                        C0700003                      
+
+SENTENCE:  SERIOUS INTERACTION:
+             JJ        NN      
+                   |=========| 
+                     Finding   
+                    C0687133   
+
+SENTENCE:  SIMVASTATIN & GEMFIBROZIL
+               NN            NN     
+           |=========|   |=========|
+              Drug          Drug    
+            C0074554      C0017245  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  SIMVASTATIN & GEMFIBROZIL
+               NN            NN     
+           |=========|   |=========|
+              Drug          Drug    
+            C0074554      C0017245  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:   aware  
+              JJ   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:   IMDUR   ( ISOSORBIDE MONONIT.
+              NN         NNP       NNP   
+           |======|   |========|         
+             Drug        Drug            
+           C0590690    C0022251          
+
+SENTENCE:  ( SR  ) ) 30 MG PO QD
+             NNP        NN FW FW
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Give on an empty stomach  ( give 1hr before or 2hr after
+            VB  IN DT  JJ      NN       VB  NN    IN   CC NN   NN  
+                            |======|                               
+                            Disorder                               
+                            C0038354                               
+                            |======|                               
+                            Anatomy                                
+                            C1278920                               
+                            C3714551                               
+
+SENTENCE:  food )
+            NN   
+
+SENTENCE:  METFORMIN 500 MG PO BID
+              NNP        NN JJ NN 
+           |=======|              
+             Drug                 
+           C0025598               
+
+SENTENCE:  MICONAZOLE NITRATE 2%  POWDER  TOPICAL  TP BID
+               NN       NN          NN       JJ    NN FW 
+           |========|            |======| |======|       
+              Drug                 Drug     Drug         
+            C0025942             C0032861 C1710439       
+           |================|                            
+                  Drug                                   
+                C0086620                                 
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  apply to L    foot   in between   toes  
+            VB   IN JJ    NN    IN   IN      NNS   
+                       |======|            |======|
+                       Anatomy             Anatomy 
+                       C0016504            C0040357
+
+SENTENCE:  PERCOCET 1   TAB    PO Q4-6H PRN   Pain  
+              NN         NN    JJ NN NN FW     NN   
+           |======|   |======|              |======|
+             Drug       Drug                Finding 
+           C0086787   C0039225              C0030193
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  Do  not drink alcohol  , drive a  vehicle  , or
+           VBP RB   VB      NN       VB   DT    NN      CC
+                         |======|            |======|     
+                           Drug                Drug       
+                         C0001962            C0042444     
+
+SENTENCE:  operate heavy machinery while taking this medication as it 
+             JJ     JJ      NN      IN    VBG    DT      NN     IN PRP
+                         |=======|                   |========|       
+                         Disorder                       Drug          
+                         C0337246                     C0013227        
+
+SENTENCE:  may cause drowsiness.
+           MD   VB       NN     
+                     |========| 
+                      Finding   
+                      C0013144  
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 9/6/03 by :
+              JJ     VBN  IN        IN  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ACETAMINOPHEN &
+                NNP       
+           |===========|  
+               Drug       
+             C0000970     
+
+SENTENCE:  ACETAMINOPHEN Reason for override:
+                NNP        NN   IN     NN    
+           |===========|                     
+               Drug                          
+             C0000970                        
+
+SENTENCE:   aware   , will warn patient
+              JJ       MD   VB    NN   
+           |======|                    
+           Finding                     
+           C0004448                    
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  No Restrictions
+           DT     NNS     
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Resume regular exercise
+             VB     JJ       NN   
+                          |======|
+                          Finding 
+                          C0015259
+                  |==============|
+                      Finding     
+                      C0582191    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Erbe ( Dr  Reaux office ) Tue 8/15 at 10:30am scheduled ,
+           NNP NNP    NNP  NN     NN     NN       IN     NN     VBN     
+
+SENTENCE:  No Known Allergies
+           DT  JJ      NNS   
+                    |=======|
+                     Finding 
+                    C0020517 
+           |================|
+                Finding      
+                C0262580     
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  L    foot   cellulitis
+           JJ    NN        NN    
+              |======| |========|
+              Anatomy   Finding  
+              C0016504  C0007642 
+              |=================|
+                   Disorder      
+                   C0558382      
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  L    foot     gout  
+           JJ    NN       NN   
+              |======| |======|
+              Anatomy  Disorder
+              C0016504 C0018099
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    cad    ( coronary  artery  disease  ) dm ( diabetes mellitus ) high chol
+              NN         JJ       NN       NN      NN      NN       NN       JJ   NN 
+           |======|   |======| |======| |======|        |======|                     
+           Disorder   Anatomy  Anatomy  Disorder        Disorder                     
+           C1956346   C0018787 C0003842 C0012634        C0011849                     
+                      |===============|                                              
+                           Anatomy                                                   
+                          C0205042                                                   
+                               |===============|                                     
+                                   Disorder                                          
+                                   C0852949                                          
+                      |========================|                                     
+                               Disorder                                              
+                               C1956346                                              
+
+SENTENCE:  ( elevated cholesterol )   cva    ( cerebrovascular
+                JJ        NN           NN            JJ       
+                      |=========|   |======|                  
+                         Drug       Disorder                  
+                       C0008377     C0038454                  
+             |==================|                             
+                   Disorder                                   
+                   C0020443                                   
+
+SENTENCE:  accident ) recurrent   UTI      psa    ( elevated prostate specific antigen  )
+              NN         JJ        NN       NN         JJ       NN       JJ       NN     
+                                |======| |======|            |======|          |======|  
+                                Disorder   Drug              Anatomy             Drug    
+                                C0042029 C0138741            C0033572          C0003320  
+                      |================|                              |===============|  
+                           Disorder                                         Drug         
+                           C0262655                                       C0456981       
+                                                             |========================|  
+                                                                        Drug             
+                                                                      C0138741           
+                                                    |=================================|  
+                                                                  Finding                
+                                                                 C0178415                
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  Colchicine and indomethacin for   gout  .
+               NN     CC       NN      IN     NN    
+           |========|     |==========|     |======| 
+              Drug            Drug         Disorder 
+            C0009262        C0021246       C0018099 
+
+SENTENCE:  Re-instated   HCTZ   upon discharge.
+               VBN        NN     IN     NN     
+                       |======|                
+                         Drug                  
+                       C0020261                
+
+SENTENCE:  Indomethacin not prescribed on discharge given   mild   Cr elevation.
+                NN      RB     VBN     IN    NN      VBN     JJ    NN    NN     
+           |==========|                                   |======|    |=======| 
+               Drug                                       Finding     Procedure 
+             C0021246                                     C1513302    C0439775  
+
+SENTENCE:  Needs
+            NNS 
+
+SENTENCE:  to be re-checked.
+           TO VB    VBN     
+
+SENTENCE:  SBP slightly elevated ( 130-170s ) - ?  HCTZ   interruption
+           NN     RB       JJ          NNS          NN         NN     
+                                                 |======|             
+                                                   Drug               
+                                                 C0020261             
+
+SENTENCE:  or need for increased B -blockade.
+           CC  NN  IN     JJ     NN    NN    
+                                    |======| 
+                                      Drug   
+                                    C3540676 
+
+SENTENCE:  Insulin  sliding scale for  blood  
+              NN      VBG    NN   IN     NN   
+           |======|                   |======|
+             Drug                     Anatomy 
+           C0021641                   C0005767
+
+SENTENCE:   sugars  ( 200-350 FS ) in hospital while on same home regimen.
+             NNS              NN   IN    NN     IN   IN  JJ   NN    NN    
+           |======|                                                       
+             Drug                                                         
+           C0242209                                                       
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  72y/o  M  with  NIDDM   who presented with L    foot     pain  /  mild   erythema and
+           VB  RP NN  IN    NNP    WP     VBD     IN  JJ    NN       NN       JJ       NN    CC 
+                          |======|                       |======| |======| |======| |======|    
+                          Disorder                       Anatomy  Finding  Finding  Disorder    
+                          C0011860                       C0016504 C0030193 C1513302 C0041834    
+                                                         |===============|                      
+                                                              Finding                           
+                                                             C0016512                           
+
+SENTENCE:  inability to bear  weight   due to   pain  .
+              NN     TO  VB     NN     IN  IN    NN    
+                             |=======|        |======| 
+                             Procedure        Finding  
+                             C1305866         C0030193 
+
+SENTENCE:  Xray w /o  fracture or evidence of
+            NN  IN IN    NN    CC    NN    IN
+                      |======|               
+                      Disorder               
+                      C0016658               
+
+SENTENCE:  osteomyelitis.
+                NN       
+           |===========| 
+             Disorder    
+             C0029443    
+
+SENTENCE:  Treated with abx in ED and for HD#1 w /o  improvement.
+             VBN    IN  NN  IN NN CC  IN  NN   IN IN     NN      
+
+SENTENCE:  Pt afebrile w / normal    WBC   .
+           NN    JJ    IN    JJ       NN    
+              |======|    |======| |======| 
+              Finding     Finding  Anatomy  
+              C0277797    C0231683 C0023516 
+                          C0558145          
+
+SENTENCE:  Suspicious for   gout  .
+               JJ     IN     NN    
+                          |======| 
+                          Disorder 
+                          C0018099 
+
+SENTENCE:  Treated with one dose of
+             VBN    IN  CD   NN  IN
+
+SENTENCE:   Medrol  (  blood    sugars  monitored and insulin  sliding scale coverage ) and
+             NNP         NN      NNS       VBN    CC     NN      VBG    NN      NN       . 
+           |======|   |======| |======|               |======|                             
+             Drug     Anatomy    Drug                   Drug                               
+           C0699458   C0005767 C0242209               C0021641                             
+
+SENTENCE:  then aggressively with Colchicine/Indomethacin with marked ,   fast  
+            RB       RB       IN      NN          NN       IN    JJ        NN   
+                                  |========| |==========|               |======|
+                                     Drug        Drug                   Finding 
+                                   C0009262    C0021246                 C0015663
+
+SENTENCE:  improvememt.
+               NN      
+
+SENTENCE:    Able   to bear  weight   and ambulating at discharge.
+              JJ    TO  VB     NN     CC     VBG     IN    NN     
+           |======|         |=======|                             
+           Finding          Procedure                             
+           C1299581         C1305866                              
+
+SENTENCE:  Indomethacin d /c  given Cr bump from 1.2 to 1.5.
+               NNP      NN NN  VBN  NN  NN   IN      IN     
+           |==========|                                     
+               Drug                                         
+             C0021246                                       
+
+SENTENCE:    HCTZ   reinstated at d /c .
+              NN       VBD     IN NN NN 
+           |======|                     
+             Drug                       
+           C0020261                     
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Do  not drink alcohol  , drive a  vehicle  or operate heavy machinery while
+           VBP RB   VB      NN       VB   DT    NN    CC   JJ     JJ      NN      NN  
+                         |======|            |======|                  |=======|      
+                           Drug                Drug                    Disorder       
+                         C0001962            C0042444                  C0337246       
+
+SENTENCE:  taking Percocet as this medication may cause drowsiness.
+            VBG     NNP    IN  DT      NN     MD   VB       NN     
+                  |======|         |========|           |========| 
+                    Drug              Drug               Finding   
+                  C0086787          C0013227             C0013144  
+
+SENTENCE:  Do  not take
+           VBP RB   VB 
+
+SENTENCE:  with Tylenol  or other Tylenol  ( acetaminophen ) containing medications.
+            IN    NNP    CC  JJ     NNP           NN            VBG         NNS     
+                |======|          |======|   |===========|              |=========| 
+                  Drug              Drug         Drug                      Drug     
+                C0699142          C0699142     C0000970                  C0013227   
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:    Pls    have your  blood    sugar   , BP and Cr checked by Dr. Kosmowski
+             NNS    VBP  PRP$    NN       NN      NN CC  NN   VBN   IN NNP    NNP   
+           |======|           |======| |======|                                     
+           Disorder           Anatomy    Drug                                       
+           C0030360           C0005767 C0242209                                     
+                              |===============|                                     
+                                  Procedure                                         
+                                  C0392201                                          
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  BETANCUR , MICHAEL D.  , M.D. ( DI0 ) 9/6/03 @ 02
+             NNP        NNP   NNP   NNP    NN               
+
+SENTENCE:  REVIEWED BY:
+             VBN    IN 
+
+SENTENCE:  ASHELY , HANK A.  ,  M . D .
+             RB     NNP  NNP   NNP NNP 
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

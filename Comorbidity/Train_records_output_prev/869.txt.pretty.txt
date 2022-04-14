@@ -1,0 +1,655 @@
+SENTENCE:  187616782 | WH | 35884862 | | 1109518 | 6/21/2006 12:00:00 AM | same | |   DIS    | Admission Date:
+                       NN                                             NN    JJ         NN         NN      NN  
+                                                                                    |======|                  
+                                                                                    Disorder                  
+                                                                                    C0012634                  
+                                                                                    C1970187                  
+                                                                                    |======|                  
+                                                                                    Finding                   
+                                                                                    C1444662                  
+
+SENTENCE:  1/1/2006 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  9/7/2006
+                   
+
+SENTENCE:  ****** FINAL DISCHARGE ORDERS ******
+                   JJ      NN      NNS         
+
+SENTENCE:  TIERNAN , DOMINIC 488-34-31-4
+             NN        NN               
+
+SENTENCE:  Tonbrid Lumsi Hunt
+             NN     NNP  NNP 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  OTO
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  10/24/06 AT 04:00 PM
+                    IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  OKAJIMA , CHI YOUNG
+             NN      JJ   NN  
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  TYLENOL  ( ACETAMINOPHEN ) 650 MG PO Q4H
+             NNP           NNP            NN JJ NN 
+           |======|   |===========|                
+             Drug         Drug                     
+           C0699142     C0000970                   
+
+SENTENCE:  PRN   Pain   , Headache , Temperature greater than:101.4
+           RB     NN         NN          NN        JJR    IN       
+               |======|   |======|                                 
+               Finding    Finding                                  
+               C0030193   C0018681                                 
+
+SENTENCE:  ALBUTEROL NEBULIZER 2.5 MG   NEB    Q4H
+              NN        NN         NN    NN    NN 
+           |=======|                  |======|    
+             Drug                       Drug      
+           C0001927                   C1300458    
+
+SENTENCE:  PRN Shortness of Breath
+           RB     NN     IN   NN  
+               |=================|
+                     Finding      
+                    C0013404      
+
+SENTENCE:  DILTIAZEM EXTENDED  RELEASE  360 MG PO DAILY
+              NNP      VBN       NN         NN JJ  NN  
+           |=======|          |=======|                
+             Drug             Procedure                
+           C0012373           C1963578                 
+
+SENTENCE:  HOLD IF:
+            NN  IN 
+
+SENTENCE:  SBP<110 , HR<60 Food/  Drug   Interaction Instruction
+           NN        NN     NN     NN        NN          NN     
+                                |======| |=========|            
+                                  Drug     Finding              
+                                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:   COLACE  ( DOCUSATE  SODIUM  ) 100 MG PO BID
+              NN         NN       NN          NN JJ NN 
+           |======|   |======| |======|                
+             Drug       Drug     Drug                  
+           C0282139   C1692318 C0037473                
+                      |===============|                
+                            Drug                       
+                          C0243237                     
+
+SENTENCE:   NEXIUM  ( ESOMEPRAZOLE ) 20 MG PO DAILY
+              NN          NNP           NN JJ  NN  
+           |======|   |==========|                 
+             Drug         Drug                     
+           C0939400     C0937846                   
+
+SENTENCE:  FLOVENT    HFA    ( FLUTICASONE PROPIONATE ) 220 MCG   INH    BID
+              NN       NN          NNP        NNP           NN     NN    RB 
+           |======| |======|   |=========| |========|           |======|    
+             Drug   Disorder      Drug        Drug                Drug      
+           C0720466 C0015458    C0082607    C0392214            C0022209    
+           |===============|   |====================|                       
+                 Drug                   Drug                                
+               C1170279               C0117996                              
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 40 MG PO DAILY Starting IN AM ( 7/28 )
+             NNP          NN          NN JJ  NN      NN    IN NN         
+           |======|   |========|                                         
+             Drug        Drug                                            
+           C0699992    C0016860                                          
+
+SENTENCE:  K - DUR  (   KCL    SLOW  RELEASE  ) 20 MEQ PO DAILY
+           NN  NN       NNP     JJ     NN          NN  NN  RB  
+           |======|   |======|      |=======|                  
+             Drug       Drug        Procedure                  
+           C0306511   C0032825      C1963578                   
+
+SENTENCE:  HOLD IF: potassium > 4.5
+            NN  IN     NN          
+                    |=======|      
+                      Drug         
+                    C0032821       
+
+SENTENCE:  As per TTHC Potassium Chloride Policy:
+           IN IN   NN     NN        NN      NN   
+                       |=======| |======|        
+                         Drug      Drug          
+                       C0032821  C0596019        
+                       |================|        
+                              Drug               
+                            C0032825             
+
+SENTENCE:  each 20 mEq dose to be given with 4 oz  of fluid
+            DT     NN   NN  TO VB  VBN   IN    NNS IN  NN  
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 1/7/06 by
+              JJ     VBN  IN        . 
+
+SENTENCE:  FREDA , GAIL K.  ,  M . D .
+            NN      NN  NNP   NNP NNP 
+
+SENTENCE:  on order for LISINOPRIL PO ( ref # 880341628 )
+           IN  NN   IN      NN     NN   NN               
+                        |========|                       
+                           Drug                          
+                         C0065374                        
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL
+               NN    
+           |========|
+              Drug   
+            C0065374 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL Reason for override:
+               NN       NN   IN     NN    
+           |========|                     
+              Drug                        
+            C0065374                      
+
+SENTENCE:  home meds
+            NN  NNS 
+
+SENTENCE:  LISINOPRIL 40 MG PO DAILY HOLD IF:
+               NN        NN NN  RB    JJ  IN 
+           |========|                        
+              Drug                           
+            C0065374                         
+
+SENTENCE:  SBP<100
+           NN     
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 1/7/06 by
+              JJ     VBN  IN        . 
+
+SENTENCE:  BREND , WILLIS E.  ,  M . D .
+            NN       IN   NNP   NNP NNP 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL
+               NN    
+           |========|
+              Drug   
+            C0065374 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  POTASSIUM CHLORIDE &
+              NN        NN     
+           |=======| |======|  
+             Drug      Drug    
+           C0032821  C0596019  
+           |================|  
+                  Drug         
+                C0032825       
+
+SENTENCE:  LISINOPRIL Reason for override:
+               NN       NN   IN     NN    
+           |========|                     
+              Drug                        
+            C0065374                      
+
+SENTENCE:  home meds
+            NN  NNS 
+
+SENTENCE:  METFORMIN 850 MG PO BID
+              NNP        NN JJ NN 
+           |=======|              
+             Drug                 
+           C0025598               
+
+SENTENCE:  OXYCODONE 5-10 MG PO Q4H PRN   Pain  
+              NNP         NN JJ NN  FW     NN   
+           |=======|                    |======|
+             Drug                       Finding 
+           C0030049                     C0030193
+
+SENTENCE:  PREDNISONE 30 MG  PO QAM
+               NN        NNS JJ NN 
+           |========|              
+              Drug                 
+            C0032952               
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  No Restrictions
+           DT     NNS     
+
+SENTENCE:  RETURN TO   WORK  :
+             NN   IN    NN    
+                     |======| 
+                     Finding  
+                     C0043227 
+           |================| 
+                Finding       
+                C0425105      
+
+SENTENCE:  After Appt with local physician
+            IN    NN   IN   JJ      NN    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Aschoff 1 week ,
+           NNP   NN       NN   
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Cephalosporins , CEFAZOLIN  SODIUM 
+                NNS            NN        NN   
+           |============|   |=======| |======|
+                Drug          Drug      Drug  
+              C3536856      C0007546  C0037473
+                            |================|
+                                   Drug       
+                                 C0700526     
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  Paraphargyngeal   mass  
+                 JJ           NN   
+                           |======|
+                           Finding 
+                           C0577559
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  same
+            JJ 
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:   sleep    apnea   (  sleep    apnea   )  asthma  (  asthma  ) obestity
+              NN       NN         NN       NN         NN         NN         NN   
+           |======| |======|   |======| |======|   |======|   |======|           
+           Finding  Finding    Finding  Finding    Disorder   Disorder           
+           C0037313 C0003578   C0037313 C0003578   C0004096   C0004096           
+           |===============|   |===============|                                 
+               Disorder            Disorder                                      
+               C0037315            C0037315                                      
+
+SENTENCE:    gerd   ( esophageal  reflux  ) obstructive   lung   disease    htn   
+              JJ          JJ        NN          JJ         NN       NN       NN   
+           |======|   |========| |======|               |======| |======| |======|
+           Disorder    Disorder  Disorder               Anatomy  Disorder Disorder
+           C0017168    C0014852  C0017168               C0024109 C0012634 C0020538
+                      |=================|                                         
+                            Finding                                               
+                           C0559234                                               
+
+SENTENCE:  ( hypertension ) dm ( diabetes mellitus ) migraine ( migraine
+                  NN        NN      NN       NN         NN         NN   
+             |==========|        |======|            |======|   |======|
+               Disorder          Disorder            Disorder   Disorder
+               C0020538          C0011849            C0149931   C0149931
+
+SENTENCE:  headache )  asthma  (  asthma  )
+              NN         NN         NN     
+           |======|   |======|   |======|  
+           Finding    Disorder   Disorder  
+           C0018681   C0004096   C0004096  
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  1/7/06 SEVERS , ADALBERTO BENNIE
+                   NNS        NNP     NNP  
+
+SENTENCE:  TOTAL PAROTIDECTOMY  FACIAL   NERVE   DISSECTION
+            JJ        NN          JJ       NN        NN    
+                 |===========| |======| |======| |========|
+                   Procedure   Anatomy  Anatomy  Procedure 
+                   C0193317    C0015450 C0027740  C0012737 
+           |=================| |===============|           
+                Procedure           Anatomy                
+                C0193318           C0015462                
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:   Removal  of JP
+              NN     IN NN
+           |=======|      
+           Procedure      
+           C0015252       
+
+SENTENCE:  D /C   staples 
+           LS NN    NNS   
+                 |=======|
+                 Procedure
+                 C0185012 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  49yoF presented to NH on 1/7/06 for transcervical excision  of deep lobe
+            LS      VBN    IN NN IN        IN       JJ          NN     IN  JJ   NN 
+                                                             |=======|             
+                                                             Procedure             
+                                                             C0728940              
+
+SENTENCE:  parotid    mass   and left submandibular  gland  .
+              NN       NN    CC   JJ       JJ          NN    
+           |======| |======|                        |======| 
+           Anatomy  Finding                         Anatomy  
+           C0030580 C0577559                        C1285092 
+           |===============|          |====================| 
+                Finding                      Anatomy         
+               C1277629                      C0038556        
+                                 |=========================| 
+                                           Anatomy           
+                                          C0227471           
+
+SENTENCE:  The pt tolerated all
+           DT  NN    VBD    RB 
+
+SENTENCE:  procedures without complication , for details please see operative note.
+              NNS       IN         NN        IN    NNS     UH   VB     JJ      NN  
+           |========|         |==========|                                         
+           Procedure            Finding                                            
+            C0184661            C0009566                                           
+
+SENTENCE:  The post-operative  period  has been uneventful.
+           DT        JJ          NN    VBZ VBN      JJ     
+                              |======|                     
+                              Finding                      
+                              C0025344                     
+
+SENTENCE:  Patient received periop
+             NN      VBN      NN  
+
+SENTENCE:  antibiotic prophylaxis and   DVT    prophylaxis throughout hospitilization.
+               JJ         NN      CC     NN        NN          IN           NN        
+           |========| |=========|     |======| |=========|                            
+              Drug     Procedure      Disorder  Procedure                             
+            C0003232   C0199176       C0149871  C0199176                              
+           |====================|                                                     
+                 Procedure                                                            
+                  C0282638                                                            
+
+SENTENCE:  Pt
+           NN
+
+SENTENCE:  was placed on home   CPAP    setting , diet was advanced as tolerated and the
+           VBD  VBN   IN  NN     NNP      NN       NN  VBD   VBN    IN    VBN    CC   . 
+                              |=======|                                                 
+                              Procedure                                                 
+                              C0199451                                                  
+
+SENTENCE:  JP   drain   and  staples  were removed on POD3.
+           NN    NN     CC     NNS    VBD    VBN   IN  NN  
+              |=======|     |=======|                      
+              Procedure     Procedure                      
+              C0013103      C0185012                       
+
+SENTENCE:  Patient is  being discharged:
+             NN    VBZ  VBG     VBN     
+
+SENTENCE:  afebrile , tolerating regular diet without  nausea /vomiting ,   pain   well
+              JJ         VBG       JJ     NN    IN       NN       NN         NN     RB 
+           |======|              |==========|         |======| |======|   |======|     
+           Finding                 Finding            Finding  Finding    Finding      
+           C0277797                C0184625           C0027497 C0042963   C0030193     
+                                                      |===============|                
+                                                           Finding                     
+                                                          C0027498                     
+
+SENTENCE:  controlled on   oral   medication , voiding  , incision  clean , dry and intact ,
+              VBN     IN    JJ        NN          NN         NN      JJ     JJ  CC    JJ    
+                         |======| |========|   |======|   |=======|                         
+                           Drug      Drug      Finding    Procedure                         
+                         C1272919  C0013227    C0042034   C0184898                          
+                         |======|                                                           
+                         Anatomy                                                            
+                         C0226896                                                           
+
+SENTENCE:  and ambulating well.
+           CC     VBG      RB  
+
+SENTENCE:  Currently and on POD3 , pt and staff agree pt is 
+              RB     CC  IN  NN    NN CC   NN    VBP  NN VBZ
+
+SENTENCE:  ready for discharge home w / f /u  w / Dr. Seese in 1-2 weeks.
+            JJ   IN     JJ      NN  IN  NN NN IN  NNP  NNP  IN      NNS  
+           |=================|                                           
+                 Finding                                                 
+                C2314972                                                 
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Resume all home medications.
+             VB   DT   NN      NNS     
+                           |=========| 
+                              Drug     
+                            C0013227   
+
+SENTENCE:  Seek immediate medical attention for  fever  
+            NN     JJ       JJ       NN     IN     NN   
+                                  |=======|     |======|
+                                   Finding      Finding 
+                                  C0004268      C0015967
+
+SENTENCE:  >101.5 ,  chills  , increased redness  , swelling , bleeding or discharge from
+                      NNS         VBN       NN         NN         NN    CC    NN      .  
+                    |======|             |======|   |======|   |======|                  
+                    Finding              Finding    Finding    Finding                   
+                    C0085593             C0332575   C0038999   C0019080                  
+
+SENTENCE:  incision  ,  chest     pain   , shortness of breath , difficulty breathing ,  severe 
+              NN          NN       NN         NN     IN   NN         NN        NN          JJ   
+           |=======|   |======| |======|   |=================|   |========| |=======|   |======|
+           Procedure   Anatomy  Finding          Finding          Finding    Finding    Finding 
+           C0184898    C0817096 C0030193        C0013404          C1299586  C0004048    C1519275
+                       |===============|                         |==================|           
+                            Finding                                    Finding                  
+                           C0008031                                    C0013404                 
+
+SENTENCE:  headache , increasing neurological deficit , or anything else that  is 
+              NN          JJ          JJ        NN      CC    NN     JJ   IN  PRP$
+           |======|              |==================|                             
+           Finding                     Finding                                    
+           C0018681                    C0521654                                   
+
+SENTENCE:  troubling you.
+              NN     PRP 
+
+SENTENCE:  No strenuous exercise or heavy lifting until follow up
+           DT    JJ        NN    CC  JJ     NN     IN     NN   NN
+                        |======|                        |=======|
+                        Finding                          Finding 
+                        C0015259                        C0589120 
+
+SENTENCE:  appointment , at least.
+               NN        RB  NN   
+
+SENTENCE:  Do  not drive or drink alcohol  while taking
+           VBP RB   VB   CC  VB      NN     IN    VBG  
+                                  |======|             
+                                    Drug               
+                                  C0001962             
+
+SENTENCE:  narcotic   pain   medications.
+              NN       NN        NNS     
+                    |======| |=========| 
+                    Finding     Drug     
+                    C0030193  C0013227   
+
+SENTENCE:  Call your surgeon to make follow up
+            VB  PRP$   NN    TO  VB    NN   NN
+                                     |=======|
+                                      Finding 
+                                     C0589120 
+
+SENTENCE:  appointment.
+               NN      
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  SCHIFFLER , BOOKER WILL ( JE44 ) 10/24/06 @ 03
+              NN         NN    MD     CD                 
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

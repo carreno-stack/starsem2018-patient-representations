@@ -1,0 +1,791 @@
+SENTENCE:  052907410 | HCIH | 50999409 | | 8762504 | 10/20/2005 12:00:00 AM | Shortness of breath | |   DIS    | Admission Date:
+                        NN                                               NN      NN     IN   NN          NN         NN      NN  
+                                                                              |=================|     |======|                  
+                                                                                    Finding           Disorder                  
+                                                                                   C0013404           C0012634                  
+                                                                                                      C1970187                  
+                                                                                                      |======|                  
+                                                                                                      Finding                   
+                                                                                                      C1444662                  
+
+SENTENCE:  8/3/2005 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  10/22/2005
+                     
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  FEHRS , FILIBERTO  J  935-72-18-7
+            NNS       NNS    NNP            
+
+SENTENCE:  Dievirg Wa  A 
+             NN    NNP NN
+
+SENTENCE:  Service : MED
+              NN     JJ 
+           |======|     
+           Finding      
+           C0557854     
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  5/2/05 AT 03:00 PM
+                  IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  MCCOURTNEY , ANIBAL OLIVER ,  M . D .
+               NN         JJ     NN     NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ATENOLOL 100 MG PO QD
+             NNP        NN FW FW
+           |======|             
+             Drug               
+           C0004147             
+
+SENTENCE:  CALCIUM  CARBONATE ( 500 MG ELEM.
+              NN       NN           NN  NN  
+           |======| |=======|               
+             Drug     Drug                  
+           C0006675 C0007026                
+           |================|               
+                  Drug                      
+                C0006681                    
+
+SENTENCE:  CA+  +   ) 500 MG PO TID
+           NN             NN JJ NN 
+           |======|                
+             Drug                  
+           C0596235                
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 40 MG PO QD
+             NNP          NN          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0699992    C0016860               
+
+SENTENCE:  HYDROCHLOROTHIAZIDE 50 MG PO QD
+                   NNP            NN FW FW
+           |=================|            
+                  Drug                    
+                C0020261                  
+
+SENTENCE:  METAMUCIL  SUGAR   FREE ( PSYLLIUM ( METAMUCIL ) SU ... )
+              NN        NN     NN       NN         NN       NNP     
+           |=======| |======|        |======|   |=======|           
+             Drug      Drug            Drug       Drug              
+           C0025559  C0242209        C0033979   C0025559            
+
+SENTENCE:  1 PACKET PO QD
+               NN   FW FW
+
+SENTENCE:   AMBIEN  ( ZOLPIDEM TARTRATE ) 10 MG PO QHS PRN Insomnia
+              NN        NNP       NN         NN JJ NN  FW     NN   
+           |======|   |======| |======|                    |======|
+             Drug       Drug     Drug                      Finding 
+           C0487782   C0078839 C0144544                    C0917801
+                      |===============|                            
+                            Drug                                   
+                          C0724725                                 
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Give on an empty stomach  ( give 1hr before or 2hr after
+            VB  IN DT  JJ      NN       VB  NN    IN   CC NN   NN  
+                            |======|                               
+                            Disorder                               
+                            C0038354                               
+                            |======|                               
+                            Anatomy                                
+                            C1278920                               
+                            C3714551                               
+
+SENTENCE:  food ) Number of Doses Required ( approximate ): 3
+            NN      NN   IN  NNS    VBN          JJ          
+
+SENTENCE:   DETROL  ( TOLTERODINE ) 2 MG PO BID
+             NNP          NNP         NN JJ NN 
+           |======|   |=========|              
+             Drug        Drug                  
+           C0719805    C0388753                
+
+SENTENCE:  Number of Doses Required ( approximate ): 10
+             NN   IN  NNS    VBN          JJ           
+
+SENTENCE:   DUONEB  ( ALBUTEROL AND IPRATROPIUM NEBULIZER )
+              NN         NN     CC      NN         NN      
+           |======|   |=======|     |=========|            
+             Drug       Drug           Drug                
+           C0939692   C0001927       C0027235              
+
+SENTENCE:  3/0.5 MG   NEB    Q6H PRN Shortness of Breath , Wheezing
+                 NN    NN    NN  RB     NN     IN   NN        NN   
+                    |======|         |=================|   |======|
+                      Drug                 Finding         Finding 
+                    C1300458              C0013404         C0043144
+
+SENTENCE:  NYSTATIN (  POWDER  ) TOPICAL  TP BID
+             NNP         NN         JJ    NN FW 
+           |======|   |======|   |======|       
+             Drug       Drug       Drug         
+           C0028741   C0032861   C1710439       
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  Please apply to inframammary areas
+             UH    VB   IN      JJ       NNS 
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  Fluid restriction:
+            NN       NN      
+           |===============| 
+               Procedure     
+               C0204700      
+
+SENTENCE:  2 liters
+              NNS  
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET: 2 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr  Jeremiah Gesner (   PCP    ) please call ,
+           NNP   NNP     NNP        NN        UH    VB   
+                                 |======|                
+                                   Drug                  
+                                 C0031381                
+
+SENTENCE:  Dr  Reginald Dunlap ( Cards ) 11/24 at 9:20 am scheduled ,
+           NNP    JJ      NN      NNP          IN      NN    VBN     
+
+SENTENCE:  Dr  Jamaal Nicklous ( Pulm ) 9/17 at 9 am scheduled ,
+           NNP  NNP     NNP       NN         IN   NN    VBN     
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Aspirin  ,   IRON   DERIVATIVES ,  NSAIDs  , FERROUS  SULFATE 
+             NNP         NN        NNS         NNS        JJ       NN    
+           |======|   |======|               |======|           |=======|
+             Drug       Drug                   Drug               Drug   
+           C0004057   C0302583               C0003211           C0038720 
+                                                                C3536965 
+                                                                |=======|
+                                                                Procedure
+                                                                C0474702 
+                                                        |===============|
+                                                              Drug       
+                                                            C0060282     
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  Shortness of breath
+              NN     IN   NN  
+           |=================|
+                 Finding      
+                C0013404      
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  Shortness of breath
+              NN     IN   NN  
+           |=================|
+                 Finding      
+                C0013404      
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  Morbid obesity  ( obesity  ) Restrictive   lung   dz ( restrictive pulmonary
+             JJ      NN         NN          JJ         NN    NN       JJ         JJ    
+                  |======|   |======|               |======|                  |=======|
+                  Disorder   Disorder               Anatomy                    Anatomy 
+                  C0028754   C0028754               C0024109                  C0024109 
+           |=============|                                                             
+              Disorder                                                                 
+              C0028756                                                                 
+
+SENTENCE:  disease  )   CHF    ( congestive  heart   failure )   OSA    (  sleep    apnea   ) Fibromyalgia
+              NN         NN          JJ        NN      NN         NN         NN       NN           NN     
+           |======|   |======|              |======|           |======|   |======| |======|   |==========|
+           Disorder   Disorder              Anatomy            Disorder   Finding  Finding      Disorder  
+           C0012634   C0018802              C0018787           C0520679   C0037313 C0003578     C0016053  
+                                            |==============|              |===============|               
+                                                Disorder                      Disorder                    
+                                                C0018801                      C0037315                    
+
+SENTENCE:  ( fibromyalgia ) von Willebrand's dz ( von Willebrands disease  ) Fe-def
+                  NN        NNP    NNP       NN   NNP     NNP        NN      JJ NN 
+             |==========|   |============|                        |======|         
+               Disorder        Disorder                           Disorder         
+               C0016053        C0042974                           C0012634         
+                                                  |======================|         
+                                                          Disorder                 
+                                                          C0042974                 
+
+SENTENCE:   anemia  (   iron   deficiency  anemia  ) Chronic hypovent syndrome   GERD  
+              NN         NN        NN        NN        JJ       NN       NN       NN   
+           |======|   |======|            |======|                    |======| |======|
+           Disorder     Drug              Disorder                    Disorder Disorder
+           C0002871   C0302583            C0002871                    C0039082 C0017168
+                               |=================|                                     
+                                    Disorder                                           
+                                    C0041782                                           
+                      |=================|                                              
+                           Disorder                                                    
+                           C0240066                                                    
+                      |==========================|                                     
+                                Disorder                                               
+                                C0162316                                               
+
+SENTENCE:  ( gastroesophageal  reflux  disease  ) Atypical  chest     pain   ( atypical  chest  
+                    JJ           NN       NN         JJ       NN       NN         JJ       NN   
+                              |======| |======|            |======| |======|            |======|
+                              Disorder Disorder            Anatomy  Finding             Anatomy 
+                              C0017168 C0012634            C0817096 C0030193            C0817096
+                                                           |===============|                    
+                                                                Finding                         
+                                                               C0008031                         
+                                                  |========================|                    
+                                                           Finding                              
+                                                           C0262384                             
+
+SENTENCE:    pain   ) s /p     TAH   /BSO ( S /P     TAH   /BSO ) OA ( osteoarthritis ) Pulm   HTN    ( pulmonary
+              NN      NN IN    NN     NN    NN IN    NN     NN    NN         NN          NN     NN         JJ    
+           |======|         |=======|             |=======|            |============|        |======|   |=======|
+           Finding          Procedure             Procedure               Disorder           Disorder    Anatomy 
+           C0030193         C0404079              C0404079                C0029408           C0020538   C0024109 
+
+SENTENCE:  hypertension )  Eczema  (  eczema  ) Hemorrhoids
+                NN           NN         NN          NNS    
+           |==========|   |======|   |======|   |=========|
+             Disorder     Disorder   Disorder    Disorder  
+             C0020538     C0013595   C0013595    C0019112  
+
+SENTENCE:  ( hemorrhoids ) h /o  Syphilis (  H /O  syphilis )
+                 NNS       NN IN    NN      NNP IN    NN     
+             |=========|         |======|          |======|  
+              Disorder           Disorder          Disorder  
+              C0019112           C0039128          C0039128  
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  CC: 47F  obese   on home O2/bipap +   CHF    p /w  incr   DOE   
+           NN  RB     JJ    IN  NN  NN  NN        NN    IN IN  NN     NN   
+                   |======|                    |======|            |======|
+                   Disorder                    Disorder            Finding 
+                   C0028754                    C0018802            C0231807
+
+SENTENCE:    HPI   :
+              NN    
+           |======| 
+           Disorder 
+           C0268529 
+
+SENTENCE:  Pt w  morbid obesity  , pulm   HTN    ,   OSA    ,   CHF    , s /p  mult   adm    for incr
+           NN IN   NN      NN       JJ     NN         NN         NN      NN IN  JJ     NN    IN   NN 
+                        |======|        |======|   |======|   |======|              |======|         
+                        Disorder        Disorder   Disorder   Disorder                Drug           
+                        C0028754        C0020538   C0520679   C0018802              C0013089         
+                 |=============|                                                                     
+                    Disorder                                                                         
+                    C0028756                                                                         
+
+SENTENCE:    SOB    ( most recent 8/13 )  likely  from wt gain  , sev obesity  , diet , poor
+              NN      RBS    JJ             RB     IN  NN  NN     JJ     NN       NN     JJ 
+           |======|                      |======|      |======|       |======|              
+           Finding                       Finding       Finding        Disorder              
+           C0013404                      C0332148      C0043094       C0028754              
+
+SENTENCE:  compliance w  meds + bipap.
+               NN     IN NNS     NN   
+
+SENTENCE:  Pt admits only takes meds in AM , refuses
+           NN  VBZ    RB   VBZ  NNS  IN NN     NNS  
+
+SENTENCE:  others 2/2 'side effects'.
+            NNS         NN    NNS    
+
+SENTENCE:  Uses bipap sporad , only 2h qhs.
+           VBZ   NN     NN      RB  CD FW  
+
+SENTENCE:  Pt unreliable ,
+           NN     JJ      
+
+SENTENCE:  story varies for different   MDs   .
+            NN    VBZ   IN     JJ       NNS    
+                                      |======| 
+                                      Disorder 
+                                      C3463824 
+
+SENTENCE:  Basically , at baseline uses scooter but
+              RB       IN    NN    VBZ    NN    CC 
+
+SENTENCE:  walks short dist w    mild     SOB    , now   SOB    after slightly shorter dist.
+            VBZ   JJ    NN  IN    JJ       NN      RB     NN     IN      RB      JJR    NN  
+                               |======| |======|       |======|                             
+                               Finding  Finding        Finding                              
+                               C1513302 C0013404       C0013404                             
+
+SENTENCE:  No F /C  ,
+           DT LS NN  
+
+SENTENCE:   edema  /  abd    girth , N /V /D .
+              NN       NN     NN     NN NN NN 
+           |======| |======|                  
+           Finding  Anatomy                   
+           C0013604 C0000726                  
+
+SENTENCE:  Pt notes sputum + incr O2 req from 3->5L chronic
+           NN  VBZ    NN      JJ  NN NN   IN     NN   JJ   
+
+SENTENCE:   x  6   mos   .
+           SYM     NNS    
+                 |======| 
+                 Disorder 
+                 C0001815 
+                 C0026987 
+
+SENTENCE:  Incr   DOE    since d /c 'd from SRMC 1 mo ago , refuses to take extra
+            JJ     NN     IN   NN NN    IN   NN    NN RB      VBZ   TO  VB   JJ  
+                |======|                                                         
+                Finding                                                          
+                C0231807                                                         
+
+SENTENCE:   Lasix   or other diuretics at home , has been using incr bipap since , but
+             NNP    CC  JJ      NNS    IN  NN    VBZ VBN   VBG   JJ   NN    NN     CC 
+           |======|          |=======|                                                
+             Drug              Drug                                                   
+           C0699992          C0012798                                                 
+
+SENTENCE:  still only 4h  qd.
+            RB    RB  NNS FW 
+
+SENTENCE:  Exam:
+            NN  
+
+SENTENCE:  96.1 72 158/73 24 94 on 5L.
+                                IN NN 
+
+SENTENCE:    NAD    , v   obese   , AOx3.
+              NN      JJ    JJ       NN  
+           |======|      |======|        
+             Drug        Disorder        
+           C0027270      C0028754        
+
+SENTENCE:  JVP 7.   CTAB   w  poor
+           NN        NN    IN  JJ 
+                  |======|        
+                    Drug          
+                  C0951233        
+
+SENTENCE:    air    mvmt.
+              NN     NN  
+           |======|      
+             Drug        
+           C3536832      
+
+SENTENCE:  RRR.
+           NN  
+
+SENTENCE:   Obese   ,   abd    benign.
+              JJ         JJ      JJ   
+           |======|   |======|        
+           Disorder   Anatomy         
+           C0028754   C0000726        
+
+SENTENCE:  No LE  edema  .
+           DT NN    NN    
+                 |======| 
+                 Finding  
+                 C0013604 
+
+SENTENCE:  Neuro nonfocal.
+            NN      JJ    
+
+SENTENCE:  Data:
+           NNS  
+
+SENTENCE:  Cr  1.0 ,   Glu    130.
+           NNP         NNP        
+                     |======|     
+                       Drug       
+                     C0061472     
+                     C0220839     
+
+SENTENCE:  QBC 13.5 w  90P ,    Hct    38.4.
+           NN       IN NN       NN          
+                             |=======|      
+                             Procedure      
+                             C0018935       
+
+SENTENCE:  Cardiac  enz neg ,    BNP    10.
+              JJ    NN  JJ       NN        
+           |======|           |=======|    
+           Anatomy            Procedure    
+           C0018787           C1095989     
+                              |=======|    
+                                Drug       
+                              C0054015     
+
+SENTENCE:  TTE 11/1 EF 65% w  R /  LVH    , decr RV syst fxn.
+           NN       NN     IN JJ    NN       NN  NN  NN  NN  
+                                 |======|                    
+                                 Disorder                    
+                                 C0149721                    
+
+SENTENCE:  PFTs 3/14 FEV1 +   FVC    22%.
+           NNS        NN       NN        
+                            |======|     
+                            Finding      
+                            C3714541     
+
+SENTENCE:     CXR   
+              NN    
+           |=======|
+           Procedure
+           C0039985 
+
+SENTENCE:  stable CM  , NAP.
+             JJ   NNS   NN  
+
+SENTENCE:  Impression:
+               NN     
+
+SENTENCE:  47F w  morbid obesity  , restrictive   lung   dz ,   mild     CHF    ,   OSA    ,
+           NN  IN   NN      NN          JJ         NN    NN      JJ       NN         NN     
+                         |======|               |======|      |======| |======|   |======|  
+                         Disorder               Anatomy       Finding  Disorder   Disorder  
+                         C0028754               C0024109      C1513302 C0018802   C0520679  
+                  |=============|                                                           
+                     Disorder                                                               
+                     C0028756                                                               
+
+SENTENCE:  pulm   htn    , on home O2 + bipap , now p /w  same chronic   SOB   .
+            NN     NN      IN  NN  NN    NN     RB  RB IN  JJ    JJ       NN    
+                |======|                                               |======| 
+                Disorder                                               Finding  
+                C0020538                                               C0013404 
+
+SENTENCE:  Hospital Course:
+              NN      NN   
+
+SENTENCE:  1. CV:
+              NN 
+
+SENTENCE:   I -No issues.
+           PRP DT  NNS   
+
+SENTENCE:  P -  HTN    , cont BB ,   HCTZ   ,  Lasix  .
+           NN    NN       NN  JJ      NN        NNP    
+              |======|             |======|   |======| 
+              Disorder               Drug       Drug   
+              C0020538             C0020261   C0699992 
+
+SENTENCE:  Pt refuses other meds.
+           NN   VBZ    JJ   NNS  
+
+SENTENCE:  No s /sx    CHF    +    BNP    10 , but pt felt better in past w  diuresis , given IV
+           DT NN NNS    NN         NN          CC  NN VBD   JJR   IN  NN  IN    NN       VBN  NN
+                     |======|   |=======|                                    |======|           
+                     Disorder     Drug                                       Finding            
+                     C0018802   C0054015                                     C0012797           
+                                |=======|                                                       
+                                Procedure                                                       
+                                C1095989                                                        
+
+SENTENCE:   Lasix   w  -2L until Cr  bumped 1.0 -> 1.2.
+             NNP    IN  NN  IN   NNP  VBN              
+           |======|                                    
+             Drug                                      
+           C0699992                                    
+
+SENTENCE:  R -NSR.
+           JJ NN  
+
+SENTENCE:  2. Pulm:
+               NN  
+
+SENTENCE:  Sev restr dz +   OSA    , 5L home O2 + bipap , chronically  worse   ,
+           JJ   NN   NN      NN      NN  NN  NN    NN         RB         JJ     
+                          |======|                                    |======|  
+                          Disorder                                    Finding   
+                          C0520679                                    C1457868  
+
+SENTENCE:   likely  2/2 progr effects of obesity /decond on top of comorbidities.
+              JJ         NN     NNS   IN    NN      NN   IN NN  IN      NNS      
+           |======|                      |======|                                
+           Finding                       Disorder                                
+           C0332148                      C0028754                                
+
+SENTENCE:    HCO3  
+              NN   
+           |======|
+             Drug  
+           C0005367
+
+SENTENCE:  40 on   adm   .
+              IN    NN    
+                 |======| 
+                   Drug   
+                 C0013089 
+
+SENTENCE:  Cont suppl O2 + bipap prn , will d /c  on 5L home O2.
+            NN   JJ   NN    NN   FW     MD  VB VB IN NN  NN  NN 
+
+SENTENCE:  Cont
+            NN 
+
+SENTENCE:  Duonebs prn.
+             NNP   FW  
+
+SENTENCE:  3. Ppx:
+              NN  
+
+SENTENCE:    GERD   , pt refuses   PPI   ;
+              NN      NN   VBZ      NN    
+           |======|              |======| 
+           Disorder                Drug   
+           C0017168              C0358591 
+
+SENTENCE:  no   Hep    2/2 von Willebrands -> pneumoboots.
+           DT    NN        NNP     NNP            NNS     
+              |======|                                    
+              Disorder                                    
+              C0162569                                    
+              |======|                                    
+              Anatomy                                     
+              C0449198                                    
+
+SENTENCE:  4. Code:
+               NN  
+
+SENTENCE:  Full.
+            JJ  
+
+SENTENCE:  5. Dispo:
+               VB   
+
+SENTENCE:  Complic social/psych issues , pt s /p  numerous   adm    to RMC despite
+             JJ      JJ    NN    NNS     NN NN IN    JJ       NN    IN NN    NN   
+                                                           |======|               
+                                                             Drug                 
+                                                           C0013089               
+
+SENTENCE:  no acute  issue  .
+           DT  JJ      NN    
+                    |======| 
+                    Finding  
+                    C0033213 
+
+SENTENCE:  Pt w  progr  worse   chronic   SOB    2/2 deconditioning on top of
+           NN IN  NN     JJR      JJ       NN              NN       IN NN  IN
+                       |======|         |======|                             
+                       Finding          Finding                              
+                       C1457868         C0013404                             
+
+SENTENCE:  sev restrictive dz from obesity  ,   OSA    , pulm   htn   .
+           JJ      JJ      NN  IN     NN         NN       JJ     NN    
+                                   |======|   |======|        |======| 
+                                   Disorder   Disorder        Disorder 
+                                   C0028754   C0520679        C0020538 
+
+SENTENCE:  Pt v  difficult , occ aggr ,
+           NN NN    JJ       JJ   NN   
+                 |=======|             
+                  Finding              
+                 C1299586              
+
+SENTENCE:  splitting , causing probs for RNs on floor.
+              NN         VBG    NNS  IN  NN  IN  NN   
+           |=======|                                  
+            Finding                                   
+           C1444777                                   
+
+SENTENCE:  Told she was ready for d /c  , pt
+            VB  PRP VBD  JJ   IN  JJ NN   NN
+
+SENTENCE:  combative w  team , refused to cooperate w  setting-up home services.
+              JJ     IN  NN      JJ    IN    NN     IN   NN    IN  NN    NNS    
+                                                                       |======| 
+                                                                       Finding  
+                                                                       C0557854 
+
+SENTENCE:  Will
+            MD 
+
+SENTENCE:  d /c  w  VNA , pt says she has set-up nl    PCA    for tmrw ( refused allowing care
+           VB VB IN NN    NN VBZ  PRP VBZ NN  NN JJ    NN     IN   NN      JJ       NN     NN 
+                                                    |=======|                                 
+                                                      Drug                                    
+                                                    C0034330                                  
+                                                    |=======|                                 
+                                                    Procedure                                 
+                                                    C0078944                                  
+
+SENTENCE:  coord to set up for her  ).
+            NN   TO VB  RP IN  PRP$   
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  Please follow-up with Dr  Nunmaker (   PCP    ) , Dr  Misra ( Cards ) , and Dr  Kindberg
+             UH     VB   RP  IN  NNP   NNP         NN        NNP  NNP     NNP      CC  NNP   NNP   
+                                                |======|                                           
+                                                  Drug                                             
+                                                C0031381                                           
+
+SENTENCE:  ( Pulm ) in clinic.
+              NN    IN   NN   
+
+SENTENCE:  If you have any worsening shortness of breath , please
+           IN PRP VBP  DT     NN        NN     IN   NN       NN  
+                                     |=================|         
+                                           Finding               
+                                          C0013404               
+
+SENTENCE:  call one of your doctors.
+            VB  CD  IN PRP$   NNS   
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  KUHLMAN , MITCH E.  , M.D. , PH.D. ( JU88 ) 5/2/05 @ 03:32 PM
+             NN       NNP  NNP   NNP     NNP    NNP                   NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

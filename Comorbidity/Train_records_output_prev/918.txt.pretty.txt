@@ -1,0 +1,427 @@
+SENTENCE:  552595283 | AUH | 84531910 | | 991555 | 3/1/1993 12:00:00 AM | Discharge Summary | Signed |   DIS    | Admission Date:
+                       NN                                            NN      NN       NN       VBN        NN         NN      NN  
+                                                                                                       |======|                  
+                                                                                                       Finding                   
+                                                                                                       C1444662                  
+                                                                                                       |======|                  
+                                                                                                       Disorder                  
+                                                                                                       C0012634                  
+                                                                                                       C1970187                  
+
+SENTENCE:  6/20/1993 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  8/25/1993
+                    
+
+SENTENCE:  PRINCIPAL DIAGNOSIS: 1. VENTRAL  HERNIA 
+              JJ        NN           JJ       NN   
+                     |=======|             |======|
+                      Finding              Disorder
+                     C0011900              C0019270
+                                   |==============|
+                                       Disorder    
+                                       C0019326    
+
+SENTENCE:  SECONDARY DIAGNOSES:
+              JJ        NNS    
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  2. ADULT ONSET DIABETES MELLITUS
+               NN    NN      NN       NN   
+                          |======|         
+                          Disorder         
+                          C0011849         
+              |==================|         
+                    Disorder               
+                    C0011860               
+
+SENTENCE:  3. HISTORY  OF DIVERTICULITIS
+                 NN    IN       NN      
+              |======|    |============|
+              Finding        Disorder   
+              C0262926       C0012813   
+              |========================|
+                       Finding          
+                       C4040337         
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient is  a  67 year old woman
+           DT    NN    VBZ DT     NN  JJ   NN  
+
+SENTENCE:  who developed diverticulitis in 16 of May
+           WP     VBD          NN       IN    IN NNP
+                         |============|             
+                            Disorder                
+                            C0012813                
+
+SENTENCE:  She underwent  bowel   resection and had a  complicated hospital course
+           PRP    VBD       NN       NN     CC  VBD DT     JJ         NN      NN  
+                         |======| |=======|                                       
+                         Anatomy  Procedure                                       
+                         C0021853 C0728940                                        
+
+SENTENCE:  complicated by infection and   pain  .
+               VBN     IN    NN     CC     NN    
+                          |=======|     |======| 
+                          Disorder      Finding  
+                          C0009450      C0030193 
+
+SENTENCE:  She remained in the hospital
+           PRP   VBD    IN DT     NN   
+
+SENTENCE:  for approximately 1 1/2 months.
+           IN       RB              NNS   
+
+SENTENCE:  After discharge she continued to
+            IN      NN     PRP    VBD    TO
+
+SENTENCE:  have   pain  .
+           VBP     NN    
+                |======| 
+                Finding  
+                C0030193 
+
+SENTENCE:  She was seen in the Palms Gerankry And Center in 24 of November , with the
+           PRP VBD VBN  IN DT   NNP    NNP    CC   NNP   IN    IN   NNP       IN  CD 
+
+SENTENCE:  diagnosis of ventral  hernia .
+              NN     IN   JJ       NN    
+           |=======|            |======| 
+            Finding             Disorder 
+           C0011900             C0019270 
+                        |==============| 
+                            Disorder     
+                            C0019326     
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Is  significant
+           VBZ     JJ     
+
+SENTENCE:  hypertension;
+                NN      
+           |==========| 
+             Disorder   
+             C0020538   
+
+SENTENCE:  adult onset diabetes mellitus;
+            NN    NN      NN       NN    
+                       |======|          
+                       Disorder          
+                       C0011849          
+           |==================|          
+                 Disorder                
+                 C0011860                
+
+SENTENCE:  diverticulitis.
+                 NN       
+           |============| 
+              Disorder    
+              C0012813    
+
+SENTENCE:  PAST
+            JJ 
+
+SENTENCE:  SURGICAL HISTORY :
+              JJ       NN    
+                    |======| 
+                    Finding  
+                    C0262926 
+
+SENTENCE:  Sigmoid  colectomy in 8 of September right  carpal  tunnel
+              JJ       NN     IN   IN    NNP     JJ      JJ      NN  
+           |======| |=======|                         |======|       
+           Anatomy  Procedure                         Anatomy        
+           C0227391 C0009274                          C0007285       
+           |================|                         |=============|
+               Procedure                                  Anatomy    
+                C0192866                                 C0225091    
+
+SENTENCE:   release  in 1992.
+              NN     IN      
+           |=======|         
+           Procedure         
+           C1963578          
+
+SENTENCE:  MEDICATIONS ON ADMISSION:
+               NNS     IN    NN     
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  At the time of
+           IN DT   NN  . 
+
+SENTENCE:  admission , the patient was on Tylenol .
+              NN       DT    NN    VBD IN   NNP    
+                                          |======| 
+                                            Drug   
+                                          C0699142 
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  Penicillin ,
+               NN      
+           |========|  
+              Drug     
+            C0220892   
+
+SENTENCE:   Darvon .
+             NNP    
+           |======| 
+             Drug   
+           C0701094 
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  In general , the patient is  an  obese   female
+           IN   JJ      DT    NN    VBZ DT    JJ      NN  
+                                           |======|       
+                                           Disorder       
+                                           C0028754       
+
+SENTENCE:  in no acute distress.
+           IN DT  JJ      NN    
+                       |======| 
+                       Finding  
+                       C0231303 
+
+SENTENCE:  The vital  signs  
+           DT   JJ     NNS   
+                     |======|
+                     Finding 
+                     C0311392
+
+SENTENCE:  showed temperature 97.7 ,  heart   rate 84 ,  blood   pressure 100/70 and
+            VBD       NN                NN     NN          NN       NN            . 
+                                     |======|           |======| |======|           
+                                     Anatomy            Anatomy  Finding            
+                                     C0018787           C0005767 C0460139           
+                                                        |===============|           
+                                                             Finding                
+                                                            C0005823                
+
+SENTENCE:  respiratory rate 18.
+               NN       NN     
+
+SENTENCE:  The HEENT examination was benign.
+           DT   NN       NN      VBD   JJ   
+
+SENTENCE:  The  lungs  
+           DT    NNS   
+               |======|
+               Anatomy 
+               C0024109
+
+SENTENCE:  were clear to auscultation bilaterally.
+           VBD   JJ   IN      NN          RB      
+                         |==========|             
+                          Procedure               
+                           C0004339               
+
+SENTENCE:  The  heart   was regular rate
+           DT     NN    VBD   JJ     NN 
+               |======|                 
+               Anatomy                  
+               C0018787                 
+
+SENTENCE:  and rhythm.
+           CC    NN   
+
+SENTENCE:  The abdomen  was  obese   , soft , non distended , with
+           DT     NN    VBD    JJ       JJ    AFX    JJ        IN 
+               |======|     |======|              |=======|       
+               Anatomy      Disorder               Finding        
+               C0000726     C0028754              C0700124        
+
+SENTENCE:  periumbilical tenderness , and a  palpable umbilical  hernia .
+                JJ           NN       CC  DT    JJ       JJ        NN    
+                         |========|                   |=======| |======| 
+                          Finding                      Anatomy  Disorder 
+                          C0234233                    C0041638  C0019270 
+           |======================|                   |================| 
+                   Finding                                 Disorder      
+                   C2919901                                C0019322      
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was brought to the Operating Room on
+           DT    NN    VBD   VBN   IN DT     NN      NN  . 
+
+SENTENCE:  17 of February , where she underwent mesh  repair   of her 
+              IN   NNP       WRB  PRP    VBD     NN     NN     IN PRP$
+                                                     |=======|        
+                                                     Procedure        
+                                                     C0374711         
+
+SENTENCE:  midline incisional  hernia .
+             NN        JJ        NN    
+                   |========| |======| 
+                   Procedure  Disorder 
+                    C0184898  C0019270 
+                   |=================| 
+                         Finding       
+                        C0267716       
+
+SENTENCE:  She tolerated the procedure well
+           PRP    VBD    DT     NN      RB 
+                             |=======|     
+                             Procedure     
+                             C0184661      
+
+SENTENCE:  without complications.
+             IN         NNS      
+                   |===========| 
+                      Finding    
+                     C0009566    
+
+SENTENCE:  Postoperatively , her  diet and activity were
+                 RB          PRP$  NN  CC     NN    VBD 
+                                           |======|     
+                                           Finding      
+                                           C0026606     
+
+SENTENCE:  increased.
+              VBN    
+
+SENTENCE:  She developed very   mild   erythema around the incision 
+           PRP    VBD     RB     JJ       NN      IN   DT     NN    
+                              |======| |======|            |=======|
+                              Finding  Disorder            Procedure
+                              C1513302 C0041834            C0184898 
+
+SENTENCE:  postoperatively for which she received 3 days of IV Vancomycin.
+                 RB        IN   WDT  PRP   VBD      NNS  IN NN    NNP     
+                                                               |========| 
+                                                                  Drug    
+                                                                C0042313  
+
+SENTENCE:  She never developed a  high  fever   or white count.
+           PRP  RB      VBD    DT  JJ     NN    CC  JJ    NN   
+                                       |======|                
+                                       Finding                 
+                                       C0015967                
+
+SENTENCE:  Antibiotic
+               JJ    
+           |========|
+              Drug   
+            C0003232 
+
+SENTENCE:  coverage was converted to Ciprofloxacin and she remained afebrile
+              NN    VBD    VBN    IN      NNP      CC  PRP   VBD       JJ   
+                                     |===========|                  |======|
+                                         Drug                       Finding 
+                                       C0008809                     C0277797
+
+SENTENCE:  for 24 hour and was discharged to home in good condition.
+           IN      NN  CC  VBD    VBN     IN  NN  IN  JJ     NN     
+                                                          |=======| 
+                                                          Disorder  
+                                                          C0012634  
+
+SENTENCE:  MEDICATIONS ON DISCHARGE:
+               NNS     IN    NNP    
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  At the time of discharge , the patient
+           IN DT   NN  IN    NN       DT    NN   
+
+SENTENCE:  was on Ciprofloxacin 500 mg  po b.i.d.  x  5
+           VBD IN      NNP          NNS FW   FW   SYM  
+                  |===========|                        
+                      Drug                             
+                    C0008809                           
+
+SENTENCE:  days , Tylenol  #3 1-2 tablets  po q  4 h  prn. CONDITION ON DISCHARGE:
+           NNS      NNP             NNS    FW FW   NN  NN     NN     IN    NNP    
+                  |======|        |======|                 |=======|              
+                    Drug            Drug                   Disorder               
+                  C0699142        C0039225                 C0012634               
+
+SENTENCE:  Good.
+            JJ  
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  To home.
+           IN  NN  
+
+SENTENCE:  FOLLOW UP CARE:
+             NN   IN  NN  
+           |=======|      
+            Finding       
+           C0589120       
+
+SENTENCE:  In the Niri Tonch University Hospital in one week for  wound   check and staple  removal .
+           IN DT  NNP   NNP     NNP        NN    IN CD   NN  IN     NN     NN   CC    NN      NN     
+                                                                 |======|                  |=======| 
+                                                                 Disorder                  Procedure 
+                                                                 C0043250                  C0015252  
+                                                                                    |==============| 
+                                                                                       Procedure     
+                                                                                        C0204864     
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  SCOT MCPARLAND ,  M . D .
+            NN     NN       NNP NNP 
+
+SENTENCE:  JS20
+            NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  ISAIAH G.  LOVORN ,  M . D .
+            NNP   NNP  NNP     NNP NNP 
+
+SENTENCE:  XX07
+            NN 
+
+SENTENCE:  PT876/0330
+            NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  0558 Index No. IHWSX2MWD D : 8/18/93
+                 NNP  NN     NN     NN         
+
+SENTENCE:  T : 3/28/93
+           NN         
+

@@ -1,0 +1,889 @@
+SENTENCE:  164093292 | WHOC | 09360461 | | 5186721 | 1/9/2006 12:00:00 AM | s /p    ICD    implant  | |   DIS    | Admission Date:
+                        NN                                             NN   NN IN    NN       NN           NN         NN      NN  
+                                                                                  |======| |======|     |======|                  
+                                                                                  Disorder   Drug       Disorder                  
+                                                                                  C0020725 C1704229     C0012634                  
+                                                                                  C0021122              C1970187                  
+                                                                                                        |======|                  
+                                                                                                        Finding                   
+                                                                                                        C1444662                  
+
+SENTENCE:  2/29/2006 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  3/17/2006
+                    
+
+SENTENCE:  ****** FINAL DISCHARGE ORDERS ******
+                   JJ      NN      NNS         
+
+SENTENCE:  LOGUIDICE , RAMON 228-03-04-8
+              NN        NN              
+
+SENTENCE:  Car   Sti    A 
+           NN    NNP    NN
+               |======|   
+               Disorder   
+               C0036916   
+
+SENTENCE:  Service : CAR
+              NN     NN 
+           |======|     
+           Finding      
+           C0557854     
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  2/12/06 AT 10:00 AM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON HO evaluation
+               NN      IN  NN     NN    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  VONGKHAMCHANH , ANTON BOYD ,  M . D .
+                NNP         NNP  NNP    NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ACETYLSALICYLIC ACID 325 MG PO QAM
+                 NN         NN      NN JJ NN 
+           |==================|              
+                   Drug                      
+                 C0004057                    
+
+SENTENCE:  Starting IN AM ( 11/10 )
+              NN    IN NN          
+
+SENTENCE:  HOLD IF: resume immediately upon d /c  home
+            NN  IN    VB       RB       IN  NN NN  NN 
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 2/12/06 by HULSLANDER , ZACHARY
+              JJ     VBN  IN         IN     NN         NN   
+
+SENTENCE:  on order for TORADOL  IV ( ref # 424277010 )
+           IN  NN   IN     NN    NN   NN               
+                        |======|                       
+                          Drug                         
+                        C0146226                       
+
+SENTENCE:  SERIOUS INTERACTION:
+             JJ        NN      
+                   |=========| 
+                     Finding   
+                    C0687133   
+
+SENTENCE:  ASPIRIN  & KETOROLAC TROMETHAMINE ,   INJ   
+              NN         NN          NN           JJ   
+           |======|   |=======| |==========|   |======|
+             Drug       Drug        Drug         Drug  
+           C0004057   C0073631    C0041175     C1272883
+                      |====================|           
+                               Drug                    
+                             C0064326                  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  pt currently off  plavix 
+           NN    RB     IN     NN   
+                            |======|
+                              Drug  
+                            C0633084
+
+SENTENCE:  LIPITOR  ( ATORVASTATIN ) 80 MG PO DAILY
+              NN          NNP           NN NN  RB  
+           |======|   |==========|                 
+             Drug         Drug                     
+           C0593906     C0286651                   
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 8/19/06 by CAVIGGIA , EDWARDO
+              JJ     VBN  IN         IN    NN        NN   
+
+SENTENCE:  on order for NIASPAN  PO ( ref # 459860777 )
+           IN  NN   IN     NN    NN   NN               
+                        |======|                       
+                          Drug                         
+                        C1161310                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ATORVASTATIN CALCIUM  &
+               NNP         NN     
+           |==========| |======|  
+               Drug       Drug    
+             C0286651   C0006675  
+           |===================|  
+                   Drug           
+                 C0286650         
+
+SENTENCE:   NIACIN  , VIT.
+              NN      NN  
+           |======|       
+             Drug         
+           C0027996       
+
+SENTENCE:  B -3 Reason for override:
+           NN     NN   IN     NN    
+
+SENTENCE:  Home regimen - closely monitored.
+            NN    NN        RB       VBN    
+
+SENTENCE:   COREG   ( CARVEDILOL ) 12.5 MG PO BID
+              NN          NN            NN JJ NN 
+           |======|   |========|                 
+             Drug        Drug                    
+           C0719509    C0054836                  
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  Number of Doses Required ( approximate ): 2
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:   KEFLEX  ( CEPHALEXIN ) 250 MG PO QID  X  28 doses
+             NNP         NNP           NN JJ RB  NNP     NNS 
+           |======|   |========|                             
+             Drug        Drug                                
+           C0700517    C0007716                              
+
+SENTENCE:  Number of Doses Required ( approximate ): 20
+             NN   IN  NNS    VBN          JJ           
+
+SENTENCE:   PLAVIX  ( CLOPIDOGREL ) 75 MG PO DAILY
+             NNP          NNP          NN NN  RB  
+           |======|   |=========|                 
+             Drug        Drug                     
+           C0633084    C0070166                   
+
+SENTENCE:  Starting Saturday ( 9/12 )
+              NN      NNP            
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 2/12/06 by RAPIN , GLEN
+              JJ     VBN  IN         IN  NN      NN 
+
+SENTENCE:  on order for TORADOL  IV ( ref # 424277010 )
+           IN  NN   IN     NN    NN   NN               
+                        |======|                       
+                          Drug                         
+                        C0146226                       
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  CLOPIDOGREL BISULFATE &
+               NNP        NN      
+           |=========|            
+              Drug                
+            C0070166              
+           |===================|  
+                   Drug           
+                 C0772326         
+
+SENTENCE:  KETOROLAC TROMETHAMINE ,   INJ    Reason for override:
+              NN          NN           JJ      NN   IN     NN    
+           |=======| |==========|   |======|                     
+             Drug        Drug         Drug                       
+           C0073631    C0041175     C1272883                     
+           |====================|                                
+                    Drug                                         
+                  C0064326                                       
+
+SENTENCE:  pt currently off  plavix 
+           NN    RB     IN     NN   
+                            |======|
+                              Drug  
+                            C0633084
+
+SENTENCE:  GLIPIZIDE 10 MG PO QAM Starting IN AM ( 3/28 )
+              NN        NN JJ NN     NN    IN NN         
+           |=======|                                     
+             Drug                                        
+           C0017642                                      
+
+SENTENCE:  LISINOPRIL 40 MG PO QAM Starting IN AM ( 11/10 )
+               NN        NN JJ NN     NN    IN NN          
+           |========|                                      
+              Drug                                         
+            C0065374                                       
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 8/19/06 by BUNDETTE , RYAN
+              JJ     VBN  IN         IN    NN       NN 
+
+SENTENCE:  on order for ALDACTONE PO ( ref # 292942003 )
+           IN  NN   IN     NN     NN   NN               
+                        |=======|                       
+                          Drug                          
+                        C0591054                        
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL &
+               NN      
+           |========|  
+              Drug     
+            C0065374   
+
+SENTENCE:  SPIRONOLACTONE Reason for override:
+                NNP         NN   IN     NN    
+           |============|                     
+                Drug                          
+              C0037982                        
+
+SENTENCE:  Home medication regimen - closely monitored.
+            NN      NN       NN        RB       VBN    
+                |========|                             
+                   Drug                                
+                 C0013227                              
+
+SENTENCE:  NIASPAN  ( NICOTINIC ACID SUSTAINED  RELEASE  ) 0.5 GM PO BID
+              NN         JJ      NN     VBN       NN           NN NN RB 
+           |======|   |============|           |=======|                
+             Drug          Drug                Procedure                
+           C1161310      C0027996              C1963578                 
+
+SENTENCE:  Starting IN AM ( 3/28 )
+              NN    IN NN         
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 8/19/06 by
+              JJ     VBN  IN         . 
+
+SENTENCE:  PENTTILA , LANNY
+              NN       NN  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ATORVASTATIN CALCIUM  &
+               NNP         NN     
+           |==========| |======|  
+               Drug       Drug    
+             C0286651   C0006675  
+           |===================|  
+                   Drug           
+                 C0286650         
+
+SENTENCE:   NIACIN  , VIT.
+              NN      NN  
+           |======|       
+             Drug         
+           C0027996       
+
+SENTENCE:  B -3 Reason for override:
+           NN     NN   IN     NN    
+
+SENTENCE:  Home regimen - closely monitored.
+            NN    NN        RB       VBN    
+
+SENTENCE:  OXYCODONE 5-10 MG PO Q6H PRN   Pain  
+              NNP         NN JJ NN  FW     NN   
+           |=======|                    |======|
+             Drug                       Finding 
+           C0030049                     C0030193
+
+SENTENCE:   PAXIL   ( PAROXETINE ) 20 MG PO QAM Starting IN AM ( 3/28 )
+              NN          NN          NN JJ NN     NN    IN NN         
+           |======|   |========|                                       
+             Drug        Drug                                          
+           C0376414    C0070122                                        
+
+SENTENCE:  ALDACTONE ( SPIRONOLACTONE ) 25 MG PO QAM
+              NN            NNP            NN JJ NN 
+           |=======|   |============|               
+             Drug           Drug                    
+           C0591054       C0037982                  
+
+SENTENCE:  Starting IN AM ( 3/28 ) Food/  Drug   Interaction Instruction
+              NN    IN NN           NN     NN        NN          NN     
+                                        |======| |=========|            
+                                          Drug     Finding              
+                                        C0013227  C0687133              
+
+SENTENCE:  Give with meals
+            VB   IN   NNS 
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 8/19/06 by
+              JJ     VBN  IN         . 
+
+SENTENCE:  TINGER , GARFIELD
+             NN        NN   
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LISINOPRIL &
+               NN      
+           |========|  
+              Drug     
+            C0065374   
+
+SENTENCE:  SPIRONOLACTONE Reason for override:
+                NNP         NN   IN     NN    
+           |============|                     
+                Drug                          
+              C0037982                        
+
+SENTENCE:  Home medication regimen - closely monitored.
+            NN      NN       NN        RB       VBN    
+                |========|                             
+                   Drug                                
+                 C0013227                              
+
+SENTENCE:  COUMADIN ( WARFARIN  SODIUM  ) 4 MG PO x1
+             NNP         NN       NN        NN JJ NN
+           |======|   |======| |======|             
+             Drug       Drug     Drug               
+           C0699129   C0043031 C0037473             
+                      |===============|             
+                            Drug                    
+                          C0376218                  
+
+SENTENCE:  Starting Tomorrow ( 11/10 )
+              NN       NN             
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  follow previous coumadin regimen
+             VB      JJ       NN      NN   
+                           |======|        
+                             Drug          
+                           C0699129        
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  No high Vitamin -K  containing foods
+           DT  JJ     NN    NN     NN      NNS 
+                   |======|                    
+                     Drug                      
+                   C0042890                    
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 2/12/06 by :
+              JJ     VBN  IN         IN  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  ATORVASTATIN CALCIUM  &
+               NNP         NN     
+           |==========| |======|  
+               Drug       Drug    
+             C0286651   C0006675  
+           |===================|  
+                   Drug           
+                 C0286650         
+
+SENTENCE:  WARFARIN POTENTIALLY SERIOUS INTERACTION:
+              NN        RB        JJ        NN      
+           |======|                     |=========| 
+             Drug                         Finding   
+           C0043031                      C0687133   
+
+SENTENCE:  ASPIRIN  & WARFARIN
+              NN         NN   
+           |======|   |======|
+             Drug       Drug  
+           C0004057   C0043031
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  per previous home regimen
+           IN     JJ     NN    NN   
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  Patient should measure  weight   daily
+             NN      MD     VB       NN      RB  
+                                  |=======|      
+                                  Procedure      
+                                  C1305866       
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET: 2 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  No heavy lifting/lifting right   arm    above   head    x  1 month
+           DT  JJ     NN      NN     JJ      NN     IN      NN    SYM    NN  
+                                          |======|       |======|            
+                                          Anatomy        Anatomy             
+                                          C0446516       C0018670            
+                                    |============|                           
+                                       Anatomy                               
+                                       C0230346                              
+
+SENTENCE:  Lift restrictions:
+            NN      NNS      
+
+SENTENCE:  Do  not lift greater then 5-10 pounds
+           VBP RB   VB    JJR    RB        NNS  
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Augustus Kwong 7/22/06 9 AM scheduled ,
+           NNP    NN     IN             NN    VBN     
+
+SENTENCE:  Arrange    INR    to be drawn on 2/4/06 with f /u     INR   's to be drawn every
+             VB       NN     TO VB  VBN  IN         IN  NN NN    NN       TO VB  VBN   RB  
+                   |=======|                                  |=======|                    
+                   Procedure                                  Procedure                    
+                   C0525032                                   C0525032                     
+
+SENTENCE:  3-4 days.
+               NNS  
+
+SENTENCE:     INR   's will be followed by cardilogist
+              NNP       MD  VB   VBN    IN     NN     
+           |=======|                                  
+           Procedure                                  
+           C0525032                                   
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  NKA
+           NN 
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:    CHF   
+              NN   
+           |======|
+           Disorder
+           C0018802
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  s /p    ICD    implant 
+           NN IN    NN       NN   
+                 |======| |======|
+                 Disorder   Drug  
+                 C0020725 C1704229
+                 C0021122         
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    CAD    ( coronary  artery  disease  ) s /p  PPM/AICD ( S /P  implanted cardiac 
+              NN         JJ       NN       NN      NN IN NN   NN    NN IN    VBN       JJ   
+           |======|   |======| |======| |======|                                    |======|
+           Disorder   Anatomy  Anatomy  Disorder                                    Anatomy 
+           C1956346   C0018787 C0003842 C0012634                                    C0018787
+                      |===============|                                                     
+                           Anatomy                                                          
+                          C0205042                                                          
+                               |===============|                                            
+                                   Disorder                                                 
+                                   C0852949                                                 
+                      |========================|                                            
+                               Disorder                                                     
+                               C1956346                                                     
+
+SENTENCE:  defibrillator )   CHF    ( congestive  heart   failure ) AVR ( cardiac  valve
+                NN            NN          JJ        NN      NN      NNP      JJ     NN  
+                           |======|              |======|                 |======|      
+                           Disorder              Anatomy                  Anatomy       
+                           C0018802              C0018787                 C0018787      
+                                                 |==============|         |============|
+                                                     Disorder                Anatomy    
+                                                     C0018801                C0018826   
+
+SENTENCE:  replacement )   CABG    ( cardiac   bypass    graft   surgery ) stent ( coronary
+               NN           NN          JJ       NN        NN      NN       NN        JJ   
+           |=========|   |=======|   |======| |=======| |======|                   |======|
+            Procedure    Procedure   Anatomy  Procedure Anatomy                    Anatomy 
+            C0035139     C0010055    C0018787 C0741847  C0332835                   C0018787
+                                              |================|                           
+                                                  Procedure                                
+                                                   C0185098                                
+
+SENTENCE:  stent )   LBBB   ( bundle branch  block   )
+            NN       NNP        NN     NN      NN     
+                   |======|                 |======|  
+                   Disorder                 Finding   
+                   C0023211                 C0028778  
+                              |====================|  
+                                     Disorder         
+                                     C0006384         
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  CRT-D  placement in EP lab
+           NN  NN    NN     IN NN NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  64 year old man with a  history  of valvular  heart  
+               NN  JJ  NN   IN  DT    NN    IN    JJ       NN   
+                                   |======|             |======|
+                                   Finding              Anatomy 
+                                   C0262926             C0018787
+
+SENTENCE:  disease  s /p  mechanical AVR and   CAD   /MI s /p    CABG    and multiple   PCIs  .
+              NN    NN IN     JJ     NN  CC     NN    NN NN IN    NN     CC     JJ       NN    
+           |======|                          |======|          |=======|              |======| 
+           Disorder                          Disorder          Procedure              Anatomy  
+           C0012634                          C1956346          C0010055               C0228147 
+
+SENTENCE:  EF
+           NN
+
+SENTENCE:  15-20% with   LBBB   morphology on    ECG   .
+                   IN    NNP        NN     IN    NNP    
+                       |======| |========|    |=======| 
+                       Disorder  Finding      Procedure 
+                       C0023211  C0700329     C1623258  
+
+SENTENCE:  CRT-D  device placed in 10/4
+           NN  NN   NN    VBN   IN     
+
+SENTENCE:  Subsequent pocket infection (  E  coli ) prompting  removal  of the
+               JJ       NN      NN       NNP NNP       VBG       NN     IN CD 
+                             |=======|                        |=======|       
+                             Disorder                         Procedure       
+                             C0009450                         C0015252        
+
+SENTENCE:  system.
+             NN   
+
+SENTENCE:  Now admitted for reimplantation of CRT-D  device.
+           RB    VBN    IN        NN       IN NN  NN   NN   
+                            |============|                  
+                              Procedure                     
+                               C0035139                     
+
+SENTENCE:  S /P  procedure  today  :
+           NN IN    NN        NN    
+                 |=======| |======| 
+                 Procedure   Drug   
+                 C0184661  C0310367 
+
+SENTENCE:  Guidant Contak Renewal .
+             JJ      NN      NN    
+                          |======| 
+                            Drug   
+                          C2916969 
+
+SENTENCE:  Leads in RV apex , RAA ,
+            NNS  IN NN  NN    NN   
+
+SENTENCE:  and CS.
+           CC  NN 
+
+SENTENCE:    DDD    40 - 120.
+             NNP             
+           |======|          
+             Drug            
+           C0011037          
+           C0026256          
+
+SENTENCE:  Access via R  cephalic and R  axillary.
+             NN   IN  JJ    JJ    CC  JJ    JJ    
+                                         |======| 
+                                         Anatomy  
+                                         C0004454 
+
+SENTENCE:  No
+           UH
+
+SENTENCE:  complications.
+                NNS      
+           |===========| 
+              Finding    
+             C0009566    
+
+SENTENCE:  pCXR
+            NN 
+
+SENTENCE:  ok.
+           VB 
+
+SENTENCE:  Per attending will defer anticoagulation and  plavix .
+           IN     NN      MD   VB         NN        CC     NN    
+                                                        |======| 
+                                                          Drug   
+                                                        C0633084 
+
+SENTENCE:  5/25/06 : pt did well overnight.
+                     NN VBD  RB     RB     
+
+SENTENCE:  c /o    mild  -moderate   pain   at  wound   site.
+           NN IN    JJ       JJ       NN    IN    NN     NN  
+                 |======|          |======|    |======|      
+                 Finding           Finding     Disorder      
+                 C1513302          C0030193    C0043250      
+                          |===============|                  
+                               Finding                       
+                              C0278139                       
+
+SENTENCE:    mild   swelling , no gross hematoma appreciated.
+              JJ       NN      DT  JJ      NN        VBN     
+           |======| |======|            |======|             
+           Finding  Finding             Finding              
+           C1513302 C0038999            C0018944             
+
+SENTENCE:  VS , tele , and    CXR    reviewed.
+           NN    NN    CC     NN       VBN    
+                           |=======|          
+                           Procedure          
+                           C0039985           
+
+SENTENCE:   Plavix  will be restarted on saturday.
+             NNP     MD  VB    VBN    IN    NN    
+           |======|                               
+             Drug                                 
+           C0633084                               
+
+SENTENCE:  coumadin resumed tomorrow.
+              NN      VBD      NN    
+           |======|                  
+             Drug                    
+           C0699129                  
+
+SENTENCE:    ASA    325
+              NN       
+           |======|    
+             Drug      
+           C0004057    
+
+SENTENCE:  mg  resumed  today  .
+           NNS   VBD      NN    
+                       |======| 
+                         Drug   
+                       C0310367 
+
+SENTENCE:  f /u  w / dr nims on 2/26/06.
+           VB RP IN  NN NNS  IN         
+
+SENTENCE:  have    INR    checked in 3-4
+            VB     NN       VBN   IN    
+                |=======|               
+                Procedure               
+                C0525032                
+
+SENTENCE:  days.
+           NNS  
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Please have your    INR    level checked with Dr. Radabaugh 3-4 days after
+             UH    VB  PRP$    NNP     NN     VBN    IN  NNP    IN         NNS   IN  
+                            |=======|                                                
+                            Procedure                                                
+                            C0525032                                                 
+
+SENTENCE:  resuming your coumadin.
+             VBG    PRP$    NN    
+                         |======| 
+                           Drug   
+                         C0699129 
+
+SENTENCE:  You may resume your  plavix  on saturday.
+           PRP MD    VB   PRP$    NN    IN    NN    
+                               |======|             
+                                 Drug               
+                               C0633084             
+
+SENTENCE:  Please
+             UH  
+
+SENTENCE:  resume taking a  full aspirin  ( 325 mg  ) tonight when you get home from the
+             VB    VBG   DT  JJ     NN          NNS     NN    WRB  PRP VBP  NN   IN  CD 
+                                 |======|                                               
+                                   Drug                                                 
+                                 C0004057                                               
+
+SENTENCE:  hospital.
+              NN    
+
+SENTENCE:  You may resume your coumadin , at 4 mg  per day , tomorrow
+           PRP MD    VB   PRP$    NN      IN   NNS IN  NN       NN   
+                               |======|                              
+                                 Drug                                
+                               C0699129                              
+
+SENTENCE:  ( Thursday ).
+               NNP      
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  PAPCIAK , DUDLEY ( BX40 ) 2/12/06 @ 11:12 AM
+             NN        NN      NN                    NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

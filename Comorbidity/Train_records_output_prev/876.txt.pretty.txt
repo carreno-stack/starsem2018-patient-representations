@@ -1,0 +1,850 @@
+SENTENCE:  374505213 |   TSH    | 30420782 | | 7466325 | 11/28/2003 12:00:00 AM | Acute rejection of  Renal   Transplant | |   DIS    | Admission Date:
+                          NN                                                 NN    JJ      NN     IN    JJ        NN            NN         NN      NN  
+                       |======|                                                                      |======| |========|     |======|                  
+                         Drug                                                                        Anatomy   Anatomy       Finding                   
+                       C0040160                                                                      C0022646  C0332835      C1444662                  
+                                                                                                     |=================|     |======|                  
+                                                                                                          Procedure          Disorder                  
+                                                                                                          C0022671           C0012634                  
+                                                                                                                             C1970187                  
+                                                                                  |====================================|                               
+                                                                                                 Disorder                                              
+                                                                                                 C0403588                                              
+
+SENTENCE:  7/10/2003 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  11/19/2003
+                     
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  LITRENTA , STAN  M  659-15-16-2
+              NN      NNP  NNP            
+
+SENTENCE:  Baylake Worth I 
+             NN     NN   CD
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  RNM
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  1/20/03 AT 04:00 AM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  LINBURG , JONATHAN KRISTOFER ,  M . D .
+             NN         NN       NN       NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:   COLACE  ( DOCUSATE  SODIUM  ) 100 MG PO BID
+              NN         NN       NN          NN JJ NN 
+           |======|   |======| |======|                
+             Drug       Drug     Drug                  
+           C0282139   C1692318 C0037473                
+                      |===============|                
+                            Drug                       
+                          C0243237                     
+
+SENTENCE:  FLUOXETINE   HCL    20 MG  PO QD
+              NNP        NN       NNS FW FW
+           |========| |======|             
+              Drug      Drug               
+            C0016365  C0020259             
+           |=================|             
+                  Drug                     
+                C0733380                   
+
+SENTENCE:    NPH    HUMULIN  INSULIN  ( INSULIN    NPH    HUMAN )
+              NN       NN       NN         NN       NN     NN    
+           |======| |======| |======|   |======| |======|        
+           Disorder   Drug     Drug       Drug   Disorder        
+           C0020258 C3538423 C0021641   C0021641 C0020258        
+                                        |===============|        
+                                              Drug               
+                                            C0021658             
+                                        |=====================|  
+                                                 Drug            
+                                               C0795633          
+
+SENTENCE:  28 UNITS QAM; 8 UNITS QPM SC 28 UNITS QAM 8 UNITS QPM
+               NNS  NN      NNS  NNP NN     NNS  NN     NNS  NN 
+
+SENTENCE:  HUMAN INSULIN  REG ( INSULIN  REGULAR HUMAN )
+            NN      NN    NN       NN      JJ     NN    
+                 |======|       |======|                
+                   Drug           Drug                  
+                 C0021641       C0021641                
+           |============|                               
+                Drug                                    
+              C0795635                                  
+
+SENTENCE:  Sliding Scale SC ( subcutaneously ) QAC & HS
+             JJ     NN   NN         RB         JJ    FW
+
+SENTENCE:  If BS is  less than 200 , then give 0 units subcutaneously
+           IN NN VBZ RBR   IN         RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  201-250 , then give 4 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  251-300 , then give 6 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  301-350 , then give 8 units subcutaneously
+           IN NN VBZ            RB   VB     NNS        RB      
+
+SENTENCE:  If BS is  351-400 , then give 10 units subcutaneously and
+           IN NN VBZ            RB   VB      NNS        RB        . 
+
+SENTENCE:  call HO Call HO if BS is  greater than 400
+            NN  NN  NN  NN IN NN VBZ   JJR    IN     
+
+SENTENCE:  LEVOXYL  ( LEVOTHYROXINE  SODIUM  ) 100 MCG PO QD
+              NN           NN          NN          NN  FW FW
+           |======|   |===========| |======|                
+             Drug         Drug        Drug                  
+           C0721346     C0040165    C0037473                
+                      |====================|                
+                               Drug                         
+                             C0079691                       
+
+SENTENCE:  METOPROLOL TARTRATE 50 MG QAM; 25 MG QPM PO 50 MG QAM
+              NNP        NN       NN NNP     NN NN  NN    NN NN 
+           |========| |======|                                  
+              Drug      Drug                                    
+            C0025859  C0144544                                  
+           |=================|                                  
+                  Drug                                          
+                C0700548                                        
+
+SENTENCE:  25 MG QPM Food/  Drug   Interaction Instruction
+              NN NN   NN     NN        NN          NN     
+                          |======| |=========|            
+                            Drug     Finding              
+                          C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  PREDNISONE 5 MG  PO QAM
+               NN       NNS JJ NN 
+           |========|             
+              Drug                
+            C0032952              
+
+SENTENCE:  PROGRAF  ( TACROLIMUS ) 3 MG PO Q12H
+              NN          NN         NN JJ  NN 
+           |======|   |========|               
+             Drug        Drug                  
+           C0678125    C0085149                
+
+SENTENCE:  Starting  Today   ( 7/10 )
+              NN       NN            
+                    |======|         
+                      Drug           
+                    C0310367         
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  Take 3mg for next two days , then decrease
+            VB  NN  IN   JJ  CD  NNS     RB     NN   
+
+SENTENCE:  the dose to 1mg qd.
+           DT   NN  IN NNS FW 
+
+SENTENCE:  Go to the Pret Natho to
+           VB IN DT  NNP   NNP  TO
+
+SENTENCE:  get  blood   drawn Monday Morning.
+           VB     NN     VBN   NNP     NN    
+               |======|                      
+               Anatomy                       
+               C0005767                      
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Separate antacids by at least two hours and avoid
+              JJ      NNS    IN RB  RBS  CD   NNS  CC   NN  
+                    |======|                                
+                      Drug                                  
+                    C0003138                                
+
+SENTENCE:  grapefruit juice
+               NN      NN  
+           |========|      
+              Drug         
+            C0440280       
+
+SENTENCE:  CELLCEPT ( MYCOPHENOLATE MOFETIL ) 500 MG PO Q12H
+              NN           NN         NN          NN JJ  NN 
+           |======|   |===========|                         
+             Drug         Drug                              
+           C0592558     C0883242                            
+                      |===================|                 
+                              Drug                          
+                            C0209368                        
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Give on an empty stomach  ( give 1hr before or 2hr after
+            VB  IN DT  JJ      NN       VB  NN    IN   CC NN   NN  
+                            |======|                               
+                            Disorder                               
+                            C0038354                               
+                            |======|                               
+                            Anatomy                                
+                            C1278920                               
+                            C3714551                               
+
+SENTENCE:  food ) Food decreases peak by up to 40%
+            NN    NNP     VBZ     NN  IN NN IN    
+
+SENTENCE:  REMERON  ( MIRTAZAPINE ) 30 MG PO QHS
+              NN          NN           NN JJ NN 
+           |======|   |=========|               
+             Drug        Drug                   
+           C0525726    C0049506                 
+
+SENTENCE:  Number of Doses Required ( approximate ): 10
+             NN   IN  NNS    VBN          JJ           
+
+SENTENCE:  RAPAMUNE ( SIROLIMUS ) 4 MG PO QD
+              NN         NN         NN FW FW
+           |======|   |=======|             
+             Drug       Drug                
+           C0813828   C0072980              
+
+SENTENCE:   NEXIUM  ( ESOMEPRAZOLE ) 20 MG PO QD
+              NN          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0939400     C0937846                
+
+SENTENCE:   AMBIEN  ( ZOLPIDEM TARTRATE ) 5 MG PO QHS PRN Insomnia
+              NN        NNP       NN        NN JJ NN  FW     NN   
+           |======|   |======| |======|                   |======|
+             Drug       Drug     Drug                     Finding 
+           C0487782   C0078839 C0144544                   C0917801
+                      |===============|                           
+                            Drug                                  
+                          C0724725                                
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Give on an empty stomach  ( give 1hr before or 2hr after
+            VB  IN DT  JJ      NN       VB  NN    IN   CC NN   NN  
+                            |======|                               
+                            Disorder                               
+                            C0038354                               
+                            |======|                               
+                            Anatomy                                
+                            C1278920                               
+                            C3714551                               
+
+SENTENCE:  food )
+            NN   
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House /  Renal   diet (FDI)
+            NN        JJ     NN   NNP 
+                   |======|           
+                   Anatomy            
+                   C0022646           
+                   |===========|      
+                     Procedure        
+                     C0457987         
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Partial  weight  -bearing:
+             JJ       NN       NN    
+                   |=======|         
+                   Procedure         
+                   C1305866          
+                   |===============| 
+                        Finding      
+                       C0085086      
+
+SENTENCE:  As per your Orthopedic Surgeon.
+           IN IN  PRP$     JJ       NN    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:   Renal   Transplant for  blood   draw Monday , 8am scheduled ,
+              JJ        NN     IN     NN     NN   NNP     NNP    VBN     
+           |======| |========|     |======|                              
+           Anatomy   Anatomy       Anatomy                               
+           C0022646  C0332835      C0005767                              
+           |=================|     |===========|                         
+                Procedure            Procedure                           
+                C0022671             C0005834                            
+                                     C0190979                            
+
+SENTENCE:  Dr. Bobier , Orthopedics , 323-734-0631 , 9:45am , please bring  X-rays   10/30/03 scheduled ,
+           NNP  NNP         NNP            CD           NN      NN    NN      NNS                VBN     
+                                                                           |=======|                     
+                                                                           Procedure                     
+                                                                           C0043299                      
+
+SENTENCE:  Dr. Bumgardner , Rheumatology 180-430-4095 , 9am 3/10/03 scheduled ,
+           NNP    NNP            NN           CD        NN             VBN     
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Dilaudid ( hydromorphone   hcl    )
+             NNP           NN          NN     
+           |======|   |===========| |======|  
+             Drug         Drug        Drug    
+           C0728755     C0012306    C0020259  
+                      |====================|  
+                               Drug           
+                             C0700533         
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:   Renal   Failure , Possible rejection of  Kidney  Transplant.
+              JJ      NN         JJ       NN     IN    NN        NN     
+           |======|                                 |======| |========| 
+           Anatomy                                  Anatomy   Anatomy   
+           C0022646                                 C0022646  C0332835  
+           |==============|                         |=================| 
+               Disorder                                  Procedure      
+               C0035078                                  C0022671       
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  Acute rejection of  Renal   Transplant
+            JJ      NN     IN    JJ        NN    
+                              |======| |========|
+                              Anatomy   Anatomy  
+                              C0022646  C0332835 
+                              |=================|
+                                   Procedure     
+                                   C0022671      
+           |====================================|
+                          Disorder               
+                          C0403588               
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    CMV    colitis    HTN    ,   IDDM   ,   ESRD   , s /p   Renal   Tx s /p  Wilm's  Tumor   ( age 3 ) s /p 
+              NN       NN       NN         NN         NN      NN IN    JJ    NN NN IN NNP       NN      NN      NN RB
+           |======| |======| |======|   |======|   |======|         |======|                 |======|                
+           Disorder Disorder Disorder   Disorder   Disorder         Anatomy                  Disorder                
+           C0010823 C0009319 C0020538   C0011854   C0022661         C0022646                 C0027651                
+                                                   C2316810                                                          
+           |===============|                                                          |=============|                
+               Disorder                                                                  Disorder                    
+               C0341335                                                                  C0027708                    
+
+SENTENCE:  thyroid  CA , s /p   resect   +  CMV    donor h /o  hyperthyroid on T4 h /o    AFib   ,
+              NN    NN   NN IN    NN         NN     NN   NN IN      NN      IN NN NN IN    NN     
+           |======|            |=======|  |======|             |==========|             |======|  
+           Anatomy             Procedure  Disorder               Disorder               Disorder  
+           C0040132            C0015252   C0010823               C0020550               C0004238  
+           |=========|                                                                            
+            Disorder                                                                              
+            C0007115                                                                              
+
+SENTENCE:  pulm   HTN   /fibrosis ( XRT-rel ) h /o  incr   PTH    ,   gout   (   gout   )
+            JJ     NN       NN      NN  NN    NN IN VBG     NN         NN         NN     
+                |======| |======|                        |======|   |======|   |======|  
+                Disorder Finding                           Drug     Disorder   Disorder  
+                C0020538 C0016059                        C0030520   C0018099   C0018099  
+
+SENTENCE:  hypertriglyceridemia , s /p  appendectomy s /p  cataract surgery s /p  R    eye   
+                    NN            NN IN      NN      NN IN    NN      NN    NN IN JJ    NN   
+           |==================|         |==========|       |======|                  |======|
+                 Disorder                Procedure         Disorder                  Anatomy 
+                 C0020557                 C0003611         C0086543                  C0015392
+                                                           |==============|                  
+                                                              Procedure                      
+                                                               C2939459                      
+
+SENTENCE:  embolus  with central VF  defect , small
+              NN     IN    JJ    NNP   NN      JJ  
+           |======|                                
+           Finding                                 
+           C1704212                                
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:   Renal    Biopsy   1/20/03
+              JJ       NN            
+           |======| |=======|        
+           Anatomy  Procedure        
+           C0022646 C0005558         
+           |================|        
+               Procedure             
+                C0194073             
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  Mr. Scioneaux is  a  48 y /o  admitted for a   renal    biopsy  .
+           NNP    NNP    VBZ DT    NN IN   VBN    IN  DT    JJ       NN     
+                                                         |======| |=======| 
+                                                         Anatomy  Procedure 
+                                                         C0022646 C0005558  
+                                                         |================| 
+                                                             Procedure      
+                                                              C0194073      
+
+SENTENCE:  Pt is  s /p   renal  
+           NN VBZ NN IN    JJ   
+                        |======|
+                        Anatomy 
+                        C0022646
+
+SENTENCE:  transplant  x  2 ( 1997 , 2001 ) who presented to  renal   clinic on 9/30
+               NN     SYM                   WP     VBD    IN    JJ      NN   IN     
+           |========|                                        |======|               
+            Anatomy                                          Anatomy                
+            C0332835                                         C0022646               
+
+SENTENCE:  complaining of night  sweats  and fatigue .
+               VBG     IN  NN     NNS    CC     NN    
+                                |======|     |======| 
+                                Finding      Finding  
+                                C0038990     C0015672 
+                          |============|              
+                             Finding                  
+                             C0028081                 
+
+SENTENCE:  His  creatinine at that time
+           PRP$     NN     IN  DT   NN 
+                |========|             
+                   Drug                
+                 C0010294              
+
+SENTENCE:  was 3.5 ( up from 3.2 in 8/23 ).
+           VBD       RP  IN      IN        
+
+SENTENCE:  At that time , his  Prograf  was reduced
+           IN  DT   NN    PRP$    NN    VBD   VBN  
+                               |======|            
+                                 Drug              
+                               C0678125            
+
+SENTENCE:  from 4 mg  BID to 3 mg  BID.
+            IN    NNS FW  IN   NNS FW  
+
+SENTENCE:  There was concern at this time over possibl
+            EX   VBD   NN    IN  DT   NN   IN    JJ   
+
+SENTENCE:  e  rejection of his   renal   transplant and he  was admitted 6/23 for
+           NN    NN     IN PRP$    JJ        NN     CC  PRP VBD   VBN         CD 
+                                |======| |========|                              
+                                Anatomy   Anatomy                                
+                                C0022646  C0332835                               
+                                |=================|                              
+                                     Procedure                                   
+                                     C0022671                                    
+
+SENTENCE:  elective   renal    biopsy   to evaluate for rejection.
+              JJ        JJ       NN     TO    VB    IN     NN     
+           |=======| |======| |=======|                           
+           Procedure Anatomy  Procedure                           
+           C0206058  C0022646 C0005558                            
+                     |================|                           
+                         Procedure                                
+                          C0194073                                
+
+SENTENCE:  PE on Admission:
+           NN IN    NN     
+
+SENTENCE:  97.5 , 110/66 ,   P90    , RR18 97% on RA.
+                              NN       NN      IN NN 
+                           |======|                  
+                             Drug                    
+                           C1619635                  
+
+SENTENCE:  Gen: Flat  affect  ,
+           NN    JJ     NN     
+                     |======|  
+                     Finding   
+                     C0001721  
+                |===========|  
+                   Finding     
+                  C0233471     
+
+SENTENCE:  but conversant.
+           CC      JJ     
+
+SENTENCE:  Pulm:
+            NN  
+
+SENTENCE:    CTAB   , no  wheeze .
+              NN      DT    NN    
+           |======|      |======| 
+             Drug        Finding  
+           C0951233      C0043144 
+
+SENTENCE:  CV:
+           NN 
+
+SENTENCE:  RRR , s1 , s2 , +s3.
+           NN    NN   NN    NN 
+
+SENTENCE:  Holosystolic  murmur  , 3/6.
+               NNP         NN          
+                        |======|       
+                        Finding        
+                        C0018808       
+           |===================|       
+                 Disorder              
+                 C0232258              
+
+SENTENCE:  Diastolic  murmur  present.
+              JJ        NN      JJ    
+                     |======|         
+                     Finding          
+                     C0018808         
+           |================|         
+                Finding               
+                C0232262              
+
+SENTENCE:    Abd   : well healed
+              NN      RB   VBN  
+           |======|             
+           Anatomy              
+           C0000726             
+
+SENTENCE:  surgical  scars   , soft , NT/ND.
+              JJ      NNS       JJ    NN NN 
+                    |======|                
+                    Finding                 
+                    C0241158                
+                    C2004491                
+
+SENTENCE:    Ext   :
+              NN    
+           |======| 
+           Disorder 
+           C0015306 
+
+SENTENCE:  Charcot  joint   left   foot   , right   foot  
+             NN       NN     JJ     NN       JJ      NN   
+                   |======|      |======|         |======|
+                   Anatomy       Anatomy          Anatomy 
+                   C0022417      C0016504         C0016504
+           |==============| |===========|   |============|
+               Disorder        Anatomy         Anatomy    
+               C0003892       C0230461         C0230460   
+
+SENTENCE:  in brace for navicular fracture.
+           IN  NN   IN     JJ        NN    
+                        |=======| |======| 
+                         Anatomy  Disorder 
+                        C0223947  C0016658 
+                        |================| 
+                             Disorder      
+                             C0435939      
+
+SENTENCE:  A /P :
+           LS NN 
+
+SENTENCE:  1 )  Renal  :
+                  JJ    
+               |======| 
+               Anatomy  
+               C0022646 
+
+SENTENCE:   Renal   failure 2/2 radiation  therapy  as child for Wilm's
+              JJ      NN           NN        NN     IN  NN   IN  NNP   
+           |======|             |=======| |=======|                    
+           Anatomy              Procedure Procedure                    
+           C0022646             C1522449  C0087111                     
+           |==============|                                            
+               Disorder                                                
+               C0035078                                                
+
+SENTENCE:   tumor   , transplanted 1997 , 2001 , continue immunosuppressant regimen.
+              NN          VBN                       VB           JJ           NN    
+           |======|                                       |===============|         
+           Disorder                                             Drug                
+           C0027651                                           C0021081              
+
+SENTENCE:   Renal   bx 9/26 , showed acute rejection ,  likely  resolving.
+              JJ    NN         VBD    JJ      NN          RB       VBG    
+           |======|                                    |======|           
+           Anatomy                                     Finding            
+           C0022646                                    C0332148           
+
+SENTENCE:  Will follow
+            MD    VB  
+
+SENTENCE:  up with  renal   transplant on 9/21
+           RP  IN     JJ        NN     IN     
+                   |======| |========|        
+                   Anatomy   Anatomy          
+                   C0022646  C0332835         
+                   |=================|        
+                        Procedure             
+                        C0022671              
+
+SENTENCE:  2 )   Heme  :
+                  NN    
+               |======| 
+                 Drug   
+               C0018966 
+
+SENTENCE:  Prolongued    PTT    , inhibitor  screen   negative ,  lupus  
+               JJ        NNP         NN        NN        JJ         NN   
+                      |=======|             |=======|            |======|
+                      Procedure             Procedure            Disorder
+                      C0030605              C0199230             C0409974
+
+SENTENCE:  anticoagulant negative.
+                NN          JJ    
+           |===========|          
+               Drug               
+             C0003280             
+
+SENTENCE:  Thrombin time , anticardiolipin ab pending.
+             NNP     NN          JJ        NN   JJ    
+           |======|                                   
+             Drug                                     
+           C0040018                                   
+           |===========|                              
+             Procedure                                
+             C0677634                                 
+
+SENTENCE:  3 ) Endocrine:
+                  NN     
+               |=======| 
+                Anatomy  
+               C0014136  
+
+SENTENCE:  Diabetes s /p  transplant , on   NPH   /SSI.
+              NN    NN IN     NN       IN    NN    NNP 
+           |======|       |========|      |======|     
+           Disorder        Anatomy        Disorder     
+           C0011849        C0332835       C0020258     
+
+SENTENCE:  4 ) Rheum:
+                NN   
+
+SENTENCE:  h /o    Gout   , intermittantly treated with Colchicine , has follow
+           NN IN    NN            RB         VBN    IN     NNP       VBZ   NN  
+                 |======|                               |========|             
+                 Disorder                                  Drug                
+                 C0018099                                C0009262              
+
+SENTENCE:  up scheduled with Rheumatology on 3/10/03 , 9am.
+           RP    VBN     IN       NN      IN           NN  
+
+SENTENCE:  Dr. Wendell Britson
+           NNP   NNP     NNP  
+
+SENTENCE:  5 ) Ortho:
+                NNP  
+
+SENTENCE:  Navicular fracture in right   foot   , 8 days ago ,  x-rays   obtained
+              JJ        NN    IN  JJ      NN        NNS  RB       NNS      VBN   
+           |=======| |======|          |======|                |=======|         
+            Anatomy  Disorder          Anatomy                 Procedure         
+           C0223947  C0016658          C0016504                C0043299          
+           |================|    |============|                                  
+                Disorder            Anatomy                                      
+                C0435939            C0230460                                     
+
+SENTENCE:  at Pia Hawest Hospital Of Would like second opinion re: management from Darsba Hospital Ortho consulted informally re:
+           IN NNP  NNP      NN    IN  NNP   IN    JJ     NN    NN      NN      IN   NNP     NNP     NNP     VBN        IN     NN 
+                                                                   |========|                                                    
+                                                                    Finding                                                      
+                                                                    C1273870                                                     
+
+SENTENCE:  recommendations.
+                 NNS       
+
+SENTENCE:  Appointment scheduled with Dr. Barretto on 9/16 , 9:45am.
+               NN         VBN     IN  NNP   NNP    IN           NN  
+
+SENTENCE:  Will need to
+            MD   VB  TO
+
+SENTENCE:  bring  X-rays  .
+            NN      NNS    
+                 |=======| 
+                 Procedure 
+                 C0043299  
+
+SENTENCE:  6 ) Psych:
+                NN   
+
+SENTENCE:  Will continue remeron  and  prozac .
+            MD     VB       NN    CC     NN    
+                         |======|     |======| 
+                           Drug         Drug   
+                         C0525726     C0162373 
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Please decrease dose of FK  to 1mg BID after two days and follow up with
+             UH      VB     NN  IN NNP IN NN  RB   IN   CD  NNS  CC    VB   RP  IN 
+
+SENTENCE:   renal   transplant on Monday to have your  blood   drawn.
+              JJ        NN     IN  NNP   TO  VB  PRP$    NN     VBN  
+           |======| |========|                        |======|       
+           Anatomy   Anatomy                          Anatomy        
+           C0022646  C0332835                         C0005767       
+           |=================|                                       
+                Procedure                                            
+                C0022671                                             
+
+SENTENCE:  Appointments
+               NNS     
+
+SENTENCE:  scheduled for both Rheumatology and Orthopedics.
+              VBN    IN   DT       NN      CC      NNS     
+
+SENTENCE:  Call for temp>100.4 , increased   pain   in   feet   , decreased urinary output ,
+            NN  IN   NN             VBN       NN    IN   NNS         VBN      JJ      NN    
+                                           |======|    |======|                             
+                                           Finding     Anatomy                              
+                                           C0030193    C0016504                             
+
+SENTENCE:   chest     pain   , shortness of breath or anything concerning to you.
+              NN       NN         NN     IN   NN   CC    NN       VBG     IN PRP 
+           |======| |======|   |=================|                               
+           Anatomy  Finding          Finding                                     
+           C0817096 C0030193        C0013404                                     
+           |===============|                                                     
+                Finding                                                          
+               C0008031                                                          
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  KRUMWIEDE , MORTON SYLVESTER , M.D. ( LN49 ) 1/20/03 @ 03
+              NN         NN      NN        NN     NN                
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+
