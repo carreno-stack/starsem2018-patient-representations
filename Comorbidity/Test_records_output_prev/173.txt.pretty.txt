@@ -1,0 +1,1001 @@
+SENTENCE:  488143879 | BHMC | 85427112 | | 1064942 | 11/22/2003 12:00:00 AM |  RENAL   FAILURE | Signed |   DIS    | Admission Date:
+                        NN                                               NN     NNS      NN       VBN        NN         NN      NN  
+                                                                              |======|                    |======|                  
+                                                                              Anatomy                     Finding                   
+                                                                              C0022646                    C1444662                  
+                                                                              |==============|            |======|                  
+                                                                                  Disorder                Disorder                  
+                                                                                  C0035078                C0012634                  
+                                                                                                          C1970187                  
+
+SENTENCE:  11/22/2003 Report Status:
+                        NN     NN   
+                      |===========| 
+                         Finding    
+                        C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  11/19/2003
+                     
+
+SENTENCE:  ATTENDING:
+              NN     
+
+SENTENCE:  KARL EFRAIN BRESSER MD
+           NNP   NNP     NN    NN
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Rehabilitation.
+                 NN       
+           |============| 
+             Procedure    
+              C0034991    
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Tylenol  650 mg  p.o. q .4h.  p .r .n .
+             NNP        NNS  FW  FW  NNS RB VB RB 
+           |======|                               
+             Drug                                 
+           C0699142                               
+
+SENTENCE:  headache , vitamin  C  500 mg  p.o. b.i.d. , enteric-coated aspirin 
+              NN         NN    NN     NNS  FW    FW       JJ     VBN      NN   
+           |======|   |======|                                         |======|
+           Finding      Drug                                             Drug  
+           C0018681   C0042890                                         C0004057
+                      |=========|                                              
+                         Drug                                                  
+                       C0003968                                                
+
+SENTENCE:  325 mg  p.o. q.d. , calcitriol 0.25 mcg p.o. q.d. ,  PhosLo  1334 mg 
+               NNS  FW   FW        NN          NNS  FW   FW      NNP         NNS
+                               |========|                      |======|         
+                                  Drug                           Drug           
+                                C0006674                       C0722621         
+
+SENTENCE:  p.o. t.i.d. ,  Colace  100 mg  p.o. b.i.d. , doxepin  10 mg  p .o .
+            FW    FW       NNP        NNS  FW    FW        NN       NNS RB NN 
+                         |======|                       |======|              
+                           Drug                           Drug                
+                         C0282139                       C0013085              
+
+SENTENCE:  t.i.d. ,  Epogen  40 , 000 units subcutaneous every week ,  Lasix   80 mg 
+             FW       NNP              NNS       JJ       DT    NN      NNP       NNS
+                    |======|                                          |======|       
+                      Drug                                              Drug         
+                    C0700704                                          C0699992       
+
+SENTENCE:  p.o. b.i.d. ,   NPH    insulin  8 units subqutaneously q.a.m. , Regular
+            FW    FW        NN       NN       NNS        RB         RB       JJ   
+                         |======| |======|                                        
+                         Disorder   Drug                                          
+                         C0020258 C0021641                                        
+                         |===============|                                        
+                               Drug                                               
+                             C0021658                                             
+
+SENTENCE:  insulin  sliding scale , lactulose 30 mL  p.o. q.i.d. ,  Maalox  50 mL 
+              NN      VBG    NN        JJ        NNS  FW    FW       NNP       NNS
+           |======|                 |=======|                      |======|       
+             Drug                     Drug                           Drug         
+           C0021641                 C0022957                       C0065461       
+
+SENTENCE:  p.o. q .6h. , p.r.n. indigestion , magnesium , Hydrocet 30 mL  p .o .
+            FW  FW  FW     FW       NN           NN         NNP       NNS JJ NN 
+                                |=========|   |=======|   |======|              
+                                  Finding       Drug        Drug                
+                                 C0013395     C0024467    C0720939              
+
+SENTENCE:  q.d. p.r.n. constipation , Lopressor 100 mg  p.o. t.i.d. , Bactroban
+            FW    FW        NN           NNP        NNS  FW    FW        NNP   
+                       |==========|   |=======|                       |=======|
+                         Finding        Drug                            Drug   
+                         C0009806     C0700776                        C0733863 
+
+SENTENCE:  topical  b.i.d. apply to affected areas ,  Serax   15-30 mg  p .o .
+              JJ      FW    VB   IN    JJ     NNS       NN          NNS RB NN 
+           |======|                                  |======|                 
+             Drug                                      Drug                   
+           C1710439                                  C0702214                 
+
+SENTENCE:  q.h.s. p.r.n. insomnia , Percocet 1  tablet  p.o. q .6h. p .r .n .
+             FW     FW      NN        NNP         NN     FW  FW  FW RB VB RB 
+                         |======|   |======|   |======|                      
+                         Finding      Drug       Drug                        
+                         C0917801   C0086787   C0039225                      
+
+SENTENCE:  headache ,  sodium  bicarbonate 650 mg  p.o. t.i.d. , MVI therapeutic
+              NN         NN        NN          NNS  FW    FW     NN      JJ     
+           |======|   |======| |=========|                           |=========|
+           Finding      Drug      Drug                                Procedure 
+           C0018681   C0037473  C0005367                              C0087111  
+                      |==================|                                      
+                              Drug                                              
+                            C0074722                                            
+
+SENTENCE:  with minerals 1  tablet  p.o. q.d. ,  Zoloft  50 mg  p.o. q.d. , Proscar 
+            IN    NNS         NN     FW   FW      NNP       NNS  FW   FW      NNP   
+                |======|   |======|             |======|                    |======|
+                  Drug       Drug                 Drug                        Drug  
+                C0026162   C0039225             C0284660                    C0678149
+
+SENTENCE:  5 mg  p.o. q.d. ,  Zocor   40 mg  p.o. q.h.s. , sotalol  40 mg  p .o .
+             NNS  FW   FW      NNP       NNS  FW    FW       NNP       NNS RB NN 
+                             |======|                      |======|              
+                               Drug                          Drug                
+                             C0678181                      C0037707              
+
+SENTENCE:  b.i.d. , Flonase  1-2  sprays  inhaled q.h.s. ,  Flomax  0.8 mg  p .o .
+             FW       NNP          NNS      VBN     FW       NNP        NNS RB NN 
+                    |======|     |======|                  |======|               
+                      Drug         Drug                      Drug                 
+                    C0286677     C1154182                  C0662903               
+
+SENTENCE:  q.d. , Mirapex  0.5 mg  p.o. t.i.d. , miconazole 2%  powder  topically
+            FW      NNP        NNS  FW    FW         NN           NN       RB    
+                  |======|                       |========|    |======|          
+                    Drug                            Drug         Drug            
+                  C0721754                        C0025942     C0032861          
+
+SENTENCE:  applied b.i.d. to affected areas ,  Nexium  20 mg  p.o. q.d. ,  DuoNeb 
+             VBN     FW   IN   VBN     NNS       NN       NNS  FW   FW      NNP   
+                                              |======|                    |======|
+                                                Drug                        Drug  
+                                              C0939400                    C0939692
+
+SENTENCE:  3/0.
+               
+
+SENTENCE:  5 mg    nebs   q .6h. p.r.n. wheezing , Atrovent 0.06% 2  sprays 
+             NNS    NN    FW  FW   FW      NN        NNP              NNS   
+                 |======|               |======|   |======|         |======|
+                   Drug                 Finding      Drug             Drug  
+                 C1300458               C0043144   C0591130         C1154182
+
+SENTENCE:  inhaled b . i . d .
+             VBN   LS NNS VBN 
+
+SENTENCE:  The patient is  to measure  weight   daily.
+           DT    NN    VBZ TO   VB       NN      RB   
+                                      |=======|       
+                                      Procedure       
+                                      C1305866        
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  Low cholesterol , low saturated   fat   .
+           JJ      NN        JJ     JJ        NN    
+               |=========|                 |======| 
+                  Drug                       Drug   
+                C0008377                   C0015677 
+                                 |================| 
+                                        Drug        
+                                      C0597423      
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated.
+              NN    IN    VBN    
+           |======|              
+           Finding               
+           C0080331              
+
+SENTENCE:  FOLLOWUP:
+              NN    
+
+SENTENCE:  Followup appointment with Dr. Celso , his    PCP    ,
+              NN        NN       IN  NNP  NNP    PRP$    NN     
+                                                      |======|  
+                                                        Drug    
+                                                      C0031381  
+
+SENTENCE:  next available.
+            JJ     JJ     
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  Ciprofloxacin and Codeine .
+                NNP      CC    NNP    
+           |===========|     |======| 
+               Drug            Drug   
+             C0008809        C0009214 
+
+SENTENCE:  ADMITTING DIAGNOSES:
+              JJ        NNS    
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  1.   CHF   .
+                 NN    
+              |======| 
+              Disorder 
+              C0018802 
+
+SENTENCE:  2. Cellulitis.
+                  NN     
+              |========| 
+               Finding   
+               C0007642  
+
+SENTENCE:  OTHER DIAGNOSES:
+            JJ      NNS    
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  1. Obesity .
+                 NN    
+              |======| 
+              Disorder 
+              C0028754 
+
+SENTENCE:  2. Type 2 diabetes.
+               NN       NN    
+                     |======| 
+                     Disorder 
+                     C0011849 
+              |=============| 
+                 Disorder     
+                 C0011860     
+
+SENTENCE:  3. Hypertension.
+                   NN      
+              |==========| 
+                Disorder   
+                C0020538   
+
+SENTENCE:  4. High cholesterol.
+               JJ      NN      
+                   |=========| 
+                      Drug     
+                    C0008377   
+              |==============| 
+                  Disorder     
+                  C0020443     
+
+SENTENCE:  5. Ventricular tachycardia.
+                  JJ          NN      
+              |=========| |=========| 
+                Anatomy     Finding   
+               C0018827    C0039231   
+              |=====================| 
+                     Disorder         
+                     C0042514         
+
+SENTENCE:  6. Restless   legs   syndrome.
+                 JJ      NNS       NN    
+              |======| |======| |======| 
+              Finding  Anatomy  Disorder 
+              C3887611 C1140621 C0039082 
+              |===============|          
+                  Disorder               
+                  C0035258               
+
+SENTENCE:  7.  Sleep    apnea  .
+                 NN       NN    
+              |======| |======| 
+              Finding  Finding  
+              C0037313 C0003578 
+              |===============| 
+                  Disorder      
+                  C0037315      
+
+SENTENCE:  8. Recurrent   UTIs  .
+                 JJ       NNS    
+                        |======| 
+                        Disorder 
+                        C0042029 
+
+SENTENCE:  9. Left   ear    deafness.
+               JJ     NN       NN    
+                   |======| |======| 
+                   Anatomy  Finding  
+                   C0013443 C0018772 
+              |===========|          
+                 Anatomy             
+                C0229299             
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  None.
+            NN  
+
+SENTENCE:  OTHER TREATMENTS AND PROCEDURES:
+            JJ      NNS     CC     NNS     
+                 |========|     |========| 
+                 Procedure      Procedure  
+                  C0087111       C0184661  
+
+SENTENCE:  None.
+            NN  
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient was admitted with a 
+           DT    NN    VBD   VBN     IN  CD
+
+SENTENCE:  chief complaint of an increased shortness of breath at   rest   and
+            JJ      NN     IN DT    VBN       NN     IN   NN   IN    NN     . 
+                 |=======|                 |=================|    |======|    
+                  Finding                        Finding          Finding     
+                 C0277786                       C0013404          C0035253    
+
+SENTENCE:  increased sleepiness in the daytime.
+              VBN        NN     IN DT    NN    
+                     |========|                
+                      Finding                  
+                      C0013144                 
+
+SENTENCE:  He  is  a  61-year-old with
+           PRP VBZ DT     NN  JJ   .  
+
+SENTENCE:  multiple medical problems , sent to Bugettl Of Medical Center after
+              JJ      JJ      NNS       NN  IN   NNP   IN   JJ      NN    IN  
+
+SENTENCE:  treatment for lower extremity cellulitis on 10/9/2003 at Stongarfo Hospital .  He  was doing well and cellulitis was
+              NN     IN   JJ      NN         NN     IN           IN    NN        NN       PRP VBD  VBG   RB  CC      NN      . 
+           |=======|           |=======| |========|                                                              |========|    
+           Procedure            Anatomy   Finding                                                                 Finding      
+           C0087111            C0015385   C0007642                                                                C0007642     
+                         |=============|                                                                                       
+                             Anatomy                                                                                           
+                            C0023216                                                                                           
+
+SENTENCE:  improving and participating in physical  therapy  until 2 weeks
+              VBG    CC       VBG      IN    JJ       NN      IN      NNS 
+                                                   |=======|              
+                                                   Procedure              
+                                                   C0087111               
+                                          |================|              
+                                              Procedure                   
+                                               C0949766                   
+
+SENTENCE:  when he  became progressively increased shortness of breath with
+           WRB  PRP  VBD        RB          VBN       NN     IN   NN    .  
+                                                   |=================|     
+                                                         Finding           
+                                                        C0013404           
+
+SENTENCE:  exertion.
+              NN    
+           |======| 
+           Finding  
+           C0015264 
+
+SENTENCE:  He  has orthopnea at baseline but no   PND    , no increased
+           PRP VBZ    NN     IN    NN    CC  DT    NN      DT    JJ    
+                   |=======|                    |======|               
+                    Finding                     Disorder               
+                   C0085619                     C1956415               
+
+SENTENCE:  swelling of lower extremities , also had increased daytime
+              NN    IN  JJ       NNS        RB  VBD    VBN      NN   
+           |======|          |=========|                             
+           Finding             Anatomy                               
+           C0038999           C0015385                               
+                       |===============|                             
+                            Anatomy                                  
+                           C0023216                                  
+
+SENTENCE:  sleepiness ____ conversation while eating earlier in the day than
+               NN               NN       IN    VBG     JJR   IN DT  NN   .  
+           |========|                                                       
+            Finding                                                         
+            C0013144                                                        
+
+SENTENCE:  previously.
+               RB     
+
+SENTENCE:  REVIEW OF SYSTEMS:
+             NN   IN   NNS   
+
+SENTENCE:  He  denies  fevers  ,  chills  ,  nausea  , vomiting ,
+           PRP  VBZ     NNS        NNS         NN         NN     
+                      |======|   |======|   |======|   |======|  
+                      Finding    Finding    Finding    Finding   
+                      C0015967   C0085593   C0027497   C0042963  
+
+SENTENCE:   cough   , or abdominal   pain  .
+              NN      CC    JJ        NN    
+           |======|      |=======| |======| 
+           Finding        Anatomy  Finding  
+           C0010200      C0000726  C0030193 
+                         |================| 
+                              Finding       
+                              C0000737      
+
+SENTENCE:  He  reports occasional  chest     pain   at 
+           PRP   VBZ       JJ        NN       NN    WDT
+                                  |======| |======|    
+                                  Anatomy  Finding     
+                                  C0817096 C0030193    
+                                  |===============|    
+                                       Finding         
+                                      C0008031         
+
+SENTENCE:    rest   lasting 2-3 minutes without radiation not associated with
+              NN      VBG         NNS     IN       NN     RB      JJ      IN 
+           |======|                             |=======|                    
+           Finding                              Procedure                    
+           C0035253                             C1522449                     
+
+SENTENCE:  shortness of breath or diuresis.
+              NN     IN   NN   CC    NN    
+           |=================|    |======| 
+                 Finding          Finding  
+                C0013404          C0012797 
+
+SENTENCE:  His  last episode of  chest     pain  
+           PRP$  JJ    NN    IN    NN       NN   
+                                |======| |======|
+                                Anatomy  Finding 
+                                C0817096 C0030193
+                                |===============|
+                                     Finding     
+                                    C0008031     
+
+SENTENCE:  was 3 days ago.
+           VBD   NNS  RB  
+
+SENTENCE:  He  denies palpitations.
+           PRP  VBZ       NNS      
+                      |==========| 
+                        Finding    
+                        C0030252   
+
+SENTENCE:  He  has had 3 episodes
+           PRP VBZ VBN     NNS   
+
+SENTENCE:  of gross hematuria but no abdominal   pain   , no frequency , or
+           IN  JJ      NN     CC  DT    JJ        NN      DT    NN       CC
+                    |=======|        |=======| |======|                    
+                     Finding          Anatomy  Finding                     
+                    C0018965         C0000726  C0030193                    
+              |=============|        |================|                    
+                  Finding                 Finding                          
+                 C0473237                 C0000737                         
+                                  |===================|                    
+                                         Finding                           
+                                        C0423651                           
+
+SENTENCE:  dysuria .
+              NN    
+           |======| 
+           Finding  
+           C0013428 
+
+SENTENCE:  Also complains of shoulder and   neck     pain   , cramping ,
+            RB     VBZ    IN    NN    CC     NN       NN         NN     
+                             |======|     |======| |======|   |======|  
+                             Anatomy      Anatomy  Finding    Finding   
+                             C0037004     C0027530 C0030193   C0026821  
+                                                              C1446787  
+                                          |===============|             
+                                               Finding                  
+                                              C0007859                  
+
+SENTENCE:  constant at 4/10 , not improved or worsened with movement , not
+              JJ    IN        RB    VBN    CC   VBN     IN     NN      RB 
+                                                            |======|      
+                                                            Finding       
+                                                            C0026649      
+
+SENTENCE:  better or worsened anytime of the day.
+            JJR   CC    JJ      NN    IN DT  NN  
+                     |======|                    
+                     Finding                     
+                     C1457868                    
+
+SENTENCE:    Rehab   reports increased
+              NNP      VBZ      VBN   
+           |=======|                  
+           Procedure                  
+           C0034991                   
+
+SENTENCE:  ammonia  on his    labs  .
+              NN    IN PRP$   NNS    
+           |======|         |======| 
+             Drug           Finding  
+           C0002607         C0587081 
+
+SENTENCE:  The patient has been given increased doses
+           DT    NN    VBZ VBN   VBN     VBN     NNS 
+
+SENTENCE:  of lactulose and has now continuous diarrhea times several days
+           IN    JJ     CC  VBZ RB      JJ        NN     IN     JJ    NNS 
+              |=======|                        |======|       |==========|
+                Drug                           Finding          Finding   
+              C0022957                         C0011991         C3845714  
+
+SENTENCE:  but no  blood   in his  stool.
+           CC  DT    NN    IN PRP$  NN   
+                  |======|               
+                  Anatomy                
+                  C0005767               
+
+SENTENCE:  The patient urinates every 1-1/2
+           DT    NN      VBZ     DT        
+
+SENTENCE:  hours.
+            NNS  
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Significant for obesity  , obstructive  sleep  
+               JJ      IN     NN          JJ         NN   
+                           |======|               |======|
+                           Disorder               Finding 
+                           C0028754               C0037313
+
+SENTENCE:   apnea   , restless   legs   syndrome , hypertension , congestive  heart  
+              NN         JJ      NNS       NN           NN            JJ        NN   
+           |======|   |======| |======| |======|   |==========|              |======|
+           Finding    Finding  Anatomy  Disorder     Disorder                Anatomy 
+           C0003578   C3887611 C1140621 C0039082     C0020538                C0018787
+                      |===============|                                              
+                          Disorder                                                   
+                          C0035258                                                   
+
+SENTENCE:  failure , right ventricular hypertrophy , status post MI with an
+             NN       JJ       JJ          NN          NN    IN  NN  IN  NN
+                           |=========| |=========|                         
+                             Anatomy     Finding                           
+                            C0018827    C0020564                           
+                           |=====================|                         
+                                  Disorder                                 
+                                  C0340279                                 
+                     |===========================|                         
+                               Disorder                                    
+                               C0162770                                    
+           |=========================|                                     
+                    Disorder                                               
+                    C2939447                                               
+
+SENTENCE:  echo in October 2003 showing EF of 70% , diabetes , peripheral
+            NN  IN   NNP          VBG   NN IN          NN          JJ    
+                                                    |======|             
+                                                    Disorder             
+                                                    C0011849             
+
+SENTENCE:  neuropathy , and new light chain gammopathy , chronic  renal  
+               NN       CC  JJ   JJ    NN       NN         JJ       JJ   
+           |========|                       |========|           |======|
+            Disorder                         Disorder            Anatomy 
+            C0442874                         C0178650            C0022646
+
+SENTENCE:  insufficiency , cellulitis , panniculitis ,  venous  insufficiency ,
+                NN             NN            NN           JJ         NN        
+                           |========|   |==========|   |======|                
+                            Finding       Disorder     Anatomy                 
+                            C0007642      C0030326     C0042449                
+                                                       |====================|  
+                                                              Disorder         
+                                                              C0042485         
+
+SENTENCE:  frequent   UTIs   , and   BPH   .
+              JJ      NNS      CC     NN    
+                    |======|       |======| 
+                    Disorder       Finding  
+                    C0042029       C0005001 
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  His  medications on admission are the same as his 
+           PRP$     NNS     IN    NN     VBP DT   JJ  IN PRP$
+                |=========|                                  
+                   Drug                                      
+                 C0013227                                    
+
+SENTENCE:  medications on discharge.
+               NNS     IN    NN     
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  On admission , he  was afebrile.
+           IN    NN       PRP VBD    JJ    
+                                  |======| 
+                                  Finding  
+                                  C0277797 
+
+SENTENCE:  His  vital
+           PRP$  JJ  
+
+SENTENCE:   signs   were stable.
+             NNS    VBD    JJ   
+           |======|             
+           Finding              
+           C0311392             
+
+SENTENCE:  He  was  sleepy  ,  unable  to stay  awake  
+           PRP VBD    NN         JJ    TO  VB     JJ   
+                   |======|   |======|         |======|
+                   Finding    Finding          Finding 
+                   C0013144   C1299582         C0234422
+                                          |===========|
+                                              Drug     
+                                            C0723446   
+
+SENTENCE:  throughout the interview.
+               IN     DT     NN     
+
+SENTENCE:  His    neck   was supple.
+           PRP$    NN    VBD   JJ   
+                |======|            
+                Anatomy             
+                C0027530            
+
+SENTENCE:  His  JVP was 15
+           PRP$ NN  VBD   
+
+SENTENCE:  cm .
+           NNS 
+
+SENTENCE:  His   chest   had crackles at the bases.
+           PRP$    NN    VBD   NNS    IN DT   NNS  
+                |======|     |======|              
+                Anatomy      Finding               
+                C0817096     C0034642              
+
+SENTENCE:  His   heart   was regular.
+           PRP$    NN    VBD   JJ    
+                |======|             
+                Anatomy              
+                C0018787             
+
+SENTENCE:  His  abdomen  was  obese  .
+           PRP$    NN    VBD    JJ    
+                |======|     |======| 
+                Anatomy      Disorder 
+                C0000726     C0028754 
+
+SENTENCE:  His  extremities were warm , well perfused
+           PRP$     NNS     VBD   JJ     RB    VBN   
+                |=========|                          
+                  Anatomy                            
+                 C0015385                            
+
+SENTENCE:  and wrapped.
+           CC    VBN   
+
+SENTENCE:  On neurologic exam , he  was  alert   and oriented x3 ,
+           IN     JJ      NN    PRP VBD    JJ    CC     JJ    NN  
+                                        |======|     |======|     
+                                        Finding      Finding      
+                                        C0239110     C1961028     
+
+SENTENCE:   sleepy  , with poor dentition , decreased reflexes throughout ,
+              NN       IN   JJ     NN          VBN      NNS        RB      
+           |======|             |=======|             |======|             
+           Finding               Anatomy              Finding              
+           C0013144             C0011443              C0034929             
+                                                      C0596002             
+                                            |================|             
+                                                 Finding                   
+                                                 C0151888                  
+
+SENTENCE:  decreased sensation below the   knee    , no asterixis , but an
+              VBN       NN      IN   DT     NN       DT    NN       CC  NN
+                     |=======|           |=======|      |=======|         
+                      Finding            Procedure       Finding          
+                     C0036658            C0562271       C0232766          
+           |=================|           |=======|                        
+                 Finding                  Anatomy                         
+                C0020580                 C0022742                         
+
+SENTENCE:  intention  tremor .
+              NN        NN    
+           |=======| |======| 
+            Finding  Finding  
+           C0162425  C0040822 
+           |================| 
+                Finding       
+                C0234376      
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  Cardiovascularly , he  was continued on his  home
+                  NN          PRP VBD    VBN    IN PRP$  NN 
+
+SENTENCE:  medications and given IV  Lasix   , ____ 1-2 liters , negative.
+               NNS     CC   VBN  NN   NNP                NNS        JJ    
+           |=========|              |======|                              
+              Drug                    Drug                                
+            C0013227                C0699992                              
+
+SENTENCE:  An
+           NN
+
+SENTENCE:  echo showed an EF of 40-45% with global dysfunction but no
+            NN   VBD   DT NN IN         IN    JJ       NN      CC  UH
+                                                   |=========|       
+                                                     Finding         
+                                                    C0277785         
+
+SENTENCE:  regional wall motion abnormality.
+              JJ     NN    NN       NN      
+
+SENTENCE:  His     BNP    was checked on
+           PRP$    NN     VBD   VBN   IN
+                |=======|               
+                Procedure               
+                C1095989                
+                |=======|               
+                  Drug                  
+                C0054015                
+
+SENTENCE:  admission and was found to be 761. He  was kept even to negative
+              NN     CC  VBD  VBN  TO VB      PRP VBD VBN   RB  IN    JJ   
+
+SENTENCE:  daily at the time of discharge.
+            RB   IN DT   NN  IN    NN     
+
+SENTENCE:  He  was euvolemic on  Lasix   80 mg 
+           PRP VBD    JJ     IN   NNP       NNS
+                                |======|       
+                                  Drug         
+                                C0699992       
+
+SENTENCE:  p.o. b . i . d .
+            FW  LS NNS VBN 
+
+SENTENCE:  Pulmonary wise , he  has obstructive  sleep    apnea  .
+              NN      NN    PRP VBZ     JJ         NN       NN    
+           |=======|                            |======| |======| 
+            Anatomy                             Finding  Finding  
+           C0024109                             C0037313 C0003578 
+                                                |===============| 
+                                                    Disorder      
+                                                    C0037315      
+                                    |===========================| 
+                                              Disorder            
+                                              C0520679            
+
+SENTENCE:  The patient
+           DT    NN   
+
+SENTENCE:  provided his  own   CPAP    and that was checked by respiratory and
+             VBD    PRP$ JJ     NNP    CC  WDT  VBD   VBN   IN     JJ      CC 
+                             |=======|                                        
+                             Procedure                                        
+                             C0199451                                         
+
+SENTENCE:  found to be adequate.
+            VBN  TO VB    JJ    
+
+SENTENCE:   Renal   wise , he  had a  chronic  renal   insufficiency with a 
+              JJ     NN    PRP VBD DT   JJ       JJ         NN        IN  CD
+           |======|                           |======|                      
+           Anatomy                            Anatomy                       
+           C0022646                           C0022646                      
+                                              |====================|        
+                                                     Disorder               
+                                                     C1565489               
+                                      |============================|        
+                                                 Disorder                   
+                                                 C0403447                   
+
+SENTENCE:  creatinine baseline at 4. The goal was to have him negative 1
+               NN        NN    IN    DT   NN  VBD TO  VB  PRP    JJ     
+           |========|                                                   
+              Drug                                                      
+            C0010294                                                    
+
+SENTENCE:  liter per day.
+            NN   IN  NN  
+
+SENTENCE:  A   renal   ultrasound was checked that was within
+           DT    JJ        NN     VBD   VBN    DT  VBD   IN  
+              |======| |========|                            
+              Anatomy  Procedure                             
+              C0022646  C0041618                             
+              |=================|                            
+                   Procedure                                 
+                   C0203408                                  
+
+SENTENCE:   normal  limits and showed no hydronephrosis.
+              JJ     NNS   CC   VBD   DT       NN       
+           |======|                      |============| 
+           Finding                          Disorder    
+           C0231683                         C0020295    
+           C0558145                                     
+
+SENTENCE:  ID wise , his  UA was positive.
+           NN  NN    PRP$ NN VBD    JJ    
+
+SENTENCE:  A  Foley was placed on admission
+           DT  NNP  VBD  VBN   IN    NN    
+
+SENTENCE:  for volume monitoring.
+           IN    NN       NN     
+
+SENTENCE:  He  had too-numerous-to-count whites on
+           PRP VBD RB     JJ    IN  NN    NNS   IN
+
+SENTENCE:  admission and received 5 days of Augmentin for presumed   UTI   .
+              NN     CC    VBD      NNS  IN    NNP    IN    VBN       NN    
+                                            |=======|              |======| 
+                                              Drug                 Disorder 
+                                            C0591132               C0042029 
+
+SENTENCE:  Endocrine wise , he  has diabetes.
+              NN      NN    PRP VBZ    NN    
+           |=======|                |======| 
+            Anatomy                 Disorder 
+           C0014136                 C0011849 
+
+SENTENCE:  He  was admitted on glyburide
+           PRP VBD   VBN    IN    NN    
+                               |=======|
+                                 Drug   
+                               C0017628 
+
+SENTENCE:  and this was discontinued secondary to   rise   in creatinine.
+           CC   DT  VBD     VBN         JJ     IN    NN    IN     NN     
+                                                  |======|    |========| 
+                                                    Drug         Drug    
+                                                  C0246719     C0010294  
+
+SENTENCE:  He 
+           PRP
+
+SENTENCE:  was placed on subcutaneous   NPH    insulin  and regular sliding scale ,
+           VBD  VBN   IN      JJ         NN       NN    CC    JJ      VBG    NN    
+                                      |======| |======|                            
+                                      Disorder   Drug                              
+                                      C0020258 C0021641                            
+                                      |===============|                            
+                                            Drug                                   
+                                          C0021658                                 
+
+SENTENCE:  which may be changed over to p.o. glucose  control agents as an
+            WDT  MD  VB   VBN    IN  IN  FW     NN      NN     NNS   IN NN
+                                             |======|                     
+                                               Drug                       
+                                             C0017725                     
+
+SENTENCE:  outpatient.
+               NN     
+
+SENTENCE:  The patient was discharge to Chimoff Hospital for further care ,
+           DT    NN    VBD    NN     IN   NN       NN    IN    JJ     NN   
+
+SENTENCE:   wound   dressing  care for his  lower extremity  ulcer   , and PT and OT.
+              NN       NN      NN  IN  PRP$  JJ      NN        NN      CC  NN CC  NN 
+           |======| |=======|                     |=======| |======|                 
+           Disorder Procedure                      Anatomy  Disorder                 
+           C0043250 C0278286                      C0015385  C0041582                 
+                    |=======|               |=============|                          
+                     Finding                    Anatomy                              
+                    C1305428                   C0023216                              
+           |================|               |======================|                 
+                Finding                             Disorder                         
+                C3266799                            C0023223                         
+
+SENTENCE:  On discharge , he  was stable.
+           IN    NN       PRP VBD   JJ   
+
+SENTENCE:    PLAN  :
+              NN    
+           |======| 
+           Disorder 
+           C0270724 
+
+SENTENCE:    Plan   is  to follow up with Dr. Mead regarding his 
+              NN    VBZ TO   VB   RP  IN  NNP NNP     VBG    PRP$
+           |======|                                              
+           Disorder                                              
+           C0270724                                              
+
+SENTENCE:  pulmonary status , to   rehab   for further PT/OT and  wound   care.
+              JJ       NN     IN    NN     IN    JJ    NN NN CC     NN     NN  
+           |=======|             |=======|                       |======|      
+            Anatomy              Procedure                       Disorder      
+           C0024109              C0034991                        C0043250      
+                                                                 |===========| 
+                                                                   Procedure   
+                                                                   C0886052    
+                                                                   C1272654    
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient needed his    CPAP    mask replaced and humidifier added.
+             NN     VBD   PRP$    NNP     NN    VBN    CC      NN      VBN  
+                               |=======|                                    
+                               Procedure                                    
+                               C0199451                                     
+
+SENTENCE:  He 
+           PRP
+
+SENTENCE:  should be on   CPAP    16 cm  of  water   while sleeping.
+             MD   VB IN    NNP       NNS IN    NN     IN     VBG    
+                        |=======|           |======|                
+                        Procedure             Drug                  
+                        C0199451            C0043047                
+
+SENTENCE:  He  was to
+           PRP VBD TO
+
+SENTENCE:  follow up with Dr. Teddy Lands in Nephrology , Dr. Dungey in
+             VB   RP  IN  NNP  NNP   NNP  IN    NNP       NNP  NNP   . 
+
+SENTENCE:  Hematogy , and his    PCP    , Dr. Rubin Lortz .
+              NN      CC  PRP$    NN      NNP  NNP   NNP   
+                               |======|                    
+                                 Drug                      
+                               C0031381                    
+
+SENTENCE:  eScription document:
+               NN        NN    
+
+SENTENCE:  9-2055055 BFFocus
+                       NN   
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  DUARTES , DARWIN
+             NNS       NN  
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  HAMITON , JOE JOSEF
+             NN      NN   NN  
+
+SENTENCE:  Dictation ID 5763073
+              NN     NN        
+
+SENTENCE:  D : 11/29/03
+           NN          
+
+SENTENCE:  T : 10/9/03
+           NN         
+

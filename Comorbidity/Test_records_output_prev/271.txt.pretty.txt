@@ -1,0 +1,574 @@
+SENTENCE:  119621796 | WH | 21927445 | | 733455 | 7/10/2001 12:00:00 AM | hemoptysis | |   DIS    | Admission Date:
+                       NN                                            NN       NN            NN         NN      NN  
+                                                                          |========|     |======|                  
+                                                                           Finding       Finding                   
+                                                                           C0019079      C1444662                  
+                                                                                         |======|                  
+                                                                                         Disorder                  
+                                                                                         C0012634                  
+                                                                                         C1970187                  
+
+SENTENCE:  2/18/2001 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  9/21/2001
+                    
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  TINELLI , ZACHARY 197-18-63-9
+             NN        JJ               
+
+SENTENCE:  A 
+           NN
+
+SENTENCE:  Service : MED
+              NN     JJ 
+           |======|     
+           Finding      
+           C0557854     
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  7/26/01 AT 11:00 AM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  SHELLHAAS , FIDEL L.  ,  M . D .
+              NN        NN   NNP   NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:   XANAX   ( ALPRAZOLAM ) 1 MG PO TID HOLD IF: sedation 
+              NN         NNP         NN JJ NN   NN  IN     NN    
+           |======|   |========|                        |=======|
+             Drug        Drug                           Procedure
+           C0699034    C0002333                         C0344106 
+
+SENTENCE:  MECLIZINE ( MECLIZINE   HCL    ) 25 MG PO Q8H PRN vertigo 
+              NN          NN        NN         NN JJ NN  FW     NN   
+           |=======|   |=======| |======|                    |======|
+             Drug        Drug      Drug                      Finding 
+           C0025039    C0025039  C0020259                    C0042571
+                       |================|                            
+                              Drug                                   
+                            C0282227                                 
+
+SENTENCE:  NORTRIPTYLINE   HCL    100 MG PO HS
+                NN          NN        NN FW FW
+           |===========| |======|             
+               Drug        Drug               
+             C0028420    C0020259             
+           |====================|             
+                    Drug                      
+                  C0700459                    
+
+SENTENCE:  TRAZODONE 50 MG PO HS
+              NN        NN FW FW
+           |=======|            
+             Drug               
+           C0040805             
+
+SENTENCE:  VERAPAMIL SUSTAINED RELEAS 120 MG PO QD HOLD IF: sbp<100
+              NNP       VBN      NN       NN FW FW  NN  IN  NN     
+           |=======|                                               
+             Drug                                                  
+           C0042523                                                
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:  NEURONTIN ( GABAPENTIN )
+              NN          NNP      
+           |=======|   |========|  
+             Drug         Drug     
+           C0678176     C0060926   
+
+SENTENCE:  300 MG qAM;
+               NN NN  
+
+SENTENCE:  300 MG qNoon;
+               NN  NN   
+
+SENTENCE:  600 MG qPM PO 300 MG qAM
+               NN NN  NN     NN NN 
+
+SENTENCE:  300 MG qNoon 600 MG qPM
+               NN  NN       NN NN 
+
+SENTENCE:  SEROQUEL ( QUETIAPINE ) 200 MG PO TID
+              NN          NN           NN JJ NN 
+           |======|   |========|                
+             Drug        Drug                   
+           C0287163    C0123091                 
+
+SENTENCE:  Number of Doses Required ( approximate ): 12
+             NN   IN  NNS    VBN          JJ           
+
+SENTENCE:  PRILOSEC ( OMEPRAZOLE ) 20 MG PO QD
+              NN         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0700777    C0028978               
+
+SENTENCE:  COUMADIN ( WARFARIN  SODIUM  ) 5 MG PO QD
+             NNP         NN       NN        NN FW FW
+           |======|   |======| |======|             
+             Drug       Drug     Drug               
+           C0699129   C0043031 C0037473             
+                      |===============|             
+                            Drug                    
+                          C0376218                  
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  No high Vitamin -K  containing foods
+           DT  JJ     NN    NN     NN      NNS 
+                   |======|                    
+                     Drug                      
+                   C0042890                    
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  No Restrictions
+           DT     NNS     
+
+SENTENCE:  RETURN TO   WORK  :
+             NN   IN    NN    
+                     |======| 
+                     Finding  
+                     C0043227 
+           |================| 
+                Finding       
+                C0425105      
+
+SENTENCE:  When you feel ready
+           WRB  PRP VBP   JJ  
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Mckinley Choma at Is - Medical Center within 2-4 weeks ,
+             NNP     NN   IN VBZ    JJ      NN     IN        NNS   
+
+SENTENCE:  Pulmonary Clinic , 234-865-1925 within 2-3 weeks ,
+              JJ       NN          CD        IN        NNS   
+           |=======|                                         
+            Anatomy                                          
+           C0024109                                          
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Codeine 
+              NN   
+           |======|
+             Drug  
+           C0009214
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  Hemoptysis , s /p  PE ,    INR    7.5
+               NN       NN IN NN      NN        
+           |========|              |=======|    
+            Finding                Procedure    
+            C0019079               C0525032     
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  hemoptysis
+               NN    
+           |========|
+            Finding  
+            C0019079 
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  depression ( depression ); h /o    drug   overdose (   drug   overdose ); PE
+               NN           NN        NN IN    NN       NN         NN       NN       NN
+           |========|   |========|          |======| |======|   |======| |======|      
+            Disorder     Disorder             Drug   Disorder     Drug   Disorder      
+            C0011581     C0011581           C0013227 C0029944   C0013227 C0029944      
+
+SENTENCE:  ( pulmonary embolism );   gerd  
+                JJ        NN          NN   
+             |=======| |======|    |======|
+              Anatomy  Finding     Disorder
+             C0024109  C0013922    C0017168
+             |================|            
+                  Disorder                 
+                  C0034065                 
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  38 F  with h /o  recent PE ( 6/22 ) p /w  episode of hemoptysis , CP and   SOB   
+              NN  IN  NN IN   JJ   NN          IN IN   NN    IN     NN       NN CC     NN   
+                                                                |========|          |======|
+                                                                 Finding            Finding 
+                                                                 C0019079           C0013404
+
+SENTENCE:  and found to have supratherapeutic    INR    of 7.2 , post oropharyngeal
+           CC   VBD  TO  VB         JJ           NN     IN        IN       JJ      
+                                              |=======|               |===========|
+                                              Procedure                  Anatomy   
+                                              C0525032                  C0521367   
+
+SENTENCE:  abrasions.
+              NNS    
+           |=======| 
+           Disorder  
+           C0043242  
+
+SENTENCE:     HCT    stable and hemodynamically stable.
+              NN       JJ   CC        RB          JJ   
+           |=======|            |====================| 
+           Procedure                   Finding         
+           C0018935                    C0578150        
+
+SENTENCE:  No evidence of
+           DT    NN    IN
+
+SENTENCE:  further bleeding during hospitalization , altho' pt reports recent
+             JJ       NN      IN         NN           IN    NN   VBZ     JJ  
+                   |======|                                                  
+                   Finding                                                   
+                   C0019080                                                  
+
+SENTENCE:  hematochezia  x  1.
+                NN      SYM   
+           |==========|       
+             Finding          
+             C0018932         
+
+SENTENCE:  Also  c /o    GERD   sx .
+            RB  VBZ IN    NN    NNS 
+                       |======|     
+                       Disorder     
+                       C0017168     
+
+SENTENCE:     CXR    nl;
+              NN     JJ 
+           |=======|    
+           Procedure    
+           C0039985     
+
+SENTENCE:     EKG    unremarkable , NSR 90s , nl   axis   , no right  heart    strain  , no
+              NN          JJ        NN  NNS   JJ    NN      DT  JJ      NN       NN      JJ
+           |=======|                             |======|            |======| |======|     
+           Procedure                             Anatomy             Anatomy  Disorder     
+           C1623258                              C0004457            C0018787 C0080194     
+                                                               |============|              
+                                                                  Anatomy                  
+                                                                  C0225808                 
+
+SENTENCE:  sttw changes.
+            NN    NNS   
+
+SENTENCE:   DDimer  nl.
+             NNP    JJ 
+           |======|    
+             Drug      
+           C0060323    
+
+SENTENCE:  Recently had r /o  mi ( 6/22 ) although
+              RB    VBD VB RP NN             JJ   
+
+SENTENCE:  CRFs only cigs , prior cocaine .
+            NN   RB  NNS     JJ      NN    
+                                  |======| 
+                                    Drug   
+                                  C0009170 
+
+SENTENCE:  ECHO 6/22 unremarkable with no
+            NN            JJ       IN  UH
+
+SENTENCE:  wma.
+           NN  
+
+SENTENCE:  Pt on Verapamil for   HTN   .
+           NN IN    NNP    IN     NN    
+                 |=======|     |======| 
+                   Drug        Disorder 
+                 C0042523      C0020538 
+
+SENTENCE:  Pt recently had   PPD   - and without  cough  /sputum/not systemically   ill   .
+           NN    RB    VBD    NN     CC    IN       NN      NN   RB       RB         JJ    
+                           |======|              |======|                         |======| 
+                             Drug                Finding                          Finding  
+                           C0034131              C0010200                         C0231218 
+
+SENTENCE:  Tx 'd with Vit K  ,   PPI    trial initiated , domestic violence social   work  
+           NNP   SYM  NN  NN      NN     NN      VBN         JJ       NN      JJ      NN   
+                               |======|                   |===============|        |======|
+                                 Drug                         Disorder             Finding 
+                               C0358591                       C0206073             C0043227
+
+SENTENCE:  consulted.
+              VBN    
+
+SENTENCE:    Tox     screen   was negative.
+              NN       NN     VBD    JJ    
+           |======| |=======|              
+           Disorder Procedure              
+           C0600688 C0199230               
+
+SENTENCE:  Pt also noted to have clinical
+           NN  RB   VBN  TO  VB     JJ   
+
+SENTENCE:  depression w /hx si/sa/  drug   overdose , and was continued on her  usual
+               NN     IN NN NN NN    NN       NN      CC  VBD    VBN    IN PRP$  JJ  
+           |========|             |======| |======|                                  
+            Disorder                Drug   Disorder                                  
+            C0011581              C0013227 C0029944                                  
+
+SENTENCE:  psych meds.
+            NN   NNS  
+
+SENTENCE:  D /c 'd back to jail on Coumadin with close    INR    follow up , on   PPI    ,
+           NN NN    RB  IN  NN  IN   NNP     IN   JJ      NN       NN   RB   IN    NN     
+                                   |======|            |=======| |=======|      |======|  
+                                     Drug              Procedure  Finding         Drug    
+                                   C0699129            C0525032  C0589120       C0358591  
+
+SENTENCE:  and current meds regimen.
+           CC    JJ    NNS    NN    
+
+SENTENCE:  Will follow up with her  usual   PCP    and Pulmonary Clinic to assess
+            MD    VB   RP  IN  PRP$  JJ      NN    CC     NN       NN   IN   NN  
+                                          |======|     |=======|                 
+                                            Drug        Anatomy                  
+                                          C0031381     C0024109                  
+
+SENTENCE:  for underlying pulmonary ds  , especially given risks of prior cocaine  ,
+           IN     VBG        JJ     NNS       RB      VBN   NNS  IN  JJ      NN     
+                          |=======|                                       |======|  
+                           Anatomy                                          Drug    
+                          C0024109                                        C0009170  
+
+SENTENCE:  ?other  drugs   , for   lung    injury .
+             JJ     NNS      IN     NN       NN    
+                  |======|       |======| |======| 
+                    Drug         Anatomy  Disorder 
+                  C0013227       C0024109 C3263723 
+                                 |===============| 
+                                     Disorder      
+                                     C0273115      
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Your    INR    was too high , and needs to be followed closely.
+           PRP$    NN     VBD RB   JJ    CC   VBZ  TO VB   VBN      RB    
+                |=======|                                                 
+                Procedure                                                 
+                C0525032                                                  
+
+SENTENCE:  Contact your
+             VB    PRP$
+
+SENTENCE:  doctor if you have further bleeding , feel  faint   or lose consciousness ,
+             NN   IN PRP VBP    JJ       NN       VB     JJ    CC  JJ       NN        
+                                      |======|        |======|         |===========|  
+                                      Finding         Finding             Finding     
+                                      C0019080        C0039070           C0234421     
+                                                 |===========|                        
+                                                    Finding                           
+                                                   C0581879                           
+
+SENTENCE:  or have worsened shortness of breath or  chest     pain  .
+           CC VBP    VBN       NN     IN   NN   CC    NN       NN    
+                            |=================|    |======| |======| 
+                                  Finding          Anatomy  Finding  
+                                 C0013404          C0817096 C0030193 
+                                                   |===============| 
+                                                        Finding      
+                                                       C0008031      
+
+SENTENCE:  You are starting a
+           PRP VBP   VBG    .
+
+SENTENCE:  new medicine for gastroesophageal  reflux  ( prilosec ) which should
+           JJ     NN    IN         JJ           NN         NN        ,     NN  
+               |======|                      |======|   |======|               
+                 Drug                        Disorder     Drug                 
+               C0013227                      C0017168   C0700777               
+
+SENTENCE:  decrease your discomfort.
+              VB    PRP$     NN     
+                         |========| 
+                          Finding   
+                          C2364135  
+
+SENTENCE:  Follow up with your doctor and with the
+             VB   RP  IN  PRP$   NN   CC   IN  CD 
+
+SENTENCE:  Kendster Sa  County Medical Center Pulmonary Clinic.
+             NNP    NNP  NNP     JJ      NN      JJ       NN   
+                                              |=======|        
+                                               Anatomy         
+                                              C0024109         
+
+SENTENCE:  Your    INR    should be drawn every 3 days and to
+           PRP$    NN       MD   VB  VBN   DT     NNS  CC  TO
+                |=======|                                    
+                Procedure                                    
+                C0525032                                     
+
+SENTENCE:  be maintained between 2-3 as before.
+           VB    VBN       IN        IN   NN   
+
+SENTENCE:  After it  is  stable 5 times you can
+            IN   PRP VBZ   JJ      NNS  PRP MD 
+
+SENTENCE:  go back to once a  week monitoring.
+           VB  RB  IN  RB  DT  NN      NN     
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  Restart coumadin at 5 mg  po qd and start monitoring every three days
+             NN       NN    IN   NNS FW FW CC   VB       NN      DT    CD   NNS 
+                   |======|                                                     
+                     Drug                                                       
+                   C0699129                                                     
+
+SENTENCE:  until the    INR    is  stably between 2-3 for 5 consecutive draws.
+            IN   DT     NNP    VBZ   RB     IN        IN        JJ       NNS  
+                     |=======|                                                
+                     Procedure                                                
+                     C0525032                                                 
+
+SENTENCE:  Adjust
+             RB  
+
+SENTENCE:  coumadin dose as necessary.
+              NN     NN  IN    JJ     
+           |======|                   
+             Drug                     
+           C0699129                   
+
+SENTENCE:  Follow up with   PCP    in 2-3 weeks
+             VB   RP  IN     NN    IN      NNS 
+                          |======|             
+                            Drug               
+                          C0031381             
+
+SENTENCE:  Follow up with pulmonary clinic in 2-3 weeks , call the number included
+             VB   RP  IN     JJ       NN   IN      NNS     VB  DT    NN     VBN   
+                          |=======|                                               
+                           Anatomy                                                
+                          C0024109                                                
+
+SENTENCE:  in this discharge summary.
+           IN  DT     NN       NN    
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  MARRERO , BUSTER WAYNE , M.D. ( FI22 ) 7/26/01 @ 07:
+             NN       NNP    NNP    NNP     CD                 
+
+SENTENCE:  35 AM
+              NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

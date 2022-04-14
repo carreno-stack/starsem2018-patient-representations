@@ -1,0 +1,770 @@
+SENTENCE:  014459596 | BJEH | 21391604 | | 2557163 | 9/7/2007 12:00:00 AM | labile hypertension | |   DIS    | Admission Date:
+                        NN                                             NN     NN        NN             NN         NN      NN  
+                                                                                   |==========|     |======|                  
+                                                                                     Disorder       Disorder                  
+                                                                                     C0020538       C0012634                  
+                                                                                                    C1970187                  
+                                                                            |=================|     |======|                  
+                                                                                 Disorder           Finding                   
+                                                                                 C0262534           C1444662                  
+
+SENTENCE:  10/5/2007 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  1/7/2007
+                   
+
+SENTENCE:  ****** FINAL DISCHARGE ORDERS ******
+                   JJ      NN      NNS         
+
+SENTENCE:  PAWELEK , TREY 033-34-54-0
+             NN       NN             
+
+SENTENCE:  Walkcord Houoak Stin
+             NNP     NNP   NNP 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  10/28/07 AT 03:30 PM
+                    IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  SELIG , BURL TERRELL  ,  M . D .
+            NN      NN     NN      NNP NNP 
+                        |======|           
+                          Drug             
+                        C1587944           
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  MEDICATIONS ON ADMISSION:
+               NNS     IN    NN     
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  1.  UNABLE  TO OBTAIN MEDICATION HISTORY 
+                 JJ    IN   JJ       NN        NN   
+              |======|           |========| |======|
+              Finding               Drug    Finding 
+              C1299582            C0013227  C0262926
+              |===========================|         
+                         Finding                    
+                        C4074958                    
+
+SENTENCE:  MEDICATIONS ON DISCHARGE:
+               NNS     IN    NNP    
+           |=========|              
+              Drug                  
+            C0013227                
+
+SENTENCE:  ACETYLSALICYLIC ACID 325 MG PO DAILY
+                 NN         NN      NN JJ  NN  
+           |==================|                
+                   Drug                        
+                 C0004057                      
+
+SENTENCE:  NORVASC  ( AMLODIPINE ) 10 MG PO DAILY
+              JJ          NN          NN JJ  NN  
+           |======|   |========|                 
+             Drug        Drug                    
+           C0162712    C0051696                  
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:  ATENOLOL 50 MG PO DAILY
+             NNP       NN JJ  NN  
+           |======|               
+             Drug                 
+           C0004147               
+
+SENTENCE:  FLONASE   NASAL    SPRAY   ( FLUTICASONE  NASAL    SPRAY   )
+             NNP       JJ       NN          NNP        JJ       NN     
+           |======| |======| |======|   |=========| |======| |======|  
+             Drug   Anatomy    Drug        Drug     Anatomy    Drug    
+           C0286677 C0028429 C1154182    C0082607   C0028429 C1154182  
+                    |===============|               |===============|  
+                          Drug                            Drug         
+                        C0461725                        C0461725       
+
+SENTENCE:  2  SPRAY     INH    DAILY
+                NN       NN     RB  
+             |======| |======|      
+               Drug     Drug        
+             C1154182 C0022209      
+
+SENTENCE:  FUROSEMIDE 40 MG PO DAILY
+               NN        NN NN  RB  
+           |========|               
+              Drug                  
+            C0016860                
+
+SENTENCE:  GLYBURIDE 10 MG PO BID
+              NN        NN NN RB 
+           |=======|             
+             Drug                
+           C0017628              
+
+SENTENCE:  LANSOPRAZOLE 30 MG PO DAILY
+                NN         NN JJ  NN  
+           |==========|               
+               Drug                   
+             C0050940                 
+
+SENTENCE:  LISINOPRIL 40 MG PO DAILY
+               NN        NN NN  RB  
+           |========|               
+              Drug                  
+            C0065374                
+
+SENTENCE:  LORATADINE 10 MG PO DAILY
+              NNP        NN JJ  NN  
+           |========|               
+              Drug                  
+            C0065180                
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:  Give on an empty stomach  ( give 1hr before or 2hr after
+            VB  IN DT  JJ      NN       VB  NN    IN   CC NN   NN  
+                            |======|                               
+                            Disorder                               
+                            C0038354                               
+                            |======|                               
+                            Anatomy                                
+                            C1278920                               
+                            C3714551                               
+
+SENTENCE:  food )
+            NN   
+
+SENTENCE:  METFORMIN 850 MG PO TID
+              NNP        NN JJ NN 
+           |=======|              
+             Drug                 
+           C0025598               
+
+SENTENCE:  AVANDIA  ( ROSIGLITAZONE ) 8 MG PO DAILY
+             NNP           NN           NN JJ  NN  
+           |======|   |===========|                
+             Drug         Drug                     
+           C0875967     C0289313                   
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET: 2 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Resume regular exercise
+             VB     JJ       NN   
+                          |======|
+                          Finding 
+                          C0015259
+                  |==============|
+                      Finding     
+                      C0582191    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Kocur please call his  office ,
+           NNP  NNP    UH    VB  PRP$   NN    
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  NKA
+           NN 
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  dizziness
+              NN    
+           |=======|
+            Finding 
+           C0012833 
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  labile hypertension
+             JJ        NN     
+                  |==========|
+                    Disorder  
+                    C0020538  
+           |=================|
+                Disorder      
+                C0262534      
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  hypertension ,   GERD   , atypical  chest     pain  
+                NN           NN         JJ       NN       NN   
+           |==========|   |======|            |======| |======|
+             Disorder     Disorder            Anatomy  Finding 
+             C0020538     C0017168            C0817096 C0030193
+                                              |===============|
+                                                   Finding     
+                                                  C0008031     
+                                     |========================|
+                                              Finding          
+                                              C0262384         
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  CC/CX:
+           NN NN 
+
+SENTENCE:  lightheadedness
+                 NN       
+           |=============|
+               Finding    
+              C0220870    
+
+SENTENCE:  *****
+                
+
+SENTENCE:    HPI   :
+              NN    
+           |======| 
+           Disorder 
+           C0268529 
+
+SENTENCE:  58F w / hx of aytpical CP w / neg   cath    in 2004 and neg  stress  mibi
+           NN  IN  NN IN    JJ    NN IN  JJ     NN     IN      CC  JJ     NN     NN 
+                                             |=======|                 |======|     
+                                             Procedure                 Finding      
+                                             C0007430                  C0038435     
+
+SENTENCE:  in 2007 ,   htn    , hyperlipidemia ,   DM2    p /w  1 weeks of LH and feeling 
+           IN           NN            NN            NN    IN IN    NNS  IN NN CC     NN   
+                     |======|   |============|   |======|                         |======|
+                     Disorder      Disorder      Disorder                         Finding 
+                     C0020538      C0020473      C2931689                         C1527305
+
+SENTENCE:   faint  .
+              NN    
+           |======| 
+           Finding  
+           C0039070 
+
+SENTENCE:  Checked BP at home , was 215/100->ED last night , repeat BP
+             JJ    NN IN  NN    VBD          NN  JJ   NN       VB   NN
+
+SENTENCE:  SBP down to 160 , LH improved.
+           NN   IN  IN       NN   VBN    
+
+SENTENCE:  Went home , saw   PCP     today   , where BP was
+            JJ   NN    VBD    NN       NN       WRB  NN VBD
+                           |======| |======|               
+                             Drug     Drug                 
+                           C0031381 C0310367               
+
+SENTENCE:  140/80 , pt c /o  cp ,    ecg    showed non-specific st changes , referred to ED
+                    NN NN IN NN      NN      VBD        JJ      NN   NNS       VBN    IN NN
+                                  |=======|                                                
+                                  Procedure                                                
+                                  C1623258                                                 
+
+SENTENCE:  for further w /u .
+           IN    JJ    IN RP 
+
+SENTENCE:  Sx  started w / transient right   ear      pain   , radiating to   head   , followed
+           NNP   VBD   IN     JJ      JJ      NN       NN         VBG    IN    NN        VBN   
+                                           |======| |======|                |======|           
+                                           Anatomy  Finding                 Anatomy            
+                                           C0013443 C0030193                C0018670           
+                                           |===============|                                   
+                                                Finding                                        
+                                               C0013456                                        
+                                     |============|                                            
+                                        Anatomy                                                
+                                        C0229298                                               
+
+SENTENCE:  by LH.
+           IN NN 
+
+SENTENCE:  Later developed left sided  tooth     pain   , and SSCP.
+            RB      VBD     JJ   JJ      NN       NN      CC   NN  
+                                      |======| |======|            
+                                      Anatomy  Finding             
+                                      C0040426 C0030193            
+                                      |===============|            
+                                           Finding                 
+                                          C0040460                 
+
+SENTENCE:  No  assoc  
+           DT    JJ   
+              |======|
+              Finding 
+              C0004083
+
+SENTENCE:  sx .
+           NNS 
+
+SENTENCE:  No   sob    , le  edema   , orthopnea ,
+           DT    NN      NN    NN         NN      
+              |======|      |======|   |=======|  
+              Finding       Finding     Finding   
+              C0013404      C0013604   C0085619   
+
+SENTENCE:    pnd   .
+              NN    
+           |======| 
+           Disorder 
+           C1956415 
+
+SENTENCE:  In ED afeb , HR 50 , BP 180/88->120/60 ,    CXR    w /
+           IN NN  NN    NN      NN                     NN     IN 
+                                                    |=======|    
+                                                    Procedure    
+                                                    C0039985     
+
+SENTENCE:  globular appearance of  heart   , o /w  no change , admitted.
+              JJ        NN     IN    NN      IN IN DT   NN       VBN    
+                                  |======|         |=======|            
+                                  Anatomy           Finding             
+                                  C0018787         C0442739             
+
+SENTENCE:  *****
+                
+
+SENTENCE:    PMH   :
+              NN    
+           |======| 
+           Finding  
+           C0262926 
+
+SENTENCE:    DM2    ( last a1c 7.8 ) ,   HTN    , hyperlipidemia ,   gerd   ,  asthma  ,  carpal 
+              NN       JJ  NN             NN            NN            NN         NN         JJ   
+           |======|                    |======|   |============|   |======|   |======|   |======|
+           Disorder                    Disorder      Disorder      Disorder   Disorder   Anatomy 
+           C2931689                    C0020538      C0020473      C0017168   C0004096   C0007285
+
+SENTENCE:  tunnel syndrome , chronic LE  edema   , R >L 
+             NN      NN        JJ    NN    NN      NN NN
+                  |======|              |======|        
+                  Disorder              Finding         
+                  C0039082              C0013604        
+
+SENTENCE:  *****
+                
+
+SENTENCE:  MEDS AT HOME:
+           NNS  IN  NN  
+
+SENTENCE:    asa    , atenolol 50 , norvasc  10 ,  lasix   80 , lisinopril 40 ,
+              NN        NNP            JJ            NN             NN         
+           |======|   |======|      |======|      |======|      |========|     
+             Drug       Drug          Drug          Drug           Drug        
+           C0004057   C0004147      C0162712      C0699992       C0065374      
+
+SENTENCE:  metformin , avandia  , glyburide , albuterol prn , lansoprazole , flonase  ,
+              NN          NN         NN          NN     FW         NN           NN     
+           |=======|   |======|   |=======|   |=======|       |==========|   |======|  
+             Drug        Drug       Drug        Drug              Drug         Drug    
+           C0025598    C0875967   C0017628    C0001927          C0050940     C0286677  
+
+SENTENCE:  loratadine
+               NN    
+           |========|
+              Drug   
+            C0065180 
+
+SENTENCE:  *****
+                
+
+SENTENCE:  NKDA
+            NN 
+
+SENTENCE:  *****
+                
+
+SENTENCE:  SH no   etoh   , no tob
+           NN DT    NN      DT NN 
+                 |======|         
+                   Drug           
+                 C0001962         
+
+SENTENCE:  *****
+                
+
+SENTENCE:  EXAM ON ADMIT:
+            NN  IN  NN   
+
+SENTENCE:  afeb , 56 , bp supine 140/70 not orthostatic , 100% RA ,
+            NN         JJ   JJ          RB      JJ             NN  
+
+SENTENCE:    NAD    , fluent , oro-p  clear ,   mmm    , jvp 7 , carotids nl ,  lungs     ctab   , rrr ,
+              NN        JJ     NN  IN  JJ        NN      NN         JJ    JJ     NNS       NN      NN   
+           |======|                           |======|                         |======| |======|        
+             Drug                             Disorder                         Anatomy    Drug          
+           C0027270                           C0026987                         C0024109 C0951233        
+
+SENTENCE:  2/6  murmur  at LUSB w /o  radiation , occ S4 ,   abd    benign ,
+                  NN    IN  NN  IN IN    NN       JJ  NN      JJ      JJ    
+               |======|               |=======|            |======|         
+               Finding                Procedure            Anatomy          
+               C0018808               C1522449             C0000726         
+
+SENTENCE:  1+  edema   on R  to   knee    , L  w /o   edema   , good distal pulses , neuro exam
+                 NN    IN JJ IN    NN       JJ IN IN    NN       JJ    JJ    NNS      JJ    NN 
+              |======|          |=======|            |======|                                  
+              Finding            Anatomy             Finding                                   
+              C0013604          C0022742             C0013604                                  
+                                |=======|                                                      
+                                Procedure                                                      
+                                C0562271                                                       
+
+SENTENCE:  nonfocal
+              JJ   
+
+SENTENCE:  *****
+                
+
+SENTENCE:    LABS   ON ADMIT:
+             NNS    IN  NN   
+           |======|          
+           Finding           
+           C0587081          
+
+SENTENCE:     hct    33.6 ( at baseline ) ,   tni   <0.
+              NN            IN    NN           NN      
+           |=======|                        |======|   
+           Procedure                          Drug     
+           C0018935                         C0077401   
+
+SENTENCE:  04
+             
+
+SENTENCE:  *****
+                
+
+SENTENCE:     ECG   :
+              NN     
+           |=======| 
+           Procedure 
+           C1623258  
+
+SENTENCE:  NSR   LVH    , nonspec st-t  wave  changes , unchanged from
+           NN     NN        JJ    NN NN  NN     NNS        JJ      IN 
+               |======|              |======|           |=======|     
+               Disorder              Finding             Finding      
+               C0149721              C0429103           C0442739      
+
+SENTENCE:  prior.
+            JJ   
+
+SENTENCE:  *****
+                
+
+SENTENCE:    Imp   :
+              NN    
+           |======| 
+             Drug   
+           C0021533 
+
+SENTENCE:  58F w /   htn    , hx atypical cp , admitted w / LH  x  5 days and brief
+           NN  IN     NN      NN    JJ    NN     VBN    IN  NN SYM   NNS  CC   JJ  
+                   |======|                                                        
+                   Disorder                                                        
+                   C0020538                                                        
+
+SENTENCE:  cp , without acute    ecg    change , LH now resolved.
+           NN     IN     JJ      NN       NN     NN RB    VBN    
+                              |=======|                          
+                              Procedure                          
+                              C1623258                           
+
+SENTENCE:  ***********************Hosp Course***********************************
+                                   NN    NN                                     
+
+SENTENCE:  1 ) Lightheadedness:
+                     NN        
+               |=============| 
+                   Finding     
+                  C0220870     
+
+SENTENCE:  unclear etiology but most  likely  2/2 elevated BP
+             JJ       NN    CC  RBS     RB           JJ    NN
+                                     |======|     |=========|
+                                     Finding        Finding  
+                                     C0332148      C0497247  
+
+SENTENCE:  >200s as sxs resolved with BP lowering.
+            NNS  IN NNS   VBN     IN  NN    NN    
+
+SENTENCE:  She was not orthostatic ,    hct    at
+           PRP VBD RB      JJ           NN     IN
+                                     |=======|   
+                                     Procedure   
+                                     C0018935    
+
+SENTENCE:  baseline , cardiac  enzymes  negative , and prior    MRI   /  MRA    in 2004 without
+              NN         JJ      NNS       JJ      CC   JJ      NN        NN    IN        IN   
+                      |======| |======|                      |=======| |======|                
+                      Anatomy    Drug                        Procedure   Drug                  
+                      C0018787 C0014442                      C0024485  C1609165                
+                      |===============|                                                        
+                            Drug                                                               
+                          C0443763                                                             
+
+SENTENCE:  acute process.
+            JJ     NN    
+
+SENTENCE:  Her  BP remained well controlled back on her  home regimen
+           PRP$ NN   VBD     RB     VBN      NN  IN PRP$  NN    NN   
+
+SENTENCE:  ( ? compliance but she states she was taking her  meds ).
+                   NN     CC  PRP  VBZ   PRP VBD  VBG   PRP$ NNS    
+
+SENTENCE:  Will have outpt
+            MD   VB   NN  
+
+SENTENCE:     MRI   /  MRA    done , though low suspicion for disease  and unclear if would
+              NN        NN    VBN      IN   JJ     NN     IN     NN    CC    JJ    IN  NN  
+           |=======| |======|                   |=======|     |======|                     
+           Procedure   Drug                      Finding      Disorder                     
+           C0024485  C1609165                   C0242114      C0012634                     
+
+SENTENCE:  intervene if disease  present.
+              JJ     IN    NN      JJ    
+                        |======|         
+                        Disorder         
+                        C0012634         
+
+SENTENCE:  Given   HTN    spells , concern for a  cause of
+            VBN     NN     NNS       NN    IN  DT  NN   IN
+                 |======|                                 
+                 Disorder                                 
+                 C0020538                                 
+
+SENTENCE:  secondary hypertension.
+              JJ          NN      
+                     |==========| 
+                       Disorder   
+                       C0020538   
+           |====================| 
+                  Disorder        
+                  C0155616        
+
+SENTENCE:    Labs   sent for plasma catecholamines , aldoseterone
+             NNS    VBN  IN    NN        NNS              NN     
+           |======|                 |============|               
+           Finding                       Drug                    
+           C0587081                    C0007412                  
+
+SENTENCE:  and plasma rening ( pending as of discharge )
+           CC    NN     NN       JJ    IN IN    NN      
+
+SENTENCE:  2 )DM:
+              NN 
+
+SENTENCE:  - Aspart  SS  while in house but continued her  home DM meds on day of
+               NN    NNS  IN   IN  NN   CC     VBD    PRP$  NN  NN NNS  IN NN  . 
+            |======|                                                             
+              Drug                                                               
+            C0123677                                                             
+
+SENTENCE:  discharge.
+              NN     
+
+SENTENCE:  3 )Disp:
+               VB  
+
+SENTENCE:  d /c  to home and she will f /u  with Dr  Laychock in clinic.
+           VB VB IN  NN  CC  PRP  MD  VB RP  IN  NNP   NNP    IN   NN   
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Please be sure to take all of your  blood   pressure medications every day
+             UH   VB  JJ  TO  VB  DT  IN PRP$    NN       NN        NNS      DT   NN 
+                                              |======| |======| |=========|          
+                                              Anatomy  Finding     Drug              
+                                              C0005767 C0460139  C0013227            
+                                              |===============|                      
+                                                   Finding                           
+                                                  C0005823                           
+
+SENTENCE:  as prescribed.
+           IN    VBN     
+
+SENTENCE:  We  think your symptoms were caused by very high  blood  
+           PRP  VBP  PRP$   NNS    VBD   VBN   IN  RB   JJ     NN   
+                                                  |=======| |======|
+                                                   Finding  Anatomy 
+                                                  C0442804  C0005767
+
+SENTENCE:  pressures.
+              NNS    
+           |=======| 
+            Finding  
+           C0460139  
+
+SENTENCE:  Please be sure to follow up with Dr  Carlos .
+             UH   VB  JJ  TO   VB   RP  IN  NNP  NNP    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  1. Please follow up with plasma catecholamines , plasma  renin   and
+                UH     VB   RP  IN    NN        NNS           NN      NN    CC 
+                                           |============|          |======|    
+                                                Drug                 Drug      
+                                              C0007412             C0035094    
+
+SENTENCE:  aldosterone ( taken when patient supine , in am ).
+               NN         VBN  WRB    NN      JJ     IN NN   
+           |=========|                                       
+              Drug                                           
+            C0002006                                         
+
+SENTENCE:  2.
+             
+
+SENTENCE:  Consider   HCTZ   if an additional agent is  needed for BP control
+              VB       NN    IN DT     JJ      NN   VBZ  VBN   IN  NN   NN   
+                    |======|                                                 
+                      Drug                                                   
+                    C0020261                                                 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  KUZIA , ULYSSES C.  , M.D. ( PE26 ) 10/28/07 @ 04:28 PM
+            NN       NNS   NNP   NNP     NN                     NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

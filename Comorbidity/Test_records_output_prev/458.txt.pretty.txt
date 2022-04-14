@@ -1,0 +1,553 @@
+SENTENCE:  432137646 | LUH | 15354529 | | 940544 | 6/29/1999 12:00:00 AM | SUBMUCOUS UTERINE   MYOMAS  | Signed |   DIS    | Admission Date:
+                       NN                                             NN      NN        JJ       NN       VBN        NN         NN      NN  
+                                                                                     |======| |======|            |======|                  
+                                                                                     Anatomy  Disorder            Finding                   
+                                                                                     C0042149 C0027086            C1444662                  
+                                                                                                                  |======|                  
+                                                                                                                  Disorder                  
+                                                                                                                  C0012634                  
+                                                                                                                  C1970187                  
+
+SENTENCE:  1/11/1999 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  11/5/1999
+                    
+
+SENTENCE:  PRINCIPAL DIAGNOSIS:
+              JJ        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  FIBROID   UTERUS .
+              NN       NN    
+           |======| |======| 
+           Disorder Anatomy  
+           C0023267 C0042149 
+           |===============| 
+               Disorder      
+               C0042133      
+
+SENTENCE:  OTHER DIAGNOSIS:
+            JJ      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  MENORRHAGIA.
+               NN      
+           |=========| 
+             Finding   
+            C0025323   
+
+SENTENCE:  PRINCIPAL PROCEDURE:
+              JJ        NN     
+                     |=======| 
+                     Procedure 
+                     C0184661  
+
+SENTENCE:  TOTAL ABDOMINAL HYSTERECTOMY , BILATERAL
+            JJ      JJ          NN           JJ    
+                 |=======| |==========|            
+                  Anatomy   Procedure              
+                 C0000726    C0020699              
+                 |====================|            
+                       Procedure                   
+                        C0404077                   
+           |==========================|            
+                    Procedure                      
+                     C0404079                      
+
+SENTENCE:  SALPINGO-OOPHORECTOMY.
+              NN         NN      
+                    |==========| 
+                     Procedure   
+                      C0029936   
+           |===================| 
+                 Procedure       
+                 C0036132        
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient is  a  43 year old gravida 
+           DT    NN    VBZ DT     NN  JJ     NN   
+                                          |======|
+                                          Finding 
+                                          C0600457
+
+SENTENCE:  V  ,   para   V  with a  history  of
+           NN      NN    NN  IN  DT    NN    IN
+                |======|            |======|   
+                Finding             Finding    
+                C0030563            C0262926   
+
+SENTENCE:  hypermenorrhea and  anemia  who was seen at Onfarbkern En  Rush-mee Hospital May for these problems.
+                 NN       CC     NN    WP  VBD VBN  IN    NNP     NNP  VB  VB    NNP    NNP IN   DT     NNS    
+           |============|     |======|                                                                         
+              Finding         Disorder                                                                         
+              C0025323        C0002871                                                                         
+
+SENTENCE:  In October of 1999 , she
+           IN   NNP   IN        PRP
+
+SENTENCE:  had endometrial  biopsy   done that showed secondary endometrium.
+           VBD     JJ         NN     VBN   IN   VBD      JJ         NN      
+                           |=======|                            |=========| 
+                           Procedure                              Anatomy   
+                           C0005558                              C0014180   
+               |===================|                                        
+                     Procedure                                              
+                     C1510477                                               
+
+SENTENCE:  She
+           PRP
+
+SENTENCE:  was prescribed Provera  and   oral   contraceptive  pills   without  relief .
+           VBD    VBN       NNP    CC     JJ         JJ         NNS      IN       NN    
+                          |======|     |======| |===========| |======|         |======| 
+                            Drug       Anatomy      Drug        Drug           Finding  
+                          C0699702     C0226896   C0009871    C0994475         C0564405 
+                                       |======|                                         
+                                         Drug                                           
+                                       C1272919                                         
+                                       |====================|                           
+                                                Drug                                    
+                                              C0009905                                  
+                                       |====================|                           
+                                             Procedure                                  
+                                              C0029151                                  
+
+SENTENCE:  She had a  dilation  and curettage performed at the Nesbot Strafound Hospital on April which showed  normal  pathology.
+           PRP VBD DT    NN     CC     NN        VBN    IN DT    NN      NN        NN    IN  NNP   WDT   VBD      JJ       NN     
+                      |=======|     |=======|                                                                  |======|           
+                       Finding      Procedure                                                                  Finding            
+                      C0012359      C0010468                                                                   C0231683           
+                      C0700124                                                                                 C0558145           
+                      |=======|                                                                                                   
+                      Procedure                                                                                                   
+                      C1322279                                                                                                    
+                      |=====================|                                                                                     
+                             Procedure                                                                                            
+                             C0012358                                                                                             
+
+SENTENCE:  She
+           PRP
+
+SENTENCE:  continued bleeding and was prescribed  Lupron .
+              JJ        NN    CC  VBD    VBN       NNP    
+                     |======|                    |======| 
+                     Finding                       Drug   
+                     C0019080                    C0701459 
+
+SENTENCE:  Office hysteroscopy
+             NN        NN     
+                  |==========|
+                   Procedure  
+                    C0020710  
+
+SENTENCE:  showed submucosal  myomas  with ultrasound showing a  2.5  x  1.8 cm 
+            VBD       JJ       NNS     IN      NN       VBG   DT     SYM     NNS
+                             |======|      |========|                           
+                             Disorder      Procedure                            
+                             C0027086       C0041618                            
+
+SENTENCE:  intracavitary   mass  .
+                JJ          NN    
+                         |======| 
+                         Finding  
+                         C0577559 
+
+SENTENCE:  She was told she could have a  hysteroscopy ,
+           PRP VBD VBN  PRP  MD    VB  DT      NN       
+                                          |==========|  
+                                           Procedure    
+                                            C0020710    
+
+SENTENCE:  but she is  in desire to have an abdominal hysterectomy.
+           CC  PRP VBZ IN   NN   TO  VB  DT    JJ          NN      
+                                            |=======| |==========| 
+                                             Anatomy   Procedure   
+                                            C0000726    C0020699   
+                                            |====================| 
+                                                  Procedure        
+                                                   C0404077        
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Hypertension , not well controlled.
+                NN        RB   RB     VBN     
+           |==========|                       
+             Disorder                         
+             C0020538                         
+
+SENTENCE:  History 
+              NN   
+           |======|
+           Finding 
+           C0262926
+
+SENTENCE:  of  heart    murmur  with  normal  echocardiogram
+           IN    NN       NN     IN     JJ          NN      
+              |======| |======|      |======| |============|
+              Anatomy  Finding       Finding    Procedure   
+              C0018787 C0018808      C0231683    C0013516   
+                                     C0558145               
+                                     |=====================|
+                                             Finding        
+                                            C0436484        
+
+SENTENCE:  in 1996.
+           IN      
+
+SENTENCE:  PAST SURGICAL HISTORY :
+            JJ     JJ       NN    
+                         |======| 
+                         Finding  
+                         C0262926 
+
+SENTENCE:  Right herniorrhaphy in 1994.
+            JJ        NN       IN      
+                 |===========|         
+                   Procedure           
+                   C0019328            
+
+SENTENCE:  OB:
+           NN 
+
+SENTENCE:  She had  normal  spontaneous vaginal  deliveries.
+           PRP VBD    JJ        JJ         JJ       NNS     
+                   |======|             |======|            
+                   Finding              Anatomy             
+                   C0231683             C0042232            
+                   C0558145                                 
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  Smoking two to three cigarettes per day.
+             NN    CD  IN  CD      NNS     IN  NN  
+
+SENTENCE:  Denies
+            VBZ  
+
+SENTENCE:  alcohol .
+              NN    
+           |======| 
+             Drug   
+           C0001962 
+
+SENTENCE:  She is  a  recovered cocaine  abuser ,
+           PRP VBZ DT    VBD       NN      NN    
+                                |======|         
+                                  Drug           
+                                C0009170         
+
+SENTENCE:  stating she has not used in six months.
+             VBG   PRP VBZ RB  VBN  IN CD   NNS   
+
+SENTENCE:  She had positive   PPD    in
+           PRP VBD    JJ       NN    . 
+                            |======|   
+                              Drug     
+                            C0034131   
+                   |===============|   
+                        Finding        
+                       C0032739        
+
+SENTENCE:  the past and she was treated with   INH    for a  year.
+           DT   NN  CC  PRP VBD   VBN    IN     NN    IN  DT  NN  
+                                             |======|             
+                                               Drug               
+                                             C0022209             
+
+SENTENCE:  ADMISSION MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:   Lupron .
+             NNP    
+           |======| 
+             Drug   
+           C0701459 
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was admitted on 1/30/99 and had a 
+           DT    NN    VBD   VBN    IN         CC  VBD CD
+
+SENTENCE:  total abdominal hysterectomy and bilateral
+            JJ      JJ          NN      CC     JJ    
+                 |=======| |==========|              
+                  Anatomy   Procedure                
+                 C0000726    C0020699                
+                 |====================|              
+                       Procedure                     
+                        C0404077                     
+           |==========================|              
+                    Procedure                        
+                     C0404079                        
+
+SENTENCE:  salpingo-oophorectomy with a   blood   loss of 300 cc .
+              NN         NN       IN  DT    NN     NN  IN     NNS 
+                    |==========|         |======|                 
+                     Procedure           Anatomy                  
+                      C0029936           C0005767                 
+           |===================|         |===========|            
+                 Procedure                  Finding               
+                 C0036132                  C0019080               
+                                           C0553700               
+
+SENTENCE:  She was then
+           PRP VBD  RB 
+
+SENTENCE:  admitted to the postoperative recovery unit and then to the floor
+             VBN    IN DT       JJ          NN     NN  CC   RB  IN DT   NN  
+
+SENTENCE:  in stable condition.
+           IN   JJ      NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  On postoperative day one , she complained of a 
+           IN      JJ       NN  CD    PRP    VBD     IN CD
+
+SENTENCE:  lot of   pain   and was given much   pain   medication in response to this.
+           NN  IN    NN    CC  VBD  VBN   JJ     NN        NN     IN    NN    IN  DT  
+                  |======|                    |======| |========|                     
+                  Finding                     Finding     Drug                        
+                  C0030193                    C0030193  C0013227                      
+
+SENTENCE:  On her  examination , she only had superficial tenderness to
+           IN PRP$     NN        PRP  RB  VBD     JJ          NN     TO
+                                                          |========|   
+                                                           Finding     
+                                                           C0234233    
+
+SENTENCE:  palpation and to light to  touch   to   skin  .
+              NN     CC  IN  JJ   IN    NN    IN    NN    
+           |=======|                 |======|    |======| 
+           Procedure                 Finding     Anatomy  
+           C0030247                  C0702221    C1123023 
+
+SENTENCE:  The patient absolutely
+           DT    NN        RB    
+
+SENTENCE:  refused to get out of bed for the first two and a  half
+             JJ    TO VB  RB  IN NN  IN  DT   JJ   CD  CC  DT  NN 
+
+SENTENCE:  postoperative days.
+                JJ       NNS  
+
+SENTENCE:  She was warned of the risk of deep  venous 
+           PRP VBD  VBN   IN DT   NN  IN  JJ     JJ   
+                                              |======|
+                                              Anatomy 
+                                              C0042449
+
+SENTENCE:  thrombosis and pneumonia but still refused to get out of the bed.
+               NN     CC     NN     CC   RB     JJ    TO VB  RB  IN DT  NN  
+           |========|     |=======|                                         
+            Finding       Disorder                                          
+            C0040053      C0032285                                          
+
+SENTENCE:  Her  postoperative hematocrit was 28.0 , down from 30 on her 
+           PRP$      JJ           NN     VBD         RB   IN     IN PRP$
+                              |========|                                
+                              Procedure                                 
+                               C0018935                                 
+
+SENTENCE:  preoperative hematocrit.
+                JJ          NN     
+                        |========| 
+                        Procedure  
+                         C0018935  
+
+SENTENCE:  She complained of being  unable  to eat and
+           PRP    VBD     IN  VBG     JJ    TO VB   . 
+                                   |======|           
+                                   Finding            
+                                   C1299582           
+
+SENTENCE:  still refused to get out of bed on postoperative day three , so
+            RB     JJ    TO VB  RB  IN NN  IN      JJ       NN   CD     RB
+
+SENTENCE:  physical  therapy  was consulted to help with mobilization.
+              JJ       NN     VBD    VBN    TO  VB   IN       NN      
+                    |=======|                            |==========| 
+                    Procedure                             Procedure   
+                    C0087111                               C0185112   
+           |================|                                         
+               Procedure                                              
+                C0949766                                              
+
+SENTENCE:  She did
+           PRP VBD
+
+SENTENCE:  have temperature of 101 on 7/13/99 and  blood   cultures , urine
+           VBP      NN      IN     IN         CC     NN      NNS       NN  
+                                                  |======|                 
+                                                  Anatomy                  
+                                                  C0005767                 
+                                                  |===============|        
+                                                      Procedure            
+                                                      C0200949             
+
+SENTENCE:   culture  , and    CBC    was sent.
+              NN       CC     NN     VBD VBN  
+           |=======|       |=======|          
+           Procedure       Procedure          
+           C2242979        C0009555           
+
+SENTENCE:  Her  white count was 7.9.
+           PRP$  JJ    NN   VBD     
+
+SENTENCE:  Urine cultures
+            NN     NNS   
+
+SENTENCE:  were 10 , 000.
+           VBD           
+
+SENTENCE:  The next urinalysis was negative and  blood   cultures
+           DT   JJ      NN     VBD    JJ    CC     NN      NNS   
+                    |========|                  |======|         
+                    Procedure                   Anatomy          
+                     C0042014                   C0005767         
+                                                |===============|
+                                                    Procedure    
+                                                    C0200949     
+
+SENTENCE:  showed no growth.
+            VBD   DT   NN   
+                  |=======| 
+                   Finding  
+                  C0445119  
+
+SENTENCE:  She continued to have temperatures without good
+           PRP    VBD    TO  VB      NNS        IN     JJ 
+
+SENTENCE:  ambulation.
+               NN     
+           |========| 
+            Finding   
+            C0080331  
+
+SENTENCE:  A   chest     x-ray   was performed which was clear.
+           DT    NN       NN     VBD    VBN     WDT  VBD  JJ   
+              |======| |=======|                               
+              Anatomy  Procedure                               
+              C0817096 C1306645                                
+                       C1962945                                
+              |================|                               
+                  Procedure                                    
+                   C0039985                                    
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient's  affect  suggested some secondary game for delaying
+             NN         NN       VBN     DT     JJ      NN  IN     NN   
+                     |======|                                           
+                     Finding                                            
+                     C0001721                                           
+
+SENTENCE:  discharge from hospital.
+              NN      IN     NN    
+
+SENTENCE:  She was receiving empiric clindamycin and
+           PRP VBD    VBG      JJ        NN       . 
+                                     |=========|    
+                                        Drug        
+                                      C0008947      
+
+SENTENCE:  gentamicin for approximately two days before discharge.
+               JJ     IN       RB       CD  NNS    IN      NN     
+           |========|                                             
+              Drug                                                
+            C0546866                                              
+
+SENTENCE:  She had been afebrile for greater than 24 hours at the time of
+           PRP VBD VBN     JJ    IN    JJR    IN      NNS  IN DT   NN  . 
+                        |======|                                         
+                        Finding                                          
+                        C0277797                                         
+
+SENTENCE:  discharge.
+              NN     
+
+SENTENCE:  A   pelvic  ultrasound performed on the day of discharge
+           DT    JJ        NN        VBN    IN DT  NN  IN    NN    
+              |======| |========|                                  
+              Anatomy  Procedure                                   
+              C0030797  C0041618                                   
+
+SENTENCE:  was  normal .
+           VBD    JJ    
+               |======| 
+               Finding  
+               C0231683 
+               C0558145 
+
+SENTENCE:  She was eating well , eating French toast and eggs on
+           PRP VBD  VBG    RB     VBG     NN    NN   CC  NNS  IN
+
+SENTENCE:  the day of discharge without problems.
+           DT  NN  IN    NN       IN      NNS    
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  MASON SWOPES ,  M . D .
+            NN    NNS     NNP NNP 
+
+SENTENCE:  RH50
+            NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  BRUCE RAXTER ,  M . D .
+            NN     NN     NNP NNP 
+
+SENTENCE:  UH75  WR079/4622
+            NN    NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  54718 Index No. X1PDPSRO3 D : 4/13/99
+                  NNP  NN     NN     NN         
+
+SENTENCE:  T : 3/28/99
+           NN         
+

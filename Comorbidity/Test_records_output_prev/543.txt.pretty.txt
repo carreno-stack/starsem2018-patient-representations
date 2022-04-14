@@ -1,0 +1,522 @@
+SENTENCE:  481672930 | BEEMC | 71211851 | | 630847 | 10/28/2001 12:00:00 AM |  nqwmi   | |   DIS    | Admission Date:
+                        NN                                               NN      NN           NN         NN      NN  
+                                                                              |======|     |======|                  
+                                                                              Disorder     Disorder                  
+                                                                              C0542269     C0012634                  
+                                                                                           C1970187                  
+                                                                                           |======|                  
+                                                                                           Finding                   
+                                                                                           C1444662                  
+
+SENTENCE:  8/13/2001 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  2/1/2001
+                   
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  HORTA , ELVIN P.  798-25-76-4
+            NN      NNP  NNP            
+
+SENTENCE:  Co 
+           NNP
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CAR
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  9/10/01 AT 10:00 AM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON HO evaluation
+               NN      IN  NN     NN    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:    ASA    ( ACETYLSALICYLIC ACID ) 325 MG PO QD
+              NN            NN         NN        NN FW FW
+           |======|   |==================|               
+             Drug             Drug                       
+           C0004057         C0004057                     
+
+SENTENCE:   ZOCOR   ( SIMVASTATIN ) 20 MG PO BID
+             NNP          NNP          NN NN RB 
+           |======|   |=========|               
+             Drug        Drug                   
+           C0678181    C0074554                 
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:  ATENOLOL 50 MG PO QD Food/  Drug   Interaction Instruction
+             NNP       NN FW FW NNP    NNP        NN          NN     
+           |======|                  |======| |=========|            
+             Drug                      Drug     Finding              
+           C0004147                  C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  PRILOSEC ( OMEPRAZOLE ) 20 MG PO QD
+              NN         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0700777    C0028978               
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  Activity - As tolerated
+              NN      IN    VBN   
+           |======|               
+           Finding                
+           C0026606               
+
+SENTENCE:  RETURN TO   WORK  :
+             NN   IN    NN    
+                     |======| 
+                     Finding  
+                     C0043227 
+           |================| 
+                Finding       
+                C0425105      
+
+SENTENCE:  IN 3 DAYS
+           IN   NNS 
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Roosevelt Schleig , cardiology November at 10 am scheduled ,
+           NNP    NNP      NNP         NN       NNP    IN    NN    VBN     
+
+SENTENCE:  Dr. Gail Kolberg , LHC October at 2:10 pm scheduled ,
+           NNP NNP    NNP     NNP   NNP   IN      NN    VBN     
+
+SENTENCE:  Dr. Tony Redhouse ,  lipids  November at 10 am scheduled ,
+           NNP NNP    NNP        NNS      NNP    IN    NN    VBN     
+                               |======|                              
+                                 Drug                                
+                               C0023779                              
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:   Reglan  ( metoclopramide   hcl    ) , Phenothiazines
+             NNP            NN          NN             NNP      
+           |======|   |============| |======|     |============|
+             Drug          Drug        Drug            Drug     
+           C0034977      C0025853    C0020259        C0031434   
+                                                     C0304370   
+                      |=====================|     |============|
+                               Drug                 Procedure   
+                             C0887128                C0202449   
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:    cad   
+              NN   
+           |======|
+           Disorder
+           C1956346
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:   nqwmi  
+              NN   
+           |======|
+           Disorder
+           C0542269
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    cad    ( coronary  artery  disease  ) hypercholesterolemia ( elevated
+              NN         JJ       NN       NN               NN               JJ   
+           |======|   |======| |======| |======|   |==================|           
+           Disorder   Anatomy  Anatomy  Disorder         Disorder                 
+           C1956346   C0018787 C0003842 C0012634         C0020443                 
+                      |===============|                                           
+                           Anatomy                                                
+                          C0205042                                                
+                               |===============|                                  
+                                   Disorder                                       
+                                   C0852949                                       
+                      |========================|                                  
+                               Disorder                                           
+                               C1956346                                           
+
+SENTENCE:  cholesterol ) chronic lower back   pain   ( low back   pain   )  sleep    apnea  
+               NN          JJ     JJ    NN     NN      JJ   NN     NN         NN       NN   
+           |=========|           |========| |======|            |======|   |======| |======|
+              Drug                Anatomy   Finding             Finding    Finding  Finding 
+            C0008377              C0230102  C0030193            C0030193   C0037313 C0003578
+                                       |===========|       |===========|   |===============|
+                                          Finding             Finding          Disorder     
+                                         C0004604            C0004604          C0037315     
+                                 |=================|   |===============|                    
+                                       Finding              Finding                         
+                                      C0024031             C0024031                         
+                         |=========================|                                        
+                                  Disorder                                                  
+                                  C0457949                                                  
+
+SENTENCE:  (  sleep    apnea   )   gerd   ( gastroesophageal  reflux  disease  ) Legionella
+                NN       NN         NN             JJ           NN       NN          NN    
+             |======| |======|   |======|                    |======| |======|             
+             Finding  Finding    Disorder                    Disorder Disorder             
+             C0037313 C0003578   C0017168                    C0017168 C0012634             
+             |===============|                                                             
+                 Disorder                                                                  
+                 C0037315                                                                  
+
+SENTENCE:  lyme disease  ( Lyme disease  )
+            NN     NN      NNP     NN     
+                |======|        |======|  
+                Disorder        Disorder  
+                C0012634        C0012634  
+           |===========|   |===========|  
+             Disorder        Disorder     
+             C0024198        C0024198     
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  cardiac    cath    5/10/01 showed patent D1 stent and unchanged coronaries
+              JJ       NN              VBD     JJ   NN  NN   CC     JJ        NNS    
+           |======| |=======|                                    |=======|           
+           Anatomy  Procedure                                     Finding            
+           C0018787 C0007430                                     C0442739            
+
+SENTENCE:  since last   cath    99
+            IN    JJ     NN       
+                      |=======|   
+                      Procedure   
+                      C0007430    
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  50 yo with   CAD    s /p    PTCA    with stent to 1st   diag   in 1999 , also with
+              JJ  IN     NN    NN IN    NN      IN   NN   IN JJ     NN    IN         RB   IN 
+                      |======|       |=======|                   |======|                    
+                      Disorder       Procedure                   Finding                     
+                      C1956346       C2936173                    C0011900                    
+
+SENTENCE:  chronic lower back   pain   with intrathecal morphine pump.
+             JJ     JJ    NN     NN     IN      JJ         NN     NN  
+                   |========| |======|                  |======|      
+                    Anatomy   Finding                     Drug        
+                    C0230102  C0030193                  C0026549      
+                         |===========|                                
+                            Finding                                   
+                           C0004604                                   
+                   |=================|                                
+                         Finding                                      
+                        C0024031                                      
+           |=========================|                                
+                    Disorder                                          
+                    C0457949                                          
+
+SENTENCE:  Presents with
+             NNS     IN 
+
+SENTENCE:   chest     pain   in context  of 12 hours  nausea /vomiting/dry heave  likely 
+              NN       NN    IN    NN    IN     NNS     NN       NN    NN   NN      RB   
+           |======| |======|    |======|             |======| |======| |=======| |======|
+           Anatomy  Finding     Finding              Finding  Finding   Finding  Finding 
+           C0817096 C0030193    C0449255             C0027497 C0042963 C0232602  C0332148
+           |===============|                         |===============|                   
+                Finding                                   Finding                        
+               C0008031                                  C0027498                        
+
+SENTENCE:  secondary to morphine withdrawal from malfunctioning pump.
+              JJ     IN    NN        NN      IN        NN        NN  
+                        |======|                                     
+                          Drug                                       
+                        C0026549                                     
+
+SENTENCE:   Chest     pain  
+              NN       NN   
+           |======| |======|
+           Anatomy  Finding 
+           C0817096 C0030193
+           |===============|
+                Finding     
+               C0008031     
+
+SENTENCE:  relieved with SL  NTG x3.  Enzyme  leak , troponin 1.3 at outside hospital
+             VBN     IN  NNP NNP CD     NN     NN       NN        IN   JJ       NN   
+                                     |======|        |======|                        
+                                       Drug            Drug                          
+                                     C0014442        C0041199                        
+
+SENTENCE:  -->
+              
+
+SENTENCE:   NQWMI  .
+              NN    
+           |======| 
+           Disorder 
+           C0542269 
+
+SENTENCE:  Pt transferred for   cath    to evaluate stent.
+           NN     VBN     IN     NN     TO    VB     NN   
+                              |=======|                   
+                              Procedure                   
+                              C0007430                    
+
+SENTENCE:    Cath    5/10/01
+              NN            
+           |=======|        
+           Procedure        
+           C0007430         
+
+SENTENCE:  showed patent D1 stent , 50%   LAD    , 60%   PDA    with  likely  accelerated
+            VBD     JJ   NN  NN            NN             NN     IN     JJ        JJ     
+                                        |======|       |======|      |======|            
+                                        Anatomy        Disorder      Finding             
+                                        C0226032       C0013274      C0332148            
+                                        |======|       |======|                          
+                                        Disorder       Anatomy                           
+                                        C0398738       C0226047                          
+
+SENTENCE:  idioventricular rhythm post   cath   .
+                 JJ          NN    IN     NN     
+           |====================|      |=======| 
+                  Finding              Procedure 
+                  C0700363             C0007430  
+
+SENTENCE:  He  was transferred to cards
+           PRP VBD     VBN     IN  NNS 
+
+SENTENCE:  for evaluation of rhythm and optimization of cardiac  management.
+           IN      NN     IN   NN   CC       NN      IN    JJ        NN     
+                                                        |======| |========| 
+                                                        Anatomy   Finding   
+                                                        C0018787  C1273870  
+
+SENTENCE:  Pt has been asymptomatic on morphine    PCA    ( pending arrival of
+           NN VBZ VBN       JJ      IN    NN       NN         JJ      NN    IN
+                       |==========|    |======| |=======|                     
+                         Finding         Drug     Drug                        
+                         C0231221      C0026549 C0034330                      
+                                                |=======|                     
+                                                Procedure                     
+                                                C0078944                      
+
+SENTENCE:  intrathecal pump infusion  per   pain   service  ).   HTN    was controlled with
+               JJ       NN     NN     IN     NN       NN          NN    VBD    VBN      IN 
+                            |=======|     |======| |======|    |======|                    
+                            Procedure     Finding  Finding     Disorder                    
+                            C0574032      C0030193 C0557854    C0020538                    
+
+SENTENCE:  clonidine , and his     ECG    normalized.
+              NN       CC  PRP$    NN        VBD     
+           |=======|            |=======|            
+             Drug               Procedure            
+           C0009014             C1623258             
+
+SENTENCE:   Chest     pain   was thought
+              NN       NN    VBD   VBN  
+           |======| |======|            
+           Anatomy  Finding             
+           C0817096 C0030193            
+           |===============|            
+                Finding                 
+               C0008031                 
+
+SENTENCE:  to be secondary to increased demand during acute withdrawal.
+           TO VB    JJ     IN    JJ       NN     IN    JJ       NN     
+
+SENTENCE:  Will
+            MD 
+
+SENTENCE:  Pump was refilled per   pain   service  , and his  cardiac  regimen was
+            NN  VBD   VBN    IN     NN       NN      CC  PRP$    JJ      NN     . 
+                                 |======| |======|            |======|            
+                                 Finding  Finding             Anatomy             
+                                 C0030193 C0557854            C0018787            
+
+SENTENCE:  optimized.
+              JJ     
+
+SENTENCE:  Outpatient cardiology follow up with  stress    test    to risk
+               NN         NN       NN   NN  IN     NN       NN     IN  NN 
+                                 |=======|      |======| |=======|        
+                                  Finding       Finding  Procedure        
+                                 C0589120       C0038435 C0022885         
+                                                         |=======|        
+                                                          Finding         
+                                                         C0456984         
+                                                |================|        
+                                                    Procedure             
+                                                     C0015260             
+
+SENTENCE:  stratify was arranged.
+              NN    VBD   VBN    
+
+SENTENCE:  Patient's urine output was marginal on 3/16/01 .
+             NN       NN     NN   VBD    JJ    IN          
+                     |==========|                          
+                       Finding                             
+                       C1287298                            
+
+SENTENCE:  He  was hydrated with modest response.
+           PRP VBD   VBN     IN    JJ      NN    
+
+SENTENCE:     BUN    and creatinine were stable.
+              NN     CC      NN     VBD    JJ   
+           |=======|     |========|             
+             Drug           Drug                
+           C0600137       C0010294              
+           |=======|                            
+           Procedure                            
+           C0005845                             
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Call your doctor or go to emergency room if you develop  chest     pain   ,
+            VB  PRP$   NN   CC VB IN    NN      NN  IN PRP   VBP      NN       NN     
+                                                                   |======| |======|  
+                                                                   Anatomy  Finding   
+                                                                   C0817096 C0030193  
+                                                                   |===============|  
+                                                                        Finding       
+                                                                       C0008031       
+
+SENTENCE:  lightheadedness , worsening shortness of breath , or palpitations.
+                 NN             VBG       NN     IN   NN     CC     NNS      
+           |=============|             |=================|      |==========| 
+               Finding                       Finding              Finding    
+              C0220870                      C0013404              C0030252   
+
+SENTENCE:  Follow
+             NN  
+
+SENTENCE:  -up appointments have ben scheduled for cardiology , cholesterol
+            RP     NNS      VBP  VBN    VBN    IN      NN           NN     
+                                                                |=========|
+                                                                   Drug    
+                                                                 C0008377  
+
+SENTENCE:  management , and  primary  care.
+               NN       CC     JJ      NN  
+           |========|       |=======|      
+            Finding         Procedure      
+            C1273870        C0439631       
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  COIT , HIPOLITO S.  , M.D. ( IH369 ) 9/10/01 @ 10:02 AM
+            NN      NNP    NNP   NNP     NN                     NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

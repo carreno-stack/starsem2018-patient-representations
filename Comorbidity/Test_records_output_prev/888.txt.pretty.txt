@@ -1,0 +1,588 @@
+SENTENCE:  877830017 |   VMH    | 98804941 | | 4609148 | 3/18/2005 12:00:00 AM | s /p    ICD    | |   DIS    | Admission Date:
+                          NN                                                NN   NN IN    NN           NN         NN      NN  
+                       |======|                                                        |======|     |======|                  
+                       Anatomy                                                         Disorder     Disorder                  
+                       C0042518                                                        C0020725     C0012634                  
+                                                                                       C0021122     C1970187                  
+                                                                                                    |======|                  
+                                                                                                    Finding                   
+                                                                                                    C1444662                  
+
+SENTENCE:  8/18/2005 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  3/21/2005
+                    
+
+SENTENCE:  ****** FINAL DISCHARGE ORDERS ******
+                   JJ      NN      NNS         
+
+SENTENCE:  COOPERWOOD , GLEN 090-61-53-6
+               NN       NNP             
+
+SENTENCE:  Ny  Villea
+           NNP   NN  
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CAR
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  10/23/05 AT 12:00 PM
+                    IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  ZANIS , CLEO BERNIE ,  M . D .
+            NNP    NNP   NNP     NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ACETYLSALICYLIC ACID 81 MG PO QD
+                 NN         NN     NN FW FW
+           |==================|            
+                   Drug                    
+                 C0004057                  
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 6/6/05 by
+              JJ     VBN  IN        . 
+
+SENTENCE:  ZACHMANN , JONATHON F.  ,  M . D .
+             NNP        NNP    NNP   NNP NNP 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & ASPIRIN 
+              NN         NN   
+           |======|   |======|
+             Drug       Drug  
+           C0043031   C0004057
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  needs both
+            VBZ   RB 
+
+SENTENCE:  INSULIN    NPH    HUMAN 10 UNITS SC BID
+              NN       NN     NN       NNS  NN FW 
+           |======| |======|                      
+             Drug   Disorder                      
+           C0021641 C0020258                      
+           |===============|                      
+                 Drug                             
+               C0021658                           
+           |=====================|                
+                    Drug                          
+                  C0795633                        
+
+SENTENCE:  LISINOPRIL 10 MG PO QD
+              NNP        NN FW FW
+           |========|            
+              Drug               
+            C0065374             
+
+SENTENCE:  OXYCODONE 5-10 MG PO Q6H PRN   Pain  
+              NNP         NN JJ NN  FW     NN   
+           |=======|                    |======|
+             Drug                       Finding 
+           C0030049                     C0030193
+
+SENTENCE:  COUMADIN ( WARFARIN  SODIUM  ) 5 MG PO QPM
+             NNP         NN       NN        NN JJ NN 
+           |======|   |======| |======|              
+             Drug       Drug     Drug                
+           C0699129   C0043031 C0037473              
+                      |===============|              
+                            Drug                     
+                          C0376218                   
+
+SENTENCE:  Starting ROUTINE , 20:00 ( Standard  Admin   Time )
+              NN      NN                 JJ      NNP     NN   
+                                               |======|       
+                                               Finding        
+                                               C0001554       
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  No high Vitamin -K  containing foods
+           DT  JJ     NN    NN     NN      NNS 
+                   |======|                    
+                     Drug                      
+                   C0042890                    
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 6/6/05 by
+              JJ     VBN  IN        . 
+
+SENTENCE:  KRUIS , MAJOR F.  ,  M . D .
+            NN      JJ   NNP   NNP NNP 
+
+SENTENCE:  on order for  TRICOR  PO ( ref # 67425424 )
+           IN  NN   IN     NN    NN   NN              
+                        |======|                      
+                          Drug                        
+                        C0723893                      
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & FENOFIBRATE ,
+              NN          NN       
+           |======|   |=========|  
+             Drug        Drug      
+           C0043031    C0033228    
+
+SENTENCE:  MICRONIZED Reason for override:
+               JJ       NN   IN     NN    
+
+SENTENCE:  monitoring    INR   
+               NN        NN    
+                      |=======|
+                      Procedure
+                      C0525032 
+
+SENTENCE:  Previous override information:
+              JJ       NN        NN      
+
+SENTENCE:  Override added on 6/6/05 by BICE , DALTON D.  ,  M . D .
+              JJ     VBN  IN        IN  NN      NN   NNP   NNP NNP 
+
+SENTENCE:  on order for ACETYLSALICYLIC ACID PO ( ref # 23465385 )
+           IN  NN   IN        NN         NN  NN   NN              
+                        |==================|                      
+                                Drug                              
+                              C0004057                            
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & ASPIRIN 
+              NN         NN   
+           |======|   |======|
+             Drug       Drug  
+           C0043031   C0004057
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  needs both
+            VBZ   RB 
+
+SENTENCE:   KEFLEX  ( CEPHALEXIN ) 250 MG PO QID  X  12 doses
+             NNP         NNP           NN JJ RB  SYM     NNS 
+           |======|   |========|                             
+             Drug        Drug                                
+           C0700517    C0007716                              
+
+SENTENCE:  Starting when IV ANTIBIOTICS   END   
+              NN    WRB  NN     NNS        NN   
+                            |=========| |======|
+                               Drug       Drug  
+                             C0003232   C0082420
+
+SENTENCE:  Number of Doses Required ( approximate ): 20
+             NN   IN  NNS    VBN          JJ           
+
+SENTENCE:   TOPROL  XL  ( METOPROLOL SUCCINATE EXTENDED  RELEASE  )
+              NN    NNP      NNP        NN       VBN       NN      
+           |======|       |========| |=======|          |=======|  
+             Drug            Drug      Drug             Procedure  
+           C2723006        C0025859  C0220918           C1963578   
+           |==========|   |==================|                     
+               Drug               Drug                             
+             C0723783           C0724633                           
+
+SENTENCE:  25 MG PO QD Food/  Drug   Interaction Instruction
+              NN FW FW NNP    NNP        NN          NN     
+                            |======| |=========|            
+                              Drug     Finding              
+                            C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  Number of Doses Required ( approximate ): 2
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:   TRICOR  ( FENOFIBRATE ) 145 MG PO QD
+              NN          NN            NN FW FW
+           |======|   |=========|               
+             Drug        Drug                   
+           C0723893    C0033228                 
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 6/6/05 by
+              JJ     VBN  IN        . 
+
+SENTENCE:  DEPPEN , VINCENT J.  ,  M . D .
+             NN       NN    NNP   NNP NNP 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  WARFARIN & FENOFIBRATE ,
+              NN          NN       
+           |======|   |=========|  
+             Drug        Drug      
+           C0043031    C0033228    
+
+SENTENCE:  MICRONIZED Reason for override:
+               JJ       NN   IN     NN    
+
+SENTENCE:  monitoring    INR   
+               NN        NN    
+                      |=======|
+                      Procedure
+                      C0525032 
+
+SENTENCE:  Number of Doses Required ( approximate ): 2
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:  PRILOSEC ( OMEPRAZOLE ) 20 MG PO QD
+              NN         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0700777    C0028978               
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  No heavy lifting and do  not lift L   elbow   above L  shoulder  x  1 month
+           DT  JJ     NN    CC  VBP RB   VB  JJ    NN     IN   JJ    NN    SYM    NN  
+                                                |======|          |======|            
+                                                Anatomy           Anatomy             
+                                                C0013769          C0037004            
+                                             |=========|       |=========|            
+                                               Anatomy           Anatomy              
+                                              C0230354          C0524469              
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Vuckovich November 10:40am scheduled ,
+           NNP    NNP      NNP        NN     VBN     
+
+SENTENCE:  Arrange    INR    to be drawn on 11/18/05 with f /u     INR   's to be drawn every
+             VB       NN     TO VB  VBN  IN           IN  NN NN    NN       TO VB  VBN   RB  
+                   |=======|                                    |=======|                    
+                   Procedure                                    Procedure                    
+                   C0525032                                     C0525032                     
+
+SENTENCE:  4-7 days.
+               NNS  
+
+SENTENCE:     INR   's will be followed by   PCP   
+              NNP       MD  VB   VBN    IN    NN   
+           |=======|                       |======|
+           Procedure                         Drug  
+           C0525032                        C0031381
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  NKA
+           NN 
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  s /p    ICD   
+           NN IN    NN   
+                 |======|
+                 Disorder
+                 C0020725
+                 C0021122
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  s /p    ICD   
+           NN IN    NN   
+                 |======|
+                 Disorder
+                 C0020725
+                 C0021122
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    CHF    ( congestive  heart   failure )   CAD    ( coronary  artery  disease  ) s /p    CABG   
+              NN          JJ        NN      NN         NN         JJ       NN       NN      NN IN    NN    
+           |======|              |======|           |======|   |======| |======| |======|         |=======|
+           Disorder              Anatomy            Disorder   Anatomy  Anatomy  Disorder         Procedure
+           C0018802              C0018787           C1956346   C0018787 C0003842 C0012634         C0010055 
+                                 |==============|              |===============|                           
+                                     Disorder                       Anatomy                                
+                                     C0018801                      C0205042                                
+                                                                        |===============|                  
+                                                                            Disorder                       
+                                                                            C0852949                       
+                                                               |========================|                  
+                                                                        Disorder                           
+                                                                        C1956346                           
+
+SENTENCE:  ( S /P  cardiac   bypass    graft   surgery ) dm ( diabetes
+             NN IN    JJ       NN        NN      NN      NN      NN   
+                   |======| |=======| |======|                |======|
+                   Anatomy  Procedure Anatomy                 Disorder
+                   C0018787 C0741847  C0332835                C0011849
+                            |================|                        
+                                Procedure                             
+                                 C0185098                             
+
+SENTENCE:  mellitus )   htn    ( hypertension ) hyperchol ( elevated
+              NN         NN           NN           NN          JJ   
+                      |======|   |==========|                       
+                      Disorder     Disorder                         
+                      C0020538     C0020538                         
+
+SENTENCE:  cholesterol ) cri ( chronic  renal   dysfunction )
+               NN        NNS     JJ       JJ        NN       
+           |=========|                 |======| |=========|  
+              Drug                     Anatomy    Finding    
+            C0008377                   C0022646  C0277785    
+                                       |==================|  
+                                             Disorder        
+                                             C1565489        
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  s /p  dual chamber   ICD   
+           NN IN  JJ    NN       NN   
+                              |======|
+                              Disorder
+                              C0020725
+                              C0021122
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  69 y /o  man with ischemic   CMP    ( EF 25-30% ) , recent
+              NN JJ NN   IN     JJ       NN      NN              JJ  
+                                      |======|                       
+                                        Drug                         
+                                      C0010729                       
+
+SENTENCE:  admit for  atrial  flutter , s /p  ablation  , and NSVT.
+            NN   IN     JJ      NN      NN IN    NN       CC   NN  
+                     |======|                 |=======|            
+                     Anatomy                  Procedure            
+                     C0018792                 C0547070             
+                     |==============|                              
+                         Finding                                   
+                         C0004239                                  
+
+SENTENCE:   Primary  prevention
+              JJ         NN    
+           |=======| |========|
+           Procedure Procedure 
+           C0439631   C0199176 
+           |==================|
+                Procedure      
+                 C0033144      
+
+SENTENCE:    ICD    placed without complicaiton.
+              NN     VBN     IN         NN      
+           |======|                             
+           Disorder                             
+           C0020725                             
+           C0021122                             
+
+SENTENCE:  Had short   runs   of AF during
+           VBD  JJ     NNS    IN NN   NN  
+                     |======|             
+                     Finding              
+                     C0600140             
+
+SENTENCE:  procedure.
+              NN     
+           |=======| 
+           Procedure 
+           C0184661  
+
+SENTENCE:  For coumadin , baby   ASA   .
+           IN     NN       NN     NN    
+               |======|        |======| 
+                 Drug            Drug   
+               C0699129        C0004057 
+
+SENTENCE:  Also  h /o    HTN    , DM , CRI ,
+            RB  VBZ IN    NN      NN   NN   
+                       |======|             
+                       Disorder             
+                       C0020538             
+
+SENTENCE:    CHF   .
+              NN    
+           |======| 
+           Disorder 
+           C0018802 
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Continue coumadin 5mg each night.
+              VB       NN    NNS  DT   NN   
+                    |======|                
+                      Drug                  
+                    C0699129                
+
+SENTENCE:  Have your    INR   /coumadin level checked
+           VBP  PRP$    NN        NN     NN     VBN  
+                     |=======| |======|              
+                     Procedure   Drug                
+                     C0525032  C0699129              
+
+SENTENCE:  on Monday , May
+           IN  NNP     NNP
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  WEALER , ROYAL R.  , PA - C  ( HB35 ) 10/23/05 @ 10
+             NN      JJ   NNP   NNP NNP    NN                 
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

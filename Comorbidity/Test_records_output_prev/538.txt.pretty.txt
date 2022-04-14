@@ -1,0 +1,838 @@
+SENTENCE:  751611118 |   BMH    | 51425337 | | 9999910 | 4/2/2005 12:00:00 AM | chronic coronary  artery  disease  | |   DIS    | Admission Date:
+                          NN                                               NN     JJ       JJ       NN       NN           NN         NN      NN  
+                       |======|                                                         |======| |======| |======|     |======|                  
+                       Disorder                                                         Anatomy  Anatomy  Disorder     Finding                   
+                       C0026470                                                         C0018787 C0003842 C0012634     C1444662                  
+                                                                                                 |===============|     |======|                  
+                                                                                                     Disorder          Disorder                  
+                                                                                                     C0852949          C0012634                  
+                                                                                                                       C1970187                  
+                                                                                        |===============|                                        
+                                                                                             Anatomy                                             
+                                                                                            C0205042                                             
+                                                                                        |========================|                               
+                                                                                                 Disorder                                        
+                                                                                                 C1956346                                        
+
+SENTENCE:  4/7/2005 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  11/7/2005
+                    
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  KS  416-43-23-8
+           NNP            
+
+SENTENCE:  Georgia
+             NNP  
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  CAR
+           NN 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  1/22/05 AT 05:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  WAGUESPACK , DOUGLAS IRVING ,  M . D .
+              NNP         NNP    NNP     NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 20 MG PO QD
+             NNP          NN          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0699992    C0016860               
+
+SENTENCE:  GEMFIBROZIL 600 MG PO BID
+               NN          NN FW FW 
+           |=========|              
+              Drug                  
+            C0017245                
+
+SENTENCE:  HYDRALAZINE   HCL    25 MG PO BID HOLD IF: sbp<100
+               NNP        NN       NN NN FW   NN  IN  NN     
+           |=========| |======|                              
+              Drug       Drug                                
+            C0020223   C0020259                              
+           |==================|                              
+                   Drug                                      
+                 C0282198                                    
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  ISORDIL  ( ISOSORBIDE DINITRATE ) 60 MG PO TID
+             NNP         NNP        NN          NN JJ NN 
+           |======|   |========|                         
+             Drug        Drug                            
+           C0590720    C0022251                          
+                      |==================|               
+                              Drug                       
+                            C0022252                     
+
+SENTENCE:  HOLD IF: sbp<100
+            NN  IN  NN     
+
+SENTENCE:  METHADONE   HCL    10 MG  PO BID HOLD IF: oversedation , rr<10
+              NN        NN       NNS FW FW   NN  IN       NN        NN   
+           |=======| |======|                                            
+             Drug      Drug                                              
+           C0025605  C0020259                                            
+           |================|                                            
+                  Drug                                                   
+                C0721688                                                 
+
+SENTENCE:  LOPRESSOR ( METOPROLOL TARTRATE ) 50 MG PO BID
+              NN          NNP        NN         NN NN RB 
+           |=======|   |========| |======|               
+             Drug         Drug      Drug                 
+           C0700776     C0025859  C0144544               
+                       |=================|               
+                              Drug                       
+                            C0700548                     
+
+SENTENCE:  HOLD IF: sbp<100 and hr <45 Food/  Drug   Interaction Instruction
+            NN  IN  NN      CC  NNS     NN     NN        NN          NN     
+                                            |======| |=========|            
+                                              Drug     Finding              
+                                            C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  TEGRETOL XR  ( CARBAMAZEPINE EXTENDED  RELEASE  )
+              NN    NNP        NN          NN       NN      
+           |======|       |===========|          |=======|  
+             Drug             Drug               Procedure  
+           C0700087         C0006949             C1963578   
+           |==========|                                     
+               Drug                                         
+             C0592163                                       
+
+SENTENCE:  100 MG PO BID Number of Doses Required ( approximate ): 10
+               NN JJ NN    NN   IN  NNS    VBN          JJ           
+
+SENTENCE:  PRILOSEC ( OMEPRAZOLE ) 20 MG PO QD
+              NN         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0700777    C0028978               
+
+SENTENCE:  ALLOPURINOL 100 MG PO QOD
+               NN          NN JJ NN 
+           |=========|              
+              Drug                  
+            C0002144                
+
+SENTENCE:  ACETYLSALICYLIC ACID 81 MG PO QD
+                 NN         NN     NN FW FW
+           |==================|            
+                   Drug                    
+                 C0004057                  
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 1/22/05 by :
+              JJ     VBN  IN         IN  
+
+SENTENCE:  on order for ACETYLSALICYLIC ACID PO ( ref # 84710989 )
+           IN  NN   IN        NN         NN  NN   NN              
+                        |==================|                      
+                                Drug                              
+                              C0004057                            
+
+SENTENCE:  Pt. has a  POSSIBLE allergy  to  NSAIDs ;
+           NN  VBZ DT    JJ       NN    IN   NNS    
+                               |======|    |======| 
+                               Finding       Drug   
+                               C0020517    C0003211 
+
+SENTENCE:  reaction is  Unknown.
+              NN    VBZ   JJ    
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  takes at home
+            VBZ  IN  NN 
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House /   NAS    /   ADA    2100 cals/day / Low saturated   fat   
+            NN        NN         NN         NNS  NN    JJ     JJ        NN   
+                   |======|   |======|                               |======|
+                   Disorder     Drug                                   Drug  
+                   C0027609   C0001457                               C0015677
+                                                           |================|
+                                                                  Drug       
+                                                                C0597423     
+
+SENTENCE:  low cholesterol
+           JJ      NN     
+               |=========|
+                  Drug    
+                C0008377  
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  FHAH Cardiology to be scheduled ,
+            NN      NN     TO VB    VBN     
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:   NSAIDs  , TICLOPIDINE   HCL   
+             NNS          NN         NN   
+           |======|   |=========| |======|
+             Drug        Drug       Drug  
+           C0003211    C0040207   C0020259
+                      |==================|
+                              Drug        
+                            C0000598      
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:   chest     pain  
+              NN       NN   
+           |======| |======|
+           Anatomy  Finding 
+           C0817096 C0030193
+           |===============|
+                Finding     
+               C0008031     
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  chronic coronary  artery  disease 
+             JJ       JJ       NN       NN   
+                   |======| |======| |======|
+                   Anatomy  Anatomy  Disorder
+                   C0018787 C0003842 C0012634
+                            |===============|
+                                Disorder     
+                                C0852949     
+                   |===============|         
+                        Anatomy              
+                       C0205042              
+                   |========================|
+                            Disorder         
+                            C1956346         
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    CAD    , S /P    CABG    S /P    PTCA      GOUT   PROTEINURIA CRI hypertriglyceridemia   htn   
+              NN      NN IN    NN     NN IN    NN        NN        NN      NN           NN             NN   
+           |======|         |=======|       |=======| |======| |=========|     |==================| |======|
+           Disorder         Procedure       Procedure Disorder   Finding             Disorder       Disorder
+           C1956346         C0010055        C2936173  C0018099  C0033687             C0020557       C0020538
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  ETT MIBI
+           NN   NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  CC:  chest     pain   , r /o  MI
+           NN     NN       NN      VB RP NN
+               |======| |======|           
+               Anatomy  Finding            
+               C0817096 C0030193           
+               |===============|           
+                    Finding                
+                   C0008031                
+
+SENTENCE:    HPI   :
+              NN    
+           |======| 
+           Disorder 
+           C0268529 
+
+SENTENCE:  Pt is  a  59 yo m  with   CAD    s /p  2v   cabg    1998 and multiple    PCI    ,   HTN    ,
+           NN VBZ DT    JJ NN  IN     NN    NN IN CD    NN          CC     JJ       NNS         NN     
+                                   |======|          |=======|                   |=======|   |======|  
+                                   Disorder          Procedure                   Procedure   Disorder  
+                                   C1956346          C0010055                    C1532338    C0020538  
+
+SENTENCE:  hyperchol , T2DM admitted with 3 wks of CP /diaphoresis/n /v /   SOB    for
+              NN        NN    VBN     IN    NNS IN NNP     NN      NN JJ     NN    IN 
+                                                       |=========|        |======|    
+                                                         Finding          Finding     
+                                                        C0700590          C0013404    
+
+SENTENCE:  which he  has been taking many SLNT.
+            WDT  PRP VBZ VBN   VBG    JJ   NN  
+
+SENTENCE:  Pt reportschest   pain  
+           NN      NN         NN   
+                           |======|
+                           Finding 
+                           C0030193
+
+SENTENCE:  chronically with exertion after walking  about 3  blocks  since   cath   
+               RB       IN     NN     IN      NN     IN       NNS     IN      NN    
+                            |======|       |======|         |======|       |=======|
+                            Finding        Finding          Finding        Procedure
+                            C0015264       C0080331         C0028778       C0007430 
+
+SENTENCE:  2001.
+                
+
+SENTENCE:    ROS    also + for 30 lb   weight   loss ,  chills  , decreased appetite.
+              NN     RB    IN     NNS    NN      NN      NNS         VBN       NN    
+           |======|                   |=======|        |======|             |======| 
+             Drug                     Procedure        Finding              Finding  
+           C0073591                   C1305866         C0085593             C0003618 
+           C0289313                                                                  
+                                      |============|              |================| 
+                                         Finding                       Finding       
+                                         C1262477                      C0232462      
+
+SENTENCE:    PMH   :
+              NN    
+           |======| 
+           Finding  
+           C0262926 
+
+SENTENCE:  peripheral neuropathy ,   CAD    ,   HTN    , hyperchol diet controlled DM ,
+               JJ         NN          NN         NN         NN      NN     VBN     NN  
+                      |========|   |======|   |======|                                 
+                       Disorder    Disorder   Disorder                                 
+                       C0442874    C1956346   C0020538                                 
+           |===================|                                                       
+                 Disorder                                                              
+                 C0031117                                                              
+
+SENTENCE:  CCY ,   EtOH    abuse  .
+           NN       NN       NN    
+                 |======| |======| 
+                   Drug   Disorder 
+                 C0001962 C0013146 
+                          |======| 
+                          Finding  
+                          C0562381 
+                 |===============| 
+                     Disorder      
+                     C0085762      
+
+SENTENCE:  VS 96.1 43 173/79 100%
+           NN                    
+
+SENTENCE:  RA ADMISSION EXAM:
+           NN    NN      NN  
+
+SENTENCE:  T  97.2 P  54 BP 158/71 O2 97%
+           NN      NN    NN        NN    
+
+SENTENCE:  2L   NAD    , resting horizontal nystagmus , neuro exam  o /w 
+           NN    NN        VBG       JJ        NN        NN    NN  SYM RB
+              |======|                      |=======|                    
+                Drug                        Disorder                     
+              C0027270                      C0028738                     
+                                 |==================|                    
+                                       Disorder                          
+                                       C0271385                          
+
+SENTENCE:  nonfocal ,   neck   supple , jvp 7 ,  lungs   w / L    base   crackles , ?S4S1S2 50s ,
+              JJ         NN      JJ     NN        NNS    IN  JJ    NN      NNS         NN   NNS  
+                      |======|                  |======|        |======| |======|                
+                      Anatomy                   Anatomy           Drug   Finding                 
+                      C0027530                  C0024109        C0002055 C0034642                
+                                                                |======|                         
+                                                                Anatomy                          
+                                                                C0225810                         
+
+SENTENCE:  abdomen  w /   mild   LLQ tenderness ,   ext    wwp w / trace  edema   over
+              NN    IN     JJ    NN      NN          JJ    NN  IN   NN      NN     RB 
+           |======|     |======|     |========|   |======|               |======|     
+           Anatomy      Finding       Finding     Disorder               Finding      
+           C0000726     C1513302      C0234233    C0015306               C0013604     
+
+SENTENCE:   shins   ADMISSION   LABS  :
+             NNS       NN       NNS    
+           |======|           |======| 
+           Anatomy            Finding  
+           C0230444           C0587081 
+
+SENTENCE:    WBC    5.18 ,    HCt    40.1 ,    Plt    141 K  5.6 ,
+             NNP              NN               NN         NN      
+           |======|        |=======|        |=======|             
+           Anatomy         Procedure        Procedure             
+           C0023516        C0018935         C0201617              
+
+SENTENCE:  Cr  2.4 ,    BNP    103 , cardiac  markers flat  x  1 ADMISSION    EKG   :
+           NNP          NN              JJ      NNS    JJ  SYM      NN        NN     
+                     |=======|       |======|                              |=======| 
+                       Drug          Anatomy                               Procedure 
+                     C0054015        C0018787                              C1623258  
+                     |=======|       |==============|                                
+                     Procedure          Procedure                                    
+                     C1095989            C1271630                                    
+
+SENTENCE:   sinus   brady ,
+              NN     NN    
+           |======|        
+           Anatomy         
+           C0030471        
+
+SENTENCE:  1st avb , nl   axis   , QTC 426 , TW  flat III + AVF , 1/2 mm    STD    I  ,
+           JJ  NN    JJ    NN      NN        NNP  JJ  CD    NN        NNS    NN    CD  
+                        |======|                                          |======|     
+                        Anatomy                                           Disorder     
+                        C0004457                                          C0036916     
+
+SENTENCE:  avL ADMISSION    CXR   :
+           NN     NN        NN     
+                         |=======| 
+                         Procedure 
+                         C0039985  
+
+SENTENCE:  borderline cardiomeg , no acute cp
+               JJ        NN       DT  JJ   NN
+
+SENTENCE:  process HOSPITAL
+             NN       NN   
+
+SENTENCE:  COURSE:
+             NN   
+
+SENTENCE:  59 yo man w / extensive hx   CAD    p /w  3 wks crescendo
+              JJ NN  IN     JJ     NN    NN    IN IN   NNS    NN    
+                                      |======|                      
+                                      Disorder                      
+                                      C1956346                      
+
+SENTENCE:   angina .
+              NN    
+           |======| 
+           Finding  
+           C0002962 
+
+SENTENCE:     EKG    w / non-specific changes.
+              NN     IN       JJ        NNS   
+           |=======|                          
+           Procedure                          
+           C1623258                           
+
+SENTENCE:  Cardiac  markers neg.
+              JJ      NNS   JJ  
+           |======|             
+           Anatomy              
+           C0018787             
+           |==============|     
+              Procedure         
+               C1271630         
+
+SENTENCE:  CV: i  - *known   CAD    , crescendo  angina  ,    EKG    w / non-specific changes ,
+           NN  CD     VBN     NN         NN        NN         NN     IN       JJ        NNS    
+                           |======|             |======|   |=======|                           
+                           Disorder             Finding    Procedure                           
+                           C1956346             C0002962   C1623258                            
+                                      |================|                                       
+                                           Disorder                                            
+                                           C0002965                                            
+
+SENTENCE:  card markers neg  x  3 ). ROMI neg , ECHO final report pending at this time
+            NN    NNS   JJ  SYM       NN  JJ     NN   JJ     NN     JJ    IN  DT   NN 
+
+SENTENCE:  but prelim   read   with EF 65% , no RWMA , tr MR ,   LAE    ,   mild     LVH   .
+           CC    JJ      NN     IN  NN       DT  NN    NN NN      NN         JJ       NN    
+                      |======|                                 |======|   |======| |======| 
+                      Finding                                  Disorder   Finding  Disorder 
+                      C0034754                                 C0238705   C1513302 C0149721 
+
+SENTENCE:  ETT MIBI with area of   mild   reversible defect unchanged from prior MIBI
+           NN   NN   IN   NN  IN    JJ        JJ       NN      JJ      IN   JJ    NN 
+                                 |======|                   |=======|                
+                                 Finding                     Finding                 
+                                 C1513302                   C0442739                 
+
+SENTENCE:  in 2003;
+           IN      
+
+SENTENCE:  rec continued medical management ( prior   cath    with   PDA    filled by
+           NN     VBN      JJ        NN        JJ      NN      IN     NN     VBN   IN
+                                 |========|         |=======|      |======|          
+                                  Finding           Procedure      Disorder          
+                                  C1273870          C0007430       C0013274          
+                                                                   |======|          
+                                                                   Anatomy           
+                                                                   C0226047          
+
+SENTENCE:  right collateral with atretic  RIMA to RCA ).
+            JJ       JJ      IN     JJ     NN  IN NN    
+                 |========|      |======|               
+                  Anatomy        Disorder               
+                  C1275670       C1444214               
+
+SENTENCE:  Given risk of  renal   damange
+            VBN   NN  IN    JJ      NN   
+                         |======|        
+                         Anatomy         
+                         C0022646        
+
+SENTENCE:  with   cath    and unclear benefit of distal territory revasc deferred   cath   
+            IN     NN     CC    JJ      NN    IN   JJ      NN       NN     VBN       NN    
+                |=======|                                                         |=======|
+                Procedure                                                         Procedure
+                C0007430                                                          C0007430 
+
+SENTENCE:  for now and opting for medical management.
+           IN  RB  CC    NN   IN    JJ        NN     
+                                          |========| 
+                                           Finding   
+                                           C1273870  
+
+SENTENCE:  Rx w /   asa    , heparin   x  36hrs ,
+           NN IN     NN         NN    SYM  NNS   
+                  |======|   |======|            
+                    Drug       Drug              
+                  C0004057   C0019134            
+
+SENTENCE:  isordil .
+              NN    
+           |======| 
+             Drug   
+           C0590720 
+
+SENTENCE:  Continued on beta blocker and hydralazine for BP control;
+              VBN    IN  NN    NN    CC      NN      IN  NN   NN    
+                        |==========|     |=========|                
+                            Drug            Drug                    
+                          C0001645        C0020223                  
+
+SENTENCE:  would resumre    ACE    as outpatient if  renal   function remains stable.
+            MD     VB       NN     IN     NN     IN    JJ       NN      VBZ     JJ   
+                         |=======|                  |======|                         
+                         Procedure                  Anatomy                          
+                         C0201888                   C0022646                         
+                                                    |===============|                
+                                                         Finding                     
+                                                        C0232804                     
+
+SENTENCE:  Consider peripheral vasodilator if   htn    -
+              VB        JJ         NN      IN    NN     
+                               |=========|    |======|  
+                                  Drug        Disorder  
+                                C0042402      C0020538  
+
+SENTENCE:  hydral added p  - *  HTN   * See above.
+             JJ    VBN  RP       NN     VB   RB   
+                              |======|            
+                              Disorder            
+                              C0020538            
+
+SENTENCE:  *euvolemic* briefly had  sinus  
+               JJ        RB    VBD    NN   
+                                   |======|
+                                   Anatomy 
+                                   C0030471
+
+SENTENCE:  bradycardia to 40s overnight , daytime HR in 70s Tele.
+               NN      IN NNS    JJ         NN    NN IN NNS  NN  
+           |=========|                                           
+             Finding                                             
+            C0428977                                             
+
+SENTENCE:  Replete lytes as
+             JJ     NNS  RB
+
+SENTENCE:  needed given high
+            VBN    VBN   JJ 
+
+SENTENCE:  cr.
+           NN 
+
+SENTENCE:  *chol* Rx w / gemfibrozil.
+             NN   NN NN      NN      
+                         |=========| 
+                            Drug     
+                          C0017245   
+
+SENTENCE:  NEURO:
+            NN   
+
+SENTENCE:  *peripheral neuropathy* Rx w /
+                JJ         NN      NN IN 
+                       |========|        
+                        Disorder         
+                        C0442874         
+            |===================|        
+                  Disorder               
+                  C0031117               
+
+SENTENCE:  methadone , tegratol *  etOH  * Rx w / PRN ativan in case of
+              NN          NN        NN     NN IN  RB    IN   IN  NN  IN
+           |=======|             |======|                              
+             Drug                  Drug                                
+           C0025605              C0001962                              
+
+SENTENCE:  w /d  PULM:
+           IN NN  NN  
+
+SENTENCE:  *subjective dyspnea * Ddx ischemia , lower   prob  
+                JJ        NN     NN     NN       JJ      NN   
+                       |======|      |======|         |======|
+                       Finding       Finding            Drug  
+                       C0013404      C0022116         C0033209
+
+SENTENCE:  PE.
+           NN 
+
+SENTENCE:  No evidence of PNA ,  edema   , atelectasis.
+           DT    NN    IN NN       NN          NN      
+                                |======|   |=========| 
+                                Finding      Finding   
+                                C0013604    C0004144   
+
+SENTENCE:  Eval ischemia as above.
+            NN     NN    IN  RB   
+                |======|          
+                Finding           
+                C0022116          
+
+SENTENCE:  No PECT given lower   prob   + high cr.
+           DT  NN   VBN   JJ      NN       JJ  NN 
+                               |======|           
+                                 Drug             
+                               C0033209           
+
+SENTENCE:  GI: *  GERD  *  nexium  * bowel   reg*  RENAL  :
+           NN      NN        NN        NN    NN     NNS    
+                |======|  |======|  |======|      |======| 
+                Disorder    Drug    Anatomy       Anatomy  
+                C0017168  C0939400  C0021853      C0022646 
+
+SENTENCE:  *CRI* w /in baseline , at discharge Cr
+            NN   IN IN    NN      IN    NN     NN
+
+SENTENCE:  2.5.
+               
+
+SENTENCE:  *hyperk*No sx  or    EKG   
+              NN   DT NNS CC    NN    
+                             |=======|
+                             Procedure
+                             C1623258 
+
+SENTENCE:  changes.
+             NNS   
+
+SENTENCE:   Likely  2/2 CRI.
+              JJ        NN  
+           |======|         
+           Finding          
+           C0332148         
+
+SENTENCE:  Give kayex.
+            VB   NN   
+
+SENTENCE:   Lasix   IV x1.
+             NNP    NN NN 
+           |======|       
+             Drug         
+           C0699992       
+
+SENTENCE:  Recheck.
+             VB    
+
+SENTENCE:  WNl   ENDO  :
+           NN     NN    
+               |======| 
+               Disorder 
+               C0014175 
+
+SENTENCE:  *DM* continue diabetic diet , was on sliding scale while in
+            NN     VB       JJ     NN    VBD IN   VBG    NN    IN   RB
+                         |===========|                                
+                           Procedure                                  
+                           C0011878                                   
+
+SENTENCE:  house ONC:
+            NN   NN  
+
+SENTENCE:  * weight   loss ,  chills * Check amschi labox memorial medical center records
+               NN      NN      NNS      VB     NN    NN      JJ      JJ      NN     NNS  
+            |=======|        |======|                                                    
+            Procedure        Finding                                                     
+            C1305866         C0085593                                                    
+            |============|                                                               
+               Finding                                                                   
+               C1262477                                                                  
+
+SENTENCE:  re:
+           NN 
+
+SENTENCE:  age-appropriate  cancer  screening.
+           NN      JJ         NN       NN     
+                           |======| |=======| 
+                           Disorder Procedure 
+                           C0006826 C0199230  
+
+SENTENCE:  F .u    PSA    wnl.
+           VB RP    NN    NN  
+                 |======|     
+                   Drug       
+                 C0138741     
+
+SENTENCE:  PROPH:
+            NN   
+
+SENTENCE:  heparin / nexium  CODE:
+              NN       NN     NN  
+           |======| |======|      
+             Drug     Drug        
+           C0019134 C0939400      
+
+SENTENCE:  full
+            JJ 
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  SALDANA , DOYLE J.  , M.D. ( RE23 ) 1/22/05 @ 05:29 PM
+             NN       NNP  NNP   NNP     CD                    NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

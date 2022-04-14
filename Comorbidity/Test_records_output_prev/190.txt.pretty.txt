@@ -1,0 +1,434 @@
+SENTENCE:  236272245 | ALEH | 38140691 | | 811735 | 2/3/1997 12:00:00 AM |  AORTIC  VALVE DISEASE  , MITRAL VALVE DISEASE  , CORONARY  ARTERY  DISEASE  | Signed |   DIS    | Admission Date:
+                        NN                                            NN      JJ     JJ      NN        JJ    JJ      NN         JJ       NN       NN       VBN        NN         NN      NN  
+                                                                           |======|       |======|   |==========| |======|   |======| |======| |======|            |======|                  
+                                                                           Anatomy        Disorder     Anatomy    Disorder   Anatomy  Anatomy  Disorder            Disorder                  
+                                                                           C0003483       C0012634     C0026264   C0012634   C0018787 C0003842 C0012634            C0012634                  
+                                                                                                                                                                   C1970187                  
+                                                                           |============|            |===================|   |===============|                     |======|                  
+                                                                              Anatomy                      Disorder               Anatomy                          Finding                   
+                                                                              C0003501                     C0026265              C0205042                          C1444662                  
+                                                                           |=====================|                |=================| |===============|                                      
+                                                                                  Disorder                             Disorder           Disorder                                           
+                                                                                  C1260873                             C0010068           C0852949                                           
+                                                                                                                             |========================|                                      
+                                                                                                                                      Disorder                                               
+                                                                                                                                      C1956346                                               
+                                                                                                                  |==========================|                                               
+                                                                                                                            Disorder                                                         
+                                                                                                                            C1956346                                                         
+
+SENTENCE:  2/3/1997 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  6/17/1997
+                    
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  Mr. Vendetti is  a  61 year old man who
+           NNP   NNP    VBZ DT     NN  JJ  NN  WP 
+
+SENTENCE:  was admitted to the cardiac  surgical
+           VBD   VBN    IN DT     JJ       JJ   
+                               |======|         
+                               Anatomy          
+                               C0018787         
+
+SENTENCE:  service  on 1/10/97 for  aortic  valve replacement , mitral valve
+              NN    IN         IN     JJ     NN       NN          JJ    NN  
+           |======|                |======|       |=========|   |==========|
+           Finding                 Anatomy         Procedure      Anatomy   
+           C0557854                C0003483        C0035139       C0026264  
+                                   |============|                           
+                                      Anatomy                               
+                                      C0003501                              
+                                   |========================|               
+                                           Procedure                        
+                                            C0003506                        
+
+SENTENCE:  replacement.
+               NN      
+           |=========| 
+            Procedure  
+            C0035139   
+
+SENTENCE:  He  had an echocardiogram at an outside hospital that
+           PRP VBD DT       NN       IN DT   JJ       NN    WDT 
+                      |============|                            
+                        Procedure                               
+                         C0013516                               
+
+SENTENCE:  demonstrated a  dilated  left ventricle and an ejection fraction of
+               VBD      DT    JJ     JJ     NN     CC  DT    NN       NN    . 
+                           |======|      |=======|        |======|            
+                           Finding        Anatomy         Finding             
+                           C0700124      C0018827         C0336969            
+                                    |============|                            
+                                       Anatomy                                
+                                       C0225897                               
+
+SENTENCE:  55% with moderate  aortic  stenosis with moderate to  severe   aortic 
+                IN     JJ       JJ       NN     IN     JJ    IN    JJ       JJ   
+                             |======| |======|                  |======| |======|
+                             Anatomy  Finding                   Finding  Anatomy 
+                             C0003483 C1261287                  C1519275 C0003483
+                             |===============|                                   
+                                 Disorder                                        
+                                 C0003507                                        
+
+SENTENCE:  insufficiency with a  peak gradient of 35 millimeters of mercury  ,
+                NN        IN  DT  NN     NN    IN        NNS     IN    NN     
+                                                                    |======|  
+                                                                      Drug    
+                                                                    C0025424  
+
+SENTENCE:    mild   to moderate mitral stenosis and moderate mitral insufficiency
+              JJ    IN    JJ      JJ      NN    CC     JJ      JJ        NN      
+           |======|                    |======|              |==================|
+           Finding                     Finding                     Finding       
+           C1513302                    C1261287                    C0026266      
+                                |=============|                                  
+                                   Disorder                                      
+                                   C0026269                                      
+
+SENTENCE:  with a  mitral valve area of 1.1 cm  squared.
+            IN  DT   JJ    NN    NN  IN     NNS   VBN   
+                   |==========|                         
+                     Anatomy                            
+                     C0026264                           
+                   |===============|                    
+                        Anatomy                         
+                       C0428818                         
+
+SENTENCE:  He  has had a  history 
+           PRP VBZ VBN DT    NN   
+                          |======|
+                          Finding 
+                          C0262926
+
+SENTENCE:  of rheumatic  heart   disease .
+           IN    JJ        NN       NN    
+                        |======| |======| 
+                        Anatomy  Disorder 
+                        C0018787 C0012634 
+                        |===============| 
+                            Disorder      
+                            C0018799      
+              |=========================| 
+                       Disorder           
+                       C0035439           
+
+SENTENCE:  His  cardiac  catheterization on
+           PRP$    JJ          NN        . 
+                |======| |=============|   
+                Anatomy     Procedure      
+                C0018787    C0007430       
+
+SENTENCE:  9/10/97 demonstrated a  95% proximal right coronary  artery   lesion 
+                       VBN      DT        JJ     JJ      JJ       NN       NN   
+                                                      |======| |======| |======|
+                                                      Anatomy  Anatomy  Finding 
+                                                      C0018787 C0003842 C0221198
+                                                      |===============|         
+                                                           Anatomy              
+                                                          C0205042              
+                                                |=====================|         
+                                                        Anatomy                 
+                                                       C1261316                 
+
+SENTENCE:  and an ejection fraction of 50%.
+           CC  DT    NN       NN    IN     
+                  |======|                 
+                  Finding                  
+                  C0336969                 
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Included rheumatic  heart   disease  and
+             VBN       JJ        NN       NN     . 
+                              |======| |======|    
+                              Anatomy  Disorder    
+                              C0018787 C0012634    
+                              |===============|    
+                                  Disorder         
+                                  C0018799         
+                    |=========================|    
+                             Disorder              
+                             C0035439              
+
+SENTENCE:  hypertension.
+                NN      
+           |==========| 
+             Disorder   
+             C0020538   
+
+SENTENCE:  PAST SURGICAL HISTORY :
+            JJ     JJ       NN    
+                         |======| 
+                         Finding  
+                         C0262926 
+
+SENTENCE:  Is  none.
+           VBZ  NN  
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  Former  smoker ;
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0337664 
+           |=============| 
+               Finding     
+              C0337671     
+
+SENTENCE:  twenty   pack   year history .
+             CD      NN     NN     NN    
+                  |======|      |======| 
+                    Drug        Finding  
+                  C1999262      C0262926 
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  On admission are  Toprol  XL  50 once a  day , aspirin 
+           IN    NN     VBP   NNP    NNP     IN  DT NN       NN   
+                            |======|                      |======|
+                              Drug                          Drug  
+                            C2723006                      C0004057
+                            |==========|                          
+                                Drug                              
+                              C0723783                            
+
+SENTENCE:  once a  day , sublingual nitroglycerin and  Zocor   50
+            RB  DT NN        JJ          NN       CC    NNP      
+                         |========| |===========|     |======|   
+                          Anatomy       Drug            Drug     
+                          C0558302    C0017887        C0678181   
+
+SENTENCE:  once a  day.
+            RB  DT NN  
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  No known   drug   allergies.
+           DT  JJ      NN       NNS    
+                    |======| |=======| 
+                      Drug    Finding  
+                    C0013227 C0020517  
+                    |================| 
+                         Disorder      
+                         C0013182      
+
+SENTENCE:  PHYSICAL EXAM:
+              JJ     NN  
+
+SENTENCE:  Unremarkable except for a  3/6 diastolic  murmur  at
+                JJ        IN   IN  DT        JJ        NN    . 
+                                                    |======|   
+                                                    Finding    
+                                                    C0018808   
+                                          |================|   
+                                               Finding         
+                                               C0232262        
+
+SENTENCE:  the apex and a  3 to 4/6 systolic  murmur  at the
+           DT   NN  CC  DT   IN        JJ       NN    IN CD 
+                                             |======|       
+                                             Finding        
+                                             C0018808       
+                                    |===============|       
+                                         Finding            
+                                        C0232257            
+
+SENTENCE:  lower left sternal border.
+            JJ    JJ    JJ      NN   
+
+SENTENCE:  LABORATORY:
+               NN     
+           |========| 
+           Procedure  
+            C0022885  
+
+SENTENCE:  Were all  normal  , within  normal  limits.
+            RB  DT     JJ        IN      JJ     NNS   
+                    |======|          |======|        
+                    Finding           Finding         
+                    C0231683          C0231683        
+                    C0558145          C0558145        
+                               |====================| 
+                                      Finding         
+                                      C1265570        
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  He  went to the operating room on 3/4/97 where
+           PRP VBD  IN DT     NN      NN  IN         WRB 
+
+SENTENCE:  he  had a  mitral valve replacement with a  #31 St.
+           PRP VBD DT   JJ    NN       NN       IN  DT     NN 
+                      |==========| |=========|                
+                        Anatomy     Procedure                 
+                        C0026264    C0035139                  
+                      |======================|                
+                             Procedure                        
+                              C0026268                        
+
+SENTENCE:  Jude mechanical prosthesis and an  aortic  valve replacement with  a  
+           NNP      JJ         NN     CC  DT    JJ     NN       NN       IN  HYPH
+                           |========|        |======|       |=========|          
+                           Procedure         Anatomy         Procedure           
+                            C0525024         C0003483        C0035139            
+                                             |============|                      
+                                                Anatomy                          
+                                                C0003501                         
+                                             |========================|          
+                                                     Procedure                   
+                                                      C0003506                   
+
+SENTENCE:  #25 St. Jude mechanical prosthesis and a  right internal mammary 
+               NNP NNP      JJ         NN     CC  DT  JJ      JJ       NN   
+                                   |========|                       |======|
+                                   Procedure                        Anatomy 
+                                    C0525024                        C0006141
+
+SENTENCE:   artery   bypass   grafting  to the right coronary  artery .
+              NN       NN        NN     IN DT   JJ      JJ       NN    
+           |======| |=======| |=======|              |======| |======| 
+           Anatomy  Procedure Procedure              Anatomy  Anatomy  
+           C0003842 C0741847  C1961139               C0018787 C0003842 
+                    |=================|              |===============| 
+                         Procedure                        Anatomy      
+                         C0185098                        C0205042      
+                                               |=====================| 
+                                                       Anatomy         
+                                                      C1261316         
+
+SENTENCE:  He  had no
+           PRP VBD UH
+
+SENTENCE:  complications.
+                NNS      
+           |===========| 
+              Finding    
+             C0009566    
+
+SENTENCE:  He  is  being discharged on postop day four without complications.
+           PRP VBZ  VBG     VBN     IN   JJ   NN   CD    IN         NNS      
+                                                               |===========| 
+                                                                  Finding    
+                                                                 C0009566    
+
+SENTENCE:  He  will be discharged on Lopressor 50 mg  twice a  day ,  Lasix   40 mg 
+           PRP  MD  VB    VBN     IN    NNP       NNS  RB   DT NN      NNP       NNS
+                                     |=======|                       |======|       
+                                       Drug                            Drug         
+                                     C0700776                        C0699992       
+
+SENTENCE:  once a  day for two days with potassium ,  K -Dur  tabs 10 mEq once a
+            RB  DT NN  IN  CD  NNS   IN     NN       NNP NNP  NNS     NNS  RB  .
+                                         |=======|   |======|                   
+                                           Drug        Drug                     
+                                         C0032821    C0306511                   
+
+SENTENCE:  day for two days with  Lasix   , Coumadin 5 mg  one   tab    once a  day or as
+           NN  IN  CD  NNS   IN    NNP        NNP      NNS CD     NN     RB  DT NN  CC RB
+                                 |======|   |======|           |======|                  
+                                   Drug       Drug               Drug                    
+                                 C0699992   C0699129           C0039225                  
+
+SENTENCE:  directed.
+             VBN    
+
+SENTENCE:  The Coumadin has been restarted for right   leg      DVT    that
+           DT    NNP    VBZ VBN     VBN    IN   JJ      NN       NN    WDT 
+               |======|                              |======| |======|     
+                 Drug                                Anatomy  Disorder     
+               C0699129                              C1140621 C0149871     
+                                                     |===============|     
+                                                         Disorder          
+                                                         C0340708          
+                                               |============|              
+                                                  Anatomy                  
+                                                  C0230442                 
+
+SENTENCE:  was discovered post cardiac  catheterization and is  to be continued
+           VBD    VBN      IN     JJ          NN        CC  VBZ TO VB    VBN   
+                               |======| |=============|                        
+                               Anatomy     Procedure                           
+                               C0018787    C0007430                            
+
+SENTENCE:  for a  total of three months.
+           IN  DT  NN   IN  CD    NNS   
+
+SENTENCE:  Percocet is  one   tab    q .4h. prn for
+             NNP    VBZ CD     NN    FW  FW FW   . 
+           |======|         |======|               
+             Drug             Drug                 
+           C0086787         C0039225               
+
+SENTENCE:    pain   and he  is  being discharged to the care of Dr. Sterling Goodson .
+              NN    CC  PRP VBZ  VBG     VBN     IN DT   NN  IN NNP   NNP      NNP    
+           |======|                                                                   
+           Finding                                                                    
+           C0030193                                                                   
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  CLIFFORD GASCOIGNE ,  P .A .
+             NNP       NNP      NNP LS 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  LUIS O.  HEMPE ,  M . D .
+            NN  NNP  NN     NNP NNP 
+
+SENTENCE:  AH8  VQ432/4573
+           NN    NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  85864 Index No. T0UUAL123N D : 6/10/97
+                  NNP  NN      NN     NN         
+
+SENTENCE:  T : 7/24/97
+           NN         
+

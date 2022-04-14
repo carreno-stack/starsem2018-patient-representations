@@ -1,0 +1,1199 @@
+SENTENCE:  355567063 |   BMC    | 07920791 | | 101009 | 5/29/1997 12:00:00 AM | PERIPHERAL VASCULAR DISEASE  | Signed |   DIS    | Admission Date:
+                          NN                                               NN       JJ        JJ       NN       VBN        NN         NN      NN  
+                       |======|                                                            |======| |======|            |======|                  
+                         Drug                                                              Anatomy  Disorder            Finding                   
+                       C0065839                                                            C0005847 C0012634            C1444662                  
+                                                                                           |===============|            |======|                  
+                                                                                               Disorder                 Disorder                  
+                                                                                               C0042373                 C0012634                  
+                                                                                                                        C1970187                  
+                                                                                |==========================|                                      
+                                                                                          Disorder                                                
+                                                                                          C0085096                                                
+
+SENTENCE:  9/13/1997 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  10/6/1997
+                    
+
+SENTENCE:  PRINCIPAL DIAGNOSIS:
+              JJ        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  LEFT FEMOROPOPLITEAL  BYPASS   GRAFTING  AND
+            JJ        JJ           NN        NN      . 
+                                |=======| |=======|    
+                                Procedure Procedure    
+                                C0741847  C1961139     
+                |=======================|              
+                        Procedure                      
+                        C0190932                       
+                                |=================|    
+                                     Procedure         
+                                     C0185098          
+
+SENTENCE:  RIGHT FIFTH   TOE    AMPUTATION SITE SPLIT
+            JJ    NN      NN        NN      NN   NN  
+                       |======| |========|           
+                       Anatomy  Procedure            
+                       C0040357  C0002688            
+                 |============|                      
+                    Anatomy                          
+                    C1261103                         
+                       |=================|           
+                            Procedure                
+                            C0188602                 
+
+SENTENCE:  THICKNESS   SKIN   GRAFTING 
+              NN        NN       NN    
+                     |======| |=======|
+                     Anatomy  Procedure
+                     C1123023 C1961139 
+                     |================|
+                         Procedure     
+                          C0037297     
+           |================|          
+                Finding                
+                C0423756               
+
+SENTENCE:  PROBLEMS: 1 ) PERIPHERAL VASCULAR DISEASE 
+             NNS             JJ        JJ       NN   
+                                    |======| |======|
+                                    Anatomy  Disorder
+                                    C0005847 C0012634
+                                    |===============|
+                                        Disorder     
+                                        C0042373     
+                         |==========================|
+                                   Disorder          
+                                   C0085096          
+
+SENTENCE:  2 ) HYPERTENSION
+                    NN     
+               |==========|
+                 Disorder  
+                 C0020538  
+
+SENTENCE:  3 ) TYPE II DIABETES MELLITUS
+                NN  CD    NN       NN   
+                       |======|         
+                       Disorder         
+                       C0011849         
+               |==============|         
+                   Disorder             
+                   C0011860             
+
+SENTENCE:  4 ) ELEVATED CHOLESTEROL
+                 VBN        NN     
+                        |=========|
+                           Drug    
+                         C0008377  
+
+SENTENCE:  HISTORY  OF THE PRESENT ILLNESS :
+              NN    IN DT    JJ       NN    
+           |======|                |======| 
+           Finding                 Finding  
+           C0262926                C0221423 
+
+SENTENCE:  This is  a  49 year-old male who
+            DT  VBZ DT     NN  JJ   NN  WP 
+
+SENTENCE:  has developed type II diabetes
+           VBZ    VBN     NN  CD    NN   
+                                 |======|
+                                 Disorder
+                                 C0011849
+                         |==============|
+                             Disorder    
+                             C0011860    
+
+SENTENCE:  mellitus approximately ten years ago but has been without regular
+              NN         RB       CD   NNS  RB  CC  VBZ VBN    IN      JJ   
+
+SENTENCE:  medical follow-up.
+             JJ      NN   NN 
+                   |=======| 
+                    Finding  
+                   C0589120  
+
+SENTENCE:  He  has also experienced worsening peripheral
+           PRP VBZ  RB      VBN        VBG        JJ    
+
+SENTENCE:  vascular disease .
+              JJ       NN    
+           |======| |======| 
+           Anatomy  Disorder 
+           C0005847 C0012634 
+           |===============| 
+               Disorder      
+               C0042373      
+
+SENTENCE:  In this context  , he  was admitted to Mounten Memorial approximately one month ago , when on May , he 
+           IN  DT     NN      PRP VBD   VBN    IN   NNP     NNP         RB       CD   NN   RB    WRB  IN NNP   PRP
+                   |======|                                                                                       
+                   Finding                                                                                        
+                   C0449255                                                                                       
+
+SENTENCE:  underwent debridement of diabetic   foot    ulcers  and amputation of the
+              VBD        NN      IN    JJ       NN      NNS    CC      NN     IN CD 
+                     |=========|             |======| |======|     |========|       
+                      Procedure              Anatomy  Disorder     Procedure        
+                      C0011079               C0016504 C0041582      C0002688        
+                                             |===============|                      
+                                                 Disorder                           
+                                                 C0085119                           
+                                    |===============|                               
+                                        Disorder                                    
+                                        C0206172                                    
+                                    |========================|                      
+                                             Disorder                               
+                                             C1456868                               
+
+SENTENCE:  right fifth   toe   .
+            JJ    JJ      NN    
+                       |======| 
+                       Anatomy  
+                       C0040357 
+                 |============| 
+                    Anatomy     
+                    C1261103    
+
+SENTENCE:  On October , he  also underwent a  right
+           IN   NNP     PRP  RB     VBD    DT  JJ  
+
+SENTENCE:  femoropopliteal  bypass    graft  .
+                 JJ           NN        NN    
+                           |=======| |======| 
+                           Procedure Anatomy  
+                           C0741847  C0332835 
+           |=======================|          
+                   Procedure                  
+                   C0190932                   
+                           |================| 
+                               Procedure      
+                                C0185098      
+
+SENTENCE:  He  was discharged from Penzale Bill Clinic on February , 1997 to home , followed by VNA for
+           PRP VBD    VBN      IN    NNP   NNP   NNP   IN   NNP           IN  NN      VBN    IN NN   . 
+
+SENTENCE:  dressing  changes.
+              NN       NNS   
+           |=======|         
+            Finding          
+           C1305428          
+           |=======|         
+           Procedure         
+           C0278286          
+
+SENTENCE:  He  did well postoperatively;
+           PRP VBD  RB        RB        
+
+SENTENCE:  however , he  began
+             RB      PRP  VBD 
+
+SENTENCE:  experiencing increasing   pain   in both   legs   over the two days prior
+               VBG         VBG        NN    IN  DT    NNS     IN  DT  CD  NNS   JJ  
+                                   |======|         |======|                        
+                                   Finding          Anatomy                         
+                                   C0030193         C1140621                        
+                                               |===========|                        
+                                                  Anatomy                           
+                                                 C0230446                           
+                                   |=======================|                        
+                                            Finding                                 
+                                           C2032151                                 
+
+SENTENCE:  to admission.
+           IN    NN     
+
+SENTENCE:  He  treated this with Tylenol .
+           PRP   VBD    DT   IN    NNP    
+                                 |======| 
+                                   Drug   
+                                 C0699142 
+
+SENTENCE:  He  states this
+           PRP  VBZ    .  
+
+SENTENCE:  glucose  levels have been doing well , although he  is  not   able   to
+              NN     NNS   VBP  VBN   VBG   RB       IN    PRP VBZ RB     JJ    TO
+           |======|                                                    |======|   
+             Drug                                                      Finding    
+           C0017725                                                    C1299581   
+           |=============|                                                        
+               Finding                                                            
+              C0428548                                                            
+
+SENTENCE:  cite any numbers.
+            NN  DT    NNS   
+
+SENTENCE:  PAST MEDICAL HISTORY : 1 ) Hypertension. 2 ) Peripheral vascular
+            JJ    JJ       NN              NN               JJ        JJ   
+                        |======|                                   |======|
+                        Finding                                    Anatomy 
+                        C0262926                                   C0005847
+           |===================|                                           
+                  Finding                                                  
+                 C0455458                                                  
+
+SENTENCE:  disease .
+              NN    
+           |======| 
+           Disorder 
+           C0012634 
+
+SENTENCE:  3 ) Type II diabetes mellitus.
+                NN  CD    NN       NN    
+                       |======|          
+                       Disorder          
+                       C0011849          
+               |==============|          
+                   Disorder              
+                   C0011860              
+
+SENTENCE:  4 )
+              
+
+SENTENCE:  Elevated cholesterol.
+              JJ        NN      
+                    |=========| 
+                       Drug     
+                     C0008377   
+           |==================| 
+                 Disorder       
+                 C0020443       
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  Medications on admission included Vasotec  5
+               NNS     IN    NN       VBD      NNP     
+           |=========|                       |======|  
+              Drug                             Drug    
+            C0013227                         C0728763  
+
+SENTENCE:  milligrams q.d.;
+              NNS     FW   
+
+SENTENCE:  Glyburide 5 milligrams q .d .
+              NNP         NNS     FW NN 
+           |=======|                    
+             Drug                       
+           C0017628                     
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  No known   drug   allergies.
+           DT  JJ      NN       NNS    
+                    |======| |=======| 
+                      Drug    Finding  
+                    C0013227 C0020517  
+                    |================| 
+                         Disorder      
+                         C0013182      
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  Tobacco :
+              NN    
+           |======| 
+             Drug   
+           C0040329 
+
+SENTENCE:  two packs per day times 40 years ,
+           CD   NNS  IN  NN   IN       NNS   
+
+SENTENCE:  presently an active  smoker .
+              RB     DT   JJ      NN    
+                               |======| 
+                               Finding  
+                               C0337664 
+
+SENTENCE:  Alcohol :
+              NN    
+           |======| 
+             Drug   
+           C0001962 
+
+SENTENCE:  denies
+            NNS  
+
+SENTENCE:  alcohol  intake in the last six weeks;
+              NN      NN   IN DT   JJ  CD   NNS  
+           |======|                              
+             Drug                                
+           C0001962                              
+
+SENTENCE:  history  of previous heavy
+              NN    IN    JJ     JJ  
+           |======|                  
+           Finding                   
+           C0262926                  
+
+SENTENCE:  alcohol  use.
+              NN    NN  
+           |======|     
+             Drug       
+           C0001962     
+
+SENTENCE:  The patient is  divorced.
+           DT    NN    VBZ    JJ    
+                           |======| 
+                           Finding  
+                           C0086170 
+
+SENTENCE:  He  currently lives with his 
+           PRP    RB      VBZ   IN  PRP$
+
+SENTENCE:  girlfriend.
+               NN     
+
+SENTENCE:  He  is  currently disabled and is  not working.
+           PRP VBZ    RB       VBN    CC  VBZ RB    VBG   
+
+SENTENCE:  REVIEW OF SYSTEMS:
+             NN   IN   NNS   
+
+SENTENCE:  GENERAL:
+             NN    
+
+SENTENCE:  35 pound  weight   loss over the past
+               NN      NN      NN   IN  DT   NN 
+                    |=======|                   
+                    Procedure                   
+                    C1305866                    
+                    |============|              
+                       Finding                  
+                       C1262477                 
+
+SENTENCE:  three years.
+            CD    NNS  
+
+SENTENCE:    ENT   :
+              NN    
+           |======| 
+           Anatomy  
+           C0150934 
+
+SENTENCE:  Recent blurring of  vision .
+             JJ      NN    IN    NN    
+                  |======|    |======| 
+                  Finding     Finding  
+                  C0344232    C0042789 
+
+SENTENCE:  NEUROLOGICAL:
+                NN      
+
+SENTENCE:  Numbness and tingling on the left   foot   dorsal
+              NN    CC     NN    IN DT   JJ     NN      JJ  
+           |======|     |======|             |======|       
+           Finding      Finding              Anatomy        
+           C0028643     C2242996             C0016504       
+                                        |===========|       
+                                           Anatomy          
+                                          C0230461          
+
+SENTENCE:  surface.
+             NN    
+
+SENTENCE:  CARDIOVASCULAR:
+                 NN       
+           |============| 
+              Anatomy     
+              C0007226    
+
+SENTENCE:  Hypertension , but no known history  of
+                NN        CC  DT  JJ      NN    IN
+           |==========|                |======|   
+             Disorder                  Finding    
+             C0020538                  C0262926   
+
+SENTENCE:  cardiac  events.
+              JJ     NNS   
+           |======|        
+           Anatomy         
+           C0018787        
+
+SENTENCE:  PSYCHIATRIC:
+               NN      
+
+SENTENCE:  Admits to some depression.
+            NNS   IN  DT      NN     
+                          |========| 
+                           Disorder  
+                           C0011581  
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  This is  an   ill    appearing , uncomfortable
+            DT  VBZ DT    JJ       NN            JJ      
+                       |======|                          
+                       Finding                           
+                       C0231218                          
+
+SENTENCE:  gentleman in   mild   distress on admission.
+              NN     IN    JJ       NN    IN    NN     
+                        |======| |======|              
+                        Finding  Finding               
+                        C1513302 C0231303              
+
+SENTENCE:  VITAL  SIGNS  :
+            NN      NN    
+                 |======| 
+                 Finding  
+                 C0311392 
+
+SENTENCE:  Afebrile.
+              JJ    
+           |======| 
+           Finding  
+           C0277797 
+
+SENTENCE:   Blood   pressure 130/82.
+              NN       NN           
+           |======| |======|        
+           Anatomy  Finding         
+           C0005767 C0460139        
+           |===============|        
+                Finding             
+               C0005823             
+
+SENTENCE:  Pulse 84.
+            NN      
+
+SENTENCE:  Respiratory rate 16.
+               NN       NN     
+
+SENTENCE:    SKIN  :
+              NN    
+           |======| 
+           Anatomy  
+           C1123023 
+
+SENTENCE:  Warm and dry.
+            JJ  CC  JJ  
+
+SENTENCE:  There are no palpable
+            EX   VBP DT    JJ   
+
+SENTENCE:  nodes.
+            NNS  
+
+SENTENCE:  HEENT:
+            NN   
+
+SENTENCE:  Normocephalic and atraumatic.
+                JJ       CC      JJ     
+
+SENTENCE:   LUNGS  :
+             NNS    
+           |======| 
+           Anatomy  
+           C0024109 
+
+SENTENCE:  Clear to
+            JJ   TO
+
+SENTENCE:  auscultation throughout.
+                NN          RB     
+           |==========|            
+            Procedure              
+             C0004339              
+
+SENTENCE:   HEART  :
+              NN    
+           |======| 
+           Anatomy  
+           C0018787 
+
+SENTENCE:  Regular rate and rhythm.
+             JJ     NN  CC    NN   
+
+SENTENCE:   Normal 
+              JJ   
+           |======|
+           Finding 
+           C0231683
+           C0558145
+
+SENTENCE:  S1/S2.
+           NN NN 
+
+SENTENCE:  ABDOMEN :
+              NN    
+           |======| 
+           Anatomy  
+           C0000726 
+
+SENTENCE:  Soft , nontender , with active  bowel   sounds.
+            JJ       JJ        IN    JJ      NN     NNS   
+                                          |======|        
+                                          Anatomy         
+                                          C0021853        
+                                          |=============| 
+                                              Finding     
+                                             C0232693     
+
+SENTENCE:  NEUROLOGICAL:
+                NN      
+
+SENTENCE:  The patient is   alert   and oriented times three.
+           DT    NN    VBZ    JJ    CC     JJ     IN    CD   
+                           |======|     |======|             
+                           Finding      Finding              
+                           C0239110     C1961028             
+
+SENTENCE:  EXTREMITIES:
+               NNS     
+           |=========| 
+             Anatomy   
+            C0015385   
+
+SENTENCE:  There is  no  edema  .
+            EX   VBZ DT    NN    
+                        |======| 
+                        Finding  
+                        C0013604 
+
+SENTENCE:  There is  a  right  groin   incision 
+            EX   VBZ DT  JJ      NN       NN    
+                              |======| |=======|
+                              Anatomy  Procedure
+                              C0018246 C0184898 
+
+SENTENCE:  with slight separation of the surgical  wound   at its  most distal
+            IN    JJ       NN     IN DT     JJ       NN    IN PRP$ JJS    JJ  
+                       |========|                 |======|                    
+                        Finding                   Disorder                    
+                        C0036679                  C0043250                    
+                                         |===============|                    
+                                             Disorder                         
+                                             C0332803                         
+
+SENTENCE:  aspect , approximately one centimeter magnitude.
+             NN          RB       CD      NN        NN     
+
+SENTENCE:  PULSES:
+            NNS   
+
+SENTENCE:  Popliteal
+              JJ    
+           |=======|
+            Anatomy 
+           C0442037 
+
+SENTENCE:  pulse is  by  Doppler  only on both sides.
+            NN   VBZ IN    NNP     RB  IN  DT   NNS  
+                        |=======|                    
+                        Procedure                    
+                        C0554756                     
+
+SENTENCE:  The posterior  tibial  pulse
+           DT     JJ        JJ     NN  
+               |=======| |======|      
+               Disorder  Anatomy       
+               C0751438  C0040184      
+               |======================|
+                       Finding         
+                       C1720310        
+
+SENTENCE:  is  non Dopplerable.
+           VBZ JJ      JJ      
+
+SENTENCE:  The dorsalis pedis pulse is  detectable with
+           DT     NN     NN    NN   VBZ     JJ      IN 
+               |==================|                    
+                     Finding                           
+                     C1706488                          
+
+SENTENCE:   Doppler  , stronger on the left than on the right.
+              NNP        JJR    IN DT   JJ   IN  IN DT   JJ   
+           |=======|                                          
+           Procedure                                          
+           C0554756                                           
+
+SENTENCE:  On the left   foot   ,
+           IN DT   JJ     NN     
+                       |======|  
+                       Anatomy   
+                       C0016504  
+                  |===========|  
+                     Anatomy     
+                    C0230461     
+
+SENTENCE:  there were two necrotic areas on the   heel   approximately 0.5
+            EX   VBD  CD     JJ     NNS  IN DT     NN         RB          
+                          |======|              |======|                  
+                          Finding               Anatomy                   
+                          C0027540              C0018870                  
+
+SENTENCE:  centimeter in diameter.
+               NN     IN    NN    
+
+SENTENCE:  The first metatarsal  joint   has a  1.2
+           DT   JJ       NN        NN    VBZ DT    
+                     |========| |======|           
+                      Anatomy   Anatomy            
+                      C0025584  C0022417           
+               |==============|                    
+                   Anatomy                         
+                   C0223976                        
+                   C0459701                        
+                     |=================|           
+                           Anatomy                 
+                          C0025589                 
+                          C1288313                 
+
+SENTENCE:  centimeter  wound   which is  dry , tender and not erythematous outside
+               NN        NN     WDT  VBZ JJ      JJ   CC  RB       JJ        JJ   
+                      |======|                                                    
+                      Disorder                                                    
+                      C0043250                                                    
+
+SENTENCE:  of its  margins , boggy at the distal aspect.
+           IN PRP$   NNS      NN   IN DT    JJ     NN   
+
+SENTENCE:  There is  a  small
+            EX   VBZ DT  JJ  
+
+SENTENCE:  amount of   tan    exudate present at the distal  wound   edge.
+             NN   IN    JJ      NN      JJ    IN DT    JJ      NN     NN  
+                     |======|                               |======|      
+                       Drug                                 Disorder      
+                     C0040854                               C0043250      
+                                                            |===========| 
+                                                               Finding    
+                                                              C1545981    
+
+SENTENCE:  On the
+           IN  : 
+
+SENTENCE:  right   foot   , there is  a  distal lateral  wound   4.6 centimeters in
+            JJ      NN       EX   VBZ DT   JJ     JJ       NN            NNS     IN
+                 |======|                               |======|                   
+                 Anatomy                                Disorder                   
+                 C0016504                               C0043250                   
+           |============|                                                          
+              Anatomy                                                              
+              C0230460                                                             
+
+SENTENCE:  width , 3.1 centimeters in length , and 1 centimeter deep.
+            NN             NNS     IN   NN     CC        NN      JJ  
+
+SENTENCE:  There is 
+            EX   VBZ
+
+SENTENCE:    pale   green fluffing on the plantar  edge of the  wound  .
+              JJ     JJ      NN    IN DT     NN     NN  IN DT     NN    
+           |======|                       |======|             |======| 
+           Finding                        Anatomy              Disorder 
+           C0030232                       C0442036             C0043250 
+
+SENTENCE:  The right
+           DT   JJ  
+
+SENTENCE:    heel   has a  4.2  X  2.5 centimeter open area approximately 2-3
+              NN    VBZ DT     SYM         NN      JJ   NN       RB          
+           |======|                                                          
+           Anatomy                                                           
+           C0018870                                                          
+
+SENTENCE:  millimeters deep in the  wound   bed;
+               NNS      JJ  IN DT     NN    NN  
+                                   |======|     
+                                   Disorder     
+                                   C0043250     
+
+SENTENCE:  pink with scattered white
+            JJ   IN     JJ      JJ  
+
+SENTENCE:  material fluffing.
+              NN       NN    
+
+SENTENCE:  There is  no surrounding erythema or bogginess.
+            EX   VBZ DT     VBG        NN    CC    NN     
+                                    |======|              
+                                    Disorder              
+                                    C0041834              
+
+SENTENCE:  LABORATORY DATA:
+               NN      NN  
+           |========|      
+           Procedure       
+            C0022885       
+
+SENTENCE:  On admission , glucose  was 81 ,  sodium  137 ,
+           IN    NN          NN    VBD         NN         
+                          |======|          |======|      
+                            Drug              Drug        
+                          C0017725          C0037473      
+
+SENTENCE:  potassium 4.7 , chloride 101 , bicarbonate 26 ,    BUN   
+              NN              NN              NN              NN    
+           |=======|       |======|       |=========|      |=======|
+             Drug            Drug            Drug            Drug   
+           C0032821        C0596019        C0005367        C0600137 
+                                                           |=======|
+                                                           Procedure
+                                                           C0005845 
+
+SENTENCE:  and creatinine of 18 and 0.9 respectively.
+           CC      NN     IN    CC           RB      
+               |========|                            
+                  Drug                               
+                C0010294                             
+
+SENTENCE:  CK was 145.
+           NN VBD     
+
+SENTENCE:     CBC    was as
+              NN     VBD RB
+           |=======|       
+           Procedure       
+           C0009555        
+
+SENTENCE:  follows:
+             VBZ   
+
+SENTENCE:  white  blood     cell   count of 10 , hematocrit 43.1 , platelets
+            JJ      NN       NN     NN   IN          NN               NNS   
+                 |======| |======|               |========|        |=======|
+                 Anatomy  Anatomy                Procedure          Anatomy 
+                 C0005767 C0007634                C0018935         C0005821 
+                 |===============|                                          
+                      Anatomy                                               
+                     C0005773                                               
+                          |============|                                    
+                            Procedure                                       
+                             C0007584                                       
+                 |=====================|                                    
+                        Procedure                                           
+                        C0005771                                            
+           |=====================|                                          
+                   Anatomy                                                  
+                  C0023516                                                  
+           |===========================|                                    
+                     Procedure                                              
+                     C0023508                                               
+
+SENTENCE:  425 , with a   normal  differential.
+                  IN  DT    JJ         JJ      
+                         |======|              
+                         Finding               
+                         C0231683              
+                         C0558145              
+
+SENTENCE:  Urinalysis was notable only for
+               NN     VBD   JJ     RB  IN 
+           |========|                     
+           Procedure                      
+            C0042014                      
+
+SENTENCE:  1+ protein  on the   dip   .
+                 NN    IN DT     NN    
+              |======|        |======| 
+                Drug          Disorder 
+              C0033684        C0238378 
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  During admission , the patient underwent a  left
+             IN      NN       DT    NN       VBD    DT  JJ 
+
+SENTENCE:  femoropopliteal  bypass    graft   and split thickness
+                 JJ           NN        NN    CC   VBN     NN    
+                           |=======| |======|                    
+                           Procedure Anatomy                     
+                           C0741847  C0332835                    
+           |=======================|                             
+                   Procedure                                     
+                   C0190932                                      
+                           |================|                    
+                               Procedure                         
+                                C0185098                         
+
+SENTENCE:    skin   grafting  to the right fifth   toe    amputation site , as well as
+              NN       NN     IN DT   JJ    JJ      NN        NN      NN    RB  RB  IN
+           |======| |=======|                    |======| |========|                  
+           Anatomy  Procedure                    Anatomy  Procedure                   
+           C1123023 C1961139                     C0040357  C0002688                   
+           |================|                    |=================|                  
+               Procedure                              Procedure                       
+                C0037297                              C0188602                        
+                                           |============|                             
+                                              Anatomy                                 
+                                              C1261103                                
+
+SENTENCE:  debridement of other lower extremity  wounds  on April .  He 
+               NN      IN  JJ    JJ      NN       NNS    IN  NNP     PRP
+           |=========|                |=======| |======|                
+            Procedure                  Anatomy  Disorder                
+            C0011079                  C0015385  C0043250                
+                                |=============|                         
+                                    Anatomy                             
+                                   C0023216                             
+
+SENTENCE:  tolerated the procedure well and postoperatively progressed without
+              VBD    DT     NN      RB  CC        RB           VBN       IN   
+                         |=======|                                            
+                         Procedure                                            
+                         C0184661                                             
+
+SENTENCE:  complications.
+                NNS      
+           |===========| 
+              Finding    
+             C0009566    
+
+SENTENCE:  He  was taken off epidural    pain   medications and
+           PRP VBD  VBN  IN     JJ        JJ        NNS      . 
+                             |=======| |======| |=========|    
+                              Anatomy  Finding     Drug        
+                             C0228134  C0030193  C0013227      
+                             |=======|                         
+                             Procedure                         
+                             C0812144                          
+
+SENTENCE:  switched to p.o. medications and resumed a  regular diet shortly
+             VBN    IN  FW      NNS     CC    VBD   DT   JJ     NN    RB   
+                            |=========|                |==========|        
+                               Drug                      Finding           
+                             C0013227                    C0184625          
+
+SENTENCE:  after the operation.
+            IN   DT     NN     
+
+SENTENCE:  The debrided  wounds  on the right   foot   were
+           DT    VBN      NNS    IN DT   JJ      NN     .  
+                        |======|              |======|     
+                        Disorder              Anatomy      
+                        C0043250              C0016504     
+                                        |============|     
+                                           Anatomy         
+                                           C0230460        
+
+SENTENCE:  treated with Xeroform dressings covered with Kerlix and an    Ace   
+             VBN    IN     NN       NNS      VBN    IN   NNP   CC  DT    NNP   
+                                                                      |=======|
+                                                                      Procedure
+                                                                      C0201888 
+
+SENTENCE:  bandage.
+             NN    
+
+SENTENCE:  These  wounds  have shown  signs   of vascularity and healing  ,
+            DT     NNS    VBP   VBN    NNS    IN     NN      CC     NN     
+                 |======|            |======|                    |======|  
+                 Disorder            Finding                     Finding   
+                 C0043250            C0311392                    C0043240  
+
+SENTENCE:  and the split thickness   skin    graft   has taken in a  satisfactory
+           CC  DT   JJ      NN        NN       NN    VBZ  VBN  IN DT      JJ     
+                                   |======| |======|                             
+                                   Anatomy  Anatomy                              
+                                   C1123023 C0332835                             
+                         |================|                                      
+                              Finding                                            
+                              C0423756                                           
+                                   |===============|                             
+                                       Procedure                                 
+                                       C0037297                                  
+                                   |===============|                             
+                                         Drug                                    
+                                       C0181078                                  
+                   |===============================|                             
+                               Procedure                                         
+                               C0439061                                          
+
+SENTENCE:  manner.
+             NN   
+
+SENTENCE:  The patient has begun to increase his  activity with the
+           DT    NN    VBZ  VBN  TO    VB    PRP$    NN     IN  CD 
+                                                  |======|         
+                                                  Finding          
+                                                  C0026606         
+
+SENTENCE:  guidance of the physical therapist , and is  now moving on crutches
+              NN    IN DT     JJ       NN       CC  VBZ RB   VBG   IN   NNS   
+
+SENTENCE:  with  touch   down  weight   bearing of the right   foot   and no  weight  
+            IN     NN     IN     NN       NN    IN DT   JJ      NN    CC  DT    NN    
+                |======|      |=======|                      |======|        |=======|
+                Finding       Procedure                      Anatomy         Procedure
+                C0702221      C1305866                       C0016504        C1305866 
+                              |===============|        |============|                 
+                                   Finding                Anatomy                     
+                                  C0085086                C0230460                    
+
+SENTENCE:  bearing on the right side.
+             VBG   IN DT   JJ    NN  
+
+SENTENCE:  There were no complications during this
+            EX   VBD  DT      NNS        IN   PRP$
+                         |===========|            
+                            Finding               
+                           C0009566               
+
+SENTENCE:  admission.
+              NN     
+
+SENTENCE:  The patient complained of some blurring in the right
+           DT    NN       VBD     IN  DT     NN    IN DT   JJ  
+                                          |======|             
+                                          Finding              
+                                          C0344232             
+
+SENTENCE:    eye   .
+              NN    
+           |======| 
+           Anatomy  
+           C0015392 
+
+SENTENCE:  This was followed by an Ophthalmology consult , during which
+            DT  VBD   VBN    IN DT      NN         NN        IN    WDT 
+
+SENTENCE:  it  was determined that there has  likely  been a  gradual decline in
+           PRP VBD    VBN      IN   EX   VBZ    RB    VBN  DT   JJ      NN    IN
+                                             |======|                           
+                                             Finding                            
+                                             C0332148                           
+
+SENTENCE:  the patient's  vision  due to a  combination of development of
+           DT    NN         NN    IN  IN DT     NN      IN     NN      IN
+                         |======|                                        
+                         Finding                                         
+                         C0042789                                        
+
+SENTENCE:  cataracts as well as peripheral vascular disease .
+              NNS    RB  RB  IN     JJ        JJ       NN    
+           |=======|                       |======| |======| 
+           Disorder                        Anatomy  Disorder 
+           C0086543                        C0005847 C0012634 
+                                           |===============| 
+                                               Disorder      
+                                               C0042373      
+                                |==========================| 
+                                          Disorder           
+                                          C0085096           
+
+SENTENCE:  It  was felt that
+           PRP VBD VBN  WDT 
+
+SENTENCE:  the appropriate management would be to have the patient return to
+           DT      JJ          NN      MD   VB TO  VB  DT    NN      VB   TO
+                           |========|                                       
+                            Finding                                         
+                            C1273870                                        
+
+SENTENCE:  Ophthalmology Clinic on an outpatient  basis  .
+                NN         NN   IN DT     NN        NN    
+                                                 |======| 
+                                                   Drug   
+                                                 C1874451 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Vasotec  5 milligrams p.o. q.d.;
+             NNP         NNS      FW  FW   
+           |======|                        
+             Drug                          
+           C0728763                        
+
+SENTENCE:  Glyburide
+              NN    
+           |=======|
+             Drug   
+           C0017628 
+
+SENTENCE:  5 milligrams p.o. q.d.;
+                NNS      FW  FW   
+
+SENTENCE:  Wellbutrin 75
+              NNP       
+           |========|   
+              Drug      
+            C0085934    
+
+SENTENCE:  milligrams p.o. q.d.; heparin  5 , 000 units subcutaneously b.i.d.;
+              NNS      FW  FW       NN             NNS        RB        FW    
+                                 |======|                                     
+                                   Drug                                       
+                                 C0019134                                     
+
+SENTENCE:  CZI sliding scale insulin  subcutaneously;
+           NN    VBG    NN      NN          RB       
+                             |======|                
+                               Drug                  
+                             C0021641                
+
+SENTENCE:   Ativan  1 milligram p .o .
+             NNP         NN     NN RP 
+           |======|                   
+             Drug                     
+           C0699194                   
+
+SENTENCE:  q.h.s. p.r.n. insomnia;
+             FW     FW      NN    
+                         |======| 
+                         Finding  
+                         C0917801 
+
+SENTENCE:  Betadine topical  ointment to surgical  wound  
+             NNP       JJ       NN    IN    JJ       NN   
+           |======| |======| |======|             |======|
+             Drug     Drug     Drug               Disorder
+           C0699524 C1710439 C0028912             C0043250
+                    |===============|    |===============|
+                          Drug               Disorder     
+                        C0991554             C0332803     
+
+SENTENCE:  site;
+            NN  
+
+SENTENCE:    MSIR   15-30 milligrams p.o. q .3-4h . p.r.n.   pain  ;
+             NNP             NNS      FW  FW   NNS    FW      NN    
+           |======|                                        |======| 
+             Drug                                          Finding  
+           C0700789                                        C0030193 
+
+SENTENCE:  Lanolin 
+             NNP   
+           |======|
+             Drug  
+           C0023024
+
+SENTENCE:  ointment to the   feet   q .d .
+              NN    IN DT     NN    RB NN 
+           |======|        |======|       
+             Drug          Anatomy        
+           C0028912        C0016504       
+
+SENTENCE:  CONDITION ON DISCHARGE:
+              NN     IN    NNP    
+           |=======|              
+           Disorder               
+           C0012634               
+
+SENTENCE:  Stable.
+             JJ   
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  To rehabilitation facility.
+           IN       NN          NN    
+              |============|          
+                Procedure             
+                 C0034991             
+
+SENTENCE:  FOLLOW-UP: 1 )
+             NN   NN     
+           |=======|     
+            Finding      
+           C0589120      
+
+SENTENCE:  The patient will follow-up with Eton Medical Center at
+           DT    NN     MD    VB   RP  IN  NNP    NNP    NNP   RB
+
+SENTENCE:  Aller Hospital in approximately one week;
+            NNP     NN    IN      RB       CD   NN  
+
+SENTENCE:  appointment as indicated in the discharge instructions in the
+               NN      IN    VBN    IN DT     NN         NNS      IN CD 
+
+SENTENCE:  Sidpro Hospital And Nursing  Home computer. 2 ) Follow-up in Tampa Rekcare Ta  Hospital in three weeks to start regular outpatient
+             NN      NN    CC     NN     NN     NN           NN   NN IN  NNP    NNP   NNP    NN    IN  CD    NNS  TO  VB     JJ        NN    
+                               |======|                    |=======|                                                                         
+                               Finding                      Finding                                                                          
+                               C0006147                    C0589120                                                                          
+
+SENTENCE:  medical management of the patient's medical issues.
+             JJ        NN     IN DT    NN        JJ     NNS   
+                   |========|                                 
+                    Finding                                   
+                    C1273870                                  
+
+SENTENCE:  3 )
+              
+
+SENTENCE:  Ophthalmology Clinic follow-up in three weeks to address the
+                NN         JJ     NN   NN IN  CD    NNS  TO   VB     . 
+                                |=======|                              
+                                 Finding                               
+                                C0589120                               
+
+SENTENCE:  blurring of the  vision  recently.
+              NN    IN DT     NN       RB    
+           |======|        |======|          
+           Finding         Finding           
+           C0344232        C0042789          
+
+SENTENCE:  ESTIMATED DISABILITY:
+              JJ         NN     
+                     |========| 
+                      Finding   
+                      C0231170  
+
+SENTENCE:  The patient is  disabled and has been
+           DT    NN    VBZ    JJ    CC  VBZ VBN 
+
+SENTENCE:  prior to admission.
+            JJ   IN    NN     
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  BARRETT KAMMERZELL ,  M . D .
+             NN        NN       NNP NNP 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  OMAR N.  CUEVA ,  M . D .
+            JJ  NNP  NNP    NNP NNP 
+
+SENTENCE:  BH39  JL933/4794
+            NN    NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  6685 Index No. L0SZ2I2Y1Z D : 4/1/97
+                 NNP  NN      NN     NN        
+
+SENTENCE:  T : 4/1/97
+           NN        
+

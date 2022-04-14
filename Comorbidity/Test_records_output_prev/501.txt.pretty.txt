@@ -1,0 +1,815 @@
+SENTENCE:  051266881 | OCH | 07692628 | | 0702605 | 9/15/2004 12:00:00 AM | atypical  chest     pain   | |   DIS    | Admission Date:
+                       NN                                              NN      JJ       NN       NN           NN         NN      NN  
+                                                                                     |======| |======|     |======|                  
+                                                                                     Anatomy  Finding      Disorder                  
+                                                                                     C0817096 C0030193     C0012634                  
+                                                                                                           C1970187                  
+                                                                                     |===============|     |======|                  
+                                                                                          Finding          Finding                   
+                                                                                         C0008031          C1444662                  
+                                                                            |========================|                               
+                                                                                     Finding                                         
+                                                                                     C0262384                                        
+
+SENTENCE:  8/13/2004 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  4/8/2004
+                   
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  ORPEN , SCOTTY P.  280-83-07-9
+            NN       NN   NNP            
+
+SENTENCE:  Phh Nacall Franbirm , KS 
+           NN    NN      NN      NNP
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  5/11/04 AT 08:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON   Rib      film   completion
+               NN      IN    NNP       NN        NN    
+                           |======| |======|           
+                           Anatomy    Drug             
+                           C0035561 C1704608           
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  WASER , EMMETT ,  M . D .
+            NN       NN     NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home w / services
+            NN  IN    NNS   
+                    |======|
+                    Finding 
+                    C0557854
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  FAMOTIDINE 20 MG PO BID
+               NN        NN NN RB 
+           |========|             
+              Drug                
+            C0015620              
+
+SENTENCE:   LASIX   ( FUROSEMIDE ) 80 MG PO QD
+             NNP          NN          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0699992    C0016860               
+
+SENTENCE:  Starting at 2:00 pm September
+              NN    IN      NN    NNP   
+
+SENTENCE:   MOTRIN  ( IBUPROFEN ) 300 MG PO Q6H
+              NN         NNP          NN JJ NN 
+           |======|   |=======|                
+             Drug       Drug                   
+           C0699203   C0020740                 
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:   syrup   form 100mg/5ml
+              NN     NN   NNS  NNS
+           |======|               
+             Drug                 
+           C0991550               
+
+SENTENCE:  Food/  Drug   Interaction Instruction Take with food
+           NNP    NNP        NN          NN       VB   IN   NN 
+                |======| |=========|                           
+                  Drug     Finding                             
+                C0013227  C0687133                             
+
+SENTENCE:   ZOCOR   ( SIMVASTATIN ) 20 MG PO QHS
+             NNP          NNP          NN JJ NN 
+           |======|   |=========|               
+             Drug        Drug                   
+           C0678181    C0074554                 
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Avoid grapefruit unless MD instructs otherwise.
+            VB       NN       IN   NN    VBZ       RB     
+                 |========|                               
+                    Drug                                  
+                  C0440280                                
+
+SENTENCE:   MAALOX -TABLETS  QUICK DISSOLVE/CHEWABLE 1-2   TAB    PO Q6H
+              NN      NNS     NN      VB       NN           NN    JJ NN 
+           |======| |======|                             |======|       
+             Drug     Drug                                 Drug         
+           C0065461 C0039225                             C0039225       
+
+SENTENCE:  PRN  Upset   Stomach 
+           RB     NN       NN   
+               |======| |======|
+               Finding  Disorder
+               C3887804 C0038354
+                        |======|
+                        Anatomy 
+                        C1278920
+                        C3714551
+               |===============|
+                    Finding     
+                   C0235309     
+
+SENTENCE:  ECASA ( ASPIRIN  ENTERIC COATED ) 325 MG PO QD
+            NN        NN      JJ     VBN         NN FW FW
+                   |======|                              
+                     Drug                                
+                   C0004057                              
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET: 2 gram  Sodium 
+            NN      NN     NN   
+                        |======|
+                          Drug  
+                        C0037473
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Resume regular exercise
+             VB     JJ       NN   
+                          |======|
+                          Finding 
+                          C0015259
+                  |==============|
+                      Finding     
+                      C0582191    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Dr. Jericho , one week , pt to call for appointment ,
+           NNP   NNP     CD   NN    NN TO  VB  IN      NN       
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  PROPOXYPHENE NAPSYL
+                NN        NN  
+           |==========|       
+               Drug           
+             C0033493         
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:   chest     pain  
+              NN       NN   
+           |======| |======|
+           Anatomy  Finding 
+           C0817096 C0030193
+           |===============|
+                Finding     
+               C0008031     
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  atypical  chest     pain  
+              JJ       NN       NN   
+                    |======| |======|
+                    Anatomy  Finding 
+                    C0817096 C0030193
+                    |===============|
+                         Finding     
+                        C0008031     
+           |========================|
+                    Finding          
+                    C0262384         
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    PVD    s /p  surgery s /p  MI 1984   CHF    ( congestive  heart  
+              NN    NN IN   NN    NN IN NN         NN          JJ        NN   
+           |======|                             |======|              |======|
+           Disorder                             Disorder              Anatomy 
+           C0085096                             C0018802              C0018787
+
+SENTENCE:  failure ) atypical  chest     pain   ( atypical  chest     pain   ) s /p  brainstem
+             NN         JJ       NN       NN         JJ       NN       NN      NN IN    NN    
+                              |======| |======|            |======| |======|         |=======|
+                              Anatomy  Finding             Anatomy  Finding           Anatomy 
+                              C0817096 C0030193            C0817096 C0030193         C0006121 
+                              |===============|            |===============|                  
+                                   Finding                      Finding                       
+                                  C0008031                     C0008031                       
+                     |========================|   |========================|                  
+                              Finding                      Finding                            
+                              C0262384                     C0262384                           
+
+SENTENCE:    CVA    congenital R  hemiparesis supraglottic laryngeal   SCC    s /p 
+             NNP        JJ     JJ     NN           JJ         JJ        NN    NN RB
+           |======|               |=========| |==========| |=======| |======|      
+           Disorder                 Finding     Anatomy     Anatomy  Anatomy       
+           C0038454                C0018989     C0442192   C0023078  C0152319      
+
+SENTENCE:  XRT chronic RLE circumf > LLE ( ) esophageal stricture s /p    lye   
+           NN    JJ    NN    NN      NN          JJ        NN     NN IN    NN   
+                                             |========| |=======|       |======|
+                                              Disorder   Finding          Drug  
+                                              C0014852  C1261287        C0024192
+                                             |==================|               
+                                                   Disorder                     
+                                                   C0014866                     
+
+SENTENCE:  ingestion OA ( osteoarthritis ) s /p  bilateral rotator cuff
+              NN     NN         NN         NN IN    JJ       NN     NN 
+                          |============|                   |==========|
+                             Disorder                        Anatomy   
+                             C0029408                        C0085515  
+
+SENTENCE:   repair   recurrent   UTI    ( urinary tract infection )  anemia  of chronic
+              NN        JJ        NN        JJ     NN      NN          NN    IN   JJ   
+           |=======|           |======|   |===========| |=======|   |======|           
+           Procedure           Disorder      Anatomy    Disorder    Disorder           
+           C0374711            C0042029     C1508753    C0009450    C0002871           
+                     |================|   |=====================|                      
+                          Disorder               Disorder                              
+                          C0262655               C0042029                              
+
+SENTENCE:  disease  (  anemia  ) persistent thrombocytosis diet-controlled DM current
+              NN         NN          JJ           NN        NN     VBN     NN   JJ   
+           |======|   |======|   |========| |============|                           
+           Disorder   Disorder    Disorder     Disorder                              
+           C0012634   C0002871    C0332996     C0836924                              
+
+SENTENCE:   smoker 
+              NN   
+           |======|
+           Finding 
+           C0337664
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  CC:
+           NN 
+
+SENTENCE:  L -sided CP
+           JJ  JJ   NN
+
+SENTENCE:    HPI   :
+              NN    
+           |======| 
+           Disorder 
+           C0268529 
+
+SENTENCE:  76yoF   PMH    MI ( 1984 ) ,   PVD    ,   CVA    ,   DVT    , supraglottic laryngeal   SCC   
+            LS      NN    NN               NN         NN         NN           JJ         JJ        NN   
+                 |======|               |======|   |======|   |======|   |==========| |=======| |======|
+                 Finding                Disorder   Disorder   Disorder     Anatomy     Anatomy  Anatomy 
+                 C0262926               C0085096   C0038454   C0149871     C0442192   C0023078  C0152319
+
+SENTENCE:  s /p  XRT ( 2002 ) , who presents from home c /o  "stabbing pins"
+           NN IN NN             WP    VBZ     IN   NN  NN IN    VBG    NNS  
+
+SENTENCE:  CP 
+           NNP
+
+SENTENCE:  that awoke her from  sleep   at 6 am.
+           WDT   VBD  PRP  IN     NN    IN   NN 
+                               |======|         
+                               Finding          
+                               C0037313         
+
+SENTENCE:  The   pain  
+           DT     NN   
+               |======|
+               Finding 
+               C0030193
+
+SENTENCE:  initially started next to the L   breast  in the
+              RB       VBN    JJ  IN DT  JJ    NN    IN CD 
+                                            |======|       
+                                            Anatomy        
+                                            C0006141       
+
+SENTENCE:  midaxillary line , then radiated to  breast  , sternum  ,   neck   ,
+               JJ       NN     RB    VBN    IN    NN         NN         NN     
+                                               |======|   |======|   |======|  
+                                               Anatomy    Anatomy    Anatomy   
+                                               C0006141   C0038293   C0027530  
+
+SENTENCE:  and back around to L  midaxillary line.
+           CC   NN    IN   IN JJ     JJ       NN  
+
+SENTENCE:  After 30 min
+            IN      NNS
+
+SENTENCE:  of   pain   , pt called covering   PCP    & was told to come
+           IN    NN      NN  VBN     VBG       NN      VBD VBN  IN  NN 
+              |======|                      |======|                   
+              Finding                         Drug                     
+              C0030193                      C0031381                   
+
+SENTENCE:  to ED.
+           IN NN 
+
+SENTENCE:  The "stabbing" has faded to a  "soreness"
+           DT      NN     VBZ  VBN  IN DT     NN    
+                                           |======| 
+                                           Finding  
+                                           C0234233 
+
+SENTENCE:  that is  replicated with palpation.
+           WDT  VBZ    VBN      IN     NN     
+                                    |=======| 
+                                    Procedure 
+                                    C0030247  
+
+SENTENCE:  The   pain   is 
+           DT     NN    VBZ
+               |======|    
+               Finding     
+               C0030193    
+
+SENTENCE:   worse   with mov't  & inspiration;
+             JJR     IN  NN  NN       NN      
+           |======|               |=========| 
+           Finding                  Finding   
+           C1457868                C0004048   
+
+SENTENCE:  not  assoc   with
+           RB     JJ     IN 
+               |======|     
+               Finding      
+               C0004083     
+
+SENTENCE:  n /v  , diaphoresis ,   SOB   .
+           RB JJ       NN           NN    
+                   |=========|   |======| 
+                     Finding     Finding  
+                    C0700590     C0013404 
+
+SENTENCE:  Basline  cough   has not
+             NN       NN    VBZ RB 
+                   |======|        
+                   Finding         
+                   C0010200        
+
+SENTENCE:  worsened;
+             VBD    
+
+SENTENCE:  green looser stools  x  3 wks;
+            JJ     JJ    NNS   SYM   NNS 
+
+SENTENCE:  denies dysuria .
+            VBZ      NN    
+                  |======| 
+                  Finding  
+                  C0013428 
+
+SENTENCE:  Has perhaps felt more  tired   with walking  in recent
+           VBZ   RB    VBN  RBR     JJ     IN     NN    IN   JJ  
+                                 |======|      |======|          
+                                 Finding       Finding           
+                                 C0557875      C0080331          
+
+SENTENCE:  weeks.
+            NNS  
+
+SENTENCE:  Of note , 1984 MI p /w  "squeezing"
+           IN  NN         NN IN IN     NN     
+
+SENTENCE:  sensation distinct from this
+              NN        JJ     IN  PRP$
+           |=======|                   
+            Finding                    
+           C0036658                    
+
+SENTENCE:    pain  ;
+              NN    
+           |======| 
+           Finding  
+           C0030193 
+
+SENTENCE:    adm    5/20/01 with similar complaints &   labs  ;
+              NN             IN    JJ       NNS         NNS    
+           |======|                      |========|   |======| 
+             Drug                         Finding     Finding  
+           C0013089                       C0277786    C0587081 
+
+SENTENCE:  ETT &
+           NN   
+
+SENTENCE:  echo non-ischemic.
+            NN       JJ      
+
+SENTENCE:  In ED , T  97.9;
+           IN NN   NN      
+
+SENTENCE:  HR 71;
+           NN    
+
+SENTENCE:  BP 126/60;
+           NN        
+
+SENTENCE:  RR 20; 99% on RA.
+           NN         IN NN 
+
+SENTENCE:  Reg S1 S2 distant ,  chest  
+           JJ  NN NN   JJ         NN   
+                               |======|
+                               Anatomy 
+                               C0817096
+
+SENTENCE:  diffusely tender to palp , fine  rales   1/2 up bilat ,   abd   
+              RB       JJ   IN  NN     JJ    NNS        NN  JJ        NN   
+                                           |======|                |======|
+                                           Finding                 Anatomy 
+                                           C0034642                C0000726
+
+SENTENCE:  soft , RLE circumf > LLE ( baseline ) , s /p    amp    of L 
+            JJ    NN    NN      NN       NN        NN IN    NN    IN JJ
+                                                         |======|      
+                                                           Drug        
+                                                         C0001465      
+
+SENTENCE:  3rd  finger  , R  1st   toe   .
+           JJ     NN      JJ JJ     NN    
+               |======|          |======| 
+               Anatomy           Anatomy  
+               C0016129          C0040357 
+
+SENTENCE:  A  set enzymes  neg;
+           DT NN    NNS    JJ  
+                  |======|     
+                    Drug       
+                  C0014442     
+
+SENTENCE:    WBC    6 ,
+             NNP       
+           |======|    
+           Anatomy     
+           C0023516    
+
+SENTENCE:     HCT    38.9 ,  DDimer  951.
+              NN               NN        
+           |=======|        |======|     
+           Procedure          Drug       
+           C0018935         C0060323     
+
+SENTENCE:     EKG   :
+              NN     
+           |=======| 
+           Procedure 
+           C1623258  
+
+SENTENCE:  NSR @ 65 , nl   axis   , TWI
+           NN         JJ    NN      RB 
+                         |======|      
+                         Anatomy       
+                         C0004457      
+
+SENTENCE:   I  , L  , V1-4.
+           PRP   JJ   NN   
+
+SENTENCE:  NEXT    EKG   :
+            NN     NN     
+                |=======| 
+                Procedure 
+                C1623258  
+
+SENTENCE:  NSR @ 61 with 1 deg AVB.
+           NN        IN    NN  NN  
+
+SENTENCE:  ( Both these patterns seen on old EKGs ).    CXR    clear.
+              CC   DT     NNS    VBN  IN JJ   NN        NN      JJ   
+                                                     |=======|       
+                                                     Procedure       
+                                                     C0039985        
+
+SENTENCE:  Given   ASA    , NTG ( partial  relief  , but dropped BP ) ,
+            VBN     NN      NN      JJ       NN      CC    VBD   NN    
+                 |======|                 |======|                     
+                   Drug                   Finding                      
+                 C0004057                 C0564405                     
+
+SENTENCE:  heparin  bolus & cont
+              NN     NN      NN 
+           |======|             
+             Drug               
+           C0019134             
+
+SENTENCE:  infusion .
+              NN     
+           |=======| 
+           Procedure 
+           C0574032  
+
+SENTENCE:  *************   PLAN   *************************
+                            NN                             
+                         |======|                          
+                         Disorder                          
+                         C0270724                          
+
+SENTENCE:    IMP   -- L  CP  seems MSK , ?   rib    fractures ,   rib    films preliminary read without
+              NN     NNP NNP  VBZ  NN         NN       NNS         NN     NNS      JJ      VBN    IN   
+           |======|                        |======| |=======|   |======|                               
+             Drug                          Anatomy  Disorder    Anatomy                                
+           C0021533                        C0035561 C0016658    C0035561                               
+                                           |================|                                          
+                                                Disorder                                               
+                                                C0035522                                               
+                                                    |==================|                               
+                                                          Disorder                                     
+                                                          C0035522                                     
+
+SENTENCE:  fracture but does have some loss of height of vertebral bodies
+              NN    CC  VBZ   VB   DT   NN  IN   NN   IN    JJ      NNS  
+           |======|                    |============|    |=======|       
+           Disorder                       Finding         Anatomy        
+           C0016658                       C0424641       C0549207        
+
+SENTENCE:  suggestive of compression fractures.
+               JJ     IN     NN         NNS    
+                         |=========| |=======| 
+                          Procedure  Disorder  
+                          C0565514   C0016658  
+                         |===================| 
+                                Finding        
+                               C0521169        
+
+SENTENCE:  She was treated with  motrin  for
+           PRP VBD   VBN    IN     NN    IN 
+                                |======|    
+                                  Drug      
+                                C0699203    
+
+SENTENCE:  muscular   pain  .
+              JJ       NN    
+           |======| |======| 
+           Anatomy  Finding  
+           C0026845 C0030193 
+           |===============| 
+                Finding      
+               C0231528      
+
+SENTENCE:  CV--ISCH--h /o  MI; cont
+           NN   NN   NN IN NN   NN 
+
+SENTENCE:    ASA    ,  statin  , r /o 'd
+              NN         NN      VB RP  
+           |======|   |======|          
+             Drug       Drug            
+           C0004057   C0360714          
+
+SENTENCE:  MI.
+           NN 
+
+SENTENCE:  Not previously on BB  , ACEI.
+           RB      RB     IN NNP   NNP  
+
+SENTENCE:  PUMP--? some   CHF   .
+            NN      DT     NN    
+                        |======| 
+                        Disorder 
+                        C0018802 
+
+SENTENCE:   I /O ;
+           PRP RP 
+
+SENTENCE:   Lasix   80 QD.
+             NNP       FW 
+           |======|       
+             Drug         
+           C0699992       
+
+SENTENCE:  RHYTHM--transient 1 deg AVB;
+             NN       NN       NN  NN  
+
+SENTENCE:  tele.
+            NN  
+
+SENTENCE:    PAIN  --cont  Motrin  for chronic  throat    pain   , OA ,
+              NN      NN    NNP    IN    JJ       NN       NN      NN  
+           |======|       |======|             |======| |======|       
+           Finding          Drug               Anatomy  Finding        
+           C0030193       C0699203             C0031354 C0030193       
+                                               |===============|       
+                                                    Finding            
+                                                   C0242429            
+
+SENTENCE:  L   chest  
+           JJ    NN   
+              |======|
+              Anatomy 
+              C0817096
+
+SENTENCE:    pain  .
+              NN    
+           |======| 
+           Finding  
+           C0030193 
+
+SENTENCE:  GI--cont famotidine ,
+           NN   NN      NN      
+                    |========|  
+                       Drug     
+                     C0015620   
+
+SENTENCE:   Colace .
+             NNP    
+           |======| 
+             Drug   
+           C0282139 
+
+SENTENCE:  PULM--low suspicion for PE; has a  history  of an elevated d 
+            NN   JJ     NN     IN  NN  VBZ DT    NN    IN DT   VBN    NN
+                     |=======|                |======|                  
+                      Finding                 Finding                   
+                     C0242114                 C0262926                  
+
+SENTENCE:  dimer in past.
+            NN   IN  NN  
+
+SENTENCE:  no furtehr workup at this time;
+           DT   JJ      NN   IN  DT   NN  
+
+SENTENCE:  no anticoagulation for
+           DT       NN        IN 
+
+SENTENCE:  now.
+           RB  
+
+SENTENCE:  Pt rule dout for MI whil in house.
+           NN VBP   NN  IN  NN  IN  IN  NN   
+
+SENTENCE:  Her    pain   was thought to be
+           PRP$    NN    VBD   VBN   TO VB
+                |======|                  
+                Finding                   
+                C0030193                  
+
+SENTENCE:  musculoskeletal in origin and was treated with  NSAIDS .
+                 JJ        IN   NN   CC  VBD   VBN    IN    NNP    
+                                                          |======| 
+                                                            Drug   
+                                                          C0003211 
+
+SENTENCE:  She will need to
+           PRP  MD   VB  TO
+
+SENTENCE:  follow up with Dr. Maccutcheon as an outpt.
+             VB   RP  IN  NNP     NNP     IN DT  NN   
+
+SENTENCE:  Her    rib      film   final   read   was
+           PRP$    NN       NN     JJ      NN    VBD
+                |======| |======|       |======|    
+                Anatomy    Drug         Finding     
+                C0035561 C1704608       C0034754    
+
+SENTENCE:  pedning at the time of discharge and will need to be followed up on.
+             NN    IN DT   NN  IN    NN     CC   MD   VB  TO VB   VBN    RP IN 
+
+SENTENCE:  ADDITIONAL COMMENTS: 1. Please follow up with Dr. Haddow within 1 week of dsicharge
+               JJ       NNS          UH     VB   RP  IN  NNP  NNP     IN      NN  IN    NN    
+
+SENTENCE:  2. Please continue to take all of your medications as directed
+                UH      VB    TO  VB  DT  IN PRP$     NNS     IN   VBN   
+                                                  |=========|            
+                                                     Drug                
+                                                   C0013227              
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Satisfactory
+                JJ     
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  1. Follow up with Dr. Hogy
+                NN   RP  IN  NNP NNP 
+              |=======|              
+               Finding               
+              C0589120               
+
+SENTENCE:  2. Follow up on final   read   of   rib    films
+                NN   NN IN  JJ      NN    IN    NN     NNS 
+              |=======|          |======|    |======|      
+               Finding           Finding     Anatomy       
+              C0589120           C0034754    C0035561      
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  BOLTER , CHARLIE IRVING , M.D. ( PQ48 ) 5/11/04 @ 07:
+             NN       NN      NN     NNP    NNP                 
+
+SENTENCE:  09 PM
+              NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

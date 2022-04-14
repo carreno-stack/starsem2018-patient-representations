@@ -1,0 +1,964 @@
+SENTENCE:  455152841 | WH | 25569234 | | 688762 | 11/20/1993 12:00:00 AM | Discharge Summary | Signed |   DIS    | Admission Date:
+                       NN                                             NN      NN       NN       VBN        NN         NN      NN  
+                                                                                                        |======|                  
+                                                                                                        Finding                   
+                                                                                                        C1444662                  
+                                                                                                        |======|                  
+                                                                                                        Disorder                  
+                                                                                                        C0012634                  
+                                                                                                        C1970187                  
+
+SENTENCE:  8/9/1993 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  2/19/1993
+                    
+
+SENTENCE:  DISCHARGE DIAGNOSIS: 1 ) PAROXYSMAL  ATRIAL  FIBRILLATION.
+              NNP       NN              NN        JJ         NN      
+                     |=======|                 |======| |==========| 
+                      Finding                  Anatomy    Disorder   
+                     C0011900                  C0018792   C0232197   
+                                               |===================| 
+                                                     Disorder        
+                                                     C0004238        
+                                    |==============================| 
+                                                Disorder             
+                                                C0235480             
+
+SENTENCE:  2 ) DIABETES MELLITUS.
+                  NN       NN    
+               |======|          
+               Disorder          
+               C0011849          
+
+SENTENCE:  3 ) HYPERTENSION.
+                    NN      
+               |==========| 
+                 Disorder   
+                 C0020538   
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  This is  a  72 year old female with a 
+            DT  VBZ DT     NN  JJ    NN    IN  CD
+
+SENTENCE:  history  of paroxysmal  atrial 
+              NN    IN     JJ        JJ   
+           |======|               |======|
+           Finding                Anatomy 
+           C0262926               C0018792
+
+SENTENCE:  fibrillation who has been intolerant of Quinidine and Procainamide
+                NN      WP  VBZ VBN      JJ     IN    NNP    CC      NNP     
+           |==========|                            |=======|     |==========|
+             Disorder                                Drug            Drug    
+             C0232197                              C0034414        C0033216  
+
+SENTENCE:  and is  admitted for initiation of Disopyramide and Digoxin 
+           CC  VBZ   VBN    IN      NN     IN      NN      CC    NNP   
+                                |========|    |==========|     |======|
+                                 Finding          Drug           Drug  
+                                 C0589507       C0012702       C0012265
+
+SENTENCE:  treatment.
+              NN     
+           |=======| 
+           Procedure 
+           C0087111  
+
+SENTENCE:  Patient has a  history  of Insulin  dependent diabetes
+             NN    VBZ DT    NN    IN    NN       JJ        NN   
+                          |======|    |======|           |======|
+                          Finding       Drug             Disorder
+                          C0262926    C0021641           C0011849
+                                      |=========================|
+                                               Disorder          
+                                               C0011854          
+
+SENTENCE:  mellitus , hypertension , and many years of paroxysmal  atrial 
+              NN           NN        CC   JJ   NNS  IN     JJ        JJ   
+                      |==========|                                |======|
+                        Disorder                                  Anatomy 
+                        C0020538                                  C0018792
+
+SENTENCE:  fibrillation/flutter.
+                NN        NN    
+           |==========|         
+             Disorder           
+             C0232197           
+
+SENTENCE:  In September 1992 , the patient began having
+           IN    NNP           DT    NN     VBD   VBG  
+
+SENTENCE:  prolonged , that is  up to thirty to sixty minute , sensations of
+              VBN      WDT  VBZ IN IN   NN   IN  CD     NN        NNS     IN
+                                                               |========|   
+                                                                Finding     
+                                                                C0036658    
+
+SENTENCE:   chest   pounding without  chest     pain   , shortness of breath , or light
+              NN       NN      IN       NN       NN         NN     IN   NN     CC  NN  
+           |======|                  |======| |======|   |=================|           
+           Anatomy                   Anatomy  Finding          Finding                 
+           C0817096                  C0817096 C0030193        C0013404                 
+                                     |===============|                                 
+                                          Finding                                      
+                                         C0008031                                      
+
+SENTENCE:  headedness.
+               NN     
+
+SENTENCE:  A  Holter showed  atrial  premature beats , ventricular
+           DT  NNP    VBD      JJ       JJ      NNS        JJ     
+                            |======| |=======|         |=========|
+                            Anatomy   Finding            Anatomy  
+                            C0018792 C0151526           C0018827  
+                                     |=============|              
+                                         Finding                  
+                                        C0340464                  
+                            |======================|              
+                                    Disorder                      
+                                    C0033036                      
+
+SENTENCE:  premature beats , and supraventricular tachycardia.
+              JJ      NNS    CC         JJ            NN      
+           |=======|                              |=========| 
+            Finding                                 Finding   
+           C0151526                                C0039231   
+           |=============|       |==========================| 
+               Finding                     Disorder           
+              C0340464                     C0039240           
+
+SENTENCE:  She began
+           PRP  VBD 
+
+SENTENCE:  having daily sensations and saw her   primary  physician , Dr .
+            VBG    RB      NNS     CC  VBD PRP$    JJ        NN       NNP 
+                        |========|              |=======|                 
+                         Finding                Procedure                 
+                         C0036658               C0439631                  
+
+SENTENCE:  Bleck , who performed an    EKG    which showed  atrial  flutter with an
+            NN     WP     VBD    DT    NN      WDT   VBD      JJ      NN     IN  NN
+                                    |=======|              |======|                
+                                    Procedure              Anatomy                 
+                                    C1623258               C0018792                
+                                                           |==============|        
+                                                               Finding             
+                                                               C0004239            
+
+SENTENCE:   atrial  rate of 300 and ventricular rate of approximately 85.
+              JJ     NN  IN     CC      JJ       NN  IN      RB          
+           |======|                 |=========|                          
+           Anatomy                    Anatomy                            
+           C0018792                  C0018827                            
+
+SENTENCE:  She
+           PRP
+
+SENTENCE:  had been treated on Diltiazem which was changed to Verapamil with
+           VBD VBN    VBN   IN    NNP     WDT  VBD   VBN   IN    NNP     CD 
+                               |=======|                      |=======|     
+                                 Drug                           Drug        
+                               C0012373                       C0042523      
+
+SENTENCE:  discontinuation of her  palpitations.
+                 NN        IN PRP$     NNS      
+           |=============|         |==========| 
+               Finding               Finding    
+              C1444662               C0030252   
+
+SENTENCE:  On 11/12/92 , she had an echo
+           IN            PRP VBD DT  NN 
+
+SENTENCE:  which showed an ejection fraction of 67% , left  atrium  of 4 cm  , and
+            WDT   VBD   DT    NN       NN    IN        JJ     NN    IN   NNS   CC 
+                           |======|                        |======|               
+                           Finding                         Anatomy                
+                           C0336969                        C0018792               
+                                                      |===========|               
+                                                         Anatomy                  
+                                                        C0225860                  
+
+SENTENCE:   normal  left ventricular size and thickness.
+              JJ     JJ      JJ       NN  CC     NN     
+           |======|      |=========|                    
+           Finding         Anatomy                      
+           C0231683       C0018827                      
+           C0558145                                     
+
+SENTENCE:  The sensation of
+           DT     NN     IN
+               |=======|   
+                Finding    
+               C0036658    
+
+SENTENCE:  palpitations resumed , however , and she was admitted to Lee's County Hospital on April , 1993 to begin Quinidine treatment.
+               NNS        VBN       RB      CC  PRP VBD   VBN    IN NNP    NNP      NN    IN  NNP         IN  VB      NNP       NN     
+           |==========|                                                                                            |=======| |=======| 
+             Finding                                                                                                 Drug    Procedure 
+             C0030252                                                                                              C0034414  C0087111  
+
+SENTENCE:  She started Quinidine without complications , however ,
+           PRP   VBD      NNP      IN         NNS          RB     
+                       |=======|         |===========|            
+                         Drug               Finding               
+                       C0034414            C0009566               
+
+SENTENCE:  post-discharge , developed headache , diarrhea ,  nausea  , and  fever   to
+                 NN            VBN       NN         NN         NN      CC     NN    TO
+                                      |======|   |======|   |======|       |======|   
+                                      Finding    Finding    Finding        Finding    
+                                      C0018681   C0011991   C0027497       C0015967   
+
+SENTENCE:  102 on February , 1993.
+               IN   NNP           
+
+SENTENCE:  Therefore , she was readmitted on August , 1993 for Procainamide load and was discharged on a  dose of 500
+              RB       PRP VBD    VBN     IN  NNP          IN       NN       NN  CC  VBD    VBN     IN DT  NN  IN    
+                                                               |==========|                                          
+                                                                   Drug                                              
+                                                                 C0033216                                            
+
+SENTENCE:  mg  p.o. q .6h .
+           NNS  FW  FW  NN 
+
+SENTENCE:  However , ten days after that , she developed
+             RB      CD  NNS   IN   WDT    PRP    VBD   
+
+SENTENCE:  arthralgias in her  left and right shoulders and right  elbow   and
+               NNS     IN PRP$  JJ  CC   JJ      NNS    CC   JJ      NN     . 
+           |=========|                        |=======|           |======|    
+             Finding                           Anatomy            Anatomy     
+            C0003862                          C0037004            C0013769    
+                                                            |============|    
+                                                               Anatomy        
+                                                               C0230353       
+
+SENTENCE:   wrist  .
+              NN    
+           |======| 
+           Anatomy  
+           C0043262 
+
+SENTENCE:  Procainamide was discontinued one week prior to this
+                NN      VBD     VBN      CD   NN   JJ   IN PRP$
+           |==========|                                        
+               Drug                                            
+             C0033216                                          
+
+SENTENCE:  admission.
+              NN     
+
+SENTENCE:  She denies any   rash   , pleuritic  chest     pain   ,  nausea  ,
+           PRP  VBZ   DT     NN         JJ        NN       NN         NN     
+                          |======|             |======| |======|   |======|  
+                          Finding              Anatomy  Finding    Finding   
+                          C0015230             C0817096 C0030193   C0027497  
+                                               |===============|             
+                                                    Finding                  
+                                                   C0008031                  
+                                     |=========================|             
+                                               Finding                       
+                                              C0008033                       
+
+SENTENCE:  vomiting , diarrhea , constipation ,  fever   , dysuria  , orthopnea ,
+              NN         NN           NN           NN         NN         NN      
+           |======|   |======|   |==========|   |======|   |======|   |=======|  
+           Finding    Finding      Finding      Finding    Finding     Finding   
+           C0042963   C0011991     C0009806     C0015967   C0013428   C0085619   
+
+SENTENCE:  peripheral  edema   , claudication , or shortness of breath.
+               JJ        NN           NN        CC    NN     IN   NN   
+                      |======|   |==========|      |=================| 
+                      Finding      Disorder              Finding       
+                      C0013604     C1456822             C0013404       
+           |=================|                                         
+                 Finding                                               
+                C0085649                                               
+
+SENTENCE:  She is  now
+           PRP VBZ RB 
+
+SENTENCE:  admitted for Disopyramide and Digoxin  initiation and  therapy .
+             VBN    IN       NN      CC    NNP        NN     CC     NN     
+                        |==========|     |======| |========|     |=======| 
+                            Drug           Drug    Finding       Procedure 
+                          C0012702       C0012265  C0589507      C0087111  
+
+SENTENCE:  PAST
+            JJ 
+
+SENTENCE:  MEDICAL HISTORY : 1 ) History  of deep  venous  thromboses treated
+             JJ       NN            NN    IN  JJ     JJ       NNS       VBN  
+                   |======|      |======|         |======| |========|        
+                   Finding       Finding          Anatomy   Finding          
+                   C0262926      C0262926         C0042449  C0040053         
+                                                  |=================|        
+                                                        Finding              
+                                                       C0042487              
+                                             |======================|        
+                                                     Disorder                
+                                                     C0149871                
+
+SENTENCE:  with Heparin  and Coumadin.
+            IN    NNP    CC    NNP    
+                |======|     |======| 
+                  Drug         Drug   
+                C0019134     C0699129 
+
+SENTENCE:  The last episode was twelve years ago.
+           DT   JJ    NN    VBD   CD    NNS  RB  
+
+SENTENCE:  2 ) History  of motor vehicle  accident in 1975.
+                  NN    IN  NN      NN       NN    IN      
+               |======|          |======|                  
+               Finding             Drug                    
+               C0262926          C0042444                  
+
+SENTENCE:  3 ) History  of
+                  NN    IN
+               |======|   
+               Finding    
+               C0262926   
+
+SENTENCE:  exploratory laparotomy at age fourteen secondary to "incarcerated
+               JJ          NN     IN NN     CD       JJ     IN       JJ     
+                       |========|                               |==========|
+                       Procedure                                  Finding   
+                        C0023038                                  C0392751  
+           |====================|                                           
+                 Procedure                                                  
+                  C0085704                                                  
+
+SENTENCE:   colon  "
+              NN    
+           |======| 
+           Anatomy  
+           C0009368 
+
+SENTENCE:  secondary to  trauma .
+              JJ     IN    NN    
+                        |======| 
+                        Disorder 
+                        C3714660 
+
+SENTENCE:  4 ) Status post appendectomy.
+                 NN    IN       NN      
+                           |==========| 
+                            Procedure   
+                             C0003611   
+
+SENTENCE:  5 )
+              
+
+SENTENCE:  Diabetes times twenty years , Insulin  dependent times three years.
+              NN     NNS    CD    NNS       NN       JJ      IN    CD    NNS  
+           |======|                      |======|                             
+           Disorder                        Drug                               
+           C0011849                      C0021641                             
+
+SENTENCE:  6 ) Hypertension.
+                    NN      
+               |==========| 
+                 Disorder   
+                 C0020538   
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  No known   drug   allergies.
+           DT  JJ      NN       NNS    
+                    |======| |=======| 
+                      Drug    Finding  
+                    C0013227 C0020517  
+                    |================| 
+                         Disorder      
+                         C0013182      
+
+SENTENCE:  CURRENT
+             JJ   
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  Insulin  Humulin  70/30 48 units subcutaneously q .a .m .
+              NN       NN              NNS        RB       RB DT NN 
+           |======| |======|                                        
+             Drug     Drug                                          
+           C0021641 C3538423                                        
+
+SENTENCE:  and 22 units subcutaneously q.p.m. , Verapamil SR  240 mg  p.o. q.d. ,
+           CC      NNS        RB         RB        NNP    NNP     NNS  FW   FW   
+                                                |=======|                        
+                                                  Drug                           
+                                                C0042523                         
+
+SENTENCE:  and Procainamide discontinued one week ago.
+           CC      NNP          VBN      CD   NN  RB  
+               |==========|                           
+                   Drug                               
+                 C0033216                             
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  She
+           PRP
+
+SENTENCE:  is  a  home tutor , she is  a  retired  teacher , lives at home with her 
+           VBZ DT  NN   NN     PRP VBZ DT    JJ      NN       VBZ  IN  NN   IN  PRP$
+                                          |======|                                  
+                                          Finding                                   
+                                          C0035345                                  
+
+SENTENCE:  husband , she has seven children and thirteen grandchildren , no
+             NN      PRP VBZ  CD     NNS    CC     NN         NNS        RB
+
+SENTENCE:  tobacco  , and no ethanol  use.
+              NN      CC  DT    NN    NN  
+           |======|          |======|     
+             Drug              Drug       
+           C0040329          C0001962     
+
+SENTENCE:  FAMILY HISTORY :
+             NN      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0241889     
+
+SENTENCE:  Father deceased at
+             NN      JJ    IN
+                  |======|   
+                  Finding    
+                  C0011065   
+
+SENTENCE:  age 46 with Streptococcus viridans infection and mother deceased at
+           NN      IN       NNP        NNS       NN     CC    NN      JJ    IN
+                                              |=======|            |======|   
+                                              Disorder             Finding    
+                                              C0009450             C0011065   
+
+SENTENCE:  an early age of pneumonia.
+           DT  JJ   NN  IN    NN     
+                           |=======| 
+                           Disorder  
+                           C0032285  
+
+SENTENCE:  She has a  brother deceased from
+           PRP VBZ DT   NN       JJ     NN 
+                              |======|     
+                              Finding      
+                              C0011065     
+
+SENTENCE:  alcoholism and a  sister deceased from unknown causes.
+               NN     CC  DT   NN     VBN     IN    JJ     NNS   
+           |========|                                            
+            Disorder                                             
+            C0001973                                             
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  Temperature was 98.8 ,  heart   rate was 87 ,
+               NN      VBD           NN     NN  VBD     
+                                  |======|              
+                                  Anatomy               
+                                  C0018787              
+
+SENTENCE:   blood   pressure 150/80 , respirations 18 , and
+              NN       NN                 NNS           CC 
+           |======| |======|                               
+           Anatomy  Finding                                
+           C0005767 C0460139                               
+           |===============|                               
+                Finding                                    
+               C0005823                                    
+
+SENTENCE:  she was 81.8 kg .
+           PRP VBD      NNS 
+
+SENTENCE:  This was a  well-developed , well-nourished
+            DT  VBD DT  RB     VBN       RB     VBN   
+
+SENTENCE:  pleasant female in no acute distress.
+              JJ      NN   IN DT  JJ      NN    
+                                       |======| 
+                                       Finding  
+                                       C0231303 
+
+SENTENCE:  HEENT:
+            NN   
+
+SENTENCE:  Examination showed
+               NN       VBD  
+
+SENTENCE:   pupils  equal , round , and reactive to light , oropharynx clear , no
+             NNS     JJ      NN     CC     JJ    IN  JJ         NN      JJ     JJ
+           |======|                                         |========|           
+           Anatomy                                           Anatomy             
+           C0034121                                          C0521367            
+           |============|                                                        
+              Finding                                                            
+              C0578617                                                           
+
+SENTENCE:  lymphadenopathy , and 2+ carotids bilaterally with no  bruits .
+                 NN          CC       NNS        RB       IN  DT   NNS    
+           |=============|                                       |======| 
+               Finding                                           Finding  
+              C0497156                                           C0006318 
+
+SENTENCE:  CARDIAC :
+              NN    
+           |======| 
+           Anatomy  
+           C0018787 
+
+SENTENCE:  Examination showed a  regular rate and rhythm , distant S1
+               NN       VBD   DT   JJ     NN  CC    NN       JJ    NN
+
+SENTENCE:  and S2 , no murmurs  , gallops , or rubs , and no jugular  venous 
+           CC  NN   DT   NNS        NNS     CC NNS    CC  DT   JJ       JJ   
+                       |======|                                      |======|
+                       Finding                                       Anatomy 
+                       C0018808                                      C0042449
+
+SENTENCE:  distention.
+               NN     
+           |========| 
+            Finding   
+            C0012359  
+
+SENTENCE:   LUNGS  :
+             NNS    
+           |======| 
+           Anatomy  
+           C0024109 
+
+SENTENCE:  Clear to auscultation bilaterally.
+            JJ   IN      NN          RB      
+                    |==========|             
+                     Procedure               
+                      C0004339               
+
+SENTENCE:  ABDOMEN :
+              NN    
+           |======| 
+           Anatomy  
+           C0000726 
+
+SENTENCE:  Well healed   scar   , positive  bowel   sounds , soft , non-tender , and no
+            RB   VBN      NN         JJ       NN     NNS      JJ        JJ       CC  UH
+                       |======|            |======|                                    
+                       Finding             Anatomy                                     
+                       C2004491            C0021853                                    
+                                           |=============|                             
+                                               Finding                                 
+                                              C0232693                                 
+
+SENTENCE:  masses.
+            NNS   
+
+SENTENCE:  EXTREMITIES:
+               NNS     
+           |=========| 
+             Anatomy   
+            C0015385   
+
+SENTENCE:  No cyanosis , clubbing , or  edema   , 2+
+           DT    NN         NN      CC    NN        
+              |======|   |======|      |======|     
+              Finding    Finding       Finding      
+              C0010520   C0149651      C0013604     
+
+SENTENCE:  bilateral dorsalis pedis , 2+ femorals bilaterally , and no femoral 
+              JJ        NN     NN          NNS        RB        CC  DT    JJ   
+                                                                       |======|
+                                                                       Anatomy 
+                                                                       C0015811
+
+SENTENCE:   bruits .
+             NNS    
+           |======| 
+           Finding  
+           C0006318 
+
+SENTENCE:  NEUROLOGICAL:
+                NN      
+
+SENTENCE:  Examination showed her to be  alert   and
+               NN       VBD   PRP TO VB    JJ    CC 
+                                        |======|    
+                                        Finding     
+                                        C0239110    
+
+SENTENCE:  oriented times three , cranial   nerves  II-XII intact , and light
+              JJ     IN    CD        JJ      NNS    CD CD    JJ     CC   NN  
+           |======|               |======| |======|                          
+           Finding                Anatomy  Anatomy                           
+           C1961028               C0037303 C0027740                          
+                                  |===============|                          
+                                       Anatomy                               
+                                      C0010268                               
+
+SENTENCE:   touch   ,  joint   position  sense   , and vibratory  sense   intact.
+              NN         JJ       NN       NN      CC     NN        NN      JJ   
+           |======|   |======|          |======|                 |======|        
+           Finding    Anatomy           Finding                  Finding         
+           C0702221   C0022417          C0036658                 C0036658        
+                               |===============|       |================|        
+                                    Finding                 Finding              
+                                   C0234219                 C0234198             
+
+SENTENCE:  Coordination showed  finger -to-  nose   and fine  finger  movements
+               NNP       VBD      NN    IN    NN    CC   JJ     NN       NNS   
+                               |======|    |======|          |======| |=======|
+                               Anatomy     Anatomy           Anatomy   Finding 
+                               C0016129    C0028429          C0016129 C0026649 
+
+SENTENCE:  intact , deep  tendon  reflexes were 1+ throughout , no patellar or
+             JJ      JJ     NN      NNS    VBD         RB       DT    JJ    CC
+                         |======| |======|                         |======|   
+                         Anatomy  Finding                          Anatomy    
+                         C0039508 C0034929                         C0030647   
+                                  C0596002                                    
+
+SENTENCE:   ankle   reflexes , and equivocal plantar  reflexes.
+              NN      NNS      CC     JJ        NN      NNS    
+           |======| |======|                 |======| |======| 
+           Anatomy  Finding                  Anatomy  Finding  
+           C0003086 C0034929                 C0442036 C0034929 
+                    C0596002                          C0596002 
+
+SENTENCE:   Muscle  strength
+              NN       NN   
+           |======|         
+           Anatomy          
+           C0026845         
+
+SENTENCE:  was 5/5.
+           VBD     
+
+SENTENCE:  LABORATORY EXAMINATION:
+               NN         NN      
+           |========|             
+           Procedure              
+            C0022885              
+
+SENTENCE:   Sodium  was 138 , potassium 4.2 ,    BUN    16 ,
+              NN    VBD          NN              NN         
+           |======|           |=======|       |=======|     
+             Drug               Drug            Drug        
+           C0037473           C0032821        C0600137      
+                                              |=======|     
+                                              Procedure     
+                                              C0005845      
+
+SENTENCE:  creatinine 0.9 , and glucose  222.
+               NN           CC     NN        
+           |========|           |======|     
+              Drug                Drug       
+            C0010294            C0017725     
+
+SENTENCE:  White
+            JJ  
+
+SENTENCE:   blood   count was 6.8 , hematocrit was 39 with an   MCV    of 84.1 ,    RDW    of
+              NN     NN   VBD           NN     VBD     IN  DT    NN    IN           NN     CD
+           |======|                 |========|                |======|           |=======|   
+           Anatomy                  Procedure                 Finding            Procedure   
+           C0005767                  C0018935                 C0524587           C0427460    
+
+SENTENCE:  12.3 , and platelets 224 , 000.
+                  CC     NNS              
+                      |=======|           
+                       Anatomy            
+                      C0005821            
+
+SENTENCE:   Liver   function   tests   were  normal  ,
+              NN       NN       NNS    VBD     JJ     
+           |======|          |=======|      |======|  
+           Anatomy           Procedure      Finding   
+           C0023884          C0022885       C0231683  
+                                            C0558145  
+           |===============|                          
+                Finding                               
+               C0232741                               
+           |=========================|                
+                    Procedure                         
+                    C0023901                          
+
+SENTENCE:  cholesterol was 119 , triglycerides 167 , PT was 11.4 , phosphate was
+               NN      VBD            NNS            NN VBD           NN     VBD
+           |=========|           |===========|                     |=======|    
+              Drug                   Drug                            Drug       
+            C0008377               C0041004                        C0031603     
+                                                                   C1601799     
+
+SENTENCE:  3.5 , and calcium  was 9.2.
+                 CC     NN    VBD     
+                     |======|         
+                       Drug           
+                     C0006675         
+
+SENTENCE:  Urinalysis showed trace glucose  and 0-1
+               NN      VBD    NN      NN    CC     
+           |========|              |======|        
+           Procedure                 Drug          
+            C0042014               C0017725        
+
+SENTENCE:  white  blood    cells  .
+            JJ      NN      NNS    
+                 |======| |======| 
+                 Anatomy  Anatomy  
+                 C0005767 C0007634 
+                 |===============| 
+                      Anatomy      
+                     C0005773      
+           |=====================| 
+                   Anatomy         
+                  C0023516         
+
+SENTENCE:     EKG    showed a   normal   sinus   rhythm at 75 ,
+              NN      VBD   DT    JJ       NN      NN   IN     
+           |=======|           |======| |======|               
+           Procedure           Finding  Anatomy                
+           C1623258            C0231683 C0030471               
+                               C0558145                        
+                                        |=============|        
+                                            Finding            
+                                           C0232201            
+                               |======================|        
+                                       Finding                 
+                                       C0232202                
+
+SENTENCE:  intervals 0.21/0.13/0.428 , QTC was 0.477 with left bundle-branch
+              NNS                      NN  VBD        IN   JJ    NN     NN  
+
+SENTENCE:   block   , and left   axis   deviation.
+              NN      CC   JJ     NN       NN     
+           |======|            |======|           
+           Finding             Anatomy            
+           C0028778            C0004457           
+                          |=====================| 
+                                  Finding         
+                                 C0232297         
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was admitted to the Cardiology Ton Minlilake Er Team
+           DT    NN    VBD   VBN    IN DT      NN     NN     NN     NN  NN 
+
+SENTENCE:  and begun on Disopyramide at a  dose of 300 mg  SR 
+           CC   VBN  IN      NN      IN DT  NN  IN     NNS NNP
+                        |==========|                          
+                            Drug                              
+                          C0012702                            
+
+SENTENCE:  p.o. b.i.d. , the Verapamil was discontinued , and she was loaded
+            FW    FW     DT     NNP    VBD     VBN        CC  PRP VBD   JJ  
+                             |=======|                                      
+                               Drug                                         
+                             C0042523                                       
+
+SENTENCE:  with Digoxin   orally  and then continued on a  maintenance dose of
+            IN    NNP       RB    CC   RB     VBN    IN DT     NN       NN  IN
+                |======| |======|                                             
+                  Drug   Anatomy                                              
+                C0012265 C0226896                                             
+
+SENTENCE:  0.125 mg  q .d .
+                 NNS FW NN 
+
+SENTENCE:  The patient experienced frequent episodes of
+           DT    NN        VBD        JJ      NNS    IN
+
+SENTENCE:  paroxysmal  atrial  flutter/ atrial  fibrillation and the Disopyramide
+               JJ        JJ      NN       JJ         NN      CC  DT       NN     
+                      |======|         |======| |==========|         |==========|
+                      Anatomy          Anatomy    Disorder               Drug    
+                      C0018792         C0018792   C0232197             C0012702  
+                      |==============| |===================|                     
+                          Finding            Disorder                            
+                          C0004239           C0004238                            
+           |=========================|                                           
+                     Finding                                                     
+                    C0741292                                                     
+
+SENTENCE:  dose was increased to 200 mg  of immediate  release  q .6h. p .o .
+            NN  VBD    VBN    IN     NNS IN    JJ        NN     FW  FW VB RP 
+                                                      |=======|              
+                                                      Procedure              
+                                                      C1963578               
+
+SENTENCE:  However , she continued to have five to ten minute   runs   of  atrial 
+             RB      PRP    VBD    TO  VB   CD  IN CD    NN     NNS    IN    JJ   
+                                                              |======|    |======|
+                                                              Finding     Anatomy 
+                                                              C0600140    C0018792
+
+SENTENCE:  fibrillation which were symptomatic with sensation of palpitations
+                NN       WDT  VBD      JJ       IN     NN     IN     NNS     
+           |==========|                             |=======|    |==========|
+             Disorder                                Finding       Finding   
+             C0232197                               C0036658       C0030252  
+
+SENTENCE:  and anxiety .
+           CC     NN    
+               |======| 
+               Disorder 
+               C0003467 
+
+SENTENCE:  She was begun on intravenous Heparin .
+           PRP VBD  VBN  IN     JJ         NN    
+                                        |======| 
+                                          Drug   
+                                        C0019134 
+                            |==================| 
+                                    Drug         
+                                  C0354566       
+
+SENTENCE:  Because of urinary
+             IN    IN   JJ   
+
+SENTENCE:  retention on disopyramide , the disopyramide was discontinued , and
+              NN     IN      NN        DT       NN      VBD     VBN        CC 
+                        |==========|       |==========|                       
+                            Drug               Drug                           
+                          C0012702           C0012702                         
+
+SENTENCE:  she was begun on Propafenone at 150 mg  p.o. q .8h .
+           PRP VBD  VBN  IN     NNP     IN     NNS  FW  FW  NN 
+                            |=========|                        
+                               Drug                            
+                             C0033429                          
+
+SENTENCE:  After discontinuation of the
+            IN         NN        IN CD 
+                 |=============|       
+                     Finding           
+                    C1444662           
+
+SENTENCE:  Disopyramide , her  QTC came down to 0.5 and after Propafenone initiation , she
+                NN        PRP$ NN  VBD   RB  IN     CC   IN       NNP         NN       PRP
+           |==========|                                       |=========| |========|      
+               Drug                                              Drug      Finding        
+             C0012702                                          C0033429    C0589507       
+
+SENTENCE:  was also started back on Verapamil 80 mg  p.o. q .8h.  and the Digoxin  was
+           VBD  RB    VBN    RB  IN    NNP       NNS  FW  FW  NNS CC  DT    NNP    VBD
+                                    |=======|                             |======|    
+                                      Drug                                  Drug      
+                                    C0042523                              C0012265    
+
+SENTENCE:  discontinued.
+               VBN      
+
+SENTENCE:  She experienced no further episodes of  atrial 
+           PRP     VBD     DT   JJ      NNS    IN    JJ   
+                                                  |======|
+                                                  Anatomy 
+                                                  C0018792
+
+SENTENCE:  fibrillation/flutter prior to discharge.
+                NN        NN     JJ   IN    NN     
+           |==========|                            
+             Disorder                              
+             C0232197                              
+
+SENTENCE:  Therefore , her  Heparin  was
+              RB       PRP$   NNP    VBD
+                            |======|    
+                              Drug      
+                            C0019134    
+
+SENTENCE:  discontinued.
+               VBN      
+
+SENTENCE:  Her  QT was 0.4 and QRS 0.12 on discharge.
+           PRP$ NN VBD     CC  NNP      IN    NN     
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  She is  to call Dr. Vieau for a  follow-up appointment.
+           PRP VBZ TO  VB  NNP  NNP  IN  DT   NN   NN     NN      
+                                            |=======|             
+                                             Finding              
+                                            C0589120              
+
+SENTENCE:  She is  discharged on Humulin  70/30 40 units q .a .m .
+           PRP VBZ    VBN     IN   NNP              NNS  FW DT NN 
+                                 |======|                         
+                                   Drug                           
+                                 C3538423                         
+
+SENTENCE:  and 22 units q.p.m. , Propafenone 150 mg  q .8h. , and Verapamil SR  250
+           CC      NNS    FW         NNP         NNS FW  FW   CC     NNP    NNP    
+                                 |=========|                      |=======|        
+                                    Drug                            Drug           
+                                  C0033429                        C0042523         
+
+SENTENCE:  mg  p.o. q .d .
+           NNS  FW  FW NN 
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  JOAQUIN B.  TRESTER ,  M . D .
+             NN    NNP   NN      NNP NNP 
+
+SENTENCE:  SK94
+            NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  LAWERENCE E.  ZMUDA ,  M . D .
+              NN     NNP  NNP    NNP NNP 
+
+SENTENCE:  WS2
+           NN 
+
+SENTENCE:  IS266/3222
+            CD       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  0973 Index No. EZEHIR87ML D : 1/13/93
+                 NNP  NN      NN     NN         
+
+SENTENCE:  T : 3/1/93
+           NN        
+

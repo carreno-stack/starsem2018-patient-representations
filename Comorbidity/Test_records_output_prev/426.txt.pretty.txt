@@ -1,0 +1,454 @@
+SENTENCE:  818067143 | WGH | 08965458 | | 127694 | 8/27/1991 12:00:00 AM | Discharge Summary | Unsigned |   DIS    | Admission Date:
+                       NN                                             NN      NN       NN         JJ         NN         NN      NN  
+                                                                                                          |======|                  
+                                                                                                          Finding                   
+                                                                                                          C1444662                  
+                                                                                                          |======|                  
+                                                                                                          Disorder                  
+                                                                                                          C0012634                  
+                                                                                                          C1970187                  
+
+SENTENCE:  10/8/1991 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Unsigned
+              JJ   
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  8/26/1991
+                    
+
+SENTENCE:  PRINCIPAL DIAGNOSIS:
+              JJ        NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  CORONARY  ARTERY  DISEASE .
+              JJ       NN       NN    
+           |======| |======| |======| 
+           Anatomy  Anatomy  Disorder 
+           C0018787 C0003842 C0012634 
+                    |===============| 
+                        Disorder      
+                        C0852949      
+           |===============|          
+                Anatomy               
+               C0205042               
+           |========================| 
+                    Disorder          
+                    C1956346          
+
+SENTENCE:  HYPERTENSION.
+                NN      
+           |==========| 
+             Disorder   
+             C0020538   
+
+SENTENCE:  HYPERCHOLESTEROLEMIA.
+                    NN          
+           |==================| 
+                 Disorder       
+                 C0020443       
+
+SENTENCE:  PROCEDURES:
+              NNS     
+           |========| 
+           Procedure  
+            C0184661  
+
+SENTENCE:  CORONARY  ARTERY   BYPASS   GRAFTING  TIMES THREE
+              NN       NN       NN        NN      NNS   CD  
+           |======| |======| |=======| |=======|            
+           Anatomy  Anatomy  Procedure Procedure            
+           C0018787 C0003842 C0741847  C1961139             
+           |===============| |=================|            
+                Anatomy           Procedure                 
+               C0205042           C0185098                  
+           |=========================|                      
+                    Procedure                               
+                    C0010055                                
+
+SENTENCE:  WITH RIGHT CORONARY  ARTERY  AND LEFT ANTERIOR
+            IN   JJ      JJ       NN    CC   JJ     JJ   
+                      |======| |======|          |======|
+                      Anatomy  Anatomy           Disorder
+                      C0018787 C0003842          C0751437
+                      |===============|                  
+                           Anatomy                       
+                          C0205042                       
+                |=====================|                  
+                        Anatomy                          
+                       C1261316                          
+
+SENTENCE:  DESCENDING  ARTERY  ENDARTERECTOMY.
+               NN        NN          NN       
+                      |======| |============| 
+                      Anatomy    Procedure    
+                      C0003842    C0014098    
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient is  a  37-year-old
+           DT    NN    VBZ DT     NN  JJ 
+
+SENTENCE:  gentleman with known coronary  artery 
+              NN      IN   JJ      JJ       NN   
+                                |======| |======|
+                                Anatomy  Anatomy 
+                                C0018787 C0003842
+                                |===============|
+                                     Anatomy     
+                                    C0205042     
+
+SENTENCE:  disease  admitted for pre-coronary  artery   bypass   grafting 
+              NN      VBN    IN       JJ         NN       NN        NN    
+           |======|                           |======| |=======| |=======|
+           Disorder                           Anatomy  Procedure Procedure
+           C0012634                           C0003842 C0741847  C1961139 
+                                                       |=================|
+                                                            Procedure     
+                                                            C0185098      
+
+SENTENCE:  evaluation.
+               NN     
+
+SENTENCE:  The patient's cardiac  history  dates back to the   fall  
+           DT    NN         JJ       NN     VBZ   NN  IN DT     NN   
+                         |======| |======|                   |======|
+                         Anatomy  Finding                    Finding 
+                         C0018787 C0262926                   C0085639
+
+SENTENCE:  of 1989 when the patient began to experience exertional  angina .
+           IN      WRB  DT    NN     VBD  TO     VB         JJ        NN    
+                                                                   |======| 
+                                                                   Finding  
+                                                                   C0002962 
+                                                        |=================| 
+                                                              Finding       
+                                                             C0577698       
+
+SENTENCE:  The patient has been followed for his   angina  since that time.
+           DT    NN    VBZ VBN    VBN    IN  PRP$    NN     IN    DT   NN  
+                                                  |======|                 
+                                                  Finding                  
+                                                  C0002962                 
+
+SENTENCE:  Currently , the patient experiences  angina  at the   end    of most   work  
+              RB       DT    NN        VBZ        NN    IN DT     NN    IN  NN     NN   
+                                               |======|        |======|         |======|
+                                               Finding           Drug           Finding 
+                                               C0002962        C0082420         C0043227
+
+SENTENCE:  days.
+           NNS  
+
+SENTENCE:  In light of his  young age , he  was referred for cardiac 
+           IN  NN   IN PRP$  JJ   NN    PRP VBD   VBN    IN     JJ   
+                                                             |======|
+                                                             Anatomy 
+                                                             C0018787
+
+SENTENCE:  catheterization and probable coronary  artery   bypass   grafting .
+                 NN        CC     JJ       JJ       NN       NN        NN     
+           |=============|     |======| |======| |======| |=======| |=======| 
+              Procedure        Finding  Anatomy  Anatomy  Procedure Procedure 
+              C0007430         C0332148 C0018787 C0003842 C0741847  C1961139  
+                                        |===============| |=================| 
+                                             Anatomy           Procedure      
+                                            C0205042           C0185098       
+                                        |=========================|           
+                                                 Procedure                    
+                                                 C0010055                     
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient underwent cardiac  catheterization
+           DT    NN       VBD       JJ          NN       
+                                 |======| |=============|
+                                 Anatomy     Procedure   
+                                 C0018787    C0007430    
+
+SENTENCE:  on 6/25/91 .
+           IN          
+
+SENTENCE:  This showed  severe  triple  vessel 
+            DT   VBD      JJ      JJ      NN   
+                       |======|        |======|
+                       Finding         Anatomy 
+                       C1519275        C0005847
+
+SENTENCE:  disease  with an essentially  normal  left ventricle.
+              NN     IN  DT     RB         JJ     JJ     NN     
+           |======|                     |======|      |=======| 
+           Disorder                     Finding        Anatomy  
+           C0012634                     C0231683      C0018827  
+                                        C0558145                
+                                                 |============| 
+                                                    Anatomy     
+                                                    C0225897    
+
+SENTENCE:  Thus , the
+            RB    EX 
+
+SENTENCE:  patient was taken to the Operating Room on 6/13/91 .
+             NN    VBD  VBN  IN DT     NN      NN  IN          
+
+SENTENCE:  Under general
+            IN     JJ   
+
+SENTENCE:  endotracheal anesthesia , the patient underwent coronary  artery 
+                JJ          NN       DT    NN       VBD       JJ       NN   
+                        |========|                         |======| |======|
+                        Procedure                          Anatomy  Anatomy 
+                         C0002903                          C0018787 C0003842
+           |=====================|                         |===============|
+                  Procedure                                     Anatomy     
+                  C0002919                                     C0205042     
+
+SENTENCE:   bypass   grafting  times three with bilateral internal mammary 
+              NN        NN      IN    CD    IN     JJ        JJ       NN   
+           |=======| |=======|                                     |======|
+           Procedure Procedure                                     Anatomy 
+           C0741847  C1961139                                      C0006141
+           |=================|                                             
+                Procedure                                                  
+                C0185098                                                   
+
+SENTENCE:  arteries.
+             NNS    
+           |======| 
+           Anatomy  
+           C0003842 
+
+SENTENCE:  The left internal mammary  was taken to the left anterior
+           DT   JJ     JJ       NN    VBD  VBN  IN DT   JJ     JJ   
+                             |======|                       |======|
+                             Anatomy                        Disorder
+                             C0006141                       C0751437
+
+SENTENCE:  descending and the right internal mammary   artery  was taken to the
+               JJ     CC  DT   JJ      JJ       JJ       NN    VBD  VBN  IN CD 
+                                             |======| |======|                 
+                                             Anatomy  Anatomy                  
+                                             C0006141 C0003842                 
+                                    |========================|                 
+                                             Anatomy                           
+                                             C0226276                          
+                              |==============================|                 
+                                          Anatomy                              
+                                          C0500531                             
+
+SENTENCE:  right coronary  artery .
+            JJ      JJ       NN    
+                 |======| |======| 
+                 Anatomy  Anatomy  
+                 C0018787 C0003842 
+                 |===============| 
+                      Anatomy      
+                     C0205042      
+           |=====================| 
+                   Anatomy         
+                  C1261316         
+
+SENTENCE:  The saphenous   vein    graft   was taken to the
+           DT     JJ        NN       NN    VBD  VBN  IN CD 
+                         |======| |======|                 
+                         Anatomy  Anatomy                  
+                         C0042449 C0332835                 
+               |================|                          
+                    Anatomy                                
+                    C0036186                               
+               |=========================|                 
+                         Anatomy                           
+                        C0729538                           
+
+SENTENCE:  first obtuse marginal branch.
+            JJ     NN      JJ      NN   
+
+SENTENCE:  The patient was found to have
+           DT    NN    VBD  VBN  IN  NN 
+
+SENTENCE:  extremely pronounced atherosclerosis of his  coronary arteries.
+              RB         JJ           NN        IN PRP$    JJ      NNS    
+                                |=============|         |======| |======| 
+                                   Disorder             Anatomy  Anatomy  
+                                   C0004153             C0018787 C0003842 
+                                                        |===============| 
+                                                             Anatomy      
+                                                            C0205042      
+
+SENTENCE:  There were no apparent complications and the patient was taken to
+            EX   VBD  DT    JJ         NNS      CC  DT    NN    VBD  VBN  TO
+                                  |===========|                             
+                                     Finding                                
+                                    C0009566                                
+
+SENTENCE:  the Intensive Care Unit in stable condition.
+           DT     JJ      NN   NN  IN   JJ      NN     
+                                             |=======| 
+                                             Disorder  
+                                             C0012634  
+
+SENTENCE:  Postoperatively , the
+                 RB          EX 
+
+SENTENCE:  patient had an entirely smooth postoperative course.
+             NN    VBD DT    RB      JJ        JJ         NN   
+
+SENTENCE:  He  was
+           PRP VBD
+
+SENTENCE:  maintained on low molecular  weight   Dextran  for 48 hours for his 
+              VBN     IN JJ     JJ        NN        NN    IN      NNS  IN  PRP$
+                                       |=======| |======|                      
+                                       Procedure   Drug                        
+                                       C1305866  C0086140                      
+                         |==============================|                      
+                                       Drug                                    
+                                     C0011793                                  
+
+SENTENCE:  endarterectomy.
+                 NN       
+           |============| 
+             Procedure    
+              C0014098    
+
+SENTENCE:  The patient was started on enteric coated aspirin 
+           DT    NN    VBD   VBN   IN   JJ     VBN      NN   
+                                                     |======|
+                                                       Drug  
+                                                     C0004057
+
+SENTENCE:  on the first day of his  operation.
+           IN DT   JJ   NN  IN PRP$    NN     
+
+SENTENCE:  The patient was extubated and
+           DT    NN    VBD    VBN     . 
+
+SENTENCE:  all his   chest   tubes and mediastinal tubes were removed.
+           DT  PRP$    NN     NNS  CC      JJ       NNS  VBD    VBN   
+                    |======|           |=========|                    
+                    Anatomy              Anatomy                      
+                    C0817096            C0025066                      
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient diuresed very well and was started on beta blockers.
+             NN      VBN     RB   RB  CC  VBD   VBN   IN  NN    NNS    
+                                                         |===========| 
+                                                             Drug      
+                                                           C0001645    
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient remained in  normal   sinus   rhythm and  sinus   tachycardia for
+             NN      VBD    IN    JJ       NN      NN   CC     NN        NN       . 
+                               |======| |======|            |======| |=========|    
+                               Finding  Anatomy             Anatomy    Finding      
+                               C0231683 C0030471            C0030471  C0039231      
+                               C0558145                                             
+                                        |=============|     |==================|    
+                                            Finding               Disorder          
+                                           C0232201               C0039239          
+                               |======================|                             
+                                       Finding                                      
+                                       C0232202                                     
+
+SENTENCE:  the entire postoperative course.
+           DT    JJ        JJ         NN   
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  The patient was discharged home in stable condition.
+           DT    NN    VBD    VBN      NN  IN   JJ      NN     
+                                                     |=======| 
+                                                     Disorder  
+                                                     C0012634  
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  On discharge included Tenormin , 75 mg 
+           IN    NN       VBD      NNP         NNS
+                                 |======|         
+                                   Drug           
+                                 C0592168         
+
+SENTENCE:  po q  day;
+           FW FW NN  
+
+SENTENCE:  enteric coated aspirin  , one po q  day;
+             JJ     VBN      NN      CD  FW FW NN  
+                          |======|                 
+                            Drug                   
+                          C0004057                 
+
+SENTENCE:  Carafate , 1 gram po
+             NNP         NN  FW
+           |======|            
+             Drug              
+           C0740157            
+
+SENTENCE:  q.i.d.;   iron    sulfate  , 325 mg  po q  day;
+            FW        NN       NN           NNS FW FW NN  
+                   |======| |=======|                     
+                     Drug     Drug                        
+                   C0302583 C0038720                      
+                            C3536965                      
+                            |=======|                     
+                            Procedure                     
+                            C0474702                      
+                   |================|                     
+                          Drug                            
+                        C0060282                          
+
+SENTENCE:  Percocet and  Colace .
+             NNP    CC    NNP    
+           |======|     |======| 
+             Drug         Drug   
+           C0086787     C0282139 
+
+SENTENCE:  VP617/0884
+            NN       
+
+SENTENCE:  DORIAN L.  DUNAY ,  M . D .
+            NNP   NNP  NNP    NNP NNP 
+
+SENTENCE:  QS9 D : 4/1/91
+           NN  NN        
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  9497 Report:
+                  NN   
+
+SENTENCE:  F4618M8 T : 2/6/91
+             NN    NN        
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  REED KIZZIE ,  M . D .
+            JJ    NN     NNP NNP 
+
+SENTENCE:  EW12
+            NN 
+

@@ -1,0 +1,890 @@
+SENTENCE:  216653246 | MGH | 48023125 | | 500957 | 9/3/1998 12:00:00 AM | OSTEOARTHRITIS LT.
+                       NN                                            NN         NN       NN 
+                                                                          |============|    
+                                                                             Disorder       
+                                                                             C0029408       
+
+SENTENCE:     HIP    | Signed |   DIS    | Admission Date:
+              NN        VBN        NN         NN      NN  
+           |=======|            |======|                  
+            Anatomy             Disorder                  
+           C0019552             C0012634                  
+                                C1970187                  
+           |=======|            |======|                  
+           Procedure            Finding                   
+           C1292890             C1444662                  
+
+SENTENCE:  4/10/1998 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  8/29/1998
+                    
+
+SENTENCE:  DIAGNOSIS:
+              NN     
+           |=======| 
+            Finding  
+           C0011900  
+
+SENTENCE:  OSTEOARTHRITIS - LEFT    HIP    , STATUS POST LEFT TOTAL    HIP   
+                 NN          JJ     NN         NN    JJ   JJ   JJ      NN    
+           |============|        |=======|                          |=======|
+              Disorder           Procedure                          Procedure
+              C0029408           C1292890                           C1292890 
+                                 |=======|                          |=======|
+                                  Anatomy                            Anatomy 
+                                 C0019552                           C0019552 
+                            |============|                                   
+                               Anatomy                                       
+                               C0524471                                      
+
+SENTENCE:  REPLACEMENT ON 9/3/98 .
+               NN      IN         
+           |=========|            
+            Procedure             
+            C0035139              
+
+SENTENCE:  HISTORY :
+              NN    
+           |======| 
+           Finding  
+           C0262926 
+
+SENTENCE:  Ms. Desoto is  a  72-year-old woman with a  history  of
+           NNP  NNP   VBZ DT     NN  JJ   NN    IN  DT    NN    IN
+                                                       |======|   
+                                                       Finding    
+                                                       C0262926   
+
+SENTENCE:  osteoarthritis , status post right total    hip    arthroplasty.
+                 NN           NN    IN   JJ    JJ      NN          NN      
+           |============|                           |=======| |==========| 
+              Disorder                               Anatomy   Procedure   
+              C0029408                              C0019552    C0003893   
+                                                    |=======|              
+                                                    Procedure              
+                                                    C1292890               
+                                                    |====================| 
+                                                          Procedure        
+                                                           C0186193        
+                                              |==========================| 
+                                                       Procedure           
+                                                        C0040508           
+
+SENTENCE:  She
+           PRP
+
+SENTENCE:  presents now with   end    stage osteoarthritis of her  left    hip   .
+             VBZ    RB   IN     NN     NN         NN       IN PRP$  JJ     NN     
+                             |======|       |============|              |=======| 
+                               Drug            Disorder                 Procedure 
+                             C0082420          C0029408                 C1292890  
+                                                                        |=======| 
+                                                                         Anatomy  
+                                                                        C0019552  
+                                                                   |============| 
+                                                                      Anatomy     
+                                                                      C0524471    
+
+SENTENCE:  Her 
+           PRP$
+
+SENTENCE:  original surgery was performed by Dr. Moffit . The patient currently
+              JJ      NN    VBD    VBN    IN NNP   NN     DT    NN       RB    
+
+SENTENCE:  reports that she is    able   to ambulate , but with difficulty even
+             VBZ    IN  PRP VBZ    JJ    IN    JJ      CC   IN      NN      RB 
+                                |======|                        |========|     
+                                Finding                          Finding       
+                                C1299581                         C1299586      
+
+SENTENCE:  using a  cane.
+            VBG  DT  NN  
+
+SENTENCE:  She is  only   able   to walk minimally and is  not   able  
+           PRP VBZ  RB     JJ    TO  VB     RB     CC  VBZ RB     JJ   
+                        |======|                               |======|
+                        Finding                                Finding 
+                        C1299581                               C1299581
+
+SENTENCE:  to walk one city  block  .
+           TO  VB  CD   NN     NN    
+                            |======| 
+                            Finding  
+                            C0028778 
+
+SENTENCE:  She is   unable  to go outside of her  home or
+           PRP VBZ    JJ    TO VB   RB    IN PRP$  NN  CC
+                   |======|                              
+                   Finding                               
+                   C1299582                              
+
+SENTENCE:  up and down stairs at this time.
+           RP CC   IN   NNS   IN  DT   NN  
+
+SENTENCE:  PAST MEDICAL HISTORY :
+            JJ    JJ       NN    
+                        |======| 
+                        Finding  
+                        C0262926 
+           |===================| 
+                  Finding        
+                 C0455458        
+
+SENTENCE:  Significant for urinary incontinence which
+               JJ      IN    JJ         NN       WDT 
+                                   |==========|      
+                                     Disorder        
+                                     C0021167        
+                           |==================|      
+                                 Finding             
+                                 C0042024            
+
+SENTENCE:  was treated by her  urologist , Dr .
+           VBD   VBN   IN PRP$    NN       NNP 
+
+SENTENCE:  Bradford Harps , with  Urised  for two weeks prior to this
+             NNP     NNP     IN     JJ    IN  CD   NNS   JJ   IN PRP$
+                                 |======|                            
+                                   Drug                              
+                                 C0724139                            
+
+SENTENCE:  admission.
+              NN     
+
+SENTENCE:  She is  also status post right total    hip    arthroplasty in
+           PRP VBZ  RB    NN    IN   JJ    JJ      NN          NN      . 
+                                                |=======| |==========|   
+                                                Procedure  Procedure     
+                                                C1292890    C0003893     
+                                                |=======|                
+                                                 Anatomy                 
+                                                C0019552                 
+                                                |====================|   
+                                                      Procedure          
+                                                       C0186193          
+                                          |==========================|   
+                                                   Procedure             
+                                                    C0040508             
+
+SENTENCE:  August 1997.
+            NNP        
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  The patient is  allergic to Sulfa.
+           DT    NN    VBZ    JJ    IN  NNP  
+
+SENTENCE:  MEDICATIONS:
+               NNS     
+           |=========| 
+              Drug     
+            C0013227   
+
+SENTENCE:  Ibuprofen on a  p.r.n.  basis   and  Urised  which she
+              NNP    IN DT   FW      NN    CC     JJ     IN   PRP
+           |=======|              |======|     |======|          
+             Drug                   Drug         Drug            
+           C0020740               C1874451     C0724139          
+
+SENTENCE:  discontinued just prior to being evaluated
+               VBD       RB   JJ   IN  VBG     VBN   
+
+SENTENCE:  preoperatively.
+                 RB       
+
+SENTENCE:  FAMILY HISTORY :
+             NN      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0241889     
+
+SENTENCE:  Noncontributory.
+                 JJ        
+
+SENTENCE:  SOCIAL HISTORY :
+             JJ      NN    
+                  |======| 
+                  Finding  
+                  C0262926 
+           |=============| 
+               Finding     
+              C0424945     
+
+SENTENCE:  The patient is  married  and lives with her  husband
+           DT    NN    VBZ    JJ    CC   VBZ   IN  PRP$   NN   
+                           |======|                            
+                           Finding                             
+                           C0555047                            
+
+SENTENCE:  at home.
+           IN  NN  
+
+SENTENCE:  REVIEW OF SYSTEMS:
+             NN   IN   NNS   
+
+SENTENCE:  The patient denies  chest     pain   ,  nausea  ,
+           DT    NN     VBZ      NN       NN         NN     
+                              |======| |======|   |======|  
+                              Anatomy  Finding    Finding   
+                              C0817096 C0030193   C0027497  
+                              |===============|             
+                                   Finding                  
+                                  C0008031                  
+
+SENTENCE:  vomiting ,  fevers  or  chills .
+              NN        NNS    CC   NNS    
+           |======|   |======|    |======| 
+           Finding    Finding     Finding  
+           C0042963   C0015967    C0085593 
+
+SENTENCE:  She has no
+           PRP VBZ UH
+
+SENTENCE:  shortness of breath.
+              NN     IN   NN   
+           |=================| 
+                 Finding       
+                C0013404       
+
+SENTENCE:  No orthopnea.
+           DT    NN     
+              |=======| 
+               Finding  
+              C0085619  
+
+SENTENCE:  She has no hematuria or
+           PRP VBZ DT    NN     CC
+                      |=======|   
+                       Finding    
+                      C0018965    
+
+SENTENCE:  dysuria .
+              NN    
+           |======| 
+           Finding  
+           C0013428 
+
+SENTENCE:  She does report urinary frequency secondary to
+           PRP VBZ    VB     JJ       NN        JJ     TO
+                           |===============|             
+                                Finding                  
+                               C0042023                  
+
+SENTENCE:  incontinence.
+                NN      
+           |==========| 
+             Disorder   
+             C0021167   
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  On examination ,  blood   pressure is  130/90 ,
+           IN     NN           NN       NN    VBZ         
+                            |======| |======|             
+                            Anatomy  Finding              
+                            C0005767 C0460139             
+                            |===============|             
+                                 Finding                  
+                                C0005823                  
+
+SENTENCE:  temperature is  98.8 with a  pulse of 60 and a
+               NN      VBZ       IN  DT  NN   IN    CC  :
+
+SENTENCE:  respiratory rate 16 , height 5'6" and  weight   of 180 lb .
+               JJ       NN         NN        CC     NN     IN     NNS 
+                                                 |=======|            
+                                                 Procedure            
+                                                 C1305866             
+
+SENTENCE:  In general ,
+           IN   JJ     
+
+SENTENCE:  the patient is  an elderly woman in no acute distress.
+           DT    NN    VBZ DT   JJ     NN   IN DT  JJ      NN    
+                                                        |======| 
+                                                        Finding  
+                                                        C0231303 
+
+SENTENCE:    Skin   shows
+              NN      :  
+           |======|      
+           Anatomy       
+           C1123023      
+
+SENTENCE:  no evidence of lesions .
+           DT    NN    IN   NNS    
+                          |======| 
+                          Finding  
+                          C0221198 
+
+SENTENCE:  There is  no evidence of lymphadenopathy.
+            EX   VBZ DT    NN    IN       NN        
+                                    |=============| 
+                                        Finding     
+                                       C0497156     
+
+SENTENCE:    Head   ,   ears   ,   eyes   ,   nose   and  throat  reveals  pupils  equal , round and
+              NN        NNS        NNS         NN    CC     NN      VBZ     NNS     JJ      NN   CC 
+           |======|   |======|   |======|   |======|     |======|         |======|                  
+           Anatomy    Anatomy    Anatomy    Anatomy      Anatomy          Anatomy                   
+           C0018670   C0013443   C0015392   C0028429     C0031354         C0034121                  
+                                                                          |============|            
+                                                                             Finding                
+                                                                             C0578617               
+
+SENTENCE:  reactive to light and accommodation with extraocular movements
+              JJ    IN  JJ   CC       NN        IN      JJ         NNS   
+                                                                |=======|
+                                                                 Finding 
+                                                                C0026649 
+
+SENTENCE:  intact.
+             JJ   
+
+SENTENCE:  Her    neck   is  supple with no tenderness.
+           PRP$    NN    VBZ   JJ    IN  DT     NN     
+                |======|                    |========| 
+                Anatomy                      Finding   
+                C0027530                     C0234233  
+
+SENTENCE:  Her  breasts  have
+           PRP$   NNS     .  
+                |======|     
+                Anatomy      
+                C0006141     
+
+SENTENCE:  no masses.
+           DT  NNS   
+
+SENTENCE:  Her   lungs   are clear to auscultation bilaterally.
+           PRP$   NNS    VBP  JJ   IN      NN          RB      
+                |======|              |==========|             
+                Anatomy                Procedure               
+                C0024109                C0004339               
+
+SENTENCE:   Heart  :
+              NN    
+           |======| 
+           Anatomy  
+           C0018787 
+
+SENTENCE:  Regular rate and rhythm with no evidence of  murmur  , gallop
+             JJ     NN  CC    NN    IN  DT    NN    IN    NN        NN  
+                                                       |======|         
+                                                       Finding          
+                                                       C0018808         
+
+SENTENCE:  or rub detected.
+           CC NN    VBN    
+
+SENTENCE:  Her  abdomen  is  soft , nontender and nondistended
+           PRP$    NN    VBZ  JJ       JJ     CC       JJ     
+                |======|                                      
+                Anatomy                                       
+                C0000726                                      
+
+SENTENCE:  with no masses.
+            IN  DT  NNS   
+
+SENTENCE:  Neurologically , the patient is   alert   and oriented
+                 RB         DT    NN    VBZ    JJ    CC     JJ   
+                                            |======|     |======|
+                                            Finding      Finding 
+                                            C0239110     C1961028
+
+SENTENCE:  times three.
+            IN    CD   
+
+SENTENCE:  Cranial   nerves  II-XII are intact.
+              JJ      NNS    CD CD  VBP   JJ   
+           |======| |======|                   
+           Anatomy  Anatomy                    
+           C0037303 C0027740                   
+           |===============|                   
+                Anatomy                        
+               C0010268                        
+
+SENTENCE:  Examination of the
+               NN      IN CD 
+
+SENTENCE:  extremities shows sensation intact to light  touch   and pinprick in
+               NNS      VBZ     NN       JJ   IN  JJ      NN    CC     NN    NN
+           |=========|       |=======|                 |======|                
+             Anatomy          Finding                  Finding                 
+            C0015385         C0036658                  C0702221                
+
+SENTENCE:  the L1-S1 distributions.
+           DT  NN NN      NNS      
+
+SENTENCE:  Motor is  5/5 in the iliopsoas ,
+            NN   VBZ     IN DT     NN      
+                                |=======|  
+                                 Anatomy   
+                                C0224417   
+
+SENTENCE:  quadriceps , AT , EHL ,   FHL    and GS .
+              NNS       NN   NN       NN    CC  NNP 
+           |========|              |======|         
+            Anatomy                Finding          
+            C0224440               C0272199         
+
+SENTENCE:  She has palpable dorsalis pedis
+           PRP VBZ    JJ       NN     NN  
+
+SENTENCE:  and posterior  tibial  pulses.
+           CC     JJ        JJ     NNS   
+               |=======| |======|        
+               Disorder  Anatomy         
+               C0751438  C0040184        
+
+SENTENCE:  Her  left    hip    range of motion has
+           PRP$  JJ     NN      NN   IN   NN    . 
+                     |=======| |=============|    
+                      Anatomy     Procedure       
+                     C0019552     C0150220        
+                     |=======|                    
+                     Procedure                    
+                     C1292890                     
+                |============|                    
+                   Anatomy                        
+                   C0524471                       
+                     |=======================|    
+                              Finding             
+                             C0576002             
+
+SENTENCE:  flexion  to 110 degrees.
+              NN    IN       NNS   
+           |======|                
+           Finding                 
+           C0231452                
+
+SENTENCE:  She has external rotation to 20 degrees
+           PRP VBZ    JJ       NN    IN      NNS  
+
+SENTENCE:  and internal rotation to 15 degrees with   pain  .
+           CC     JJ       NN    IN      NNS    IN     NN    
+                                                    |======| 
+                                                    Finding  
+                                                    C0030193 
+
+SENTENCE:  Deep  tendon 
+            JJ     NN   
+                |======|
+                Anatomy 
+                C0039508
+
+SENTENCE:  reflexes are  normal .
+             NNS    VBP    JJ    
+           |======|     |======| 
+           Finding      Finding  
+           C0034929     C0231683 
+           C0596002     C0558145 
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was given a  prescription for Coumadin
+           DT    NN    VBD  VBN  DT      NN      IN    NNP   
+                                                     |======|
+                                                       Drug  
+                                                     C0699129
+
+SENTENCE:  to be taken on the evening prior to her  surgery
+           TO VB  VBN  IN DT    NN     JJ   IN PRP$   NN   
+
+SENTENCE:  and was admitted on 5/23/98 at which time she underwent and
+           CC  VBD   VBN    IN         IN  WDT   NN  PRP    VBD     . 
+
+SENTENCE:  uneventful left total    hip    replacement.
+               JJ      JJ   JJ      NN         NN      
+                                 |=======| |=========| 
+                                 Procedure  Procedure  
+                                 C1292890   C0035139   
+                                 |=======|             
+                                  Anatomy              
+                                 C0019552              
+                                 |===================| 
+                                       Procedure       
+                                       C0392806        
+                           |=========================| 
+                                    Procedure          
+                                    C0040508           
+
+SENTENCE:  She was treated with
+           PRP VBD   VBN    IN 
+
+SENTENCE:  perioperative antibiotics and at the time of bladder 
+                JJ           NNS     CC  IN DT   NN  IN    NN   
+                         |=========|                    |======|
+                            Drug                        Anatomy 
+                          C0003232                      C0005682
+
+SENTENCE:  catheterization preoperatively , urinalysis and urine  culture  were
+                 NN              RB             NN     CC   NN      NN     VBD 
+           |=============|                  |========|           |=======|     
+              Procedure                     Procedure            Procedure     
+              C0007430                       C0042014            C2242979      
+                                                           |=============|     
+                                                              Procedure        
+                                                              C0430404         
+
+SENTENCE:  sent.
+            NN  
+
+SENTENCE:  She was treated with perioperative antibiotics and was
+           PRP VBD   VBN    IN       JJ           NNS     CC  VBD
+                                              |=========|        
+                                                 Drug            
+                                               C0003232          
+
+SENTENCE:  continued on Coumadin postoperatively.
+              VBN    IN   NNP          RB        
+                        |======|                 
+                          Drug                   
+                        C0699129                 
+
+SENTENCE:  On postoperative day #1 , Hemovac   drain   was discontinued and her 
+           IN      JJ       NN         NN       NN     VBD     VBN      CC  PRP$
+                                             |=======|                          
+                                             Procedure                          
+                                             C0013103                           
+
+SENTENCE:  laboratory values revealed a  hematocrit of 29.6.
+               NN      NNS     VBD    DT     NN     IN      
+           |========|                    |========|         
+           Procedure                     Procedure          
+            C0022885                      C0018935          
+
+SENTENCE:  She was
+           PRP VBD
+
+SENTENCE:  transfused with one unit of  packed     red     blood    cells  .
+              VBN      IN  CD   NN  IN    JJ        JJ       NN      NNS    
+                                       |=======| |======| |======| |======| 
+                                       Procedure Finding  Anatomy  Anatomy  
+                                       C0184967  C0332575 C0005767 C0007634 
+                                                          |===============| 
+                                                               Anatomy      
+                                                              C0005773      
+                                                 |========================| 
+                                                            Drug            
+                                                          C1277078          
+                                                 |========================| 
+                                                          Anatomy           
+                                                          C0014792          
+                                       |==================================| 
+                                                       Drug                 
+                                                     C2316467               
+
+SENTENCE:  She did
+           PRP VBD
+
+SENTENCE:  complain of some  nausea  related to her    pain   medications which
+              VB    IN  DT     NN      VBN   IN PRP$    NN        NNS      WDT 
+                            |======|                 |======| |=========|      
+                            Finding                  Finding     Drug          
+                            C0027497                 C0030193  C0013227        
+
+SENTENCE:  resolved after treatment with Droperidol initially and then
+             VBD     IN      NN      IN      NN        RB     CC   RB 
+                          |=======|      |========|                   
+                          Procedure         Drug                      
+                          C0087111        C0013136                    
+
+SENTENCE:  Compazine later.
+              NNP     RB   
+           |=======|       
+             Drug          
+           C0701017        
+
+SENTENCE:  On postoperative day #2 , her  dressing  was taken
+           IN      JJ       NN       PRP$    NN     VBD  VBN 
+                                          |=======|          
+                                          Procedure          
+                                          C0278286           
+                                          |=======|          
+                                           Finding           
+                                          C1305428           
+
+SENTENCE:  down and the incision  was noted to be clean , dry and intact with no
+            RB  CC  DT     NN     VBD  VBN  TO VB  JJ     JJ  CC    JJ    IN  UH
+                        |=======|                                               
+                        Procedure                                               
+                        C0184898                                                
+
+SENTENCE:  evidence of erythema or discharge.
+              NN    IN    NN    CC    NN     
+                       |======|              
+                       Disorder              
+                       C0041834              
+
+SENTENCE:  On postoperative day #3 , she
+           IN      JJ       NN       PRP
+
+SENTENCE:  failed a  voiding  trial and Dr. Hoganson from the Urology Department
+            VBD   DT    NN     NN   CC  NNP   NNP     IN  DT    NN        NN    
+                     |======|                                                   
+                     Finding                                                    
+                     C0042034                                                   
+
+SENTENCE:  was consulted.
+           VBD    VBN    
+
+SENTENCE:  He  recommended continued Foley catheterization or
+           PRP     VBD        VBN     NNP        NN        . 
+                                           |=============|   
+                                              Procedure      
+                                              C0007430       
+
+SENTENCE:  intermittent catheterization for failure to void or for low output
+                JJ            NN        IN    NN    TO  VB  CC IN  JJ    NN  
+                        |=============|                                      
+                           Procedure                                         
+                           C0007430                                          
+
+SENTENCE:  incontinence , and further recommended suppression antibiotics in
+                NN        CC    RB        VBN         NN          NNS     . 
+           |==========|                           |=========| |=========|   
+             Disorder                               Finding      Drug       
+             C0021167                              C0221103    C0003232     
+
+SENTENCE:  the early post perioperative  period .
+           DT   JJ    JJ       JJ          NN    
+                                        |======| 
+                                        Finding  
+                                        C0025344 
+
+SENTENCE:  The patient was treated with
+           DT    NN    VBD   VBN    IN 
+
+SENTENCE:  Velosef  500 milligrams p.o. q.i.d. because of her  sulfa   drug  
+              NN           NNS      FW    FW     IN    IN PRP$  NN      NN   
+           |======|                                                  |======|
+             Drug                                                      Drug  
+           C0699948                                                  C0013227
+                                                               |============|
+                                                                    Drug     
+                                                                  C0599503   
+
+SENTENCE:  allergy .
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  On discharge , she was also given a  prescription for seven
+           IN    NN       PRP VBD  RB   VBN  DT      NN      IN   CD  
+
+SENTENCE:  days of Velosef .
+           NNS  IN    NN    
+                   |======| 
+                     Drug   
+                   C0699948 
+
+SENTENCE:  On postoperative day #4 , the patient was noted to be doing well.
+           IN      JJ       NN       DT    NN    VBD  VBN  TO VB  VBG   RB  
+
+SENTENCE:  Plans were made for her to be discharged to home with VNA Services
+            NNS  VBD  VBN  IN  PRP TO VB    VBN     IN  NN   IN  NN    NNS   
+                                                                     |======|
+                                                                     Finding 
+                                                                     C0557854
+
+SENTENCE:  for  wound   checks , and physical  therapy  for   gait   training , partial
+           IN     NN     NNS     CC     JJ       NN     IN     NN       NN        JJ   
+               |======|                       |=======|     |======|                   
+               Disorder                       Procedure     Finding                    
+               C0043250                       C0087111      C0016928                   
+                                     |================|     |===============|          
+                                         Procedure              Procedure              
+                                          C0949766              C0085673               
+
+SENTENCE:  weightbearing on the left lower extremity.
+                NN       IN DT   JJ   JJ      NN     
+                                           |=======| 
+                                            Anatomy  
+                                           C0015385  
+                                     |=============| 
+                                         Anatomy     
+                                        C0023216     
+                                |==================| 
+                                      Anatomy        
+                                      C0230416       
+
+SENTENCE:  The patient will also
+           DT    NN     MD   RB 
+
+SENTENCE:  have PT and    INR    levels checked two times per week while at home.
+            VB  NN CC     NN      NNS     VBN   CD   NNS  IN   NN   IN   IN  NN  
+                       |=======|                                                 
+                       Procedure                                                 
+                       C0525032                                                  
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Velosef  500 milligrams p.o. q.i.d. ,
+              NN           NNS      FW    FW    
+           |======|                             
+             Drug                               
+           C0699948                             
+
+SENTENCE:   Colace  100 milligrams p.o. b.i.d. , Coumadin
+             NNP           NNS      FW    FW       NNP   
+           |======|                              |======|
+             Drug                                  Drug  
+           C0282139                              C0699129
+
+SENTENCE:  to keep a  PT/   INR    between 1.5-2.0.
+           TO  VB  DT NN    NN       IN            
+                         |=======|                 
+                         Procedure                 
+                         C0525032                  
+
+SENTENCE:  We  will begin treating her with
+           PRP  MD   VB     VBG    PRP  IN 
+
+SENTENCE:  2 milligrams p.o. q. h.s. , Percocet 1-2 tablets  p.o. q .4h.  p .r .n .
+                NNS      FW  FW  FW      NNP          NNS     FW  FW  NNS RB VB RB 
+                                       |======|     |======|                       
+                                         Drug         Drug                         
+                                       C0086787     C0039225                       
+
+SENTENCE:    pain  .
+              NN    
+           |======| 
+           Finding  
+           C0030193 
+
+SENTENCE:  DISCHARGE INSTRUCTIONS:
+              NNP        NNS      
+
+SENTENCE:  The patient was instructed to keep the
+           DT    NN    VBD    VBN     TO  VB   . 
+
+SENTENCE:  incision  clean and dry for five additional
+              NN      JJ   CC  JJ  IN   CD      JJ    
+           |=======|                                  
+           Procedure                                  
+           C0184898                                   
+
+SENTENCE:  days and then was told that she may shower , but take no baths.
+           NNS  CC   RB  VBD VBN   IN  PRP MD    VB     CC  VBP  DT  NNS  
+
+SENTENCE:  She
+           PRP
+
+SENTENCE:  was instructed to take the Coumadin for 3-6 weeks for a  PT/   INR    goal
+           VBD    VBN     TO  VB  DT    NNP    IN       NNS  IN  DT NN    NN      NN 
+                                      |======|                         |=======|     
+                                        Drug                           Procedure     
+                                      C0699129                         C0525032      
+
+SENTENCE:  of 1.5-2.0.
+           IN         
+
+SENTENCE:  She was also instructed to continue the Velosef  for
+           PRP VBD  RB     VBN     TO    VB    DT     NN    IN 
+                                                   |======|    
+                                                     Drug      
+                                                   C0699948    
+
+SENTENCE:  seven days as per Dr. Brueggemann recommendation.
+            CD   NNS  IN IN  NNP     NNP           NN       
+
+SENTENCE:  She was instructed
+           PRP VBD    VBN    
+
+SENTENCE:  not to drive until this was okay with Dr. Hallihan and she was
+           RB  TO  VB    IN    DT  VBD  JJ   IN  NNP   NNP    CC  PRP VBD
+
+SENTENCE:  instructed to remain partial weightbearing on the left lower
+              VBN     TO   VB     JJ         NN       IN DT   JJ   JJ  
+
+SENTENCE:  extremity.
+              NN     
+           |=======| 
+            Anatomy  
+           C0015385  
+
+SENTENCE:  She was further instructed to follow up with Dr. Kolesnik
+           PRP VBD   RB       VBN     TO   VB   RP  IN  NNP   NNP   
+
+SENTENCE:  in six weeks.
+           IN CD   NNS  
+
+SENTENCE:  COMPLICATIONS DURING ADMISSION:
+                NNS        IN      NN     
+           |===========|                  
+              Finding                     
+             C0009566                     
+
+SENTENCE:  None.
+            NN  
+
+SENTENCE:  CONDITION:
+              NN     
+           |=======| 
+           Disorder  
+           C0012634  
+
+SENTENCE:  Stable.
+             JJ   
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home with VNA Services.
+            NN   IN  NN    NNS    
+                         |======| 
+                         Finding  
+                         C0557854 
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  VON CREMONA ,  M . D .
+           NN    NN      NNP NNP 
+
+SENTENCE:  XN309
+            NN  
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  GORDON HAPTONSTALL ,  M . D .
+             NN       NN        NNP NNP 
+
+SENTENCE:  RK3  PA825/5016
+           NN    NN       
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  7413 Index No. UZMPC05CH D : 7/3/98
+                 NNP  NN     NN     NN        
+
+SENTENCE:  T : 2/19/98
+           NN         
+

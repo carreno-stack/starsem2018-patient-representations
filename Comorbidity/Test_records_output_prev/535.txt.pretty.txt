@@ -1,0 +1,884 @@
+SENTENCE:  588584804 | SH | 89705423 | | 8491700 | 6/12/2005 12:00:00 AM | Hypotension , hypoglycemia | |   DIS    | Admission Date:
+                       NN                                             NN       NN             NN             NN         NN      NN  
+                                                                           |=========|   |==========|     |======|                  
+                                                                             Finding       Disorder       Finding                   
+                                                                            C0020649       C0020615       C1444662                  
+                                                                                                          |======|                  
+                                                                                                          Disorder                  
+                                                                                                          C0012634                  
+                                                                                                          C1970187                  
+
+SENTENCE:  4/20/2005 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  11/1/2005
+                    
+
+SENTENCE:  ****** FINAL DISCHARGE ORDERS ******
+                   JJ      NN      NNS         
+
+SENTENCE:  DELEKTA , DOMENIC K  619-41-22-8
+             NN        NN    NN            
+
+SENTENCE:  Ster
+            NN 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  2/24/05 AT 01:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Attending evaluation
+               NN      IN     NN         NN    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  HEBEL , DEAN MICHEAL ,  M . D .
+            NN      NN    JJ      NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  TYLENOL  ( ACETAMINOPHEN ) 650 MG PO Q4H PRN Headache
+             NNP           NNP            NN JJ NN  FW     NN   
+           |======|   |===========|                     |======|
+             Drug         Drug                          Finding 
+           C0699142     C0000970                        C0018681
+
+SENTENCE:  ACETYLSALICYLIC ACID ( CHILDREN'S ) 81 MG PO QD
+                 NN         NN       NN           NN FW FW
+           |==================|                           
+                   Drug                                   
+                 C0004057                                 
+
+SENTENCE:   COLACE  ( DOCUSATE  SODIUM  ) 100 MG PO BID
+              NN         NN       NN          NN JJ NN 
+           |======|   |======| |======|                
+             Drug       Drug     Drug                  
+           C0282139   C1692318 C0037473                
+                      |===============|                
+                            Drug                       
+                          C0243237                     
+
+SENTENCE:   ZOLOFT  ( SERTRALINE ) 100 MG PO QD
+             NNP         NNP           NN FW FW
+           |======|   |========|               
+             Drug        Drug                  
+           C0284660    C0074393                
+
+SENTENCE:  NEURONTIN ( GABAPENTIN ) 600 MG PO TID PRN   Pain  
+              NN          NNP           NN FW NN  FW     NN   
+           |=======|   |========|                     |======|
+             Drug         Drug                        Finding 
+           C0678176     C0060926                      C0030193
+
+SENTENCE:   AMBIEN  ( ZOLPIDEM TARTRATE ) 5 MG PO QHS PRN Insomnia
+              NN        NNP       NN        NN JJ NN  FW     NN   
+           |======|   |======| |======|                   |======|
+             Drug       Drug     Drug                     Finding 
+           C0487782   C0078839 C0144544                   C0917801
+                      |===============|                           
+                            Drug                                  
+                          C0724725                                
+
+SENTENCE:  Food/  Drug   Interaction Instruction
+           NNP    NNP        NN          NN     
+                |======| |=========|            
+                  Drug     Finding              
+                C0013227  C0687133              
+
+SENTENCE:  Give on an empty stomach  ( give 1hr before or 2hr after
+            VB  IN DT  JJ      NN       VB  NN    IN   CC NN   NN  
+                            |======|                               
+                            Disorder                               
+                            C0038354                               
+                            |======|                               
+                            Anatomy                                
+                            C1278920                               
+                            C3714551                               
+
+SENTENCE:  food )
+            NN   
+
+SENTENCE:  NEOSYNEPHRINE 0.25% ( PHENYLEPHRINE   HCL    0.25% )
+                NN                    NN          NN           
+           |===========|         |===========| |======|        
+               Drug                  Drug        Drug          
+             C0702190              C0031469    C0020259        
+                                 |====================|        
+                                          Drug                 
+                                        C0031470               
+
+SENTENCE:  2  SPRAY     INH    QD
+                NN       NN    FW
+             |======| |======|   
+               Drug     Drug     
+             C1154182 C0022209   
+
+SENTENCE:  LEVAQUIN ( LEVOFLOXACIN ) 500 MG PO QD  X  1 doses
+              NN           NN            NN FW FW SYM    NNS 
+           |======|   |==========|                           
+             Drug         Drug                               
+           C0721336     C0282386                             
+
+SENTENCE:  Starting on 1/14/05 Food/  Drug   Interaction Instruction
+              NN    IN          NN     NN        NN          NN     
+                                    |======| |=========|            
+                                      Drug     Finding              
+                                    C0013227  C0687133              
+
+SENTENCE:  Administer   iron   products a  minimum of 2 hours before or
+               VB        NN      NNS    DT   NN    IN    NNS    IN   CC
+                      |======|                                         
+                        Drug                                           
+                      C0302583                                         
+
+SENTENCE:  after a  levofloxacin or ciprofloxacin dose dose
+            IN   DT      NN      CC      NN        NN   NN 
+                    |==========|    |===========|          
+                        Drug            Drug               
+                      C0282386        C0008809             
+
+SENTENCE:  If on tube feeds , please cycle ( hold 1 hr before to 2 hr 
+           IN IN  NN   NNS      NN    NN      NN    NN   IN   IN   NNS
+
+SENTENCE:  after ) Take 2 hours before or 2 hours after dairy products.
+            NN      VB     NNS    IN   CC    NNS   IN    JJ     NNS    
+
+SENTENCE:  AVANDIA  ( ROSIGLITAZONE ) 4 MG PO QD
+             NNP           NN           NN FW FW
+           |======|   |===========|             
+             Drug         Drug                  
+           C0875967     C0289313                
+
+SENTENCE:   TRICOR  ( FENOFIBRATE ) 145 MG PO QD
+              NN          NN            NN FW FW
+           |======|   |=========|               
+             Drug        Drug                   
+           C0723893    C0033228                 
+
+SENTENCE:  Number of Doses Required ( approximate ): 3
+             NN   IN  NNS    VBN          JJ          
+
+SENTENCE:   NEXIUM  ( ESOMEPRAZOLE ) 40 MG PO QD
+              NN          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0939400     C0937846                
+
+SENTENCE:   LANTUS  ( INSULIN  GLARGINE ) 30 UNITS SC QHS
+              NN         NN       NN          NNS  NN NN 
+           |======|   |======| |======|                  
+             Drug       Drug     Drug                    
+           C0876064   C0021641 C0907402                  
+
+SENTENCE:  Starting  Today   September
+              NN       NN       NNP   
+                    |======|          
+                      Drug            
+                    C0310367          
+
+SENTENCE:  Instructions:
+               NNS      
+
+SENTENCE:  Please give half-dose if pt is     NPO   
+             UH    VB   NN   NN  IN NN VBZ    JJ    
+                                           |=======|
+                                           Procedure
+                                           C0419179 
+
+SENTENCE:  LIPITOR  ( ATORVASTATIN ) 20 MG PO QD
+              NN          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0593906     C0286651                
+
+SENTENCE:  METFORMIN 1 , 000 MG PO BID
+              NN             NN NN RB 
+           |=======|                  
+             Drug                     
+           C0025598                   
+
+SENTENCE:  NIFEREX   TABLET  50 MG PO BID
+             NNP       NN       NN NN RB 
+           |======| |======|             
+             Drug     Drug               
+           C0212019 C0039225             
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 2/24/05 by :
+              JJ     VBN  IN         IN  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  LEVOFLOXACIN &
+                NN       
+           |==========|  
+               Drug      
+             C0282386    
+
+SENTENCE:  POLYSACCHARIDE   IRON   COMPLEX Reason for override:
+                 NN          NN      NN      NN   IN     NN    
+           |============| |======|                             
+                Drug        Drug                               
+              C0032594    C0302583                             
+           |=====================|                             
+                    Drug                                       
+                  C0722705                                     
+           |=============================|                     
+                        Drug                                   
+                      C0357080                                 
+
+SENTENCE:   Aware  
+              NN   
+           |======|
+           Finding 
+           C0004448
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House /   ADA    1800 cals/dy
+            NN        NN         NNS  NN
+                   |======|             
+                     Drug               
+                   C0001457             
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Walking  as tolerated
+              NN    IN    VBN   
+           |======|             
+           Finding              
+           C0080331             
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Please follow up with  primary  care physician ,
+             UH     VB   RP  IN     JJ      NN     NN      
+                                 |=======|                 
+                                 Procedure                 
+                                 C0439631                  
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  ANTIHISTAMINES , TRICYCLIC COMPOUNDS
+                NNS            NN        NN    
+           |============|                      
+                Drug                           
+              C0003360                         
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  hypotension , hypoglycemia
+               NN             NN     
+           |=========|   |==========|
+             Finding       Disorder  
+            C0020649       C0020615  
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  Hypotension , hypoglycemia
+               NN             NN     
+           |=========|   |==========|
+             Finding       Disorder  
+            C0020649       C0020615  
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:   NIDDM     HTN    S /P  CHOLE S /P  APPY S /P 
+             NNP       NN    NN IN  NN   NN IN  NN  NN NN
+           |======| |======|                             
+           Disorder Disorder                             
+           C0011860 C0020538                             
+
+SENTENCE:  RSO hyperlipidemia ( hyperlipidemia ) morbid obesity 
+           NN        NN               NN           NN      NN   
+               |============|   |============|          |======|
+                  Disorder         Disorder             Disorder
+                  C0020473         C0020473             C0028754
+                                                 |=============|
+                                                    Disorder    
+                                                    C0028756    
+
+SENTENCE:  ( obesity  ) Osteoarthritis R    knee    ( OA of  knees   ) Migraines ( migraine
+                NN            NN       JJ    NN       NN IN   NNS         NNS         NN   
+             |======|   |============|    |=======|         |======|   |=======|   |======|
+             Disorder      Disorder        Anatomy          Anatomy    Disorder    Disorder
+             C0028754      C0029408       C0022742          C0022742   C0149931    C0149931
+                                          |=======|                                        
+                                          Procedure                                        
+                                          C0562271                                         
+                                       |==========|                                        
+                                         Anatomy                                           
+                                         C0230431                                          
+
+SENTENCE:  headache )   GERD   ( gastroesophageal  reflux  disease  ) Ruptured L  Achilles
+              NN         NN             JJ           NN       NN        VBN    JJ    NN   
+           |======|   |======|                    |======| |======|               |======|
+           Finding    Disorder                    Disorder Disorder               Anatomy 
+           C0018681   C0017168                    C0017168 C0012634               C0001074
+
+SENTENCE:   tendon  hx of   MRSA   cellulitis ( H /O  cellulitis ) s /p     TAH    ( S /P  hysterectomy )
+              NN    NN IN    NN        NN       NN IN     NN       NN IN    NN       NN IN      NN       
+           |======|       |======| |========|         |========|         |=======|         |==========|  
+           Anatomy        Disorder  Finding            Finding           Procedure          Procedure    
+           C0039508       C0343401  C0007642           C0007642          C0404079            C0020699    
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  None
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  Antibiotics ,    IVF   
+               NNS          NN    
+           |=========|   |=======|
+              Drug       Procedure
+            C0003232     C0015915 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  CC:
+           NN 
+
+SENTENCE:  Lightheadedness and unsteady   gait  .
+                 NN        CC     JJ       NN    
+           |=============|              |======| 
+               Finding                  Finding  
+              C0220870                  C0016928 
+                               |===============| 
+                                    Finding      
+                                   C0231686      
+
+SENTENCE:    HPI   :
+              NN    
+           |======| 
+           Disorder 
+           C0268529 
+
+SENTENCE:  52 yo morbidly  obese   woman w /hx of T2DM , migraines ,   HTN    p /w 
+              JJ    RB       JJ     NN   IN NN IN  NN       NNS         NN    IN RB
+                          |======|                       |=======|   |======|      
+                          Disorder                       Disorder    Disorder      
+                          C0028754                       C0149931    C0020538      
+
+SENTENCE:  several hours of lightheadedness , unsteady   gait   , thick feeling  of
+             JJ     NNS  IN       NN             JJ       NN       NN      NN    IN
+                            |=============|            |======|         |======|   
+                                Finding                Finding          Finding    
+                               C0220870                C0016928         C1527305   
+                                              |===============|                    
+                                                   Finding                         
+                                                  C0231686                         
+
+SENTENCE:  her   tongue  , and difficulty gripping items b /l  in the morning of the
+           PRP$    NN      CC      NN       VBG     NNS  NN JJ IN DT    NN    IN CD 
+                |======|       |========|                                           
+                Anatomy         Finding                                             
+                C0040408        C1299586                                            
+
+SENTENCE:  day she presented.
+           NN  PRP    VBD    
+
+SENTENCE:  States symptoms NOT the same as her  hypoglycemic
+            NNP     NNS    RB  DT   JJ  IN PRP$      JJ     
+                                                |==========|
+                                                    Drug    
+                                                  C0020616  
+
+SENTENCE:  sx .
+           NNS 
+
+SENTENCE:  No focal numbness , weakness , or paralysis.
+           DT  JJ      NN         NN      CC    NN     
+                    |======|   |======|      |=======| 
+                    Finding    Finding        Finding  
+                    C0028643   C3714552      C0522224  
+
+SENTENCE:  In ED
+           IN NN
+
+SENTENCE:  found to be hypoglycemic to 50s , then hypotensive to 70s/40s.
+            VBN  TO VB      JJ      IN NNS    RB      JJ      IN NNS NNS 
+                       |==========|                                      
+                           Drug                                          
+                         C0020616                                        
+
+SENTENCE:  Given
+            VBN 
+
+SENTENCE:  3L NS -->BP responded then dropped again;
+           NN NNS   NN    VBD     RB    VBN    RB   
+
+SENTENCE:  back up to systolics 110s
+            RB  IN IN    NNS     .  
+
+SENTENCE:  with additional fluids.
+            IN      JJ      NNS   
+
+SENTENCE:  By time of admission hypotension ,
+           IN  NN  IN    NN         NN       
+                                |=========|  
+                                  Finding    
+                                 C0020649    
+
+SENTENCE:  hypoglycemia , and episode of lightheadedness and unsteadiness had
+                NN        CC    NN    IN       NN        CC       NN      VBN
+           |==========|                  |=============|     |==========|    
+             Disorder                        Finding           Finding       
+             C0020615                       C0220870           C0427108      
+
+SENTENCE:  resolved.
+             VBN    
+
+SENTENCE:  PE:
+           NN 
+
+SENTENCE:  T  97.7 HR 74 BP 114/61 RR  10 Sat 98%
+           NN      NN    NN        NNP    NNP    
+
+SENTENCE:  RA Gen:  Obese   ,   NAD    , AAO  x 
+           NN NN      JJ         NN      NN  SYM
+                   |======|   |======|          
+                   Disorder     Drug            
+                   C0028754   C0027270          
+
+SENTENCE:  3 HEENT:
+              NN   
+
+SENTENCE:   PERRL   , anicteric ,   pale   conjunctivae ,
+              NN         JJ          JJ        NNS       
+           |======|   |=======|   |======|               
+           Finding     Finding    Finding                
+           C1642390   C0205180    C0030232               
+
+SENTENCE:  EOMI   Neck  :
+            NN     NN    
+                |======| 
+                Anatomy  
+                C0027530 
+
+SENTENCE:  No
+           UH
+
+SENTENCE:    JVD     Chest  :
+              NN       NN    
+           |======| |======| 
+           Finding  Anatomy  
+           C0425687 C0817096 
+
+SENTENCE:  CTA
+           NN 
+
+SENTENCE:  b /l  CV:
+           LS JJ NN 
+
+SENTENCE:  RRR;
+           NN  
+
+SENTENCE:  difficult to assess due to body
+              JJ     TO   VB   IN  IN  NN 
+           |=======|                      
+            Finding                       
+           C1299586                       
+
+SENTENCE:  habitus   Abd   :
+             NN       NN    
+                   |======| 
+                   Anatomy  
+                   C0000726 
+
+SENTENCE:   Obese   , soft ,
+              JJ       JJ   
+           |======|         
+           Disorder         
+           C0028754         
+
+SENTENCE:  NT   Ext   :
+           NN    NN    
+              |======| 
+              Disorder 
+              C0015306 
+
+SENTENCE:  No  edema   , R  lateral   toes   amputated;
+           DT    NN      JJ   JJ      NNS       VBN    
+              |======|              |======|           
+              Finding               Anatomy            
+              C0013604              C0040357           
+
+SENTENCE:  L    toes  
+           JJ   NNS   
+              |======|
+              Anatomy 
+              C0040357
+
+SENTENCE:  w /blisters Neuro:
+           IN   NNS     NN   
+              |======|       
+              Finding        
+              C0005758       
+
+SENTENCE:  AAOx3 , dec sensation LE b /l  , 5/5 strength
+            NN     NN     NN     NN NN JJ          NN   
+                       |=======|                        
+                        Finding                         
+                       C0036658                         
+
+SENTENCE:  all extremities , no cerebellar  signs   , no wide stance   gait   ,  limps   on
+           DT      NNS       DT     JJ       NNS      DT  JJ    NN      NN        NNS    IN
+               |=========|      |========| |======|                  |======|   |======|   
+                 Anatomy         Anatomy   Finding                   Finding    Finding    
+                C0015385         C0007765  C0311392                  C0016928   C0311395   
+
+SENTENCE:  left   foot     Labs  :
+            JJ     NN      NNS    
+                |======| |======| 
+                Anatomy  Finding  
+                C0016504 C0587081 
+           |===========|          
+              Anatomy             
+             C0230461             
+
+SENTENCE:    Hgb    9 ,    Hct    28.8 , Cr 1.4 ,   WBC    12.4 ,  bicarb   21;
+              NN           NN            NN         NNP              NN        
+           |======|     |=======|                 |======|        |=======|    
+             Drug       Procedure                 Anatomy         Procedure    
+           C0019046     C0018935                  C0023516        C0202059     
+                                                                  |=======|    
+                                                                    Drug       
+                                                                  C0074722     
+
+SENTENCE:  After 7-8L NS   bicarb   down to 13 , Cr  to 1.1.
+            IN     CD NNS    NN      IN  IN      NNP IN     
+                          |=======|                         
+                            Drug                            
+                          C0074722                          
+                          |=======|                         
+                          Procedure                         
+                          C0202059                          
+
+SENTENCE:  UA: first 1+LE , 10-12   WBC   ;
+           NN   JJ     NN           NNP    
+                                  |======| 
+                                  Anatomy  
+                                  C0023516 
+
+SENTENCE:    cath    specimen 1-2   WBC    , neg LE;
+              NN        NN           NN      JJ  NN 
+           |=======|              |======|          
+           Procedure              Anatomy           
+           C0007430               C0023516          
+
+SENTENCE:  AM cortisol 26;
+           NN    NN       
+              |======|    
+                Drug      
+              C0020268    
+
+SENTENCE:    Iron   45 , Ferritin 9
+              NN           NNP     
+           |======|      |======|  
+             Drug          Drug    
+           C0302583      C0015879  
+
+SENTENCE:    IMP   :
+              NN    
+           |======| 
+             Drug   
+           C0021533 
+
+SENTENCE:  52 yo  obese   woman with T2DM ,   HTN    , migraines
+              JJ    JJ     NN    IN   NN       NN         NNS   
+                 |======|                   |======|   |=======|
+                 Disorder                   Disorder   Disorder 
+                 C0028754                   C0020538   C0149931 
+
+SENTENCE:  admitted for lightheadedness , unsteady   gait   , and unexplained
+             VBN    IN        NN             JJ       NN      CC      JJ     
+                        |=============|            |======|                  
+                            Finding                Finding                   
+                           C0220870                C0016928                  
+                                          |===============|                  
+                                               Finding                       
+                                              C0231686                       
+
+SENTENCE:  hypotension in ED.
+               NN      IN NN 
+           |=========|       
+             Finding         
+            C0020649         
+
+SENTENCE:  1 )CV--nl    EKG    , no sx  ofischemia.
+              NN  JJ    NN       DT NNS     CC     
+                     |=======|                     
+                     Procedure                     
+                     C1623258                      
+
+SENTENCE:  Pt hypotensive in ED , then
+           NN     JJ      IN NN    RB 
+
+SENTENCE:  normotensive for >24 hours prior to discharge--possible autonomic
+                JJ      IN       NNS   JJ   IN    NN         JJ       JJ    
+           |==========|                                            |=======|
+             Finding                                                Anatomy 
+             C2712122                                              C0004388 
+
+SENTENCE:  neuropathy vs.
+               NN     CC 
+           |========|    
+            Disorder     
+            C0442874     
+
+SENTENCE:  hypovolemia vs.
+               NN      CC 
+           |=========|    
+             Finding      
+            C0546884      
+
+SENTENCE:   anemia  vs.
+              NN    CC 
+           |======|    
+           Disorder    
+           C0002871    
+
+SENTENCE:   sepsis .
+              NN    
+           |======| 
+           Disorder 
+           C0243026 
+
+SENTENCE:  Holding
+             NN   
+
+SENTENCE:  antihypertensives;
+                  NNS        
+           |===============| 
+                 Drug        
+               C0003364      
+
+SENTENCE:     IVF    given;
+              NN      VBN  
+           |=======|       
+           Procedure       
+           C0015915        
+
+SENTENCE:  on levaquin for ?  UTI   
+           IN    NN    IN      NN   
+              |======|      |======|
+                Drug        Disorder
+              C0721336      C0042029
+
+SENTENCE:  2 )Neuro--lightheadedness/unsteady   gait   , no focal
+               NN          NN           JJ       NN      DT  JJ  
+                     |=============|          |======|           
+                         Finding              Finding            
+                        C0220870              C0016928           
+                                     |===============|           
+                                          Finding                
+                                         C0231686                
+
+SENTENCE:  neurological sx .
+                JJ      NNS 
+
+SENTENCE:   Likely  hypotension and/or hypoglycemia;
+              JJ        NN      CC  CC      NN      
+           |======| |=========|        |==========| 
+           Finding    Finding            Disorder   
+           C0332148  C0020649            C0020615   
+
+SENTENCE:  following
+              JJ    
+
+SENTENCE:  neuro exam
+            JJ    NN 
+
+SENTENCE:  3 )  Endo  --DM w /hypoglycemia;
+                 NN     NN IN      NN      
+              |======|        |==========| 
+              Disorder          Disorder   
+              C0014175          C0020615   
+
+SENTENCE:  held oralhypoglycemics except glyburide while
+           VBN         NNS          IN      NN      NN  
+                                         |=======|      
+                                           Drug         
+                                         C0017628       
+
+SENTENCE:  in hospital and placed on SSI
+           IN    NN    CC   VBN   IN NNP
+
+SENTENCE:  4 )  Heme  --normocytic  anemia  , pt is  also   iron   deficient;
+                 NN         JJ        NN      NN VBZ  RB     NN       NN     
+              |======|             |======|               |======|           
+                Drug               Disorder                 Drug             
+              C0018966             C0002871               C0302583           
+                        |=================|                                  
+                             Disorder                                        
+                             C0085577                                        
+
+SENTENCE:  pt transfused 2u
+           NN    VBN     CD
+
+SENTENCE:  PRBCs 11/3 with   rise   of   Hgb    to 9.2 on 10/9 retic index is  3.6% , which is 
+            NN         IN     NN    IN    NN    IN     IN       JJ    NN   VBZ         WDT  VBZ
+                           |======|    |======|                                                
+                             Drug        Drug                                                  
+                           C0246719    C0019046                                                
+
+SENTENCE:  too low for her  degree of  anemia ; will need outpt follow-up
+           RB  JJ  IN  PRP$   NN   IN    NN      MD   VB   JJ     NN   NN
+                                      |======|                  |=======|
+                                      Disorder                   Finding 
+                                      C0002871                  C0589120 
+
+SENTENCE:  5 )ID--on levofloxacin for 3 days for ?  UTI   ;
+              NN  IN      NN      IN    NNS  IN      NN    
+                     |==========|                 |======| 
+                         Drug                     Disorder 
+                       C0282386                   C0042029 
+
+SENTENCE:  following  blood  /urine cx
+              VBG       NN     NN   NN
+                     |======|         
+                     Anatomy          
+                     C0005767         
+
+SENTENCE:  6 )Proph--  PPI    , lovenox 
+               NN      NNP         NN   
+                     |======|   |======|
+                       Drug       Drug  
+                     C0358591   C0728963
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  Please follow up  anemia  with  primary  care physician
+             UH     VB   RP    NN     IN     JJ      NN     NN    
+                            |======|      |=======|               
+                            Disorder      Procedure               
+                            C0002871      C0439631                
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  HOLTGREFE , MELVIN V.  , M.D. , PH.D. ( TC382 ) 2/24/05 @ 12:06 PM
+              NN         NN   NNP   NNP     NNP     CD                     NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

@@ -1,0 +1,424 @@
+SENTENCE:  248144759 | ASCH | 37914770 | | 410231 | 2/14/1991 12:00:00 AM | Discharge Summary | Unsigned |   DIS    | Admission Date:
+                        NN                                             NN      NN       NN         JJ         NN         NN      NN  
+                                                                                                           |======|                  
+                                                                                                           Finding                   
+                                                                                                           C1444662                  
+                                                                                                           |======|                  
+                                                                                                           Disorder                  
+                                                                                                           C0012634                  
+                                                                                                           C1970187                  
+
+SENTENCE:  2/14/1991 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Unsigned
+              JJ   
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  4/19/1991
+                    
+
+SENTENCE:  DISCHARGE DIAGNOSIS:
+              NNP       NN     
+                     |=======| 
+                      Finding  
+                     C0011900  
+
+SENTENCE:  UROSEPSIS.
+              NN     
+           |=======| 
+           Disorder  
+           C0149801  
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient is  a  69-year-old male
+           DT    NN    VBZ DT     NN  JJ   NN 
+
+SENTENCE:  with diabetes , rheumatoid arthritis
+            IN     NN          JJ        NN    
+                |======|              |=======|
+                Disorder              Disorder 
+                C0011849              C0003864 
+                           |==================|
+                                 Disorder      
+                                 C0003873      
+
+SENTENCE:  and hypertension who had a   fever   of 102 and shaking  chills  without
+           CC       NN      WP  VBD DT    NN    IN     CC    VBG     NNS       .   
+               |==========|            |======|                    |======|        
+                 Disorder              Finding                     Finding         
+                 C0020538              C0015967                    C0085593        
+
+SENTENCE:  symptoms of upper respiratory infection.
+             NNS    IN  JJ       JJ         NN     
+                                         |=======| 
+                                         Disorder  
+                                         C0009450  
+                             |===================| 
+                                   Disorder        
+                                   C0035243        
+                       |=========================| 
+                                Disorder           
+                                C0041912           
+
+SENTENCE:  He  did complain of
+           PRP VBD    VB    IN
+
+SENTENCE:  intermittent dysuria  and he  is  known to have prostatism.
+                JJ         NN    CC  PRP VBZ  VBN  TO  VB      NN     
+                        |======|                           |========| 
+                        Finding                             Finding   
+                        C0013428                            C0242453  
+
+SENTENCE:  He  was
+           PRP VBD
+
+SENTENCE:  therefore admitted to the Medicine Service .
+              RB       VBN    TO DT    NNP      NNP    
+                                     |======| |======| 
+                                       Drug   Finding  
+                                     C0013227 C0557854 
+
+SENTENCE:  Past medical history 
+            JJ    JJ       NN   
+                        |======|
+                        Finding 
+                        C0262926
+           |===================|
+                  Finding       
+                 C0455458       
+
+SENTENCE:  is  coronary  artery  disease  , myocardial infarction , diabetes
+           VBZ    JJ       NN       NN          JJ         NN          NN   
+               |======| |======| |======|              |========|   |======|
+               Anatomy  Anatomy  Disorder               Finding     Disorder
+               C0018787 C0003842 C0012634               C0021308    C0011849
+                        |===============|   |===================|           
+                            Disorder              Disorder                  
+                            C0852949              C0027051                  
+               |===============| |===================|                      
+                    Anatomy            Disorder                             
+                   C0205042            C0878544                             
+               |========================|                                   
+                        Disorder                                            
+                        C1956346                                            
+
+SENTENCE:  mellitus , rheumatoid arthritis and hypertension.
+              NN          JJ        NN     CC       NN      
+                                 |=======|     |==========| 
+                                 Disorder        Disorder   
+                                 C0003864        C0020538   
+                      |==================|                  
+                            Disorder                        
+                            C0003873                        
+
+SENTENCE:  Past surgical
+            JJ     JJ   
+
+SENTENCE:  history  is  negative.
+              NN    VBZ    JJ    
+           |======|              
+           Finding               
+           C0262926              
+
+SENTENCE:  He  has no known   drug   allergies.
+           PRP VBZ DT  JJ      NN       NNS    
+                            |======| |=======| 
+                              Drug    Finding  
+                            C0013227 C0020517  
+                            |================| 
+                                 Disorder      
+                                 C0013182      
+
+SENTENCE:  Medications
+               NNS    
+           |=========|
+              Drug    
+            C0013227  
+
+SENTENCE:  on admission are Tenormin , Dolobid  , Diabinase , Mevacor  , Ecotrin  ,
+           IN    NN     VBP   NNP        NNP         NNP        NNP        NNP     
+                            |======|   |======|               |======|   |======|  
+                              Drug       Drug                   Drug       Drug    
+                            C0592168   C0699201               C0728780   C0699274  
+
+SENTENCE:  Nifedipine.
+              NNP     
+           |========| 
+              Drug    
+            C0028066  
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  This is  a  mildly   ill   -appearing white male
+            DT  VBZ DT   RB      JJ       VBG     JJ    NN 
+                              |======|                     
+                              Finding                      
+                              C0231218                     
+
+SENTENCE:  in no acute distress , afebrile with
+           IN DT  JJ      NN         JJ     IN 
+                       |======|   |======|     
+                       Finding    Finding      
+                       C0231303   C0277797     
+
+SENTENCE:  stable vital  signs  .
+             JJ    JJ     NNS    
+                        |======| 
+                        Finding  
+                        C0311392 
+
+SENTENCE:    Head   and   neck   are unremarkable.
+              NN    CC     NN    VBP      JJ      
+           |======|     |======|                  
+           Anatomy      Anatomy                   
+           C0018670     C0027530                  
+           |===================|                  
+                  Anatomy                         
+                 C0460004                         
+
+SENTENCE:   Lungs   are
+             NNS    VBP
+           |======|    
+           Anatomy     
+           C0024109    
+
+SENTENCE:  clear.
+            JJ   
+
+SENTENCE:   Heart   has a  regular rate and rhythm with a  I /VI
+              NN    VBZ DT   JJ     NN  CC    NN    IN  DT CD NN
+           |======|                                             
+           Anatomy                                              
+           C0018787                                             
+
+SENTENCE:  holosystolic  murmur .
+                JJ         NN    
+                        |======| 
+                        Finding  
+                        C0018808 
+           |===================| 
+                 Disorder        
+                 C0232258        
+
+SENTENCE:  Abdomen  is  nontender.
+              NN    VBZ    JJ     
+           |======|               
+           Anatomy                
+           C0000726               
+
+SENTENCE:  GU examination on
+           NN     NN      . 
+
+SENTENCE:  admission by the Emergency Room internist was not recorded.
+              NN     IN DT     NNP    NNP     NN     VBD RB    VBN    
+
+SENTENCE:  LABORATORY DATA:
+               NN      NN  
+           |========|      
+           Procedure       
+            C0022885       
+
+SENTENCE:  On admission are remarkable for a  white
+           IN    NN     VBP     JJ     IN  DT  JJ  
+
+SENTENCE:   blood     cell   count of 12.2 thousand ,
+              NN       NN     NN   IN        NNS     
+           |======| |======|                         
+           Anatomy  Anatomy                          
+           C0005767 C0007634                         
+                    |============|                   
+                      Procedure                      
+                       C0007584                      
+           |===============|                         
+                Anatomy                              
+               C0005773                              
+           |=====================|                   
+                  Procedure                          
+                  C0005771                           
+
+SENTENCE:  creatinine 1.2.
+               NN         
+           |========|     
+              Drug        
+            C0010294      
+
+SENTENCE:  Urinalysis had a  pH of 5.5 , 1+ leukocyte esterase
+               NN     VBD DT NN IN             NN        NN   
+           |========|                       |=======| |======|
+           Procedure                         Anatomy    Drug  
+            C0042014                        C0023516  C0014894
+                                            |================|
+                                                   Drug       
+                                                 C0125619     
+
+SENTENCE:  and too numerous to count white  blood    cells  .
+           CC  RB     JJ    TO  NN    JJ      NN      NNS    
+                                           |======| |======| 
+                                           Anatomy  Anatomy  
+                                           C0005767 C0007634 
+                                           |===============| 
+                                                Anatomy      
+                                               C0005773      
+                                     |=====================| 
+                                             Anatomy         
+                                            C0023516         
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient was admitted with the
+           DT    NN    VBD   VBN     IN  CD 
+
+SENTENCE:  diagnosis of urosepsis and placed on
+              NN     IN    NN     CC   VBN   IN
+           |=======|    |=======|              
+            Finding     Disorder               
+           C0011900     C0149801               
+
+SENTENCE:  intravenous antibiotics.
+               JJ          NNS     
+                       |=========| 
+                          Drug     
+                        C0003232   
+
+SENTENCE:  He  was transferred to the urology service 
+           PRP VBD     VBN     IN DT    NN       NN   
+                                              |======|
+                                              Finding 
+                                              C0557854
+
+SENTENCE:  after consideration of his  prostatism was made and he  would be an
+            IN        NN       IN PRP$     NN     VBD VBN  CC  PRP  MD   VB JJ
+                                       |========|                             
+                                        Finding                               
+                                        C0242453                              
+
+SENTENCE:  eventual candidate for transurethral resection of the prostate.
+              JJ       NN     IN       JJ          NN     IN DT     NN    
+                                                |=======|        |======| 
+                                                Procedure        Anatomy  
+                                                C0728940         C0033572 
+                                  |=====================================| 
+                                                 Procedure                
+                                                 C0040771                 
+
+SENTENCE:  During his  hospitalization , he  promptly defervesced and remained
+             IN   PRP$       NN          PRP    RB        VBD     CC    VBD   
+
+SENTENCE:  afebrile for three days.
+              JJ    IN   CD   NNS  
+           |======|                
+           Finding                 
+           C0277797                
+
+SENTENCE:  He  was therefore changed to   oral  
+           PRP VBD    RB       VBN   IN    JJ   
+                                        |======|
+                                          Drug  
+                                        C1272919
+                                        |======|
+                                        Anatomy 
+                                        C0226896
+
+SENTENCE:  antibiotics and observed for 24-hours and because he  was stable , he 
+               NNS     CC    VBN    IN      NNS  CC    IN    PRP VBD   JJ     PRP
+           |=========|                                                           
+              Drug                                                               
+            C0003232                                                             
+
+SENTENCE:  was felt to be ready for discharge.
+           VBD VBN  TO VB  JJ   IN     NN     
+                          |=================| 
+                                Finding       
+                               C2314972       
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  The patient is  discharged to home.
+           DT    NN    VBZ    VBN     IN  NN  
+
+SENTENCE:  CONDITION ON DISCHARGE is  stable.
+              NN     IN    NNP    VBZ   JJ   
+           |=======|                         
+           Disorder                          
+           C0012634                          
+
+SENTENCE:  Follow
+             NN  
+
+SENTENCE:  up is  with Dr. Jerald B.  Sultana MEDICATIONS on discharge are
+           NN VBZ  IN  NNP  NNP   NNP   NNP       NNS     IN    NN      . 
+                                              |=========|                 
+                                                 Drug                     
+                                               C0013227                   
+
+SENTENCE:  Isordil  20 mg  p.o. t.i.d. , Atenolol 50 mg  p.o. q. day , Procardia XL 
+             NNP       NNS  FW    FW       NNP       NNS  FW  FW NN       NNP    NNP
+           |======|                      |======|                      |=======|    
+             Drug                          Drug                          Drug       
+           C0590720                      C0004147                      C0700861     
+                                                                       |===========|
+                                                                           Drug     
+                                                                         C0524665   
+
+SENTENCE:  60 mg  p.o. q. day , Mevacor  20 mg  p.o. q. day , Diabinase 100 mg  p .o .
+              NNS  FW  FW NN      NNP       NNS  FW  FW NN       NN         NNS RB NN 
+                                |======|                                              
+                                  Drug                                                
+                                C0728780                                              
+
+SENTENCE:  q. day , Ecotrin  1  tablet  p.o. q. day ,  Hytrin  1 mg  p.o. q. h.s. and
+           FW NN      NNP         NN     FW  FW NN      NNP      NNS  FW  FW  FW   . 
+                    |======|   |======|               |======|                       
+                      Drug       Drug                   Drug                         
+                    C0699274   C0039225               C0591628                       
+
+SENTENCE:  Ciprofloxacin 500 mg  p.o. b.i.d.  x  ten days.
+                NNP          NNS  FW    FW   SYM CD  NNS  
+           |===========|                                  
+               Drug                                       
+             C0008809                                     
+
+SENTENCE:  IP526/1101
+            NN       
+
+SENTENCE:  ISRAEL T.  DZIEKAN ,  M . D .
+            NNP   NNP   NNP     NNP NNP 
+
+SENTENCE:  ZH8 D : 11/6/91
+           NN  NN         
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  5772 Report:
+                  NN   
+
+SENTENCE:  H7507Y26 T : 10/9/91
+              NN    NN         
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  ERIN STATZER ,  M . D .
+            NN    NN      NNP NNP 
+
+SENTENCE:  NO66
+            NN 
+
+SENTENCE:  cc : 1. HUBERT AULT ,  M . D .
+           NNS       NN    NN    NNP NNP 
+

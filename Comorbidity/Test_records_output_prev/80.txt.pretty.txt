@@ -1,0 +1,525 @@
+SENTENCE:  468422454 | DAMC | 41742729 | | 281484 | 3/16/2001 12:00:00 AM |   sob    of unknown etiology | |   DIS    | Admission Date:
+                        NN                                             NN      NN    IN   JJ       NN           NN         NN      NN  
+                                                                            |======|                         |======|                  
+                                                                            Finding                          Finding                   
+                                                                            C0013404                         C1444662                  
+                                                                                                             |======|                  
+                                                                                                             Disorder                  
+                                                                                                             C0012634                  
+                                                                                                             C1970187                  
+
+SENTENCE:  8/30/2001 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  2/29/2001
+                    
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  DIOMEDE , DAVID 514-36-87-1
+             NN       NN              
+
+SENTENCE:   U  Ertna Leigh
+           NNP  NNP   NNP 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  9/30/01 AT 02:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  CONER ,   LEN    DOMINGO ,  M . D .
+            NN        NN      NN      NNP NNP 
+                   |======|                   
+                   Anatomy                    
+                   C0152353                   
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ECASA ( ASPIRIN  ENTERIC COATED ) 325 MG PO QD
+            NN        NN      JJ     VBN         NN FW FW
+                   |======|                              
+                     Drug                                
+                   C0004057                              
+
+SENTENCE:  ATENOLOL 50 MG PO QD Food/  Drug   Interaction Instruction
+             NNP       NN FW FW NNP    NNP        NN          NN     
+           |======|                  |======| |=========|            
+             Drug                      Drug     Finding              
+           C0004147                  C0013227  C0687133              
+
+SENTENCE:  Take consistently with meals or on empty stomach .
+            VB       RB       IN   NNS  CC IN  JJ      NN    
+                                                    |======| 
+                                                    Disorder 
+                                                    C0038354 
+                                                    |======| 
+                                                    Anatomy  
+                                                    C1278920 
+                                                    C3714551 
+
+SENTENCE:  KLONOPIN ( CLONAZEPAM ) 1 MG PO TID
+             NNP         NNP         NN JJ NN 
+           |======|   |========|              
+             Drug        Drug                 
+           C0699315    C0009011               
+
+SENTENCE:  Override Notice:
+              JJ      NN   
+
+SENTENCE:  Override added on 11/11/01 by
+              JJ     VBN  IN          . 
+
+SENTENCE:  FRIEDRICHS , ERIK JIM ,  M . D .
+              NNP       NNP  NNP   NNP NNP 
+
+SENTENCE:  on order for AZITHROMYCIN PO ( ref # 12922629 )
+           IN  NN   IN       NN      NN   NN              
+                        |==========|                      
+                            Drug                          
+                          C0052796                        
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  CLONAZEPAM & AZITHROMYCIN
+               NN            NN     
+           |========|   |==========|
+              Drug          Drug    
+            C0009011      C0052796  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  monitor Previous override information:
+             NN       JJ       JJ        NN      
+
+SENTENCE:  Override added on 11/11/01 by RESSEGUIE , COLUMBUS DARELL ,  M . D .
+              JJ     VBN  IN          IN    NNP        NNP     NNP     NNP NNP 
+
+SENTENCE:  on order for AZITHROMYCIN PO ( ref # 23229788 )
+           IN  NN   IN       NN      NN   NN              
+                        |==========|                      
+                            Drug                          
+                          C0052796                        
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  CLONAZEPAM & AZITHROMYCIN
+               NN            NN     
+           |========|   |==========|
+              Drug          Drug    
+            C0009011      C0052796  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  monitor
+             NN   
+
+SENTENCE:   COLACE  ( DOCUSATE  SODIUM  ) 100 MG PO BID
+              NN         NN       NN          NN JJ NN 
+           |======|   |======| |======|                
+             Drug       Drug     Drug                  
+           C0282139   C1692318 C0037473                
+                      |===============|                
+                            Drug                       
+                          C0243237                     
+
+SENTENCE:   PROZAC  ( FLUOXETINE   HCL    ) 20 MG PO QD
+              NN          NN        NN         NN FW FW
+           |======|   |========| |======|              
+             Drug        Drug      Drug                
+           C0162373    C0016365  C0020259              
+                      |=================|              
+                             Drug                      
+                           C0733380                    
+
+SENTENCE:  ZESTRIL  ( LISINOPRIL ) 10 MG PO QD
+             NNP         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0678140    C0065374               
+
+SENTENCE:  NIFEREX -150 150 MG PO BID
+             NNP            NN NN RB 
+           |======|                  
+             Drug                    
+           C0212019                  
+           |==========|              
+               Drug                  
+             C0212018                
+
+SENTENCE:  PERCOCET 1   TAB    PO Q6H  X  7 Days Starting  Today   ( 9/2 )
+              NN         NN    NN CD  SYM   NNS     NN       NN           
+           |======|   |======|                            |======|        
+             Drug       Drug                                Drug          
+           C0086787   C0039225                            C0310367        
+
+SENTENCE:  PRN   pain  
+           NN     NN   
+               |======|
+               Finding 
+               C0030193
+
+SENTENCE:  AZITHROMYCIN 250 MG PO QD  X  4 Days Starting IN AM ( 9/2 )
+               NNP          NN FW FW SYM   NNS     NN    IN NN        
+           |==========|                                               
+               Drug                                                   
+             C0052796                                                 
+
+SENTENCE:  Food/  Drug   Interaction Instruction Take with food
+           NNP    NNP        NN          NN       VB   IN   NN 
+                |======| |=========|                           
+                  Drug     Finding                             
+                C0013227  C0687133                             
+
+SENTENCE:   Alert   overridden:
+              JJ        NN     
+           |======|            
+           Finding             
+           C0239110            
+
+SENTENCE:  Override added on 11/11/01 by
+              JJ     VBN  IN          . 
+
+SENTENCE:  HUNZIKER , BARTON ELDON ,  M . D .
+              NN        NN    NN     NNP NNP 
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  CLONAZEPAM & AZITHROMYCIN
+               NN            NN     
+           |========|   |==========|
+              Drug          Drug    
+            C0009011      C0052796  
+
+SENTENCE:  POTENTIALLY SERIOUS INTERACTION:
+               RB        JJ        NN      
+                               |=========| 
+                                 Finding   
+                                C0687133   
+
+SENTENCE:  CLONAZEPAM & AZITHROMYCIN
+               NN            NN     
+           |========|   |==========|
+              Drug          Drug    
+            C0009011      C0052796  
+
+SENTENCE:  Reason for override:
+             NN   IN     NN    
+
+SENTENCE:  monitor
+             NN   
+
+SENTENCE:  PRILOSEC ( OMEPRAZOLE ) 20 MG PO QD
+              NN         NNP          NN FW FW
+           |======|   |========|              
+             Drug        Drug                 
+           C0700777    C0028978               
+
+SENTENCE:  ALBUTEROL INHALER 2 PUFF   INH    QID
+              NN       NN       NN     NN    RB 
+           |=======|                |======|    
+             Drug                     Drug      
+           C0001927                 C0022209    
+
+SENTENCE:  ATROVENT INHALER ( IPRATROPIUM INHALER ) 2 PUFF   INH    QID
+              NN      NN          NN        NN         NN     NN    RB 
+           |======|           |=========|                  |======|    
+             Drug                Drug                        Drug      
+           C0591130            C0027235                    C0022209    
+
+SENTENCE:  PREDNISONE Taper PO
+               NN      NN   NN
+           |========|         
+              Drug            
+            C0032952          
+
+SENTENCE:  Give 60 mg  QD  X  2 day( s  ) ( 9/13/01-09 ) , then ---done
+            VB     NNS FW NNP   NN   NN                     RB     VBN 
+
+SENTENCE:  Give 50 mg  QD  X  2 day( s  ) ( 7/27/01-09 ) , then ---done
+            VB     NNS FW NNP   NN   NN                     RB     VBN 
+
+SENTENCE:  Give 40 mg  QD  X  2 day( s  ) ( 4/26/01-09 ) , then ---done
+            VB     NNS FW NNP   NN   NN                     RB     VBN 
+
+SENTENCE:  Give 30 mg  QD  X  2 day( s  ) ( 3/6/01-09 ) , then ---done
+            VB     NNS FW NNP   NN   NN                    RB     VBN 
+
+SENTENCE:  Give 20 mg  QD  X  2 day( s  ) ( 2/7/01-09 ) , then ---done
+            VB     NNS FW NNP   NN   NN                    RB     VBN 
+
+SENTENCE:  Give 10 mg  QD  X  2 day( s  ) ( 7/24/01-10 ) , then ---done
+            VB     NNS FW NNP   NN   NN                     RB     VBN 
+
+SENTENCE:  Give 5 mg  QD  X  2 day( s  ) ( 5/9/01-10 ) , then ---done
+            VB    NNS FW NNP   NN   NN                    RB     VBN 
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  RETURN TO   WORK  :
+             NN   IN    NN    
+                     |======| 
+                     Finding  
+                     C0043227 
+           |================| 
+                Finding       
+                C0425105      
+
+SENTENCE:  After Appt with local physician
+            IN    NN   IN   JJ      NN    
+
+SENTENCE:  No Known Allergies
+           DT  JJ      NNS   
+                    |=======|
+                     Finding 
+                    C0020517 
+           |================|
+                Finding      
+                C0262580     
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:    sob   
+              NN   
+           |======|
+           Finding 
+           C0013404
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:    sob    of unknown etiology
+              NN    IN   JJ       NN   
+           |======|                    
+           Finding                     
+           C0013404                    
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:  Borderline   HTN    Anxiety  D /O    PPD    + s /p    INH    G5P4TAB1
+               JJ        NN       NN    NN NN    NN      NN IN    NN       NN   
+                      |======| |======|       |======|         |======|         
+                      Disorder Disorder         Drug             Drug           
+                      C0020538 C0003467       C0034131         C0022209         
+
+SENTENCE:  morbid obesity  ( obesity  ) obstructive  sleep    apnea   (  sleep    apnea   )
+             NN      NN         NN          JJ         NN       NN         NN       NN     
+                  |======|   |======|               |======| |======|   |======| |======|  
+                  Disorder   Disorder               Finding  Finding    Finding  Finding   
+                  C0028754   C0028754               C0037313 C0003578   C0037313 C0003578  
+           |=============|                          |===============|   |===============|  
+              Disorder                                  Disorder            Disorder       
+              C0028756                                  C0037315            C0037315       
+                                        |===========================|                      
+                                                  Disorder                                 
+                                                  C0520679                                 
+
+SENTENCE:  psoriasis ( psoriasis )
+              NN          NN      
+           |=======|   |=======|  
+           Disorder    Disorder   
+           C0033860    C0033860   
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  none
+            NN 
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  37 yo multiple admissions for atypical  chest     pain   ,
+              JJ    JJ       NNS     IN     JJ       NN       NN     
+                                                  |======| |======|  
+                                                  Anatomy  Finding   
+                                                  C0817096 C0030193  
+                                                  |===============|  
+                                                       Finding       
+                                                      C0008031       
+                                         |========================|  
+                                                  Finding            
+                                                  C0262384           
+
+SENTENCE:  morbid obesity  , restrictive   lung   dz by PFTs ,  sleep    apnea   , borderline
+             NN      NN          JJ         NN    NN IN NNS       NN       NN          JJ    
+                  |======|               |======|              |======| |======|             
+                  Disorder               Anatomy               Finding  Finding              
+                  C0028754               C0024109              C0037313 C0003578             
+           |=============|                                     |===============|             
+              Disorder                                             Disorder                  
+              C0028756                                             C0037315                  
+
+SENTENCE:    HTN   .
+              NN    
+           |======| 
+           Disorder 
+           C0020538 
+
+SENTENCE:  Had   cath    last admission and showed clean coronaries.
+           VBD    NN      JJ     NN     CC   VBD    JJ      NNS     
+               |=======|                                            
+               Procedure                                            
+               C0007430                                             
+
+SENTENCE:  Now comes in
+           RB   VBZ  RB
+
+SENTENCE:  complaining of   SOB    and " asthma   attack " and anxiety .
+               VBG     IN    NN    CC      NN       NN     CC     NN    
+                          |======|      |======| |======|      |======| 
+                          Finding       Disorder Finding       Disorder 
+                          C0013404      C0004096 C1304680      C0003467 
+                                        |===============|               
+                                            Disorder                    
+                                            C0347950                    
+
+SENTENCE:  Responded well to
+              VBN     RB  TO
+
+SENTENCE:    Nebs   and  Ativan  in ED.
+              NN    CC    NNP    IN NN 
+           |======|     |======|       
+             Drug         Drug         
+           C1300458     C0699194       
+
+SENTENCE:  Will d /c  to complete course of Macrolide antibio
+            MD  VB VB IN    JJ      NN   IN    NNP      NN   
+                                            |=======|        
+                                              Drug           
+                                            C0282563         
+
+SENTENCE:    tic    to cover atypicals for tracheobronchitis at home.
+              JJ    IN  NN      NNS    IN         NN         IN  NN  
+           |======|                        |===============|         
+           Disorder                            Disorder              
+           C0040188                            C0040586              
+           C0278076                                                  
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  JAY , LAMAR KRIS , M.D. ( BY60 ) 9/30/01 @ 10:58 AM
+           NN     JJ    NN    NNP     CD                    NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

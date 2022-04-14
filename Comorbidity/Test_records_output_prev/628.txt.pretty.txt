@@ -1,0 +1,401 @@
+SENTENCE:  619750579 | PLH | 44867335 | | 180991 | 5/28/1992 12:00:00 AM | Discharge Summary | Signed |   DIS    | Admission Date:
+                       NN                                             NN      NN       NN       VBN        NN         NN      NN  
+                                                                                                        |======|                  
+                                                                                                        Finding                   
+                                                                                                        C1444662                  
+                                                                                                        |======|                  
+                                                                                                        Disorder                  
+                                                                                                        C0012634                  
+                                                                                                        C1970187                  
+
+SENTENCE:  10/18/1992 Report Status:
+                        NN     NN   
+                      |===========| 
+                         Finding    
+                        C0586177    
+
+SENTENCE:  Signed
+             JJ  
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  4/7/1992
+                   
+
+SENTENCE:  DIAGNOSIS:
+              NN     
+           |=======| 
+            Finding  
+           C0011900  
+
+SENTENCE:  CORONARY  ARTERY  DISEASE .
+              JJ       NN       NN    
+           |======| |======| |======| 
+           Anatomy  Anatomy  Disorder 
+           C0018787 C0003842 C0012634 
+                    |===============| 
+                        Disorder      
+                        C0852949      
+           |===============|          
+                Anatomy               
+               C0205042               
+           |========================| 
+                    Disorder          
+                    C1956346          
+
+SENTENCE:  NON-INSULIN-DEPENDENT DIABETES
+               NN         NN        NN   
+                                 |======|
+                                 Disorder
+                                 C0011849
+           |============================|
+                      Disorder           
+                      C0011860           
+
+SENTENCE:  MELLITUS.
+              NN    
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  The patient is  a  53 year old gentleman
+           DT    NN    VBZ DT     NN  JJ     NN    
+
+SENTENCE:  who was admitted to Ven Coness-ma Healthcare for exertion-related substernal  chest     pain   , which
+           WP  VBD   VBN    IN NNP   NN   NN     NN     IN     NN      VBN       JJ        NN       NN       WDT 
+                                                            |======|                    |======| |======|        
+                                                            Finding                     Anatomy  Finding         
+                                                            C0015264                    C0817096 C0030193        
+                                                                                        |===============|        
+                                                                                             Finding             
+                                                                                            C0008031             
+                                                                             |==========================|        
+                                                                                       Finding                   
+                                                                                       C0151826                  
+
+SENTENCE:  had increased recently.
+           VBD    VBN       RB    
+
+SENTENCE:  He  had a  past history  of adult-onset
+           PRP VBD DT  JJ     NN    IN  NN    NN  
+                           |======|               
+                           Finding                
+                           C0262926               
+
+SENTENCE:  diabetes mellitus and was admitted at this time for   work  -up of his 
+              NN       NN    CC  VBD   VBN    IN  DT   NN  IN     NN    NN IN PRP$
+           |======|                                            |======|           
+           Disorder                                            Finding            
+           C0011849                                            C0043227           
+
+SENTENCE:   chest     pain  .
+              NN       NN    
+           |======| |======| 
+           Anatomy  Finding  
+           C0817096 C0030193 
+           |===============| 
+                Finding      
+               C0008031      
+
+SENTENCE:  PAST MEDICAL HISTORY  was significant for history  of
+            JJ    JJ       NN    VBD     JJ      IN     NN    IN
+                        |======|                     |======|   
+                        Finding                      Finding    
+                        C0262926                     C0262926   
+           |===================|                                
+                  Finding                                       
+                 C0455458                                       
+
+SENTENCE:  non-insulin-dependent diabetes mellitus , status post back surgery.
+               JJ         JJ        NN       NN        NN    IN   NN    NN    
+                                 |======|                                     
+                                 Disorder                                     
+                                 C0011849                                     
+           |============================|                                     
+                      Disorder                                                
+                      C0011860                                                
+
+SENTENCE:  ALLERGIES were no known   drug   allergies.
+              NNS    VBD  DT  JJ      NN       NNS    
+           |=======|               |======| |=======| 
+            Finding                  Drug    Finding  
+           C0020517                C0013227 C0020517  
+                                   |================| 
+                                        Disorder      
+                                        C0013182      
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  The patient underwent   work  -up on the Medical
+           DT    NN       VBD       NN    NN IN DT    JJ   
+                                 |======|                  
+                                 Finding                   
+                                 C0043227                  
+
+SENTENCE:  Service .
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  He  was found to have a  positive
+           PRP VBD  VBN  TO  VB  DT    JJ   
+
+SENTENCE:  exercise tolerance   test    with ischemic electrocardiogram changes in
+              NN       NN        NN      IN     JJ           NN           NNS   IN
+           |======| |=======| |=======|               |===============|           
+           Finding   Finding   Finding                    Procedure               
+           C0015259 C0013220  C0456984                    C1623258                
+                    C0020963                                                      
+                              |=======|                                           
+                              Procedure                                           
+                              C0022885                                            
+                    |=================|                                           
+                         Procedure                                                
+                         C0201777                                                 
+           |==========================|                                           
+                    Procedure                                                     
+                     C0015260                                                     
+
+SENTENCE:  the inferior lateral leads.
+           DT     JJ      JJ     NNS  
+
+SENTENCE:  The patient was treated with
+           DT    NN    VBD   VBN    IN 
+
+SENTENCE:  intravenous heparin  when he  developed recurrent  chest     pain   episode
+               JJ         NN    WRB  PRP    VBD       JJ        NN       NN      NN   
+                       |======|                              |======| |======|        
+                         Drug                                Anatomy  Finding         
+                       C0019134                              C0817096 C0030193        
+           |==================|                              |===============|        
+                   Drug                                           Finding             
+                 C0354566                                        C0008031             
+
+SENTENCE:  and underwent cardiac  catheterization on 28 of November .
+           CC     VBD       JJ          NN        IN    IN   NNP     
+                         |======| |=============|                    
+                         Anatomy     Procedure                       
+                         C0018787    C0007430                        
+
+SENTENCE:  This study
+            DT   NN  
+
+SENTENCE:  revealed a  80% stenosis of the ostial left main , 80% at the origin
+             VBD    DT        NN    IN DT    JJ    JJ   JJ        IN DT    NN  
+                           |======|                                            
+                           Finding                                             
+                           C1261287                                            
+
+SENTENCE:  of the left anterior descending coronary  artery  and 60% of the mid
+           IN DT   JJ     JJ        JJ        JJ       NN    CC      IN DT  JJ 
+                       |======|            |======| |======|                   
+                       Disorder            Anatomy  Anatomy                    
+                       C0751437            C0018787 C0003842                   
+                                           |===============|                   
+                                                Anatomy                        
+                                               C0205042                        
+                       |===================================|                   
+                                      Anatomy                                  
+                                     C0226032                                  
+
+SENTENCE:  left anterior descending coronary  artery  , 60% first diagonal , 90%
+            JJ     JJ        JJ        JJ       NN           JJ      NN         
+                |======|            |======| |======|                           
+                Disorder            Anatomy  Anatomy                            
+                C0751437            C0018787 C0003842                           
+                                    |===============|                           
+                                         Anatomy                                
+                                        C0205042                                
+                |===================================|                           
+                               Anatomy                                          
+                              C0226032                                          
+
+SENTENCE:  first obtuse marginal branch , and left ventricular function study
+            JJ     NN      JJ      NN     CC   JJ      JJ         NN     NN  
+                                                   |=========|               
+                                                     Anatomy                 
+                                                    C0018827                 
+                                              |=======================|      
+                                                       Finding               
+                                                      C0080310               
+
+SENTENCE:  was not obtained.
+           VBD RB    VBN    
+
+SENTENCE:  After the cardiac  catheterization , the patient
+            IN   DT     JJ          NN          DT    NN   
+                     |======| |=============|              
+                     Anatomy     Procedure                 
+                     C0018787    C0007430                  
+
+SENTENCE:  was transferred to the Cardiac  Surgery Service  for operative
+           VBD     VBN     IN DT     JJ      NN       NN    IN     JJ    
+                                  |======|         |======|              
+                                  Anatomy          Finding               
+                                  C0018787         C0557854              
+                                  |==============|                       
+                                     Procedure                           
+                                      C0018821                           
+
+SENTENCE:  treatment of his  coronary  artery  disease .
+              NN     IN PRP$    JJ       NN       NN    
+           |=======|         |======| |======| |======| 
+           Procedure         Anatomy  Anatomy  Disorder 
+           C0087111          C0018787 C0003842 C0012634 
+                                      |===============| 
+                                          Disorder      
+                                          C0852949      
+                             |===============|          
+                                  Anatomy               
+                                 C0205042               
+                             |========================| 
+                                      Disorder          
+                                      C1956346          
+
+SENTENCE:  After the usual
+            IN   DT   JJ  
+
+SENTENCE:  preparation , he  underwent triple coronary  artery   bypass   grafting  on
+               NN        PRP    VBD      JJ      JJ       NN       NN        NN     . 
+                                              |======| |======| |=======| |=======|   
+                                              Anatomy  Anatomy  Procedure Procedure   
+                                              C0018787 C0003842 C0741847  C1961139    
+                                              |===============| |=================|   
+                                                   Anatomy           Procedure        
+                                                  C0205042           C0185098         
+                                              |=========================|             
+                                                       Procedure                      
+                                                       C0010055                       
+
+SENTENCE:  28 of November .  The patient tolerated the procedure well.
+              IN   NNP       DT    NN       VBD    DT     NN      RB  
+                                                       |=======|      
+                                                       Procedure      
+                                                       C0184661       
+
+SENTENCE:  Postoperatively , he  was hemodynamically stable.
+                 RB          PRP VBD       RB          JJ   
+                                     |====================| 
+                                            Finding         
+                                            C0578150        
+
+SENTENCE:  He  was diuresed to
+           PRP VBD   VBN    TO
+
+SENTENCE:  his  preoperative  weight  .
+           PRP$      JJ         NN     
+                             |=======| 
+                             Procedure 
+                             C1305866  
+
+SENTENCE:  The further postoperative course was
+           DT    JJ         JJ         NN    . 
+
+SENTENCE:  without complications.
+             IN         NNS      
+                   |===========| 
+                      Finding    
+                     C0009566    
+
+SENTENCE:  The patient recovered remarkably   fast   from
+           DT    NN       VBD        RB        RB     IN 
+                                            |======|     
+                                            Finding      
+                                            C0015663     
+
+SENTENCE:  his  operation , and could be discharged home on 6 of August .
+           PRP$    NN       CC   MD   VB    VBN      NN  IN   IN  NNP    
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  The patient was discharged to home.
+           DT    NN    VBD    VBN     IN  NN  
+
+SENTENCE:  CONDITION ON 
+              NN     NNP
+           |=======|    
+           Disorder     
+           C0012634     
+
+SENTENCE:  DISCHARGE was good.
+              NNP    VBD  JJ  
+
+SENTENCE:  MEDICATIONS ON DISCHARGE
+               NNS     IN    NNP   
+           |=========|             
+              Drug                 
+            C0013227               
+
+SENTENCE:  included Tylenol  #3 1 to 2 tablets  by  mouth   every 4 to 6 hours as
+             VBD      NNP         IN     NNS    IN    NN     DT     IN    NNS  RB
+                    |======|           |======|    |======|                      
+                      Drug               Drug      Anatomy                       
+                    C0699142           C0039225    C0226896                      
+
+SENTENCE:  needed for   pain   , Lopressor 75 milligrams by  mouth   twice a  day ,
+            VBN   IN     NN         NNP          NNS     IN    NN     RB   DT NN   
+                      |======|   |=======|                  |======|               
+                      Finding      Drug                     Anatomy                
+                      C0030193   C0700776                   C0226896               
+
+SENTENCE:  Micronase 5 milligrams by  mouth   each day , Ecotrin  1  tablet  by  mouth  
+              NNP         NNS     IN    NN     DT  NN      NNP         NN    IN    NN   
+           |=======|                 |======|            |======|   |======|    |======|
+             Drug                    Anatomy               Drug       Drug      Anatomy 
+           C0700712                  C0226896            C0699274   C0039225    C0226896
+
+SENTENCE:  each day.
+            DT  NN  
+
+SENTENCE:  The patient will FOLLOW-UP with his  cardiologist the
+           DT    NN     MD    VB   RP  IN  PRP$      NN       . 
+
+SENTENCE:  week following discharge.
+            NN     VBG       NN     
+
+SENTENCE:  The patient had an appointment with Dr .
+           DT    NN    VBD DT     NN       IN  NNP 
+
+SENTENCE:  Werner H.  Voisard 4 weeks after discharge for his  cardiac  surgical
+            NNP   NNP   NNP      NNS   IN      NN     IN  PRP$    JJ       JJ   
+                                                               |======|         
+                                                               Anatomy          
+                                                               C0018787         
+
+SENTENCE:  FOLLOW-UP.
+             NN   NN 
+           |=======| 
+            Finding  
+           C0589120  
+
+SENTENCE:  JV416/3443
+            NN       
+
+SENTENCE:  SUNG R.  KATCHER ,  M . D .
+            NN  NNP   NNP     NNP NNP 
+
+SENTENCE:  JM0 D : 10/30/92
+           NN  NN          
+
+SENTENCE:  Batch:
+            NN   
+
+SENTENCE:  0514 Report:
+                  NN   
+
+SENTENCE:  P5746A56 T : 7/7/92
+              NN    NN        
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  NEAL BERGAMO ,  M . D .
+            JJ    NN      NNP NNP 
+

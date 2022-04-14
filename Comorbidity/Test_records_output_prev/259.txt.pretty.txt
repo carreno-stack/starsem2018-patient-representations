@@ -1,0 +1,535 @@
+SENTENCE:  951259267 | KH | 19910678 | | 1065485 | 1/4/2002 12:00:00 AM | pancreatitis | |   DIS    | Admission Date:
+                       NN                                            NN        NN             NN         NN      NN  
+                                                                          |==========|     |======|                  
+                                                                            Disorder       Finding                   
+                                                                            C0030305       C1444662                  
+                                                                                           |======|                  
+                                                                                           Disorder                  
+                                                                                           C0012634                  
+                                                                                           C1970187                  
+
+SENTENCE:  9/15/2002 Report Status:
+                       NN     NN   
+                     |===========| 
+                        Finding    
+                       C0586177    
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  10/10/2002
+                     
+
+SENTENCE:  ****** DISCHARGE ORDERS ******
+                     NNP     NNP         
+
+SENTENCE:  KEARIN , ALVA 332-84-10-3
+             NN      NN             
+
+SENTENCE:  Troit Keebo Sant
+            NN    NNP  NNP 
+
+SENTENCE:  Service :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  MED
+           JJ 
+
+SENTENCE:  DISCHARGE PATIENT ON:
+              NNP      NN    IN 
+
+SENTENCE:  11/3/02 AT 04:00 PM
+                   IN       NN
+
+SENTENCE:  CONTINGENT UPON Not Applicable
+               NN      IN  RB      JJ    
+
+SENTENCE:  WILL D /C  ORDER BE USED AS THE D /C  SUMMARY:
+            MD  LS NN  NN   VB VBN  IN DT  NN NN   NN    
+
+SENTENCE:    YES   
+              UH   
+           |======|
+           Finding 
+           C1298907
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  SASSMAN , MALCOLM DILLON ,  M . D .
+             NN        NNP    NNP     NNP NNP 
+
+SENTENCE:  CODE STATUS:
+            NN    NN   
+
+SENTENCE:  Full code
+            JJ   NN 
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Home
+            NN 
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  ALBUTEROL INHALER 2 PUFF   INH    QID PRN  wheeze 
+              NN       NN       NN     NN    RB  RB     NN   
+           |=======|                |======|         |======|
+             Drug                     Drug           Finding 
+           C0001927                 C0022209         C0043144
+
+SENTENCE:  Instructions: with spacer
+               NNS        IN    NN  
+
+SENTENCE:   ATIVAN  ( LORAZEPAM ) 0.5 MG PO BID PRN anxiety 
+              NN         NNP          NN NN FW  FW     NN   
+           |======|   |=======|                     |======|
+             Drug       Drug                        Disorder
+           C0699194   C0024002                      C0003467
+
+SENTENCE:  HOLD IF: rr<10 , oversedated
+            NN  IN  NN          JJ     
+
+SENTENCE:  METFORMIN 850 MG PO BID
+              NNP        NN JJ NN 
+           |=======|              
+             Drug                 
+           C0025598               
+
+SENTENCE:  LIPITOR  ( ATORVASTATIN ) 10 MG PO QD
+              NN          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0593906     C0286651                
+
+SENTENCE:  AVANDIA  ( ROSIGLITAZONE ) 4 MG PO BID
+             NNP           NN           NN NN RB 
+           |======|   |===========|              
+             Drug         Drug                   
+           C0875967     C0289313                 
+
+SENTENCE:  LISINOPRIL 5 MG PO QD
+               NN       NN FW FW
+           |========|           
+              Drug              
+            C0065374            
+
+SENTENCE:  NEURONTIN ( GABAPENTIN ) 300 MG PO TID
+              NN          NNP           NN JJ NN 
+           |=======|   |========|                
+             Drug         Drug                   
+           C0678176     C0060926                 
+
+SENTENCE:  ATENOLOL 50 MG PO QD
+             NNP       NN FW FW
+           |======|            
+             Drug              
+           C0004147            
+
+SENTENCE:  PROTONIX ( PANTOPRAZOLE ) 40 MG PO QD
+             NNP          NNP           NN FW FW
+           |======|   |==========|              
+             Drug         Drug                  
+           C0876139     C0081876                
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House / Low chol/low sat.
+            NN     JJ   NN  JJ  NN  
+
+SENTENCE:    fat   
+              NN   
+           |======|
+             Drug  
+           C0015677
+
+SENTENCE:  DIET:
+            NN  
+
+SENTENCE:  House /   ADA    1800 cals/dy
+            NN        NN         NNS  NN
+                   |======|             
+                     Drug               
+                   C0001457             
+
+SENTENCE:  ACTIVITY:
+              NN    
+           |======| 
+           Finding  
+           C0026606 
+
+SENTENCE:  Resume regular exercise
+             VB     JJ       NN   
+                          |======|
+                          Finding 
+                          C0015259
+                  |==============|
+                      Finding     
+                      C0582191    
+
+SENTENCE:  FOLLOW UP APPOINTMENT( S  ):
+             VB   IN     NN       NN   
+
+SENTENCE:  Please call the office of Dr. Arnulfo Macarthur next week to make a  follow-up appointment ,
+             UH    VB  DT    NN   IN NNP   NNP      NNP     JJ   NN  TO  VB  DT   NN   NN     NN       
+                                                                                |=======|              
+                                                                                 Finding               
+                                                                                C0589120               
+
+SENTENCE:  ALLERGY :
+              NN    
+           |======| 
+           Finding  
+           C0020517 
+
+SENTENCE:  Demerol  , Trazodone , Benadryl ( diphenhydramine   hcl    ) ,
+             NNP         NNP        NNP            NN           NN       
+           |======|   |=======|   |======|   |=============| |======|    
+             Drug       Drug        Drug          Drug         Drug      
+           C0935966   C0040805    C0700899      C0012522     C0020259    
+                                             |======================|    
+                                                       Drug              
+                                                     C0004963            
+
+SENTENCE:   Nsaid  's , Codeine  , Clarithromycin , Amitrip ( amitriptyline   hcl    )
+             NNP          NNP           NNP           NNP          NN          NN     
+           |======|     |======|   |============|             |===========| |======|  
+             Drug         Drug          Drug                      Drug        Drug    
+           C0003211     C0009214      C0055856                  C0002600    C0020259  
+                                                              |====================|  
+                                                                       Drug           
+                                                                     C0700523         
+
+SENTENCE:  ADMIT DIAGNOSIS:
+            NN      NN     
+                 |=======| 
+                  Finding  
+                 C0011900  
+
+SENTENCE:  pancreatitis
+                NN     
+           |==========|
+             Disorder  
+             C0030305  
+
+SENTENCE:  PRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )
+              JJ        NNP       NN          JJ       IN    NN   IN    NN       NN      
+                               |=======|  |=========|                                    
+                                Finding     Finding                                      
+                               C0011900    C1273518                                      
+
+SENTENCE:  pancreatitis
+                NN     
+           |==========|
+             Disorder  
+             C0030305  
+
+SENTENCE:  OTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay
+            JJ      NN        NNS          NNS            NNS           VBG       NN      NN 
+                 |=======|              |========|   |===========|             |=======|     
+                  Finding                Disorder       Finding                Procedure     
+                 C0011900                C0851162      C0009566                C0087111      
+
+SENTENCE:    HTN      UTI    Hematuria Pancreatic divisum diabetes II slep  apnea   ccy
+              NN       NN       NN         JJ       NN       NN    CD  NN     NN    NN 
+           |======| |======| |=======| |========|         |======|         |======|    
+           Disorder Disorder  Finding   Anatomy           Disorder         Finding     
+           C0020538 C0042029 C0018965   C0030274          C0011849         C0003578    
+                                       |================|                              
+                                            Disorder                                   
+                                            C0266270                                   
+
+SENTENCE:  pancreatitis 1998 s /p  appy , s /p  tubal ligation 
+                NN           NN IN  JJ    NN IN  JJ      NN    
+           |==========|                               |=======|
+             Disorder                                 Procedure
+             C0030305                                 C0023690 
+                                                |=============|
+                                                   Procedure   
+                                                   C0520483    
+
+SENTENCE:  OPERATIONS AND PROCEDURES:
+              NNS     CC     NNS     
+                          |========| 
+                          Procedure  
+                           C0184661  
+
+SENTENCE:  OTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )
+            JJ      NNS        NNS       RB  IN NNP   
+                 |========| |========|                
+                 Procedure  Procedure                 
+                  C0087111   C0184661                 
+
+SENTENCE:  IV fluid hydration
+           NN  NN      NN    
+                    |=======|
+                     Finding 
+                    C1321013 
+
+SENTENCE:  IV   pain   control
+           NN    NN      NN   
+              |======|        
+              Finding         
+              C0030193        
+              |==============|
+                 Procedure    
+                  C1304888    
+
+SENTENCE:  BRIEF RESUME OF HOSPITAL COURSE:
+            NN     NN   IN    NN      NN   
+
+SENTENCE:  59 y /o  F  with complicated GI history  including
+              NN JJ NN  IN      JJ      NN    NN       VBG   
+                                           |======|          
+                                           Finding           
+                                           C0262926          
+
+SENTENCE:    GERD   , gastritis , peptic  ulcer   , pancreatitis/pancreatic   cyst   , chronic
+              NN         NN         JJ      NN           NN          JJ        NN        JJ   
+           |======|   |=======|          |======|   |==========| |========| |======|          
+           Disorder   Disorder           Disorder     Disorder    Anatomy   Disorder          
+           C0017168   C0017152           C0041582     C0030305    C0030274  C0010709          
+                                  |=============|                |=================|          
+                                     Disorder                         Disorder                
+                                     C0030920                         C0030283                
+
+SENTENCE:  GI distress , and PANCREATIC DIVISUM who presented 11/10 with
+           NN    NN      CC      JJ       NN    WP     VBD           .  
+              |======|       |========|                                 
+              Finding         Anatomy                                   
+              C0231303        C0030274                                  
+                             |================|                         
+                                  Disorder                              
+                                  C0266270                              
+
+SENTENCE:  a  2-month history  of increasing epigastric   pain   and an elevated
+           DT    NN      NN    IN    VBG         JJ        NN    CC  DT    JJ   
+                      |======|                          |======|                
+                      Finding                           Finding                 
+                      C0262926                          C0030193                
+                                             |=================|                
+                                                   Finding                      
+                                                  C0232493                      
+
+SENTENCE:   lipase .
+              NN    
+           |======| 
+             Drug   
+           C0023764 
+
+SENTENCE:  Got CT ab with peripancreatic stranding around panc   head  
+           NN  NN NN  IN        JJ          NN       IN    NN     NN   
+                                                               |======|
+                                                               Anatomy 
+                                                               C0018670
+
+SENTENCE:  and US which showed s /p  ccy nl biliary tree.
+           CC  NN  WDT   VBD   NN IN NN  JJ   JJ     NN  
+                                            |==========| 
+                                              Anatomy    
+                                              C0005423   
+
+SENTENCE:  Patient went home 6/1/02
+             NN    VBD   NN        
+
+SENTENCE:  but came back 9/24 with 10/10 same   pain   following  bowel   of oatmeal 
+           CC  VBD   RB        IN         JJ     NN       VBG       NN    IN    NN   
+                                              |======|           |======|    |======|
+                                              Finding            Anatomy       Drug  
+                                              C0030193           C0021853    C0724560
+
+SENTENCE:  with milk at home.
+            IN   NN  IN  NN  
+
+SENTENCE:  A /P  : Pancreatitis in pt. with pancreatic
+           LS NN        NN      IN NN   IN      JJ    
+                   |==========|             |========|
+                     Disorder                Anatomy  
+                     C0030305                C0030274 
+
+SENTENCE:  divisum , recent ab CT and US done.
+             NN        JJ   NN NN CC  NN VBN  
+
+SENTENCE:  ( 1 ) GI : pt was made    NPO    and given
+                 NN   NN VBD VBN     NN     CC   VBN 
+                                  |=======|          
+                                  Procedure          
+                                  C0419179           
+
+SENTENCE:  aggressive    IVF    hydration to keep    HCT    below 40 as well as IV narcotic
+               JJ        NN        NN     TO  VB     NN      IN      RB  RB  IN NN    NN   
+                      |=======| |=======|         |=======|                                
+                      Procedure  Finding          Procedure                                
+                      C0015915  C1321013          C0018935                                 
+
+SENTENCE:  for   pain   control.
+           IN     NN      NN    
+               |======|         
+               Finding          
+               C0030193         
+               |==============| 
+                  Procedure     
+                   C1304888     
+
+SENTENCE:  Pt's diet was advanced to liquids 1/3 and solids
+           NN    NN  VBD   VBN    IN   NNS       CC   NNS  
+
+SENTENCE:  4/9 which she tolerated , and was discharged in good condition.
+                WDT  PRP    VBD      CC  VBD    VBN     IN  JJ     NN     
+                                                                |=======| 
+                                                                Disorder  
+                                                                C0012634  
+
+SENTENCE:  Pt was
+           NN VBD
+
+SENTENCE:  asked to follow a  bland ,   ADA    , low-  fat    diet.
+            VBN  TO   VB   DT  NN        NN      JJ     NN     NN  
+                                      |======|       |======|      
+                                        Drug           Drug        
+                                      C0001457       C0015677      
+                                                     |===========| 
+                                                       Procedure   
+                                                       C0301585    
+                                                 |===============| 
+                                                     Procedure     
+                                                     C0242970      
+
+SENTENCE:  Note that pt's ab CT 5/26
+            VB   IN  NN   NN NN     
+
+SENTENCE:  were reviewed with a  radiologist and compared with prior exam 1/23 , and
+           VBD    VBN     IN  DT     NN      CC    VBN     IN   JJ    NN         CC 
+
+SENTENCE:  neither CT demonstrated a  pancreatic   cyst  .
+             JJ    NN     VBD      DT     JJ        NN    
+                                      |========| |======| 
+                                       Anatomy   Disorder 
+                                       C0030274  C0010709 
+                                      |=================| 
+                                           Disorder       
+                                           C0030283       
+
+SENTENCE:  ( 2 )  endo  :
+                   NN    
+                |======| 
+                Disorder 
+                C0014175 
+
+SENTENCE:  held
+           VBN 
+
+SENTENCE:  metformin/glyburide while    NPO    and placed on CZI.
+              NN        NN      IN      NN     CC   VBN   IN NNP 
+           |=======| |=======|       |=======|                   
+             Drug      Drug          Procedure                   
+           C0025598  C0017628        C0419179                    
+
+SENTENCE:  Placed
+             JJ  
+
+SENTENCE:  on home meds on d /c  ( 3 )   pain  :
+           IN  NN  NNS  IN NN NN          NN    
+                                       |======| 
+                                       Finding  
+                                       C0030193 
+
+SENTENCE:  pt has percocet from prior admission for
+           NN VBZ    NN     IN   JJ      NN     IN 
+                  |======|                         
+                    Drug                           
+                  C0086787                         
+
+SENTENCE:    pain   control ( 4 ) CV:
+              NN      NN          NN 
+           |======|                  
+           Finding                   
+           C0030193                  
+           |==============|          
+              Procedure              
+               C1304888              
+
+SENTENCE:    HTN    on atenolol , lisinopril , was placed on iv
+              NN    IN    NN          NN       VBD  VBN   IN NN
+           |======|    |======|   |========|                   
+           Disorder      Drug        Drug                      
+           C0020538    C0004147    C0065374                    
+
+SENTENCE:  lopressor while    npo    , and returned to home meds on d /c  ( 5 ) anxiety  :
+              NN      IN      RB       CC    VBD    IN  NN  NNS  IN NN NN          NN     
+           |=======|       |=======|                                            |======|  
+             Drug          Procedure                                            Disorder  
+           C0700776        C0419179                                             C0003467  
+
+SENTENCE:  ativan prn ( 6 ) ? asthma  :    alb    prn with
+             IN   FW            NN         NN     NN   .  
+                             |======|   |=======|         
+                             Disorder   Procedure         
+                             C0004096   C0201838          
+
+SENTENCE:  spacer ( 7 )
+             NN        
+
+SENTENCE:  Dispo:
+            VB   
+
+SENTENCE:  pt has been considering changing PCPs and understands
+           NN VBZ VBN      VBG       VBG     NN  CC      NNS    
+                                                     |=========|
+                                                       Finding  
+                                                      C0162340  
+
+SENTENCE:  that she herself should call her    PCP    for a  follow-up appointment next
+            IN  PRP   PRP     MD    VB  PRP$    NN    IN  DT   NN   NN     NN       JJ 
+                                             |======|        |=======|                 
+                                               Drug           Finding                  
+                                             C0031381        C0589120                  
+
+SENTENCE:  week.
+            NN  
+
+SENTENCE:  ADDITIONAL COMMENTS:
+               JJ       NNS    
+
+SENTENCE:  DISCHARGE CONDITION:
+              NNP       NN     
+                     |=======| 
+                     Disorder  
+                     C0012634  
+
+SENTENCE:  Stable
+             JJ  
+
+SENTENCE:  TO DO /  PLAN  :
+           IN NNP    NN    
+                  |======| 
+                  Disorder 
+                  C0270724 
+
+SENTENCE:  per hospital course
+           IN     NN      NN  
+
+SENTENCE:  No dictated summary
+           DT   VBN      NN   
+
+SENTENCE:  ENTERED BY:
+             VBN   IN 
+
+SENTENCE:  BELLISARIO , HARLAND , M.D. ( RZ87 ) 11/3/02 @ 02:26 PM
+              NNP         NNP     NNP     NN                    NN
+
+SENTENCE:  ******   END    OF DISCHARGE ORDERS ******
+                     NN    IN    NN      NNS         
+                  |======|                           
+                    Drug                             
+                  C0082420                           
+

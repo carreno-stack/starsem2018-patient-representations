@@ -1,0 +1,1032 @@
+SENTENCE:  743004646 | DCH | 20339937 | | 4076800 | 7/6/2006 12:00:00 AM | CORONARY  ARTERY  DISEASE  | Unsigned |   DIS    | Admission Date:
+                       NN                                             NN      JJ       NN       NN         JJ         NN         NN      NN  
+                                                                           |======| |======| |======|              |======|                  
+                                                                           Anatomy  Anatomy  Disorder              Finding                   
+                                                                           C0018787 C0003842 C0012634              C1444662                  
+                                                                                    |===============|              |======|                  
+                                                                                        Disorder                   Disorder                  
+                                                                                        C0852949                   C0012634                  
+                                                                                                                   C1970187                  
+                                                                           |===============|                                                 
+                                                                                Anatomy                                                      
+                                                                               C0205042                                                      
+                                                                           |========================|                                        
+                                                                                    Disorder                                                 
+                                                                                    C1956346                                                 
+
+SENTENCE:  6/2/2006 Report Status:
+                      NN     NN   
+                    |===========| 
+                       Finding    
+                      C0586177    
+
+SENTENCE:  Unsigned
+              JJ   
+
+SENTENCE:  Discharge Date:
+              JJ      NN  
+
+SENTENCE:  2/5/2006
+                   
+
+SENTENCE:  ATTENDING:
+              NN     
+
+SENTENCE:  FUGATE , TIM MD
+             NN     NN  NN
+
+SENTENCE:  SERVICE :
+              NN    
+           |======| 
+           Finding  
+           C0557854 
+
+SENTENCE:  Cardiac  Surgery Service .
+              JJ      NN       NN    
+           |======|         |======| 
+           Anatomy          Finding  
+           C0018787         C0557854 
+           |==============|          
+              Procedure              
+               C0018821              
+
+SENTENCE:  HISTORY  OF PRESENT ILLNESS :
+              NN    IN   JJ       NN    
+           |======|            |======| 
+           Finding             Finding  
+           C0262926            C0221423 
+
+SENTENCE:  Mr. Lewter is  a  65-year-old gentleman with history  of
+           NNP  NNP   VBZ DT     NN  JJ     NN      IN     NN    IN
+                                                        |======|   
+                                                        Finding    
+                                                        C0262926   
+
+SENTENCE:  non-insulin-dependent diabetes mellitus , hypertension ,
+               JJ         JJ        NN       NN           NN       
+                                 |======|            |==========|  
+                                 Disorder              Disorder    
+                                 C0011849              C0020538    
+           |============================|                          
+                      Disorder                                     
+                      C0011860                                     
+
+SENTENCE:  dyslipidemia , and peripheral vascular disease  who presented to
+                NN        CC      JJ        JJ       NN    WP     VBD    TO
+           |==========|                  |======| |======|                 
+             Disorder                    Anatomy  Disorder                 
+             C0242339                    C0005847 C0012634                 
+                                         |===============|                 
+                                             Disorder                      
+                                             C0042373                      
+                              |==========================|                 
+                                        Disorder                           
+                                        C0085096                           
+
+SENTENCE:  Tci Prosamp Memorial Hospital on 5/23/06 with unstable  angina .
+           NNP   NNP     NNP       NN    IN          IN     JJ       NN    
+                                                         |======| |======| 
+                                                         Finding  Finding  
+                                                         C0443343 C0002962 
+                                                         |===============| 
+                                                             Disorder      
+                                                             C0002965      
+
+SENTENCE:  The patient
+           DT    NN   
+
+SENTENCE:  reports that he  had been having intermittent left-sided  chest  
+             VBZ    IN  PRP VBD VBN   VBG        JJ       JJ   JJ      NN   
+                                                                    |======|
+                                                                    Anatomy 
+                                                                    C0817096
+
+SENTENCE:  pressure at   rest   over the past three days associated with
+              NN    IN    NN     IN  DT   JJ   CD   NNS     VBN      IN 
+           |======|    |======|                                         
+           Finding     Finding                                          
+           C0460139    C0035253                                         
+
+SENTENCE:  shortness of breath , each episode lasting approximately 10
+              NN     IN   NN      DT    NN      VBG        RB         
+           |=================|                                        
+                 Finding                                              
+                C0013404                                              
+
+SENTENCE:  minutes.
+             NNS   
+
+SENTENCE:     EKG    on admission revealed  sinus   tachycardia with a  new
+              NN     IN    NN       VBD       NN        NN       IN  DT JJ 
+           |=======|                       |======| |=========|            
+           Procedure                       Anatomy    Finding              
+           C1623258                        C0030471  C0039231              
+                                           |==================|            
+                                                 Disorder                  
+                                                 C0039239                  
+
+SENTENCE:  incomplete left bundle-branch  block   and downsloping 1-1.5 mm ST 
+               JJ      JJ    NN     NN      NN    CC      NN            NN NNP
+                                         |======|                             
+                                         Finding                              
+                                         C0028778                             
+                           |====================|                             
+                                  Disorder                                    
+                                  C0006384                                    
+                      |=========================|                             
+                               Disorder                                       
+                               C0023211                                       
+
+SENTENCE:  depressions in V3 through V6  and 1 mm depression in aVL.
+               NNS     IN NN   IN    NNP CC    NN     NN     IN NN  
+                                                  |========|        
+                                                   Disorder         
+                                                   C0011581         
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient was deemed to have a  NSTEMI and unstable  angina .
+             NN    VBD  VBN   TO  VB  DT   NN   CC     JJ       NN    
+                                                    |======| |======| 
+                                                    Finding  Finding  
+                                                    C0443343 C0002962 
+                                                    |===============| 
+                                                        Disorder      
+                                                        C0002965      
+
+SENTENCE:  He  was
+           PRP VBD
+
+SENTENCE:  not heparinized due to the fact that he  was on Coumadin for
+           RB      VBN     IN  IN DT   NN   IN  PRP VBD IN   NNP     . 
+                                                           |======|    
+                                                             Drug      
+                                                           C0699129    
+
+SENTENCE:  peripheral vascular disease  with a  therapeutic    INR   .
+               JJ        JJ       NN     IN  DT     JJ         NN     
+                      |======| |======|         |=========| |=======| 
+                      Anatomy  Disorder          Procedure  Procedure 
+                      C0005847 C0012634          C0087111   C0525032  
+                      |===============|                               
+                          Disorder                                    
+                          C0042373                                    
+           |==========================|                               
+                     Disorder                                         
+                     C0085096                                         
+
+SENTENCE:  On 11/26/06 , the patient
+           IN            DT    NN   
+
+SENTENCE:  underwent cardiac  catheterization , which revealed the following:
+              VBD       JJ          NN           WDT    VBD    DT     NN     
+                     |======| |=============|                                
+                     Anatomy     Procedure                                   
+                     C0018787    C0007430                                    
+
+SENTENCE:  Left
+            JJ 
+
+SENTENCE:  circumflex coronary  artery  with an ostial 100% stenosis , left
+               JJ        JJ       NN     IN  DT   JJ           NN       JJ 
+                      |======| |======|                     |======|       
+                      Anatomy  Anatomy                      Finding        
+                      C0018787 C0003842                     C1261287       
+                      |===============|                                    
+                           Anatomy                                         
+                          C0205042                                         
+           |==========================|                                    
+                     Anatomy                                               
+                     C0226037                                              
+
+SENTENCE:  anterior descending coronary  artery  with a  proximal 60% stenosis
+              JJ        JJ        JJ       NN     IN  DT    JJ           NN   
+           |======|            |======| |======|                      |======|
+           Disorder            Anatomy  Anatomy                       Finding 
+           C0751437            C0018787 C0003842                      C1261287
+                               |===============|                              
+                                    Anatomy                                   
+                                   C0205042                                   
+           |===================================|                              
+                          Anatomy                                             
+                         C0226032                                             
+
+SENTENCE:  and a  mid 50% stenosis , right coronary  artery  with a  proximal 80%
+           CC  DT JJ         NN       JJ      JJ       NN     IN  DT    JJ       
+                          |======|         |======| |======|                     
+                          Finding          Anatomy  Anatomy                      
+                          C1261287         C0018787 C0003842                     
+                                           |===============|                     
+                                                Anatomy                          
+                                               C0205042                          
+                                     |=====================|                     
+                                             Anatomy                             
+                                            C1261316                             
+
+SENTENCE:  stenosis and a  mid 60% stenosis , right dominant circulation ,
+              NN    CC  DT JJ         NN       JJ      JJ        NN       
+           |======|                |======|                               
+           Finding                 Finding                                
+           C1261287                C1261287                               
+
+SENTENCE:  ejection fraction of 30% , collateral flow from the second
+              NN       NN    IN           JJ      NN   IN  DT    JJ  
+           |======|                   |========|                     
+           Finding                     Anatomy                       
+           C0336969                    C1275670                      
+
+SENTENCE:  diagonal to the third marginal in the right posterior left
+              JJ    IN DT   JJ      JJ    IN DT   JJ      JJ      JJ 
+                                                       |=======|     
+                                                       Disorder      
+                                                       C0751438      
+
+SENTENCE:  ventricular branch to the second marginal , left ventricular
+               JJ        NN   IN DT    JJ      NN       JJ      JJ     
+           |=========|                                      |=========|
+             Anatomy                                          Anatomy  
+            C0018827                                         C0018827  
+
+SENTENCE:  hypokinesis ,  severe  inferior and apical.
+               NN           JJ       JJ    CC    JJ   
+           |=========|   |======|                     
+             Finding     Finding                      
+            C0086439     C1519275                     
+
+SENTENCE:  PAST MEDICAL AND SURGICAL HISTORY :
+            JJ    JJ    CC     JJ       NN    
+                                     |======| 
+                                     Finding  
+                                     C0262926 
+
+SENTENCE:  Significant for myocardial infarction with a  peak CK of 87 ,
+               JJ      IN      JJ         NN      IN  DT  NN  NN IN     
+                                      |========|                        
+                                       Finding                          
+                                       C0021308                         
+                           |===================|                        
+                                 Disorder                               
+                                 C0027051                               
+
+SENTENCE:  troponin 0.48 , history  of class IV  angina  with inability to  carry  
+              NN              NN    IN  NN   NN    NN     IN     NN     IN    NN   
+           |======|        |======|             |======|                   |======|
+             Drug          Finding              Finding                    Finding 
+           C0041199        C0262926             C0002962                   C0699809
+
+SENTENCE:  on any physical activity , history  of class II  heart   failure with
+           IN DT     JJ       NN         NN    IN  NN   CD    NN      NN     .  
+                           |======|   |======|             |======|             
+                           Finding    Finding              Anatomy              
+                           C0026606   C0262926             C0018787             
+                  |===============|                        |==============|     
+                       Finding                                 Disorder         
+                      C0015259                                 C0018801         
+
+SENTENCE:  slight limitation of physical activity , congestive  heart   failure ,
+             JJ       NN     IN    JJ       NN          JJ        NN      NN     
+                                         |======|              |======|          
+                                         Finding               Anatomy           
+                                         C0026606              C0018787          
+                                |===============|              |==============|  
+                                     Finding                       Disorder      
+                                    C0015259                       C0018801      
+
+SENTENCE:  paroxysmal nocturnal dyspnea  , dyspnea  on exertion , hypertension ,
+               JJ        JJ        NN         NN    IN    NN           NN       
+                                |======|   |======|    |======|   |==========|  
+                                Finding    Finding     Finding      Disorder    
+                                C0013404   C0013404    C0015264     C0020538    
+                      |================|   |==================|                 
+                           Finding               Finding                        
+                           C0344357              C0231807                       
+           |===========================|                                        
+                     Disorder                                                   
+                     C1956415                                                   
+
+SENTENCE:  peripheral vascular disease  , status post bilateral fem-  pop     bypass  
+               JJ        JJ       NN        NN    IN     JJ     NN     NN       NN    
+                      |======| |======|                             |======| |=======|
+                      Anatomy  Disorder                             Anatomy  Procedure
+                      C0005847 C0012634                             C0175314 C0741847 
+                      |===============|                                               
+                          Disorder                                                    
+                          C0042373                                                    
+           |==========================|                                               
+                     Disorder                                                         
+                     C0085096                                                         
+
+SENTENCE:  and status post bilateral transmetatarsal amputations ,
+           CC    NN    IN     JJ           JJ            NNS      
+                                                     |=========|  
+                                                      Procedure   
+                                                      C0002688    
+
+SENTENCE:  non-insulin-dependent diabetes mellitus , dyslipidemia , history  of
+               JJ         JJ        NN       NN           NN           NN    IN
+                                 |======|            |==========|   |======|   
+                                 Disorder              Disorder     Finding    
+                                 C0011849              C0242339     C0262926   
+           |============================|                                      
+                      Disorder                                                 
+                      C0011860                                                 
+
+SENTENCE:  gastrointestinal bleeding , anxiety  disorder , eosinophilia ,
+                  JJ           NN         NN       NN           NN       
+                            |======|   |======| |======|   |==========|  
+                            Finding    Disorder Disorder     Finding     
+                            C0019080   C0003467 C0012634     C2240374    
+           |=======================|                                     
+                    Finding                                              
+                   C0017181                                              
+
+SENTENCE:  chronic back   pain   ,  anemia .
+             JJ     NN     NN         NN    
+                        |======|   |======| 
+                        Finding    Disorder 
+                        C0030193   C0002871 
+                   |===========|            
+                      Finding               
+                     C0004604               
+           |===================|            
+                  Finding                   
+                 C0740418                   
+
+SENTENCE:  ALLERGIES:
+              NNS    
+           |=======| 
+            Finding  
+           C0020517  
+
+SENTENCE:  The patient has no known   drug   allergies.
+           DT    NN    VBZ DT  JJ      NN       NNS    
+                                    |======| |=======| 
+                                      Drug    Finding  
+                                    C0013227 C0020517  
+                                    |================| 
+                                         Disorder      
+                                         C0013182      
+
+SENTENCE:  MEDICATIONS AT TIME OF ADMISSION:
+               NNS     IN  NN  IN    NN     
+           |=========|                      
+              Drug                          
+            C0013227                        
+
+SENTENCE:  Lopressor 37.5 mg  b.i.d. , aspirin  325 mg  daily ,  Colace  100 mg 
+              NNP         NNS   FW        NN        NNS  RB       NNP        NNS
+           |=======|                   |======|                 |======|        
+             Drug                        Drug                     Drug          
+           C0700776                    C0004057                 C0282139        
+
+SENTENCE:  b.i.d. ,  Pepcid  20 mg  IV q .12h. , insulin  sliding scale ,
+             FW       NNP       NNS CD FW   FW      NN      VBG    NN    
+                    |======|                     |======|                
+                      Drug                         Drug                  
+                    C0678119                     C0021641                
+
+SENTENCE:  atorvastatin 80 mg  daily , glipizide , Avandia  , Zestril  , metformin ,
+                NN         NNS  RB        NN         NNP        NNP         NN      
+           |==========|                |=======|   |======|   |======|   |=======|  
+               Drug                      Drug        Drug       Drug       Drug     
+             C0286651                  C0017642    C0875967   C0678140   C0025598   
+
+SENTENCE:  meclizine , lactulose , vitamin  C  , Protonix , Niaspan  , Neurontin ,
+              NN          JJ          NN    NN     NNP         NN         NNP     
+           |=======|   |=======|   |======|      |======|   |======|   |=======|  
+             Drug        Drug        Drug          Drug       Drug       Drug     
+           C0025039    C0022957    C0042890      C0876139   C1161310   C0678176   
+                                   |=========|                                    
+                                      Drug                                        
+                                    C0003968                                      
+
+SENTENCE:  Zincate  , Coumadin for peripheral vascular disease .
+              NN        NNP    IN      JJ        JJ       NN    
+           |======|   |======|                |======| |======| 
+             Drug       Drug                  Anatomy  Disorder 
+           C0724488   C0699129                C0005847 C0012634 
+                                              |===============| 
+                                                  Disorder      
+                                                  C0042373      
+                                   |==========================| 
+                                             Disorder           
+                                             C0085096           
+
+SENTENCE:  PHYSICAL EXAMINATION:
+              JJ        NN      
+
+SENTENCE:  Cardiac  exam:
+              JJ     NN  
+           |======|      
+           Anatomy       
+           C0018787      
+
+SENTENCE:  Regular rate and rhythm with no murmurs  , lifts or
+             JJ     NN  CC    NN    IN  DT   NNS       NNS  CC
+                                           |======|           
+                                           Finding            
+                                           C0018808           
+
+SENTENCE:  heaves.
+            NNS   
+
+SENTENCE:  Peripheral vascular 2+ pulses bilaterally in the
+               JJ        JJ        NNS       RB      IN CD 
+                      |======|                             
+                      Anatomy                              
+                      C0005847                             
+
+SENTENCE:  carotid , radial , femoral  pulses and 1+ bilaterally in the
+             NN        JJ        JJ     NNS   CC         RB      IN CD 
+                              |======|                                 
+                              Anatomy                                  
+                              C0015811                                 
+                              |=============|                          
+                                  Finding                              
+                                 C0232148                              
+
+SENTENCE:  dorsalis pedis and posterior tibialis pulses.
+              NN     NN   CC     JJ        NN     NNS   
+                              |=======|                 
+                              Disorder                  
+                              C0751438                  
+                              |================|        
+                                   Anatomy              
+                                   C0224463             
+
+SENTENCE:  Respiratory:
+               NN      
+
+SENTENCE:  Breath sounds clear bilaterally.
+             NN    NNS    JJ       RB      
+
+SENTENCE:  Allen's   test    of the left
+            NNP       NN     IN DT   JJ 
+                   |=======|            
+                   Procedure            
+                   C0022885             
+                   |=======|            
+                    Finding             
+                   C0456984             
+           |===============|            
+               Procedure                
+               C0231664                 
+
+SENTENCE:  upper extremity , abnormal intermittent waveform with radial
+            JJ      NN          JJ         JJ         NN     IN    JJ  
+                 |=======|                                             
+                  Anatomy                                              
+                 C0015385                                              
+           |=============|                                             
+               Anatomy                                                 
+              C1140618                                                 
+
+SENTENCE:  occluded using a  pulse oximeter , right upper extremity
+              JJ     VBG  DT  NN      NN       JJ    JJ      NN    
+           |======|                                       |=======|
+           Finding                                         Anatomy 
+           C0028778                                       C0015385 
+                                                    |=============|
+                                                        Anatomy    
+                                                       C1140618    
+                                              |===================|
+                                                     Anatomy       
+                                                    C0230329       
+
+SENTENCE:  abnormal poor intermittent wave form with the radial occluded ,
+              JJ     JJ       JJ       NN   NN   IN  DT    JJ      JJ     
+                                                                |======|  
+                                                                Finding   
+                                                                C0028778  
+
+SENTENCE:  also with a  pulse oximeter.
+            RB   IN  DT  NN      NN    
+
+SENTENCE:  Physical exam otherwise is 
+              JJ     NN     RB     VBZ
+
+SENTENCE:  noncontributory.
+                 JJ        
+
+SENTENCE:  ADMISSION   LABS  :
+              NN       NNS    
+                     |======| 
+                     Finding  
+                     C0587081 
+
+SENTENCE:   Sodium  128 , potassium 4.2 , chloride of 99 ,   CO2    21 ,    BUN    of 23 ,
+              NN             NN              NN    IN         NN            NN     IN     
+           |======|       |=======|       |======|         |======|      |=======|        
+             Drug           Drug            Drug             Drug          Drug           
+           C0037473       C0032821        C0596019         C0007012      C0600137         
+                                                                         |=======|        
+                                                                         Procedure        
+                                                                         C0005845         
+
+SENTENCE:  creatinine 1.1 , glucose  of 201 , magnesium 1.7 ,   WBC    5.81 ,
+               NN              NN    IN          NN             NNP          
+           |========|       |======|          |=======|       |======|       
+              Drug            Drug              Drug          Anatomy        
+            C0010294        C0017725          C0024467        C0023516       
+
+SENTENCE:  hematocrit 28.6 , hemoglobin 10.2 , platelets of 132 , PT of 18.2 ,
+               NN                NN               NNS    IN       NN IN       
+           |========|        |========|        |=======|                      
+           Procedure            Drug            Anatomy                       
+            C0018935          C0019046         C0005821                       
+
+SENTENCE:  PT/   INR    1.5 ,    PTT    of 33.7.
+           NN    NN              NN     IN      
+              |=======|       |=======|         
+              Procedure       Procedure         
+              C0525032        C0030605          
+
+SENTENCE:  HOSPITAL COURSE:
+              NN      NN   
+
+SENTENCE:  Mr. Jana was brought to the operating room on 3/26/06 where he 
+           NNP NNP  VBD   VBN   IN DT     NN      NN  IN           ,   PRP
+
+SENTENCE:  underwent a  coronary  artery   bypass    graft   x3 with left internal
+              VBD    DT    JJ       NN       NN        NN    NN  IN   JJ     JJ   
+                        |======| |======| |=======| |======|                      
+                        Anatomy  Anatomy  Procedure Anatomy                       
+                        C0018787 C0003842 C0741847  C0332835                      
+                        |===============| |================|                      
+                             Anatomy          Procedure                           
+                            C0205042           C0185098                           
+                                 |=========================|                      
+                                          Procedure                               
+                                          C0189695                                
+                        |=========================|                               
+                                 Procedure                                        
+                                 C0010055                                         
+
+SENTENCE:  mammary   artery  to left anterior descending coronary  artery  , a 
+              JJ       NN    IN  JJ     JJ        JJ        JJ       NN      CD
+           |======| |======|         |======|            |======| |======|     
+           Anatomy  Anatomy          Disorder            Anatomy  Anatomy      
+           C0006141 C0003842         C0751437            C0018787 C0003842     
+                                                         |===============|     
+                                                              Anatomy          
+                                                             C0205042          
+                                     |===================================|     
+                                                    Anatomy                    
+                                                   C0226032                    
+
+SENTENCE:  sequential  graft   and a    vein    graft   connecting from the  aorta   to
+               JJ        NN    CC  DT    NN       NN       VBG      IN  DT     NN    TO
+                      |======|        |======| |======|                     |======|   
+                      Anatomy         Anatomy  Anatomy                      Anatomy    
+                      C0332835        C0042449 C0332835                     C0003483   
+
+SENTENCE:  the second obtuse marginal coronary  artery  and then to the left
+           DT    JJ     NN      JJ       JJ       NN    CC   RB  IN DT   JJ 
+                                      |======| |======|                     
+                                      Anatomy  Anatomy                      
+                                      C0018787 C0003842                     
+                                      |===============|                     
+                                           Anatomy                          
+                                          C0205042                          
+
+SENTENCE:  ventricular branch.
+               JJ        NN   
+           |=========|        
+             Anatomy          
+            C0018827          
+
+SENTENCE:  Total  bypass   time was 55 minutes , total
+            JJ      NN      NN  VBD      NNS      JJ  
+                 |=======|                            
+                 Procedure                            
+                 C0741847                             
+
+SENTENCE:  crossclamp time was 46 minutes.
+               NN      NN  VBD      NNS   
+
+SENTENCE:  The patient did well
+           DT    NN    VBD  RB 
+
+SENTENCE:  intraoperatively , came off  bypass   without incident , was brought
+                  RB          VBD  RB     NN       IN       NN      VBD   VBN  
+                                       |=======|                               
+                                       Procedure                               
+                                       C0741847                                
+
+SENTENCE:  to the Intensive Care Unit in  normal   sinus   rhythm and in stable
+           IN DT     JJ      NN   NN  IN    JJ       NN      NN   CC  IN   JJ  
+                                         |======| |======|                     
+                                         Finding  Anatomy                      
+                                         C0231683 C0030471                     
+                                         C0558145                              
+                                                  |=============|              
+                                                      Finding                  
+                                                     C0232201                  
+                                         |======================|              
+                                                 Finding                       
+                                                 C0232202                      
+
+SENTENCE:  condition.
+              NN     
+           |=======| 
+           Disorder  
+           C0012634  
+
+SENTENCE:  Postoperatively , the patient did well.
+                 RB          DT    NN    VBD  RB  
+
+SENTENCE:  His  CK - MB 
+           PRP$ NNP NNP 
+                |======|
+                  Drug  
+                C0010290
+
+SENTENCE:  trended down and    EKG    normalized.
+             VBN    RB  CC     NN        VBN     
+                            |=======|            
+                            Procedure            
+                            C1623258             
+
+SENTENCE:  The patient's postop  chest     x-ray  
+           DT    NN        JJ      NN       NN    
+                                |======| |=======|
+                                Anatomy  Procedure
+                                C0817096 C1306645 
+                                         C1962945 
+                                |================|
+                                    Procedure     
+                                     C0039985     
+
+SENTENCE:  revealed moderate-to- severe  pulmonary  venous  congestion bibasally
+             VBD       JJ    IN    JJ       JJ        JJ        NN        RB    
+                                |======| |=======| |======| |========|          
+                                Finding   Anatomy  Anatomy   Finding            
+                                C1519275 C0024109  C0042449  C0700148           
+                                                   |=================|          
+                                                         Finding                
+                                                        C0042484                
+                                         |===========================|          
+                                                    Finding                     
+                                                   C0582411                     
+
+SENTENCE:  requiring vigorous pulmonary  toilet  .
+              VBG       JJ       JJ        NN     
+                              |=======| |=======| 
+                               Anatomy  Procedure 
+                              C0024109  C0184958  
+
+SENTENCE:  The patient was extubated on
+           DT    NN    VBD    VBN    IN
+
+SENTENCE:  1/5/06.
+                  
+
+SENTENCE:  The patient was also followed by the Diabetes Mellitus
+           DT    NN    VBD  RB    VBN    IN DT     NN       NN   
+                                                |======|         
+                                                Disorder         
+                                                C0011849         
+
+SENTENCE:  Service  for his  non-insulin-dependent diabetes mellitus.
+              NN    IN  PRP$     NN         JJ        NN       NN    
+           |======|                                |======|          
+           Finding                                 Disorder          
+           C0557854                                C0011849          
+                             |============================|          
+                                        Disorder                     
+                                        C0011860                     
+
+SENTENCE:  His 
+           PRP$
+
+SENTENCE:   blood   glucoses were well controlled.
+              NN      NNS    VBD   RB     VBN     
+           |======| |======|                      
+           Anatomy    Drug                        
+           C0005767 C0017725                      
+
+SENTENCE:  He  was started back on his 
+           PRP VBD   VBN    RB  IN PRP$
+
+SENTENCE:    oral   medication of glipizide 5 mg  and was covered with a  NovoLog 
+              JJ        NN     IN    NN       NNS CC  VBD   VBN    IN  DT   NNP   
+           |======| |========|    |=======|                               |======|
+           Anatomy     Drug         Drug                                    Drug  
+           C0226896  C0013227     C0017642                                C0939412
+           |======|                                                               
+             Drug                                                                 
+           C1272919                                                               
+
+SENTENCE:  sliding scale.
+             VBG    NN   
+
+SENTENCE:  The patient was transfused 3 units of  packed     red   
+           DT    NN    VBD    VBN        NNS  IN    JJ        JJ   
+                                                 |=======| |======|
+                                                 Procedure Finding 
+                                                 C0184967  C0332575
+
+SENTENCE:   blood    cells   postoperatively , and was re-started on Coumadin for his 
+              NN      NNS          RB          CC  VBD    VBN     IN   NNP    IN  PRP$
+           |======| |======|                                         |======|         
+           Anatomy  Anatomy                                            Drug           
+           C0005767 C0007634                                         C0699129         
+           |===============|                                                          
+                Anatomy                                                               
+               C0005773                                                               
+
+SENTENCE:  peripheral vascular disease .
+               JJ        JJ       NN    
+                      |======| |======| 
+                      Anatomy  Disorder 
+                      C0005847 C0012634 
+                      |===============| 
+                          Disorder      
+                          C0042373      
+           |==========================| 
+                     Disorder           
+                     C0085096           
+
+SENTENCE:  The patient's platelet count
+           DT    NN         NN     NN  
+                         |======|      
+                         Anatomy       
+                         C0005821      
+                         |============|
+                           Procedure   
+                            C0032181   
+
+SENTENCE:  dropped to as low as 59 , 000.
+             VBD   IN IN JJ  IN          
+
+SENTENCE:  He  had a    HIT    panel sent off which
+           PRP VBD DT    NN     NN    NN  IN   WDT 
+                      |======|                     
+                      Disorder                     
+                      C0272285                     
+
+SENTENCE:  came back negative and platelets trended up at time of discharge
+           VBD   RB     JJ    CC     NNS      VBN   IN IN  NN  IN    NN    
+                                  |=======|                                
+                                   Anatomy                                 
+                                  C0005821                                 
+
+SENTENCE:  to 143 , 000.
+           IN           
+
+SENTENCE:  Mr. Gier was transferred to the Step-Down Unit on
+           NNP NNP  VBD     VBN     IN DT  NNP  NNP  NNP  . 
+
+SENTENCE:  postoperative day #3.
+                JJ       NN     
+
+SENTENCE:  His  pacing wires were removed , and he  was
+           PRP$   NN    NNS  VBD    VBN     CC  PRP VBD
+
+SENTENCE:  screened for rehabilitation for discharge.
+             VBN    IN        NN       IN     NN     
+                        |============|               
+                          Procedure                  
+                           C0034991                  
+
+SENTENCE:  The patient also had
+           DT    NN     RB  VBN
+
+SENTENCE:  some urinary retention postoperatively and did require Foley
+            DT    JJ       NN           RB        CC  VBD   VB     NNP 
+                |===============|                                      
+                     Finding                                           
+                    C0080274                                           
+
+SENTENCE:  reinsertion and was started on  Flomax  0.4 mg  once a  day.
+               NN      CC  VBD   VBN   IN   NNP        NNS  RB  DT NN  
+           |=========|                    |======|                     
+            Procedure                       Drug                       
+            C0035139                      C0662903                     
+
+SENTENCE:  He 
+           PRP
+
+SENTENCE:  failed a  second voiding  trial and will be discharged with a    leg   
+            VBD   DT   JJ      NN     NN   CC   MD  VB    VBN      IN  DT    NN   
+                            |======|                                      |======|
+                            Finding                                       Anatomy 
+                            C0042034                                      C1140621
+
+SENTENCE:  bag and follow up in the Urology Clinic in one week and continue
+           NN  CC    VB   RP IN DT    NN      NN   IN CD   NN  CC     NN   
+
+SENTENCE:  on his   Flomax  until that time.
+           IN PRP$   NNP     IN    DT   NN  
+                   |======|                 
+                     Drug                   
+                   C0662903                 
+
+SENTENCE:  DISCHARGE   LABS  :
+              NN       NNS    
+                     |======| 
+                     Finding  
+                     C0587081 
+
+SENTENCE:  The discharge   labs   for Mr. Howlingwolf were as follows:
+           DT     NN       NNS    IN  NNP     NN      VBD  IN   VBZ   
+                         |======|                                     
+                         Finding                                      
+                         C0587081                                     
+
+SENTENCE:  Glucose  of
+              NN    : 
+           |======|   
+             Drug     
+           C0017725   
+
+SENTENCE:  150 ,    BUN    of 39 , creatinine 1.2 ,  sodium  138 , potassium 3.6 ,
+                    NN     IN          NN              NN             NN          
+                 |=======|         |========|       |======|       |=======|      
+                 Procedure            Drug            Drug           Drug         
+                 C0005845           C0010294        C0037473       C0032821       
+                 |=======|                                                        
+                   Drug                                                           
+                 C0600137                                                         
+
+SENTENCE:  chloride 103 ,   CO2    23 , magnesium 1.9 ,   WBC    8.6 , hemoglobin 11 ,
+              NN             NN            NN             NNP              NN         
+           |======|       |======|      |=======|       |======|       |========|     
+             Drug           Drug          Drug          Anatomy           Drug        
+           C0596019       C0007012      C0024467        C0023516        C0019046      
+
+SENTENCE:  hematocrit 31.4 , platelets of 143 , PT of 17.1 , PT/   INR    of 1.4.
+               NN               NNS    IN       NN IN        NN    NN     IN     
+           |========|        |=======|                          |=======|        
+           Procedure          Anatomy                           Procedure        
+            C0018935         C0005821                           C0525032         
+
+SENTENCE:  Urinalysis from 6/2/06 was negative.
+               NN      IN         VBD    JJ    
+           |========|                          
+           Procedure                           
+            C0042014                           
+
+SENTENCE:  Urine  culture  is  no
+            NN      NN     VBZ UH
+                 |=======|       
+                 Procedure       
+                 C2242979        
+           |=============|       
+              Procedure          
+              C0430404           
+
+SENTENCE:  growth so far at time of discharge.
+             NN   RB RB  IN  NN  IN    NN     
+
+SENTENCE:  DISCHARGE MEDICATIONS:
+              NN         NNS     
+                     |=========| 
+                        Drug     
+                      C0013227   
+
+SENTENCE:  Enteric-coated aspirin  81 mg  QD ,  Colace  100 mg  b . i . d .
+             NNP    VBN      NN       NNS FW     NNP        NNS LS NNS VBN 
+                          |======|             |======|                    
+                            Drug                 Drug                      
+                          C0004057             C0282139                    
+
+SENTENCE:  while taking Dilaudid ,  Lasix   40 mg  QD x3 doses , glipizide 5 mg 
+            IN    VBG     NNP        NNP       NNS FW NN  NNS       NN       NNS
+                        |======|   |======|                      |=======|      
+                          Drug       Drug                          Drug         
+                        C0728755   C0699992                      C0017642       
+
+SENTENCE:  daily , Dilaudid 2-4 mg  every three hours p.r.n.   pain   , lisinopril
+            RB       NNP        NNS  DT    CD    NNS    FW      NN          NN    
+                   |======|                                  |======|   |========|
+                     Drug                                    Finding       Drug   
+                   C0728755                                  C0030193    C0065374 
+
+SENTENCE:  2.5 mg  daily , Niferex  150 mg  b.i.d. ,  Toprol -XL  150 mg  QD ,
+               NNS  RB       NNP        NNS   FW       NNP    NNP     NNS FW  
+                           |======|                  |======|                 
+                             Drug                      Drug                   
+                           C0212019                  C2723006                 
+                           |==========|              |==========|             
+                               Drug                      Drug                 
+                             C0212018                  C0723783               
+
+SENTENCE:  Lipitor  80 mg  daily ,  Flomax  0.4 mg  QD , potassium chloride slow
+             NNP       NNS  RB       NNP        NNS FW      NN        NN     JJ 
+           |======|                |======|              |=======| |======|     
+             Drug                    Drug                  Drug      Drug       
+           C0593906                C0662903              C0032821  C0596019     
+                                                         |================|     
+                                                                Drug            
+                                                              C0032825          
+
+SENTENCE:   release  10 mEq QD x3 doses with  Lasix   and Coumadin QD per    INR    result.
+              NN        NNS FW NN  NNS   IN    NNP    CC    NNP    FW IN     NN       NN   
+           |=======|                         |======|     |======|        |=======|        
+           Procedure                           Drug         Drug          Procedure        
+           C1963578                          C0699992     C0699129        C0525032         
+
+SENTENCE:  The
+           EX 
+
+SENTENCE:  patient will receive 4 mg  of Coumadin this evening for his 
+             NN     MD    VB      NNS IN   NNP     DT    NN    IN  PRP$
+                                         |======|                      
+                                           Drug                        
+                                         C0699129                      
+
+SENTENCE:  peripheral vascular disease .
+               JJ        JJ       NN    
+                      |======| |======| 
+                      Anatomy  Disorder 
+                      C0005847 C0012634 
+                      |===============| 
+                          Disorder      
+                          C0042373      
+           |==========================| 
+                     Disorder           
+                     C0085096           
+
+SENTENCE:  His  Coumadin dosing will be
+           PRP$   NNP      NN    MD  VB
+                |======|               
+                  Drug                 
+                C0699129               
+
+SENTENCE:  followed by Dr. Kurt Goodwill at ( 644 ) 227-4267.
+             VBN    IN NNP NNP    NNP    IN            CD    
+
+SENTENCE:  FOLLOW-UP PLANS:
+             NN   NN  NNS  
+           |=======|       
+            Finding        
+           C0589120        
+
+SENTENCE:  He  will follow up with Dr. Bert Levering in six weeks , his 
+           PRP  MD    VB   RP  IN  NNP NNP    NNP    IN CD   NNS    PRP$
+
+SENTENCE:  cardiologist Dr. Reuben Duttinger in one week , his   heart   failure
+                NN      NNP  NNP      NNP    IN CD   NN    PRP$    NN      NN   
+                                                                |======|        
+                                                                Anatomy         
+                                                                C0018787        
+                                                                |==============|
+                                                                    Disorder    
+                                                                    C0018801    
+
+SENTENCE:  cardiologist Dr. Wilton Durkee on 2/6/06 at 1:30 in the 
+                NN      NNP  NNP    NNP   IN        IN      IN HYPH
+
+SENTENCE:  afternoon , and Urology Clinic at the Centsson Medical Center
+              NN       CC    NN      NN   IN DT    NNP      NNP    NNP  
+
+SENTENCE:  for his  urinary retention in one week.
+           IN  PRP$   JJ       NN     IN CD   NN  
+                    |===============|             
+                         Finding                  
+                        C0080274                  
+
+SENTENCE:  Clinic number ( 429 ) 408-6176.
+             JJ     NN              CD    
+
+SENTENCE:  DISPOSITION:
+               NN      
+
+SENTENCE:  Mr. Fagin is  discharged to   rehab   in stable condition.
+           NNP  NN   VBZ    VBN     IN    NN     IN   JJ      NN     
+                                       |=======|           |=======| 
+                                       Procedure           Disorder  
+                                       C0034991            C0012634  
+
+SENTENCE:  eScription document:
+               NN        NN    
+
+SENTENCE:  2-1529941 EMSSten   Tel   
+                       NN       NN   
+                             |======|
+                             Anatomy 
+                             C0039452
+
+SENTENCE:  Dictated By:
+             VBN    IN 
+
+SENTENCE:  ARROWOOD , TIM
+              NN      NN 
+
+SENTENCE:  Attending:
+              NN     
+
+SENTENCE:  ARRANTS , CLIFTON
+             NNS       NN   
+
+SENTENCE:  Dictation ID 9727509
+              NN     NN        
+
+SENTENCE:  D : 11/19/06
+           NN          
+
+SENTENCE:  T : 11/19/06
+           NN          
+
