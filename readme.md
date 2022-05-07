@@ -1,13 +1,18 @@
 # Learning Patient Representations from Text
 
-This repository is the official implementation of [Learning Patient Representations from Text](https://arxiv.org/abs/1805.02096). 
-[Original paper's repository.](https://github.com/dmitriydligach/starsem2018-patient-representations)
+This repository is the official implementation of [Learning Patient Representations from Text](https://arxiv.org/abs/1805.02096).
+
+[Original paper's repository](https://github.com/dmitriydligach/starsem2018-patient-representations).
 
 ## Requirements/Data Download
 
-* Include libraries TODO
+* Include libraries:
+
+** Deep learning: keras, gensim, sklearn
+** Others: codecs, numpy, configparser, os, nltk, pandas, sys, glob, string, collections, operator, pickle, xml
+
 * Obtain access to [MIMIC III](https://physionet.org/content/mimiciii/1.4/) and [i2b2 Obesity Challenge](https://www.i2b2.org/NLP/Obesity/Main.php) datasets.
-* Install Apache cTAKES following the instructions on [this page.](https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+User+Install+Guide#cTAKES4.0UserInstallGuide-InstallcTAKES).
+* Install Apache cTAKES following the instructions on [this page](https://cwiki.apache.org/confluence/display/CTAKES/cTAKES+4.0+User+Install+Guide#cTAKES4.0UserInstallGuide-InstallcTAKES).
 * Create [UMLS](https://uts.nlm.nih.gov/uts/signup-login?_gl=1*1tk5kri*_ga*ODQ0MDU0MjY1LjE2NDYzNjEyNDE.*_ga_7147EPK006*MTY1MTExNzYwNC4yLjEuMTY1MTExNzYwOC4w*_ga_P1FPTH9PL4*MTY1MTExNzYwNC4yLjEuMTY1MTExNzYwOC4w) account and obtain your userdid and key for running cTAKES.
 
 ## Preprocessing
@@ -80,11 +85,10 @@ Pre-trained models are uploaded to the Codes/Model directory:
 
 * w2v.h5 - Word2Vec pretrained CUIs embeddings model.
 * model.h5 - billing code prediction model.
-* TODO svd model
 
 ## Results
 
-Our model achieves the following performance on Precision, Recall and F1 scores when compared with the original paper results
+Our model achieves the following performance on Precision, Recall and F1 scores when compared with the original paper results:
 
 |                     Disease                 | Sparse |       |       | SVD (300   dimensions) |       |       | SVD (1000   dimensions) |       |       | Learned, random   CUIs |       |       | Learned,   word2vec initialized |       |          |
 |:-------------------------------------------:|:------:|:-----:|:-----:|:----------------------:|:-----:|:-----:|:-----------------------:|:-----:|:-----:|:----------------------:|:-----:|:-----:|:-------------------------------:|:-----:|:--------:|
@@ -95,4 +99,4 @@ Our model achieves the following performance on Precision, Recall and F1 scores 
 
 ## Contributing
 
-Please contribute to the [original repository](https://github.com/dmitriydligach/starsem2018-patient-representations)
+Please contribute to the [original repository](https://github.com/dmitriydligach/starsem2018-patient-representations).
