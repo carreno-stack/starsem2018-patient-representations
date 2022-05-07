@@ -56,8 +56,6 @@ class DatasetProvider:
       file_path = os.path.join(self.corpus_path, f)
       file_feat_list = utils.read_cuis(file_path)
       token_counts.update(file_feat_list)
-      
-    #print("token counts: "+ str(token_counts))
 
     # now make alphabet (high freq tokens first)
     index = 1
@@ -94,9 +92,7 @@ class DatasetProvider:
       file_feat_list = utils.read_cuis(file_path)
 
       example = []
-      # TODO: use unique tokens or not?
       for token in set(file_feat_list):
-        #print(self.token2int)
         if token in self.token2int:
           example.append(self.token2int[token])
         else:
@@ -105,7 +101,7 @@ class DatasetProvider:
       if len(example) > maxlen:
         example = example[0:maxlen]
 
-      # no labels for some documents for some reason
+      # no labels found for some documents
       if doc_id in doc2label:
         string_label = doc2label[doc_id]
         int_label = LABEL2INT[string_label]
@@ -140,7 +136,6 @@ class DatasetProvider:
 
 
       example = []
-      # TODO: use unique tokens or not?
       for token in set(file_feat_list):
 
         if token in self.token2int:
@@ -151,7 +146,7 @@ class DatasetProvider:
       if len(example) > maxlen:
         example = example[0:maxlen]
       
-      # no labels for some documents for some reason
+      # no labels found for some documents
       if doc_id in doc2labels:
         label_vector = doc2labels[doc_id]
         labels.append(label_vector)
@@ -178,18 +173,19 @@ class DatasetProvider:
       self.judgement)
 
     for f in os.listdir(self.corpus_path):
-      doc_id = f.split('.')[0]
-      file_path = os.path.join(self.corpus_path, f)
-      file_feat_list = utils.read_cuis(file_path)
+      if not f.startswith('.'):
+        doc_id = f.split('.')[0]
+        file_path = os.path.join(self.corpus_path, f)
+        file_feat_list = utils.read_cuis(file_path)
 
-      # no labels for some documents for some reason
-      if doc_id in doc2label:
-        string_label = doc2label[doc_id]
-        int_label = LABEL2INT[string_label]
-        labels.append(int_label)
-        examples.append(' '.join(file_feat_list))
-      else:
-        no_labels.append(doc_id)
+        # no labels found for some documents
+        if doc_id in doc2label:
+          string_label = doc2label[doc_id]
+          int_label = LABEL2INT[string_label]
+          labels.append(int_label)
+          examples.append(' '.join(file_feat_list))
+        else:
+          no_labels.append(doc_id)
 
     print ('%d documents with no labels for %s/%s in %s' \
       % (len(no_labels), self.disease,
@@ -199,10 +195,6 @@ class DatasetProvider:
 if __name__ == "__main__":
 
   cfg = configparser.ConfigParser()
-  #test_cfg = os.path.dirname(sys.path[0]) + '/Comorbidity/sparse.cfg'
-  #cfg.read_file(open(test_cfg))
-  
-  #base = os.environ['DATA_ROOT']
   base = os.path.dirname(sys.path[0])
   base_conf = sys.path[0]
 

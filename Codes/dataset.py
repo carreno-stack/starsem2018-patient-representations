@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-
+import codecs
 import numpy
-import ConfigParser, os, nltk, pandas, sys
+import configparser as ConfigParser, os, nltk, pandas, sys
 sys.dont_write_bytecode = True
 import glob, string, collections, operator, pickle
 
@@ -37,11 +37,11 @@ class DatasetProvider:
 
     # making token alphabet is expensive so do it once
     if not os.path.isfile(ALPHABET_PICKLE):
-      print 'making alphabet and dumping it to file...'
+      #print ('making alphabet and dumping it to file...')
       self.make_and_write_token_alphabet()
-    print 'retrieving alphabet from file...'
+    #print ('retrieving alphabet from file...')
     self.token2int = pickle.load(open(ALPHABET_PICKLE, 'rb'))
-    print 'mapping codes...'
+    #print ('mapping codes...')
     diag_code_file = os.path.join(self.code_dir, DIAG_ICD9_FILE)
     proc_code_file = os.path.join(self.code_dir, PROC_ICD9_FILE)
     cpt_code_file = os.path.join(self.code_dir, CPT_CODE_FILE)
@@ -55,6 +55,7 @@ class DatasetProvider:
 
     infile = os.path.join(self.corpus_path, file_name)
     text = open(infile).read().lower()
+    #print ("token text", text)
 
     tokens = [] # file as a list of tokens
     for token in text.split():
@@ -70,7 +71,8 @@ class DatasetProvider:
     """Return file as a list of CUIs"""
 
     infile = os.path.join(self.corpus_path, file_name)
-    text = open(infile).read() # no lowercasing!
+    text = open(infile, encoding='ascii').read() # no lowercasing!
+    #print ("cuis text", text)
     tokens = [token for token in text.split()]
     if len(tokens) > self.max_tokens_in_file:
       return None
@@ -91,6 +93,7 @@ class DatasetProvider:
       if file_ngram_list == None:
         continue
       token_counts.update(file_ngram_list)
+    print ("token count", token_counts)
 
     # now make alphabet
     # and save it in a file for debugging
@@ -102,6 +105,7 @@ class DatasetProvider:
       if count > self.min_token_freq:
         self.token2int[token] = index
         index = index + 1
+    print ("index min toke", len(self.token2int))
 
     # pickle alphabet
     pickle_file = open(ALPHABET_PICKLE, 'wb')
@@ -114,13 +118,14 @@ class DatasetProvider:
                             num_digits):
     """Map subjects to codes"""
 
-    frame = pandas.read_csv(code_file)
+    frame = pandas.read_csv(code_file, low_memory=False)
 
     for subj_id, code in zip(frame.SUBJECT_ID, frame[code_col]):
       if subj_id not in self.subj2codes:
         self.subj2codes[subj_id] = set()
       short_code = '%s_%s' % (prefix, str(code)[0:num_digits])
       self.subj2codes[subj_id].add(short_code)
+    ##print (self.subj2codes)
 
   def make_code_alphabet(self):
     """Map codes to integers"""
@@ -139,6 +144,7 @@ class DatasetProvider:
       if count > self.min_examples_per_code:
         self.code2int[code] = index
         index = index + 1
+    print ("index min_examples", len(self.code2int))
 
   def load(self,
            maxlen=float('inf'),
@@ -160,7 +166,7 @@ class DatasetProvider:
       # make code vector for this example
       subj_id = int(file.split('.')[0])
       if len(self.subj2codes[subj_id]) == 0:
-        print 'skipping file:', file
+        #print ('skipping file:', file)
         continue # no codes for this file
 
       code_vec = [0] * len(self.code2int)
@@ -200,7 +206,6 @@ if __name__ == "__main__":
   base = os.environ['DATA_ROOT']
   train_dir = os.path.join(base, cfg.get('data', 'train'))
   code_file = os.path.join(base, cfg.get('data', 'codes'))
-
   dataset = DatasetProvider(
     train_dir,
     code_file,
@@ -208,3 +213,5 @@ if __name__ == "__main__":
     cfg.getint('args', 'max_tokens_in_file'),
     cfg.getint('args', 'min_examples_per_code'))
   x, y = dataset.load()
+  print (len(x),len(y))
+  #print (x, y)

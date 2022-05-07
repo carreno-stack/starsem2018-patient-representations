@@ -4,6 +4,7 @@ import os, os.path
 def read_cuis(file_path, ignore_negation=False):
   """Return a file as a list of CUIs"""
 
+  #print(file_path)
   text = open(file_path).read()
 
   if ignore_negation:
