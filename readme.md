@@ -9,6 +9,7 @@ This repository is the official implementation of [Learning Patient Representati
 * Include libraries:
 
 ** Deep learning: keras, gensim, sklearn
+
 ** Others: codecs, numpy, configparser, os, nltk, pandas, sys, glob, string, collections, operator, pickle, xml
 
 * Obtain access to [MIMIC III](https://physionet.org/content/mimiciii/1.4/) and [i2b2 Obesity Challenge](https://www.i2b2.org/NLP/Obesity/Main.php) datasets.
